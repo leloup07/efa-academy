@@ -82,13 +82,15 @@ if st.session_state.test_activo:
             st.markdown(f"### {i+1}. {pregunta}")
 
             if user == correcta:
-                st.success(f"✅ Correcta — {correcta}. {opciones[correcta]}")
+                letras = ["A","B","C","D"]
+                letra = letras[int(correcta)]
+                st.success(f"✅ Correcta — {letra}. {opciones[letra]}")
                 score += 1
             else:
                 st.error(
                     f"❌ Incorrecta\n\n"
                     f"- Tu respuesta: {user}. {opciones.get(user, '')}\n"
-                    f"- Correcta: {correcta}. {opciones[correcta]}"
+                    letras = ["A","B","C","D"]; letra_correcta = letras[int(correcta)]; f"✔ Correcta: {letra_correcta}. {opciones[letra_correcta]}"
                 )
 
         st.divider()
