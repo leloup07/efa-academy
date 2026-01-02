@@ -72,15 +72,31 @@ if st.session_state.finalizado:
     st.success(f"Resultado: {st.session_state.score} / {total}")
 
     st.divider()
-    st.header("📊 Corrección")
-    for i, p in enumerate(st.session_state.preguntas):
-        pregunta, a, b, c, d, correcta = p
-        opciones = {"A": a, "B": b, "C": c, "D": d}
-        marcada = st.session_state.respuestas.get(i)
-        st.write(f"**{i+1}. {pregunta}**")
-        st.write(f"✔ Correcta: {correcta}. {opciones[correcta]}")
-        if marcada != correcta:
-            st.error(f"✖ Tu respuesta: {marcada}. {opciones[marcada]}")
-        else:
-            st.success("✔ Acertada")
-        st.write("---")
+
+    st.divider()
+    st.header("📊 Corrección detallada")
+
+    with st.container():
+        for i, p in enumerate(st.session_state.preguntas):
+            (
+                pregunta,
+                a, b, c, d,
+                correcta,
+                explicacion
+            ) = p
+
+            opciones = {"A": a, "B": b, "C": c, "D": d}
+            marcada = st.session_state.respuestas.get(i)
+
+            st.markdown(f"**{i+1}. {pregunta}**")
+
+            if marcada == correcta:
+                st.success(f"✔ Correcta: {correcta}. {opciones[correcta]}")
+            else:
+                st.error(
+                    f"❌ Tu respuesta: {marcada}. {opciones.get(marcada, '')}\n\n"
+                    f"✔ Correcta: {correcta}. {opciones[correcta]}"
+                )
+
+            st.info(f"💡 Explicación: {explicacion}")
+            st.markdown("---")
