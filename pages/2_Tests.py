@@ -62,7 +62,8 @@ if st.session_state.test_activo:
         )
 
 
-    if st.button("Finalizar test"):
+    if st.button("Finalizar test") and not st.session_state.finalizado:
+    st.session_state.finalizado = Truen
         score = 0
 
         st.divider()
