@@ -44,7 +44,7 @@ if "q" in st.session_state:
 
     opcion = st.radio(
         "Elige una opción:",
-        ["A
+# SYNTAX_FIX         ["A
 cat > pages/2_Tests.py << 'EOF'
 import streamlit as st
 import psycopg2
