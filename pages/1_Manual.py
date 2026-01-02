@@ -1,18 +1,19 @@
 import streamlit as st
 from pathlib import Path
 
+st.set_page_config(page_title="Manual EFA", layout="wide")
+
 st.title("📘 Manual EFA")
 
-BASE = Path(".")
+MANUALES_DIR = Path("data/manuales")
 
-manuals = sorted([
-    p for p in BASE.glob("*.md")
-    if not p.name.startswith("tests_")
-])
+manuales = sorted(MANUALES_DIR.glob("*.md"))
 
-if not manuals:
-    st.warning("No se han encontrado manuales.")
+if not manuales:
+    st.warning("No hay manuales disponibles.")
 else:
-    for md in manuals:
-        with st.expander(md.name.replace("_", " ").replace(".md", "").title()):
-            st.markdown(md.read_text(), unsafe_allow_html=True)
+    nombres = {m.stem.replace("_", " ").title(): m for m in manuales}
+    seleccion = st.sidebar.radio("Selecciona un tema", list(nombres.keys()))
+
+    contenido = nombres[seleccion].read_text(encoding="utf-8")
+    st.markdown(contenido)
