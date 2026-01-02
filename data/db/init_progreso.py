@@ -1,3 +1,4 @@
+print("🚀 init_progreso() ejecutándose en runtime")
 import psycopg2, os
 
 def init_progreso():
@@ -12,5 +13,5 @@ def init_progreso():
     );
     """)
     conn.commit()
-    conn.close()
+    print("✅ Tabla progreso_tema OK")\n    conn.close()
     print("✅ Tabla progreso_tema OK")
