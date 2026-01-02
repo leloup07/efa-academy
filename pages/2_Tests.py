@@ -61,11 +61,36 @@ if st.session_state.test_activo:
             key=f"q_{i}"
         )
 
+
     if st.button("Finalizar test"):
         score = 0
-        for i, p in enumerate(st.session_state.preguntas):
-            if st.session_state.respuestas.get(i) == p[5]:
-                score += 1
 
-        st.success(f"Resultado final: {score} / {len(st.session_state.preguntas)}")
+        st.divider()
+        st.subheader("📊 Corrección del test")
+
+        for i, p in enumerate(st.session_state.preguntas):
+            pregunta, a, b, c, d, correcta = p
+            user = st.session_state.respuestas.get(i)
+
+            opciones = {
+                "A": a,
+                "B": b,
+                "C": c,
+                "D": d,
+            }
+
+            st.markdown(f"### {i+1}. {pregunta}")
+
+            if user == correcta:
+                st.success(f"✅ Correcta — {correcta}. {opciones[correcta]}")
+                score += 1
+            else:
+                st.error(
+                    f"❌ Incorrecta\n\n"
+                    f"- Tu respuesta: {user}. {opciones.get(user, '')}\n"
+                    f"- Correcta: {correcta}. {opciones[correcta]}"
+                )
+
+        st.divider()
+        st.success(f"🎯 Resultado final: {score} / {len(st.session_state.preguntas)}")
         st.session_state.test_activo = False
