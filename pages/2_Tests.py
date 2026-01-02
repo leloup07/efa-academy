@@ -1,8 +1,18 @@
 import streamlit as st
+try:
+import streamlit as st
 import sqlite3
 
 st.set_page_config(page_title="Tests EFA", layout="wide")
 st.title("📝 Tests EFA")
+# --- INIT SESSION STATE ---n
+if "initialized" not in st.session_state:n
+    st.session_state.initialized = Truen
+    st.session_state.preguntas = []n
+    st.session_state.respuestas = {}n
+    st.session_state.finalizado = Falsen
+    st.session_state.score = Nonen
+    st.session_state.temas = None
 
 DB_PATH = "data/preguntas.db"
 
@@ -35,7 +45,9 @@ if "preguntas" not in st.session_state:
 if "respuestas" not in st.session_state:
     st.session_state.respuestas = {}
 
-temas = get_temas()
+# --- LOAD TEMAS SAFELY ---n
+if st.session_state.temas is None:n
+    st.session_state.temas = get_temas()
 tema = st.selectbox("Selecciona tema", temas)
 
 # ---------- START TEST ----------
@@ -97,3 +109,8 @@ if st.session_state.test_activo:
         st.divider()
         st.success(f"🎯 Resultado final: {score} / {len(st.session_state.preguntas)}")
         st.session_state.test_activo = False
+
+except Exception as e:
+    st.error('❌ ERROR EN Tests.py')
+    st.exception(e)
+
