@@ -1,109 +1,60 @@
 import streamlit as st
-import psycopg2
-import os
-from urllib.parse import urlparse
-import random
+import sqlite3
 
 st.set_page_config(page_title="Tests EFA", layout="wide")
+
 st.title("📝 Tests EFA")
 
-@st.cache_resource
+DB_PATH = "data/preguntas.db"
+
 def get_connection():
-    url = urlparse(os.environ["DATABASE_URL"])
-    return psycopg2.connect(
-        dbname=url.path[1:],
-        user=url.username,
-        password=url.password,
-        host=url.hostname,
-        port=url.port,
-        sslmode="require"
-    )
+    return sqlite3.connect(DB_PATH)
 
-conn = get_connection()
-cur = conn.cursor()
+def get_temas():
+    with get_connection() as conn:
+        cur = conn.cursor()
+        cur.execute("SELECT DISTINCT tema FROM preguntas ORDER BY tema")
+        return [r[0] for r in cur.fetchall()]
 
-cur.execute("SELECT DISTINCT tema FROM preguntas ORDER BY tema")
-temas = [r[0] for r in cur.fetchall()]
+def get_preguntas(tema, limit=10):
+    with get_connection() as conn:
+        cur = conn.cursor()
+        cur.execute("""
+            SELECT pregunta, opcion_a, opcion_b, opcion_c, opcion_d, correcta
+            FROM preguntas
+            WHERE tema = ?
+            ORDER BY RANDOM()
+            LIMIT ?
+        """, (tema, limit))
+        return cur.fetchall()
 
-tema = st.selectbox("📚 Selecciona tema", temas)
+temas = get_temas()
 
-if st.button("🎯 Nueva pregunta"):
-    cur.execute(
-        "SELECT pregunta, opcion_a, opcion_b, opcion_c, opcion_d, correcta, explicacion "
-        "FROM preguntas WHERE tema=%s ORDER BY RANDOM() LIMIT 1",
-        (tema,)
-    )
-    q = cur.fetchone()
-    if q:
-        st.session_state.q = q
-        st.session_state.respondido = False
+if not temas:
+    st.warning("No hay preguntas cargadas todavía.")
+    st.stop()
 
-if "q" in st.session_state:
-    pregunta, a, b, c, d, correcta, explicacion = st.session_state.q
-    st.subheader(pregunta)
+tema = st.selectbox("Selecciona tema", temas)
 
-    opcion = st.radio(
-        "Elige una opción:",
-# SYNTAX_FIX         ["A
-cat > pages/2_Tests.py << 'EOF'
-import streamlit as st
-import psycopg2
-import os
-from urllib.parse import urlparse
-import random
+if st.button("Empezar test"):
+    preguntas = get_preguntas(tema)
 
-st.set_page_config(page_title="Tests EFA", layout="wide")
-st.title("📝 Tests EFA")
+    score = 0
+    for i, p in enumerate(preguntas, 1):
+        st.markdown(f"### {i}. {p[0]}")
+        opciones = {
+            "A": p[1],
+            "B": p[2],
+            "C": p[3],
+            "D": p[4],
+        }
+        respuesta = st.radio(
+            "Elige una opción",
+            opciones.keys(),
+            format_func=lambda x: f"{x}. {opciones[x]}",
+            key=f"q_{i}"
+        )
+        if respuesta == p[5]:
+            score += 1
 
-@st.cache_resource
-def get_connection():
-    url = urlparse(os.environ["DATABASE_URL"])
-    return psycopg2.connect(
-        dbname=url.path[1:],
-        user=url.username,
-        password=url.password,
-        host=url.hostname,
-        port=url.port,
-        sslmode="require"
-    )
-
-conn = get_connection()
-cur = conn.cursor()
-
-cur.execute("SELECT DISTINCT tema FROM preguntas ORDER BY tema")
-temas = [r[0] for r in cur.fetchall()]
-
-tema = st.selectbox("📚 Selecciona tema", temas)
-
-if st.button("🎯 Nueva pregunta"):
-    cur.execute(
-        "SELECT pregunta, opcion_a, opcion_b, opcion_c, opcion_d, correcta, explicacion "
-        "FROM preguntas WHERE tema=%s ORDER BY RANDOM() LIMIT 1",
-        (tema,)
-    )
-    q = cur.fetchone()
-    if q:
-        st.session_state.q = q
-        st.session_state.respondido = False
-
-if "q" in st.session_state:
-    pregunta, a, b, c, d, correcta, explicacion = st.session_state.q
-    st.subheader(pregunta)
-
-    opcion = st.radio(
-        "Elige una opción:",
-        ["A", "B", "C", "D"],
-        format_func=lambda x: {
-            "A": a, "B": b, "C": c, "D": d
-        }[x]
-    )
-
-    if st.button("✅ Responder"):
-        st.session_state.respondido = True
-        if opcion == correcta:
-            st.success("✔ Correcto")
-        else:
-            st.error(f"✘ Incorrecto. Correcta: {correcta}")
-        st.info(explicacion)
-
-cur.close()
+    st.success(f"Resultado: {score} / {len(preguntas)}")
