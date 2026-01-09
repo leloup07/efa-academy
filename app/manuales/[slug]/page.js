@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { getManualBySlug, getAllManuales } from '@/lib/manuales'
 import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import { notFound } from 'next/navigation'
 
 export async function generateStaticParams() {
@@ -33,7 +34,7 @@ export default function ManualPage({ params }) {
       <article className="max-w-4xl mx-auto px-4 py-8">
         <div className="bg-slate-800/50 rounded-xl p-8 border border-slate-700">
           <div className="markdown-content prose prose-invert max-w-none">
-            <ReactMarkdown>{manual.content}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{manual.content}</ReactMarkdown>
           </div>
         </div>
       </article>
