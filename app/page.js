@@ -2,10 +2,10 @@ import Link from 'next/link'
 
 export default function Home() {
   const stats = [
-    { number: '17', label: 'Módulos Ampliados', sublabel: 'EIP + EFA Nivel II' },
-    { number: '300', label: 'Preguntas de Práctica', sublabel: '17 módulos (EIP + EFA)' },
-    { number: '50', label: 'Preguntas Oficiales UPV', sublabel: 'Simulacro real' },
-    { number: '2', label: 'Casos Prácticos EFPA', sublabel: 'Ejercicios oficiales' },
+    { number: '10', label: 'Módulos Completos', sublabel: 'N.I (EIP) + N.II (EFA)' },
+    { number: '780', label: 'Preguntas de Práctica', sublabel: 'Con explicaciones' },
+    { number: '6', label: 'Simulacros de Examen', sublabel: '50 preguntas / 90 min' },
+    { number: '6', label: 'Casos Prácticos', sublabel: '30 preguntas aplicadas' },
   ]
 
   const sections = [
@@ -14,28 +14,28 @@ export default function Home() {
       description: 'Contenido ampliado de 15-30 páginas por módulo. Incluye teoría completa, ejemplos prácticos, casos de estudio y preguntas de autoevaluación.',
       icon: '📚',
       href: '/manuales',
-      features: ['9 módulos EIP Nivel I', '8 módulos EFA Nivel II', 'Formato Markdown navegable'],
+      features: ['10 módulos completos', 'Nivel I y Nivel II integrados', 'Formato Markdown navegable'],
     },
     {
       title: 'Tests de Práctica',
-      description: 'Practica por módulos específicos (EIP Nivel I y EFA Nivel II) con explicaciones detalladas de cada respuesta.',
+      description: '780 preguntas organizadas por módulo con indicador de nivel (N.I o N.II) y explicaciones detalladas.',
       icon: '📝',
       href: '/tests',
-      features: ['17 módulos organizados por nivel', 'Explicaciones completas', 'Corrección instantánea'],
+      features: ['780 preguntas con explicaciones', '10 módulos temáticos', 'Corrección instantánea'],
     },
     {
-      title: 'Simulacro Oficial',
-      description: 'Examen completo con cronómetro de 90 minutos. Preguntas oficiales de convocatorias anteriores.',
+      title: 'Simulacros de Examen',
+      description: '6 simulacros completos con cronómetro de 90 minutos y penalización de 0.25 por error.',
       icon: '🎯',
-      href: '/simulacro',
-      features: ['50 preguntas oficiales', 'Cronómetro de 90 min', 'Evaluación final'],
+      href: '/tests',
+      features: ['6 simulacros × 50 preguntas', 'Cronómetro de 90 min', 'Nota con penalización'],
     },
     {
       title: 'Casos Prácticos',
-      description: 'Resuelve casos prácticos oficiales con soluciones paso a paso. Incluye análisis de inversiones, fiscalidad y planificación.',
+      description: '6 supuestos prácticos con datos reales: jubilación, carteras, fiscalidad, hipotecas, seguros y reestructuración.',
       icon: '📊',
-      href: '/casos',
-      features: ['2 ejercicios oficiales', 'Soluciones detalladas', 'Metodología EFPA'],
+      href: '/tests',
+      features: ['6 casos × 5 preguntas', 'Supuestos realistas', 'Metodología EFPA'],
     },
   ]
 
