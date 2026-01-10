@@ -1,0 +1,608 @@
+{
+  "titulo": "Simulacro EFA #5 - 50 Preguntas",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "El comprador de una opción call tiene:",
+      "opciones": [
+        "La obligación de comprar el activo",
+        "El derecho a comprar el activo al precio de ejercicio",
+        "La obligación de vender el activo",
+        "El derecho a vender el activo"
+      ],
+      "correcta": 1,
+      "explicacion": "El comprador de una call tiene el derecho (no la obligación) a comprar el activo subyacente al precio de ejercicio (strike) en o antes del vencimiento. Pagó una prima por ese derecho.",
+      "id": 1
+    },
+    {
+      "pregunta": "El sistema TARGET2 se utiliza para:",
+      "opciones": [
+        "Liquidar operaciones de valores",
+        "Procesar pagos de alto valor en tiempo real entre bancos de la zona euro",
+        "Calcular el Euribor",
+        "Supervisar a las entidades financieras"
+      ],
+      "correcta": 1,
+      "explicacion": "TARGET2 (Trans-European Automated Real-time Gross Settlement Express Transfer) es el sistema de pagos del Eurosistema para liquidar pagos de alto valor en tiempo real en euros entre bancos centrales y comerciales.",
+      "id": 2
+    },
+    {
+      "pregunta": "El alfa de Jensen mide:",
+      "opciones": [
+        "El riesgo de mercado del fondo",
+        "El exceso de rentabilidad respecto al CAPM (rentabilidad ajustada por riesgo)",
+        "La comisión de éxito",
+        "El tracking error"
+      ],
+      "correcta": 1,
+      "explicacion": "Alfa de Jensen = R_fondo - [Rf + β × (R_mercado - Rf)]. Es el exceso de rentabilidad sobre lo que predice el CAPM. Un alfa positivo indica que el gestor añade valor.",
+      "id": 3
+    },
+    {
+      "pregunta": "La vivienda habitual en el Impuesto sobre el Patrimonio tiene:",
+      "opciones": [
+        "Una exención de hasta 300.000€",
+        "No hay exención específica",
+        "Exención total",
+        "Bonificación del 50%"
+      ],
+      "correcta": 0,
+      "explicacion": "La vivienda habitual del contribuyente está exenta en el IP hasta 300.000€ de valor. El exceso sí tributa.",
+      "id": 4
+    },
+    {
+      "pregunta": "El Free Cash Flow to Equity (FCFE) representa:",
+      "opciones": [
+        "El beneficio neto de la empresa",
+        "El flujo de caja disponible para los accionistas después de inversiones y deuda",
+        "Los dividendos pagados",
+        "El cash flow operativo"
+      ],
+      "correcta": 1,
+      "explicacion": "* FCFE = Cash flow operativo - CAPEX - Variación capital circulante + Nuevas emisiones de deuda - Amortización de deuda Es el flujo disponible para retribuir a los accionistas (dividendos o recompras).",
+      "id": 5
+    },
+    {
+      "pregunta": "El órgano de control interno en materia de prevención de blanqueo es:",
+      "opciones": [
+        "El director comercial",
+        "El Representante ante el SEPBLAC y el Comité de Prevención",
+        "El auditor externo",
+        "El Banco de España"
+      ],
+      "correcta": 1,
+      "explicacion": "Los sujetos obligados deben designar un Representante ante el SEPBLAC y crear un Órgano de Control Interno (OCI) o Comité de Prevención que supervise las políticas y procedimientos.",
+      "id": 6
+    },
+    {
+      "pregunta": "Los intereses de cuentas y depósitos tributan como:",
+      "opciones": [
+        "Rendimientos del trabajo",
+        "Rendimientos del capital mobiliario en la base del ahorro",
+        "Ganancias patrimoniales",
+        "Están exentos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los intereses de cuentas corrientes, depósitos a plazo y similares son rendimientos del capital mobiliario que se integran en la base del ahorro, tributando al 19-28%.",
+      "id": 7
+    },
+    {
+      "pregunta": "Los objetivos financieros deben ser:",
+      "opciones": [
+        "Vagos y generales",
+        "Específicos, medibles, alcanzables, relevantes y con plazo (SMART)",
+        "Solo a largo plazo",
+        "Secretos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los objetivos SMART (Specific, Measurable, Achievable, Relevant, Time-bound) son más efectivos: \"ahorrar 50.000€ para la entrada de un piso en 5 años\" vs \"ahorrar para una casa algún día\".",
+      "id": 8
+    },
+    {
+      "pregunta": "El nivel EFP (European Financial Planner) se diferencia del EFA en:",
+      "opciones": [
+        "Son iguales",
+        "EFP incluye competencias avanzadas en planificación financiera personal y patrimonial",
+        "EFP es más básico",
+        "EFP solo es para fiscalistas"
+      ],
+      "correcta": 1,
+      "explicacion": "EFP es el nivel superior que añade al EFA competencias en planificación financiera integral: planificación de la jubilación, sucesoria, fiscal avanzada, y elaboración de planes financieros completos.",
+      "id": 9
+    },
+    {
+      "pregunta": "La liquidez de un fondo de inversión tradicional (UCITS) debe ser:",
+      "opciones": [
+        "Mensual",
+        "Al menos quincenal",
+        "Diaria en la mayoría de casos",
+        "Anual"
+      ],
+      "correcta": 2,
+      "explicacion": "Los fondos UCITS deben ofrecer liquidez frecuente, normalmente diaria. La normativa exige reembolso al menos quincenal, pero la práctica de mercado es diaria.",
+      "id": 10
+    },
+    {
+      "pregunta": "El valor liquidativo de un fondo de inversión se calcula:",
+      "opciones": [
+        "Una vez al mes",
+        "Diariamente, dividiendo el patrimonio entre el número de participaciones",
+        "Al vencimiento del fondo",
+        "Cuando lo solicita el partícipe"
+      ],
+      "correcta": 1,
+      "explicacion": "El valor liquidativo (VL) se calcula diariamente: VL = Patrimonio neto del fondo / Número de participaciones en circulación. Es el precio de suscripción y reembolso.",
+      "id": 11
+    },
+    {
+      "pregunta": "En un seguro de vida, la provisión matemática representa:",
+      "opciones": [
+        "La prima pagada",
+        "El valor actuarial de las obligaciones de la aseguradora menos las del tomador",
+        "El beneficio de la aseguradora",
+        "Los gastos de gestión"
+      ],
+      "correcta": 1,
+      "explicacion": "La provisión matemática es la diferencia entre el valor actual actuarial de las obligaciones futuras de la aseguradora y las primas futuras que pagará el tomador. Es el \"ahorro acumulado\" en el seguro.",
+      "id": 12
+    },
+    {
+      "pregunta": "El derecho de suscripción preferente sirve para:",
+      "opciones": [
+        "Obtener dividendos extra",
+        "Proteger al accionista de la dilución en ampliaciones",
+        "Votar en la junta de accionistas",
+        "Vender las acciones a mejor precio"
+      ],
+      "correcta": 1,
+      "explicacion": "El derecho de suscripción preferente permite a los accionistas existentes suscribir acciones nuevas en proporción a su participación, evitando la dilución de su porcentaje de propiedad.",
+      "id": 13
+    },
+    {
+      "pregunta": "Un país presenta los siguientes datos: crecimiento del PIB del -0,3% en T1 y -0,5% en T2. Técnicamente esto se denomina:",
+      "opciones": [
+        "Depresión",
+        "Recesión técnica",
+        "Estanflación",
+        "Desaceleración"
+      ],
+      "correcta": 1,
+      "explicacion": "Una recesión técnica se define como dos trimestres consecutivos de crecimiento negativo del PIB. En este caso, T1 (-0,3%) y T2 (-0,5%) cumplen esta definición.",
+      "id": 14
+    },
+    {
+      "pregunta": "¿Cuál es el valor actual de una renta perpetua de 1.000€ anuales al 5%?",
+      "opciones": [
+        "5.000€",
+        "10.000€",
+        "20.000€",
+        "50.000€"
+      ],
+      "correcta": 2,
+      "explicacion": "* VA renta perpetua = C/i = 1.000/0,05 = 20.000€",
+      "id": 15
+    },
+    {
+      "pregunta": "Un inversor conservador típicamente tiene:",
+      "opciones": [
+        "Alta tolerancia al riesgo",
+        "Mayor proporción de renta fija y activos de bajo riesgo",
+        "100% renta variable",
+        "Preferencia por activos ilíquidos"
+      ],
+      "correcta": 1,
+      "explicacion": "El perfil conservador implica baja tolerancia al riesgo, preferencia por preservación de capital, y típicamente mayor peso en renta fija, monetarios y activos estables.",
+      "id": 16
+    },
+    {
+      "pregunta": "La TRE (Tasa de Rentabilidad Efectiva) difiere de la TIR cuando:",
+      "opciones": [
+        "La inversión es a corto plazo",
+        "Los flujos intermedios se reinvierten a un tipo diferente a la TIR",
+        "Hay inflación",
+        "El tipo de interés es variable"
+      ],
+      "correcta": 1,
+      "explicacion": "La TRE considera la tasa real a la que se reinvierten los flujos intermedios, mientras que la TIR asume implícitamente que se reinvierten a la propia TIR. Si la tasa de reinversión difiere de la TIR, la TRE será diferente.",
+      "id": 17
+    },
+    {
+      "pregunta": "Si la covarianza entre dos activos es 0,0024 y sus desviaciones típicas son 8% y 12%, ¿cuál es el coeficiente de correlación?",
+      "opciones": [
+        "0,15",
+        "0,25",
+        "0,50",
+        "0,75"
+      ],
+      "correcta": 1,
+      "explicacion": "* ρ = Cov(A,B) / (σA × σB) ρ = 0,0024 / (0,08 × 0,12) ρ = 0,0024 / 0,0096 = 0,25",
+      "id": 18
+    },
+    {
+      "pregunta": "La designación de beneficiario en un seguro de vida es:",
+      "opciones": [
+        "Irrevocable siempre",
+        "Revocable por el tomador, salvo aceptación expresa del beneficiario",
+        "Fijada por la aseguradora",
+        "Imposible de cambiar"
+      ],
+      "correcta": 1,
+      "explicacion": "El tomador puede cambiar el beneficiario libremente mientras viva, salvo que el beneficiario haya aceptado expresamente su designación, lo que la hace irrevocable.",
+      "id": 19
+    },
+    {
+      "pregunta": "Las listas de iniciados deben:",
+      "opciones": [
+        "No existir",
+        "Mantenerse y actualizarse, identificando personas con acceso a información privilegiada",
+        "Publicarse",
+        "Solo incluir directivos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los emisores y quienes actúen por su cuenta deben mantener listas de personas con acceso a información privilegiada, actualizarlas, y conservarlas 5 años. Deben facilitar estas listas al supervisor si lo solicita.",
+      "id": 20
+    },
+    {
+      "pregunta": "El IBI (Impuesto sobre Bienes Inmuebles) es:",
+      "opciones": [
+        "Un impuesto estatal",
+        "Un impuesto municipal anual sobre la propiedad inmobiliaria",
+        "Solo para locales comerciales",
+        "Deducible en IRPF para vivienda habitual"
+      ],
+      "correcta": 1,
+      "explicacion": "El IBI es un tributo municipal que grava la titularidad de bienes inmuebles. Se paga anualmente, calculado sobre el valor catastral.",
+      "id": 21
+    },
+    {
+      "pregunta": "Si EUR/USD pasa de 1,10 a 1,15, el euro se ha:",
+      "opciones": [
+        "Depreciado un 4,55%",
+        "Apreciado un 4,55%",
+        "Depreciado un 5%",
+        "Apreciado un 5%"
+      ],
+      "correcta": 1,
+      "explicacion": "* Variación = (1,15 - 1,10) / 1,10 = 0,0455 = 4,55% El euro se ha apreciado (ahora compra más dólares).",
+      "id": 22
+    },
+    {
+      "pregunta": "La rentabilidad ponderada por dinero (MWR o IRR) es relevante para:",
+      "opciones": [
+        "Evaluar al gestor independientemente de flujos",
+        "Medir la rentabilidad real obtenida por el inversor considerando sus flujos",
+        "Calcular el ratio de Sharpe",
+        "Determinar la beta"
+      ],
+      "correcta": 1,
+      "explicacion": "MWR (Money-Weighted Return) o TIR considera el timing y magnitud de los flujos del inversor. Es la rentabilidad real experimentada por ese inversor específico.",
+      "id": 23
+    },
+    {
+      "pregunta": "Una cartera con volatilidad anual del 20% y valor de 1 millón €. El VaR diario al 95% (aproximadamente 1,65σ) es:",
+      "opciones": [
+        "Aprox. 20.000€",
+        "Aprox. 330.000€",
+        "Aprox. 2.000€",
+        "Aprox. 165.000€"
+      ],
+      "correcta": 0,
+      "explicacion": "* σ diaria ≈ σ anual / √252 = 20% / 15,87 ≈ 1,26% VaR diario 95% = 1,65 × 1,26% × 1.000.000€ ≈ 1,65 × 12.600€ ≈ 20.790€ ≈ 20.000€",
+      "id": 24
+    },
+    {
+      "pregunta": "La inflación durante la jubilación:",
+      "opciones": [
+        "No afecta a los jubilados",
+        "Erosiona el poder adquisitivo de los ahorros y rentas fijas",
+        "Beneficia siempre a los jubilados",
+        "Es irrelevante para la planificación"
+      ],
+      "correcta": 1,
+      "explicacion": "La inflación reduce el poder de compra. Un jubilado con renta fija de 2.000€ verá su capacidad adquisitiva disminuir año tras año si la inflación supera la revalorización.",
+      "id": 25
+    },
+    {
+      "pregunta": "La comunicación de costes ex-ante al cliente debe realizarse:",
+      "opciones": [
+        "Después de contratar",
+        "Antes de contratar, detallando todos los costes del servicio y del producto",
+        "Solo si el cliente pregunta",
+        "Una vez al año"
+      ],
+      "correcta": 1,
+      "explicacion": "MiFID II exige informar de TODOS los costes (servicio + producto) ANTES de la contratación, expresados en euros y porcentaje, para que el cliente pueda valorar su impacto en la rentabilidad.",
+      "id": 26
+    },
+    {
+      "pregunta": "Un fondo ESG o sostenible:",
+      "opciones": [
+        "Solo invierte en energías renovables",
+        "Integra criterios ambientales, sociales y de gobernanza en su proceso de inversión",
+        "Garantiza rentabilidad superior",
+        "Está exento de impuestos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos ESG integran criterios medioambientales, sociales y de gobierno corporativo en el análisis y selección de inversiones, pudiendo excluir sectores, seleccionar mejores prácticas o buscar impacto.",
+      "id": 27
+    },
+    {
+      "pregunta": "¿Qué teoría de la ETTI sostiene que los tipos forward son estimadores insesgados de los tipos spot futuros?",
+      "opciones": [
+        "Teoría de la segmentación",
+        "Teoría de las expectativas puras",
+        "Teoría de la preferencia por la liquidez",
+        "Teoría del hábitat preferido"
+      ],
+      "correcta": 1,
+      "explicacion": "La teoría de las expectativas puras sostiene que los tipos forward implícitos en la curva son estimadores insesgados de los tipos spot futuros esperados. No considera primas por plazo ni preferencias de los inversores.",
+      "id": 28
+    },
+    {
+      "pregunta": "El sistema público de pensiones en España se basa en:",
+      "opciones": [
+        "Capitalización individual",
+        "Reparto (las cotizaciones actuales financian las pensiones actuales)",
+        "Cuentas nocionales",
+        "Inversión en bolsa"
+      ],
+      "correcta": 1,
+      "explicacion": "El sistema español es de reparto: los trabajadores activos financian con sus cotizaciones las pensiones de los jubilados actuales. No hay acumulación individual de fondos.",
+      "id": 29
+    },
+    {
+      "pregunta": "La aportación de inmuebles a una sociedad:",
+      "opciones": [
+        "No tiene efectos fiscales",
+        "Puede generar ganancia patrimonial en el aportante (diferencia entre valor de aportación y coste de adquisición)",
+        "Está prohibida",
+        "Siempre está exenta"
+      ],
+      "correcta": 1,
+      "explicacion": "Aportar un inmueble a una sociedad genera ganancia patrimonial si el valor de aportación supera el de adquisición. Hay regímenes de diferimiento (canje de valores, aportaciones no dinerarias) si se cumplen requisitos.",
+      "id": 30
+    },
+    {
+      "pregunta": "Una cartera con 30 acciones bien diversificadas tendrá principalmente:",
+      "opciones": [
+        "Riesgo específico",
+        "Riesgo sistemático",
+        "Riesgo cero",
+        "Riesgo de crédito"
+      ],
+      "correcta": 1,
+      "explicacion": "Con una cartera bien diversificada de 30 acciones, el riesgo específico (diversificable) se reduce sustancialmente. El riesgo remanente es principalmente sistemático (de mercado).",
+      "id": 31
+    },
+    {
+      "pregunta": "Un \"scrip dividend\" permite al accionista:",
+      "opciones": [
+        "Cobrar solo en efectivo",
+        "Elegir entre cobrar en efectivo o recibir acciones",
+        "Diferir el pago del dividendo",
+        "Reinvertir automáticamente sin opción"
+      ],
+      "correcta": 1,
+      "explicacion": "El scrip dividend es una fórmula que permite al accionista elegir entre recibir el dividendo en efectivo o en forma de nuevas acciones de la compañía. Tiene implicaciones fiscales diferentes según la opción elegida.",
+      "id": 32
+    },
+    {
+      "pregunta": "Un fondo garantizado parcialmente:",
+      "opciones": [
+        "Garantiza el 100% del capital",
+        "Garantiza un porcentaje del capital inferior al 100%",
+        "No tiene ninguna garantía",
+        "Garantiza solo los intereses"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos garantizados parcialmente garantizan un porcentaje del capital inicial (por ejemplo, 90% o 95%), permitiendo mayor exposición a activos de riesgo que los garantizados al 100%.",
+      "id": 33
+    },
+    {
+      "pregunta": "La correlación entre activos en una cartera afecta principalmente a:",
+      "opciones": [
+        "La rentabilidad esperada",
+        "El riesgo (volatilidad) de la cartera",
+        "Los dividendos",
+        "Los costes de gestión"
+      ],
+      "correcta": 1,
+      "explicacion": "La correlación entre activos determina el beneficio de diversificación. Menores correlaciones reducen el riesgo de la cartera sin afectar la rentabilidad esperada (que es la media ponderada).",
+      "id": 34
+    },
+    {
+      "pregunta": "Un seguro temporal renovable:",
+      "opciones": [
+        "No puede renovarse nunca",
+        "Se renueva automáticamente sin necesidad de nuevo examen médico",
+        "Cambia de aseguradora cada año",
+        "Solo dura un día"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro temporal renovable permite renovar la cobertura al final de cada periodo sin nuevas pruebas médicas, independientemente del estado de salud del asegurado en ese momento.",
+      "id": 35
+    },
+    {
+      "pregunta": "Según el teorema de separación de Tobin:",
+      "opciones": [
+        "Cada inversor debe tener una cartera diferente de activos de riesgo",
+        "Todos los inversores tienen la misma cartera de activos de riesgo, variando la proporción en activo libre de riesgo",
+        "No se debe combinar activo libre de riesgo con activos de riesgo",
+        "La diversificación es innecesaria"
+      ],
+      "correcta": 1,
+      "explicacion": "Tobin demostró que al introducir un activo libre de riesgo, todos los inversores mantienen la misma cartera de activos de riesgo (cartera tangente) y ajustan el riesgo variando la proporción en el activo libre de riesgo.",
+      "id": 36
+    },
+    {
+      "pregunta": "Muchas CCAA han bonificado el ISD para familiares directos en:",
+      "opciones": [
+        "0%",
+        "Hasta el 99% en algunos casos, reduciendo significativamente la cuota",
+        "Solo para inmuebles",
+        "Solo para empresas"
+      ],
+      "correcta": 1,
+      "explicacion": "Varias CCAA (Madrid, Andalucía, etc.) bonifican hasta el 99% la cuota para herencias y donaciones entre padres e hijos o cónyuges, minimizando el impuesto efectivo.",
+      "id": 37
+    },
+    {
+      "pregunta": "La esperanza de vida a los 65 años en España es aproximadamente:",
+      "opciones": [
+        "10 años",
+        "20-22 años",
+        "30 años",
+        "5 años"
+      ],
+      "correcta": 1,
+      "explicacion": "La esperanza de vida a los 65 años en España es de unos 19-20 años para hombres y 23-24 para mujeres, lo que implica planificar para un periodo de jubilación de 20+ años.",
+      "id": 38
+    },
+    {
+      "pregunta": "El leasing es un contrato de:",
+      "opciones": [
+        "Compraventa directa",
+        "Arrendamiento financiero con opción de compra al final",
+        "Alquiler sin opción de compra",
+        "Seguro"
+      ],
+      "correcta": 1,
+      "explicacion": "El leasing es un arrendamiento donde el arrendatario paga cuotas y al final puede ejercer la opción de compra (normalmente por un valor residual bajo). El bien es propiedad del arrendador hasta entonces.",
+      "id": 39
+    },
+    {
+      "pregunta": "El VaR paramétrico asume:",
+      "opciones": [
+        "Distribución cualquiera",
+        "Distribución normal de los rendimientos",
+        "No hay volatilidad",
+        "Correlaciones de 1"
+      ],
+      "correcta": 1,
+      "explicacion": "El VaR paramétrico (o analítico) asume que los rendimientos siguen una distribución normal, permitiendo calcular el VaR a partir de la media, volatilidad y el cuantil correspondiente.",
+      "id": 40
+    },
+    {
+      "pregunta": "La planificación sucesoria busca:",
+      "opciones": [
+        "Evitar tener herederos",
+        "Organizar la transmisión del patrimonio minimizando conflictos e impuestos",
+        "Gastarlo todo antes de morir",
+        "Desheredar a todos"
+      ],
+      "correcta": 1,
+      "explicacion": "La planificación sucesoria define cómo se transmitirá el patrimonio, optimizando fiscalidad (donaciones, seguros, ISD), evitando conflictos familiares, y asegurando que los deseos se cumplan (testamento).",
+      "id": 41
+    },
+    {
+      "pregunta": "El efecto asignación en la atribución de rendimiento mide:",
+      "opciones": [
+        "La selección de valores individuales",
+        "El impacto de sobre/infraponderar clases de activos respecto al benchmark",
+        "Los costes de transacción",
+        "El riesgo de divisa"
+      ],
+      "correcta": 1,
+      "explicacion": "El efecto asignación (allocation effect) captura el valor añadido/destruido por las decisiones de peso entre sectores o clases de activos diferentes al benchmark.",
+      "id": 42
+    },
+    {
+      "pregunta": "La planificación de la educación de los hijos debe:",
+      "opciones": [
+        "Hacerse cuando nazcan",
+        "Iniciarse lo antes posible para aprovechar el horizonte temporal largo",
+        "No es necesaria",
+        "Solo con dinero público"
+      ],
+      "correcta": 1,
+      "explicacion": "La educación (especialmente universitaria o másteres) tiene costes significativos. Empezar a ahorrar pronto permite acumular capital con aportaciones menores gracias al interés compuesto.",
+      "id": 43
+    },
+    {
+      "pregunta": "El rendimiento neto del alquiler de vivienda habitual del inquilino puede reducirse en:",
+      "opciones": [
+        "0%",
+        "50% (con reducciones mayores según Ley de Vivienda 2023 en ciertos casos)",
+        "100%",
+        "No hay reducción"
+      ],
+      "correcta": 1,
+      "explicacion": "La reducción general es del 50% (antes 60%). La Ley de Vivienda permite reducciones de 60%, 70% o 90% para alquileres en zonas tensionadas, inquilinos jóvenes, o alquiler asequible.",
+      "id": 44
+    },
+    {
+      "pregunta": "La SML (Security Market Line) grafica:",
+      "opciones": [
+        "Rentabilidad esperada vs. desviación típica",
+        "Rentabilidad esperada vs. beta",
+        "Rentabilidad real vs. beta",
+        "Volatilidad vs. correlación"
+      ],
+      "correcta": 1,
+      "explicacion": "La SML representa la relación CAPM: rentabilidad esperada en función de beta. Todo activo correctamente valorado debe situarse sobre la línea.",
+      "id": 45
+    },
+    {
+      "pregunta": "La carencia de capital en un préstamo significa:",
+      "opciones": [
+        "No se paga nada",
+        "Durante un periodo solo se pagan intereses, sin amortizar capital",
+        "Se paga el doble",
+        "El préstamo está cancelado"
+      ],
+      "correcta": 1,
+      "explicacion": "En carencia de capital, las cuotas son solo de intereses durante un periodo. El capital pendiente no se reduce, prolongando el préstamo o aumentando las cuotas posteriores.",
+      "id": 46
+    },
+    {
+      "pregunta": "La inversión inmobiliaria se considera una inversión:",
+      "opciones": [
+        "Muy líquida",
+        "Ilíquida, con costes y tiempo de transacción elevados",
+        "Sin riesgo",
+        "Solo apta para inversores minoristas"
+      ],
+      "correcta": 1,
+      "explicacion": "Los inmuebles son activos ilíquidos: vender requiere tiempo (meses), tiene costes significativos (impuestos, notaría, registro) y el precio puede variar según urgencia de venta.",
+      "id": 47
+    },
+    {
+      "pregunta": "Las prestaciones de planes de pensiones tributan como:",
+      "opciones": [
+        "Rendimiento del capital mobiliario",
+        "Rendimiento del trabajo",
+        "Ganancia patrimonial",
+        "Renta exenta"
+      ],
+      "correcta": 1,
+      "explicacion": "Las prestaciones de planes de pensiones (jubilación, invalidez, fallecimiento) tributan íntegramente como rendimientos del trabajo en la base general, aplicando la escala progresiva.",
+      "id": 48
+    },
+    {
+      "pregunta": "El mercado primario de acciones se refiere a:",
+      "opciones": [
+        "La bolsa de valores principal del país",
+        "Las emisiones de nuevas acciones",
+        "El mercado de mayor volumen",
+        "El mercado de blue chips"
+      ],
+      "correcta": 1,
+      "explicacion": "El mercado primario es donde se emiten nuevos valores (OPV, ampliaciones de capital). El mercado secundario es donde se negocian valores ya emitidos. La \"bolsa\" como tal es mercado secundario.",
+      "id": 49
+    },
+    {
+      "pregunta": "La novación de un préstamo hipotecario consiste en:",
+      "opciones": [
+        "Cancelar la hipoteca",
+        "Modificar condiciones del préstamo existente (tipo, plazo, etc.) con el mismo acreedor",
+        "Cambiar de banco",
+        "Ampliar el inmueble"
+      ],
+      "correcta": 1,
+      "explicacion": "La novación modifica términos del préstamo (tipo de interés, plazo, carencias) manteniendo el mismo prestamista. Tiene costes reducidos respecto a la subrogación o nueva hipoteca.",
+      "id": 50
+    }
+  ]
+}

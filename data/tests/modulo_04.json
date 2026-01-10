@@ -1,0 +1,908 @@
+{
+  "nivel": "EIP",
+  "modulo": 4,
+  "titulo": "Seguros",
+  "peso_examen": 7.5,
+  "preguntas": [
+    {
+      "pregunta": "El principio de mutualidad en el seguro significa:",
+      "opciones": [
+        "Que todos pagan la misma prima",
+        "Que las pérdidas de pocos se reparten entre muchos asegurados",
+        "Que el seguro es obligatorio",
+        "Que solo se aseguran riesgos mutuos"
+      ],
+      "correcta": 1,
+      "explicacion": "La mutualidad es el fundamento del seguro: muchos asegurados aportan primas que forman un fondo común para compensar las pérdidas de los pocos que sufren siniestros.",
+      "id": 1
+    },
+    {
+      "pregunta": "El tomador del seguro es:",
+      "opciones": [
+        "Quien recibe la indemnización",
+        "Quien contrata y paga la prima del seguro",
+        "Quien sufre el siniestro",
+        "La compañía aseguradora"
+      ],
+      "correcta": 1,
+      "explicacion": "El tomador es quien suscribe el contrato y se obliga a pagar la prima. Puede coincidir o no con el asegurado (sobre quien recae el riesgo) y el beneficiario (quien cobra).",
+      "id": 2
+    },
+    {
+      "pregunta": "La prima pura de un seguro cubre:",
+      "opciones": [
+        "Todos los gastos de la aseguradora",
+        "El coste esperado de los siniestros (probabilidad × severidad)",
+        "Solo los gastos administrativos",
+        "El beneficio de la aseguradora"
+      ],
+      "correcta": 1,
+      "explicacion": "La prima pura (o de riesgo) es el coste actuarial esperado del riesgo: probabilidad de siniestro × cuantía esperada del daño. A ella se añaden recargos para obtener la prima comercial.",
+      "id": 3
+    },
+    {
+      "pregunta": "La prima comercial incluye:",
+      "opciones": [
+        "Solo la prima pura",
+        "Prima pura + gastos de gestión + margen de seguridad + beneficio",
+        "Solo impuestos",
+        "Solo comisiones"
+      ],
+      "correcta": 1,
+      "explicacion": "Prima comercial = Prima pura + Gastos de administración + Gastos de adquisición (comisiones) + Recargo de seguridad + Beneficio industrial. Es lo que paga el tomador.",
+      "id": 4
+    },
+    {
+      "pregunta": "El principio indemnizatorio establece que:",
+      "opciones": [
+        "El seguro debe enriquecer al asegurado",
+        "La indemnización no puede superar el daño real sufrido",
+        "Siempre se paga el valor de nuevo",
+        "No hay límites en la indemnización"
+      ],
+      "correcta": 1,
+      "explicacion": "El principio indemnizatorio impide el enriquecimiento del asegurado: la indemnización compensa el daño efectivamente sufrido, ni más ni menos. Aplica a seguros de daños, no a seguros de personas.",
+      "id": 5
+    },
+    {
+      "pregunta": "La franquicia en un seguro es:",
+      "opciones": [
+        "Una marca comercial",
+        "La cantidad que queda a cargo del asegurado en cada siniestro",
+        "La prima mínima",
+        "El beneficio de la aseguradora"
+      ],
+      "correcta": 1,
+      "explicacion": "La franquicia es la parte del siniestro que asume el asegurado. Puede ser absoluta (se deduce siempre) o relativa (si el siniestro supera la franquicia, se paga todo).",
+      "id": 6
+    },
+    {
+      "pregunta": "El infraseguro se produce cuando:",
+      "opciones": [
+        "La suma asegurada es inferior al valor real del bien",
+        "La suma asegurada supera el valor del bien",
+        "No hay seguro contratado",
+        "La prima es muy baja"
+      ],
+      "correcta": 0,
+      "explicacion": "Infraseguro: suma asegurada < valor real. En caso de siniestro parcial, se aplica la regla proporcional: la indemnización se reduce en la misma proporción que el infraseguro.",
+      "id": 7
+    },
+    {
+      "pregunta": "En caso de infraseguro con regla proporcional, si el valor real es 100.000€, la suma asegurada 60.000€ y el daño 20.000€, la indemnización será:",
+      "opciones": [
+        "20.000€",
+        "12.000€",
+        "60.000€",
+        "40.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "Proporción asegurada = 60.000/100.000 = 60% Indemnización = Daño × Proporción = 20.000 × 60% = 12.000€",
+      "id": 8
+    },
+    {
+      "pregunta": "El sobreseguro implica:",
+      "opciones": [
+        "Mayor protección efectiva",
+        "Suma asegurada superior al valor real, pero no se indemniza más del daño real",
+        "Primas más baratas",
+        "Cobertura doble"
+      ],
+      "correcta": 1,
+      "explicacion": "El sobreseguro (suma asegurada > valor real) supone pagar primas excesivas. Por el principio indemnizatorio, nunca se cobra más del daño real, por lo que el exceso de suma asegurada es inútil.",
+      "id": 9
+    },
+    {
+      "pregunta": "La subrogación permite a la aseguradora:",
+      "opciones": [
+        "Cancelar la póliza unilateralmente",
+        "Reclamar al responsable del daño lo pagado al asegurado",
+        "Aumentar las primas",
+        "Denegar el siniestro"
+      ],
+      "correcta": 1,
+      "explicacion": "Tras indemnizar, la aseguradora se subroga en los derechos del asegurado contra el tercero responsable del daño, pudiendo reclamarle la cantidad pagada.",
+      "id": 10
+    },
+    {
+      "pregunta": "El periodo de carencia en un seguro es:",
+      "opciones": [
+        "El tiempo sin cobertura inicial tras contratar",
+        "El plazo para pagar la prima",
+        "La duración del contrato",
+        "El tiempo de tramitación del siniestro"
+      ],
+      "correcta": 0,
+      "explicacion": "La carencia es un periodo inicial durante el cual, aunque la póliza esté en vigor, determinadas coberturas no son efectivas. Evita la antiselección (contratar cuando ya se conoce un riesgo inminente).",
+      "id": 11
+    },
+    {
+      "pregunta": "La selección adversa (antiselección) en seguros se refiere a:",
+      "opciones": [
+        "Que la aseguradora selecciona mal sus inversiones",
+        "Que quienes más riesgo tienen son más propensos a asegurarse",
+        "Que el asegurado selecciona mal su cobertura",
+        "La selección de beneficiarios"
+      ],
+      "correcta": 1,
+      "explicacion": "La antiselección ocurre cuando las personas con mayor riesgo (enfermos, malos conductores) tienen más incentivo para asegurarse, distorsionando el pool de riesgo y encareciendo las primas.",
+      "id": 12
+    },
+    {
+      "pregunta": "El riesgo moral (moral hazard) en seguros implica que:",
+      "opciones": [
+        "El asegurador actúa de forma inmoral",
+        "El asegurado puede comportarse con menos cuidado al estar asegurado",
+        "El seguro es éticamente cuestionable",
+        "Solo afecta a seguros de vida"
+      ],
+      "correcta": 1,
+      "explicacion": "El riesgo moral surge porque, al estar asegurado, el individuo puede tener menos incentivo para prevenir el riesgo (conducir peor, cuidar menos su salud), aumentando la probabilidad de siniestro.",
+      "id": 13
+    },
+    {
+      "pregunta": "El coaseguro es:",
+      "opciones": [
+        "Un seguro con varios asegurados",
+        "La distribución de un riesgo entre varias aseguradoras, cada una con su porcentaje",
+        "Un seguro complementario",
+        "Una franquicia especial"
+      ],
+      "correcta": 1,
+      "explicacion": "En el coaseguro, varios aseguradores cubren conjuntamente un mismo riesgo, cada uno asumiendo un porcentaje definido. Hay una aseguradora \"abridora\" que gestiona la póliza.",
+      "id": 14
+    },
+    {
+      "pregunta": "El reaseguro es:",
+      "opciones": [
+        "Un segundo seguro que contrata el asegurado",
+        "El seguro que contratan las aseguradoras para ceder parte de sus riesgos",
+        "La renovación del seguro",
+        "Un seguro de ahorro"
+      ],
+      "correcta": 1,
+      "explicacion": "El reaseguro permite a las aseguradoras transferir parte de los riesgos asumidos a reaseguradoras, protegiendo su solvencia ante siniestros catastróficos o acumulaciones de riesgo.",
+      "id": 15
+    },
+    {
+      "pregunta": "La provisión técnica de una aseguradora sirve para:",
+      "opciones": [
+        "Pagar dividendos",
+        "Garantizar el cumplimiento de obligaciones futuras con asegurados",
+        "Invertir en bolsa",
+        "Pagar impuestos"
+      ],
+      "correcta": 1,
+      "explicacion": "Las provisiones técnicas son reservas que las aseguradoras deben constituir para hacer frente a las obligaciones derivadas de los contratos de seguro (siniestros pendientes, primas no consumidas, etc.).",
+      "id": 16
+    },
+    {
+      "pregunta": "El Consorcio de Compensación de Seguros en España cubre principalmente:",
+      "opciones": [
+        "Todos los siniestros rechazados por aseguradoras privadas",
+        "Riesgos extraordinarios (terrorismo, catástrofes naturales) y funciones de garantía",
+        "Solo seguros de vida",
+        "Exclusivamente accidentes de tráfico"
+      ],
+      "correcta": 1,
+      "explicacion": "El CCS cubre riesgos extraordinarios (inundaciones, terremotos, terrorismo), actúa como fondo de garantía (aseguradoras insolventes), y cubre el SOA en vehículos sin seguro.",
+      "id": 17
+    },
+    {
+      "pregunta": "La Ley de Contrato de Seguro en España es:",
+      "opciones": [
+        "Ley 50/1980",
+        "Ley 35/2015",
+        "Real Decreto 1060/2015",
+        "Ley 26/2006"
+      ],
+      "correcta": 0,
+      "explicacion": "La Ley 50/1980, de 8 de octubre, de Contrato de Seguro, es la norma fundamental que regula los contratos de seguro en España.",
+      "id": 18
+    },
+    {
+      "pregunta": "El deber de declaración del riesgo obliga al tomador a:",
+      "opciones": [
+        "Declarar solo lo que le pregunten expresamente",
+        "Comunicar todas las circunstancias conocidas que puedan influir en la valoración del riesgo",
+        "Ocultar enfermedades preexistentes",
+        "Declarar solo después del siniestro"
+      ],
+      "correcta": 1,
+      "explicacion": "El tomador debe declarar, antes de contratar, todas las circunstancias que conozca y puedan influir en la valoración del riesgo. El incumplimiento puede liberar a la aseguradora de su obligación.",
+      "id": 19
+    },
+    {
+      "pregunta": "El rescate de un seguro de vida permite:",
+      "opciones": [
+        "Cancelar el seguro sin consecuencias",
+        "Recuperar anticipadamente parte del valor acumulado (provisión matemática)",
+        "Cambiar de beneficiario",
+        "Aumentar la suma asegurada"
+      ],
+      "correcta": 1,
+      "explicacion": "El derecho de rescate permite al tomador cancelar anticipadamente el seguro y recuperar el valor de rescate (provisión matemática menos penalizaciones), típico en seguros de vida-ahorro.",
+      "id": 20
+    },
+    {
+      "pregunta": "Un seguro de vida-riesgo puro:",
+      "opciones": [
+        "Siempre genera ahorro",
+        "Solo paga si ocurre el fallecimiento durante la vigencia",
+        "Cubre supervivencia",
+        "Tiene valor de rescate significativo"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de vida-riesgo (temporal) solo paga el capital si el asegurado fallece durante el periodo de cobertura. Si sobrevive, no hay prestación. Primas bajas, sin componente de ahorro.",
+      "id": 21
+    },
+    {
+      "pregunta": "Un seguro de vida entera (whole life) cubre:",
+      "opciones": [
+        "Solo un periodo determinado",
+        "El fallecimiento del asegurado cuando ocurra, sin límite temporal",
+        "Solo la supervivencia",
+        "Accidentes exclusivamente"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de vida entera cubre el fallecimiento del asegurado independientemente de cuándo se produzca. La prestación se pagará con certeza, solo se desconoce cuándo. Genera ahorro (provisión matemática).",
+      "id": 22
+    },
+    {
+      "pregunta": "Un seguro de supervivencia paga:",
+      "opciones": [
+        "Si el asegurado fallece",
+        "Si el asegurado está vivo en una fecha determinada",
+        "En caso de invalidez",
+        "Solo a los herederos"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de supervivencia (capital diferido) paga el capital si el asegurado sobrevive hasta una fecha pactada. Si fallece antes, típicamente no hay prestación (o solo devolución de primas).",
+      "id": 23
+    },
+    {
+      "pregunta": "Un seguro mixto combina:",
+      "opciones": [
+        "Vida y no vida",
+        "Cobertura de fallecimiento y supervivencia",
+        "Varios asegurados",
+        "Ahorro y préstamo"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro mixto combina: si el asegurado fallece antes del vencimiento, se cobra el capital por fallecimiento; si sobrevive, se cobra el capital por supervivencia. Garantiza el cobro en ambos casos.",
+      "id": 24
+    },
+    {
+      "pregunta": "En un seguro de vida, la provisión matemática representa:",
+      "opciones": [
+        "La prima pagada",
+        "El valor actuarial de las obligaciones de la aseguradora menos las del tomador",
+        "El beneficio de la aseguradora",
+        "Los gastos de gestión"
+      ],
+      "correcta": 1,
+      "explicacion": "La provisión matemática es la diferencia entre el valor actual actuarial de las obligaciones futuras de la aseguradora y las primas futuras que pagará el tomador. Es el \"ahorro acumulado\" en el seguro.",
+      "id": 25
+    },
+    {
+      "pregunta": "Las tablas de mortalidad se utilizan para:",
+      "opciones": [
+        "Decorar las oficinas de las aseguradoras",
+        "Calcular la probabilidad de fallecimiento y supervivencia a cada edad",
+        "Determinar impuestos",
+        "Fijar el tipo de interés"
+      ],
+      "correcta": 1,
+      "explicacion": "Las tablas de mortalidad proporcionan las probabilidades de fallecimiento (qx) y supervivencia (px) para cada edad, fundamentales para el cálculo actuarial de primas y provisiones en seguros de vida.",
+      "id": 26
+    },
+    {
+      "pregunta": "El tipo de interés técnico en un seguro de vida es:",
+      "opciones": [
+        "El tipo de mercado actual",
+        "El tipo garantizado usado para calcular primas y provisiones",
+        "El tipo del Euribor",
+        "El tipo de inflación"
+      ],
+      "correcta": 1,
+      "explicacion": "El tipo de interés técnico es el rendimiento garantizado que la aseguradora aplica al calcular primas y provisiones. Es conservador y está limitado por regulación.",
+      "id": 27
+    },
+    {
+      "pregunta": "Un Unit Linked es:",
+      "opciones": [
+        "Un seguro de decesos",
+        "Un seguro de vida donde el valor está vinculado a fondos de inversión",
+        "Un préstamo hipotecario",
+        "Un plan de pensiones"
+      ],
+      "correcta": 1,
+      "explicacion": "El Unit Linked es un seguro de vida-ahorro donde las provisiones se invierten en fondos elegidos por el tomador. El riesgo de inversión lo asume el tomador; la rentabilidad no está garantizada.",
+      "id": 28
+    },
+    {
+      "pregunta": "En un Unit Linked, el riesgo de inversión lo asume:",
+      "opciones": [
+        "La aseguradora",
+        "El tomador/asegurado",
+        "El Estado",
+        "El beneficiario"
+      ],
+      "correcta": 1,
+      "explicacion": "A diferencia de los seguros tradicionales con tipo garantizado, en el Unit Linked el tomador elige los fondos y asume el riesgo de inversión. La aseguradora no garantiza rentabilidad.",
+      "id": 29
+    },
+    {
+      "pregunta": "Un PIAS (Plan Individual de Ahorro Sistemático) es:",
+      "opciones": [
+        "Un plan de pensiones",
+        "Un seguro de vida-ahorro con ventajas fiscales si se cobra como renta vitalicia",
+        "Un depósito bancario",
+        "Un fondo de inversión"
+      ],
+      "correcta": 1,
+      "explicacion": "El PIAS es un seguro de vida-ahorro. Los rendimientos están exentos de tributación si se cobra en forma de renta vitalicia tras un mínimo de 5 años y cumpliendo límites de aportación.",
+      "id": 30
+    },
+    {
+      "pregunta": "El límite máximo de aportación anual a un PIAS es:",
+      "opciones": [
+        "1.500€",
+        "8.000€",
+        "12.000€",
+        "Sin límite"
+      ],
+      "correcta": 1,
+      "explicacion": "Las aportaciones a PIAS tienen un límite de 8.000€ anuales y 240.000€ de aportación total acumulada. Para la exención fiscal, además, la primera prima debe tener al menos 5 años de antigüedad.",
+      "id": 31
+    },
+    {
+      "pregunta": "Un SIALP (Seguro Individual de Ahorro a Largo Plazo) garantiza:",
+      "opciones": [
+        "Una rentabilidad del 5%",
+        "Al menos el 85% del capital invertido al vencimiento",
+        "Rentabilidad negativa",
+        "Nada"
+      ],
+      "correcta": 1,
+      "explicacion": "Los SIALP deben garantizar al vencimiento al menos el 85% de las primas pagadas. Los rendimientos están exentos si se mantiene 5 años y no se superan 5.000€ anuales de aportación.",
+      "id": 32
+    },
+    {
+      "pregunta": "El límite de aportación anual a un SIALP es:",
+      "opciones": [
+        "1.500€",
+        "5.000€",
+        "8.000€",
+        "12.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "Los SIALP tienen un límite de aportación de 5.000€ anuales. Solo se puede tener un SIALP (o un CIALP) a la vez.",
+      "id": 33
+    },
+    {
+      "pregunta": "En caso de fallecimiento del asegurado, si no hay beneficiario designado, el capital se paga a:",
+      "opciones": [
+        "La aseguradora",
+        "Los herederos legales",
+        "El Estado",
+        "Nadie"
+      ],
+      "correcta": 1,
+      "explicacion": "Sin designación de beneficiario, el capital por fallecimiento pasa al patrimonio del fallecido y se distribuye según las normas de sucesión (testamento o herencia intestada).",
+      "id": 34
+    },
+    {
+      "pregunta": "La designación de beneficiario en un seguro de vida es:",
+      "opciones": [
+        "Irrevocable siempre",
+        "Revocable por el tomador, salvo aceptación expresa del beneficiario",
+        "Fijada por la aseguradora",
+        "Imposible de cambiar"
+      ],
+      "correcta": 1,
+      "explicacion": "El tomador puede cambiar el beneficiario libremente mientras viva, salvo que el beneficiario haya aceptado expresamente su designación, lo que la hace irrevocable.",
+      "id": 35
+    },
+    {
+      "pregunta": "Un seguro de vida con participación en beneficios ofrece:",
+      "opciones": [
+        "Rentabilidad fija garantizada exclusivamente",
+        "Una rentabilidad mínima garantizada más participación en los resultados de la aseguradora",
+        "Solo pérdidas",
+        "Rendimiento vinculado a bolsa"
+      ],
+      "correcta": 1,
+      "explicacion": "Estos seguros garantizan un tipo técnico mínimo y además pueden recibir participación en beneficios de la aseguradora si los rendimientos de las inversiones o la siniestralidad son favorables.",
+      "id": 36
+    },
+    {
+      "pregunta": "El valor de rescate de un seguro de vida es normalmente:",
+      "opciones": [
+        "Igual a las primas pagadas",
+        "La provisión matemática menos penalizaciones y gastos",
+        "Mayor que las primas pagadas siempre",
+        "Cero en todos los casos"
+      ],
+      "correcta": 1,
+      "explicacion": "El valor de rescate es lo que el tomador puede recuperar si cancela anticipadamente. Es la provisión matemática menos los costes no amortizados y posibles penalizaciones por rescate anticipado.",
+      "id": 37
+    },
+    {
+      "pregunta": "Un seguro temporal renovable:",
+      "opciones": [
+        "No puede renovarse nunca",
+        "Se renueva automáticamente sin necesidad de nuevo examen médico",
+        "Cambia de aseguradora cada año",
+        "Solo dura un día"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro temporal renovable permite renovar la cobertura al final de cada periodo sin nuevas pruebas médicas, independientemente del estado de salud del asegurado en ese momento.",
+      "id": 38
+    },
+    {
+      "pregunta": "Una renta vitalicia asegurada paga:",
+      "opciones": [
+        "Solo durante 10 años",
+        "Mientras viva el beneficiario de la renta",
+        "Un capital único",
+        "Solo si hay fallecimiento"
+      ],
+      "correcta": 1,
+      "explicacion": "La renta vitalicia paga una cantidad periódica mientras viva el rentista. El riesgo de longevidad lo asume la aseguradora: si el rentista vive mucho, sigue cobrando.",
+      "id": 39
+    },
+    {
+      "pregunta": "Una renta vitalicia diferida:",
+      "opciones": [
+        "Comienza a pagarse inmediatamente",
+        "Comienza a pagarse a partir de una fecha futura acordada",
+        "No tiene fecha de inicio",
+        "Se paga en un solo cobro"
+      ],
+      "correcta": 1,
+      "explicacion": "La renta vitalicia diferida tiene un periodo de espera antes de comenzar los pagos. Durante el diferimiento se acumulan las primas; después comienza el cobro de la renta.",
+      "id": 40
+    },
+    {
+      "pregunta": "Una renta vitalicia con periodo cierto garantiza:",
+      "opciones": [
+        "Nada especial",
+        "Un número mínimo de pagos aunque el rentista fallezca antes",
+        "Solo pagos mientras viva",
+        "Capital al fallecimiento"
+      ],
+      "correcta": 1,
+      "explicacion": "La renta con periodo cierto garantiza un número mínimo de cobros (ej: 10 años). Si el rentista fallece antes, los herederos continúan cobrando hasta completar ese periodo.",
+      "id": 41
+    },
+    {
+      "pregunta": "El contraseguro de primas en un seguro de supervivencia significa:",
+      "opciones": [
+        "Que no hay cobertura de fallecimiento",
+        "Que si el asegurado fallece antes del vencimiento, se devuelven las primas pagadas",
+        "Doble cobertura",
+        "Seguro de la aseguradora"
+      ],
+      "correcta": 1,
+      "explicacion": "El contraseguro de primas añade al seguro de supervivencia una devolución de primas si el asegurado fallece antes del vencimiento, evitando la pérdida total de lo aportado.",
+      "id": 42
+    },
+    {
+      "pregunta": "El cuestionario de salud en un seguro de vida sirve para:",
+      "opciones": [
+        "Decoración del contrato",
+        "Evaluar el riesgo y fijar la prima adecuada",
+        "Cumplir con la ley de protección de datos",
+        "Seleccionar inversiones"
+      ],
+      "correcta": 1,
+      "explicacion": "El cuestionario de salud permite a la aseguradora evaluar el riesgo del asegurado y determinar si acepta el riesgo y a qué prima. Declaraciones falsas pueden anular la cobertura.",
+      "id": 43
+    },
+    {
+      "pregunta": "Un seguro de vida a prima única se paga:",
+      "opciones": [
+        "Mensualmente",
+        "Con un solo pago al inicio",
+        "Anualmente durante 10 años",
+        "Al fallecimiento"
+      ],
+      "correcta": 1,
+      "explicacion": "En la modalidad de prima única, el tomador paga toda la prima de una sola vez al contratar, en lugar de fraccionar el pago periódicamente.",
+      "id": 44
+    },
+    {
+      "pregunta": "La reducción de un seguro de vida ocurre cuando:",
+      "opciones": [
+        "El asegurado adelgaza",
+        "El tomador deja de pagar y el seguro continúa con menor suma asegurada",
+        "Baja el tipo de interés",
+        "Se añaden coberturas"
+      ],
+      "correcta": 1,
+      "explicacion": "Si el tomador deja de pagar primas, puede solicitar la reducción: el seguro continúa en vigor pero con una suma asegurada menor, proporcional a la provisión matemática acumulada.",
+      "id": 45
+    },
+    {
+      "pregunta": "El seguro de responsabilidad civil cubre:",
+      "opciones": [
+        "Daños propios del asegurado",
+        "Daños causados a terceros por los que el asegurado es responsable",
+        "Robos en el hogar",
+        "Enfermedades"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de RC cubre la responsabilidad del asegurado frente a terceros: indemniza los daños (personales, materiales, patrimoniales) que el asegurado cause a otros y por los que deba responder.",
+      "id": 46
+    },
+    {
+      "pregunta": "El seguro obligatorio de automóviles (SOA) en España cubre:",
+      "opciones": [
+        "Daños propios del vehículo",
+        "Responsabilidad civil obligatoria frente a terceros",
+        "Robo del vehículo",
+        "Daños por vandalismo"
+      ],
+      "correcta": 1,
+      "explicacion": "El SOA cubre la responsabilidad civil obligatoria derivada de la circulación: daños corporales y materiales causados a terceros. No cubre daños propios ni al conductor culpable.",
+      "id": 47
+    },
+    {
+      "pregunta": "Un seguro de automóvil \"a todo riesgo\" incluye típicamente:",
+      "opciones": [
+        "Solo la RC obligatoria",
+        "RC + daños propios incluso por culpa del asegurado",
+        "Solo robo",
+        "Solo asistencia en viaje"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro a todo riesgo cubre la RC (obligatoria y voluntaria) más los daños propios del vehículo, incluso cuando el culpable es el propio asegurado (colisión, salida de vía, etc.).",
+      "id": 48
+    },
+    {
+      "pregunta": "El sistema bonus-malus en seguros de auto:",
+      "opciones": [
+        "Da regalos a los clientes",
+        "Ajusta la prima según el historial de siniestralidad del asegurado",
+        "Es obligatorio por ley",
+        "Solo se aplica a vehículos nuevos"
+      ],
+      "correcta": 1,
+      "explicacion": "El bonus-malus premia a conductores sin siniestros (descuentos) y penaliza a los siniestrados (recargos). Incentiva la conducción prudente y personaliza la prima según el historial real.",
+      "id": 49
+    },
+    {
+      "pregunta": "El seguro de hogar multirriesgo cubre típicamente:",
+      "opciones": [
+        "Solo incendio",
+        "Incendio, robo, daños por agua, RC del hogar y otras coberturas",
+        "Solo responsabilidad civil",
+        "Exclusivamente catástrofes naturales"
+      ],
+      "correcta": 1,
+      "explicacion": "El multirriesgo del hogar es un paquete que combina múltiples coberturas: incendio, robo, daños por agua, rotura de cristales, RC familiar, asistencia en el hogar, etc.",
+      "id": 50
+    },
+    {
+      "pregunta": "El valor de reposición \"a nuevo\" en un seguro de hogar significa:",
+      "opciones": [
+        "Se paga el valor venal del bien",
+        "Se indemniza el coste de reponer el bien sin deducción por uso o antigüedad",
+        "Se paga siempre menos",
+        "No hay depreciación porque todo es nuevo"
+      ],
+      "correcta": 1,
+      "explicacion": "La cláusula \"a nuevo\" o \"valor de reposición\" indemniza el coste de sustituir el bien siniestrado por otro nuevo equivalente, sin aplicar depreciación por antigüedad o uso.",
+      "id": 51
+    },
+    {
+      "pregunta": "El continente en un seguro de hogar se refiere a:",
+      "opciones": [
+        "Los muebles y enseres",
+        "El edificio: estructura, paredes, instalaciones fijas",
+        "Los objetos de valor",
+        "El jardín exclusivamente"
+      ],
+      "correcta": 1,
+      "explicacion": "Continente = la edificación (estructura, paredes, suelos, techos, instalaciones fijas). Contenido = bienes muebles dentro de la vivienda (muebles, electrodomésticos, ropa, objetos personales).",
+      "id": 52
+    },
+    {
+      "pregunta": "Un seguro de salud con copago significa que:",
+      "opciones": [
+        "La aseguradora paga todo",
+        "El asegurado paga una parte del coste de cada servicio utilizado",
+        "No hay cuadro médico",
+        "Solo cubre hospitalización"
+      ],
+      "correcta": 1,
+      "explicacion": "El copago es la cantidad fija o porcentaje que el asegurado paga cada vez que utiliza un servicio (consulta, prueba, medicamento). Reduce la prima y desincentiva el uso innecesario.",
+      "id": 53
+    },
+    {
+      "pregunta": "Un seguro de salud de reembolso:",
+      "opciones": [
+        "Solo permite usar médicos del cuadro",
+        "Permite acudir a cualquier profesional y la aseguradora reembolsa según baremo",
+        "No tiene límites de cobertura",
+        "Es gratuito"
+      ],
+      "correcta": 1,
+      "explicacion": "En la modalidad de reembolso, el asegurado elige libremente profesional y centro, paga y luego la aseguradora le reembolsa según los límites y porcentajes del contrato.",
+      "id": 54
+    },
+    {
+      "pregunta": "El seguro de decesos cubre:",
+      "opciones": [
+        "La vida del asegurado",
+        "Los gastos derivados del fallecimiento (entierro, incineración, traslado)",
+        "Solo accidentes",
+        "Enfermedades graves"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de decesos cubre los gastos funerarios y servicios relacionados con el fallecimiento: sepelio, traslado, trámites, documentación, etc. Es muy común en España.",
+      "id": 55
+    },
+    {
+      "pregunta": "El seguro de dependencia cubre:",
+      "opciones": [
+        "Enfermedades comunes",
+        "Situaciones de pérdida de autonomía personal para realizar actividades básicas",
+        "Accidentes de tráfico",
+        "Desempleo"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de dependencia protege contra la pérdida de autonomía (física o mental) para realizar actividades de la vida diaria, proporcionando prestaciones económicas o servicios de asistencia.",
+      "id": 56
+    },
+    {
+      "pregunta": "Un seguro de accidentes personales cubre:",
+      "opciones": [
+        "Enfermedades crónicas",
+        "Lesiones corporales derivadas de causa violenta, súbita y externa",
+        "Daños a terceros",
+        "Pérdidas económicas"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de accidentes cubre las consecuencias de accidentes: muerte accidental, invalidez, gastos médicos derivados de lesiones por causa violenta, súbita, externa y ajena a la voluntad.",
+      "id": 57
+    },
+    {
+      "pregunta": "La IPA (Invalidez Permanente Absoluta) en un seguro de accidentes:",
+      "opciones": [
+        "Es una invalidez temporal",
+        "Inhabilita para toda profesión u oficio",
+        "Solo afecta a la profesión habitual",
+        "Es recuperable"
+      ],
+      "correcta": 1,
+      "explicacion": "La IPA supone la incapacidad total y permanente para cualquier trabajo. Es el grado más grave antes del fallecimiento. La IPT (Total) inhabilita solo para la profesión habitual.",
+      "id": 58
+    },
+    {
+      "pregunta": "El seguro de protección de pagos cubre:",
+      "opciones": [
+        "La totalidad de cualquier deuda",
+        "Las cuotas de préstamos en caso de desempleo, incapacidad temporal u otras contingencias",
+        "Solo hipotecas",
+        "Inversiones fallidas"
+      ],
+      "correcta": 1,
+      "explicacion": "Este seguro paga las cuotas del préstamo durante un periodo si el asegurado sufre desempleo involuntario, incapacidad temporal por enfermedad o accidente, u otras situaciones cubiertas.",
+      "id": 59
+    },
+    {
+      "pregunta": "El seguro de vida vinculado a hipoteca busca:",
+      "opciones": [
+        "Aumentar el valor de la vivienda",
+        "Cancelar o reducir la deuda hipotecaria si el asegurado fallece o queda inválido",
+        "Obtener mejores condiciones del préstamo",
+        "Cubrir impagos voluntarios"
+      ],
+      "correcta": 1,
+      "explicacion": "Este seguro de vida (generalmente decreciente) garantiza que si el titular fallece, el capital pendiente de hipoteca (o una parte) se cancele, protegiendo a la familia de la deuda.",
+      "id": 60
+    },
+    {
+      "pregunta": "Un seguro de impago de alquiler cubre al:",
+      "opciones": [
+        "Inquilino",
+        "Propietario frente al impago de rentas por el inquilino",
+        "A ambos por igual",
+        "A la inmobiliaria"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de impago protege al arrendador: si el inquilino deja de pagar, la aseguradora abona las rentas impagadas y puede cubrir gastos de defensa jurídica y desperfectos.",
+      "id": 61
+    },
+    {
+      "pregunta": "El seguro de crédito comercial protege a:",
+      "opciones": [
+        "Los consumidores",
+        "Las empresas frente al impago de sus clientes",
+        "Los bancos exclusivamente",
+        "Los proveedores de seguros"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de crédito cubre a empresas contra el riesgo de impago de sus clientes comerciales, tanto por insolvencia como por mora prolongada.",
+      "id": 62
+    },
+    {
+      "pregunta": "El seguro de caución es:",
+      "opciones": [
+        "Un seguro de ahorro",
+        "Una garantía que la aseguradora otorga a favor de un tercero",
+        "Un seguro de vida",
+        "Una póliza de accidentes"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de caución garantiza al beneficiario (acreedor) el cumplimiento de una obligación por parte del tomador (deudor). Si incumple, la aseguradora paga, pudiendo luego repetir contra el tomador.",
+      "id": 63
+    },
+    {
+      "pregunta": "Un seguro de pérdida de beneficios (lucro cesante) cubre:",
+      "opciones": [
+        "Los daños materiales directos",
+        "La pérdida de ingresos por interrupción de actividad tras un siniestro",
+        "Los gastos de personal",
+        "El valor del stock"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de pérdida de beneficios indemniza el lucro cesante: los ingresos que la empresa deja de obtener durante el periodo de interrupción causado por un siniestro (incendio, inundación).",
+      "id": 64
+    },
+    {
+      "pregunta": "La prima de riesgo en seguros de no vida depende principalmente de:",
+      "opciones": [
+        "La edad del asegurado únicamente",
+        "La frecuencia esperada de siniestros y su coste medio",
+        "El tipo de interés",
+        "La inflación"
+      ],
+      "correcta": 1,
+      "explicacion": "La prima de riesgo = Frecuencia (probabilidad de siniestro) × Severidad (coste medio del siniestro). En no vida, estos factores dependen del tipo de riesgo, ubicación, historial, etc.",
+      "id": 65
+    },
+    {
+      "pregunta": "Las primas de seguros de vida-riesgo vinculados a préstamos hipotecarios son:",
+      "opciones": [
+        "Deducibles en IRPF siempre",
+        "Deducibles solo si la vivienda se adquirió antes de 2013 (régimen transitorio)",
+        "Nunca deducibles",
+        "Deducibles al 100%"
+      ],
+      "correcta": 1,
+      "explicacion": "Las primas de seguros vinculados a hipotecas solo mantienen deducción (dentro del límite de vivienda habitual) para hipotecas constituidas antes del 1/1/2013, por el régimen transitorio.",
+      "id": 66
+    },
+    {
+      "pregunta": "La prestación de un seguro de vida por fallecimiento tributa en:",
+      "opciones": [
+        "IRPF",
+        "Impuesto sobre Sucesiones y Donaciones",
+        "Impuesto de Sociedades",
+        "IVA"
+      ],
+      "correcta": 1,
+      "explicacion": "Si el beneficiario es distinto del tomador, la prestación por fallecimiento tributa en el ISD como adquisición mortis causa. Si coinciden tomador, asegurado y beneficiario, tributaría en IRPF.",
+      "id": 67
+    },
+    {
+      "pregunta": "Los rendimientos de un seguro de vida-ahorro cuando tomador y beneficiario coinciden tributan en:",
+      "opciones": [
+        "ISD",
+        "IRPF como rendimiento del capital mobiliario",
+        "No tributan",
+        "Impuesto de Patrimonio"
+      ],
+      "correcta": 1,
+      "explicacion": "Cuando tomador y beneficiario son la misma persona, la prestación (capital diferido, rescate) tributa en IRPF como rendimiento del capital mobiliario en la base del ahorro.",
+      "id": 68
+    },
+    {
+      "pregunta": "El rendimiento tributable de un seguro de vida-ahorro cobrado como capital es:",
+      "opciones": [
+        "Todo el capital recibido",
+        "Capital recibido menos primas pagadas",
+        "Solo las primas",
+        "El doble del capital"
+      ],
+      "correcta": 1,
+      "explicacion": "El rendimiento = Prestación - Primas pagadas. Solo tributa la ganancia, no la devolución del capital invertido.",
+      "id": 69
+    },
+    {
+      "pregunta": "Los PIAS disfrutan de exención en IRPF cuando:",
+      "opciones": [
+        "Siempre",
+        "Se cobra en forma de renta vitalicia tras 5 años desde la primera prima",
+        "Se rescata antes de 5 años",
+        "Se cobra como capital"
+      ],
+      "correcta": 1,
+      "explicacion": "Los rendimientos de PIAS están exentos si: transcurren al menos 5 años desde la primera prima, se cobra como renta vitalicia, y se respetan los límites de aportación.",
+      "id": 70
+    },
+    {
+      "pregunta": "Las rentas vitalicias inmediatas tienen una tributación favorable porque:",
+      "opciones": [
+        "Están exentas totalmente",
+        "Solo tributa una parte del importe, decreciente con la edad del perceptor",
+        "Tributan al tipo máximo",
+        "No tributan hasta los 65 años"
+      ],
+      "correcta": 1,
+      "explicacion": "En las rentas vitalicias constituidas por primas, solo tributa un porcentaje de la renta que decrece con la edad al constituirse: 40% (<40 años) hasta 8% (>70 años).",
+      "id": 71
+    },
+    {
+      "pregunta": "La DGS (Dirección General de Seguros y Fondos de Pensiones) es:",
+      "opciones": [
+        "Una aseguradora pública",
+        "El órgano supervisor del sector asegurador en España",
+        "Una asociación de consumidores",
+        "Un tribunal de arbitraje"
+      ],
+      "correcta": 1,
+      "explicacion": "La DGSFP (Dirección General de Seguros y Fondos de Pensiones) es el órgano del Ministerio de Economía encargado de supervisar, regular y controlar el sector asegurador y los fondos de pensiones.",
+      "id": 72
+    },
+    {
+      "pregunta": "Solvencia II es:",
+      "opciones": [
+        "Un tipo de seguro",
+        "La normativa europea sobre requisitos de solvencia de aseguradoras",
+        "Un fondo de garantía",
+        "Una agencia de rating"
+      ],
+      "correcta": 1,
+      "explicacion": "Solvencia II es el marco regulatorio europeo que establece requisitos de capital, gobernanza y reporting para aseguradoras, basándose en el riesgo real de cada entidad.",
+      "id": 73
+    },
+    {
+      "pregunta": "El SCR (Solvency Capital Requirement) en Solvencia II representa:",
+      "opciones": [
+        "Los gastos de gestión",
+        "El capital necesario para afrontar pérdidas con un 99,5% de confianza a un año",
+        "Las primas mínimas",
+        "El beneficio distribuible"
+      ],
+      "correcta": 1,
+      "explicacion": "El SCR es el capital que la aseguradora debe mantener para soportar pérdidas inesperadas con una probabilidad del 99,5% en un horizonte de un año (evento 1 en 200 años).",
+      "id": 74
+    },
+    {
+      "pregunta": "La IDD (Insurance Distribution Directive) regula:",
+      "opciones": [
+        "La fabricación de productos",
+        "La distribución y venta de seguros, incluyendo información y asesoramiento",
+        "Solo los seguros de vida",
+        "Los impuestos sobre primas"
+      ],
+      "correcta": 1,
+      "explicacion": "La IDD (Directiva de Distribución de Seguros) armoniza las normas de distribución: requisitos de información precontractual, asesoramiento, conflictos de interés, formación de distribuidores, etc.",
+      "id": 75
+    }
+  ]
+}

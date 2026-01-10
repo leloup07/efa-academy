@@ -1,0 +1,66 @@
+{
+  "name": "Aggressive Swing 4H",
+  "description": "Estrategia swing agresiva en timeframe 4H para más frecuencia de trades",
+  
+  "capital": 15000,
+  "risk_per_trade": 0.0075,
+  "max_positions": 4,
+  "max_total_exposure": 0.03,
+  
+  "timeframes": {
+    "context": "1W",
+    "trend": "1D",
+    "momentum": "4H",
+    "entry": "4H"
+  },
+  
+  "risk_management": {
+    "sl_atr_multiplier": 1.5,
+    "tp_atr_multiplier": 2.5,
+    "max_weekly_loss": 0.06,
+    "weekly_target": 0.03
+  },
+  
+  "circuit_breakers": {
+    "max_trades_day": 3,
+    "max_trades_week": 8,
+    "min_hours_between_trades": 6,
+    "stop_after_weekly_loss": true
+  },
+  
+  "assets": {
+    "crypto": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP",
+      "ADA",
+      "AVAX",
+      "DOT",
+      "LINK"
+    ],
+    "min_volume_24h": 500000000,
+    "max_assets_simultaneous": 4
+  },
+  
+  "filters": {
+    "min_confidence": 75,
+    "require_smc": false,
+    "prefer_smc": true,
+    "min_rr": 1.5
+  },
+  
+  "redis": {
+    "prefix": "eleve:aggressive:",
+    "keys": {
+      "positions": "positions",
+      "trades": "trades",
+      "metrics": "metrics",
+      "signals": "signals"
+    }
+  },
+  
+  "mode": "paper",
+  "enabled": true,
+  "check_interval_minutes": 60
+}

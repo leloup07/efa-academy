@@ -1,0 +1,1208 @@
+{
+  "nivel": "EIP",
+  "modulo": 3,
+  "titulo": "Gestión de Carteras",
+  "peso_examen": 17.5,
+  "preguntas": [
+    {
+      "pregunta": "Según la teoría de Markowitz, el objetivo de la diversificación es:",
+      "opciones": [
+        "Maximizar la rentabilidad sin importar el riesgo",
+        "Reducir el riesgo de la cartera para un nivel de rentabilidad dado",
+        "Eliminar completamente el riesgo",
+        "Invertir en el mayor número de activos posible"
+      ],
+      "correcta": 1,
+      "explicacion": "Markowitz demostró que combinando activos con correlaciones imperfectas se puede reducir el riesgo total de la cartera sin sacrificar rentabilidad esperada (o aumentar rentabilidad para el mismo riesgo).",
+      "id": 1
+    },
+    {
+      "pregunta": "La frontera eficiente representa:",
+      "opciones": [
+        "Todas las carteras posibles",
+        "Las carteras que ofrecen máxima rentabilidad para cada nivel de riesgo",
+        "Solo la cartera de mínimo riesgo",
+        "Las carteras con correlación cero"
+      ],
+      "correcta": 1,
+      "explicacion": "La frontera eficiente es el conjunto de carteras óptimas: para cada nivel de riesgo, no existe otra cartera con mayor rentabilidad esperada. O equivalentemente, para cada rentabilidad, no hay cartera con menor riesgo.",
+      "id": 2
+    },
+    {
+      "pregunta": "Dos activos tienen una correlación de -0,8. Si uno sube un 10%, el otro:",
+      "opciones": [
+        "Subirá aproximadamente un 10%",
+        "Bajará aproximadamente un 8%",
+        "Bajará aproximadamente un 10%",
+        "No hay suficiente información"
+      ],
+      "correcta": 3,
+      "explicacion": "La correlación indica la dirección y fuerza de la relación, no la magnitud exacta de los movimientos. Una correlación de -0,8 indica fuerte relación inversa, pero para saber cuánto se moverá necesitamos las volatilidades de ambos activos.",
+      "id": 3
+    },
+    {
+      "pregunta": "La varianza de una cartera de dos activos depende de:",
+      "opciones": [
+        "Solo las varianzas individuales",
+        "Las varianzas individuales, los pesos y la covarianza entre los activos",
+        "Solo la covarianza",
+        "El número de activos"
+      ],
+      "correcta": 1,
+      "explicacion": "σ²_p = w₁²σ₁² + w₂²σ₂² + 2w₁w₂Cov(1,2). La varianza de la cartera depende de las varianzas ponderadas de cada activo y del término de covarianza.",
+      "id": 4
+    },
+    {
+      "pregunta": "Si añadimos activos con correlación perfecta (+1) a una cartera:",
+      "opciones": [
+        "Reducimos el riesgo significativamente",
+        "No hay beneficio de diversificación",
+        "Eliminamos el riesgo sistemático",
+        "Siempre mejoramos la rentabilidad"
+      ],
+      "correcta": 1,
+      "explicacion": "Con correlación perfecta (+1), los activos se mueven exactamente igual. No hay beneficio de diversificación; el riesgo de la cartera es la media ponderada de los riesgos individuales.",
+      "id": 5
+    },
+    {
+      "pregunta": "El riesgo sistemático (de mercado) de una cartera:",
+      "opciones": [
+        "Se puede eliminar completamente con diversificación",
+        "No se puede eliminar con diversificación",
+        "Es siempre cero",
+        "Aumenta con la diversificación"
+      ],
+      "correcta": 1,
+      "explicacion": "El riesgo sistemático afecta a todo el mercado (tipos, inflación, crisis) y no puede eliminarse diversificando. Solo el riesgo específico (no sistemático) se reduce con diversificación.",
+      "id": 6
+    },
+    {
+      "pregunta": "Una cartera con 30 acciones bien diversificadas tendrá principalmente:",
+      "opciones": [
+        "Riesgo específico",
+        "Riesgo sistemático",
+        "Riesgo cero",
+        "Riesgo de crédito"
+      ],
+      "correcta": 1,
+      "explicacion": "Con una cartera bien diversificada de 30 acciones, el riesgo específico (diversificable) se reduce sustancialmente. El riesgo remanente es principalmente sistemático (de mercado).",
+      "id": 7
+    },
+    {
+      "pregunta": "La cartera de mínima varianza global:",
+      "opciones": [
+        "Tiene rentabilidad esperada cero",
+        "Es la cartera de menor riesgo posible combinando los activos disponibles",
+        "Tiene todos los activos en igual proporción",
+        "Siempre está formada solo por renta fija"
+      ],
+      "correcta": 1,
+      "explicacion": "La cartera de mínima varianza global (GMV) es el punto más a la izquierda de la frontera eficiente: la combinación de activos que minimiza el riesgo total, independientemente de la rentabilidad.",
+      "id": 8
+    },
+    {
+      "pregunta": "El efecto de la diversificación es mayor cuando:",
+      "opciones": [
+        "Los activos tienen alta correlación positiva",
+        "Los activos tienen baja o negativa correlación",
+        "Los activos tienen la misma rentabilidad",
+        "Los activos tienen la misma volatilidad"
+      ],
+      "correcta": 1,
+      "explicacion": "Cuanto menor (o más negativa) sea la correlación entre activos, mayor es el beneficio de diversificación. Con correlación negativa perfecta (-1), teóricamente se puede eliminar todo el riesgo.",
+      "id": 9
+    },
+    {
+      "pregunta": "Un inversor con función de utilidad U = E(R) - 0,5Aσ², donde A=4. Si E(R)=10% y σ=15%:",
+      "opciones": [
+        "U = 5,5%",
+        "U = 5,0%",
+        "U = 10%",
+        "U = -35%"
+      ],
+      "correcta": 0,
+      "explicacion": "* U = E(R) - 0,5 × A × σ² U = 0,10 - 0,5 × 4 × (0,15)² U = 0,10 - 2 × 0,0225 = 0,10 - 0,045 = 0,055 = 5,5%",
+      "id": 10
+    },
+    {
+      "pregunta": "La cartera óptima para un inversor individual es:",
+      "opciones": [
+        "Siempre la cartera de mercado",
+        "El punto de tangencia entre su curva de indiferencia y la frontera eficiente",
+        "La cartera de mínima varianza",
+        "La cartera 100% renta variable"
+      ],
+      "correcta": 1,
+      "explicacion": "La cartera óptima para cada inversor depende de su aversión al riesgo. Es donde su curva de indiferencia (preferencias) es tangente a la frontera eficiente (oportunidades).",
+      "id": 11
+    },
+    {
+      "pregunta": "Según el teorema de separación de Tobin:",
+      "opciones": [
+        "Cada inversor debe tener una cartera diferente de activos de riesgo",
+        "Todos los inversores tienen la misma cartera de activos de riesgo, variando la proporción en activo libre de riesgo",
+        "No se debe combinar activo libre de riesgo con activos de riesgo",
+        "La diversificación es innecesaria"
+      ],
+      "correcta": 1,
+      "explicacion": "Tobin demostró que al introducir un activo libre de riesgo, todos los inversores mantienen la misma cartera de activos de riesgo (cartera tangente) y ajustan el riesgo variando la proporción en el activo libre de riesgo.",
+      "id": 12
+    },
+    {
+      "pregunta": "La CML (Capital Market Line) relaciona:",
+      "opciones": [
+        "Rentabilidad y beta",
+        "Rentabilidad esperada y riesgo total (desviación típica)",
+        "Alfa y volatilidad",
+        "Sharpe y Treynor"
+      ],
+      "correcta": 1,
+      "explicacion": "La CML representa las combinaciones eficientes del activo libre de riesgo y la cartera de mercado. Su ecuación: E(Rp) = Rf + [(E(Rm)-Rf)/σm] × σp. Relaciona rentabilidad esperada con riesgo total.",
+      "id": 13
+    },
+    {
+      "pregunta": "La pendiente de la CML representa:",
+      "opciones": [
+        "La beta del mercado",
+        "El precio del riesgo (prima por unidad de riesgo)",
+        "La volatilidad del mercado",
+        "El tipo libre de riesgo"
+      ],
+      "correcta": 1,
+      "explicacion": "La pendiente de la CML es (E(Rm)-Rf)/σm, el ratio de Sharpe del mercado. Indica cuánta rentabilidad adicional se obtiene por cada unidad adicional de riesgo asumido.",
+      "id": 14
+    },
+    {
+      "pregunta": "Si Rf = 2%, E(Rm) = 8% y σm = 20%, ¿cuál es la rentabilidad esperada de una cartera eficiente con σ = 10%?",
+      "opciones": [
+        "5%",
+        "4%",
+        "6%",
+        "3%"
+      ],
+      "correcta": 0,
+      "explicacion": "* CML: E(Rp) = Rf + [(E(Rm)-Rf)/σm] × σp E(Rp) = 2% + [(8%-2%)/20%] × 10% E(Rp) = 2% + 0,30 × 10% = 2% + 3% = 5%",
+      "id": 15
+    },
+    {
+      "pregunta": "El modelo CAPM establece que la rentabilidad esperada de un activo depende de:",
+      "opciones": [
+        "Su volatilidad total",
+        "Su riesgo sistemático (beta)",
+        "Su riesgo específico",
+        "El tamaño de la empresa"
+      ],
+      "correcta": 1,
+      "explicacion": "CAPM: E(Ri) = Rf + βi × (E(Rm) - Rf). Solo el riesgo sistemático (beta) es recompensado porque el riesgo específico puede eliminarse con diversificación.",
+      "id": 16
+    },
+    {
+      "pregunta": "Un activo con beta = 0 tiene una rentabilidad esperada según CAPM de:",
+      "opciones": [
+        "Cero",
+        "Igual a la del mercado",
+        "Igual a la tasa libre de riesgo",
+        "Negativa"
+      ],
+      "correcta": 2,
+      "explicacion": "Si β = 0: E(Ri) = Rf + 0 × (E(Rm) - Rf) = Rf. Un activo sin riesgo sistemático debe rendir solo la tasa libre de riesgo.",
+      "id": 17
+    },
+    {
+      "pregunta": "Si Rf = 3%, E(Rm) = 10% y beta de una acción = 1,5, su rentabilidad esperada es:",
+      "opciones": [
+        "10,5%",
+        "13,5%",
+        "15%",
+        "7%"
+      ],
+      "correcta": 1,
+      "explicacion": "* E(Ri) = Rf + β × (E(Rm) - Rf) E(Ri) = 3% + 1,5 × (10% - 3%) = 3% + 1,5 × 7% = 3% + 10,5% = 13,5%",
+      "id": 18
+    },
+    {
+      "pregunta": "La SML (Security Market Line) grafica:",
+      "opciones": [
+        "Rentabilidad esperada vs. desviación típica",
+        "Rentabilidad esperada vs. beta",
+        "Rentabilidad real vs. beta",
+        "Volatilidad vs. correlación"
+      ],
+      "correcta": 1,
+      "explicacion": "La SML representa la relación CAPM: rentabilidad esperada en función de beta. Todo activo correctamente valorado debe situarse sobre la línea.",
+      "id": 19
+    },
+    {
+      "pregunta": "Un activo situado por encima de la SML está:",
+      "opciones": [
+        "Sobrevalorado",
+        "Infravalorado (ofrece mayor rentabilidad de la que debería para su riesgo)",
+        "Correctamente valorado",
+        "Sin riesgo"
+      ],
+      "correcta": 1,
+      "explicacion": "Un activo por encima de la SML ofrece mayor rentabilidad esperada de la justificada por su beta. Está infravalorado; comprarlo genera alfa positivo hasta que el precio suba.",
+      "id": 20
+    },
+    {
+      "pregunta": "La beta de una cartera es:",
+      "opciones": [
+        "La media geométrica de las betas individuales",
+        "La media ponderada de las betas de los activos que la componen",
+        "Siempre igual a 1",
+        "El máximo de las betas individuales"
+      ],
+      "correcta": 1,
+      "explicacion": "βp = Σ(wi × βi). La beta de una cartera es la suma ponderada de las betas de sus componentes, donde los pesos son las proporciones invertidas en cada activo.",
+      "id": 21
+    },
+    {
+      "pregunta": "Una cartera 60% acciones (β=1,2) y 40% bonos (β=0,2). ¿Cuál es la beta de la cartera?",
+      "opciones": [
+        "0,80",
+        "0,72",
+        "1,00",
+        "0,70"
+      ],
+      "correcta": 0,
+      "explicacion": "* βp = 0,60 × 1,2 + 0,40 × 0,2 = 0,72 + 0,08 = 0,80",
+      "id": 22
+    },
+    {
+      "pregunta": "El alfa de Jensen positivo indica que:",
+      "opciones": [
+        "El gestor ha destruido valor",
+        "El gestor ha añadido valor ajustado por riesgo",
+        "La cartera tiene beta negativa",
+        "El mercado ha subido"
+      ],
+      "correcta": 1,
+      "explicacion": "Alfa positivo significa que la rentabilidad real supera la esperada según CAPM para esa beta. El gestor ha generado rentabilidad extra (valor añadido) ajustada por el riesgo asumido.",
+      "id": 23
+    },
+    {
+      "pregunta": "Una cartera tiene rentabilidad 12%, el mercado 9%, Rf 2% y beta 1,3. ¿Cuál es el alfa de Jensen?",
+      "opciones": [
+        "0,9%",
+        "-0,9%",
+        "3%",
+        "0%"
+      ],
+      "correcta": 0,
+      "explicacion": "* Rentabilidad esperada CAPM = 2% + 1,3 × (9% - 2%) = 2% + 9,1% = 11,1% Alfa = Rentabilidad real - Rentabilidad esperada = 12% - 11,1% = 0,9%",
+      "id": 24
+    },
+    {
+      "pregunta": "El modelo APT (Arbitrage Pricing Theory) difiere del CAPM en que:",
+      "opciones": [
+        "No considera el riesgo",
+        "Permite múltiples factores de riesgo, no solo el mercado",
+        "Ignora la diversificación",
+        "Solo es válido para bonos"
+      ],
+      "correcta": 1,
+      "explicacion": "El APT es un modelo multifactorial donde la rentabilidad esperada depende de la exposición a varios factores de riesgo (inflación, producción industrial, etc.), no solo al mercado como en CAPM.",
+      "id": 25
+    },
+    {
+      "pregunta": "La asignación estratégica de activos (SAA) se basa en:",
+      "opciones": [
+        "Expectativas a corto plazo",
+        "Objetivos a largo plazo y perfil de riesgo del inversor",
+        "Predicciones diarias del mercado",
+        "Solo el tipo de interés actual"
+      ],
+      "correcta": 1,
+      "explicacion": "La SAA establece la distribución objetivo entre clases de activos basándose en el horizonte temporal, objetivos financieros y tolerancia al riesgo del inversor. Es una visión de largo plazo.",
+      "id": 26
+    },
+    {
+      "pregunta": "La asignación táctica de activos (TAA) implica:",
+      "opciones": [
+        "No modificar nunca la cartera",
+        "Desviaciones temporales de la SAA para aprovechar oportunidades de mercado",
+        "Cambiar completamente la estrategia cada mes",
+        "Solo invertir en activos tácticos"
+      ],
+      "correcta": 1,
+      "explicacion": "La TAA permite desviaciones controladas de la asignación estratégica para beneficiarse de ineficiencias o expectativas de corto plazo en los mercados, manteniendo bandas de tolerancia.",
+      "id": 27
+    },
+    {
+      "pregunta": "Un inversor con horizonte de 30 años para la jubilación debería tener típicamente:",
+      "opciones": [
+        "100% renta fija",
+        "Mayor proporción de renta variable que uno con horizonte de 5 años",
+        "100% liquidez",
+        "Solo bonos del Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "Con horizonte largo, hay más capacidad de asumir volatilidad a corto plazo y beneficiarse del mayor potencial de rentabilidad de la renta variable. La proporción de RV disminuye al acercarse la jubilación.",
+      "id": 28
+    },
+    {
+      "pregunta": "La regla \"100 menos la edad\" sugiere:",
+      "opciones": [
+        "Invertir tu edad en renta variable",
+        "El porcentaje de renta variable debería ser aproximadamente 100 menos tu edad",
+        "No invertir hasta los 100 años",
+        "Rebalancear cada 100 días"
+      ],
+      "correcta": 1,
+      "explicacion": "Es una regla heurística simple: si tienes 30 años, aproximadamente 70% en renta variable y 30% en renta fija. A los 60, sería 40%/60%. Es orientativa, no prescriptiva.",
+      "id": 29
+    },
+    {
+      "pregunta": "El rebalanceo de cartera consiste en:",
+      "opciones": [
+        "Vender todo y empezar de nuevo",
+        "Ajustar los pesos de la cartera para volver a la asignación objetivo",
+        "Solo comprar más activos",
+        "Cambiar de gestora"
+      ],
+      "correcta": 1,
+      "explicacion": "El rebalanceo implica comprar/vender activos para que los pesos vuelvan a la asignación estratégica objetivo cuando se han desviado por movimientos de mercado.",
+      "id": 30
+    },
+    {
+      "pregunta": "El rebalanceo \"calendar\" se realiza:",
+      "opciones": [
+        "Cuando los pesos se desvían un porcentaje fijo",
+        "En fechas predeterminadas (mensual, trimestral, anual)",
+        "Solo en mercados bajistas",
+        "Nunca"
+      ],
+      "correcta": 1,
+      "explicacion": "El rebalanceo calendar se hace en intervalos fijos de tiempo (cada mes, trimestre, año) independientemente de las desviaciones. El rebalanceo \"threshold\" se hace cuando los pesos se desvían de umbrales.",
+      "id": 31
+    },
+    {
+      "pregunta": "Una cartera 50/50 acciones/bonos ha evolucionado a 60/40 por subida de las acciones. Para rebalancear:",
+      "opciones": [
+        "Comprar más acciones",
+        "Vender acciones y comprar bonos",
+        "Vender bonos y comprar acciones",
+        "No hacer nada"
+      ],
+      "correcta": 1,
+      "explicacion": "Para volver a 50/50 desde 60/40, hay que vender acciones (que están sobreponderadas) y comprar bonos (infraponderados). El rebalanceo implica \"vender caro, comprar barato\".",
+      "id": 32
+    },
+    {
+      "pregunta": "El efecto \"flight to quality\" en crisis de mercado implica:",
+      "opciones": [
+        "Aumento de correlaciones entre todos los activos",
+        "Los inversores buscan activos refugio (bonos gobierno, oro)",
+        "Mayor diversificación efectiva",
+        "Subida de todos los activos"
+      ],
+      "correcta": 1,
+      "explicacion": "En crisis, los inversores huyen hacia activos considerados seguros (bonos soberanos de países sólidos, oro, dólar), reduciendo su precio y subiendo los de activos de riesgo.",
+      "id": 33
+    },
+    {
+      "pregunta": "La correlación entre activos tiende a aumentar en:",
+      "opciones": [
+        "Mercados alcistas tranquilos",
+        "Periodos de crisis y alta volatilidad",
+        "Entornos de tipos bajos",
+        "Nunca cambia"
+      ],
+      "correcta": 1,
+      "explicacion": "En crisis, las correlaciones aumentan (\"todo cae junto\"), reduciendo el beneficio de la diversificación justo cuando más se necesita. Es un fenómeno bien documentado empíricamente.",
+      "id": 34
+    },
+    {
+      "pregunta": "Una cartera \"all-weather\" o \"todo clima\" busca:",
+      "opciones": [
+        "Maximizar rentabilidad en mercados alcistas",
+        "Comportarse razonablemente bien en diferentes entornos económicos",
+        "Solo invertir en un tipo de activo",
+        "Eliminar todo el riesgo"
+      ],
+      "correcta": 1,
+      "explicacion": "Las carteras all-weather combinan activos que funcionan bien en diferentes escenarios (crecimiento, recesión, inflación, deflación) buscando estabilidad en cualquier entorno.",
+      "id": 35
+    },
+    {
+      "pregunta": "El modelo de Black-Litterman permite:",
+      "opciones": [
+        "Ignorar las expectativas del mercado",
+        "Combinar el equilibrio de mercado con las visiones del gestor",
+        "Invertir solo en activos alternativos",
+        "Eliminar el riesgo de divisa"
+      ],
+      "correcta": 1,
+      "explicacion": "Black-Litterman parte del equilibrio de mercado (capitalización) y lo ajusta incorporando las opiniones del gestor sobre rentabilidades esperadas, generando carteras más estables y realistas.",
+      "id": 36
+    },
+    {
+      "pregunta": "La cartera de mercado teórica según CAPM incluye:",
+      "opciones": [
+        "Solo acciones del país doméstico",
+        "Todos los activos del mundo en proporción a su capitalización",
+        "Solo renta fija",
+        "50% acciones, 50% bonos"
+      ],
+      "correcta": 1,
+      "explicacion": "Teóricamente, la cartera de mercado incluye todos los activos invertibles del mundo ponderados por su valor de mercado. En la práctica se aproxima con índices amplios.",
+      "id": 37
+    },
+    {
+      "pregunta": "Un inversor conservador típicamente tiene:",
+      "opciones": [
+        "Alta tolerancia al riesgo",
+        "Mayor proporción de renta fija y activos de bajo riesgo",
+        "100% renta variable",
+        "Preferencia por activos ilíquidos"
+      ],
+      "correcta": 1,
+      "explicacion": "El perfil conservador implica baja tolerancia al riesgo, preferencia por preservación de capital, y típicamente mayor peso en renta fija, monetarios y activos estables.",
+      "id": 38
+    },
+    {
+      "pregunta": "El core-satellite es una estrategia que combina:",
+      "opciones": [
+        "Solo gestión pasiva",
+        "Un núcleo (core) indexado con posiciones satélite de gestión activa",
+        "Solo gestión activa",
+        "Inversión en satélites de comunicación"
+      ],
+      "correcta": 1,
+      "explicacion": "Core-satellite combina un núcleo de cartera gestionado pasivamente (bajo coste, exposición al mercado) con posiciones satélite de gestión activa o alternativa para buscar alfa.",
+      "id": 39
+    },
+    {
+      "pregunta": "El riesgo de longevidad en planificación de jubilación se refiere a:",
+      "opciones": [
+        "El riesgo de inversión",
+        "El riesgo de vivir más de lo esperado y agotar los ahorros",
+        "El riesgo de inflación",
+        "El riesgo de tipo de cambio"
+      ],
+      "correcta": 1,
+      "explicacion": "El riesgo de longevidad es la posibilidad de que la esperanza de vida supere las previsiones, agotando los recursos financieros previstos para la jubilación.",
+      "id": 40
+    },
+    {
+      "pregunta": "Una estrategia de \"income\" o rentas busca:",
+      "opciones": [
+        "Máxima apreciación del capital",
+        "Generar flujos de caja regulares (dividendos, cupones)",
+        "Crecimiento agresivo",
+        "Solo invertir en startups"
+      ],
+      "correcta": 1,
+      "explicacion": "Las estrategias de income priorizan la generación de rentas periódicas (dividendos de acciones, cupones de bonos, alquileres) sobre la apreciación de capital.",
+      "id": 41
+    },
+    {
+      "pregunta": "La diversificación internacional puede reducir el riesgo porque:",
+      "opciones": [
+        "Los mercados de diferentes países no están perfectamente correlacionados",
+        "Todos los mercados suben siempre",
+        "No hay riesgo de divisa",
+        "Los costes son menores"
+      ],
+      "correcta": 0,
+      "explicacion": "Los ciclos económicos y mercados de diferentes países no están perfectamente sincronizados. Diversificar internacionalmente añade activos con correlaciones imperfectas, reduciendo riesgo.",
+      "id": 42
+    },
+    {
+      "pregunta": "El \"home bias\" es la tendencia de los inversores a:",
+      "opciones": [
+        "Diversificar internacionalmente",
+        "Sobreponderar activos de su propio país",
+        "Invertir solo en activos alternativos",
+        "Evitar la renta variable"
+      ],
+      "correcta": 1,
+      "explicacion": "El sesgo doméstico (home bias) es la tendencia documentada de los inversores a invertir desproporcionadamente en activos de su propio país, renunciando a beneficios de diversificación internacional.",
+      "id": 43
+    },
+    {
+      "pregunta": "Para un inversor español, ¿cuál inversión tiene riesgo de divisa?",
+      "opciones": [
+        "Letras del Tesoro español",
+        "Acciones del IBEX 35",
+        "ETF de S&P 500 no cubierto",
+        "Depósito bancario en euros"
+      ],
+      "correcta": 2,
+      "explicacion": "Un ETF del S&P 500 invierte en activos denominados en dólares. Si el dólar se deprecia frente al euro, el valor en euros de la inversión baja aunque las acciones suban.",
+      "id": 44
+    },
+    {
+      "pregunta": "La cobertura de divisa al 100% en una cartera internacional:",
+      "opciones": [
+        "Elimina todo el riesgo",
+        "Elimina el riesgo de tipo de cambio pero tiene costes",
+        "Aumenta la rentabilidad siempre",
+        "No tiene ningún coste"
+      ],
+      "correcta": 1,
+      "explicacion": "Cubrir la divisa elimina la exposición al tipo de cambio pero tiene costes (coste del forward, rollover). Además, se renuncia a posibles ganancias si la divisa extranjera se aprecia.",
+      "id": 45
+    },
+    {
+      "pregunta": "El riesgo de secuencia de retornos es especialmente relevante en:",
+      "opciones": [
+        "Fase de acumulación",
+        "Fase de desacumulación/jubilación (primeros años retirando)",
+        "Carteras muy diversificadas",
+        "Inversores jóvenes"
+      ],
+      "correcta": 1,
+      "explicacion": "El riesgo de secuencia afecta especialmente a jubilados: si los primeros años de retiro coinciden con un mercado bajista, las retiradas sobre una cartera depreciada pueden agotar los fondos prematuramente.",
+      "id": 46
+    },
+    {
+      "pregunta": "Una cartera equiponderada (equal-weighted):",
+      "opciones": [
+        "Pondera por capitalización",
+        "Asigna el mismo peso a cada activo",
+        "Solo incluye un activo",
+        "Cambia los pesos diariamente"
+      ],
+      "correcta": 1,
+      "explicacion": "En una cartera equiponderada, cada activo tiene el mismo peso inicial (ej: 10 acciones × 10% cada una). Difiere de ponderación por capitalización donde las empresas grandes pesan más.",
+      "id": 47
+    },
+    {
+      "pregunta": "El \"factor investing\" se basa en:",
+      "opciones": [
+        "Invertir solo en un sector",
+        "Construir carteras con exposición a factores de riesgo específicos (value, momentum, size, etc.)",
+        "Ignorar cualquier análisis",
+        "Solo gestión pasiva tradicional"
+      ],
+      "correcta": 1,
+      "explicacion": "Factor investing busca exposición sistemática a factores que históricamente han generado primas de rentabilidad: value, momentum, quality, size, low volatility, etc.",
+      "id": 48
+    },
+    {
+      "pregunta": "El factor momentum invierte en:",
+      "opciones": [
+        "Acciones que han caído mucho",
+        "Acciones que han tenido buen comportamiento reciente",
+        "Acciones de empresas pequeñas",
+        "Acciones de alto dividendo"
+      ],
+      "correcta": 1,
+      "explicacion": "La estrategia momentum compra activos con buen rendimiento reciente (ganadores) y vende/evita los de mal rendimiento (perdedores), basándose en la persistencia de tendencias.",
+      "id": 49
+    },
+    {
+      "pregunta": "El factor \"quality\" busca empresas con:",
+      "opciones": [
+        "Alto endeudamiento",
+        "Alta rentabilidad, bajo endeudamiento, beneficios estables",
+        "Alto crecimiento sin importar la calidad",
+        "Bajos márgenes"
+      ],
+      "correcta": 1,
+      "explicacion": "El factor quality selecciona empresas con características de calidad: alta rentabilidad sobre recursos (ROE), bajo apalancamiento, beneficios estables, buenos márgenes.",
+      "id": 50
+    },
+    {
+      "pregunta": "La rentabilidad ponderada por tiempo (TWR) elimina el efecto de:",
+      "opciones": [
+        "Las comisiones",
+        "Los flujos de entrada y salida de capital",
+        "La inflación",
+        "Los dividendos"
+      ],
+      "correcta": 1,
+      "explicacion": "TWR (Time-Weighted Return) geometriza las rentabilidades de subperiodos entre flujos, eliminando el impacto de las decisiones de timing del inversor. Mide la habilidad del gestor.",
+      "id": 51
+    },
+    {
+      "pregunta": "La rentabilidad ponderada por dinero (MWR o IRR) es relevante para:",
+      "opciones": [
+        "Evaluar al gestor independientemente de flujos",
+        "Medir la rentabilidad real obtenida por el inversor considerando sus flujos",
+        "Calcular el ratio de Sharpe",
+        "Determinar la beta"
+      ],
+      "correcta": 1,
+      "explicacion": "MWR (Money-Weighted Return) o TIR considera el timing y magnitud de los flujos del inversor. Es la rentabilidad real experimentada por ese inversor específico.",
+      "id": 52
+    },
+    {
+      "pregunta": "Una cartera tuvo rentabilidades de +10%, -5%, +15% en tres años consecutivos. ¿Cuál es la TWR anualizada?",
+      "opciones": [
+        "6,67%",
+        "6,37%",
+        "20%",
+        "5,00%"
+      ],
+      "correcta": 1,
+      "explicacion": "* TWR = [(1+0,10) × (1-0,05) × (1+0,15)]^(1/3) - 1 TWR = [1,10 × 0,95 × 1,15]^(1/3) - 1 = [1,2018]^(1/3) - 1 = 1,0633 - 1 = 6,33% ≈ 6,37%",
+      "id": 53
+    },
+    {
+      "pregunta": "El benchmark de una cartera debe ser:",
+      "opciones": [
+        "Siempre el IBEX 35",
+        "Relevante, invertible, medible y conocido de antemano",
+        "El fondo con mejor rentabilidad del año anterior",
+        "Un índice que la cartera siempre bata"
+      ],
+      "correcta": 1,
+      "explicacion": "Un benchmark válido debe ser: relevante (similar al universo de inversión), invertible (replicable), medible (rendimiento calculable), y especificado de antemano (no elegido a posteriori).",
+      "id": 54
+    },
+    {
+      "pregunta": "El ratio de Sharpe de una cartera con rentabilidad 8%, Rf 2% y volatilidad 15% es:",
+      "opciones": [
+        "0,40",
+        "0,53",
+        "0,60",
+        "4,00"
+      ],
+      "correcta": 0,
+      "explicacion": "* Sharpe = (R - Rf) / σ = (8% - 2%) / 15% = 6% / 15% = 0,40",
+      "id": 55
+    },
+    {
+      "pregunta": "Un ratio de Sharpe de 1,0 se considera generalmente:",
+      "opciones": [
+        "Muy malo",
+        "Bueno",
+        "Imposible",
+        "Solo para bonos"
+      ],
+      "correcta": 1,
+      "explicacion": "Un Sharpe de 1,0 indica que por cada unidad de riesgo se obtiene una unidad de exceso de rentabilidad. Sharpe > 1 es muy bueno; > 0,5 es aceptable; < 0 indica rendimiento inferior al libre de riesgo.",
+      "id": 56
+    },
+    {
+      "pregunta": "El ratio de Treynor de una cartera con rentabilidad 12%, Rf 3% y beta 1,2 es:",
+      "opciones": [
+        "7,5%",
+        "9%",
+        "10%",
+        "12%"
+      ],
+      "correcta": 0,
+      "explicacion": "* Treynor = (R - Rf) / β = (12% - 3%) / 1,2 = 9% / 1,2 = 7,5%",
+      "id": 57
+    },
+    {
+      "pregunta": "El ratio de información (IR) superior a 0,5 se considera:",
+      "opciones": [
+        "Malo",
+        "Bueno",
+        "Imposible de alcanzar consistentemente",
+        "Irrelevante"
+      ],
+      "correcta": 1,
+      "explicacion": "IR > 0,5 es bueno; IR > 1,0 es excelente pero difícil de mantener. Mide la consistencia del gestor en generar alfa relativo al tracking error asumido.",
+      "id": 58
+    },
+    {
+      "pregunta": "El tracking error de un fondo indexado debería ser:",
+      "opciones": [
+        "Alto",
+        "Muy bajo (cercano a cero)",
+        "Igual al del mercado",
+        "Negativo"
+      ],
+      "correcta": 1,
+      "explicacion": "Un fondo indexado busca replicar exactamente su benchmark, por lo que su tracking error (desviación respecto al índice) debe ser mínimo, idealmente cercano a cero.",
+      "id": 59
+    },
+    {
+      "pregunta": "La atribución de rendimiento descompone la rentabilidad en:",
+      "opciones": [
+        "Solo suerte y habilidad",
+        "Efecto asignación, efecto selección y efecto interacción",
+        "Rentabilidad y riesgo",
+        "Alfa y beta únicamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La atribución clásica (Brinson) descompone el exceso de rentabilidad en: efecto asignación (sobre/infraponderar sectores), efecto selección (elegir mejores valores dentro del sector) y efecto interacción.",
+      "id": 60
+    },
+    {
+      "pregunta": "El efecto asignación en la atribución de rendimiento mide:",
+      "opciones": [
+        "La selección de valores individuales",
+        "El impacto de sobre/infraponderar clases de activos respecto al benchmark",
+        "Los costes de transacción",
+        "El riesgo de divisa"
+      ],
+      "correcta": 1,
+      "explicacion": "El efecto asignación (allocation effect) captura el valor añadido/destruido por las decisiones de peso entre sectores o clases de activos diferentes al benchmark.",
+      "id": 61
+    },
+    {
+      "pregunta": "Un gestor con alfa negativo y tracking error alto tiene:",
+      "opciones": [
+        "Buena gestión activa",
+        "Mala gestión activa (asume riesgo activo pero destruye valor)",
+        "Gestión pasiva eficiente",
+        "Ratio de información alto"
+      ],
+      "correcta": 1,
+      "explicacion": "Alfa negativo indica que no bate al benchmark ajustado por riesgo. Alto tracking error indica mucha desviación del índice. Combinar ambos es lo peor: tomar riesgo activo sin recompensa.",
+      "id": 62
+    },
+    {
+      "pregunta": "El drawdown máximo de una cartera fue -25%. Esto significa:",
+      "opciones": [
+        "La cartera perdió 25% en total",
+        "La máxima caída desde un pico hasta un valle fue 25%",
+        "La volatilidad es 25%",
+        "El Sharpe es -0,25"
+      ],
+      "correcta": 1,
+      "explicacion": "El drawdown máximo es la mayor caída porcentual desde cualquier máximo histórico hasta el mínimo posterior. Indica la peor experiencia posible para alguien que entró en el peor momento.",
+      "id": 63
+    },
+    {
+      "pregunta": "El ratio Calmar relaciona:",
+      "opciones": [
+        "Rentabilidad y volatilidad",
+        "Rentabilidad anualizada y drawdown máximo",
+        "Alfa y tracking error",
+        "Beta y Sharpe"
+      ],
+      "correcta": 1,
+      "explicacion": "Calmar = Rentabilidad anualizada / |Drawdown máximo|. Mide la rentabilidad ajustada por la peor experiencia de caída. Útil para evaluar estrategias con posibles caídas severas.",
+      "id": 64
+    },
+    {
+      "pregunta": "El ratio Sortino utiliza como medida de riesgo:",
+      "opciones": [
+        "La volatilidad total",
+        "Solo la volatilidad de las rentabilidades negativas (downside deviation)",
+        "La beta",
+        "El tracking error"
+      ],
+      "correcta": 1,
+      "explicacion": "Sortino = (R - Rf) / Downside deviation. Solo penaliza las desviaciones negativas, no la volatilidad al alza. Es más relevante para inversores preocupados solo por pérdidas.",
+      "id": 65
+    },
+    {
+      "pregunta": "Una cartera con rentabilidad del 10% y downside deviation del 8% tiene un ratio Sortino (Rf=2%) de:",
+      "opciones": [
+        "1,25",
+        "1,00",
+        "0,80",
+        "10%"
+      ],
+      "correcta": 1,
+      "explicacion": "* Sortino = (R - Rf) / Downside dev = (10% - 2%) / 8% = 8% / 8% = 1,00",
+      "id": 66
+    },
+    {
+      "pregunta": "El exceso de rentabilidad (alpha) de un fondo vs su benchmark fue 2% con tracking error de 4%. ¿Cuál es el Information Ratio?",
+      "opciones": [
+        "0,50",
+        "2,00",
+        "8%",
+        "0,08"
+      ],
+      "correcta": 0,
+      "explicacion": "* IR = Alpha / Tracking error = 2% / 4% = 0,50",
+      "id": 67
+    },
+    {
+      "pregunta": "La rentabilidad ajustada por riesgo más alta la tiene la cartera con:",
+      "opciones": [
+        "Mayor rentabilidad absoluta",
+        "Mayor ratio de Sharpe",
+        "Mayor volatilidad",
+        "Mayor tracking error"
+      ],
+      "correcta": 1,
+      "explicacion": "El ratio de Sharpe mide la rentabilidad por unidad de riesgo total. La cartera con mayor Sharpe ofrece la mejor relación rentabilidad/riesgo.",
+      "id": 68
+    },
+    {
+      "pregunta": "Para comparar dos fondos de la misma categoría, el ratio más apropiado es:",
+      "opciones": [
+        "Solo la rentabilidad absoluta",
+        "El ratio de información respecto al benchmark común",
+        "El tamaño del fondo",
+        "La antigüedad del gestor"
+      ],
+      "correcta": 1,
+      "explicacion": "El Information Ratio permite comparar gestores con el mismo benchmark, midiendo cuánto alfa generan por unidad de riesgo activo (tracking error) asumido.",
+      "id": 69
+    },
+    {
+      "pregunta": "Un fondo con R² de 0,30 respecto a su benchmark tiene:",
+      "opciones": [
+        "Alta correlación con el benchmark",
+        "Baja correlación - puede no ser el benchmark adecuado",
+        "Tracking error cero",
+        "Alfa negativo"
+      ],
+      "correcta": 1,
+      "explicacion": "R² = 0,30 significa que solo el 30% de la variabilidad del fondo se explica por el benchmark. Esto sugiere que el benchmark puede no ser apropiado o el fondo tiene mucha gestión activa.",
+      "id": 70
+    },
+    {
+      "pregunta": "El VaR (Value at Risk) mide:",
+      "opciones": [
+        "La rentabilidad esperada",
+        "La máxima pérdida esperada con un nivel de confianza en un horizonte temporal",
+        "El beneficio mínimo garantizado",
+        "La volatilidad histórica"
+      ],
+      "correcta": 1,
+      "explicacion": "VaR cuantifica la pérdida máxima potencial de una cartera con un nivel de confianza (ej: 95%) en un horizonte temporal dado (ej: 1 día). \"Con 95% de confianza, no perderemos más de X€ en un día.\"",
+      "id": 71
+    },
+    {
+      "pregunta": "Un VaR diario del 2% al 95% de confianza significa:",
+      "opciones": [
+        "Perderemos 2% todos los días",
+        "En el 95% de los días, la pérdida no superará el 2%",
+        "Ganaremos 2% el 95% de las veces",
+        "La volatilidad es 2%"
+      ],
+      "correcta": 1,
+      "explicacion": "VaR 2% al 95% indica que hay un 95% de probabilidad de que la pérdida diaria sea menor o igual al 2%. Equivalentemente, hay un 5% de probabilidad de perder más del 2%.",
+      "id": 72
+    },
+    {
+      "pregunta": "El VaR paramétrico asume:",
+      "opciones": [
+        "Distribución cualquiera",
+        "Distribución normal de los rendimientos",
+        "No hay volatilidad",
+        "Correlaciones de 1"
+      ],
+      "correcta": 1,
+      "explicacion": "El VaR paramétrico (o analítico) asume que los rendimientos siguen una distribución normal, permitiendo calcular el VaR a partir de la media, volatilidad y el cuantil correspondiente.",
+      "id": 73
+    },
+    {
+      "pregunta": "Una cartera con volatilidad anual del 20% y valor de 1 millón €. El VaR diario al 95% (aproximadamente 1,65σ) es:",
+      "opciones": [
+        "Aprox. 20.000€",
+        "Aprox. 330.000€",
+        "Aprox. 2.000€",
+        "Aprox. 165.000€"
+      ],
+      "correcta": 0,
+      "explicacion": "* σ diaria ≈ σ anual / √252 = 20% / 15,87 ≈ 1,26% VaR diario 95% = 1,65 × 1,26% × 1.000.000€ ≈ 1,65 × 12.600€ ≈ 20.790€ ≈ 20.000€",
+      "id": 74
+    },
+    {
+      "pregunta": "El CVaR (Conditional VaR) o Expected Shortfall mide:",
+      "opciones": [
+        "Lo mismo que el VaR",
+        "La pérdida esperada en el caso de que se supere el VaR",
+        "La ganancia esperada",
+        "La volatilidad condicional"
+      ],
+      "correcta": 1,
+      "explicacion": "El CVaR (o Expected Shortfall) es la pérdida promedio esperada cuando se supera el umbral del VaR. Captura mejor el riesgo de cola que el VaR básico.",
+      "id": 75
+    },
+    {
+      "pregunta": "El riesgo de cola (tail risk) se refiere a:",
+      "opciones": [
+        "El riesgo promedio",
+        "El riesgo de eventos extremos con probabilidad baja pero impacto alto",
+        "El riesgo de mercado normal",
+        "La volatilidad diaria"
+      ],
+      "correcta": 1,
+      "explicacion": "El tail risk son los eventos en las colas de la distribución: poco probables pero de gran impacto. Las distribuciones financieras suelen tener \"colas gordas\" (más eventos extremos de lo que predice la normal).",
+      "id": 76
+    },
+    {
+      "pregunta": "Un stress test de cartera:",
+      "opciones": [
+        "Mide la volatilidad normal",
+        "Evalúa el comportamiento de la cartera ante escenarios extremos",
+        "Solo analiza rentabilidades positivas",
+        "Calcula el Sharpe"
+      ],
+      "correcta": 1,
+      "explicacion": "Los stress tests simulan escenarios adversos (crisis 2008, subida de tipos de 200pb, caída del mercado del 40%) para evaluar cómo se comportaría la cartera en situaciones extremas.",
+      "id": 77
+    },
+    {
+      "pregunta": "El análisis de sensibilidad de una cartera evalúa:",
+      "opciones": [
+        "Solo el riesgo de crédito",
+        "Cómo cambia el valor ante variaciones en factores de riesgo",
+        "La rentabilidad histórica",
+        "Los costes de transacción"
+      ],
+      "correcta": 1,
+      "explicacion": "El análisis de sensibilidad mide cómo varía el valor de la cartera ante cambios en factores de riesgo: tipos de interés, tipos de cambio, spreads de crédito, volatilidad, etc.",
+      "id": 78
+    },
+    {
+      "pregunta": "El riesgo de liquidez en una cartera se refiere a:",
+      "opciones": [
+        "No poder vender activos rápidamente a precio justo",
+        "Tener demasiado efectivo",
+        "El riesgo de tipo de interés",
+        "La volatilidad del mercado"
+      ],
+      "correcta": 0,
+      "explicacion": "El riesgo de liquidez es la posibilidad de no poder vender activos rápidamente sin aceptar un descuento significativo sobre el valor justo. Afecta especialmente a activos ilíquidos o en momentos de crisis.",
+      "id": 79
+    },
+    {
+      "pregunta": "Una cartera con duración efectiva de 6 años perderá aproximadamente ante una subida de tipos de 50pb:",
+      "opciones": [
+        "3%",
+        "6%",
+        "0,5%",
+        "12%"
+      ],
+      "correcta": 0,
+      "explicacion": "* Cambio % precio ≈ -Duración × Cambio tipos = -6 × 0,50% = -3%",
+      "id": 80
+    },
+    {
+      "pregunta": "Para reducir el riesgo de tipo de interés de una cartera de bonos se puede:",
+      "opciones": [
+        "Aumentar la duración",
+        "Reducir la duración",
+        "Aumentar el crédito",
+        "Invertir más en renta variable"
+      ],
+      "correcta": 1,
+      "explicacion": "Reducir la duración (comprando bonos de menor plazo o vendiendo los de largo plazo) disminuye la sensibilidad de la cartera a movimientos de tipos de interés.",
+      "id": 81
+    },
+    {
+      "pregunta": "El riesgo de contrapartida en derivados OTC es:",
+      "opciones": [
+        "El riesgo de que el mercado caiga",
+        "El riesgo de que la contraparte no cumpla sus obligaciones",
+        "El riesgo de tipo de cambio",
+        "La volatilidad del subyacente"
+      ],
+      "correcta": 1,
+      "explicacion": "En derivados OTC (no compensados en cámara), existe riesgo de que la contraparte incumpla (quiebre, no pague). Se mitiga con colateral y CSAs (Credit Support Annexes).",
+      "id": 82
+    },
+    {
+      "pregunta": "Una estrategia de cobertura con futuros es \"perfecta\" cuando:",
+      "opciones": [
+        "Genera beneficios siempre",
+        "La correlación entre el activo a cubrir y el futuro es 1",
+        "No tiene costes",
+        "El futuro es muy volátil"
+      ],
+      "correcta": 1,
+      "explicacion": "Una cobertura perfecta requiere correlación 1 entre el activo y el instrumento de cobertura. En la práctica siempre hay \"basis risk\" porque la correlación es imperfecta.",
+      "id": 83
+    },
+    {
+      "pregunta": "El ratio de cobertura óptimo depende de:",
+      "opciones": [
+        "Solo el tamaño de la posición",
+        "La correlación y las volatilidades relativas del activo y el instrumento de cobertura",
+        "La fecha de vencimiento únicamente",
+        "El tipo de interés"
+      ],
+      "correcta": 1,
+      "explicacion": "* Ratio de cobertura óptimo h* = ρ × (σ_activo / σ_futuro) Depende de la correlación entre activo y futuro y de sus volatilidades relativas.",
+      "id": 84
+    },
+    {
+      "pregunta": "Una opción put comprada sobre una cartera de acciones proporciona:",
+      "opciones": [
+        "Cobertura completa y simétrica",
+        "Seguro contra caídas manteniendo el potencial alcista (a cambio de la prima)",
+        "Apalancamiento",
+        "Cobertura sin coste"
+      ],
+      "correcta": 1,
+      "explicacion": "Comprar una put es como un seguro: pagamos una prima para limitar las pérdidas (strike - prima), pero mantenemos el potencial de ganancia si el mercado sube.",
+      "id": 85
+    },
+    {
+      "pregunta": "Un collar (protective collar) combina:",
+      "opciones": [
+        "Solo calls compradas",
+        "Una put comprada y una call vendida sobre la misma cartera",
+        "Dos futuros",
+        "Solo puts vendidas"
+      ],
+      "correcta": 1,
+      "explicacion": "Un collar compra una put (protección contra caídas) y vende una call (limita ganancias al alza). La prima de la call vendida financia parcial o totalmente la put comprada. Resultado: rango limitado de pérdidas y ganancias.",
+      "id": 86
+    },
+    {
+      "pregunta": "El riesgo operacional incluye:",
+      "opciones": [
+        "Solo el riesgo de mercado",
+        "Errores humanos, fallos de sistemas, fraude, eventos externos",
+        "Solo el riesgo de crédito",
+        "La volatilidad de la cartera"
+      ],
+      "correcta": 1,
+      "explicacion": "El riesgo operacional abarca pérdidas por fallos en procesos internos, personas, sistemas o eventos externos: errores de ejecución, fraude, ciberataques, desastres naturales, etc.",
+      "id": 87
+    },
+    {
+      "pregunta": "La correlación entre activos en una cartera afecta principalmente a:",
+      "opciones": [
+        "La rentabilidad esperada",
+        "El riesgo (volatilidad) de la cartera",
+        "Los dividendos",
+        "Los costes de gestión"
+      ],
+      "correcta": 1,
+      "explicacion": "La correlación entre activos determina el beneficio de diversificación. Menores correlaciones reducen el riesgo de la cartera sin afectar la rentabilidad esperada (que es la media ponderada).",
+      "id": 88
+    },
+    {
+      "pregunta": "El tracking error como medida de riesgo es más relevante para:",
+      "opciones": [
+        "Fondos de gestión pasiva buscando replicar",
+        "Fondos de retorno absoluto",
+        "Carteras sin benchmark",
+        "Inversores que ignoran el benchmark"
+      ],
+      "correcta": 0,
+      "explicacion": "El tracking error mide la desviación respecto al benchmark. Es crucial para fondos indexados (debe ser bajo) y útil para evaluar el \"riesgo activo\" de gestores respecto a su índice.",
+      "id": 89
+    },
+    {
+      "pregunta": "El \"scenario analysis\" difiere del VaR en que:",
+      "opciones": [
+        "No considera el riesgo",
+        "Evalúa escenarios específicos predefinidos, no solo probabilidades estadísticas",
+        "Solo mira rentabilidades positivas",
+        "Ignora correlaciones"
+      ],
+      "correcta": 1,
+      "explicacion": "El análisis de escenarios evalúa impactos de situaciones específicas (guerra, crisis bancaria, subida de tipos de 300pb), mientras que VaR se basa en distribuciones estadísticas históricas o asumidas.",
+      "id": 90
+    },
+    {
+      "pregunta": "Un IPS (Investment Policy Statement) debe incluir:",
+      "opciones": [
+        "Solo la rentabilidad objetivo",
+        "Objetivos, restricciones, horizonte temporal, tolerancia al riesgo, restricciones de liquidez",
+        "Solo el nombre del cliente",
+        "Predicciones de mercado"
+      ],
+      "correcta": 1,
+      "explicacion": "El IPS es el documento que guía la gestión: objetivos de rentabilidad y riesgo, horizonte temporal, necesidades de liquidez, restricciones legales/regulatorias/éticas, consideraciones fiscales, y circunstancias únicas.",
+      "id": 91
+    },
+    {
+      "pregunta": "Los costes de transacción en una cartera incluyen:",
+      "opciones": [
+        "Solo las comisiones del broker",
+        "Comisiones, spread bid-ask, impacto de mercado, costes de oportunidad",
+        "Solo impuestos",
+        "Solo el TER del fondo"
+      ],
+      "correcta": 1,
+      "explicacion": "Los costes de transacción totales incluyen: comisiones explícitas, spread bid-ask, impacto de mercado (mover el precio con órdenes grandes), y costes de oportunidad por ejecución no inmediata.",
+      "id": 92
+    },
+    {
+      "pregunta": "El impacto de mercado (market impact) es mayor cuando:",
+      "opciones": [
+        "El mercado es muy líquido",
+        "La orden es grande respecto al volumen del activo",
+        "El spread es muy bajo",
+        "Se opera en futuros"
+      ],
+      "correcta": 1,
+      "explicacion": "El impacto de mercado es el movimiento de precio causado por nuestra propia orden. Es mayor cuanto mayor es la orden respecto a la liquidez del activo: grandes órdenes en activos ilíquidos mueven el precio significativamente.",
+      "id": 93
+    },
+    {
+      "pregunta": "El \"slippage\" en ejecución de órdenes se refiere a:",
+      "opciones": [
+        "La comisión del broker",
+        "La diferencia entre el precio esperado y el precio real de ejecución",
+        "El tracking error",
+        "La volatilidad del activo"
+      ],
+      "correcta": 1,
+      "explicacion": "Slippage es la diferencia entre el precio al que esperábamos operar (cuando decidimos) y el precio real de ejecución. Puede ocurrir por movimientos de mercado, impacto o mala ejecución.",
+      "id": 94
+    },
+    {
+      "pregunta": "Una orden \"limit\" en bolsa:",
+      "opciones": [
+        "Se ejecuta siempre inmediatamente",
+        "Solo se ejecuta al precio especificado o mejor",
+        "Se ejecuta a cualquier precio",
+        "No tiene precio límite"
+      ],
+      "correcta": 1,
+      "explicacion": "Una orden limitada solo se ejecuta si se alcanza el precio límite o uno mejor. Protege contra precios desfavorables pero puede no ejecutarse si el mercado no llega a ese precio.",
+      "id": 95
+    },
+    {
+      "pregunta": "El \"Best Execution\" obliga a los intermediarios a:",
+      "opciones": [
+        "Garantizar beneficios al cliente",
+        "Obtener el mejor resultado posible para el cliente considerando precio, costes, velocidad",
+        "Operar solo en una bolsa",
+        "Ignorar las instrucciones del cliente"
+      ],
+      "correcta": 1,
+      "explicacion": "Best Execution (MiFID II) requiere que los intermediarios tomen medidas razonables para obtener el mejor resultado posible: precio, costes, velocidad, probabilidad de ejecución y liquidación.",
+      "id": 96
+    },
+    {
+      "pregunta": "El reporting de cartera al cliente debe incluir típicamente:",
+      "opciones": [
+        "Solo la rentabilidad del último día",
+        "Composición, valoración, rentabilidades, comparativa con benchmark, costes",
+        "Solo los dividendos cobrados",
+        "Predicciones del gestor"
+      ],
+      "correcta": 1,
+      "explicacion": "Un informe completo de cartera incluye: posiciones y valoración actual, rentabilidades (varios periodos), comparativa con benchmark, desglose por activo/sector, costes y comisiones, y comentario de mercado.",
+      "id": 97
+    },
+    {
+      "pregunta": "La revisión periódica de una cartera debe considerar:",
+      "opciones": [
+        "Solo si ha subido",
+        "Cambios en circunstancias del cliente, desviaciones de la asignación, perspectivas de mercado",
+        "Solo los costes",
+        "Únicamente la inflación"
+      ],
+      "correcta": 1,
+      "explicacion": "La revisión periódica evalúa: cambios en objetivos/circunstancias del cliente, desviaciones de la SAA (necesidad de rebalanceo), evolución de mercados, y adecuación de la estrategia.",
+      "id": 98
+    },
+    {
+      "pregunta": "El \"fee\" basado en activos (AUM) alinea intereses porque:",
+      "opciones": [
+        "El gestor gana más si la cartera crece",
+        "El gestor no tiene incentivos",
+        "El cliente siempre gana",
+        "No hay comisiones"
+      ],
+      "correcta": 0,
+      "explicacion": "Con comisión sobre AUM (Assets Under Management), el gestor tiene incentivo para que crezca la cartera: si el valor sube, su comisión en términos absolutos también. Hay cierta alineación con el cliente.",
+      "id": 99
+    },
+    {
+      "pregunta": "Un gestor con \"skin in the game\" significa:",
+      "opciones": [
+        "Tiene experiencia en el sector",
+        "Tiene su propio dinero invertido en la misma estrategia que gestiona",
+        "Trabaja muchas horas",
+        "Tiene un equipo grande"
+      ],
+      "correcta": 1,
+      "explicacion": "\"Skin in the game\" significa que el gestor tiene su propio patrimonio invertido junto a los clientes. Esto alinea intereses: el gestor soporta las mismas ganancias y pérdidas que los inversores.",
+      "id": 100
+    }
+  ]
+}

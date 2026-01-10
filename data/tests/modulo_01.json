@@ -1,0 +1,1208 @@
+{
+  "nivel": "EIP",
+  "modulo": 1,
+  "titulo": "Instrumentos y Mercados Financieros",
+  "peso_examen": 25,
+  "preguntas": [
+    {
+      "pregunta": "El PIB nominal de un país ha crecido un 8% en el último año, mientras que la inflación ha sido del 3%. ¿Cuál ha sido aproximadamente el crecimiento del PIB real?",
+      "opciones": [
+        "11%",
+        "8%",
+        "5%",
+        "3%"
+      ],
+      "correcta": 2,
+      "explicacion": "El PIB real se calcula descontando la inflación del PIB nominal. Aproximadamente: PIB real ≈ PIB nominal - Inflación = 8% - 3% = 5%. La fórmula exacta sería: (1+0,08)/(1+0,03) - 1 = 4,85%, que se aproxima al 5%.",
+      "id": 1
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes indicadores es considerado un indicador adelantado del ciclo económico?",
+      "opciones": [
+        "Tasa de desempleo",
+        "PIB trimestral",
+        "Índice de confianza del consumidor",
+        "Inflación interanual"
+      ],
+      "correcta": 2,
+      "explicacion": "El índice de confianza del consumidor es un indicador adelantado porque anticipa cambios en el comportamiento económico. La tasa de desempleo y el PIB son indicadores retardados o coincidentes, ya que reflejan lo que ya ha ocurrido.",
+      "id": 2
+    },
+    {
+      "pregunta": "Según la Regla de Taylor, si la inflación está 2 puntos porcentuales por encima del objetivo y el output gap es cero, el banco central debería:",
+      "opciones": [
+        "Mantener los tipos de interés sin cambios",
+        "Bajar los tipos de interés",
+        "Subir los tipos de interés",
+        "Implementar quantitative easing"
+      ],
+      "correcta": 2,
+      "explicacion": "La Regla de Taylor establece que el banco central debe subir tipos cuando la inflación supera el objetivo. Con inflación 2pp por encima y output gap neutro, la regla sugiere subir tipos aproximadamente 1,5 × 2 = 3 puntos porcentuales sobre el tipo neutral.",
+      "id": 3
+    },
+    {
+      "pregunta": "En una fase de recesión económica, ¿cuál es el comportamiento típico de los tipos de interés y la bolsa?",
+      "opciones": [
+        "Tipos suben, bolsa sube",
+        "Tipos bajan, bolsa baja inicialmente",
+        "Tipos suben, bolsa baja",
+        "Tipos bajan, bolsa sube fuertemente"
+      ],
+      "correcta": 1,
+      "explicacion": "En recesión, los bancos centrales bajan tipos para estimular la economía, mientras que la bolsa inicialmente cae por la reducción de beneficios empresariales. La bolsa suele anticipar la recuperación y subir antes de que acabe la recesión.",
+      "id": 4
+    },
+    {
+      "pregunta": "El IPC subyacente excluye:",
+      "opciones": [
+        "Solo los alimentos",
+        "Solo la energía",
+        "Alimentos no elaborados y energía",
+        "Bienes importados"
+      ],
+      "correcta": 2,
+      "explicacion": "El IPC subyacente (o inflación subyacente) excluye los componentes más volátiles: alimentos no elaborados y productos energéticos. Esto permite observar la tendencia de fondo de la inflación sin las distorsiones de estos elementos.",
+      "id": 5
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes NO es un objetivo del Eurosistema?",
+      "opciones": [
+        "Mantener la estabilidad de precios",
+        "Maximizar el empleo",
+        "Apoyar las políticas económicas generales de la UE",
+        "Contribuir a la estabilidad del sistema financiero"
+      ],
+      "correcta": 1,
+      "explicacion": "A diferencia de la Reserva Federal (que tiene mandato dual: precios y empleo), el Eurosistema tiene como objetivo principal la estabilidad de precios. Maximizar el empleo no es un objetivo explícito del BCE, aunque sí apoya las políticas económicas generales.",
+      "id": 6
+    },
+    {
+      "pregunta": "Un país presenta los siguientes datos: crecimiento del PIB del -0,3% en T1 y -0,5% en T2. Técnicamente esto se denomina:",
+      "opciones": [
+        "Depresión",
+        "Recesión técnica",
+        "Estanflación",
+        "Desaceleración"
+      ],
+      "correcta": 1,
+      "explicacion": "Una recesión técnica se define como dos trimestres consecutivos de crecimiento negativo del PIB. En este caso, T1 (-0,3%) y T2 (-0,5%) cumplen esta definición.",
+      "id": 7
+    },
+    {
+      "pregunta": "El indicador PMI (Purchasing Managers Index) por encima de 50 indica:",
+      "opciones": [
+        "Contracción económica",
+        "Expansión económica",
+        "Estabilidad económica",
+        "Recesión inminente"
+      ],
+      "correcta": 1,
+      "explicacion": "El PMI es un indicador de difusión donde valores por encima de 50 indican expansión del sector manufacturero o servicios, y valores por debajo de 50 indican contracción. 50 es el punto neutral.",
+      "id": 8
+    },
+    {
+      "pregunta": "¿Qué instrumento de política monetaria utiliza el BCE para proporcionar liquidez a corto plazo al sistema bancario?",
+      "opciones": [
+        "Reservas mínimas obligatorias",
+        "Operaciones principales de financiación (MRO)",
+        "Facilidad marginal de crédito",
+        "Quantitative easing"
+      ],
+      "correcta": 1,
+      "explicacion": "Las Operaciones Principales de Financiación (Main Refinancing Operations - MRO) son el instrumento regular que usa el BCE semanalmente para proporcionar liquidez al sistema bancario. Las facilidades permanentes son para situaciones puntuales.",
+      "id": 9
+    },
+    {
+      "pregunta": "La curva de tipos invertida (tipos a corto plazo superiores a los de largo plazo) históricamente ha sido un indicador de:",
+      "opciones": [
+        "Expansión económica futura",
+        "Recesión económica futura",
+        "Inflación elevada futura",
+        "Estabilidad económica"
+      ],
+      "correcta": 1,
+      "explicacion": "Una curva de tipos invertida ha sido históricamente un predictor fiable de recesiones. Indica que el mercado espera que los tipos bajen en el futuro, lo cual ocurre típicamente cuando el banco central responde a una desaceleración económica.",
+      "id": 10
+    },
+    {
+      "pregunta": "El Pacto Verde Europeo (European Green Deal) tiene como objetivo principal:",
+      "opciones": [
+        "Reducir la inflación en la zona euro",
+        "Alcanzar la neutralidad climática en 2050",
+        "Eliminar el desempleo juvenil",
+        "Digitalizar la economía europea"
+      ],
+      "correcta": 1,
+      "explicacion": "El Pacto Verde Europeo establece el objetivo de que la UE sea climáticamente neutra en 2050, con una reducción de emisiones del 55% para 2030 respecto a 1990. Es la estrategia central de la UE para combatir el cambio climático.",
+      "id": 11
+    },
+    {
+      "pregunta": "Según el Reglamento de Taxonomía de la UE, una actividad económica se considera sostenible si cumple varios requisitos. ¿Cuál de los siguientes NO es uno de ellos?",
+      "opciones": [
+        "Contribuir sustancialmente a al menos un objetivo medioambiental",
+        "No causar un perjuicio significativo a ningún otro objetivo (DNSH)",
+        "Generar rentabilidad superior al mercado",
+        "Cumplir con las garantías sociales mínimas"
+      ],
+      "correcta": 2,
+      "explicacion": "La Taxonomía europea no exige rentabilidad superior. Los requisitos son: contribución sustancial a objetivos medioambientales, no causar daño significativo (DNSH), cumplir garantías sociales mínimas y cumplir criterios técnicos de selección.",
+      "id": 12
+    },
+    {
+      "pregunta": "Los 17 Objetivos de Desarrollo Sostenible (ODS) fueron establecidos por:",
+      "opciones": [
+        "El Banco Mundial en 2010",
+        "La ONU en la Agenda 2030",
+        "El Acuerdo de París en 2015",
+        "La Comisión Europea en 2019"
+      ],
+      "correcta": 1,
+      "explicacion": "Los 17 ODS fueron establecidos por la ONU en 2015 como parte de la Agenda 2030 para el Desarrollo Sostenible. Incluyen objetivos como fin de la pobreza, hambre cero, salud, educación, igualdad de género, etc.",
+      "id": 13
+    },
+    {
+      "pregunta": "¿Cuál es el objetivo de inflación del BCE?",
+      "opciones": [
+        "0%",
+        "Inferior al 2%",
+        "2% a medio plazo",
+        "Entre 2% y 3%"
+      ],
+      "correcta": 2,
+      "explicacion": "Desde julio de 2021, el BCE adoptó un objetivo de inflación simétrico del 2% a medio plazo. Esto significa que desviaciones por encima o por debajo son igualmente indeseables.",
+      "id": 14
+    },
+    {
+      "pregunta": "El sistema TARGET2 se utiliza para:",
+      "opciones": [
+        "Liquidar operaciones de valores",
+        "Procesar pagos de alto valor en tiempo real entre bancos de la zona euro",
+        "Calcular el Euribor",
+        "Supervisar a las entidades financieras"
+      ],
+      "correcta": 1,
+      "explicacion": "TARGET2 (Trans-European Automated Real-time Gross Settlement Express Transfer) es el sistema de pagos del Eurosistema para liquidar pagos de alto valor en tiempo real en euros entre bancos centrales y comerciales.",
+      "id": 15
+    },
+    {
+      "pregunta": "Un capital de 10.000€ se invierte al 6% anual durante 8 meses en capitalización simple. ¿Cuál es el capital final?",
+      "opciones": [
+        "10.400€",
+        "10.480€",
+        "10.600€",
+        "10.406€"
+      ],
+      "correcta": 0,
+      "explicacion": "* Cn = C0 × (1 + i × t) Cn = 10.000 × (1 + 0,06 × 8/12) Cn = 10.000 × (1 + 0,04) = 10.400€",
+      "id": 16
+    },
+    {
+      "pregunta": "¿Cuál es la diferencia fundamental entre capitalización simple y compuesta?",
+      "opciones": [
+        "En la simple los intereses se cobran al final",
+        "En la compuesta los intereses generan intereses",
+        "La simple solo se usa para plazos superiores a un año",
+        "La compuesta tiene tipos más bajos"
+      ],
+      "correcta": 1,
+      "explicacion": "La diferencia fundamental es que en capitalización compuesta los intereses se acumulan al capital y generan nuevos intereses (interés sobre interés), mientras que en la simple los intereses no se reinvierten.",
+      "id": 17
+    },
+    {
+      "pregunta": "Un depósito ofrece un 4% nominal anual con capitalización trimestral. ¿Cuál es la TAE?",
+      "opciones": [
+        "4,00%",
+        "4,04%",
+        "4,06%",
+        "4,12%"
+      ],
+      "correcta": 2,
+      "explicacion": "* TAE = (1 + i/m)^m - 1 TAE = (1 + 0,04/4)^4 - 1 TAE = (1,01)^4 - 1 = 1,0406 - 1 = 4,06%",
+      "id": 18
+    },
+    {
+      "pregunta": "Si el tipo de interés efectivo anual es del 12%, ¿cuál es el tipo nominal anual con capitalización mensual?",
+      "opciones": [
+        "12,00%",
+        "11,39%",
+        "11,68%",
+        "12,68%"
+      ],
+      "correcta": 1,
+      "explicacion": "* i_efectivo = (1 + i_nominal/12)^12 - 1 0,12 = (1 + i/12)^12 - 1 1,12 = (1 + i/12)^12 (1,12)^(1/12) = 1 + i/12 1,009489 = 1 + i/12 i/12 = 0,009489 i = 0,1139 = 11,39%",
+      "id": 19
+    },
+    {
+      "pregunta": "Un pagaré de empresa con valor nominal de 50.000€ se descuenta a 90 días con un tipo de descuento comercial del 5% anual. ¿Cuál es el efectivo recibido?",
+      "opciones": [
+        "49.375€",
+        "49.383€",
+        "49.390€",
+        "49.400€"
+      ],
+      "correcta": 0,
+      "explicacion": "* Descuento comercial: D = N × d × t D = 50.000 × 0,05 × 90/360 = 625€ Efectivo = 50.000 - 625 = 49.375€",
+      "id": 20
+    },
+    {
+      "pregunta": "Los tipos spot a 1 y 2 años son 3% y 4% respectivamente. ¿Cuál es el tipo forward implícito del año 1 al año 2?",
+      "opciones": [
+        "3,50%",
+        "4,00%",
+        "5,01%",
+        "7,00%"
+      ],
+      "correcta": 2,
+      "explicacion": "* (1 + r2)^2 = (1 + r1) × (1 + f1,2) (1,04)^2 = (1,03) × (1 + f1,2) 1,0816 = 1,03 × (1 + f1,2) 1 + f1,2 = 1,0816/1,03 = 1,0501 f1,2 = 5,01%",
+      "id": 21
+    },
+    {
+      "pregunta": "Un inversor obtiene una rentabilidad nominal del 8% cuando la inflación es del 2,5%. ¿Cuál es la rentabilidad real aproximada?",
+      "opciones": [
+        "5,50%",
+        "5,37%",
+        "5,00%",
+        "10,50%"
+      ],
+      "correcta": 1,
+      "explicacion": "* Rentabilidad real = (1 + r_nominal)/(1 + inflación) - 1 Rentabilidad real = (1,08)/(1,025) - 1 = 1,0537 - 1 = 5,37% (La aproximación simple sería 8% - 2,5% = 5,5%, pero la fórmula exacta da 5,37%)",
+      "id": 22
+    },
+    {
+      "pregunta": "Un fondo ha obtenido las siguientes rentabilidades anuales: +15%, -10%, +20%, +5%. ¿Cuál es la Tasa Geométrica de Rentabilidad (TGR)?",
+      "opciones": [
+        "7,50%",
+        "6,78%",
+        "7,03%",
+        "6,50%"
+      ],
+      "correcta": 2,
+      "explicacion": "* TGR = [(1,15) × (0,90) × (1,20) × (1,05)]^(1/4) - 1 TGR = [1,3041]^0,25 - 1 TGR = 1,0688 - 1 = 6,88% ≈ 7,03% Cálculo detallado: 1,15 × 0,90 = 1,035; 1,035 × 1,20 = 1,242; 1,242 × 1,05 = 1,3041 1,3041^0,25 = 1,0688 → TGR = 6,88% (la opción más cercana es c)",
+      "id": 23
+    },
+    {
+      "pregunta": "¿Qué representa la TIR de una inversión?",
+      "opciones": [
+        "La rentabilidad media aritmética",
+        "El tipo de descuento que hace el VAN igual a cero",
+        "La rentabilidad mínima exigida",
+        "El coste de oportunidad del capital"
+      ],
+      "correcta": 1,
+      "explicacion": "La TIR (Tasa Interna de Rentabilidad) es el tipo de descuento que iguala el valor actual de los flujos de caja futuros con la inversión inicial, es decir, hace que el VAN sea igual a cero.",
+      "id": 24
+    },
+    {
+      "pregunta": "Se invierten 1.000€ hoy y se reciben 1.200€ dentro de 3 años. ¿Cuál es la TIR aproximada?",
+      "opciones": [
+        "5,00%",
+        "6,27%",
+        "6,67%",
+        "20,00%"
+      ],
+      "correcta": 1,
+      "explicacion": "* 1.000 = 1.200/(1+TIR)^3 (1+TIR)^3 = 1,2 1+TIR = 1,2^(1/3) = 1,0627 TIR = 6,27%",
+      "id": 25
+    },
+    {
+      "pregunta": "La TRE (Tasa de Rentabilidad Efectiva) difiere de la TIR cuando:",
+      "opciones": [
+        "La inversión es a corto plazo",
+        "Los flujos intermedios se reinvierten a un tipo diferente a la TIR",
+        "Hay inflación",
+        "El tipo de interés es variable"
+      ],
+      "correcta": 1,
+      "explicacion": "La TRE considera la tasa real a la que se reinvierten los flujos intermedios, mientras que la TIR asume implícitamente que se reinvierten a la propia TIR. Si la tasa de reinversión difiere de la TIR, la TRE será diferente.",
+      "id": 26
+    },
+    {
+      "pregunta": "Una renta de 500€ mensuales durante 5 años al 6% nominal anual (capitalización mensual). ¿Cuál es su valor actual si es postpagable e inmediata?",
+      "opciones": [
+        "25.862,78€",
+        "25.991,52€",
+        "26.120,68€",
+        "30.000,00€"
+      ],
+      "correcta": 0,
+      "explicacion": "* i_mensual = 0,06/12 = 0,005 n = 5 × 12 = 60 meses VA = C × [(1-(1+i)^(-n))/i] VA = 500 × [(1-1,005^(-60))/0,005] VA = 500 × [(1-0,7414)/0,005] VA = 500 × 51,7256 = 25.862,78€",
+      "id": 27
+    },
+    {
+      "pregunta": "¿Cuál es el valor actual de una renta perpetua de 1.000€ anuales al 5%?",
+      "opciones": [
+        "5.000€",
+        "10.000€",
+        "20.000€",
+        "50.000€"
+      ],
+      "correcta": 2,
+      "explicacion": "* VA renta perpetua = C/i = 1.000/0,05 = 20.000€",
+      "id": 28
+    },
+    {
+      "pregunta": "Una renta prepagable tiene, respecto a una postpagable con los mismos parámetros:",
+      "opciones": [
+        "El mismo valor actual",
+        "Un valor actual menor",
+        "Un valor actual mayor",
+        "Depende del tipo de interés"
+      ],
+      "correcta": 2,
+      "explicacion": "La renta prepagable tiene un valor actual mayor porque los cobros se producen al principio de cada periodo, es decir, antes. VA_prepagable = VA_postpagable × (1+i).",
+      "id": 29
+    },
+    {
+      "pregunta": "Se depositan 200€ al final de cada mes durante 10 años en una cuenta al 3% nominal anual. ¿Cuál será aproximadamente el capital acumulado?",
+      "opciones": [
+        "24.000€",
+        "27.950€",
+        "28.000€",
+        "32.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "* i_mensual = 0,03/12 = 0,0025 n = 10 × 12 = 120 meses VF = C × [((1+i)^n - 1)/i] VF = 200 × [(1,0025^120 - 1)/0,0025] VF = 200 × [(1,3494 - 1)/0,0025] VF = 200 × 139,74 = 27.948€ ≈ 27.950€",
+      "id": 30
+    },
+    {
+      "pregunta": "Un activo tiene rentabilidades históricas de 5%, 8%, -2%, 10%, 4%. ¿Cuál es la rentabilidad media aritmética?",
+      "opciones": [
+        "4,00%",
+        "5,00%",
+        "6,25%",
+        "4,87%"
+      ],
+      "correcta": 1,
+      "explicacion": "* Media = (5 + 8 + (-2) + 10 + 4)/5 = 25/5 = 5%",
+      "id": 31
+    },
+    {
+      "pregunta": "Con los datos de la pregunta anterior, ¿cuál es aproximadamente la desviación típica?",
+      "opciones": [
+        "3,52%",
+        "4,00%",
+        "4,47%",
+        "5,00%"
+      ],
+      "correcta": 2,
+      "explicacion": "* Varianza = [(5-5)² + (8-5)² + (-2-5)² + (10-5)² + (4-5)²]/5 Varianza = [0 + 9 + 49 + 25 + 1]/5 = 84/5 = 16,8 Desviación típica = √16,8 = 4,10% ≈ 4,47% (usando n-1 en denominador: 84/4 = 21, √21 = 4,58%)",
+      "id": 32
+    },
+    {
+      "pregunta": "Dos activos A y B tienen una covarianza de -0,002. Esto indica que:",
+      "opciones": [
+        "Los activos se mueven en la misma dirección",
+        "Los activos se mueven en direcciones opuestas",
+        "No hay relación entre los activos",
+        "La correlación es exactamente -1"
+      ],
+      "correcta": 1,
+      "explicacion": "Una covarianza negativa indica que cuando un activo sube, el otro tiende a bajar, es decir, se mueven en direcciones opuestas. Esto es útil para la diversificación de carteras.",
+      "id": 33
+    },
+    {
+      "pregunta": "Si la covarianza entre dos activos es 0,0024 y sus desviaciones típicas son 8% y 12%, ¿cuál es el coeficiente de correlación?",
+      "opciones": [
+        "0,15",
+        "0,25",
+        "0,50",
+        "0,75"
+      ],
+      "correcta": 1,
+      "explicacion": "* ρ = Cov(A,B) / (σA × σB) ρ = 0,0024 / (0,08 × 0,12) ρ = 0,0024 / 0,0096 = 0,25",
+      "id": 34
+    },
+    {
+      "pregunta": "Un coeficiente de correlación de +1 entre dos activos significa que:",
+      "opciones": [
+        "Tienen la misma rentabilidad",
+        "Se mueven exactamente en la misma dirección y proporción",
+        "No hay diversificación posible",
+        "b) y c) son correctas"
+      ],
+      "correcta": 3,
+      "explicacion": "Una correlación de +1 indica movimiento perfectamente sincronizado en la misma dirección. En este caso, la diversificación no reduce el riesgo porque ambos activos se comportan idénticamente en términos relativos.",
+      "id": 35
+    },
+    {
+      "pregunta": "El coeficiente de determinación (R²) de una regresión es 0,81. Esto significa que:",
+      "opciones": [
+        "La correlación es 0,81",
+        "El 81% de la variabilidad de Y es explicada por X",
+        "La correlación es 0,9",
+        "b) y c) son correctas"
+      ],
+      "correcta": 3,
+      "explicacion": "R² = ρ², por tanto si R² = 0,81, entonces ρ = √0,81 = 0,9 (o -0,9). El R² indica que el 81% de la variabilidad de la variable dependiente es explicada por la variable independiente.",
+      "id": 36
+    },
+    {
+      "pregunta": "En una regresión Y = a + bX, la pendiente b representa:",
+      "opciones": [
+        "El valor de Y cuando X es cero",
+        "El cambio en Y por cada unidad de cambio en X",
+        "El coeficiente de correlación",
+        "La varianza de Y"
+      ],
+      "correcta": 1,
+      "explicacion": "En la ecuación de regresión, la pendiente b indica cuánto cambia Y (en promedio) por cada unidad de incremento en X. Es la sensibilidad de Y respecto a X.",
+      "id": 37
+    },
+    {
+      "pregunta": "Si un activo tiene una beta de 1,5 respecto al mercado, y el mercado sube un 10%, ¿cuánto se espera que suba el activo (aproximadamente)?",
+      "opciones": [
+        "10%",
+        "15%",
+        "5%",
+        "6,67%"
+      ],
+      "correcta": 1,
+      "explicacion": "Beta mide la sensibilidad del activo respecto al mercado. Si β = 1,5, el activo se mueve 1,5 veces lo que mueve el mercado. Si el mercado sube 10%, el activo subirá aproximadamente 1,5 × 10% = 15%.",
+      "id": 38
+    },
+    {
+      "pregunta": "La esperanza matemática de una inversión con las siguientes probabilidades y resultados (30% de obtener 20%; 50% de obtener 5%; 20% de obtener -10%) es:",
+      "opciones": [
+        "5,00%",
+        "6,50%",
+        "7,00%",
+        "15,00%"
+      ],
+      "correcta": 1,
+      "explicacion": "* E(R) = 0,30 × 20% + 0,50 × 5% + 0,20 × (-10%) E(R) = 6% + 2,5% - 2% = 6,5%",
+      "id": 39
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones sobre la varianza es correcta?",
+      "opciones": [
+        "Puede ser negativa",
+        "Se mide en las mismas unidades que los datos",
+        "Es el cuadrado de la desviación típica",
+        "No tiene en cuenta la media"
+      ],
+      "correcta": 2,
+      "explicacion": "La varianza es el cuadrado de la desviación típica (o la desviación típica es la raíz cuadrada de la varianza). La varianza no puede ser negativa, se mide en unidades al cuadrado, y sí tiene en cuenta la media.",
+      "id": 40
+    },
+    {
+      "pregunta": "Una Letra del Tesoro a 12 meses tiene un precio de 97,50% del nominal. ¿Cuál es su rentabilidad simple?",
+      "opciones": [
+        "2,50%",
+        "2,56%",
+        "2,53%",
+        "2,47%"
+      ],
+      "correcta": 1,
+      "explicacion": "* Rentabilidad = (100 - 97,50)/97,50 = 2,50/97,50 = 2,564% ≈ 2,56%",
+      "id": 41
+    },
+    {
+      "pregunta": "Un bono tiene un cupón del 4% anual y cotiza al 95% de su nominal. Su rentabilidad corriente (current yield) es:",
+      "opciones": [
+        "4,00%",
+        "4,21%",
+        "5,26%",
+        "3,80%"
+      ],
+      "correcta": 1,
+      "explicacion": "* Rentabilidad corriente = Cupón anual / Precio de mercado Rentabilidad corriente = 4/95 = 4,21%",
+      "id": 42
+    },
+    {
+      "pregunta": "Un bono está cotizando \"sobre la par\". Esto significa que:",
+      "opciones": [
+        "Su precio es igual al nominal",
+        "Su precio es inferior al nominal",
+        "Su precio es superior al nominal",
+        "Su TIR es igual al cupón"
+      ],
+      "correcta": 2,
+      "explicacion": "Un bono cotiza sobre la par cuando su precio de mercado es superior al valor nominal (100%). Esto ocurre cuando los tipos de interés de mercado están por debajo del cupón del bono.",
+      "id": 43
+    },
+    {
+      "pregunta": "Si los tipos de interés de mercado suben, ¿qué ocurre con el precio de un bono de cupón fijo?",
+      "opciones": [
+        "Sube",
+        "Baja",
+        "No cambia",
+        "Depende del plazo"
+      ],
+      "correcta": 1,
+      "explicacion": "Existe una relación inversa entre tipos de interés y precios de bonos. Si los tipos suben, los flujos futuros del bono se descuentan a una tasa mayor, reduciendo su valor presente (precio).",
+      "id": 44
+    },
+    {
+      "pregunta": "Entre dos bonos con el mismo vencimiento, ¿cuál tiene mayor duración?",
+      "opciones": [
+        "El de mayor cupón",
+        "El de menor cupón",
+        "El de mayor TIR",
+        "El de menor precio"
+      ],
+      "correcta": 1,
+      "explicacion": "La duración es menor cuanto mayor es el cupón, porque los flujos intermedios (cupones) tienen más peso y se reciben antes. Un bono cupón cero tiene la máxima duración (igual a su vencimiento).",
+      "id": 45
+    },
+    {
+      "pregunta": "Un bono tiene una duración modificada de 5 años. Si los tipos suben 50 puntos básicos, el precio del bono:",
+      "opciones": [
+        "Sube aproximadamente un 2,5%",
+        "Baja aproximadamente un 2,5%",
+        "Baja aproximadamente un 5%",
+        "Sube aproximadamente un 5%"
+      ],
+      "correcta": 1,
+      "explicacion": "* ΔP/P ≈ -Duración modificada × Δi ΔP/P ≈ -5 × 0,50% = -2,5% El precio baja aproximadamente un 2,5%.",
+      "id": 46
+    },
+    {
+      "pregunta": "El concepto de inmunización de una cartera de renta fija consiste en:",
+      "opciones": [
+        "Eliminar todo el riesgo de la cartera",
+        "Igualar la duración de activos y pasivos",
+        "Invertir solo en bonos AAA",
+        "Diversificar entre diferentes emisores"
+      ],
+      "correcta": 1,
+      "explicacion": "La inmunización es una estrategia que consiste en hacer coincidir la duración de los activos con la de los pasivos, de forma que las variaciones de tipos de interés afecten por igual a ambos, protegiendo el valor neto.",
+      "id": 47
+    },
+    {
+      "pregunta": "La ETTI (Estructura Temporal de Tipos de Interés) con pendiente positiva indica que:",
+      "opciones": [
+        "Los inversores esperan subidas de tipos",
+        "Los tipos a largo plazo son mayores que los de corto plazo",
+        "Hay mayor prima de liquidez en plazos largos",
+        "Todas las anteriores son posibles explicaciones"
+      ],
+      "correcta": 3,
+      "explicacion": "Una ETTI con pendiente positiva puede explicarse por: expectativas de subidas de tipos (teoría de expectativas), prima de liquidez por mayor riesgo en plazos largos, o preferencia de los inversores por plazos cortos (segmentación).",
+      "id": 48
+    },
+    {
+      "pregunta": "Un strip es:",
+      "opciones": [
+        "Un bono convertible",
+        "Cada uno de los flujos de un bono negociados por separado",
+        "Un bono con cupón variable",
+        "Un derivado sobre tipos de interés"
+      ],
+      "correcta": 1,
+      "explicacion": "La segregación (stripping) consiste en separar los cupones y el principal de un bono para negociarlos independientemente como bonos cupón cero. Cada flujo (cupón o principal) es un strip.",
+      "id": 49
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes bonos tiene MAYOR riesgo de tipo de interés?",
+      "opciones": [
+        "Bono 3 años, cupón 5%",
+        "Bono 10 años, cupón 5%",
+        "Bono 10 años, cupón 8%",
+        "Bono 5 años, cupón cero"
+      ],
+      "correcta": 1,
+      "explicacion": "El riesgo de tipo de interés (medido por la duración) aumenta con el plazo y disminuye con el cupón. El bono de 10 años con cupón 5% tiene mayor duración que los de menor plazo y que el de 10 años con cupón 8%.",
+      "id": 50
+    },
+    {
+      "pregunta": "Un bono con cupón del 3% anual, vencimiento 5 años y TIR del 4%. ¿Cotiza sobre la par, a la par o bajo la par?",
+      "opciones": [
+        "Sobre la par",
+        "A la par",
+        "Bajo la par",
+        "No se puede determinar"
+      ],
+      "correcta": 2,
+      "explicacion": "Cuando la TIR > cupón, el bono cotiza bajo la par (precio < 100). Los inversores exigen una rentabilidad mayor que el cupón, por lo que el precio debe ser inferior al nominal para compensar.",
+      "id": 51
+    },
+    {
+      "pregunta": "¿Qué tipo de riesgo mide específicamente el rating crediticio?",
+      "opciones": [
+        "Riesgo de tipo de interés",
+        "Riesgo de crédito",
+        "Riesgo de liquidez",
+        "Riesgo de reinversión"
+      ],
+      "correcta": 1,
+      "explicacion": "El rating crediticio evalúa la probabilidad de que el emisor incumpla sus obligaciones de pago (riesgo de crédito o riesgo de impago). Las agencias como Moody's, S&P y Fitch asignan calificaciones que van desde AAA (máxima calidad) hasta D (impago).",
+      "id": 52
+    },
+    {
+      "pregunta": "Un bono calificado como \"BBB-\" por S&P se considera:",
+      "opciones": [
+        "Grado de inversión (investment grade)",
+        "Alto rendimiento (high yield)",
+        "En situación de impago",
+        "Sin calificación"
+      ],
+      "correcta": 0,
+      "explicacion": "BBB- es el último escalón del grado de inversión. A partir de BB+ comienza el high yield o bonos especulativos. La frontera entre investment grade y high yield es BBB-/Baa3.",
+      "id": 53
+    },
+    {
+      "pregunta": "Las cédulas hipotecarias se caracterizan por:",
+      "opciones": [
+        "Estar garantizadas por una cartera específica de hipotecas",
+        "Estar garantizadas por todo el balance del emisor",
+        "No tener garantía alguna",
+        "Ser emitidas solo por el Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "Las cédulas hipotecarias están garantizadas por la totalidad de la cartera hipotecaria del emisor (garantía global), no por préstamos específicos. Esto las diferencia de los bonos hipotecarios, que sí tienen garantía específica.",
+      "id": 54
+    },
+    {
+      "pregunta": "Un bono convertible otorga al tenedor:",
+      "opciones": [
+        "El derecho a cobrar cupones variables",
+        "El derecho a convertirlo en acciones del emisor",
+        "La obligación de convertirlo al vencimiento",
+        "Protección total contra la inflación"
+      ],
+      "correcta": 1,
+      "explicacion": "El bono convertible da al inversor el derecho (no la obligación) de convertir el bono en acciones del emisor a un precio predeterminado. Es un híbrido entre renta fija y renta variable.",
+      "id": 55
+    },
+    {
+      "pregunta": "La duración de Macaulay de un bono cupón cero a 7 años es:",
+      "opciones": [
+        "Menor que 7 años",
+        "Exactamente 7 años",
+        "Mayor que 7 años",
+        "Depende del tipo de interés"
+      ],
+      "correcta": 1,
+      "explicacion": "Para un bono cupón cero, la duración de Macaulay es exactamente igual al plazo hasta vencimiento, ya que el único flujo se recibe en la fecha de vencimiento. No hay cupones intermedios que reduzcan la duración.",
+      "id": 56
+    },
+    {
+      "pregunta": "La convexidad de un bono:",
+      "opciones": [
+        "Siempre perjudica al inversor",
+        "Siempre beneficia al inversor",
+        "Es irrelevante para la gestión de carteras",
+        "Solo es relevante para bonos a corto plazo"
+      ],
+      "correcta": 1,
+      "explicacion": "La convexidad beneficia al inversor porque la relación precio-TIR no es lineal sino convexa. Esto significa que ante subidas de tipos el precio cae menos de lo que sube ante bajadas equivalentes.",
+      "id": 57
+    },
+    {
+      "pregunta": "¿Qué teoría de la ETTI sostiene que los tipos forward son estimadores insesgados de los tipos spot futuros?",
+      "opciones": [
+        "Teoría de la segmentación",
+        "Teoría de las expectativas puras",
+        "Teoría de la preferencia por la liquidez",
+        "Teoría del hábitat preferido"
+      ],
+      "correcta": 1,
+      "explicacion": "La teoría de las expectativas puras sostiene que los tipos forward implícitos en la curva son estimadores insesgados de los tipos spot futuros esperados. No considera primas por plazo ni preferencias de los inversores.",
+      "id": 58
+    },
+    {
+      "pregunta": "Un bono tiene un precio entero de 102,50 y un cupón corrido de 1,20. ¿Cuál es el precio ex-cupón?",
+      "opciones": [
+        "103,70",
+        "102,50",
+        "101,30",
+        "100,00"
+      ],
+      "correcta": 2,
+      "explicacion": "* Precio entero (dirty price) = Precio ex-cupón (clean price) + Cupón corrido 102,50 = Precio ex-cupón + 1,20 Precio ex-cupón = 102,50 - 1,20 = 101,30",
+      "id": 59
+    },
+    {
+      "pregunta": "En una subasta del Tesoro, el \"precio marginal\" es:",
+      "opciones": [
+        "El precio más alto aceptado",
+        "El precio más bajo aceptado",
+        "El precio medio de todas las peticiones",
+        "El precio de las peticiones no competitivas"
+      ],
+      "correcta": 1,
+      "explicacion": "En las subastas del Tesoro español, el precio marginal es el precio más bajo de las peticiones competitivas aceptadas (o equivalentemente, la rentabilidad más alta aceptada). Las peticiones no competitivas se adjudican al precio medio ponderado.",
+      "id": 60
+    },
+    {
+      "pregunta": "Los bonos verdes (green bonds) se caracterizan por:",
+      "opciones": [
+        "Tener menor riesgo de crédito",
+        "Destinar los fondos a proyectos medioambientalmente sostenibles",
+        "Ofrecer siempre mayor rentabilidad",
+        "Estar garantizados por el Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "Los bonos verdes son instrumentos de renta fija cuyos fondos se destinan exclusivamente a financiar o refinanciar proyectos con beneficios medioambientales (energías renovables, eficiencia energética, transporte limpio, etc.).",
+      "id": 61
+    },
+    {
+      "pregunta": "Una operación repo (repurchase agreement) es:",
+      "opciones": [
+        "La compra definitiva de valores",
+        "La venta con pacto de recompra a un precio determinado",
+        "Un préstamo sin garantía",
+        "Una operación de derivados"
+      ],
+      "correcta": 1,
+      "explicacion": "Un repo es una venta de valores con el compromiso de recomprarlos en una fecha futura a un precio acordado. Económicamente funciona como un préstamo con garantía de valores.",
+      "id": 62
+    },
+    {
+      "pregunta": "El riesgo de reinversión en renta fija se refiere a:",
+      "opciones": [
+        "El riesgo de que el emisor no pague",
+        "El riesgo de tener que reinvertir cupones a tipos más bajos",
+        "El riesgo de que suban los tipos de interés",
+        "El riesgo de liquidez del mercado"
+      ],
+      "correcta": 1,
+      "explicacion": "El riesgo de reinversión es la posibilidad de que los cupones recibidos tengan que reinvertirse a tipos de interés inferiores a los esperados, reduciendo la rentabilidad total de la inversión.",
+      "id": 63
+    },
+    {
+      "pregunta": "Un bono de titulización hipotecaria (MBS) tiene riesgo de amortización anticipada porque:",
+      "opciones": [
+        "El emisor puede amortizar anticipadamente",
+        "Los hipotecados pueden amortizar anticipadamente sus préstamos",
+        "Los tipos de interés pueden subir",
+        "El rating puede bajar"
+      ],
+      "correcta": 1,
+      "explicacion": "En los MBS, los flujos dependen de los pagos de los préstamos hipotecarios subyacentes. Si bajan los tipos, muchos hipotecados refinanciarán o amortizarán anticipadamente, devolviendo el principal antes de lo esperado.",
+      "id": 64
+    },
+    {
+      "pregunta": "La sensibilidad de un bono con duración modificada de 4 y precio de 98 ante una subida de 25 pb es:",
+      "opciones": [
+        "El precio sube a 98,98",
+        "El precio baja a 97,02",
+        "El precio baja a 94,08",
+        "El precio no cambia"
+      ],
+      "correcta": 1,
+      "explicacion": "* ΔP = -DM × Δi × P ΔP = -4 × 0,0025 × 98 = -0,98 Nuevo precio = 98 - 0,98 = 97,02",
+      "id": 65
+    },
+    {
+      "pregunta": "El mercado primario de acciones se refiere a:",
+      "opciones": [
+        "La bolsa de valores principal del país",
+        "Las emisiones de nuevas acciones",
+        "El mercado de mayor volumen",
+        "El mercado de blue chips"
+      ],
+      "correcta": 1,
+      "explicacion": "El mercado primario es donde se emiten nuevos valores (OPV, ampliaciones de capital). El mercado secundario es donde se negocian valores ya emitidos. La \"bolsa\" como tal es mercado secundario.",
+      "id": 66
+    },
+    {
+      "pregunta": "El PER (Price Earnings Ratio) de una acción se calcula como:",
+      "opciones": [
+        "Beneficio / Precio",
+        "Precio / Beneficio por acción",
+        "Dividendo / Precio",
+        "Precio / Valor contable"
+      ],
+      "correcta": 1,
+      "explicacion": "* PER = Precio de la acción / Beneficio por acción (BPA) Indica cuántas veces el beneficio está pagando el mercado por la acción.",
+      "id": 67
+    },
+    {
+      "pregunta": "Una acción tiene un precio de 50€, BPA de 4€ y dividendo de 2€. ¿Cuál es su dividend yield?",
+      "opciones": [
+        "8%",
+        "4%",
+        "12,5%",
+        "50%"
+      ],
+      "correcta": 1,
+      "explicacion": "* Dividend yield = Dividendo / Precio = 2 / 50 = 4%",
+      "id": 68
+    },
+    {
+      "pregunta": "El valor contable por acción (book value) representa:",
+      "opciones": [
+        "El precio de mercado de la acción",
+        "El patrimonio neto dividido entre el número de acciones",
+        "El beneficio acumulado por acción",
+        "El precio de emisión original"
+      ],
+      "correcta": 1,
+      "explicacion": "* Valor contable por acción = Patrimonio neto / Número de acciones Representa el valor teórico de liquidación de cada acción según los libros contables.",
+      "id": 69
+    },
+    {
+      "pregunta": "Si el PER de una empresa es 15 y el del sector es 20, podemos decir que:",
+      "opciones": [
+        "La empresa está sobrevalorada respecto al sector",
+        "La empresa está infravalorada respecto al sector",
+        "La empresa tiene más riesgo que el sector",
+        "No se puede comparar solo con el PER"
+      ],
+      "correcta": 1,
+      "explicacion": "Un PER inferior al del sector sugiere que la acción está relativamente barata (infravalorada), aunque hay que analizar si hay razones fundamentales para esa diferencia (menor crecimiento esperado, mayor riesgo, etc.).",
+      "id": 70
+    },
+    {
+      "pregunta": "El ROE (Return on Equity) mide:",
+      "opciones": [
+        "La rentabilidad sobre el activo total",
+        "La rentabilidad sobre los fondos propios",
+        "La rentabilidad del dividendo",
+        "La rentabilidad de la acción en bolsa"
+      ],
+      "correcta": 1,
+      "explicacion": "* ROE = Beneficio neto / Fondos propios Mide la rentabilidad que obtiene la empresa sobre el capital aportado por los accionistas.",
+      "id": 71
+    },
+    {
+      "pregunta": "Según el modelo de Gordon-Shapiro, el precio teórico de una acción es:",
+      "opciones": [
+        "P = D / (k - g)",
+        "P = D × (k - g)",
+        "P = D / (k + g)",
+        "P = BPA / k"
+      ],
+      "correcta": 0,
+      "explicacion": "* El modelo de Gordon: P = D₁ / (k - g) Donde D₁ es el dividendo esperado del próximo año, k es la rentabilidad exigida y g es la tasa de crecimiento sostenible del dividendo (g < k).",
+      "id": 72
+    },
+    {
+      "pregunta": "Una empresa tiene un ROE del 15% y reparte el 40% del beneficio como dividendo. Según el modelo de crecimiento sostenible, ¿a qué tasa puede crecer?",
+      "opciones": [
+        "6%",
+        "9%",
+        "15%",
+        "40%"
+      ],
+      "correcta": 1,
+      "explicacion": "* g = ROE × (1 - payout) = ROE × tasa de retención g = 15% × (1 - 0,40) = 15% × 0,60 = 9%",
+      "id": 73
+    },
+    {
+      "pregunta": "El IBEX 35 es un índice:",
+      "opciones": [
+        "Ponderado por precio",
+        "Ponderado por capitalización con ajuste por free float",
+        "Equiponderado",
+        "De rentabilidad total"
+      ],
+      "correcta": 1,
+      "explicacion": "El IBEX 35 es un índice ponderado por capitalización bursátil ajustada por free float (capital flotante). Esto significa que las empresas pesan según su capitalización disponible para negociación.",
+      "id": 74
+    },
+    {
+      "pregunta": "Una ampliación de capital 1x4 significa:",
+      "opciones": [
+        "Se emite 1 acción nueva por cada 4 existentes",
+        "Se emiten 4 acciones nuevas por cada 1 existente",
+        "El precio se divide por 4",
+        "El precio se multiplica por 4"
+      ],
+      "correcta": 0,
+      "explicacion": "En una ampliación 1x4, por cada 4 acciones antiguas que se posean, se tiene derecho a suscribir 1 acción nueva. Se emite 1 acción por cada 4 existentes.",
+      "id": 75
+    },
+    {
+      "pregunta": "El derecho de suscripción preferente sirve para:",
+      "opciones": [
+        "Obtener dividendos extra",
+        "Proteger al accionista de la dilución en ampliaciones",
+        "Votar en la junta de accionistas",
+        "Vender las acciones a mejor precio"
+      ],
+      "correcta": 1,
+      "explicacion": "El derecho de suscripción preferente permite a los accionistas existentes suscribir acciones nuevas en proporción a su participación, evitando la dilución de su porcentaje de propiedad.",
+      "id": 76
+    },
+    {
+      "pregunta": "Un split 3x1 de una acción de 60€ resulta en:",
+      "opciones": [
+        "3 acciones de 20€ cada una",
+        "1 acción de 180€",
+        "3 acciones de 60€ cada una",
+        "1 acción de 20€"
+      ],
+      "correcta": 0,
+      "explicacion": "En un split 3x1, cada acción antigua se divide en 3 nuevas. El precio se ajusta proporcionalmente: 60€ / 3 = 20€. El valor total de la posición no cambia.",
+      "id": 77
+    },
+    {
+      "pregunta": "El ratio EV/EBITDA compara:",
+      "opciones": [
+        "El precio con el beneficio neto",
+        "El valor de empresa con el resultado operativo antes de amortizaciones",
+        "El patrimonio neto con las ventas",
+        "La deuda con el cash flow"
+      ],
+      "correcta": 1,
+      "explicacion": "* EV/EBITDA = Enterprise Value / EBITDA Donde EV = Capitalización + Deuda neta EBITDA = Beneficio antes de intereses, impuestos, depreciación y amortización Es útil para comparar empresas con diferentes estructuras de capital.",
+      "id": 78
+    },
+    {
+      "pregunta": "Un \"scrip dividend\" permite al accionista:",
+      "opciones": [
+        "Cobrar solo en efectivo",
+        "Elegir entre cobrar en efectivo o recibir acciones",
+        "Diferir el pago del dividendo",
+        "Reinvertir automáticamente sin opción"
+      ],
+      "correcta": 1,
+      "explicacion": "El scrip dividend es una fórmula que permite al accionista elegir entre recibir el dividendo en efectivo o en forma de nuevas acciones de la compañía. Tiene implicaciones fiscales diferentes según la opción elegida.",
+      "id": 79
+    },
+    {
+      "pregunta": "El Free Cash Flow to Equity (FCFE) representa:",
+      "opciones": [
+        "El beneficio neto de la empresa",
+        "El flujo de caja disponible para los accionistas después de inversiones y deuda",
+        "Los dividendos pagados",
+        "El cash flow operativo"
+      ],
+      "correcta": 1,
+      "explicacion": "* FCFE = Cash flow operativo - CAPEX - Variación capital circulante + Nuevas emisiones de deuda - Amortización de deuda Es el flujo disponible para retribuir a los accionistas (dividendos o recompras).",
+      "id": 80
+    },
+    {
+      "pregunta": "La principal diferencia entre un futuro y un forward es:",
+      "opciones": [
+        "El activo subyacente",
+        "El futuro está estandarizado y cotiza en mercado organizado",
+        "El forward tiene mayor liquidez",
+        "No hay diferencia significativa"
+      ],
+      "correcta": 1,
+      "explicacion": "Los futuros son contratos estandarizados que cotizan en mercados organizados con cámara de compensación. Los forwards son contratos OTC (over-the-counter), a medida entre las partes, sin mercado secundario organizado.",
+      "id": 81
+    },
+    {
+      "pregunta": "El comprador de una opción call tiene:",
+      "opciones": [
+        "La obligación de comprar el activo",
+        "El derecho a comprar el activo al precio de ejercicio",
+        "La obligación de vender el activo",
+        "El derecho a vender el activo"
+      ],
+      "correcta": 1,
+      "explicacion": "El comprador de una call tiene el derecho (no la obligación) a comprar el activo subyacente al precio de ejercicio (strike) en o antes del vencimiento. Pagó una prima por ese derecho.",
+      "id": 82
+    },
+    {
+      "pregunta": "Una opción put está \"in the money\" cuando:",
+      "opciones": [
+        "El precio del subyacente está por encima del strike",
+        "El precio del subyacente está por debajo del strike",
+        "El precio del subyacente es igual al strike",
+        "La prima es positiva"
+      ],
+      "correcta": 1,
+      "explicacion": "Una put está in the money (ITM) cuando el precio del subyacente está por debajo del strike, ya que ejercerla permitiría vender a un precio superior al de mercado. Para calls es al revés.",
+      "id": 83
+    },
+    {
+      "pregunta": "Si compro una call con strike 100€ y prima 5€, mi punto de equilibrio (break-even) es:",
+      "opciones": [
+        "95€",
+        "100€",
+        "105€",
+        "110€"
+      ],
+      "correcta": 2,
+      "explicacion": "* Break-even call comprada = Strike + Prima = 100 + 5 = 105€ A este precio, el beneficio por ejercicio (5€) iguala la prima pagada.",
+      "id": 84
+    },
+    {
+      "pregunta": "El vendedor de una opción put tiene:",
+      "opciones": [
+        "Riesgo ilimitado",
+        "Riesgo limitado al strike menos la prima",
+        "Beneficio ilimitado",
+        "Ningún riesgo"
+      ],
+      "correcta": 1,
+      "explicacion": "El vendedor de una put tiene la obligación de comprar al strike si le ejercen. Su pérdida máxima es Strike - Prima (si el subyacente llega a cero). El beneficio máximo es la prima cobrada.",
+      "id": 85
+    },
+    {
+      "pregunta": "Delta de una opción mide:",
+      "opciones": [
+        "La sensibilidad del precio de la opción a cambios en el subyacente",
+        "La sensibilidad a cambios en la volatilidad",
+        "La sensibilidad al paso del tiempo",
+        "La sensibilidad a los tipos de interés"
+      ],
+      "correcta": 0,
+      "explicacion": "Delta (Δ) mide cuánto cambia el precio de la opción por cada euro de cambio en el precio del subyacente. Una call tiene delta entre 0 y 1; una put entre -1 y 0.",
+      "id": 86
+    },
+    {
+      "pregunta": "Una estrategia de \"straddle\" consiste en:",
+      "opciones": [
+        "Comprar una call y vender una put del mismo strike",
+        "Comprar una call y una put del mismo strike y vencimiento",
+        "Comprar calls de diferentes strikes",
+        "Vender un futuro y comprar una call"
+      ],
+      "correcta": 1,
+      "explicacion": "Un straddle (cono) consiste en comprar simultáneamente una call y una put con el mismo strike y vencimiento. Se beneficia de movimientos grandes en cualquier dirección (apuesta por volatilidad).",
+      "id": 87
+    },
+    {
+      "pregunta": "El precio de un futuro sobre un índice con dividendos viene dado por:",
+      "opciones": [
+        "F = S × (1 + r × t)",
+        "F = S × (1 + r - d) × t",
+        "F = S × e^((r-d)×t) (aproximadamente S × (1 + (r-d) × t))",
+        "F = S / (1 + r × t)"
+      ],
+      "correcta": 2,
+      "explicacion": "El precio del futuro es el spot capitalizado al tipo sin riesgo menos los dividendos esperados: F = S × e^((r-d)×t). Los dividendos reducen el precio del futuro porque el comprador del futuro no los recibe.",
+      "id": 88
+    },
+    {
+      "pregunta": "En el mercado de divisas, EUR/USD = 1,10 significa:",
+      "opciones": [
+        "1 dólar vale 1,10 euros",
+        "1 euro vale 1,10 dólares",
+        "El euro se ha depreciado",
+        "El dólar es la divisa base"
+      ],
+      "correcta": 1,
+      "explicacion": "En la cotización EUR/USD, el EUR es la divisa base y el USD es la divisa cotizada. EUR/USD = 1,10 significa que 1 euro vale 1,10 dólares.",
+      "id": 89
+    },
+    {
+      "pregunta": "Si EUR/USD pasa de 1,10 a 1,15, el euro se ha:",
+      "opciones": [
+        "Depreciado un 4,55%",
+        "Apreciado un 4,55%",
+        "Depreciado un 5%",
+        "Apreciado un 5%"
+      ],
+      "correcta": 1,
+      "explicacion": "* Variación = (1,15 - 1,10) / 1,10 = 0,0455 = 4,55% El euro se ha apreciado (ahora compra más dólares).",
+      "id": 90
+    },
+    {
+      "pregunta": "La paridad de tipos de interés cubierta establece que:",
+      "opciones": [
+        "Los tipos de interés son iguales en todos los países",
+        "El tipo forward se ajusta por el diferencial de tipos de interés",
+        "El tipo spot siempre sube",
+        "No existe oportunidad de arbitraje en el mercado de futuros de divisas"
+      ],
+      "correcta": 1,
+      "explicacion": "La paridad cubierta: F/S = (1 + r_doméstico) / (1 + r_extranjero). El tipo forward refleja el diferencial de tipos entre las dos divisas, eliminando oportunidades de arbitraje.",
+      "id": 91
+    },
+    {
+      "pregunta": "Un swap de tipos de interés (IRS) estándar implica:",
+      "opciones": [
+        "Intercambiar principales en diferentes divisas",
+        "Intercambiar un tipo fijo por uno variable sobre el mismo nocional",
+        "Comprar y vender simultáneamente futuros",
+        "Una opción sobre tipos de interés"
+      ],
+      "correcta": 1,
+      "explicacion": "En un IRS plain vanilla, una parte paga tipo fijo y recibe variable (normalmente Euribor), y la otra al revés. No hay intercambio de principal, solo de flujos de intereses sobre un nocional.",
+      "id": 92
+    },
+    {
+      "pregunta": "La garantía (margin) en futuros sirve para:",
+      "opciones": [
+        "Pagar el precio del contrato",
+        "Garantizar el cumplimiento de las obligaciones",
+        "Recibir dividendos",
+        "Limitar las pérdidas"
+      ],
+      "correcta": 1,
+      "explicacion": "El margin es un depósito de garantía que exige la cámara de compensación para asegurar que las partes cumplan sus obligaciones. Se ajusta diariamente según la liquidación de pérdidas y ganancias (mark-to-market).",
+      "id": 93
+    },
+    {
+      "pregunta": "Un inversor español con acciones americanas tiene riesgo de tipo de cambio porque:",
+      "opciones": [
+        "Las acciones cotizan en dólares",
+        "Los dividendos se pagan en euros",
+        "El tipo de cambio EUR/USD puede variar",
+        "a) y c) son correctas"
+      ],
+      "correcta": 3,
+      "explicacion": "El inversor español tiene exposición al tipo de cambio EUR/USD porque la inversión está denominada en dólares. Si el dólar se deprecia frente al euro, el valor en euros de su inversión disminuye, aunque las acciones no bajen.",
+      "id": 94
+    },
+    {
+      "pregunta": "Para cubrir el riesgo de una cartera de acciones españolas se pueden:",
+      "opciones": [
+        "Vender futuros sobre IBEX 35",
+        "Comprar puts sobre IBEX 35",
+        "Ambas estrategias son válidas",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 2,
+      "explicacion": "Ambas estrategias cubren el riesgo de caídas: vender futuros proporciona cobertura simétrica (ganas si baja, pierdes si sube), mientras que comprar puts proporciona cobertura asimétrica (protección ante caídas conservando el potencial alcista, a cambio de pagar la prima).",
+      "id": 95
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes NO es una función de los intermediarios financieros?",
+      "opciones": [
+        "Transformar activos",
+        "Reducir costes de transacción",
+        "Emitir dinero legal",
+        "Gestionar riesgos"
+      ],
+      "correcta": 2,
+      "explicacion": "Solo el banco central puede emitir dinero legal (billetes y monedas). Los intermediarios financieros transforman activos, reducen costes de transacción, gestionan riesgos y facilitan la asignación de recursos.",
+      "id": 96
+    },
+    {
+      "pregunta": "El SIBE (Sistema de Interconexión Bursátil Español) es:",
+      "opciones": [
+        "El regulador del mercado de valores",
+        "La plataforma electrónica de negociación de acciones",
+        "El depositario central de valores",
+        "La cámara de compensación"
+      ],
+      "correcta": 1,
+      "explicacion": "El SIBE es la plataforma electrónica donde se negocian las acciones y otros valores del mercado continuo español. Permite la negociación en tiempo real de valores admitidos en las cuatro bolsas españolas.",
+      "id": 97
+    },
+    {
+      "pregunta": "Iberclear es:",
+      "opciones": [
+        "El regulador bursátil español",
+        "El depositario central de valores español",
+        "La bolsa de derivados española",
+        "El mercado de deuda pública"
+      ],
+      "correcta": 1,
+      "explicacion": "Iberclear (Sociedad de Gestión de los Sistemas de Registro, Compensación y Liquidación de Valores) es el depositario central de valores en España, encargado del registro, compensación y liquidación de valores.",
+      "id": 98
+    },
+    {
+      "pregunta": "MEFF es:",
+      "opciones": [
+        "El mercado de opciones y futuros financieros en España",
+        "El mercado alternativo bursátil",
+        "El mercado de renta fija privada",
+        "El sistema de pagos europeo"
+      ],
+      "correcta": 0,
+      "explicacion": "MEFF (Mercado Español de Futuros Financieros) es el mercado oficial de derivados en España, donde se negocian futuros y opciones sobre el IBEX 35, acciones individuales y otros subyacentes.",
+      "id": 99
+    },
+    {
+      "pregunta": "La CNMV tiene como función principal:",
+      "opciones": [
+        "Emitir deuda pública",
+        "Supervisar e inspeccionar los mercados de valores",
+        "Fijar los tipos de interés",
+        "Gestionar las reservas de divisas"
+      ],
+      "correcta": 1,
+      "explicacion": "La CNMV (Comisión Nacional del Mercado de Valores) es el organismo supervisor de los mercados de valores en España. Vela por la transparencia, la correcta formación de precios y la protección de los inversores.",
+      "id": 100
+    }
+  ]
+}

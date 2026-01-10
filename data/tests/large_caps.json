@@ -1,0 +1,62 @@
+{
+  "name": "Large Caps",
+  "description": "S&P 500 blue chips swing trading v3.0",
+  "version": "3.0",
+  
+  "capital": 15000,
+  "risk_per_trade": 0.01,
+  "max_positions": 4,
+  "max_total_exposure": 0.04,
+  
+  "timeframes": {
+    "context": "1W",
+    "trend": "1D",
+    "entry": "4H"
+  },
+  
+  "assets": {
+    "market_cap_min": 100000000000,
+    "volume_min": 500000000,
+    "max_assets": 50
+  },
+  
+  "risk_management": {
+    "sl_atr_multiplier": 1.5,
+    "tp1_atr_multiplier": 2.0,
+    "tp2_atr_multiplier": 3.0,
+    "tp1_size_pct": 0.5,
+    "tp2_size_pct": 0.5,
+    "trailing_after_tp1": true,
+    "trailing_atr_mult": 1.5,
+    "move_sl_to_be_after_tp1": true
+  },
+  
+  "filters": {
+    "spy_context_lookback": 8,
+    "spy_context_components": ["structure", "ema_alignment", "slope"],
+    "trend_rsi_range": [45, 70],
+    "entry_rsi_range": [48, 62],
+    "pullback_tolerance": 0.025,
+    "require_volume_confirmation": false
+  },
+  
+  "circuit_breakers": {
+    "max_daily_loss": 0.04,
+    "max_weekly_loss": 0.08,
+    "max_drawdown": 0.10,
+    "min_hours_between_trades": 4
+  },
+  
+  "redis": {
+    "prefix": "eleve:large_caps:",
+    "keys": {
+      "positions": "positions",
+      "trades": "trades",
+      "metrics": "metrics"
+    }
+  },
+  
+  "mode": "paper",
+  "enabled": true,
+  "check_interval_minutes": 60
+}

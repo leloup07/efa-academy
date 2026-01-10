@@ -1,0 +1,728 @@
+{
+  "nivel": "EIP",
+  "modulo": 7,
+  "titulo": "Crédito y Financiación",
+  "peso_examen": 5,
+  "preguntas": [
+    {
+      "pregunta": "La diferencia principal entre un préstamo y un crédito es:",
+      "opciones": [
+        "No hay diferencia",
+        "En el préstamo se entrega todo el capital de inicio; en el crédito hay un límite disponible a usar según necesidad",
+        "El préstamo no tiene intereses",
+        "El crédito siempre es a largo plazo"
+      ],
+      "correcta": 1,
+      "explicacion": "En el préstamo se entrega la totalidad del capital al inicio y se pagan intereses sobre todo. En el crédito (cuenta de crédito), se dispone de un límite y solo se pagan intereses sobre lo utilizado.",
+      "id": 1
+    },
+    {
+      "pregunta": "La TAE de un préstamo hipotecario incluye:",
+      "opciones": [
+        "Solo el tipo de interés nominal",
+        "Tipo de interés, comisiones y gastos, reflejando el coste efectivo anualizado",
+        "Solo la comisión de apertura",
+        "El seguro de vida obligatoriamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La TAE incorpora el TIN, la comisión de apertura y otros gastos vinculados al préstamo, permitiendo comparar el coste real entre productos. No incluye gastos de notaría, registro ni seguros no obligatorios.",
+      "id": 2
+    },
+    {
+      "pregunta": "El Euribor a 12 meses es:",
+      "opciones": [
+        "Un tipo de interés fijo",
+        "El tipo de referencia más usado para hipotecas variables en España",
+        "Un tipo definido por el BCE",
+        "Solo aplicable a empresas"
+      ],
+      "correcta": 1,
+      "explicacion": "El Euribor a 12 meses es el índice de referencia más común para hipotecas variables en España. Se publica diariamente y refleja el tipo medio al que los bancos europeos se prestan entre sí.",
+      "id": 3
+    },
+    {
+      "pregunta": "Un préstamo hipotecario a tipo fijo:",
+      "opciones": [
+        "La cuota cambia cada mes",
+        "La cuota permanece constante durante toda la vida del préstamo",
+        "No tiene intereses",
+        "Solo existe para empresas"
+      ],
+      "correcta": 1,
+      "explicacion": "En hipotecas a tipo fijo, el tipo de interés no varía, por lo que la cuota es constante durante todo el plazo. El cliente tiene certeza sobre sus pagos futuros.",
+      "id": 4
+    },
+    {
+      "pregunta": "Un préstamo hipotecario a tipo variable:",
+      "opciones": [
+        "La cuota nunca cambia",
+        "El tipo de interés se revisa periódicamente según un índice de referencia más un diferencial",
+        "Es siempre más caro que el fijo",
+        "No existe en España"
+      ],
+      "correcta": 1,
+      "explicacion": "Las hipotecas variables tienen tipo = índice referencia (ej: Euribor 12M) + diferencial fijo. El tipo se revisa periódica (normalmente cada 6 o 12 meses), ajustando la cuota.",
+      "id": 5
+    },
+    {
+      "pregunta": "La hipoteca mixta combina:",
+      "opciones": [
+        "Dos inmuebles como garantía",
+        "Un periodo inicial a tipo fijo seguido de tipo variable",
+        "Préstamo y crédito",
+        "Dos titulares obligatoriamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La hipoteca mixta tiene un periodo inicial (5-10 años típicamente) a tipo fijo, tras el cual pasa a tipo variable. Ofrece estabilidad inicial con potencial beneficio si bajan tipos después.",
+      "id": 6
+    },
+    {
+      "pregunta": "La comisión de apertura de un préstamo:",
+      "opciones": [
+        "Se paga cada mes",
+        "Es un porcentaje sobre el principal que se paga al inicio",
+        "Es obligatoria por ley",
+        "Se devuelve al final del préstamo"
+      ],
+      "correcta": 1,
+      "explicacion": "La comisión de apertura (0,5-1% típicamente) se cobra al formalizar el préstamo, sobre el importe concedido. Muchas entidades la han eliminado o reducido por competencia.",
+      "id": 7
+    },
+    {
+      "pregunta": "Según la Ley de Crédito Inmobiliario (LCCI), los gastos de formalización de hipoteca:",
+      "opciones": [
+        "Los paga todos el cliente",
+        "Notaría y gestoría las paga el banco; tasación y copia del cliente la paga el cliente",
+        "No hay gastos",
+        "Los paga el Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "Desde la LCCI 2019: el banco paga notaría (matriz), registro, gestoría e IAJD. El cliente paga tasación y su copia de escritura. Se eliminaron gastos abusivos previos.",
+      "id": 8
+    },
+    {
+      "pregunta": "La novación de un préstamo hipotecario consiste en:",
+      "opciones": [
+        "Cancelar la hipoteca",
+        "Modificar condiciones del préstamo existente (tipo, plazo, etc.) con el mismo acreedor",
+        "Cambiar de banco",
+        "Ampliar el inmueble"
+      ],
+      "correcta": 1,
+      "explicacion": "La novación modifica términos del préstamo (tipo de interés, plazo, carencias) manteniendo el mismo prestamista. Tiene costes reducidos respecto a la subrogación o nueva hipoteca.",
+      "id": 9
+    },
+    {
+      "pregunta": "La subrogación de acreedor en hipotecas permite:",
+      "opciones": [
+        "Cambiar el inmueble hipotecado",
+        "Trasladar la hipoteca a otra entidad financiera",
+        "Añadir un titular",
+        "Cancelar el préstamo anticipadamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La subrogación de acreedor es cambiar de banco la hipoteca, normalmente para conseguir mejores condiciones. La LCCI ha reducido las comisiones máximas por subrogación.",
+      "id": 10
+    },
+    {
+      "pregunta": "La comisión por amortización anticipada en hipotecas a tipo variable está limitada a:",
+      "opciones": [
+        "5%",
+        "0,25% los primeros 3 años, 0,15% los 5 primeros (si se pacta)",
+        "No hay límite",
+        "2%"
+      ],
+      "correcta": 1,
+      "explicacion": "La LCCI limita la compensación por riesgo de tipo de interés en variables: máx. 0,25% los 3 primeros años o 0,15% los 5 primeros años (a elección contractual).",
+      "id": 11
+    },
+    {
+      "pregunta": "El FIPER (Ficha de Información Personalizada) debe entregarse:",
+      "opciones": [
+        "Solo si lo pide el cliente",
+        "Antes de la firma, incluyendo las condiciones personalizadas del préstamo",
+        "Después de firmar",
+        "Solo para créditos al consumo"
+      ],
+      "correcta": 1,
+      "explicacion": "La FIPER es obligatoria en préstamos hipotecarios. Contiene las condiciones personalizadas (importe, plazo, tipo, cuotas, TAE) y debe entregarse con antelación suficiente antes de la firma.",
+      "id": 12
+    },
+    {
+      "pregunta": "El préstamo personal se diferencia del hipotecario en que:",
+      "opciones": [
+        "No tiene intereses",
+        "No tiene garantía real sobre un inmueble",
+        "Tiene plazo más largo",
+        "Siempre es a tipo fijo"
+      ],
+      "correcta": 1,
+      "explicacion": "El préstamo personal tiene garantía personal (responde el deudor con todo su patrimonio) pero no hay un inmueble específico como garantía. Son de menor importe, plazo más corto y tipo más alto.",
+      "id": 13
+    },
+    {
+      "pregunta": "Un préstamo preconcedido es:",
+      "opciones": [
+        "Un préstamo ya aprobado previamente que el cliente puede activar",
+        "Un préstamo rechazado",
+        "Una hipoteca",
+        "Solo para empresas"
+      ],
+      "correcta": 0,
+      "explicacion": "Las entidades ofrecen préstamos preconcedidos a clientes según su perfil: importes y condiciones ya aprobados que el cliente puede aceptar rápidamente si los necesita.",
+      "id": 14
+    },
+    {
+      "pregunta": "El crédito revolving se caracteriza por:",
+      "opciones": [
+        "Tener tipo de interés muy bajo",
+        "Permitir disponer repetidamente del crédito conforme se amortiza, con cuotas que incluyen poco capital",
+        "Ser solo para vivienda",
+        "No tener intereses"
+      ],
+      "correcta": 1,
+      "explicacion": "El crédito revolving es renovable: la cuota mínima suele ser pequeña (mayoritariamente intereses), regenerando el disponible muy lentamente. Tiene tipos muy altos (15-25% TAE), siendo polémico.",
+      "id": 15
+    },
+    {
+      "pregunta": "Las tarjetas de crédito \"a fin de mes\" sin intereses:",
+      "opciones": [
+        "Nunca existen",
+        "Difieren el pago al mes siguiente sin intereses si se paga el 100% del saldo",
+        "Siempre cobran intereses",
+        "Son ilegales"
+      ],
+      "correcta": 1,
+      "explicacion": "Las tarjetas de crédito con pago total a fin de mes no cobran intereses si se paga todo el saldo en la fecha. Solo si se aplaza el pago (modalidad revolving) se generan intereses.",
+      "id": 16
+    },
+    {
+      "pregunta": "El leasing es un contrato de:",
+      "opciones": [
+        "Compraventa directa",
+        "Arrendamiento financiero con opción de compra al final",
+        "Alquiler sin opción de compra",
+        "Seguro"
+      ],
+      "correcta": 1,
+      "explicacion": "El leasing es un arrendamiento donde el arrendatario paga cuotas y al final puede ejercer la opción de compra (normalmente por un valor residual bajo). El bien es propiedad del arrendador hasta entonces.",
+      "id": 17
+    },
+    {
+      "pregunta": "El renting difiere del leasing principalmente en que:",
+      "opciones": [
+        "Son exactamente iguales",
+        "El renting es alquiler operativo sin opción de compra y suele incluir servicios (mantenimiento, seguro)",
+        "El renting siempre tiene opción de compra",
+        "El renting es solo para inmuebles"
+      ],
+      "correcta": 1,
+      "explicacion": "El renting es alquiler operativo: cuotas fijas que incluyen uso del bien y servicios (mantenimiento, seguros, reparaciones). Normalmente sin opción de compra; ideal para vehículos de empresa.",
+      "id": 18
+    },
+    {
+      "pregunta": "El factoring consiste en:",
+      "opciones": [
+        "Fabricar productos",
+        "Ceder derechos de cobro (facturas) a una entidad que anticipa el importe",
+        "Un préstamo hipotecario",
+        "Un seguro de crédito"
+      ],
+      "correcta": 1,
+      "explicacion": "En el factoring, una empresa cede sus facturas pendientes de cobro a una entidad financiera que anticipa el importe (menos descuento). Puede ser con o sin recurso (quién asume el impago).",
+      "id": 19
+    },
+    {
+      "pregunta": "El confirming es un servicio de:",
+      "opciones": [
+        "Confirmación de reservas",
+        "Gestión de pagos a proveedores, que pueden anticipar el cobro",
+        "Un tipo de hipoteca",
+        "Seguro de vida"
+      ],
+      "correcta": 1,
+      "explicacion": "En el confirming, una empresa delega la gestión de pagos a proveedores en una entidad financiera, que ofrece a los proveedores la posibilidad de anticipar el cobro de sus facturas.",
+      "id": 20
+    },
+    {
+      "pregunta": "El descuento comercial permite:",
+      "opciones": [
+        "Comprar más barato",
+        "Anticipar el cobro de efectos comerciales (letras, pagarés) antes de su vencimiento",
+        "Reducir el tipo de interés",
+        "Anular una deuda"
+      ],
+      "correcta": 1,
+      "explicacion": "El descuento comercial es una operación donde el banco anticipa el importe de efectos (letras, pagarés, recibos) antes del vencimiento, descontando intereses y comisiones.",
+      "id": 21
+    },
+    {
+      "pregunta": "La póliza de crédito es:",
+      "opciones": [
+        "Un préstamo a largo plazo",
+        "Una línea de crédito con límite disponible, pagando intereses solo por lo dispuesto",
+        "Un seguro de crédito",
+        "Una garantía hipotecaria"
+      ],
+      "correcta": 1,
+      "explicacion": "La póliza de crédito establece un límite del que se puede disponer según necesidad (similar a descubierto pero pactado). Se pagan intereses sobre lo dispuesto, no sobre el límite total.",
+      "id": 22
+    },
+    {
+      "pregunta": "El ICO (Instituto de Crédito Oficial) es:",
+      "opciones": [
+        "Un banco privado",
+        "Una entidad pública que ofrece financiación a través de entidades financieras",
+        "El Banco de España",
+        "Una gestora de fondos"
+      ],
+      "correcta": 1,
+      "explicacion": "El ICO es un banco público español que canaliza financiación (líneas ICO para pymes, emprendedores, internacionalización) a través de bancos y cajas colaboradoras, con condiciones favorables.",
+      "id": 23
+    },
+    {
+      "pregunta": "El aval bancario es:",
+      "opciones": [
+        "Un préstamo",
+        "Una garantía por la que el banco responde si el avalado incumple",
+        "Un seguro",
+        "Una tarjeta de crédito"
+      ],
+      "correcta": 1,
+      "explicacion": "El aval bancario es una garantía: el banco se compromete a pagar si el cliente (avalado) no cumple una obligación frente a un tercero. Se usa para contratos, licitaciones, alquileres, etc.",
+      "id": 24
+    },
+    {
+      "pregunta": "El microcrédito está diseñado para:",
+      "opciones": [
+        "Grandes empresas",
+        "Pequeños importes para personas o microempresas con difícil acceso al crédito convencional",
+        "Inversores institucionales",
+        "Solo para vivienda"
+      ],
+      "correcta": 1,
+      "explicacion": "Los microcréditos son préstamos de pequeño importe destinados a emprendedores, autónomos o personas con dificultades de acceso al crédito tradicional, a menudo con acompañamiento.",
+      "id": 25
+    },
+    {
+      "pregunta": "El scoring crediticio es:",
+      "opciones": [
+        "El tipo de interés del préstamo",
+        "Un sistema automatizado de puntuación del riesgo del solicitante basado en variables estadísticas",
+        "El importe del préstamo",
+        "La comisión de apertura"
+      ],
+      "correcta": 1,
+      "explicacion": "El scoring es un modelo estadístico que asigna una puntuación al solicitante basándose en múltiples variables (ingresos, historial, endeudamiento, etc.) para predecir la probabilidad de impago.",
+      "id": 26
+    },
+    {
+      "pregunta": "Los ficheros de morosos (ASNEF, RAI) contienen información sobre:",
+      "opciones": [
+        "Los mejores clientes",
+        "Personas físicas o jurídicas con deudas impagadas",
+        "Préstamos concedidos",
+        "Tipos de interés"
+      ],
+      "correcta": 1,
+      "explicacion": "ASNEF (particulares) y RAI (empresas) son registros de morosos que las entidades consultan antes de conceder crédito. Estar incluido dificulta obtener financiación.",
+      "id": 27
+    },
+    {
+      "pregunta": "El ratio de endeudamiento mide:",
+      "opciones": [
+        "Solo las deudas hipotecarias",
+        "La relación entre deudas totales y patrimonio o ingresos del solicitante",
+        "El valor del inmueble",
+        "La antigüedad del cliente"
+      ],
+      "correcta": 1,
+      "explicacion": "Ratio endeudamiento = Deuda total / Patrimonio (o Ingresos). Las entidades evalúan que el nivel de deuda sea sostenible respecto a la capacidad económica del cliente.",
+      "id": 28
+    },
+    {
+      "pregunta": "El ratio de esfuerzo o carga financiera recomendado no debería superar:",
+      "opciones": [
+        "80%",
+        "30-35% de los ingresos netos",
+        "100%",
+        "10%"
+      ],
+      "correcta": 1,
+      "explicacion": "Las entidades consideran que las cuotas de préstamos (incluida la hipoteca) no deberían superar el 30-35% de los ingresos netos mensuales del solicitante para ser sostenible.",
+      "id": 29
+    },
+    {
+      "pregunta": "El Loan to Value (LTV) de una hipoteca de 180.000€ sobre un inmueble valorado en 200.000€ es:",
+      "opciones": [
+        "80%",
+        "90%",
+        "111%",
+        "20%"
+      ],
+      "correcta": 1,
+      "explicacion": "LTV = Préstamo / Valor inmueble = 180.000 / 200.000 = 90%. Un LTV del 90% es alto; las entidades prefieren LTV ≤80% para vivienda habitual.",
+      "id": 30
+    },
+    {
+      "pregunta": "La CIRBE (Central de Información de Riesgos del Banco de España) registra:",
+      "opciones": [
+        "Solo hipotecas",
+        "Todos los riesgos de crédito de personas y empresas con entidades financieras",
+        "Los depósitos bancarios",
+        "Las inversiones en bolsa"
+      ],
+      "correcta": 1,
+      "explicacion": "La CIRBE es una base de datos del BdE que recoge todos los préstamos, créditos, avales y otros riesgos que las entidades tienen con cada cliente (a partir de cierto umbral).",
+      "id": 31
+    },
+    {
+      "pregunta": "La capacidad de pago de un solicitante se evalúa principalmente por:",
+      "opciones": [
+        "Su edad únicamente",
+        "Sus ingresos recurrentes, estabilidad laboral y gastos fijos",
+        "El color de su casa",
+        "Su código postal exclusivamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La capacidad de pago analiza: ingresos netos estables, antigüedad laboral, tipo de contrato, otros ingresos, gastos fijos y deudas existentes. Determina si puede asumir la nueva cuota.",
+      "id": 32
+    },
+    {
+      "pregunta": "Un aval personal en un préstamo significa que:",
+      "opciones": [
+        "No hay garantía adicional",
+        "Un tercero se compromete a pagar si el deudor principal no lo hace",
+        "El banco renuncia a cobrar",
+        "Solo el deudor responde"
+      ],
+      "correcta": 1,
+      "explicacion": "El avalista garantiza personalmente la deuda. Si el deudor principal no paga, el banco puede reclamar al avalista, que responde con su patrimonio personal.",
+      "id": 33
+    },
+    {
+      "pregunta": "La garantía hipotecaria implica que:",
+      "opciones": [
+        "No hay ninguna garantía",
+        "El inmueble responde de la deuda; si hay impago, el banco puede ejecutar la hipoteca",
+        "Solo responde el avalista",
+        "El banco no puede reclamar nada"
+      ],
+      "correcta": 1,
+      "explicacion": "La garantía hipotecaria da al banco derecho a ejecutar (subastar) el inmueble si hay impago. Es garantía real sobre un bien específico, que prevalece sobre otros acreedores.",
+      "id": 34
+    },
+    {
+      "pregunta": "El riesgo de crédito para una entidad financiera es:",
+      "opciones": [
+        "Que suban los tipos de interés",
+        "Que el cliente no devuelva el préstamo (impago)",
+        "Que el cliente devuelva antes de tiempo",
+        "Que haya inflación"
+      ],
+      "correcta": 1,
+      "explicacion": "El riesgo de crédito es la probabilidad de que el prestatario no cumpla con sus obligaciones de pago (principal e intereses), generando pérdidas para el prestamista.",
+      "id": 35
+    },
+    {
+      "pregunta": "La morosidad bancaria se produce cuando:",
+      "opciones": [
+        "El cliente paga puntualmente",
+        "El cliente se retrasa más de 90 días en el pago de una cuota",
+        "El cliente cancela anticipadamente",
+        "El banco sube tipos"
+      ],
+      "correcta": 1,
+      "explicacion": "Contablemente, un préstamo se clasifica como moroso cuando hay impagos superiores a 90 días. La tasa de morosidad del sistema es un indicador clave de salud financiera.",
+      "id": 36
+    },
+    {
+      "pregunta": "Las provisiones bancarias por insolvencia:",
+      "opciones": [
+        "Son beneficios del banco",
+        "Son reservas que el banco debe dotar para cubrir potenciales pérdidas por impagos",
+        "Son préstamos al BCE",
+        "Son dividendos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los bancos deben provisionar (reservar) fondos según el riesgo de sus préstamos. Mayor morosidad = mayores provisiones = menor beneficio. Las provisiones cubren pérdidas esperadas.",
+      "id": 37
+    },
+    {
+      "pregunta": "El credit scoring considera habitualmente:",
+      "opciones": [
+        "Solo el sexo del solicitante",
+        "Historial crediticio, ingresos, situación laboral, edad, patrimonio, entre otros",
+        "Solo la nacionalidad",
+        "El nombre del solicitante"
+      ],
+      "correcta": 1,
+      "explicacion": "Variables típicas del scoring: historial de pagos, nivel de ingresos, antigüedad laboral, tipo de contrato, edad, situación familiar, patrimonio, nivel de endeudamiento actual. Variables discriminatorias (sexo, raza) están prohibidas.",
+      "id": 38
+    },
+    {
+      "pregunta": "Un cliente con buen scoring crediticio:",
+      "opciones": [
+        "Siempre se le deniega el préstamo",
+        "Tiene mayor probabilidad de obtener financiación y en mejores condiciones",
+        "Paga más intereses",
+        "No puede pedir hipoteca"
+      ],
+      "correcta": 1,
+      "explicacion": "Un buen score indica bajo riesgo de impago. El cliente accede más fácilmente al crédito, puede obtener mejores tipos de interés, y límites más altos.",
+      "id": 39
+    },
+    {
+      "pregunta": "La verificación de la documentación aportada por el solicitante es importante para:",
+      "opciones": [
+        "Hacer más lento el proceso",
+        "Evitar fraude y confirmar la capacidad real de pago",
+        "Molestar al cliente",
+        "Cumplir solo requisitos formales sin importancia"
+      ],
+      "correcta": 1,
+      "explicacion": "Verificar documentos (nóminas, IRPF, escrituras, CIRBE) permite confirmar la veracidad de la información, detectar fraudes y evaluar correctamente la capacidad de pago real.",
+      "id": 40
+    },
+    {
+      "pregunta": "El proceso de concesión de un préstamo hipotecario incluye:",
+      "opciones": [
+        "Solo la firma ante notario",
+        "Solicitud, análisis, tasación, aprobación, FEIN/FIPER, firma ante notario",
+        "Solo pagar la entrada",
+        "Ningún análisis previo"
+      ],
+      "correcta": 1,
+      "explicacion": "Fases: solicitud y aportación de documentación, análisis de riesgos, tasación del inmueble, decisión/aprobación, entrega de información precontractual (FEIN/FIPER), visita a notario para acta previa, y firma de escritura.",
+      "id": 41
+    },
+    {
+      "pregunta": "La tasación oficial de un inmueble para hipoteca debe realizarla:",
+      "opciones": [
+        "Cualquier persona",
+        "Una sociedad de tasación homologada por el Banco de España",
+        "El propio cliente",
+        "El vendedor del inmueble"
+      ],
+      "correcta": 1,
+      "explicacion": "La tasación hipotecaria debe ser realizada por una sociedad de tasación inscrita en el registro del BdE, siguiendo la normativa ECO 805/2003. El cliente elige tasadora y paga la tasación.",
+      "id": 42
+    },
+    {
+      "pregunta": "El acta notarial previa a la firma de hipoteca (LCCI) sirve para:",
+      "opciones": [
+        "Firmar la hipoteca",
+        "Que el notario verifique que el cliente ha recibido y comprende la información precontractual",
+        "Vender el inmueble",
+        "Cancelar la operación"
+      ],
+      "correcta": 1,
+      "explicacion": "Desde la LCCI, el prestatario debe acudir al notario al menos 1 día antes de la firma para el acta previa, donde el notario comprueba que ha recibido la FEIN/FIPER y resuelve dudas.",
+      "id": 43
+    },
+    {
+      "pregunta": "La FEIN (Ficha Europea de Información Normalizada) contiene:",
+      "opciones": [
+        "Información general de la entidad",
+        "Las condiciones personalizadas de la oferta vinculante de hipoteca en formato europeo estandarizado",
+        "Solo el tipo de interés",
+        "Publicidad del banco"
+      ],
+      "correcta": 1,
+      "explicacion": "La FEIN es el documento precontractual normalizado en la UE que detalla todas las condiciones del préstamo hipotecario: importe, plazo, tipo, TAE, cuotas, comisiones, gastos, productos vinculados.",
+      "id": 44
+    },
+    {
+      "pregunta": "La carencia de capital en un préstamo significa:",
+      "opciones": [
+        "No se paga nada",
+        "Durante un periodo solo se pagan intereses, sin amortizar capital",
+        "Se paga el doble",
+        "El préstamo está cancelado"
+      ],
+      "correcta": 1,
+      "explicacion": "En carencia de capital, las cuotas son solo de intereses durante un periodo. El capital pendiente no se reduce, prolongando el préstamo o aumentando las cuotas posteriores.",
+      "id": 45
+    },
+    {
+      "pregunta": "La carencia total implica:",
+      "opciones": [
+        "Pagar el doble de cuota",
+        "No pagar ni capital ni intereses durante un periodo (se acumulan)",
+        "Cancelar la deuda",
+        "Pagar solo capital"
+      ],
+      "correcta": 1,
+      "explicacion": "En carencia total no se paga nada temporalmente, pero los intereses se acumulan al principal. Al terminar la carencia, la deuda es mayor y las cuotas aumentan.",
+      "id": 46
+    },
+    {
+      "pregunta": "La amortización anticipada parcial de un préstamo:",
+      "opciones": [
+        "Está prohibida",
+        "Permite reducir el capital pendiente, pudiendo reducir plazo o cuota",
+        "Aumenta los intereses",
+        "No tiene ningún efecto"
+      ],
+      "correcta": 1,
+      "explicacion": "Amortizando anticipadamente se reduce el capital pendiente. El cliente puede elegir: mantener cuota y acortar plazo, o reducir cuota y mantener plazo. Ahorra intereses.",
+      "id": 47
+    },
+    {
+      "pregunta": "La cláusula suelo en hipotecas:",
+      "opciones": [
+        "Es obligatoria",
+        "Establecía un tipo mínimo de interés aunque el Euribor bajase más (declaradas abusivas en muchos casos)",
+        "Beneficiaba al cliente",
+        "Subía el tipo de interés"
+      ],
+      "correcta": 1,
+      "explicacion": "Las cláusulas suelo fijaban un tipo mínimo (ej: 3%) aunque Euribor+diferencial fuese menor. El TJUE las declaró abusivas cuando no fueron transparentes, obligando a devoluciones masivas.",
+      "id": 48
+    },
+    {
+      "pregunta": "El IRPH (Índice de Referencia de Préstamos Hipotecarios) es:",
+      "opciones": [
+        "Igual al Euribor",
+        "Un índice alternativo al Euribor, basado en la media de tipos de hipotecas",
+        "El tipo del BCE",
+        "Un índice de bolsa"
+      ],
+      "correcta": 1,
+      "explicacion": "El IRPH es un índice que refleja el tipo medio de las hipotecas en España. Históricamente ha sido más alto que el Euribor, generando controversia y litigiosidad.",
+      "id": 49
+    },
+    {
+      "pregunta": "La ejecución hipotecaria procede cuando:",
+      "opciones": [
+        "El cliente paga puntualmente",
+        "Hay impago significativo y el banco inicia procedimiento judicial para subastar el inmueble",
+        "El cliente quiere vender",
+        "Bajan los tipos de interés"
+      ],
+      "correcta": 1,
+      "explicacion": "Ante impagos sostenidos (la LCCI exige al menos 12 cuotas o 3% del capital impagado en primera mitad del préstamo), el banco puede iniciar ejecución hipotecaria y subastar el inmueble.",
+      "id": 50
+    },
+    {
+      "pregunta": "La dación en pago es:",
+      "opciones": [
+        "Pagar el doble",
+        "Entregar el inmueble al banco para saldar la deuda hipotecaria",
+        "Obligatoria en España",
+        "Un seguro"
+      ],
+      "correcta": 1,
+      "explicacion": "La dación en pago supone entregar el inmueble al banco quedando saldada la deuda. En España no es automática (hay responsabilidad personal por el déficit), pero puede pactarse o aplicarse en casos de vulnerabilidad.",
+      "id": 51
+    },
+    {
+      "pregunta": "El Código de Buenas Prácticas bancario para deudores hipotecarios en dificultad permite:",
+      "opciones": [
+        "No pagar nunca",
+        "Medidas como reestructuración, quita parcial o dación en pago para colectivos vulnerables",
+        "Subir el tipo de interés",
+        "Nada"
+      ],
+      "correcta": 1,
+      "explicacion": "El Código de Buenas Prácticas (Real Decreto-ley 6/2012 y modificaciones) establece medidas para deudores en umbral de exclusión: reestructuración de deuda, quita, y dación en pago como última opción.",
+      "id": 52
+    },
+    {
+      "pregunta": "La refinanciación de deudas personales consiste en:",
+      "opciones": [
+        "Aumentar las deudas",
+        "Agrupar varias deudas en un solo préstamo, normalmente con cuota menor y plazo mayor",
+        "No pagar nada",
+        "Declararse en quiebra"
+      ],
+      "correcta": 1,
+      "explicacion": "La refinanciación unifica varias deudas (tarjetas, préstamos) en un solo préstamo. Puede reducir la cuota mensual, pero extender el plazo total y el coste total de intereses.",
+      "id": 53
+    },
+    {
+      "pregunta": "El seguro de vida vinculado a hipoteca:",
+      "opciones": [
+        "Es siempre obligatorio por ley",
+        "Es frecuente que el banco lo exija; cubre el capital pendiente en caso de fallecimiento del deudor",
+        "No existe",
+        "Cubre el inmueble contra incendios"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de vida cubre la deuda pendiente si el titular fallece. Aunque no es legalmente obligatorio, las entidades suelen exigirlo o bonificar el tipo si se contrata. El cliente puede elegir aseguradora.",
+      "id": 54
+    },
+    {
+      "pregunta": "El seguro de hogar en hipotecas:",
+      "opciones": [
+        "Es opcional y sin vinculación",
+        "El seguro de daños sobre el inmueble (continente) es obligatorio; la entidad puede exigir uno pero el cliente elige aseguradora",
+        "Cubre impagos del préstamo",
+        "No tiene nada que ver con la hipoteca"
+      ],
+      "correcta": 1,
+      "explicacion": "La Ley Hipotecaria exige seguro de daños (continente). El banco puede requerir seguro de hogar pero debe aceptar pólizas de otras aseguradoras con coberturas equivalentes.",
+      "id": 55
+    },
+    {
+      "pregunta": "La Ley de Crédito Inmobiliario (LCCI) entró en vigor en:",
+      "opciones": [
+        "2000",
+        "2019",
+        "2025",
+        "1990"
+      ],
+      "correcta": 1,
+      "explicacion": "La Ley 5/2019, de 15 de marzo, reguladora de los contratos de crédito inmobiliario, entró en vigor el 16 de junio de 2019, transponiendo la Directiva europea de crédito hipotecario.",
+      "id": 56
+    },
+    {
+      "pregunta": "Los préstamos al consumo están regulados principalmente por:",
+      "opciones": [
+        "La Ley Hipotecaria",
+        "La Ley de Contratos de Crédito al Consumo",
+        "El Código Civil únicamente",
+        "No tienen regulación"
+      ],
+      "correcta": 1,
+      "explicacion": "Los préstamos al consumo se rigen por la Ley 16/2011 de Contratos de Crédito al Consumo, que establece requisitos de información, derecho de desistimiento, TAE, etc.",
+      "id": 57
+    },
+    {
+      "pregunta": "El derecho de desistimiento en créditos al consumo permite:",
+      "opciones": [
+        "No devolver nunca el dinero",
+        "Devolver el crédito en 14 días desde la firma sin penalización ni justificación",
+        "Solo reclamar al banco",
+        "Ampliar el plazo del préstamo"
+      ],
+      "correcta": 1,
+      "explicacion": "En créditos al consumo, el cliente tiene 14 días naturales para desistir del contrato sin penalización, devolviendo el capital e intereses devengados hasta ese momento.",
+      "id": 58
+    },
+    {
+      "pregunta": "La usura en préstamos está regulada por:",
+      "opciones": [
+        "Ninguna ley",
+        "La Ley Azcárate de 1908, que permite anular préstamos con intereses notablemente superiores al normal",
+        "Solo normativa europea",
+        "La Constitución directamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La Ley de Usura (Ley Azcárate) de 1908 permite declarar nulo un préstamo con interés \"notablemente superior al normal del dinero\" y manifiestamente desproporcionado. Se ha aplicado a revolving.",
+      "id": 59
+    },
+    {
+      "pregunta": "La transparencia en comercialización de productos bancarios vinculados exige:",
+      "opciones": [
+        "No informar de nada",
+        "Informar claramente si un producto es opcional o requisito para obtener mejores condiciones",
+        "Obligar a contratar todos los productos",
+        "Ocultar las condiciones"
+      ],
+      "correcta": 1,
+      "explicacion": "La normativa exige distinguir entre productos vinculados (obligatorios) y combinados (bonificación si se contratan pero opcionales). El cliente debe conocer qué es obligatorio y qué opcional.",
+      "id": 60
+    }
+  ]
+}

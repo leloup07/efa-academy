@@ -1,0 +1,908 @@
+{
+  "nivel": "EIP",
+  "modulo": 2,
+  "titulo": "Fondos y Sociedades de Inversión",
+  "peso_examen": 10,
+  "preguntas": [
+    {
+      "pregunta": "Una Institución de Inversión Colectiva (IIC) se caracteriza por:",
+      "opciones": [
+        "Invertir exclusivamente en renta fija",
+        "Captar fondos del público para invertirlos en activos financieros",
+        "Garantizar siempre el capital invertido",
+        "Ofrecer rentabilidad fija"
+      ],
+      "correcta": 1,
+      "explicacion": "Las IIC son vehículos que captan fondos de múltiples inversores para invertirlos colectivamente en activos financieros o no financieros, según su política de inversión.",
+      "id": 1
+    },
+    {
+      "pregunta": "La diferencia principal entre un Fondo de Inversión y una SICAV es:",
+      "opciones": [
+        "El tipo de activos en que invierten",
+        "El fondo no tiene personalidad jurídica, la SICAV sí",
+        "La SICAV solo invierte en renta variable",
+        "El fondo tiene mayor fiscalidad"
+      ],
+      "correcta": 1,
+      "explicacion": "Un Fondo de Inversión es un patrimonio sin personalidad jurídica propia, gestionado por una SGIIC. Una SICAV (Sociedad de Inversión de Capital Variable) es una sociedad anónima con personalidad jurídica propia.",
+      "id": 2
+    },
+    {
+      "pregunta": "El valor liquidativo de un fondo de inversión se calcula:",
+      "opciones": [
+        "Una vez al mes",
+        "Diariamente, dividiendo el patrimonio entre el número de participaciones",
+        "Al vencimiento del fondo",
+        "Cuando lo solicita el partícipe"
+      ],
+      "correcta": 1,
+      "explicacion": "El valor liquidativo (VL) se calcula diariamente: VL = Patrimonio neto del fondo / Número de participaciones en circulación. Es el precio de suscripción y reembolso.",
+      "id": 3
+    },
+    {
+      "pregunta": "¿Quién es responsable de la custodia de los activos de un fondo de inversión?",
+      "opciones": [
+        "La gestora (SGIIC)",
+        "El depositario",
+        "La CNMV",
+        "El partícipe"
+      ],
+      "correcta": 1,
+      "explicacion": "El depositario (banco depositario) es responsable de la custodia de los activos del fondo, del control de la gestora y de la función de vigilancia. Es una figura separada de la gestora para proteger al partícipe.",
+      "id": 4
+    },
+    {
+      "pregunta": "Un fondo de inversión es un vehículo de inversión:",
+      "opciones": [
+        "Cerrado",
+        "Abierto con liquidez diaria (habitualmente)",
+        "Solo para inversores institucionales",
+        "Con capital fijo"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos de inversión tradicionales (UCITS) son vehículos abiertos: permiten suscripciones y reembolsos de forma continua, normalmente con liquidez diaria.",
+      "id": 5
+    },
+    {
+      "pregunta": "La SGIIC (Sociedad Gestora de Instituciones de Inversión Colectiva) tiene la función de:",
+      "opciones": [
+        "Solo custodiar los activos",
+        "Gestionar las inversiones y administrar el fondo",
+        "Supervisar a la CNMV",
+        "Garantizar las rentabilidades"
+      ],
+      "correcta": 1,
+      "explicacion": "La gestora toma las decisiones de inversión según la política del fondo, administra el fondo (suscripciones, reembolsos, información) y debe actuar en interés de los partícipes.",
+      "id": 6
+    },
+    {
+      "pregunta": "El documento DFI (Datos Fundamentales para el Inversor) o KID debe entregarse:",
+      "opciones": [
+        "Solo si el inversor lo solicita",
+        "Antes de la suscripción del fondo",
+        "Una vez al año",
+        "Al reembolsar"
+      ],
+      "correcta": 1,
+      "explicacion": "El DFI/KID (Key Information Document) debe entregarse obligatoriamente al inversor antes de la suscripción, de forma gratuita. Contiene información esencial: objetivos, riesgos, costes y rentabilidades pasadas.",
+      "id": 7
+    },
+    {
+      "pregunta": "Un fondo de inversión garantizado:",
+      "opciones": [
+        "Garantiza siempre rentabilidad positiva",
+        "Garantiza el capital y/o una rentabilidad mínima al vencimiento",
+        "No tiene riesgo alguno",
+        "Está garantizado por el Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos garantizados ofrecen una garantía de capital y/o rentabilidad al vencimiento, normalmente respaldada por un tercero (banco). La garantía solo aplica si se mantiene hasta vencimiento.",
+      "id": 8
+    },
+    {
+      "pregunta": "El indicador sintético de riesgo (SRI) en el DFI va de:",
+      "opciones": [
+        "1 a 5",
+        "1 a 7",
+        "A a E",
+        "0 a 100"
+      ],
+      "correcta": 1,
+      "explicacion": "El SRI (Synthetic Risk Indicator) en el KID va de 1 (menor riesgo) a 7 (mayor riesgo). Se basa en la volatilidad histórica y otros factores de riesgo del producto.",
+      "id": 9
+    },
+    {
+      "pregunta": "Un fondo monetario invierte principalmente en:",
+      "opciones": [
+        "Acciones de gran capitalización",
+        "Activos de renta fija a muy corto plazo y alta calidad crediticia",
+        "Inmuebles",
+        "Derivados especulativos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos monetarios invierten en activos de renta fija a corto plazo (repos, letras, pagarés, depósitos) con alta calidad crediticia. Buscan preservar capital con mínima volatilidad.",
+      "id": 10
+    },
+    {
+      "pregunta": "Un fondo de renta fija a largo plazo tiene principalmente riesgo de:",
+      "opciones": [
+        "Tipo de cambio",
+        "Tipo de interés",
+        "Renta variable",
+        "Liquidez extrema"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos de renta fija a largo plazo son especialmente sensibles a variaciones en los tipos de interés (alta duración). Si los tipos suben, el valor del fondo baja.",
+      "id": 11
+    },
+    {
+      "pregunta": "Un fondo mixto se caracteriza por:",
+      "opciones": [
+        "Invertir solo en bonos mixtos",
+        "Combinar inversiones en renta fija y renta variable",
+        "Mezclar euros y dólares",
+        "Invertir en derivados exclusivamente"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos mixtos combinan renta fija y renta variable en distintas proporciones. Se clasifican como mixtos de renta fija (predomina RF) o mixtos de renta variable (predomina RV).",
+      "id": 12
+    },
+    {
+      "pregunta": "Un ETF (Exchange Traded Fund) es:",
+      "opciones": [
+        "Un fondo de inversión que cotiza en bolsa",
+        "Un derivado sobre índices",
+        "Una acción preferente",
+        "Un bono cotizado"
+      ],
+      "correcta": 0,
+      "explicacion": "Los ETFs son fondos de inversión cuyas participaciones cotizan en bolsa como si fueran acciones. Combinan la diversificación de un fondo con la liquidez y negociación continua de las acciones.",
+      "id": 13
+    },
+    {
+      "pregunta": "La principal ventaja fiscal de los fondos de inversión en España es:",
+      "opciones": [
+        "Exención total de impuestos",
+        "El diferimiento fiscal en los traspasos entre fondos",
+        "Tipo reducido del 1%",
+        "Deducción en la cuota del IRPF"
+      ],
+      "correcta": 1,
+      "explicacion": "Los traspasos entre fondos de inversión en España no tributan hasta el reembolso final. Esto permite cambiar de fondo sin pagar impuestos, difiriendo la tributación.",
+      "id": 14
+    },
+    {
+      "pregunta": "Un fondo de inversión libre (hedge fund) en España:",
+      "opciones": [
+        "No tiene ninguna restricción de inversión",
+        "Está destinado a inversores cualificados con inversión mínima de 100.000€",
+        "Tributa al 0%",
+        "Está garantizado por el FGD"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos de inversión libre (FIL) tienen mayor flexibilidad de inversión pero están restringidos a inversores cualificados con una inversión mínima de 100.000€.",
+      "id": 15
+    },
+    {
+      "pregunta": "La rentabilidad de un fondo de inversión de acumulación se obtiene mediante:",
+      "opciones": [
+        "Dividendos periódicos",
+        "El incremento del valor liquidativo",
+        "Intereses anuales",
+        "Cupones semestrales"
+      ],
+      "correcta": 1,
+      "explicacion": "En fondos de acumulación, los rendimientos se reinvierten automáticamente en el fondo, aumentando el valor liquidativo. No hay distribuciones. La ganancia se obtiene al reembolsar.",
+      "id": 16
+    },
+    {
+      "pregunta": "Un fondo índice o indexado:",
+      "opciones": [
+        "Busca batir sistemáticamente al índice de referencia",
+        "Replica la composición y rentabilidad de un índice de referencia",
+        "Invierte solo en empresas del índice Dow Jones",
+        "Tiene comisiones más altas que los fondos activos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos indexados (gestión pasiva) replican un índice de referencia, intentando obtener su misma rentabilidad. Tienen comisiones más bajas que los fondos de gestión activa.",
+      "id": 17
+    },
+    {
+      "pregunta": "El tracking error mide:",
+      "opciones": [
+        "Los errores en el cálculo del valor liquidativo",
+        "La desviación de la rentabilidad del fondo respecto a su benchmark",
+        "La comisión de gestión",
+        "El riesgo de crédito"
+      ],
+      "correcta": 1,
+      "explicacion": "El tracking error es la desviación típica de las diferencias de rentabilidad entre el fondo y su índice de referencia. Un tracking error bajo indica que el fondo replica bien al benchmark.",
+      "id": 18
+    },
+    {
+      "pregunta": "Un fondo perfilado o de perfil:",
+      "opciones": [
+        "Invierte según el perfil de riesgo del inversor",
+        "Solo acepta inversores profesionales",
+        "Invierte exclusivamente en acciones tecnológicas",
+        "Tiene perfil fiscal especial"
+      ],
+      "correcta": 0,
+      "explicacion": "Los fondos perfilados se diseñan para diferentes perfiles de riesgo (conservador, moderado, agresivo) con una asignación de activos predefinida adecuada a cada perfil.",
+      "id": 19
+    },
+    {
+      "pregunta": "El patrimonio mínimo para constituir un fondo de inversión en España es:",
+      "opciones": [
+        "300.000€",
+        "3.000.000€",
+        "10.000.000€",
+        "No hay mínimo"
+      ],
+      "correcta": 1,
+      "explicacion": "El patrimonio mínimo para un fondo de inversión en España es de 3 millones de euros, y debe tener al menos 100 partícipes (con excepciones para fondos por compartimentos).",
+      "id": 20
+    },
+    {
+      "pregunta": "El ratio de Sharpe de un fondo mide:",
+      "opciones": [
+        "El riesgo total del fondo",
+        "La rentabilidad obtenida por unidad de riesgo asumido",
+        "La comisión de gestión",
+        "El tamaño del fondo"
+      ],
+      "correcta": 1,
+      "explicacion": "Sharpe = (Rentabilidad fondo - Rentabilidad libre riesgo) / Volatilidad del fondo. Mide el exceso de rentabilidad por unidad de riesgo total (volatilidad). Mayor es mejor.",
+      "id": 21
+    },
+    {
+      "pregunta": "Un fondo tiene rentabilidad del 12%, el activo libre de riesgo rinde 2% y la volatilidad del fondo es 20%. ¿Cuál es su ratio de Sharpe?",
+      "opciones": [
+        "0,60",
+        "0,50",
+        "0,40",
+        "1,00"
+      ],
+      "correcta": 1,
+      "explicacion": "Sharpe = (12% - 2%) / 20% = 10% / 20% = 0,50",
+      "id": 22
+    },
+    {
+      "pregunta": "El ratio de Treynor utiliza como medida de riesgo:",
+      "opciones": [
+        "La volatilidad total",
+        "La beta del fondo",
+        "La desviación típica de los residuos",
+        "El tracking error"
+      ],
+      "correcta": 1,
+      "explicacion": "Treynor = (Rentabilidad fondo - Rf) / Beta. Utiliza beta (riesgo sistemático) en lugar de volatilidad total. Es adecuado para evaluar fondos dentro de una cartera diversificada.",
+      "id": 23
+    },
+    {
+      "pregunta": "El alfa de Jensen mide:",
+      "opciones": [
+        "El riesgo de mercado del fondo",
+        "El exceso de rentabilidad respecto al CAPM (rentabilidad ajustada por riesgo)",
+        "La comisión de éxito",
+        "El tracking error"
+      ],
+      "correcta": 1,
+      "explicacion": "Alfa de Jensen = R_fondo - [Rf + β × (R_mercado - Rf)]. Es el exceso de rentabilidad sobre lo que predice el CAPM. Un alfa positivo indica que el gestor añade valor.",
+      "id": 24
+    },
+    {
+      "pregunta": "Un fondo con beta 0,8 respecto al IBEX 35:",
+      "opciones": [
+        "Es más volátil que el mercado",
+        "Se mueve menos que el mercado en términos relativos",
+        "No tiene correlación con el mercado",
+        "Siempre gana dinero"
+      ],
+      "correcta": 1,
+      "explicacion": "Una beta de 0,8 indica que el fondo se mueve un 80% de lo que se mueve el mercado. Es menos volátil que el índice (beta < 1). Si el IBEX sube 10%, el fondo subiría aproximadamente 8%.",
+      "id": 25
+    },
+    {
+      "pregunta": "El ratio de información (Information Ratio) compara:",
+      "opciones": [
+        "El alfa con el tracking error",
+        "La rentabilidad con la volatilidad",
+        "Los costes con los beneficios",
+        "El tamaño con el patrimonio"
+      ],
+      "correcta": 0,
+      "explicacion": "Information Ratio = Alfa / Tracking Error. Mide la rentabilidad diferencial (vs benchmark) por unidad de riesgo activo. Es clave para evaluar gestores activos.",
+      "id": 26
+    },
+    {
+      "pregunta": "Un fondo tiene un R² de 0,95 respecto a su benchmark. Esto significa que:",
+      "opciones": [
+        "El 95% de la variabilidad del fondo se explica por el benchmark",
+        "La correlación es 0,95",
+        "El fondo bate al benchmark el 95% del tiempo",
+        "El tracking error es 5%"
+      ],
+      "correcta": 0,
+      "explicacion": "R² indica qué porcentaje de la variabilidad del fondo es explicada por el benchmark. Un R² de 0,95 sugiere que el fondo sigue muy de cerca al índice (baja gestión activa).",
+      "id": 27
+    },
+    {
+      "pregunta": "El máximo drawdown de un fondo mide:",
+      "opciones": [
+        "La rentabilidad máxima histórica",
+        "La máxima pérdida desde un pico hasta un valle",
+        "La volatilidad anualizada",
+        "El ratio de Sortino"
+      ],
+      "correcta": 1,
+      "explicacion": "El drawdown máximo es la mayor caída porcentual desde un máximo histórico hasta el mínimo siguiente. Mide la peor experiencia posible para un inversor que entró en el peor momento.",
+      "id": 28
+    },
+    {
+      "pregunta": "El ratio de Sortino se diferencia del Sharpe en que:",
+      "opciones": [
+        "No usa la tasa libre de riesgo",
+        "Usa solo la volatilidad de las rentabilidades negativas (downside risk)",
+        "Divide por la beta",
+        "Es siempre mayor que Sharpe"
+      ],
+      "correcta": 1,
+      "explicacion": "Sortino = (R - Rf) / Downside deviation. Solo penaliza la volatilidad negativa, no la positiva. Es más relevante para inversores preocupados principalmente por las pérdidas.",
+      "id": 29
+    },
+    {
+      "pregunta": "La consistencia de rentabilidades de un fondo se puede evaluar mediante:",
+      "opciones": [
+        "Solo el rendimiento del último año",
+        "El análisis de rentabilidades en diferentes periodos y condiciones de mercado",
+        "El tamaño del fondo",
+        "La nacionalidad del gestor"
+      ],
+      "correcta": 1,
+      "explicacion": "La consistencia se evalúa analizando rentabilidades en múltiples periodos (1, 3, 5, 10 años), en diferentes condiciones de mercado (alcista, bajista) y comparando con el benchmark y competidores.",
+      "id": 30
+    },
+    {
+      "pregunta": "El TER (Total Expense Ratio) incluye:",
+      "opciones": [
+        "Solo la comisión de gestión",
+        "Todos los gastos corrientes del fondo (gestión, depositario, auditoría, etc.)",
+        "Los costes de transacción",
+        "Las comisiones de suscripción"
+      ],
+      "correcta": 1,
+      "explicacion": "El TER o gastos corrientes incluye: comisión de gestión, comisión de depositario, gastos de auditoría, y otros gastos operativos. No incluye costes de transacción ni comisiones de suscripción/reembolso.",
+      "id": 31
+    },
+    {
+      "pregunta": "Una comisión de éxito (performance fee) se cobra cuando:",
+      "opciones": [
+        "El fondo tiene patrimonio positivo",
+        "El fondo supera un determinado benchmark o marca de agua",
+        "El inversor reembolsa",
+        "Cada trimestre automáticamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La comisión de éxito se cobra cuando el fondo supera una rentabilidad objetivo (benchmark o high water mark). Alinea intereses del gestor con el partícipe, pero puede incentivar exceso de riesgo.",
+      "id": 32
+    },
+    {
+      "pregunta": "El \"estilo\" de gestión value se caracteriza por:",
+      "opciones": [
+        "Invertir en empresas de alto crecimiento",
+        "Buscar empresas infravaloradas según fundamentales",
+        "Seguir tendencias de mercado",
+        "Invertir solo en tecnología"
+      ],
+      "correcta": 1,
+      "explicacion": "La gestión value busca empresas que cotizan por debajo de su valor intrínseco según métricas fundamentales (PER bajo, P/VC bajo). Se contrapone al estilo growth que busca alto crecimiento.",
+      "id": 33
+    },
+    {
+      "pregunta": "Un fondo de gestión growth invierte principalmente en:",
+      "opciones": [
+        "Empresas maduras con altos dividendos",
+        "Empresas con alto potencial de crecimiento de beneficios",
+        "Bonos del Estado",
+        "Materias primas"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos growth buscan empresas con alto crecimiento esperado de beneficios, aunque coticen a múltiplos elevados. Priorizan la apreciación del capital sobre los dividendos.",
+      "id": 34
+    },
+    {
+      "pregunta": "La rotación de cartera (turnover) de un fondo indica:",
+      "opciones": [
+        "La rentabilidad del fondo",
+        "El porcentaje de la cartera que se renueva en un año",
+        "El número de partícipes que salen",
+        "Los cambios en el equipo gestor"
+      ],
+      "correcta": 1,
+      "explicacion": "El turnover mide qué proporción de la cartera se compra/vende en un año. Alto turnover implica más costes de transacción y posible orientación a corto plazo.",
+      "id": 35
+    },
+    {
+      "pregunta": "Un fondo que invierte el 100% de su patrimonio en otros fondos se denomina:",
+      "opciones": [
+        "Fondo paraguas",
+        "Fondo de fondos",
+        "Fondo subordinado",
+        "Fondo espejo"
+      ],
+      "correcta": 1,
+      "explicacion": "Un fondo de fondos (fund of funds) invierte su patrimonio en participaciones de otros fondos de inversión, proporcionando diversificación adicional pero también una capa extra de comisiones.",
+      "id": 36
+    },
+    {
+      "pregunta": "El rating Morningstar de estrellas (1-5) evalúa principalmente:",
+      "opciones": [
+        "La rentabilidad absoluta del fondo",
+        "La rentabilidad ajustada por riesgo respecto a fondos de la misma categoría",
+        "Solo los costes del fondo",
+        "La calidad del equipo gestor"
+      ],
+      "correcta": 1,
+      "explicacion": "El rating cuantitativo de Morningstar (estrellas) evalúa la rentabilidad ajustada por riesgo del fondo comparada con otros fondos de la misma categoría, basándose en datos históricos.",
+      "id": 37
+    },
+    {
+      "pregunta": "La rentabilidad TWR (Time-Weighted Return) es especialmente útil para:",
+      "opciones": [
+        "Evaluar al gestor independientemente de los flujos de entrada/salida",
+        "Medir la rentabilidad del partícipe individual",
+        "Calcular impuestos",
+        "Determinar el valor liquidativo"
+      ],
+      "correcta": 0,
+      "explicacion": "TWR elimina el efecto de los flujos de capital, permitiendo evaluar la habilidad del gestor. La rentabilidad MWR (Money-Weighted) sí considera los flujos y es relevante para el inversor individual.",
+      "id": 38
+    },
+    {
+      "pregunta": "Un fondo con alta concentración (pocas posiciones):",
+      "opciones": [
+        "Tiene necesariamente peor rentabilidad",
+        "Puede tener mayor volatilidad que un fondo más diversificado",
+        "Siempre bate al benchmark",
+        "Es ilegalmente gestionado"
+      ],
+      "correcta": 1,
+      "explicacion": "Un fondo concentrado tiene mayor riesgo específico al depender de pocas posiciones. Puede tener mejores o peores resultados, pero típicamente con mayor volatilidad que fondos diversificados.",
+      "id": 39
+    },
+    {
+      "pregunta": "El \"active share\" mide:",
+      "opciones": [
+        "El porcentaje del fondo que difiere del benchmark",
+        "Las acciones que el fondo compra activamente",
+        "La comisión de gestión activa",
+        "El número de analistas del equipo"
+      ],
+      "correcta": 0,
+      "explicacion": "Active share mide qué porcentaje de la cartera difiere del índice de referencia. Un active share alto indica gestión verdaderamente activa; bajo active share sugiere \"closet indexing\" (indexación encubierta).",
+      "id": 40
+    },
+    {
+      "pregunta": "Un fondo UCITS cumple con:",
+      "opciones": [
+        "Regulación americana",
+        "Normativa europea armonizada que permite su distribución en toda la UE",
+        "Normativa exclusiva de Luxemburgo",
+        "Requisitos de fondos de pensiones"
+      ],
+      "correcta": 1,
+      "explicacion": "UCITS (Undertakings for Collective Investment in Transferable Securities) es la normativa europea que armoniza los fondos de inversión, permitiendo el \"pasaporte europeo\" para su distribución en todos los países de la UE.",
+      "id": 41
+    },
+    {
+      "pregunta": "Un fondo de inversión alternativo (FIA) puede:",
+      "opciones": [
+        "Invertir solo en acciones cotizadas",
+        "Tener estrategias más flexibles que los UCITS (apalancamiento, derivados, ilíquidos)",
+        "Distribuirse libremente al retail sin restricciones",
+        "Garantizar rentabilidades"
+      ],
+      "correcta": 1,
+      "explicacion": "Los FIA (Fondos de Inversión Alternativa), regulados por AIFMD, tienen mayor flexibilidad: pueden usar apalancamiento significativo, invertir en activos ilíquidos, usar derivados sin límites, etc.",
+      "id": 42
+    },
+    {
+      "pregunta": "Un fondo cotizado (ETF) de réplica física:",
+      "opciones": [
+        "Usa derivados para replicar el índice",
+        "Compra directamente los valores del índice",
+        "Es siempre más barato que la réplica sintética",
+        "No tiene tracking error"
+      ],
+      "correcta": 1,
+      "explicacion": "Un ETF de réplica física compra directamente los activos del índice (completa o muestreo). La réplica sintética usa derivados (swaps) para obtener la rentabilidad del índice.",
+      "id": 43
+    },
+    {
+      "pregunta": "El riesgo específico de un ETF de réplica sintética es:",
+      "opciones": [
+        "Riesgo de mercado",
+        "Riesgo de contraparte del swap",
+        "Riesgo de divisa",
+        "No tiene riesgos específicos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los ETFs sintéticos usan swaps con contrapartes (bancos). Si la contraparte quiebra, el ETF podría sufrir pérdidas. Este riesgo se mitiga con colateral, pero existe.",
+      "id": 44
+    },
+    {
+      "pregunta": "Un fondo de retorno absoluto busca:",
+      "opciones": [
+        "Siempre ganar dinero",
+        "Rentabilidad positiva independiente de las condiciones de mercado",
+        "Batir a un índice específico",
+        "Invertir solo en activos sin riesgo"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos de retorno absoluto buscan rentabilidades positivas en cualquier entorno de mercado, utilizando estrategias como long/short, arbitraje, etc. No se miden contra un benchmark tradicional.",
+      "id": 45
+    },
+    {
+      "pregunta": "Una estrategia long/short equity consiste en:",
+      "opciones": [
+        "Mantener posiciones solo largas a largo plazo",
+        "Comprar acciones infravaloradas (long) y vender en corto sobrevaloradas (short)",
+        "Invertir solo en futuros",
+        "Mantener siempre 100% en liquidez"
+      ],
+      "correcta": 1,
+      "explicacion": "Long/short equity combina posiciones largas en acciones que se espera suban con posiciones cortas en acciones que se espera bajen. Busca reducir la exposición neta al mercado.",
+      "id": 46
+    },
+    {
+      "pregunta": "Un fondo market neutral tiene una beta objetivo de:",
+      "opciones": [
+        "1",
+        "0 (aproximadamente)",
+        "-1",
+        "2"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos market neutral buscan beta cercana a cero, equilibrando posiciones largas y cortas para eliminar el riesgo de mercado y obtener rentabilidad solo de la selección de valores (alfa).",
+      "id": 47
+    },
+    {
+      "pregunta": "Un fondo global macro invierte basándose en:",
+      "opciones": [
+        "Solo análisis de empresas individuales",
+        "Tendencias macroeconómicas globales",
+        "Exclusivamente en materias primas",
+        "Solo en mercados emergentes"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos global macro toman posiciones en divisas, tipos de interés, índices y commodities basándose en análisis de tendencias macroeconómicas globales (políticas monetarias, ciclos económicos, etc.).",
+      "id": 48
+    },
+    {
+      "pregunta": "Un fondo ESG o sostenible:",
+      "opciones": [
+        "Solo invierte en energías renovables",
+        "Integra criterios ambientales, sociales y de gobernanza en su proceso de inversión",
+        "Garantiza rentabilidad superior",
+        "Está exento de impuestos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos ESG integran criterios medioambientales, sociales y de gobierno corporativo en el análisis y selección de inversiones, pudiendo excluir sectores, seleccionar mejores prácticas o buscar impacto.",
+      "id": 49
+    },
+    {
+      "pregunta": "Según el SFDR, un fondo Artículo 8:",
+      "opciones": [
+        "No tiene ninguna consideración de sostenibilidad",
+        "Promueve características ambientales o sociales",
+        "Tiene como objetivo inversiones sostenibles (impacto)",
+        "Solo invierte en bonos verdes"
+      ],
+      "correcta": 1,
+      "explicacion": "SFDR clasifica fondos: Artículo 6 (no sostenible), Artículo 8 (\"light green\", promueve características E/S), Artículo 9 (\"dark green\", objetivo de inversión sostenible/impacto).",
+      "id": 50
+    },
+    {
+      "pregunta": "Un fondo temático invierte en:",
+      "opciones": [
+        "Todos los sectores de forma diversificada",
+        "Un tema o tendencia específica (tecnología, salud, agua, etc.)",
+        "Solo en el país del inversor",
+        "Exclusivamente en renta fija"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos temáticos se centran en una tendencia o tema de inversión específico (inteligencia artificial, envejecimiento, economía circular), independientemente de sectores o geografías tradicionales.",
+      "id": 51
+    },
+    {
+      "pregunta": "Un fondo multiactivo flexible puede:",
+      "opciones": [
+        "Solo invertir en renta variable",
+        "Variar su asignación entre diferentes clases de activos según las condiciones",
+        "Invertir solo en un activo fijo",
+        "Garantizar el capital"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos multiactivo flexibles pueden variar significativamente su exposición a renta fija, renta variable, alternativos y liquidez según las perspectivas del gestor.",
+      "id": 52
+    },
+    {
+      "pregunta": "Un fondo de inversión inmobiliaria (FII o REIT) invierte en:",
+      "opciones": [
+        "Acciones de constructoras",
+        "Inmuebles directamente o sociedades inmobiliarias",
+        "Solo hipotecas",
+        "Materias primas de construcción"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos inmobiliarios invierten directamente en inmuebles (oficinas, centros comerciales, logística) o en acciones de empresas inmobiliarias cotizadas (REITs/SOCIMIs).",
+      "id": 53
+    },
+    {
+      "pregunta": "Un fondo target date (ciclo de vida):",
+      "opciones": [
+        "Tiene fecha de vencimiento fija",
+        "Ajusta automáticamente su asignación de activos según se acerca la fecha objetivo",
+        "Solo invierte en bonos a vencimiento",
+        "Paga dividendos en una fecha específica"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos target date ajustan automáticamente su asignación de activos (de más agresiva a más conservadora) a medida que se acerca la fecha objetivo (típicamente jubilación).",
+      "id": 54
+    },
+    {
+      "pregunta": "Un fondo de rentabilidad objetivo:",
+      "opciones": [
+        "Garantiza legalmente la rentabilidad",
+        "Tiene un objetivo de rentabilidad pero sin garantía formal",
+        "Siempre obtiene rentabilidad positiva",
+        "Solo invierte en bonos AAA"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos de rentabilidad objetivo establecen un objetivo de rentabilidad que intentan alcanzar, normalmente invirtiendo en bonos \"buy and hold\", pero sin garantía formal como los fondos garantizados.",
+      "id": 55
+    },
+    {
+      "pregunta": "El valor liquidativo aplicable en una suscripción suele ser:",
+      "opciones": [
+        "El del día anterior a la orden",
+        "El del día de la orden o el siguiente (D o D+1)",
+        "El del primer día del mes",
+        "El del día que el partícipe elija"
+      ],
+      "correcta": 1,
+      "explicacion": "Normalmente se aplica el VL del día de la orden (D) o el del día siguiente (D+1), según el fondo y la hora de corte. El folleto especifica las condiciones.",
+      "id": 56
+    },
+    {
+      "pregunta": "La comisión de suscripción máxima legal en España para un fondo UCITS es:",
+      "opciones": [
+        "1%",
+        "3%",
+        "5%",
+        "No hay límite legal, pero debe constar en el folleto"
+      ],
+      "correcta": 2,
+      "explicacion": "La comisión de suscripción máxima es del 5% del importe suscrito. La de reembolso también del 5%. La de gestión máxima es del 2,25% anual.",
+      "id": 57
+    },
+    {
+      "pregunta": "El traspaso entre fondos de inversión en España:",
+      "opciones": [
+        "Tributa siempre",
+        "No tributa, se difiere la plusvalía hasta el reembolso definitivo",
+        "Tributa al 1%",
+        "Solo está permitido entre fondos de la misma gestora"
+      ],
+      "correcta": 1,
+      "explicacion": "Los traspasos entre fondos españoles (y UCITS europeos comercializados en España) gozan de diferimiento fiscal. No se tributa hasta el reembolso final, manteniendo el coste y fecha de adquisición original.",
+      "id": 58
+    },
+    {
+      "pregunta": "El Fondo de Garantía de Depósitos (FGD) cubre a los fondos de inversión:",
+      "opciones": [
+        "Sí, hasta 100.000€",
+        "No, los fondos de inversión no están cubiertos por el FGD",
+        "Solo si son fondos garantizados",
+        "Solo los monetarios"
+      ],
+      "correcta": 1,
+      "explicacion": "El FGD no cubre fondos de inversión. Estos tienen protección separada: separación patrimonio fondo/gestora, figura del depositario, y supervisión de la CNMV.",
+      "id": 59
+    },
+    {
+      "pregunta": "Un partícipe de un fondo tiene derecho a:",
+      "opciones": [
+        "Conocer la cartera completa del fondo en todo momento",
+        "Recibir información periódica y el folleto/DFI",
+        "Nombrar al gestor del fondo",
+        "Garantía de rentabilidad"
+      ],
+      "correcta": 1,
+      "explicacion": "El partícipe tiene derecho a información: folleto, DFI, informes periódicos (semestral, anual). La cartera completa se publica con cierto retraso para proteger la estrategia del fondo.",
+      "id": 60
+    },
+    {
+      "pregunta": "Un fondo por compartimentos:",
+      "opciones": [
+        "Tiene múltiples gestoras",
+        "Agrupa varios subfondos con diferentes políticas bajo un mismo paraguas",
+        "Divide a los partícipes en clases sociales",
+        "Solo invierte en inmuebles divididos"
+      ],
+      "correcta": 1,
+      "explicacion": "Un fondo por compartimentos (umbrella fund) agrupa varios subfondos independientes bajo una misma estructura legal. Cada compartimento tiene su política de inversión y valor liquidativo propio.",
+      "id": 61
+    },
+    {
+      "pregunta": "Las clases de participaciones de un fondo pueden diferir en:",
+      "opciones": [
+        "La política de inversión",
+        "Comisiones, divisa de denominación, política de distribución",
+        "El gestor asignado",
+        "El depositario"
+      ],
+      "correcta": 1,
+      "explicacion": "Diferentes clases del mismo fondo comparten cartera pero pueden tener: diferentes comisiones, divisas (EUR, USD), política de distribución (acumulación vs distribución), o inversión mínima.",
+      "id": 62
+    },
+    {
+      "pregunta": "El folleto de un fondo debe incluir:",
+      "opciones": [
+        "Solo las rentabilidades pasadas",
+        "Política de inversión, riesgos, comisiones, información de gestora y depositario",
+        "Predicciones de rentabilidad futura",
+        "Lista de todos los partícipes"
+      ],
+      "correcta": 1,
+      "explicacion": "El folleto completo incluye: política y objetivos de inversión, perfil de riesgo, comisiones y gastos, información sobre gestora y depositario, procedimientos de suscripción/reembolso, fiscalidad, etc.",
+      "id": 63
+    },
+    {
+      "pregunta": "La liquidez de un fondo de inversión tradicional (UCITS) debe ser:",
+      "opciones": [
+        "Mensual",
+        "Al menos quincenal",
+        "Diaria en la mayoría de casos",
+        "Anual"
+      ],
+      "correcta": 2,
+      "explicacion": "Los fondos UCITS deben ofrecer liquidez frecuente, normalmente diaria. La normativa exige reembolso al menos quincenal, pero la práctica de mercado es diaria.",
+      "id": 64
+    },
+    {
+      "pregunta": "El informe anual de un fondo debe incluir:",
+      "opciones": [
+        "Solo el patrimonio final",
+        "Estados financieros auditados, evolución del patrimonio, cartera, rentabilidades",
+        "Predicciones para el próximo año",
+        "Datos personales de los partícipes"
+      ],
+      "correcta": 1,
+      "explicacion": "El informe anual incluye: estados financieros auditados, composición de la cartera, evolución del patrimonio y valor liquidativo, rentabilidades, gastos, y hechos relevantes.",
+      "id": 65
+    },
+    {
+      "pregunta": "Un fondo puede suspender reembolsos:",
+      "opciones": [
+        "Nunca",
+        "En circunstancias excepcionales con autorización de la CNMV",
+        "Cuando el gestor lo decida",
+        "Cada fin de mes"
+      ],
+      "correcta": 1,
+      "explicacion": "En circunstancias excepcionales (crisis de liquidez, eventos extraordinarios), la gestora puede solicitar a la CNMV la suspensión temporal de reembolsos para proteger a los partícipes.",
+      "id": 66
+    },
+    {
+      "pregunta": "El principio FIFO (First In, First Out) en traspasos de fondos implica:",
+      "opciones": [
+        "Las primeras participaciones compradas son las primeras vendidas",
+        "Se venden las participaciones más rentables primero",
+        "Se venden las de menor valor primero",
+        "El partícipe elige qué participaciones vende"
+      ],
+      "correcta": 0,
+      "explicacion": "Al hacer un reembolso parcial o traspaso, fiscalmente se aplica FIFO: las primeras participaciones adquiridas son las que se consideran vendidas primero.",
+      "id": 67
+    },
+    {
+      "pregunta": "Un fondo garantizado parcialmente:",
+      "opciones": [
+        "Garantiza el 100% del capital",
+        "Garantiza un porcentaje del capital inferior al 100%",
+        "No tiene ninguna garantía",
+        "Garantiza solo los intereses"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos garantizados parcialmente garantizan un porcentaje del capital inicial (por ejemplo, 90% o 95%), permitiendo mayor exposición a activos de riesgo que los garantizados al 100%.",
+      "id": 68
+    },
+    {
+      "pregunta": "La inversión mínima inicial en un fondo:",
+      "opciones": [
+        "Es siempre de 1.000€",
+        "La establece el fondo en su folleto, puede variar según la clase",
+        "La fija la CNMV uniformemente",
+        "No existe mínimo en ningún caso"
+      ],
+      "correcta": 1,
+      "explicacion": "Cada fondo establece en su folleto la inversión mínima inicial y adicional. Puede variar entre clases: la clase institucional suele tener mínimos más altos que la retail.",
+      "id": 69
+    },
+    {
+      "pregunta": "El \"swing pricing\" es un mecanismo para:",
+      "opciones": [
+        "Aumentar las comisiones",
+        "Proteger a los partícipes existentes de los costes de transacción generados por entradas/salidas",
+        "Garantizar rentabilidades",
+        "Reducir impuestos"
+      ],
+      "correcta": 1,
+      "explicacion": "El swing pricing ajusta el valor liquidativo cuando hay flujos significativos, haciendo que los costes de transacción asociados los soporten los partícipes que entran/salen, no los existentes.",
+      "id": 70
+    },
+    {
+      "pregunta": "Un inversor profesional según MiFID II:",
+      "opciones": [
+        "Es cualquier persona con título universitario",
+        "Cumple criterios específicos de experiencia, patrimonio y frecuencia de operaciones",
+        "Es solo empleado del sector financiero",
+        "Tiene más de 50 años"
+      ],
+      "correcta": 1,
+      "explicacion": "Cliente profesional (por solicitud) requiere cumplir 2 de 3: realizar operaciones significativas frecuentemente, patrimonio >500.000€, experiencia profesional en el sector financiero >1 año.",
+      "id": 71
+    },
+    {
+      "pregunta": "El horizonte de inversión recomendado de un fondo:",
+      "opciones": [
+        "Es obligatorio cumplirlo",
+        "Es una orientación según el perfil de riesgo del fondo",
+        "Siempre es superior a 10 años",
+        "No aparece en ningún documento"
+      ],
+      "correcta": 1,
+      "explicacion": "El horizonte recomendado es orientativo y aparece en el DFI. Un fondo de renta variable puede recomendar >5 años; uno monetario, días/semanas. Ayuda al inversor a elegir.",
+      "id": 72
+    },
+    {
+      "pregunta": "La Directiva UCITS IV introdujo:",
+      "opciones": [
+        "La prohibición de fondos de inversión",
+        "El pasaporte europeo para gestoras y el KID",
+        "Impuestos armonizados",
+        "La garantía de capital obligatoria"
+      ],
+      "correcta": 1,
+      "explicacion": "UCITS IV (2009) introdujo el pasaporte de gestora (una gestora puede gestionar fondos domiciliados en otros países UE), simplificó la notificación transfronteriza y estableció el KID (Key Investor Document).",
+      "id": 73
+    },
+    {
+      "pregunta": "Un fondo que incumple los límites de diversificación UCITS:",
+      "opciones": [
+        "Es inmediatamente liquidado",
+        "Debe regularizar su situación en un plazo determinado",
+        "Pierde la licencia permanentemente",
+        "No tiene consecuencias"
+      ],
+      "correcta": 1,
+      "explicacion": "Si un fondo supera temporalmente los límites por movimientos de mercado, debe regularizar en un plazo razonable. Incumplimientos deliberados o prolongados pueden acarrear sanciones de la CNMV.",
+      "id": 74
+    },
+    {
+      "pregunta": "La comisión de gestión de un fondo se calcula habitualmente sobre:",
+      "opciones": [
+        "La rentabilidad obtenida",
+        "El patrimonio medio del fondo",
+        "El número de partícipes",
+        "Las suscripciones del mes"
+      ],
+      "correcta": 1,
+      "explicacion": "La comisión de gestión se calcula típicamente como un porcentaje anual sobre el patrimonio medio del fondo, devengándose diariamente y deduciéndose del valor liquidativo.",
+      "id": 75
+    }
+  ]
+}

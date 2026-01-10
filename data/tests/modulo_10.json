@@ -1,0 +1,908 @@
+{
+  "nivel": "EIP",
+  "modulo": 10,
+  "titulo": "Asesoramiento y Planificación Financiera",
+  "peso_examen": 7.5,
+  "preguntas": [
+    {
+      "pregunta": "El proceso de asesoramiento financiero comienza con:",
+      "opciones": [
+        "La recomendación de productos",
+        "La identificación y comprensión de las necesidades y objetivos del cliente",
+        "La venta de fondos de inversión",
+        "El cálculo de comisiones"
+      ],
+      "correcta": 1,
+      "explicacion": "El primer paso es conocer al cliente: sus objetivos financieros, horizonte temporal, situación patrimonial, tolerancia al riesgo, y circunstancias personales. Sin esto, no se puede asesorar adecuadamente.",
+      "id": 1
+    },
+    {
+      "pregunta": "El perfilado del cliente inversor debe evaluar:",
+      "opciones": [
+        "Solo sus conocimientos financieros",
+        "Conocimientos, experiencia, situación financiera, y objetivos de inversión",
+        "Solo su patrimonio",
+        "Solo su edad"
+      ],
+      "correcta": 1,
+      "explicacion": "MiFID II exige evaluar: conocimientos y experiencia (productos, mercados), situación financiera (ingresos, patrimonio, capacidad de pérdida), y objetivos (horizonte, finalidad, tolerancia al riesgo).",
+      "id": 2
+    },
+    {
+      "pregunta": "La tolerancia al riesgo de un cliente:",
+      "opciones": [
+        "Es igual para todos los clientes",
+        "Es subjetiva y debe evaluarse individualmente, determinando cuánta volatilidad puede aceptar",
+        "No es relevante",
+        "Solo importa para clientes profesionales"
+      ],
+      "correcta": 1,
+      "explicacion": "La tolerancia al riesgo es personal: cuánta fluctuación en el valor de las inversiones puede aceptar el cliente sin incomodidad excesiva. Difiere de la capacidad de riesgo (objetiva, financiera).",
+      "id": 3
+    },
+    {
+      "pregunta": "La capacidad de asumir pérdidas evalúa:",
+      "opciones": [
+        "El carácter del cliente",
+        "Si el cliente puede permitirse económicamente perder parte de la inversión sin comprometer sus necesidades",
+        "Su formación académica",
+        "Su profesión"
+      ],
+      "correcta": 1,
+      "explicacion": "La capacidad de pérdida es objetiva: ¿puede el cliente afrontar pérdidas sin que afecte a su nivel de vida, gastos esenciales, o planes importantes? Depende de su patrimonio, ingresos y necesidades.",
+      "id": 4
+    },
+    {
+      "pregunta": "Un cliente con horizonte temporal de 2 años debería:",
+      "opciones": [
+        "Invertir todo en renta variable",
+        "Tener una cartera conservadora, priorizando preservación de capital y liquidez",
+        "Usar derivados especulativos",
+        "Invertir en startups"
+      ],
+      "correcta": 1,
+      "explicacion": "Con horizonte corto, la prioridad es preservar capital y tener liquidez cuando se necesite. No hay tiempo para recuperar caídas de mercado, por lo que se recomienda perfil conservador.",
+      "id": 5
+    },
+    {
+      "pregunta": "El horizonte temporal de inversión influye en:",
+      "opciones": [
+        "Nada",
+        "La asignación de activos: mayor plazo permite mayor exposición a activos con volatilidad",
+        "Solo las comisiones",
+        "El banco elegido"
+      ],
+      "correcta": 1,
+      "explicacion": "A mayor horizonte, más capacidad de asumir volatilidad a corto plazo para buscar mayor rentabilidad a largo. El tiempo permite compensar caídas. Horizonte corto = perfil más conservador.",
+      "id": 6
+    },
+    {
+      "pregunta": "El informe de idoneidad debe entregarse:",
+      "opciones": [
+        "Después de ejecutar la operación",
+        "Antes de la transacción, explicando por qué la recomendación es adecuada al perfil del cliente",
+        "Solo si el cliente lo pide",
+        "Una vez al año"
+      ],
+      "correcta": 1,
+      "explicacion": "En asesoramiento, el informe de idoneidad debe entregarse ANTES de ejecutar la recomendación, detallando cómo esta se ajusta a los objetivos, situación y preferencias del cliente.",
+      "id": 7
+    },
+    {
+      "pregunta": "Si un cliente quiere invertir en un producto que no es idóneo para su perfil:",
+      "opciones": [
+        "Se le vende sin más",
+        "Se le debe informar claramente de los riesgos y desaconsejar, documentando si insiste",
+        "Se le ignora",
+        "Se cambia su perfil automáticamente"
+      ],
+      "correcta": 1,
+      "explicacion": "El asesor debe advertir al cliente de que el producto no es adecuado para su perfil y desaconsejarlo. Si el cliente insiste, debe documentarse la advertencia y la decisión del cliente.",
+      "id": 8
+    },
+    {
+      "pregunta": "La revisión periódica de la cartera del cliente:",
+      "opciones": [
+        "No es necesaria",
+        "Es importante para ajustar a cambios en circunstancias, mercados y objetivos",
+        "Solo si hay pérdidas",
+        "Solo cada 10 años"
+      ],
+      "correcta": 1,
+      "explicacion": "Las circunstancias del cliente cambian (trabajo, familia, objetivos) y los mercados evolucionan. La revisión periódica permite rebalancear, actualizar el perfil, y mantener la cartera alineada con los objetivos.",
+      "id": 9
+    },
+    {
+      "pregunta": "Un cliente conservador típicamente:",
+      "opciones": [
+        "Acepta alta volatilidad",
+        "Prioriza la preservación del capital sobre la rentabilidad",
+        "Invierte 100% en renta variable",
+        "Busca máxima rentabilidad sin importar el riesgo"
+      ],
+      "correcta": 1,
+      "explicacion": "El perfil conservador prioriza seguridad y estabilidad. Acepta rentabilidades menores a cambio de menor volatilidad y riesgo de pérdida. Predomina renta fija y monetarios.",
+      "id": 10
+    },
+    {
+      "pregunta": "Un cliente agresivo o dinámico:",
+      "opciones": [
+        "No quiere riesgos",
+        "Acepta alta volatilidad buscando máxima rentabilidad a largo plazo",
+        "Solo invierte en depósitos",
+        "Tiene horizonte de 1 mes"
+      ],
+      "correcta": 1,
+      "explicacion": "El perfil agresivo acepta fluctuaciones significativas y riesgo de pérdidas a corto plazo a cambio de mayor potencial de rentabilidad a largo plazo. Predomina renta variable.",
+      "id": 11
+    },
+    {
+      "pregunta": "El perfil moderado o equilibrado:",
+      "opciones": [
+        "Es igual al conservador",
+        "Busca equilibrio entre rentabilidad y riesgo, aceptando volatilidad moderada",
+        "Solo invierte en derivados",
+        "No existe"
+      ],
+      "correcta": 1,
+      "explicacion": "El perfil moderado combina renta fija y variable buscando un equilibrio. Acepta cierta volatilidad para obtener rentabilidad superior a la conservadora, pero limitando el riesgo.",
+      "id": 12
+    },
+    {
+      "pregunta": "La asignación estratégica de activos para un cliente debe basarse en:",
+      "opciones": [
+        "Solo las predicciones del mercado",
+        "Los objetivos a largo plazo, horizonte temporal, y perfil de riesgo del cliente",
+        "Lo que otros clientes tienen",
+        "Las comisiones de los productos"
+      ],
+      "correcta": 1,
+      "explicacion": "La asignación estratégica (SAA) se determina por los parámetros del cliente (objetivos, horizonte, tolerancia al riesgo), no por predicciones de mercado a corto plazo ni por conveniencia del asesor.",
+      "id": 13
+    },
+    {
+      "pregunta": "El rebalanceo de la cartera de un cliente:",
+      "opciones": [
+        "Nunca debe hacerse",
+        "Ajusta los pesos a la asignación objetivo cuando se han desviado por movimientos de mercado",
+        "Siempre implica vender todo",
+        "Solo se hace en enero"
+      ],
+      "correcta": 1,
+      "explicacion": "El rebalanceo restaura los pesos objetivo de la SAA cuando los movimientos de mercado han provocado desviaciones. Puede hacerse por calendario (trimestral, anual) o por umbral de desviación.",
+      "id": 14
+    },
+    {
+      "pregunta": "El reporting al cliente de su cartera debe incluir:",
+      "opciones": [
+        "Solo el valor actual",
+        "Composición, valoración, rentabilidades, comparativa con benchmark, y costes soportados",
+        "Solo las ganancias",
+        "Información confidencial de otros clientes"
+      ],
+      "correcta": 1,
+      "explicacion": "Un informe completo incluye: posiciones y valoración actual, rentabilidades (TWR/MWR) en varios periodos, comparación con benchmark si procede, desglose de costes, y comentario de evolución.",
+      "id": 15
+    },
+    {
+      "pregunta": "La comunicación de costes ex-ante al cliente debe realizarse:",
+      "opciones": [
+        "Después de contratar",
+        "Antes de contratar, detallando todos los costes del servicio y del producto",
+        "Solo si el cliente pregunta",
+        "Una vez al año"
+      ],
+      "correcta": 1,
+      "explicacion": "MiFID II exige informar de TODOS los costes (servicio + producto) ANTES de la contratación, expresados en euros y porcentaje, para que el cliente pueda valorar su impacto en la rentabilidad.",
+      "id": 16
+    },
+    {
+      "pregunta": "La información de costes ex-post:",
+      "opciones": [
+        "No es obligatoria",
+        "Debe enviarse anualmente detallando los costes reales soportados durante el año",
+        "Solo para clientes profesionales",
+        "Solo si hay pérdidas"
+      ],
+      "correcta": 1,
+      "explicacion": "Anualmente debe enviarse información de costes ex-post: lo realmente pagado en el año en costes de servicio y de producto, con su impacto en la rentabilidad obtenida.",
+      "id": 17
+    },
+    {
+      "pregunta": "El asesor debe actuar siempre:",
+      "opciones": [
+        "En interés de la entidad",
+        "En el mejor interés del cliente",
+        "Para maximizar sus comisiones",
+        "Según su preferencia personal"
+      ],
+      "correcta": 1,
+      "explicacion": "El principio fundamental es actuar en el mejor interés del cliente. Los conflictos de interés deben gestionarse o revelarse. Las recomendaciones deben basarse en el beneficio del cliente, no del asesor.",
+      "id": 18
+    },
+    {
+      "pregunta": "Un conflicto de interés en asesoramiento puede surgir cuando:",
+      "opciones": [
+        "No hay conflictos posibles",
+        "La remuneración del asesor depende de qué productos recomiende (retrocesiones)",
+        "El cliente tiene mucho patrimonio",
+        "El mercado sube"
+      ],
+      "correcta": 1,
+      "explicacion": "Ejemplos de conflictos: recomendar productos que generan más retrocesión, priorizar productos propios sobre terceros, operar excesivamente para generar comisiones (churning).",
+      "id": 19
+    },
+    {
+      "pregunta": "La gestión de conflictos de interés requiere:",
+      "opciones": [
+        "Ignorarlos",
+        "Identificarlos, prevenirlos/gestionarlos, y revelarlos si no pueden evitarse",
+        "Solo documentarlos",
+        "Nada"
+      ],
+      "correcta": 1,
+      "explicacion": "Las entidades deben: identificar potenciales conflictos, establecer medidas para prevenirlos (políticas de remuneración, murallas chinas), y si no se pueden evitar completamente, revelarlos claramente al cliente.",
+      "id": 20
+    },
+    {
+      "pregunta": "El asesoramiento independiente bajo MiFID II:",
+      "opciones": [
+        "Puede recibir retrocesiones",
+        "No puede recibir incentivos de terceros y debe evaluar una gama amplia de productos del mercado",
+        "Es igual al no independiente",
+        "Solo existe para grandes patrimonios"
+      ],
+      "correcta": 1,
+      "explicacion": "El asesoramiento independiente prohíbe incentivos monetarios de terceros (retrocesiones) y exige evaluar una gama suficientemente diversificada de instrumentos disponibles en el mercado, no solo propios.",
+      "id": 21
+    },
+    {
+      "pregunta": "Las preferencias ESG del cliente:",
+      "opciones": [
+        "No son relevantes",
+        "Deben preguntarse e integrarse en la evaluación de idoneidad",
+        "Solo para inversores institucionales",
+        "Son obligatorias para todos"
+      ],
+      "correcta": 1,
+      "explicacion": "Desde 2022, MiFID II exige preguntar al cliente sobre sus preferencias de sostenibilidad (ESG) e integrarlas en la evaluación de idoneidad, recomendando productos coherentes con ellas.",
+      "id": 22
+    },
+    {
+      "pregunta": "Si el cliente tiene preferencias ESG pero no hay productos que las satisfagan exactamente:",
+      "opciones": [
+        "No se puede asesorar",
+        "Se explica la situación y se adaptan las preferencias o se buscan alternativas próximas",
+        "Se ignoran las preferencias",
+        "Se obliga al cliente a cambiar"
+      ],
+      "correcta": 1,
+      "explicacion": "Si no hay productos que encajen exactamente con las preferencias ESG declaradas, se debe informar al cliente y preguntarle si desea adaptar sus preferencias para ampliar la gama de productos adecuados.",
+      "id": 23
+    },
+    {
+      "pregunta": "La documentación del proceso de asesoramiento:",
+      "opciones": [
+        "No es necesaria",
+        "Es obligatoria: debe guardarse el test de idoneidad, informe de idoneidad, y comunicaciones relevantes",
+        "Solo para grandes importes",
+        "Solo 1 año"
+      ],
+      "correcta": 1,
+      "explicacion": "Debe documentarse y conservarse: cuestionarios de perfil, evaluación de idoneidad, informes de idoneidad entregados, recomendaciones realizadas, y comunicaciones. Conservación mínima 5 años.",
+      "id": 24
+    },
+    {
+      "pregunta": "El seguimiento post-venta en asesoramiento:",
+      "opciones": [
+        "No es necesario",
+        "Es una buena práctica para mantener la relación, actualizar perfil, y ajustar recomendaciones",
+        "Solo si hay quejas",
+        "Está prohibido"
+      ],
+      "correcta": 1,
+      "explicacion": "Aunque no siempre es obligatorio legalmente, el seguimiento post-venta mejora la relación, permite detectar cambios en las circunstancias del cliente, y ajustar la cartera a la evolución del mercado.",
+      "id": 25
+    },
+    {
+      "pregunta": "La planificación financiera personal es:",
+      "opciones": [
+        "Solo invertir en bolsa",
+        "Un proceso integral para definir objetivos vitales y diseñar estrategias para alcanzarlos",
+        "Solo planificar la jubilación",
+        "Solo reducir impuestos"
+      ],
+      "correcta": 1,
+      "explicacion": "La planificación financiera es un proceso holístico que abarca: análisis de situación actual, definición de objetivos (corto, medio, largo plazo), estrategias de ahorro, inversión, fiscalidad, y protección.",
+      "id": 26
+    },
+    {
+      "pregunta": "Los objetivos financieros deben ser:",
+      "opciones": [
+        "Vagos y generales",
+        "Específicos, medibles, alcanzables, relevantes y con plazo (SMART)",
+        "Solo a largo plazo",
+        "Secretos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los objetivos SMART (Specific, Measurable, Achievable, Relevant, Time-bound) son más efectivos: \"ahorrar 50.000€ para la entrada de un piso en 5 años\" vs \"ahorrar para una casa algún día\".",
+      "id": 27
+    },
+    {
+      "pregunta": "El fondo de emergencia recomendado debería cubrir:",
+      "opciones": [
+        "1 semana de gastos",
+        "3 a 6 meses de gastos esenciales, en activos líquidos y seguros",
+        "10 años de gastos",
+        "No es necesario"
+      ],
+      "correcta": 1,
+      "explicacion": "El fondo de emergencia debe cubrir 3-6 meses de gastos fijos (alquiler/hipoteca, suministros, alimentación) para afrontar imprevistos (desempleo, enfermedad) sin recurrir a deudas o desinvertir.",
+      "id": 28
+    },
+    {
+      "pregunta": "El presupuesto personal permite:",
+      "opciones": [
+        "Gastar más",
+        "Controlar ingresos y gastos, identificar ahorro potencial, y planificar objetivos",
+        "Solo pagar impuestos",
+        "Nada útil"
+      ],
+      "correcta": 1,
+      "explicacion": "El presupuesto es la herramienta básica de planificación: registra ingresos y gastos, identifica excesos y oportunidades de ahorro, y permite asignar recursos a objetivos prioritarios.",
+      "id": 29
+    },
+    {
+      "pregunta": "La regla 50/30/20 sugiere destinar los ingresos a:",
+      "opciones": [
+        "Todo a gastos",
+        "50% necesidades, 30% deseos, 20% ahorro/deuda",
+        "100% inversión",
+        "50% impuestos"
+      ],
+      "correcta": 1,
+      "explicacion": "Esta regla orientativa propone: 50% para gastos esenciales (vivienda, alimentación, transporte), 30% para gastos discrecionales (ocio, caprichos), y 20% para ahorro e inversión o pago de deudas.",
+      "id": 30
+    },
+    {
+      "pregunta": "El efecto del interés compuesto es más potente cuando:",
+      "opciones": [
+        "El plazo es corto",
+        "El plazo es largo y se empieza pronto",
+        "El tipo de interés es cero",
+        "Se retiran los intereses"
+      ],
+      "correcta": 1,
+      "explicacion": "El interés compuesto crece exponencialmente: los intereses generan más intereses. Cuanto antes se empiece y más tiempo transcurra, mayor es el efecto multiplicador sobre el capital.",
+      "id": 31
+    },
+    {
+      "pregunta": "Pagarse a uno mismo primero significa:",
+      "opciones": [
+        "No pagar facturas",
+        "Destinar una parte de los ingresos al ahorro antes de gastar en otras cosas",
+        "Gastar todo en uno mismo",
+        "No ahorrar nada"
+      ],
+      "correcta": 1,
+      "explicacion": "Esta estrategia consiste en automatizar el ahorro: transferir una cantidad fija al inicio de cada mes a ahorro/inversión, antes de los gastos discrecionales. Lo que queda es para gastar.",
+      "id": 32
+    },
+    {
+      "pregunta": "El apalancamiento personal (endeudarse para invertir):",
+      "opciones": [
+        "Es siempre recomendable",
+        "Puede amplificar ganancias pero también pérdidas, con riesgo de no poder atender la deuda",
+        "No tiene riesgos",
+        "Está prohibido"
+      ],
+      "correcta": 1,
+      "explicacion": "Endeudarse para invertir (apalancamiento) magnifica resultados: si la inversión rinde más que el coste de la deuda, se gana; si no, las pérdidas se agravan y hay que seguir pagando la deuda.",
+      "id": 33
+    },
+    {
+      "pregunta": "La planificación de la compra de vivienda debe considerar:",
+      "opciones": [
+        "Solo el precio de compra",
+        "Precio, gastos de compra, capacidad de endeudamiento, y coste total de la hipoteca",
+        "Solo la ubicación",
+        "Nada"
+      ],
+      "correcta": 1,
+      "explicacion": "Hay que considerar: precio + gastos (10-12% extra), entrada necesaria (20-30%), cuota hipotecaria (no más del 30-35% de ingresos), plazo, tipo de interés, y seguros asociados.",
+      "id": 34
+    },
+    {
+      "pregunta": "La planificación de la educación de los hijos debe:",
+      "opciones": [
+        "Hacerse cuando nazcan",
+        "Iniciarse lo antes posible para aprovechar el horizonte temporal largo",
+        "No es necesaria",
+        "Solo con dinero público"
+      ],
+      "correcta": 1,
+      "explicacion": "La educación (especialmente universitaria o másteres) tiene costes significativos. Empezar a ahorrar pronto permite acumular capital con aportaciones menores gracias al interés compuesto.",
+      "id": 35
+    },
+    {
+      "pregunta": "La protección familiar mediante seguros:",
+      "opciones": [
+        "Es innecesaria",
+        "Es parte fundamental de la planificación para cubrir fallecimiento, invalidez, y responsabilidades",
+        "Solo para ricos",
+        "El Estado cubre todo"
+      ],
+      "correcta": 1,
+      "explicacion": "Los seguros de vida, invalidez, salud y responsabilidad civil protegen a la familia ante eventos adversos. Un plan financiero completo incluye protección adecuada además de ahorro e inversión.",
+      "id": 36
+    },
+    {
+      "pregunta": "El capital necesario en un seguro de vida debe cubrir:",
+      "opciones": [
+        "Un importe arbitrario",
+        "Las necesidades de la familia: deudas, gastos corrientes durante años, educación de hijos, etc.",
+        "Solo el funeral",
+        "1.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "El capital asegurado debe calcularse para cubrir: deudas pendientes (hipoteca), gastos de la familia hasta que sea autosuficiente, educación de hijos, y otros objetivos que quedarían desatendidos.",
+      "id": 37
+    },
+    {
+      "pregunta": "La revisión del plan financiero personal debe hacerse:",
+      "opciones": [
+        "Nunca",
+        "Periódicamente y ante cambios vitales importantes (matrimonio, hijos, cambio de trabajo, herencia)",
+        "Solo al jubilarse",
+        "Cada 20 años"
+      ],
+      "correcta": 1,
+      "explicacion": "El plan debe revisarse anualmente como mínimo, y obligatoriamente ante eventos vitales: cambios en ingresos, estado civil, familia, salud, herencias, o cambios significativos de mercado.",
+      "id": 38
+    },
+    {
+      "pregunta": "La planificación sucesoria busca:",
+      "opciones": [
+        "Evitar tener herederos",
+        "Organizar la transmisión del patrimonio minimizando conflictos e impuestos",
+        "Gastarlo todo antes de morir",
+        "Desheredar a todos"
+      ],
+      "correcta": 1,
+      "explicacion": "La planificación sucesoria define cómo se transmitirá el patrimonio, optimizando fiscalidad (donaciones, seguros, ISD), evitando conflictos familiares, y asegurando que los deseos se cumplan (testamento).",
+      "id": 39
+    },
+    {
+      "pregunta": "El testamento:",
+      "opciones": [
+        "No es necesario si hay herederos legales",
+        "Permite ordenar la sucesión según los deseos del testador dentro de los límites legales",
+        "Anula la legítima",
+        "Es obligatorio hacer uno cada año"
+      ],
+      "correcta": 1,
+      "explicacion": "El testamento permite al testador organizar su sucesión respetando las legítimas (herederos forzosos). Sin testamento, la ley determina los herederos y sus cuotas (sucesión intestada).",
+      "id": 40
+    },
+    {
+      "pregunta": "Las donaciones en vida pueden ser útiles para:",
+      "opciones": [
+        "Complicar la sucesión",
+        "Anticipar la herencia aprovechando bonificaciones fiscales y ayudar a los herederos cuando lo necesitan",
+        "Pagar más impuestos",
+        "Nada"
+      ],
+      "correcta": 1,
+      "explicacion": "Donar en vida puede aprovechar bonificaciones de ISD en algunas CCAA, ayudar a los herederos cuando más lo necesitan, y reducir la masa hereditaria. Debe planificarse cuidadosamente.",
+      "id": 41
+    },
+    {
+      "pregunta": "El capital humano de una persona representa:",
+      "opciones": [
+        "Su patrimonio financiero",
+        "El valor presente de sus ingresos futuros por trabajo",
+        "Sus inversiones en bolsa",
+        "Su valor catastral"
+      ],
+      "correcta": 1,
+      "explicacion": "El capital humano es el valor actual de los ingresos futuros esperados de una persona por su trabajo. Es mayor para jóvenes (más años de trabajo por delante) y disminuye con la edad.",
+      "id": 42
+    },
+    {
+      "pregunta": "La diversificación del capital humano y financiero sugiere que:",
+      "opciones": [
+        "No hay relación entre ambos",
+        "Un empleado de banca debería tener menos acciones bancarias en su cartera",
+        "Todos deben invertir en su empresa",
+        "El capital humano no importa"
+      ],
+      "correcta": 1,
+      "explicacion": "Si los ingresos laborales dependen de un sector (ej: banca), conviene no concentrar las inversiones en ese mismo sector. Una crisis sectorial afectaría tanto al empleo como a las inversiones.",
+      "id": 43
+    },
+    {
+      "pregunta": "El ciclo de vida financiero típico incluye:",
+      "opciones": [
+        "Una sola fase",
+        "Acumulación (ahorro), consolidación (crecimiento), y distribución (uso del patrimonio)",
+        "Solo gastar",
+        "Solo ahorrar"
+      ],
+      "correcta": 1,
+      "explicacion": "El ciclo vital financiero: fase de acumulación (ingresos crecientes, ahorro), consolidación (máximos ingresos, patrimonio crece), y distribución (jubilación, uso del patrimonio acumulado).",
+      "id": 44
+    },
+    {
+      "pregunta": "La inflación afecta a la planificación porque:",
+      "opciones": [
+        "No tiene efecto",
+        "Erosiona el poder adquisitivo futuro de los ahorros y rentas fijas",
+        "Solo afecta a los ricos",
+        "Aumenta el patrimonio real"
+      ],
+      "correcta": 1,
+      "explicacion": "La inflación reduce el valor real del dinero. Un plan financiero debe considerar la inflación: los objetivos futuros costarán más, y las rentas fijas perderán capacidad de compra.",
+      "id": 45
+    },
+    {
+      "pregunta": "Un cliente de 30 años, soltero, con ingresos estables y alto patrimonio, horizonte 30+ años. Su perfil probable es:",
+      "opciones": [
+        "Muy conservador",
+        "Agresivo/dinámico",
+        "Solo monetarios",
+        "Sin inversión"
+      ],
+      "correcta": 1,
+      "explicacion": "Con largo horizonte, buena capacidad de ahorro, sin dependientes, y patrimonio que permite asumir volatilidad, el perfil puede ser agresivo/dinámico con predominio de renta variable.",
+      "id": 46
+    },
+    {
+      "pregunta": "Una pareja de 55 años, a 10 años de jubilarse, con hipoteca pagada y ahorro moderado. Su perfil probable es:",
+      "opciones": [
+        "Muy agresivo",
+        "Moderado/equilibrado, reduciendo progresivamente el riesgo",
+        "100% renta variable",
+        "Sin necesidad de planificar"
+      ],
+      "correcta": 1,
+      "explicacion": "Con horizonte medio (10 años), sin deudas pero con jubilación próxima, un perfil moderado que reduzca progresivamente la exposición a renta variable es prudente para proteger el capital acumulado.",
+      "id": 47
+    },
+    {
+      "pregunta": "Un jubilado de 70 años que vive de sus ahorros y pensión, sin herederos a los que dejar patrimonio:",
+      "opciones": [
+        "100% bolsa",
+        "Perfil conservador, priorizando preservación de capital y generación de rentas",
+        "Derivados especulativos",
+        "Criptomonedas"
+      ],
+      "correcta": 1,
+      "explicacion": "Sin horizonte largo ni necesidad de dejar herencia, la prioridad es que el patrimonio dure mientras viva, generando rentas estables. Perfil conservador, liquidez, y baja volatilidad.",
+      "id": 48
+    },
+    {
+      "pregunta": "Un joven de 25 años con primer empleo, sin ahorros, pregunta cómo empezar:",
+      "opciones": [
+        "Invertir todo en bolsa inmediatamente",
+        "Crear fondo de emergencia primero, luego empezar a invertir regularmente",
+        "Esperar a tener 50.000€",
+        "No hacer nada hasta los 40"
+      ],
+      "correcta": 1,
+      "explicacion": "El primer paso es el fondo de emergencia (3-6 meses de gastos). Una vez cubierto, empezar a invertir regularmente (aportaciones periódicas) para aprovechar el largo horizonte temporal.",
+      "id": 49
+    },
+    {
+      "pregunta": "Una clienta quiere invertir la herencia de 100.000€ de su madre. Emocionalmente afectada y sin experiencia inversora:",
+      "opciones": [
+        "Recomendar inmediatamente productos complejos",
+        "Dar tiempo, evaluar su perfil cuando esté más estable, empezar con productos sencillos",
+        "Ignorar su estado emocional",
+        "Invertir todo en el producto con más comisión"
+      ],
+      "correcta": 1,
+      "explicacion": "Tras un duelo, las decisiones financieras importantes deben posponerse. Una vez estabilizada, evaluar su perfil y objetivos, y empezar con productos adecuados a su experiencia (normalmente sencillos).",
+      "id": 50
+    },
+    {
+      "pregunta": "Un cliente empresario con patrimonio concentrado en su empresa familiar:",
+      "opciones": [
+        "No necesita diversificar",
+        "Tiene alto riesgo de concentración; debería diversificar el patrimonio personal fuera de la empresa",
+        "Debe invertir más en su empresa",
+        "Vender la empresa inmediatamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La concentración en una sola empresa (aunque sea propia) supone alto riesgo. El patrimonio personal debería diversificarse en otros activos no correlacionados con el negocio.",
+      "id": 51
+    },
+    {
+      "pregunta": "Una pareja quiere comprar vivienda (300.000€) y tiene 60.000€ ahorrados:",
+      "opciones": [
+        "Pueden comprar sin problemas",
+        "Necesitan ahorrar más para la entrada y gastos (mínimo 80.000-100.000€ aproximadamente)",
+        "No deberían comprar nunca",
+        "Es igual el ahorro que tengan"
+      ],
+      "correcta": 1,
+      "explicacion": "Para comprar 300.000€ necesitan: ~60.000€ entrada (20%) + ~30.000€ gastos (10%) = ~90.000€ mínimo. Con 60.000€ les falta. Además deben considerar el fondo de emergencia post-compra.",
+      "id": 52
+    },
+    {
+      "pregunta": "Un cliente quiere jubilarse anticipadamente a los 60 años y vivir de sus inversiones:",
+      "opciones": [
+        "No necesita planificar",
+        "Debe calcular el capital necesario considerando 25-30 años de vida, inflación, y rentabilidad esperada",
+        "Es imposible",
+        "Basta con 10.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "La jubilación anticipada requiere un capital suficiente para 25-30 años sin ingresos laborales, considerando inflación y una tasa de retiro sostenible (ej: 3-4% anual).",
+      "id": 53
+    },
+    {
+      "pregunta": "El análisis financiero de un cliente debe incluir:",
+      "opciones": [
+        "Solo sus activos",
+        "Balance personal (activos y pasivos), flujo de caja (ingresos y gastos), y proyecciones",
+        "Solo los ingresos",
+        "Solo las deudas"
+      ],
+      "correcta": 1,
+      "explicacion": "Un análisis completo incluye: balance (qué tiene y qué debe), cuenta de resultados (ingresos vs gastos, capacidad de ahorro), y proyecciones de cómo evolucionará según distintos escenarios.",
+      "id": 54
+    },
+    {
+      "pregunta": "Un cliente muy conservador quiere una rentabilidad del 10% anual garantizada:",
+      "opciones": [
+        "Es perfectamente posible",
+        "Debe explicarse que rentabilidades altas implican riesgo, y garantía con alta rentabilidad no existe",
+        "Se le recomienda derivados",
+        "Se cambia su perfil sin decirle nada"
+      ],
+      "correcta": 1,
+      "explicacion": "Hay que educar al cliente: rentabilidad y riesgo van unidos. Si quiere garantía, la rentabilidad será baja. Si quiere 10%, debe aceptar volatilidad y riesgo de pérdida.",
+      "id": 55
+    },
+    {
+      "pregunta": "Para optimizar fiscalmente una cartera de un cliente español:",
+      "opciones": [
+        "No hay nada que hacer",
+        "Considerar diferimiento (fondos vs ETFs), compensación de pérdidas, aportaciones a planes de pensiones, y timing de reembolsos",
+        "Evadir impuestos",
+        "Ignorar la fiscalidad"
+      ],
+      "correcta": 1,
+      "explicacion": "La optimización fiscal incluye: usar fondos con diferimiento, realizar tax-loss harvesting, aprovechar aportaciones a planes de pensiones según marginal, y planificar realizaciones de ganancias.",
+      "id": 56
+    },
+    {
+      "pregunta": "Un cliente recibe un bonus importante y pregunta qué hacer:",
+      "opciones": [
+        "Gastarlo todo",
+        "Evaluar si conviene amortizar hipoteca, aportar a planes de pensiones (reducción fiscal), invertir, o una combinación",
+        "Solo un producto",
+        "Ignorar el bonus"
+      ],
+      "correcta": 1,
+      "explicacion": "Debe evaluarse: si tiene deudas caras (amortizar), su marginal fiscal (si alto, plan de pensiones tiene ventaja), su cartera actual (si faltan aportaciones), y sus objetivos a medio plazo.",
+      "id": 57
+    },
+    {
+      "pregunta": "La diversificación en la cartera de un cliente:",
+      "opciones": [
+        "Es innecesaria",
+        "Reduce el riesgo específico combinando activos con correlaciones no perfectas",
+        "Aumenta siempre la rentabilidad",
+        "Elimina todo el riesgo"
+      ],
+      "correcta": 1,
+      "explicacion": "La diversificación reduce el riesgo específico (diversificable) sin sacrificar rentabilidad esperada. No elimina el riesgo sistemático (de mercado) ni garantiza rentabilidad.",
+      "id": 58
+    },
+    {
+      "pregunta": "Un cliente pregunta si debe invertir una suma importante de golpe o gradualmente:",
+      "opciones": [
+        "Siempre de golpe",
+        "Depende: lump-sum históricamente mejor, pero DCA (aportaciones periódicas) reduce riesgo de timing y es más cómodo psicológicamente",
+        "Nunca invertir",
+        "Solo en enero"
+      ],
+      "correcta": 1,
+      "explicacion": "Estadísticamente, invertir de golpe (lump-sum) suele dar mejores resultados (el mercado sube más de lo que baja). Pero el DCA reduce el riesgo de entrar en un pico y es psicológicamente más llevadero.",
+      "id": 59
+    },
+    {
+      "pregunta": "Ante una caída fuerte del mercado, el cliente llama preocupado queriendo vender todo:",
+      "opciones": [
+        "Vender inmediatamente como pide",
+        "Calmar, recordar los objetivos a largo plazo, y revisar si su perfil sigue siendo adecuado antes de actuar",
+        "Ignorar su llamada",
+        "Comprar más sin consultar"
+      ],
+      "correcta": 1,
+      "explicacion": "El pánico lleva a vender en el peor momento. El asesor debe calmar, recordar el horizonte y objetivos, y evaluar si algo ha cambiado fundamentalmente. Las decisiones precipitadas suelen ser errores.",
+      "id": 60
+    },
+    {
+      "pregunta": "El cuestionario de perfil del inversor debe:",
+      "opciones": [
+        "Ser muy corto y superficial",
+        "Capturar información suficiente sobre conocimientos, experiencia, situación financiera y objetivos",
+        "Ser igual para todos los clientes",
+        "No documentarse"
+      ],
+      "correcta": 1,
+      "explicacion": "El cuestionario debe ser completo pero no excesivo, con preguntas claras que permitan evaluar los cuatro pilares de la idoneidad: conocimientos, experiencia, situación financiera y objetivos.",
+      "id": 61
+    },
+    {
+      "pregunta": "Las preguntas sobre tolerancia al riesgo deben:",
+      "opciones": [
+        "Ser solo teóricas",
+        "Incluir escenarios prácticos para evaluar la reacción emocional ante pérdidas",
+        "Ignorarse",
+        "Asumir que todos toleran lo mismo"
+      ],
+      "correcta": 1,
+      "explicacion": "Preguntas del tipo \"Si su cartera bajara un 20%, ¿qué haría?\" ayudan a medir la tolerancia real al riesgo mejor que preguntas abstractas sobre conceptos.",
+      "id": 62
+    },
+    {
+      "pregunta": "La comunicación con el cliente debe ser:",
+      "opciones": [
+        "Técnica y compleja",
+        "Clara, comprensible, y adaptada al nivel de conocimientos del cliente",
+        "Solo escrita",
+        "Mínima"
+      ],
+      "correcta": 1,
+      "explicacion": "El asesor debe adaptar su lenguaje al nivel del cliente, evitando jerga innecesaria, explicando conceptos con ejemplos, y asegurándose de que el cliente comprende las recomendaciones.",
+      "id": 63
+    },
+    {
+      "pregunta": "La escucha activa en el asesoramiento implica:",
+      "opciones": [
+        "Hablar todo el tiempo",
+        "Prestar atención, hacer preguntas, parafrasear y confirmar comprensión",
+        "Ignorar lo que dice el cliente",
+        "Solo oír"
+      ],
+      "correcta": 1,
+      "explicacion": "La escucha activa significa: atención plena, preguntas para profundizar, reformular para confirmar entendimiento, y demostrar interés genuino. Es clave para entender las verdaderas necesidades.",
+      "id": 64
+    },
+    {
+      "pregunta": "El uso de proyecciones financieras con el cliente:",
+      "opciones": [
+        "Debe garantizar resultados",
+        "Debe presentarse como escenarios posibles, no como certezas, con supuestos claros",
+        "No es útil",
+        "Siempre muestra solo el mejor escenario"
+      ],
+      "correcta": 1,
+      "explicacion": "Las proyecciones son herramientas útiles para visualizar objetivos, pero deben presentarse como escenarios (base, pesimista, optimista), indicando claramente los supuestos y que no son garantías.",
+      "id": 65
+    },
+    {
+      "pregunta": "Los informes al cliente deben:",
+      "opciones": [
+        "Ser lo más largos posible",
+        "Ser claros, con la información relevante, y permitir al cliente entender su situación",
+        "Ocultar las pérdidas",
+        "Usar solo números sin explicación"
+      ],
+      "correcta": 1,
+      "explicacion": "Los informes deben ser claros y útiles: mostrar la situación actual, la evolución, comparativas relevantes, y explicaciones que permitan al cliente entender qué ha pasado y qué se espera.",
+      "id": 66
+    },
+    {
+      "pregunta": "La tecnología en el asesoramiento (herramientas digitales, robo-advisors):",
+      "opciones": [
+        "Reemplaza completamente al asesor humano",
+        "Puede complementar al asesor, mejorando eficiencia y acceso a información",
+        "Es irrelevante",
+        "Está prohibida"
+      ],
+      "correcta": 1,
+      "explicacion": "La tecnología mejora el asesoramiento: herramientas de planificación, análisis de carteras, reporting automatizado, y robo-advisors para perfiles estándar. El asesor humano añade valor en situaciones complejas.",
+      "id": 67
+    },
+    {
+      "pregunta": "La gestión de expectativas del cliente es importante para:",
+      "opciones": [
+        "Prometer rentabilidades imposibles",
+        "Evitar decepciones futuras alineando expectativas con la realidad del mercado",
+        "Exagerar los riesgos",
+        "Ignorar las expectativas"
+      ],
+      "correcta": 1,
+      "explicacion": "Expectativas realistas evitan decepciones y decisiones precipitadas. El cliente debe entender qué rentabilidad es razonable esperar, qué volatilidad puede haber, y que las pérdidas temporales son normales.",
+      "id": 68
+    },
+    {
+      "pregunta": "El sesgo de confirmación en inversión:",
+      "opciones": [
+        "Es siempre positivo",
+        "Lleva a buscar solo información que confirme nuestras creencias previas",
+        "No afecta a los inversores",
+        "Mejora las decisiones"
+      ],
+      "correcta": 1,
+      "explicacion": "El sesgo de confirmación hace que busquemos y valoremos más la información que confirma lo que ya pensamos, ignorando evidencia contraria. Puede llevar a decisiones de inversión sesgadas.",
+      "id": 69
+    },
+    {
+      "pregunta": "El sesgo de anclaje en asesoramiento:",
+      "opciones": [
+        "No existe",
+        "Hace que el cliente (o asesor) se fije excesivamente en un valor de referencia inicial",
+        "Siempre es útil",
+        "Mejora la toma de decisiones"
+      ],
+      "correcta": 1,
+      "explicacion": "El anclaje hace que nos fijemos en el primer dato (precio de compra, valoración inicial) y juzguemos todo respecto a él, aunque ya no sea relevante. Puede impedir vender activos aunque deban venderse.",
+      "id": 70
+    },
+    {
+      "pregunta": "El exceso de confianza en inversores:",
+      "opciones": [
+        "Siempre mejora resultados",
+        "Puede llevar a sobrestimar habilidades, operar demasiado, y asumir riesgos excesivos",
+        "Es inofensivo",
+        "No existe"
+      ],
+      "correcta": 1,
+      "explicacion": "El overconfidence lleva a creer que se puede batir al mercado fácilmente, a operar con frecuencia excesiva (generando costes), y a concentrar carteras en \"apuestas seguras\" que no lo son.",
+      "id": 71
+    },
+    {
+      "pregunta": "La educación financiera del cliente es responsabilidad del asesor en el sentido de:",
+      "opciones": [
+        "Hacer cursos formales",
+        "Explicar los productos, riesgos, y conceptos básicos para que pueda tomar decisiones informadas",
+        "No explicar nada",
+        "Solo vender"
+      ],
+      "correcta": 1,
+      "explicacion": "El asesor debe asegurarse de que el cliente entiende lo que contrata: qué es el producto, qué riesgos tiene, qué costes implica. Un cliente informado toma mejores decisiones y mantiene expectativas realistas.",
+      "id": 72
+    },
+    {
+      "pregunta": "La confidencialidad de la información del cliente:",
+      "opciones": [
+        "No es importante",
+        "Es obligatoria y fundamental para la relación de confianza",
+        "Solo para clientes VIP",
+        "Puede compartirse con cualquiera"
+      ],
+      "correcta": 1,
+      "explicacion": "La información del cliente es confidencial por ley (RGPD, secreto bancario) y por ética profesional. Solo puede usarse para los fines autorizados y no compartirse sin consentimiento (salvo obligación legal).",
+      "id": 73
+    },
+    {
+      "pregunta": "El código ético de EFPA incluye principios como:",
+      "opciones": [
+        "Maximizar ventas",
+        "Integridad, objetividad, competencia, confidencialidad, profesionalidad, y diligencia",
+        "Solo generar comisiones",
+        "Ningún principio"
+      ],
+      "correcta": 1,
+      "explicacion": "Los principios éticos EFPA: integridad (honestidad), objetividad (imparcialidad), competencia (cualificación), confidencialidad, profesionalidad, y diligencia (actuar con cuidado y prontitud).",
+      "id": 74
+    },
+    {
+      "pregunta": "La excelencia en el asesoramiento financiero requiere:",
+      "opciones": [
+        "Solo conocimientos técnicos",
+        "Conocimientos, habilidades de comunicación, ética, actualización continua, y enfoque en el cliente",
+        "Solo ventas",
+        "Nada especial"
+      ],
+      "correcta": 1,
+      "explicacion": "Un asesor excelente combina: sólidos conocimientos técnicos, habilidades interpersonales (escucha, comunicación, empatía), compromiso ético, formación continua, y genuino interés en el bienestar del cliente.",
+      "id": 75
+    }
+  ]
+}

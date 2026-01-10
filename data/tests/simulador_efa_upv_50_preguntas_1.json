@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "tema": "Planificación Financiera",
+    "pregunta": "El plan a implantar no depende:",
+    "opciones": [
+      "Del nivel de inversión",
+      "Del perfil del inversor",
+      "De la edad del inversor",
+      "Del tiempo del inversor en la cartera del asesor"
+    ],
+    "correcta": 3,
+    "explicacion": "El tiempo del inversor en la cartera del asesor NO influye en el plan a implantar. Los factores clave son: nivel de inversión, perfil y edad del inversor."
+  },
+  {
+    "id": 2,
+    "tema": "Planificación Financiera",
+    "pregunta": "Si se establece una relación personal con el cliente:",
+    "opciones": [
+      "No nos servirá para nada",
+      "No es indiferente",
+      "Nos perjudicará en nuestras relaciones comerciales",
+      "Nos será más fácil establecer relaciones profesionales con el mismo"
+    ],
+    "correcta": 3,
+    "explicacion": "Establecer una relación personal facilita las relaciones profesionales debido a la mayor confianza generada."
+  },
+  {
+    "id": 3,
+    "tema": "Riesgo y Crédito",
+    "pregunta": "El credit scoring siempre indicará si",
+    "opciones": [
+      "Aprobamos la operación",
+      "Denegamos la operación",
+      "Siempre es determinante",
+      "Proporciona una información de alto valor, que nos ayudará a argumentar nuestra decisión"
+    ],
+    "correcta": 3,
+    "explicacion": "El credit scoring es una herramienta de ayuda en la toma de decisiones, nunca el único factor. Siempre debemos argumentar nuestras decisiones."
+  },
+  {
+    "id": 4,
+    "tema": "Productos Financieros",
+    "pregunta": "La figura del avalista en una operación de financiación",
+    "opciones": [
+      "Es obligatoria en el caso de préstamos a jóvenes menores de 25 años",
+      "Ninguna de las anteriores es correcta",
+      "Responde con sus bienes e ingresos en caso de que los titulares no respondan de las cuotas a devolver",
+      "Sólo tiene por finalidad dar testimonio del conocimiento del cliente"
+    ],
+    "correcta": 2,
+    "explicacion": "El avalista responde siempre de la deuda contraída por los solicitantes con su garantía personal y bienes."
+  },
+  {
+    "id": 5,
+    "tema": "Productos Financieros",
+    "pregunta": "¿Cuál de estas es una característica de los préstamos hipotecarios?",
+    "opciones": [
+      "Se puede instrumentalizar mediante una cuenta de crédito",
+      "Financia la adquisición de bienes inmuebles",
+      "No requiere intervención notarial",
+      "Exige la contratación de un seguro de vida"
+    ],
+    "correcta": 1,
+    "explicacion": "Los préstamos hipotecarios están específicamente diseñados para adquisición de bienes inmuebles con plazos largos y tipos de interés inferiores."
+  },
+  {
+    "id": 6,
+    "tema": "Productos Financieros",
+    "pregunta": "Si el diferencial que me aplican en mi préstamo es del 0,5%, y el tipo de interés nominal resultante en el anterior periodo de cadencia fue del 6%, ¿a qué tipo girará la operación al iniciar el nuevo periodo de cadencia si el índice de referencia incrementa un 0,5%?",
+    "opciones": [
+      "Al 5% de interés nominal",
+      "No se puede calcular",
+      "Al 6,5% de interés nominal",
+      "Al 7,0% de interés nominal"
+    ],
+    "correcta": 2,
+    "explicacion": "Tipo de interés = tipo de referencia + diferencial. Si referencia sube 0,5% → 6% + 0,5% = 6,5%"
+  },
+  {
+    "id": 7,
+    "tema": "Análisis Estadístico",
+    "pregunta": "Si agrupamos los datos en intervalos...",
+    "opciones": [
+      "Hemos de procurar que al hacer los intervalos los valores no coincidan en más de un 10% con los extremos",
+      "Hemos de procurar que al hacer los intervalos los valores no coincidan en más de un 15% con los extremos",
+      "Hemos de procurar que al hacer los intervalos los valores no coincidan en más de un 5% con los extremos",
+      "Hemos de procurar que al hacer los intervalos los valores no coincidan en más de un 1% con los extremos"
+    ],
+    "correcta": 2,
+    "explicacion": "Regla estadística: al hacer intervalos, los valores no deben coincidir en más de un 5% con los extremos."
+  },
+  {
+    "id": 8,
+    "tema": "Análisis Estadístico",
+    "pregunta": "Para estudiar una variable estadísticamente, ...",
+    "opciones": [
+      "si realizamos muchos intervalos perdemos información",
+      "si realizamos pocos intervalos perdemos información",
+      "el número de intervalos no afecta a la información",
+      "es aconsejable realizar aproximadamente 20 intervalos"
+    ],
+    "correcta": 1,
+    "explicacion": "Si tomamos pocos intervalos perdemos información al agrupar datos de manera muy amplia."
+  },
+  {
+    "id": 9,
+    "tema": "Mercados Financieros",
+    "pregunta": "Un mercado financiero:",
+    "opciones": [
+      "Es un lugar físico donde se realizan operaciones de compra-venta de activos financieros",
+      "Puede ser un mecanismo donde se realizan operaciones de compra-venta de activos financieros",
+      "Es donde se intercambian activos, determinándose sus precios",
+      "Ninguno de los anteriores"
+    ],
+    "correcta": 1,
+    "explicacion": "Un Mercado Financiero es un lugar o mecanismo (no necesariamente físico) donde se intercambian activos financieros y se determinan sus precios."
+  },
+  {
+    "id": 10,
+    "tema": "Productos Financieros",
+    "pregunta": "¿En qué nivel de cotización ex-cupón suelen situarse las cotizaciones de las participaciones preferentes con cupón variable?",
+    "opciones": [
+      "Próximas a la par",
+      "Muy por encima de la par",
+      "Muy por debajo de la par",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 0,
+    "explicacion": "El cupón variable se ajusta a los tipos de interés, modificándose los cupones y no tanto el valor, manteniéndose próximas a la par."
+  },
+  {
+    "id": 11,
+    "tema": "Renta Fija",
+    "pregunta": "Dado dos bonos cupón cero: uno, a 4 años que cotiza hoy a 97,71% y su valor de reembolso es del 125%, el otro, es un bono cupón cero a 7 años que cotiza hoy a 101,76% y se amortiza al 152%. ¿Cuál será la pendiente de la ETTI?",
+    "opciones": [
+      "Creciente",
+      "Decreciente",
+      "Plana",
+      "Convexa"
+    ],
+    "correcta": 1,
+    "explicacion": "Los tipos de interés son más pequeños a más plazo, por lo tanto la ETTI es decreciente."
+  },
+  {
+    "id": 12,
+    "tema": "Derivados",
+    "pregunta": "En el Contrato de Futuros sobre IBEX-35 el multiplicador es...",
+    "opciones": [
+      "1 Euro",
+      "5 Euros",
+      "10 Euros",
+      "50 Euros"
+    ],
+    "correcta": 2,
+    "explicacion": "El Multiplicador es 10 euros. Cada punto del índice IBEX-35 tiene un valor de 10 euros."
+  },
+  {
+    "id": 13,
+    "tema": "Derivados",
+    "pregunta": "¿Si hemos comprado un contrato de futuros es posible cerrar la posición antes del vencimiento?",
+    "opciones": [
+      "Si, ya que puedo realizar otra operación de signo contrario",
+      "Depende de lo que opine el vendedor del contrato",
+      "No, ya que el contrario no expide hasta el vencimiento",
+      "Si, ya que puede realizar otra operación del mismo signo"
+    ],
+    "correcta": 0,
+    "explicacion": "Sí, mediante una operación de signo contrario: si tienes posición vendedora → compras contratos, si compradora → vendes contratos."
+  },
+  {
+    "id": 14,
+    "tema": "Derivados",
+    "pregunta": "En un contrato 'swap' se acuerda ...",
+    "opciones": [
+      "intercambiar un activo financiero pero siempre que le interese al vendedor",
+      "realizar un depósito a un tipo de interés prefijado durante un periodo de tiempo",
+      "intercambiar una serie de cantidades de dinero en fechas futuras",
+      "intercambiar activos financieros o reales en fechas futuras"
+    ],
+    "correcta": 2,
+    "explicacion": "Un swap es un contrato por el cual dos partes se comprometen a intercambiar cantidades de dinero en fechas futuras."
+  },
+  {
+    "id": 15,
+    "tema": "Derivados",
+    "pregunta": "El comprador de una opción PUT prefiere que la opción esté ...",
+    "opciones": [
+      "'in the money'",
+      "'at the money' solamente",
+      "'out the money' solamente",
+      "'at the money' o 'out the money'"
+    ],
+    "correcta": 0,
+    "explicacion": "El comprador de una opción PUT (derecho a vender) prefiere que esté 'in the money' (precio ejercicio > precio mercado)."
+  },
+  {
+    "id": 16,
+    "tema": "Productos Estructurados",
+    "pregunta": "Los productos estructurados...",
+    "opciones": [
+      "Se negocian en mercados OTC",
+      "Se liquidan a través de una cámara de compensación",
+      "Están estandarizados",
+      "Se negocian en mercados organizados"
+    ],
+    "correcta": 0,
+    "explicacion": "Los productos estructurados se negocian en mercados OTC (no organizados), sin cámara de compensación, asumiendo riesgo de contrapartida."
+  },
+  {
+    "id": 17,
+    "tema": "Economía",
+    "pregunta": "La BDSICE es publicada por...",
+    "opciones": [
+      "Consejo Superior de Cámaras",
+      "Banco de España",
+      "INE",
+      "Ministerio de Economía y Hacienda"
+    ],
+    "correcta": 3,
+    "explicacion": "La BDSICE es publicada por la Dirección General de Análisis Macroeconómico y Economía Internacional del Ministerio de Economía y Hacienda."
+  },
+  {
+    "id": 18,
+    "tema": "Fondos de Inversión",
+    "pregunta": "Respecto al valor del patrimonio de un fondo:",
+    "opciones": [
+      "Incluirá la valoración diaria de los activos del fondo",
+      "El líquido, es decir, el dinero de los inversores no invertido en activos formará parte del patrimonio del fondo",
+      "El valor patrimonial del fondo puede variar",
+      "Todas las anteriores son correctas"
+    ],
+    "correcta": 3,
+    "explicacion": "Todas las afirmaciones son correctas y definen la valoración del patrimonio de un fondo."
+  },
+  {
+    "id": 19,
+    "tema": "Fondos de Inversión",
+    "pregunta": "Los fondos subordinados:",
+    "opciones": [
+      "Son 'fondos de fondos'",
+      "Son los que invierten todo su activo en otro fondo principal",
+      "Sus siglas son FIMS",
+      "Todas las anteriores son correctas"
+    ],
+    "correcta": 3,
+    "explicacion": "Todas las afirmaciones definen correctamente a los fondos subordinados (FIMS - Fondos de Inversión Mobiliaria Subordinados)."
+  },
+  {
+    "id": 20,
+    "tema": "ETF",
+    "pregunta": "Los requisitos para la admisión a negociación en bolsa de valores de las participaciones de un Fondo de inversión cotizado son...(señalar la opción falsa)",
+    "opciones": [
+      "Obtener la autorización de la CNMV",
+      "Deberán existir entidades que asuman el compromiso de ofrecer en firme posiciones compradoras o vendedoras",
+      "Que el objetivo de la política de inversión no sea reproducir un índice",
+      "Las opciones A y B son correctas"
+    ],
+    "correcta": 2,
+    "explicacion": "FALSO: Los ETF SIEMPRE siguen a un índice. Es su característica fundamental."
+  },
+  {
+    "id": 21,
+    "tema": "Gestión Alternativa",
+    "pregunta": "Mientras en las Instituciones de inversión tradicionales, las rentabilidades dependían de la evolución de un nivel de referencia, en la gestión alternativa, depende de...",
+    "opciones": [
+      "La evolución de la Bolsa",
+      "La evolución del índice de referencia",
+      "La evolución del IBEX 35",
+      "Ninguna de las afirmaciones es correcta"
+    ],
+    "correcta": 3,
+    "explicacion": "En gestión alternativa, la rentabilidad depende de la capacidad del gestor, no de índices de referencia."
+  },
+  {
+    "id": 22,
+    "tema": "Fondos de Inversión",
+    "pregunta": "Cuando analizamos el proceso de inversión de un fondo:",
+    "opciones": [
+      "Nos será indiferente la actitud activa o pasiva seguido al formar la cartera del fondo",
+      "Se trata de analizar el estilo de gestión seguido al formar la cartera del fondo",
+      "No estudiaremos si el fondo ha utilizado o no un índice como referencia",
+      "Ninguna de las anteriores"
+    ],
+    "correcta": 1,
+    "explicacion": "Se analiza el estilo de gestión: agresiva (crecimiento rápido) o conservadora (beneficios a largo plazo)."
+  },
+  {
+    "id": 23,
+    "tema": "Seguros",
+    "pregunta": "Indica la afirmación FALSA sobre los planes de previsión asegurados:",
+    "opciones": [
+      "No es un producto líquido",
+      "Su fiscalidad es la de los planes de pensiones",
+      "Es un seguro de vida ahorro",
+      "No garantiza una rentabilidad mínima"
+    ],
+    "correcta": 3,
+    "explicacion": "FALSO: Los PPA SÍ garantizan una rentabilidad mínima durante toda la duración del contrato."
+  },
+  {
+    "id": 24,
+    "tema": "Seguros",
+    "pregunta": "El seguro de vida mixto:",
+    "opciones": [
+      "Tiene como finalidad principal la percepción de un capital en una fecha prefijada",
+      "Es un tipo de seguro de vida que combina en un mismo contrato, y de forma complementaria, la cobertura del riesgo de fallecimiento y el de supervivencia del asegurado",
+      "Los seguros de vida mixtos no son rescatables hasta la fecha de jubilación o de fallecimiento",
+      "Todas son correctas"
+    ],
+    "correcta": 1,
+    "explicacion": "Seguro de vida mixto = seguro de ahorro + seguro de riesgo (combina fallecimiento y supervivencia)."
+  },
+  {
+    "id": 25,
+    "tema": "Seguros",
+    "pregunta": "El seguro de crédito pertenece a la clase de:",
+    "opciones": [
+      "Seguros de daños",
+      "Seguros personales",
+      "Seguros patrimoniales",
+      "Seguros económicos"
+    ],
+    "correcta": 2,
+    "explicacion": "El seguro de crédito protege del riesgo de impago, clasificándose como seguro patrimonial."
+  },
+  {
+    "id": 26,
+    "tema": "Seguros",
+    "pregunta": "¿Cuál de las siguientes afirmaciones es FALSA en relación al tipo de riesgo?",
+    "opciones": [
+      "Los riesgos económicos son aquellos que afectan a los patrimonios de las personas",
+      "Los riesgos materiales son aquellos que afectan a las cosas y animales",
+      "Los riesgos personales son aquellos que afectan a las personas en sí mismas",
+      "Las respuestas B y C son correctas"
+    ],
+    "correcta": 0,
+    "explicacion": "FALSO: El riesgo que implica reducción o pérdida del patrimonio se llama riesgo PATRIMONIAL, no económico."
+  },
+  {
+    "id": 27,
+    "tema": "Seguros",
+    "pregunta": "La solicitud de seguro presentada al asegurador vincula al solicitante...",
+    "opciones": [
+      "No vincula",
+      "durante 10 días",
+      "durante un mes (mes de gracia)",
+      "durante 15 días"
+    ],
+    "correcta": 0,
+    "explicacion": "La solicitud de seguro NO es vinculante. Lo que SÍ vincula (15 días) es la propuesta que emite el asegurador."
+  },
+  {
+    "id": 28,
+    "tema": "Planes de Pensiones",
+    "pregunta": "Un partícipe que no ha aporta dinero a su plan de pensiones durante el año",
+    "opciones": [
+      "Se le considera moroso",
+      "Se le considera deudor",
+      "Es el promotor del plan",
+      "Se le considera partícipe en suspenso"
+    ],
+    "correcta": 3,
+    "explicacion": "Un partícipe que no realiza aportaciones durante un año natural es considerado partícipe en suspenso."
+  },
+  {
+    "id": 29,
+    "tema": "Planes de Pensiones",
+    "pregunta": "Un padre ha efectuado una aportación al plan de pensiones de su hijo discapacitado por importe de 4.000 euros, ¿cuánto podrá aportar como máximo el hijo a su propio plan?",
+    "opciones": [
+      "Depende de la edad del hijo",
+      "Depende de la edad del padre",
+      "24.250 euros",
+      "20.250 euros"
+    ],
+    "correcta": 3,
+    "explicacion": "Límite conjunto máximo para discapacitados: 24.250€. Si el padre aporta 4.000€ → hijo puede aportar 20.250€."
+  },
+  {
+    "id": 30,
+    "tema": "Fiscalidad",
+    "pregunta": "Las Sociedades de Arrendamiento de Viviendas:",
+    "opciones": [
+      "Podrán acceder a una bonificación del 85 por ciento de la cuota íntegra para las rentas procedentes del arrendamiento de viviendas si cumplen determinados requisitos",
+      "Podrán acceder a una bonificación del 100 por cien de la cuota íntegra para las rentas procedentes del arrendamiento de viviendas si cumplen determinados requisitos",
+      "Han de tener como actividad económica exclusiva el arrendamiento de viviendas",
+      "Todas las respuestas anteriores son incorrectas"
+    ],
+    "correcta": 0,
+    "explicacion": "Bonificación del 85% de la cuota íntegra si cumplen requisitos. NO se exige actividad económica exclusiva."
+  },
+  {
+    "id": 31,
+    "tema": "Productos Financieros",
+    "pregunta": "En el contexto de los préstamos hipotecarios, indica la afirmación incorrecta:",
+    "opciones": [
+      "Se utilizará la T.A.E. para comparar sólo préstamos de igual plazo",
+      "Al respecto de la oferta vinculante, las condiciones que este documento refleja han de mantenerse al menos durante catorce días naturales",
+      "Al comparar los préstamos generales o personales con los hipotecarios concluimos que los tipos de interés son inferiores en el caso de préstamo hipotecario",
+      "Al estudiar la solicitud de un préstamo hipotecario cabe recordar que si contratamos a interés fijo nos beneficiaremos de las bajadas de tipos"
+    ],
+    "correcta": 3,
+    "explicacion": "FALSO: Con interés fijo, cuando tipos suben → beneficio cliente, cuando bajan → beneficio entidad."
+  },
+  {
+    "id": 32,
+    "tema": "Fiscalidad - IRPF",
+    "pregunta": "Un matrimonio con 2 hijos de 5 y 2 años respectivamente (que conviven con ellos y no tienen renta alguna), se pueden deducir de mínimo por descendientes en su tributación conjunta del IRPF:",
+    "opciones": [
+      "1.836 €",
+      "4.182 €",
+      "3.825 €",
+      "6.120 €"
+    ],
+    "correcta": 3,
+    "explicacion": "Mínimo: 1.836€ (1º) + 2.040€ (2º) + 2.244€ (menor 3 años) = 6.120€"
+  },
+  {
+    "id": 33,
+    "tema": "Fiscalidad - ISD",
+    "pregunta": "En ISD, para la determinación del valor de derechos de uso y habitación vitalicios se toma:",
+    "opciones": [
+      "El 25% de valor del bien o bienes objeto de los mismos, y los porcentajes que correspondieran al usufructo vitalicio según la norma legal",
+      "El 10% de valor del bien o bienes objeto de los mismos, y los porcentajes que correspondieran al usufructo vitalicio según la norma legal",
+      "El 100% de valor del bien o bienes objeto de los mismos, y los porcentajes que correspondieran al usufructo vitalicio según la norma legal",
+      "El 75% de valor del bien o bienes objeto de los mismos, y los porcentajes que correspondieran al usufructo vitalicio según la norma legal"
+    ],
+    "correcta": 3,
+    "explicacion": "Derechos de uso y habitación: 75% del valor de los bienes aplicando reglas de usufructos temporales o vitalicios."
+  },
+  {
+    "id": 34,
+    "tema": "Fiscalidad - IS",
+    "pregunta": "En IS, en la amortización degresiva por números dígitos de una máquina cuyo precio de adquisición es de 15.000 euros (valor residual = 0), CM = 25% y TM = 8 años, si se decide escoger para calcular la amortización a efectos fiscales un período de amortización de 4 ejercicios, la cuota por dígito que se obtiene es igual a:",
+    "opciones": [
+      "3.750",
+      "El método de amortización degresiva por números dígitos no puede aplicarse a este caso",
+      "1.000",
+      "1.500"
+    ],
+    "correcta": 3,
+    "explicacion": "Cuota por dígito = 15.000 / (1+2+3+4) = 15.000 / 10 = 1.500"
+  },
+  {
+    "id": 35,
+    "tema": "Fiscalidad - IRPF",
+    "pregunta": "Antonio recibe como regalo del BBVA un ordenador portátil por realizar una imposición a plazo fijo a un año de 12.000 euros. El valor de mercado del portátil es de 1.000 euros, siendo el coste de adquisición del mismo para el BBVA de 800 euros. A tal respecto, y sabiendo que no se le ha repercutido ningún pago a cuenta a Antonio, en su IRPF 2013 ha de declarar:",
+    "opciones": [
+      "Ganancia patrimonial = 1.000",
+      "Rendimiento íntegro del capital mobiliario = 1.201,6",
+      "Ganancia patrimonial = 1.172,8",
+      "Rendimiento íntegro del capital mobiliario = 12.000"
+    ],
+    "correcta": 1,
+    "explicacion": "Rendimiento en especie = valor mercado + Ingreso a cuenta = 1.000 + 21% × (1,2 × 800) = 1.201,6€"
+  },
+  {
+    "id": 36,
+    "tema": "Fiscalidad - IRPF",
+    "pregunta": "En el IRPF de 2013 (a declarar en 2014), las prestaciones procedentes de contratos de seguro de vida o invalidez:",
+    "opciones": [
+      "No están sometidas a retención o ingreso a cuenta, en ningún caso",
+      "Están sujetas a un tipo de retención, o ingreso a cuenta si son en especie, del 21%",
+      "Se someten a una retención del 15%",
+      "Se someten a un pago a cuenta del 19%"
+    ],
+    "correcta": 1,
+    "explicacion": "Prestaciones de seguros de vida o invalidez: retención o ingreso a cuenta del 21%."
+  },
+  {
+    "id": 37,
+    "tema": "Fiscalidad - IVA",
+    "pregunta": "En IVA la entrega de un terreno de carácter rústico no urbanizable ni edificable destinado a finca agrícola:",
+    "opciones": [
+      "Está exenta de tributación",
+      "Tributa al tipo de gravamen reducido",
+      "Tributa al tipo de gravamen superreducido",
+      "Tributa al tipo de gravamen general"
+    ],
+    "correcta": 0,
+    "explicacion": "Terrenos rústicos no urbanizables: EXENTOS de IVA."
+  },
+  {
+    "id": 38,
+    "tema": "Teoría de Mercados",
+    "pregunta": "La forma fuerte de la EMH:",
+    "opciones": [
+      "Afirma que no hay ningún tipo de información pública que permita obtener resultados por encima de la media de forma consistente",
+      "Afirma que utilizando la información pública disponible no se pueden obtener resultados por encima de la media de forma consistente",
+      "Afirma que no hay ningún tipo de información, del tipo que sea, que permita obtener resultados por encima de la media de forma consistente",
+      "La opción B y C son correctas"
+    ],
+    "correcta": 2,
+    "explicacion": "EMH fuerte: NO hay NINGÚN tipo de información (pública ni privada) que permita superar consistentemente al mercado."
+  },
+  {
+    "id": 39,
+    "tema": "Teoría de Mercados",
+    "pregunta": "La hipótesis de eficiencia débil implica que:",
+    "opciones": [
+      "El análisis técnico no aporta valor",
+      "El análisis fundamental no aporta valor",
+      "El insider trading no generará beneficios",
+      "Ninguna de las opciones"
+    ],
+    "correcta": 0,
+    "explicacion": "EMH débil: precios históricos ya están reflejados → análisis técnico NO aporta valor."
+  },
+  {
+    "id": 40,
+    "tema": "Gestión de Carteras",
+    "pregunta": "¿Por qué se suele sustituir la estimación de la curva de indiferencia?",
+    "opciones": [
+      "Por la estimación de la frontera eficiente",
+      "Por la estimación de la varianza",
+      "Por la estimación de la volatilidad",
+      "Por la estimación de la aversión al riesgo del inversor"
+    ],
+    "correcta": 3,
+    "explicacion": "La función de utilidad y curvas de indiferencia son difíciles de estimar. Se aproxima mediante aversión al riesgo."
+  },
+  {
+    "id": 41,
+    "tema": "CAPM",
+    "pregunta": "Indica la afirmación falsa",
+    "opciones": [
+      "Los CAPMs son un conjunto de modelos que describen la relación entre el riesgo y el retorno en un mercado eficiente",
+      "El riesgo sistemático es el que se genera por causa de eventos aleatorios o no controlables y que afectan particularmente a la empresa",
+      "El objetivo del modelo de Sharpe es abstraerse de la realidad hasta un nivel tal, que nos permita obtener conclusiones útiles a partir del análisis de sus conclusiones e implicaciones",
+      "Beta es un número que indica cómo varia el precio de un valor bursátil en respuesta a la fuerza del mercado o en respuesta al movimiento del mercado en su conjunto"
+    ],
+    "correcta": 1,
+    "explicacion": "FALSO: Riesgo sistemático afecta a TODO el mercado, NO solo a una empresa particular (eso es riesgo específico)."
+  },
+  {
+    "id": 42,
+    "tema": "CAPM",
+    "pregunta": "Un inversor adquiere una acción cuya desviación estándar es 20%. La rentabilidad esperada del activo sin riesgo es de 3%. Asumiendo que las expectativas de rentabilidad del mercado son del 15% y su desviación estándar de 24%. ¿Cuál será la rentabilidad esperada de la acción según los CAPMs?",
+    "opciones": [
+      "12%",
+      "14%",
+      "13%",
+      "10%"
+    ],
+    "correcta": 2,
+    "explicacion": "CML: Rent = 0,03 + [(0,15 - 0,03) / 0,24] × 0,2 = 13%"
+  },
+  {
+    "id": 43,
+    "tema": "Análisis Financiero",
+    "pregunta": "El tipo de análisis que tiene en cuenta el entorno de la inversión desde lo más general hasta lo más particular de los mercados y valores se denomina:",
+    "opciones": [
+      "Bottom-up",
+      "Técnico",
+      "Top-down",
+      "Patrimonial"
+    ],
+    "correcta": 2,
+    "explicacion": "Top-down: de lo general (economía) a lo particular (sector, empresa). Bottom-up es al revés."
+  },
+  {
+    "id": 44,
+    "tema": "Planificación Financiera",
+    "pregunta": "El Financial Planning es:",
+    "opciones": [
+      "Un estilo",
+      "Un producto",
+      "Un evento",
+      "Un proceso"
+    ],
+    "correcta": 3,
+    "explicacion": "Financial Planning es un PROCESO con fases iterativas: definición objetivos, implementación estrategias, valoración gestión."
+  },
+  {
+    "id": 45,
+    "tema": "Fondos de Inversión",
+    "pregunta": "En un fondo Blend (Market)",
+    "opciones": [
+      "La inversión es muy conservadora",
+      "Se pretende seguir al mercado",
+      "Se trata de grandes empresas como Telefónica o Jazztel",
+      "Todas las opciones son falsas"
+    ],
+    "correcta": 1,
+    "explicacion": "Fondo Blend (Market): apuesta neutra, sigue al mercado sin sesgo value o growth."
+  },
+  {
+    "id": 46,
+    "tema": "Fondos de Inversión",
+    "pregunta": "Al hacer la valoración de un fondo por medio de un ranking, se debe tener en cuenta: I. La vocación inversora del fondo. II. La rentabilidad obtenida en el último mes. III. Las rentabilidades obtenidas en los tres últimos años. IV. La volatilidad del fondo.",
+    "opciones": [
+      "I y III son correctas",
+      "I, II, III y IV son correctas",
+      "I, III y IV son correctas",
+      "I y II son correctas"
+    ],
+    "correcta": 0,
+    "explicacion": "Ranking: vocación inversora (I) + rentabilidades 3 años (III). El último mes no es relevante para consistencia."
+  },
+  {
+    "id": 47,
+    "tema": "MiFID - Normativa",
+    "pregunta": "¿Cuál de las siguientes actividades NO estaba sujeta a identificación según la legislación de 1.993?",
+    "opciones": [
+      "Los casinos",
+      "Las actividades de promoción inmobiliaria",
+      "Notarios, abogados y procuradores",
+      "Las respuestas A y B"
+    ],
+    "correcta": 2,
+    "explicacion": "En 1993: SÍ sujetos: entidades crédito, aseguradoras, valores, casinos, promoción inmobiliaria. NO: notarios, abogados, procuradores."
+  },
+  {
+    "id": 48,
+    "tema": "MiFID - Normativa",
+    "pregunta": "La Ley de protección de datos en España...",
+    "opciones": [
+      "No nos afecta, ya que no tiene una importancia relevante en el sector de la asesoría financiera",
+      "Debido a la Ley vigente, es imprescindible conocerla, cumplirla, y guardar secreto profesional sobre los datos que dispongamos",
+      "Es de vital importancia, cada día más, y le es aplicable la Ley Orgánica 15/2005",
+      "Es una ley que se aplica exclusivamente en el sector de la banca"
+    ],
+    "correcta": 1,
+    "explicacion": "Ley de protección de datos: obligatorio conocerla, cumplirla y guardar secreto profesional."
+  },
+  {
+    "id": 49,
+    "tema": "MiFID",
+    "pregunta": "¿Qué ha proporcionado la MiFID?",
+    "opciones": [
+      "Seguridad al inversor, transparencia en los mercados, y una nueva legislación",
+      "Transparencia en los mercados",
+      "Una continuación a las anteriores leyes contra el blanqueo de capitales",
+      "Transparencia, competencia y seguridad"
+    ],
+    "correcta": 3,
+    "explicacion": "MiFID aporta: transparencia + competencia + seguridad a los inversores."
+  },
+  {
+    "id": 50,
+    "tema": "MiFID",
+    "pregunta": "¿Qué entendemos por superequivalencia, al hablar de la MiFID?",
+    "opciones": [
+      "Qué la MiFID, al ser la base de la ISD, está en equivalencia con la misma",
+      "La prohibición a los estados en los que se aplica, de crear normas de un rango superior para la protección del inversor",
+      "Qué la ISD, al ser la base de la MiFID, está en equivalencia con la misma",
+      "Ninguna de las otras respuestas es correcta"
+    ],
+    "correcta": 1,
+    "explicacion": "Superequivalencia MiFID: prohibición a estados de crear normas de rango superior para protección inversor (armonización máxima)."
+  }
+]

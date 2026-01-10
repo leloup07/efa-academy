@@ -1,0 +1,728 @@
+{
+  "nivel": "EIP",
+  "modulo": 6,
+  "titulo": "Inversión Inmobiliaria",
+  "peso_examen": 5,
+  "preguntas": [
+    {
+      "pregunta": "La inversión inmobiliaria se considera una inversión:",
+      "opciones": [
+        "Muy líquida",
+        "Ilíquida, con costes y tiempo de transacción elevados",
+        "Sin riesgo",
+        "Solo apta para inversores minoristas"
+      ],
+      "correcta": 1,
+      "explicacion": "Los inmuebles son activos ilíquidos: vender requiere tiempo (meses), tiene costes significativos (impuestos, notaría, registro) y el precio puede variar según urgencia de venta.",
+      "id": 1
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes NO es una característica de los inmuebles como activo de inversión?",
+      "opciones": [
+        "Heterogeneidad (cada inmueble es único)",
+        "Localización fija",
+        "Alta liquidez",
+        "Necesidad de gestión activa"
+      ],
+      "correcta": 2,
+      "explicacion": "Los inmuebles son heterogéneos, inmóviles, requieren gestión (mantenimiento, inquilinos) y son ilíquidos. La alta liquidez es característica de activos financieros, no inmobiliarios.",
+      "id": 2
+    },
+    {
+      "pregunta": "La rentabilidad de un inmueble en alquiler tiene dos componentes:",
+      "opciones": [
+        "Solo la renta mensual",
+        "Rentabilidad por alquiler (yield) y revalorización del capital",
+        "Solo la plusvalía",
+        "Intereses y dividendos"
+      ],
+      "correcta": 1,
+      "explicacion": "La rentabilidad total incluye: rental yield (ingresos por alquiler / valor del inmueble) + apreciación de capital (incremento del valor del inmueble).",
+      "id": 3
+    },
+    {
+      "pregunta": "El rental yield bruto de un piso valorado en 200.000€ con alquiler anual de 10.000€ es:",
+      "opciones": [
+        "20%",
+        "10%",
+        "5%",
+        "2%"
+      ],
+      "correcta": 2,
+      "explicacion": "Yield bruto = Alquiler anual / Valor inmueble = 10.000 / 200.000 = 5%",
+      "id": 4
+    },
+    {
+      "pregunta": "El yield neto difiere del bruto porque:",
+      "opciones": [
+        "Son exactamente iguales",
+        "El neto descuenta gastos (comunidad, IBI, seguros, mantenimiento, vacíos)",
+        "El bruto incluye la hipoteca",
+        "El neto incluye la plusvalía"
+      ],
+      "correcta": 1,
+      "explicacion": "Yield neto = (Alquiler - Gastos) / Valor inmueble. Los gastos incluyen: IBI, comunidad, seguros, reparaciones, gestión, periodos de vacío (sin inquilino).",
+      "id": 5
+    },
+    {
+      "pregunta": "Los gastos asociados a la compra de un inmueble incluyen:",
+      "opciones": [
+        "Solo el precio de compra",
+        "ITP o IVA+AJD, notaría, registro, gestoría",
+        "Solo el IBI",
+        "No hay gastos adicionales"
+      ],
+      "correcta": 1,
+      "explicacion": "Gastos de compra: ITP (vivienda usada, 6-10% según CCAA) o IVA+AJD (obra nueva), notaría (~0,5%), registro (~0,2%), gestoría. Total aproximado: 10-12% del precio.",
+      "id": 6
+    },
+    {
+      "pregunta": "El ITP (Impuesto de Transmisiones Patrimoniales) grava:",
+      "opciones": [
+        "La compra de vivienda nueva",
+        "La compra de vivienda de segunda mano",
+        "Los alquileres",
+        "Las herencias"
+      ],
+      "correcta": 1,
+      "explicacion": "El ITP grava las transmisiones de inmuebles usados (segunda mano). La vivienda nueva tributa por IVA (10%) + AJD. El tipo de ITP varía según comunidad autónoma (6-10%).",
+      "id": 7
+    },
+    {
+      "pregunta": "El valor catastral de un inmueble:",
+      "opciones": [
+        "Es siempre igual al valor de mercado",
+        "Es un valor administrativo usado para calcular impuestos (IBI, plusvalía municipal)",
+        "Lo fija el propietario",
+        "Solo se aplica a locales comerciales"
+      ],
+      "correcta": 1,
+      "explicacion": "El valor catastral es un valor administrativo determinado por el Catastro, generalmente inferior al de mercado. Se usa para calcular el IBI y como referencia fiscal.",
+      "id": 8
+    },
+    {
+      "pregunta": "El IBI (Impuesto sobre Bienes Inmuebles) es:",
+      "opciones": [
+        "Un impuesto estatal",
+        "Un impuesto municipal anual sobre la propiedad inmobiliaria",
+        "Solo para locales comerciales",
+        "Deducible en IRPF para vivienda habitual"
+      ],
+      "correcta": 1,
+      "explicacion": "El IBI es un tributo municipal que grava la titularidad de bienes inmuebles. Se paga anualmente, calculado sobre el valor catastral.",
+      "id": 9
+    },
+    {
+      "pregunta": "La plusvalía municipal (IIVTNU) grava:",
+      "opciones": [
+        "El alquiler",
+        "El incremento de valor del terreno urbano en la transmisión",
+        "La compra del inmueble",
+        "Los intereses de la hipoteca"
+      ],
+      "correcta": 1,
+      "explicacion": "El IIVTNU (plusvalía municipal) grava el supuesto incremento de valor del terreno urbano desde la adquisición hasta la transmisión. Lo paga el vendedor (o heredero).",
+      "id": 10
+    },
+    {
+      "pregunta": "La inversión inmobiliaria como cobertura contra la inflación funciona porque:",
+      "opciones": [
+        "Los inmuebles nunca pierden valor",
+        "Los alquileres y valores tienden a ajustarse con la inflación a largo plazo",
+        "Los impuestos bajan con la inflación",
+        "Las hipotecas desaparecen con inflación"
+      ],
+      "correcta": 1,
+      "explicacion": "Históricamente, los precios inmobiliarios y alquileres tienden a seguir la inflación a largo plazo, manteniendo el poder adquisitivo del capital invertido.",
+      "id": 11
+    },
+    {
+      "pregunta": "El apalancamiento en inversión inmobiliaria mediante hipoteca:",
+      "opciones": [
+        "Reduce siempre el riesgo",
+        "Amplifica tanto las ganancias como las pérdidas",
+        "No tiene efecto en la rentabilidad",
+        "Está prohibido"
+      ],
+      "correcta": 1,
+      "explicacion": "Financiar con hipoteca amplifica el retorno sobre el capital propio. Si el inmueble sube, ganas más sobre tu aportación. Si baja, las pérdidas también son mayores proporcionalmente.",
+      "id": 12
+    },
+    {
+      "pregunta": "Un inversor compra un piso de 100.000€ con 20.000€ propios y 80.000€ de hipoteca. Si el piso sube a 120.000€, la rentabilidad sobre su capital es:",
+      "opciones": [
+        "20%",
+        "100%",
+        "25%",
+        "80%"
+      ],
+      "correcta": 1,
+      "explicacion": "Ganancia = 120.000 - 100.000 = 20.000€. Rentabilidad sobre capital propio = 20.000 / 20.000 = 100%. El apalancamiento multiplica el retorno (sin contar intereses hipotecarios).",
+      "id": 13
+    },
+    {
+      "pregunta": "El LTV (Loan to Value) de una hipoteca de 160.000€ sobre un inmueble de 200.000€ es:",
+      "opciones": [
+        "60%",
+        "80%",
+        "125%",
+        "40%"
+      ],
+      "correcta": 1,
+      "explicacion": "LTV = Préstamo / Valor inmueble = 160.000 / 200.000 = 80%",
+      "id": 14
+    },
+    {
+      "pregunta": "El riesgo específico de la inversión inmobiliaria directa incluye:",
+      "opciones": [
+        "Solo el riesgo de mercado",
+        "Riesgo de vacío, impago de inquilinos, obsolescencia, regulación local",
+        "Riesgo de tipo de cambio",
+        "Riesgo de contraparte en derivados"
+      ],
+      "correcta": 1,
+      "explicacion": "Riesgos específicos inmobiliarios: vacío (periodos sin alquilar), morosidad del inquilino, deterioro/obsolescencia, cambios regulatorios (alquileres, urbanismo), concentración en un activo.",
+      "id": 15
+    },
+    {
+      "pregunta": "La diversificación en inmobiliario directo es difícil porque:",
+      "opciones": [
+        "No existen diferentes tipos de inmuebles",
+        "Los importes unitarios son altos y los activos son indivisibles",
+        "Todos los inmuebles se comportan igual",
+        "No hay diferentes ubicaciones"
+      ],
+      "correcta": 1,
+      "explicacion": "Un único inmueble requiere inversión significativa, haciendo difícil diversificar entre múltiples propiedades, ubicaciones y tipos de activo con un patrimonio medio.",
+      "id": 16
+    },
+    {
+      "pregunta": "La gestión activa de inmuebles en alquiler implica:",
+      "opciones": [
+        "No hacer nada",
+        "Buscar inquilinos, cobrar rentas, gestionar mantenimiento, cumplir normativa",
+        "Solo cobrar el alquiler",
+        "Vender cada año"
+      ],
+      "correcta": 1,
+      "explicacion": "El propietario debe: encontrar y seleccionar inquilinos, gestionar contratos, cobrar y reclamar impagos, mantener el inmueble, cumplir con obligaciones fiscales y legales.",
+      "id": 17
+    },
+    {
+      "pregunta": "El valor de un inmueble para inversión se determina principalmente por:",
+      "opciones": [
+        "El coste de construcción únicamente",
+        "Los ingresos esperados (capitalización de rentas) y comparables de mercado",
+        "El gusto del propietario",
+        "Solo la antigüedad"
+      ],
+      "correcta": 1,
+      "explicacion": "La valoración considera: método de capitalización de rentas (valor = renta / yield), comparación con transacciones similares, y coste de reposición. La ubicación es crítica.",
+      "id": 18
+    },
+    {
+      "pregunta": "La tasa de capitalización (cap rate) es:",
+      "opciones": [
+        "El tipo de interés de la hipoteca",
+        "La relación entre los ingresos netos operativos y el valor del inmueble",
+        "El porcentaje de ocupación",
+        "El IBI dividido por el valor"
+      ],
+      "correcta": 1,
+      "explicacion": "Cap rate = NOI (Net Operating Income) / Valor del inmueble. Es la rentabilidad neta que ofrece el inmueble sin considerar financiación. Menor cap rate = mayor precio relativo.",
+      "id": 19
+    },
+    {
+      "pregunta": "Un inmueble con NOI de 50.000€ y cap rate de mercado del 5% tiene un valor aproximado de:",
+      "opciones": [
+        "250.000€",
+        "1.000.000€",
+        "500.000€",
+        "2.500.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "Valor = NOI / Cap rate = 50.000 / 0,05 = 1.000.000€",
+      "id": 20
+    },
+    {
+      "pregunta": "Los rendimientos del alquiler de inmuebles en el IRPF se califican como:",
+      "opciones": [
+        "Ganancias patrimoniales",
+        "Rendimientos del capital inmobiliario",
+        "Rendimientos del trabajo",
+        "Rentas exentas"
+      ],
+      "correcta": 1,
+      "explicacion": "Los ingresos por alquiler de inmuebles (excepto si es actividad económica) son rendimientos del capital inmobiliario, integrándose en la base general del IRPF.",
+      "id": 21
+    },
+    {
+      "pregunta": "Los gastos deducibles del alquiler en IRPF incluyen:",
+      "opciones": [
+        "Solo el IBI",
+        "Intereses hipotecarios, IBI, comunidad, seguros, reparaciones, amortización",
+        "Ningún gasto es deducible",
+        "Solo las reparaciones"
+      ],
+      "correcta": 1,
+      "explicacion": "Son deducibles: intereses de préstamos para adquirir/mejorar, tributos (IBI), gastos de comunidad, seguros, conservación y reparación (no mejoras), amortización (3% sobre valor construcción o coste).",
+      "id": 22
+    },
+    {
+      "pregunta": "La reducción del 60% sobre el rendimiento neto del alquiler de vivienda:",
+      "opciones": [
+        "Aplica siempre automáticamente",
+        "Ha sido modificada/reducida en la Ley de Vivienda 2023",
+        "Es del 100%",
+        "Solo aplica a locales comerciales"
+      ],
+      "correcta": 1,
+      "explicacion": "La reducción general pasó del 60% al 50% (con reducciones mayores del 60-90% para alquiler asequible, zonas tensionadas, inquilinos jóvenes según la Ley de Vivienda 2023).",
+      "id": 23
+    },
+    {
+      "pregunta": "La imputación de rentas inmobiliarias en IRPF aplica a:",
+      "opciones": [
+        "Inmuebles alquilados",
+        "Inmuebles urbanos no arrendados ni afectos a actividad (excluida vivienda habitual)",
+        "Todos los inmuebles",
+        "Solo locales comerciales alquilados"
+      ],
+      "correcta": 1,
+      "explicacion": "Los inmuebles urbanos no alquilados (segundas residencias, inmuebles vacíos) generan una renta imputada del 1,1-2% del valor catastral, excepto la vivienda habitual.",
+      "id": 24
+    },
+    {
+      "pregunta": "La ganancia patrimonial por venta de un inmueble se calcula como:",
+      "opciones": [
+        "Precio de venta únicamente",
+        "Valor de transmisión - Valor de adquisición (incluyendo gastos e impuestos)",
+        "Precio de venta - precio de compra sin más",
+        "El valor catastral"
+      ],
+      "correcta": 1,
+      "explicacion": "Ganancia = (Precio venta - gastos venta) - (Precio compra + gastos compra + inversiones/mejoras). Los gastos incluyen impuestos, notaría, comisiones, etc.",
+      "id": 25
+    },
+    {
+      "pregunta": "Las ganancias por venta de inmuebles tributan en el IRPF:",
+      "opciones": [
+        "En la base general",
+        "En la base del ahorro, con tipos del 19% al 28%",
+        "Están exentas",
+        "Al tipo fijo del 10%"
+      ],
+      "correcta": 1,
+      "explicacion": "Las ganancias patrimoniales por transmisión de inmuebles van a la base del ahorro: 19% hasta 6.000€, 21% hasta 50.000€, 23% hasta 200.000€, 27% hasta 300.000€, 28% en adelante.",
+      "id": 26
+    },
+    {
+      "pregunta": "La exención por reinversión en vivienda habitual permite:",
+      "opciones": [
+        "No tributar nunca por venta de inmuebles",
+        "Eximir la ganancia si se reinvierte en otra vivienda habitual en 2 años",
+        "Deducir en la cuota",
+        "Solo aplica a mayores de 65 años"
+      ],
+      "correcta": 1,
+      "explicacion": "La ganancia por venta de vivienda habitual queda exenta si el importe se reinvierte en otra vivienda habitual en los 2 años anteriores o posteriores a la venta (exención proporcional).",
+      "id": 27
+    },
+    {
+      "pregunta": "Para mayores de 65 años, la venta de la vivienda habitual:",
+      "opciones": [
+        "Tributa igual que para cualquier otro contribuyente",
+        "La ganancia está exenta sin necesidad de reinversión",
+        "Tributa al 50%",
+        "Está prohibida"
+      ],
+      "correcta": 1,
+      "explicacion": "Los mayores de 65 años que venden su vivienda habitual tienen la ganancia exenta sin necesidad de reinvertir. También aplica a dependientes que vendan para ir a residencia.",
+      "id": 28
+    },
+    {
+      "pregunta": "Los coeficientes de abatimiento para inmuebles adquiridos antes de 31/12/1994:",
+      "opciones": [
+        "Eliminan toda tributación",
+        "Reducen la ganancia para la parte generada hasta 20/01/2006, con límite de 400.000€ de transmisión",
+        "Ya no existen",
+        "Solo aplican a acciones"
+      ],
+      "correcta": 1,
+      "explicacion": "Inmuebles adquiridos antes de 31/12/1994 pueden aplicar coeficientes reductores a la parte de ganancia generada hasta 20/01/2006. Hay un límite acumulado de 400.000€ en valor de transmisiones.",
+      "id": 29
+    },
+    {
+      "pregunta": "En el Impuesto sobre el Patrimonio, los inmuebles se valoran por:",
+      "opciones": [
+        "Solo el valor catastral",
+        "El mayor de: valor catastral, comprobado por Hacienda o precio de adquisición",
+        "El valor de mercado estimado",
+        "El valor de la hipoteca"
+      ],
+      "correcta": 1,
+      "explicacion": "La valoración en IP es el mayor de: valor catastral, valor comprobado por la Administración, o precio/valor de adquisición. La hipoteca pendiente reduce el valor neto.",
+      "id": 30
+    },
+    {
+      "pregunta": "La vivienda habitual en el Impuesto sobre el Patrimonio tiene:",
+      "opciones": [
+        "Una exención de hasta 300.000€",
+        "No hay exención específica",
+        "Exención total",
+        "Bonificación del 50%"
+      ],
+      "correcta": 0,
+      "explicacion": "La vivienda habitual del contribuyente está exenta en el IP hasta 300.000€ de valor. El exceso sí tributa.",
+      "id": 31
+    },
+    {
+      "pregunta": "Las SOCIMI (Sociedades Cotizadas de Inversión Inmobiliaria) tributan en el Impuesto sobre Sociedades:",
+      "opciones": [
+        "Al tipo general del 25%",
+        "Al 0% (con requisitos de distribución de dividendos)",
+        "Al 15%",
+        "Están exentas de todos los impuestos"
+      ],
+      "correcta": 1,
+      "explicacion": "Las SOCIMI tributan al 0% en IS si cumplen requisitos (cotización, distribución del 80% de beneficios, inversión en alquiler). El impuesto recae en el accionista vía dividendos.",
+      "id": 32
+    },
+    {
+      "pregunta": "El IVA en la compra de vivienda nueva es:",
+      "opciones": [
+        "21%",
+        "10% (4% para VPO)",
+        "0%",
+        "7%"
+      ],
+      "correcta": 1,
+      "explicacion": "La compra de vivienda nueva tributa al 10% de IVA (tipo reducido). Las viviendas de protección oficial tributan al 4% (superreducido).",
+      "id": 33
+    },
+    {
+      "pregunta": "El alquiler de vivienda habitual:",
+      "opciones": [
+        "Lleva IVA del 21%",
+        "Está exento de IVA",
+        "Lleva IVA del 10%",
+        "Lleva IVA del 4%"
+      ],
+      "correcta": 1,
+      "explicacion": "El arrendamiento de viviendas para uso de vivienda permanente está exento de IVA. El alquiler de locales comerciales sí lleva IVA (21%).",
+      "id": 34
+    },
+    {
+      "pregunta": "La deducción por inversión en vivienda habitual en IRPF:",
+      "opciones": [
+        "Existe para todas las compras actuales",
+        "Solo se mantiene para hipotecas anteriores al 01/01/2013 (régimen transitorio)",
+        "Es del 50% del precio",
+        "Solo para alquileres"
+      ],
+      "correcta": 1,
+      "explicacion": "La deducción por vivienda habitual se suprimió en 2013, pero hay régimen transitorio para quienes compraron antes del 01/01/2013 y venían aplicándola: 15% sobre un máximo de 9.040€.",
+      "id": 35
+    },
+    {
+      "pregunta": "Una SOCIMI es:",
+      "opciones": [
+        "Una sociedad no cotizada",
+        "Una sociedad cotizada que invierte principalmente en inmuebles para alquiler",
+        "Un fondo de inversión inmobiliaria",
+        "Una cooperativa de viviendas"
+      ],
+      "correcta": 1,
+      "explicacion": "Las SOCIMI (equivalente español de los REITs) son sociedades anónimas cotizadas que invierten en inmuebles urbanos para arrendamiento, con régimen fiscal especial.",
+      "id": 36
+    },
+    {
+      "pregunta": "Una SOCIMI debe distribuir como dividendo al menos:",
+      "opciones": [
+        "El 100% de los beneficios",
+        "El 80% de los beneficios por alquileres (100% de dividendos de filiales SOCIMI, 50% de plusvalías)",
+        "El 50% de los beneficios",
+        "No tiene obligación de distribuir"
+      ],
+      "correcta": 1,
+      "explicacion": "Las SOCIMI deben distribuir: 80% de beneficios de alquileres, 50% de ganancias por transmisiones, 100% de dividendos recibidos de otras SOCIMI.",
+      "id": 37
+    },
+    {
+      "pregunta": "Los fondos de inversión inmobiliaria (FII):",
+      "opciones": [
+        "No existen en España",
+        "Invierten en inmuebles directamente o en acciones de compañías inmobiliarias",
+        "Solo invierten en acciones tecnológicas",
+        "Están prohibidos para minoristas"
+      ],
+      "correcta": 1,
+      "explicacion": "Los FII invierten en inmuebles físicos, acciones de SOCIMIs/REITs, u otros instrumentos inmobiliarios. Ofrecen exposición inmobiliaria con liquidez y diversificación.",
+      "id": 38
+    },
+    {
+      "pregunta": "El crowdfunding inmobiliario permite:",
+      "opciones": [
+        "Solo inversiones superiores a 1 millón",
+        "Invertir pequeñas cantidades en proyectos inmobiliarios a través de plataformas",
+        "Comprar vivienda sin dinero",
+        "Solo para promotores"
+      ],
+      "correcta": 1,
+      "explicacion": "Las plataformas de crowdfunding inmobiliario permiten a pequeños inversores participar en proyectos inmobiliarios (promoción, compra para alquiler) con aportaciones reducidas.",
+      "id": 39
+    },
+    {
+      "pregunta": "Los REITs internacionales (Real Estate Investment Trusts) son equivalentes a:",
+      "opciones": [
+        "Los fondos de inversión libre",
+        "Las SOCIMI españolas",
+        "Las hipotecas",
+        "Los bonos del Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "Los REITs son vehículos de inversión inmobiliaria cotizados con requisitos de distribución de dividendos y ventajas fiscales, similares a las SOCIMI españolas.",
+      "id": 40
+    },
+    {
+      "pregunta": "La inversión en SOCIMIs/REITs ofrece respecto a la inversión directa:",
+      "opciones": [
+        "Mayor control sobre los inmuebles",
+        "Mayor liquidez, diversificación y gestión profesional",
+        "Menor fiscalidad siempre",
+        "Rentabilidad garantizada"
+      ],
+      "correcta": 1,
+      "explicacion": "SOCIMIs/REITs ofrecen: liquidez bursátil (compra-venta en minutos), diversificación entre múltiples inmuebles, gestión profesional, y menores barreras de entrada.",
+      "id": 41
+    },
+    {
+      "pregunta": "Un fondo de inversión inmobiliaria cotizado (ETF de REITs) permite:",
+      "opciones": [
+        "Solo invertir en un inmueble",
+        "Exposición diversificada al sector inmobiliario global con liquidez diaria",
+        "Evitar toda tributación",
+        "Comprar inmuebles físicos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los ETFs de REITs ofrecen exposición diversificada a múltiples SOCIMIs/REITs de diferentes países y sectores (oficinas, retail, logística, residencial) con la liquidez de un ETF.",
+      "id": 42
+    },
+    {
+      "pregunta": "Los inmuebles como activo alternativo en carteras institucionales representan típicamente:",
+      "opciones": [
+        "0%",
+        "5-15% de la cartera",
+        "50% de la cartera",
+        "100%"
+      ],
+      "correcta": 1,
+      "explicacion": "Los inversores institucionales (fondos de pensiones, aseguradoras) suelen asignar entre el 5% y 15% de sus carteras a inmobiliario, buscando diversificación y rentas estables.",
+      "id": 43
+    },
+    {
+      "pregunta": "El sector inmobiliario logístico ha crecido principalmente por:",
+      "opciones": [
+        "La caída del comercio online",
+        "El auge del e-commerce y la necesidad de centros de distribución",
+        "La reducción de importaciones",
+        "El declive del transporte"
+      ],
+      "correcta": 1,
+      "explicacion": "El crecimiento del comercio electrónico ha impulsado la demanda de naves logísticas, centros de distribución y almacenes de última milla para abastecer pedidos online.",
+      "id": 44
+    },
+    {
+      "pregunta": "El \"build to rent\" es un modelo donde:",
+      "opciones": [
+        "Se construye para vender inmediatamente",
+        "Se construye específicamente para destinar a alquiler de larga duración",
+        "Se alquilan terrenos para construir",
+        "Se renuevan edificios antiguos para demoler"
+      ],
+      "correcta": 1,
+      "explicacion": "Build to rent (BTR) es la promoción de viviendas diseñadas desde el inicio para alquiler (no venta), gestionadas profesionalmente, con servicios comunes y contratos estables.",
+      "id": 45
+    },
+    {
+      "pregunta": "La inversión en residencias de estudiantes o de mayores se considera:",
+      "opciones": [
+        "Inmobiliario tradicional",
+        "Inmobiliario operacional (requiere gestión del servicio además del inmueble)",
+        "No es inversión inmobiliaria",
+        "Solo apta para el sector público"
+      ],
+      "correcta": 1,
+      "explicacion": "Residencias de estudiantes, mayores, hoteles o centros de salud son \"inmobiliario operacional\": el valor depende tanto del inmueble como de la operación/servicio que se presta.",
+      "id": 46
+    },
+    {
+      "pregunta": "Un sale & leaseback es una operación donde:",
+      "opciones": [
+        "Se compra y se vende el mismo día",
+        "El propietario vende el inmueble y lo alquila al comprador para seguir usándolo",
+        "Se alquila con opción a compra",
+        "Se intercambian dos inmuebles"
+      ],
+      "correcta": 1,
+      "explicacion": "En sale & leaseback, una empresa vende su inmueble a un inversor y simultáneamente lo alquila, liberando capital mientras mantiene el uso operativo del activo.",
+      "id": 47
+    },
+    {
+      "pregunta": "La rentabilidad \"prime\" en inmobiliario comercial se refiere a:",
+      "opciones": [
+        "La rentabilidad de inmuebles de baja calidad",
+        "La rentabilidad de los mejores activos en las mejores ubicaciones",
+        "El tipo de interés preferencial",
+        "La rentabilidad media del mercado"
+      ],
+      "correcta": 1,
+      "explicacion": "\"Prime\" designa los activos de máxima calidad en ubicaciones premium. Las rentabilidades prime son las más bajas (menor yield = mayor precio relativo) porque tienen menor riesgo.",
+      "id": 48
+    },
+    {
+      "pregunta": "El vacancy rate o tasa de desocupación indica:",
+      "opciones": [
+        "La rentabilidad del inmueble",
+        "El porcentaje de superficie que está vacía (sin alquilar)",
+        "El porcentaje de impago",
+        "La antigüedad del edificio"
+      ],
+      "correcta": 1,
+      "explicacion": "Vacancy rate = Superficie vacía / Superficie total. Una alta tasa de desocupación indica debilidad de demanda o problemas del activo/ubicación; afecta a los ingresos por alquiler.",
+      "id": 49
+    },
+    {
+      "pregunta": "El \"cap rate compression\" significa:",
+      "opciones": [
+        "Las rentabilidades suben",
+        "Las rentabilidades (cap rates) bajan, los precios de los inmuebles suben",
+        "La descompresión del mercado",
+        "El aumento de vacíos"
+      ],
+      "correcta": 1,
+      "explicacion": "Cap rate compression: las rentabilidades exigidas bajan (por alta demanda, tipos bajos), lo que matemáticamente eleva los precios de los inmuebles. Lo contrario es cap rate expansion.",
+      "id": 50
+    },
+    {
+      "pregunta": "El DTI (Debt to Income) en hipotecas mide:",
+      "opciones": [
+        "La relación entre deuda y valor del inmueble",
+        "La proporción de ingresos destinada al pago de deudas",
+        "El tipo de interés",
+        "El plazo del préstamo"
+      ],
+      "correcta": 1,
+      "explicacion": "DTI = Cuotas de deudas / Ingresos netos. Los bancos suelen exigir que las cuotas no superen el 30-35% de los ingresos para conceder una hipoteca.",
+      "id": 51
+    },
+    {
+      "pregunta": "En una hipoteca, la amortización francesa se caracteriza por:",
+      "opciones": [
+        "Cuotas variables",
+        "Cuotas constantes con mayor proporción de intereses al inicio",
+        "Solo pago de intereses",
+        "Cuotas crecientes"
+      ],
+      "correcta": 1,
+      "explicacion": "El sistema francés tiene cuotas constantes. Al principio, la mayor parte de la cuota son intereses; gradualmente aumenta la parte de amortización de capital.",
+      "id": 52
+    },
+    {
+      "pregunta": "El DSCR (Debt Service Coverage Ratio) en financiación inmobiliaria comercial mide:",
+      "opciones": [
+        "El valor del inmueble",
+        "La capacidad de los ingresos del inmueble para cubrir el servicio de la deuda",
+        "El tipo de interés",
+        "El plazo de la hipoteca"
+      ],
+      "correcta": 1,
+      "explicacion": "DSCR = NOI / Servicio de deuda anual. Un DSCR > 1,2-1,3 indica que los ingresos cubren holgadamente los pagos de la deuda; es requisito habitual de los prestamistas.",
+      "id": 53
+    },
+    {
+      "pregunta": "El análisis de sensibilidad en inversión inmobiliaria evalúa:",
+      "opciones": [
+        "Solo el mejor escenario",
+        "Cómo varían los resultados ante cambios en variables clave (alquiler, vacío, tipos, etc.)",
+        "La sensibilidad del propietario",
+        "El color del edificio"
+      ],
+      "correcta": 1,
+      "explicacion": "El análisis de sensibilidad muestra cómo cambia la rentabilidad o valor del inmueble si varían: niveles de alquiler, tasa de vacío, tipos de interés, cap rates de salida, etc.",
+      "id": 54
+    },
+    {
+      "pregunta": "El TIR de un proyecto inmobiliario mide:",
+      "opciones": [
+        "Solo los ingresos por alquiler",
+        "La rentabilidad anualizada considerando todos los flujos: inversión, rentas, desinversión",
+        "El valor catastral",
+        "El precio de mercado"
+      ],
+      "correcta": 1,
+      "explicacion": "La TIR del proyecto inmobiliario considera: inversión inicial, flujos de caja por alquileres (netos de gastos y financiación), y flujo final por venta. Es la rentabilidad compuesta anual.",
+      "id": 55
+    },
+    {
+      "pregunta": "El múltiplo sobre capital invertido (equity multiple) de 2x significa:",
+      "opciones": [
+        "La inversión se ha perdido",
+        "El inversor ha obtenido 2 veces su capital inicial (1x retorno + 1x principal)",
+        "El inmueble vale el doble del catastral",
+        "El alquiler se ha doblado"
+      ],
+      "correcta": 1,
+      "explicacion": "Equity multiple = Total retornos / Capital invertido. Un múltiplo de 2x significa que se recupera el capital inicial más un beneficio igual al 100% de la inversión.",
+      "id": 56
+    },
+    {
+      "pregunta": "El cash-on-cash return mide:",
+      "opciones": [
+        "La rentabilidad total del proyecto",
+        "El retorno anual en efectivo sobre el capital equity invertido",
+        "El valor del inmueble",
+        "Los impuestos pagados"
+      ],
+      "correcta": 1,
+      "explicacion": "Cash-on-cash = Flujo de caja anual (después de servicio de deuda) / Capital equity invertido. Mide la rentabilidad efectiva anual sobre el dinero propio aportado.",
+      "id": 57
+    },
+    {
+      "pregunta": "La due diligence en adquisición inmobiliaria incluye:",
+      "opciones": [
+        "Solo mirar el inmueble por fuera",
+        "Análisis técnico, legal, urbanístico, fiscal, financiero y comercial del activo",
+        "Solo negociar el precio",
+        "Firma del contrato"
+      ],
+      "correcta": 1,
+      "explicacion": "Due diligence comprende: revisión legal (cargas, titularidad), técnica (estado constructivo), urbanística (licencias), fiscal, comercial (contratos de alquiler), y financiera del activo.",
+      "id": 58
+    },
+    {
+      "pregunta": "El WAULT (Weighted Average Unexpired Lease Term) mide:",
+      "opciones": [
+        "El valor del inmueble",
+        "La duración media ponderada de los contratos de alquiler vigentes",
+        "La superficie alquilada",
+        "El número de inquilinos"
+      ],
+      "correcta": 1,
+      "explicacion": "El WAULT indica el plazo medio (ponderado por renta) que resta hasta vencimiento de los contratos. Mayor WAULT = mayor visibilidad de ingresos futuros, menor riesgo de vacío a corto plazo.",
+      "id": 59
+    },
+    {
+      "pregunta": "El valor de un inmueble por el método de descuento de flujos considera:",
+      "opciones": [
+        "Solo el alquiler del primer año",
+        "Los flujos esperados (alquileres, valor residual) descontados a una tasa apropiada",
+        "Solo el valor catastral",
+        "El coste histórico"
+      ],
+      "correcta": 1,
+      "explicacion": "El DCF (Discounted Cash Flow) valora el inmueble como el valor presente de: flujos de alquiler proyectados durante el periodo de análisis + valor terminal de venta, descontados a una tasa que refleja el riesgo.",
+      "id": 60
+    }
+  ]
+}
