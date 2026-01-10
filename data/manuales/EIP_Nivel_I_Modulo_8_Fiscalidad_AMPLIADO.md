@@ -258,7 +258,7 @@ Son **variaciones en el valor del patrimonio** que se ponen de manifiesto con oc
 
 ## 5.2 Cálculo
 
-$$\boxed{Ganancia/Pérdida = Valor\ de\ Transmisión - Valor\ de\ Adquisición}$$
+**\boxedGanancia/Pérdida = Valor de Transmisión - Valor de Adquisición**
 
 Donde:
 - **Valor transmisión** = Precio venta - Gastos de venta
@@ -427,7 +427,7 @@ PASO 3: Resultado final
 
 El rendimiento se calcula como:
 
-$$Rendimiento = Precio\ venta/amortización - Precio\ compra$$
+**Rendimiento = Precio venta/amortización - Precio compra**
 
 **Importante:** Tributa como **RCM** (no como ganancia patrimonial)
 
@@ -503,7 +503,7 @@ Sin tributar      Sin tributar        Sin tributar    Aquí sí
 
 ## 9.3 Cálculo de la Ganancia en Reembolso
 
-$$Ganancia = Valor\ de\ reembolso - Valor\ de\ adquisición\ original$$
+**Ganancia = Valor de reembolso - Valor de adquisición original**
 
 Si ha habido traspasos, el valor de adquisición es **el original del primer fondo**.
 
@@ -585,7 +585,7 @@ Coste de adquisición acciones = (100 × 4€) + 200€ = 600€
 
 **Liquidación por diferencias:** Ganancia o pérdida patrimonial
 
-$$G/P = Precio\ liquidación - Precio\ contratación$$
+**G/P = Precio liquidación - Precio contratación**
 
 **Tributación:**
 - Base del ahorro: 19% - 28%
@@ -803,7 +803,7 @@ rentabilidad generada compensan parcialmente.
 
 ## 13.2 Cobro en Forma de Capital (IRPF)
 
-$$Rendimiento = Capital\ Percibido - Primas\ Pagadas$$
+**Rendimiento = Capital Percibido - Primas Pagadas**
 
 **Tributación:**
 - Calificación: RCM

@@ -317,7 +317,7 @@ La **hipoteca inversa** es un producto financiero que permite a personas mayores
 | Uso | El más habitual en España |
 
 **Fórmula de la cuota:**
-$$Cuota = Principal \times \frac{i \times (1+i)^n}{(1+i)^n - 1}$$
+**Cuota = Principal × (i × (1+i)ⁿ)/((1+i)ⁿ - 1)**
 
 ---
 
@@ -447,7 +447,7 @@ El **riesgo operativo** es la posibilidad de pérdidas por fallos en procesos in
 
 La **pérdida esperada (PE)** se calcula como:
 
-$$PE = PD \times LGD \times EAD$$
+**PE = PD × LGD × EAD**
 
 | Componente | Nombre | Descripción |
 |------------|--------|-------------|
@@ -533,7 +533,7 @@ El **rating** es una calificación que mide la probabilidad de impago de un deud
 
 ### Ratio de Endeudamiento
 
-$$Ratio\ de\ Endeudamiento = \frac{Cuotas\ mensuales\ totales}{Ingresos\ netos\ mensuales} \times 100$$
+**Ratio de Endeudamiento = (Cuotas mensuales totales)/(Ingresos netos mensuales) × 100**
 
 | Ratio | Interpretación | Decisión típica |
 |-------|----------------|-----------------|
@@ -554,7 +554,7 @@ $$Ratio\ de\ Endeudamiento = \frac{Cuotas\ mensuales\ totales}{Ingresos\ netos\ 
 | Pago mínimo tarjeta | 100€/mes |
 | **Total cuotas** | **1.250€/mes** |
 
-$$Ratio = \frac{1.250}{4.500} \times 100 = 27,8\%$$
+**Ratio = (1.250)/(4.500) × 100 = 27,8\%**
 
 **Resultado:** Ratio saludable, operación viable.
 
@@ -664,7 +664,7 @@ Las **garantías reales** son aquellas en las que un bien concreto (mueble o inm
 
 ### Ratio de Cobertura de Garantía (LTV)
 
-$$LTV = \frac{Importe\ del\ préstamo}{Valor\ de\ tasación} \times 100$$
+**LTV = (Importe del préstamo)/(Valor de tasación) × 100**
 
 | LTV | Interpretación |
 |-----|----------------|
@@ -730,7 +730,7 @@ La **prenda sobre activos financieros** es una garantía real sobre valores mobi
 
 ### Ratio de Cobertura Pignoraticia
 
-$$Ratio\ Cobertura = \frac{Valor\ activos\ pignorados \times Ponderación}{Importe\ préstamo}$$
+**Ratio Cobertura = (Valor activos pignorados × Ponderación)/(Importe préstamo)**
 
 ---
 
@@ -740,9 +740,9 @@ Préstamo de 50.000€ garantizado con:
 - 30.000€ en depósito a plazo (ponderación 100%)
 - 40.000€ en acciones cotizadas (ponderación 60%)
 
-$$Valor\ ponderado = 30.000 \times 100\% + 40.000 \times 60\% = 30.000 + 24.000 = 54.000€$$
+**Valor ponderado = 30.000 × 100\% + 40.000 × 60\% = 30.000 + 24.000 = 54.000€**
 
-$$Ratio\ Cobertura = \frac{54.000}{50.000} = 108\%$$
+**Ratio Cobertura = (54.000)/(50.000) = 108\%**
 
 **Resultado:** Cobertura adecuada.
 
@@ -763,7 +763,7 @@ Si el valor de los activos pignorados cae por debajo del ratio mínimo de cobert
 
 La **nuda propiedad** es el derecho de propiedad sobre un bien sin el derecho de uso y disfrute (usufructo).
 
-$$Pleno\ Dominio = Nuda\ Propiedad + Usufructo$$
+**Pleno Dominio = Nuda Propiedad + Usufructo**
 
 ### Valoración de la Nuda Propiedad
 
@@ -802,7 +802,7 @@ El **apalancamiento financiero** consiste en utilizar deuda para financiar inver
 
 ### Fórmula del Efecto Apalancamiento
 
-$$ROE = ROA + (ROA - i) \times \frac{D}{E}$$
+**ROE = ROA + (ROA - i) × (D)/(E)**
 
 Donde:
 - ROE = Rentabilidad sobre fondos propios
@@ -858,7 +858,7 @@ Cuando ROA < i, el apalancamiento destruye valor.
 
 ### Ratio Deuda/Fondos Propios
 
-$$Ratio\ D/E = \frac{Deuda}{Fondos\ Propios}$$
+**Ratio D/E = (Deuda)/(Fondos Propios)**
 
 | Ratio D/E | Interpretación |
 |-----------|----------------|
@@ -869,7 +869,7 @@ $$Ratio\ D/E = \frac{Deuda}{Fondos\ Propios}$$
 
 ### Ratio de Cobertura de Intereses
 
-$$Cobertura\ Intereses = \frac{EBIT}{Gastos\ financieros}$$
+**Cobertura Intereses = (EBIT)/(Gastos financieros)**
 
 | Ratio | Interpretación |
 |-------|----------------|
