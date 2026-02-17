@@ -1,0 +1,608 @@
+{
+  "titulo": "Simulacro EFA #4 - 50 Preguntas",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "En una regresión Y = a + bX, la pendiente b representa:",
+      "opciones": [
+        "El valor de Y cuando X es cero",
+        "El cambio en Y por cada unidad de cambio en X",
+        "El coeficiente de correlación",
+        "La varianza de Y"
+      ],
+      "correcta": 1,
+      "explicacion": "En la ecuación de regresión, la pendiente b indica cuánto cambia Y (en promedio) por cada unidad de incremento en X. Es la sensibilidad de Y respecto a X.",
+      "id": 1
+    },
+    {
+      "pregunta": "El IBEX 35 es un índice:",
+      "opciones": [
+        "Ponderado por precio",
+        "Ponderado por capitalización con ajuste por free float",
+        "Equiponderado",
+        "De rentabilidad total"
+      ],
+      "correcta": 1,
+      "explicacion": "El IBEX 35 es un índice ponderado por capitalización bursátil ajustada por free float (capital flotante). Esto significa que las empresas pesan según su capitalización disponible para negociación.",
+      "id": 2
+    },
+    {
+      "pregunta": "El Consorcio de Compensación de Seguros en España cubre principalmente:",
+      "opciones": [
+        "Todos los siniestros rechazados por aseguradoras privadas",
+        "Riesgos extraordinarios (terrorismo, catástrofes naturales) y funciones de garantía",
+        "Solo seguros de vida",
+        "Exclusivamente accidentes de tráfico"
+      ],
+      "correcta": 1,
+      "explicacion": "El CCS cubre riesgos extraordinarios (inundaciones, terremotos, terrorismo), actúa como fondo de garantía (aseguradoras insolventes), y cubre el SOA en vehículos sin seguro.",
+      "id": 3
+    },
+    {
+      "pregunta": "Las reducciones de la base imponible general incluyen:",
+      "opciones": [
+        "Solo por aportaciones a planes de pensiones",
+        "Aportaciones a planes de pensiones, pensiones compensatorias, anualidades por alimentos",
+        "Las deducciones por vivienda",
+        "Los gastos de los hijos"
+      ],
+      "correcta": 1,
+      "explicacion": "Las reducciones de la base general incluyen: aportaciones a sistemas de previsión social (planes de pensiones), pensiones compensatorias al cónyuge y anualidades por alimentos.",
+      "id": 4
+    },
+    {
+      "pregunta": "Las SOCIMI (Sociedades Cotizadas de Inversión Inmobiliaria) tributan en el Impuesto sobre Sociedades:",
+      "opciones": [
+        "Al tipo general del 25%",
+        "Al 0% (con requisitos de distribución de dividendos)",
+        "Al 15%",
+        "Están exentas de todos los impuestos"
+      ],
+      "correcta": 1,
+      "explicacion": "Las SOCIMI tributan al 0% en IS si cumplen requisitos (cotización, distribución del 80% de beneficios, inversión en alquiler). El impuesto recae en el accionista vía dividendos.",
+      "id": 5
+    },
+    {
+      "pregunta": "La ejecución hipotecaria procede cuando:",
+      "opciones": [
+        "El cliente paga puntualmente",
+        "Hay impago significativo y el banco inicia procedimiento judicial para subastar el inmueble",
+        "El cliente quiere vender",
+        "Bajan los tipos de interés"
+      ],
+      "correcta": 1,
+      "explicacion": "Ante impagos sostenidos (la LCCI exige al menos 12 cuotas o 3% del capital impagado en primera mitad del préstamo), el banco puede iniciar ejecución hipotecaria y subastar el inmueble.",
+      "id": 6
+    },
+    {
+      "pregunta": "El rating Morningstar de estrellas (1-5) evalúa principalmente:",
+      "opciones": [
+        "La rentabilidad absoluta del fondo",
+        "La rentabilidad ajustada por riesgo respecto a fondos de la misma categoría",
+        "Solo los costes del fondo",
+        "La calidad del equipo gestor"
+      ],
+      "correcta": 1,
+      "explicacion": "El rating cuantitativo de Morningstar (estrellas) evalúa la rentabilidad ajustada por riesgo del fondo comparada con otros fondos de la misma categoría, basándose en datos históricos.",
+      "id": 7
+    },
+    {
+      "pregunta": "El \"factor investing\" se basa en:",
+      "opciones": [
+        "Invertir solo en un sector",
+        "Construir carteras con exposición a factores de riesgo específicos (value, momentum, size, etc.)",
+        "Ignorar cualquier análisis",
+        "Solo gestión pasiva tradicional"
+      ],
+      "correcta": 1,
+      "explicacion": "Factor investing busca exposición sistemática a factores que históricamente han generado primas de rentabilidad: value, momentum, quality, size, low volatility, etc.",
+      "id": 8
+    },
+    {
+      "pregunta": "Los bonos verdes (green bonds) se caracterizan por:",
+      "opciones": [
+        "Tener menor riesgo de crédito",
+        "Destinar los fondos a proyectos medioambientalmente sostenibles",
+        "Ofrecer siempre mayor rentabilidad",
+        "Estar garantizados por el Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "Los bonos verdes son instrumentos de renta fija cuyos fondos se destinan exclusivamente a financiar o refinanciar proyectos con beneficios medioambientales (energías renovables, eficiencia energética, transporte limpio, etc.).",
+      "id": 9
+    },
+    {
+      "pregunta": "La cobertura de divisa al 100% en una cartera internacional:",
+      "opciones": [
+        "Elimina todo el riesgo",
+        "Elimina el riesgo de tipo de cambio pero tiene costes",
+        "Aumenta la rentabilidad siempre",
+        "No tiene ningún coste"
+      ],
+      "correcta": 1,
+      "explicacion": "Cubrir la divisa elimina la exposición al tipo de cambio pero tiene costes (coste del forward, rollover). Además, se renuncia a posibles ganancias si la divisa extranjera se aprecia.",
+      "id": 10
+    },
+    {
+      "pregunta": "Los rendimientos de un seguro de vida-ahorro cuando tomador y beneficiario coinciden tributan en:",
+      "opciones": [
+        "ISD",
+        "IRPF como rendimiento del capital mobiliario",
+        "No tributan",
+        "Impuesto de Patrimonio"
+      ],
+      "correcta": 1,
+      "explicacion": "Cuando tomador y beneficiario son la misma persona, la prestación (capital diferido, rescate) tributa en IRPF como rendimiento del capital mobiliario en la base del ahorro.",
+      "id": 11
+    },
+    {
+      "pregunta": "Una estrategia de \"income\" o rentas busca:",
+      "opciones": [
+        "Máxima apreciación del capital",
+        "Generar flujos de caja regulares (dividendos, cupones)",
+        "Crecimiento agresivo",
+        "Solo invertir en startups"
+      ],
+      "correcta": 1,
+      "explicacion": "Las estrategias de income priorizan la generación de rentas periódicas (dividendos de acciones, cupones de bonos, alquileres) sobre la apreciación de capital.",
+      "id": 12
+    },
+    {
+      "pregunta": "Una cartera tuvo rentabilidades de +10%, -5%, +15% en tres años consecutivos. ¿Cuál es la TWR anualizada?",
+      "opciones": [
+        "6,67%",
+        "6,37%",
+        "20%",
+        "5,00%"
+      ],
+      "correcta": 1,
+      "explicacion": "* TWR = [(1+0,10) × (1-0,05) × (1+0,15)]^(1/3) - 1 TWR = [1,10 × 0,95 × 1,15]^(1/3) - 1 = [1,2018]^(1/3) - 1 = 1,0633 - 1 = 6,33% ≈ 6,37%",
+      "id": 13
+    },
+    {
+      "pregunta": "El factor de sostenibilidad vinculaba las pensiones a:",
+      "opciones": [
+        "La inflación",
+        "La esperanza de vida (actualmente suspendido)",
+        "El PIB",
+        "El desempleo"
+      ],
+      "correcta": 1,
+      "explicacion": "El factor de sostenibilidad (Ley 2013) vinculaba las nuevas pensiones a la esperanza de vida a los 67 años. Fue derogado en 2021 y sustituido por el MEI.",
+      "id": 14
+    },
+    {
+      "pregunta": "El rebalanceo \"calendar\" se realiza:",
+      "opciones": [
+        "Cuando los pesos se desvían un porcentaje fijo",
+        "En fechas predeterminadas (mensual, trimestral, anual)",
+        "Solo en mercados bajistas",
+        "Nunca"
+      ],
+      "correcta": 1,
+      "explicacion": "El rebalanceo calendar se hace en intervalos fijos de tiempo (cada mes, trimestre, año) independientemente de las desviaciones. El rebalanceo \"threshold\" se hace cuando los pesos se desvían de umbrales.",
+      "id": 15
+    },
+    {
+      "pregunta": "La revisión del plan financiero personal debe hacerse:",
+      "opciones": [
+        "Nunca",
+        "Periódicamente y ante cambios vitales importantes (matrimonio, hijos, cambio de trabajo, herencia)",
+        "Solo al jubilarse",
+        "Cada 20 años"
+      ],
+      "correcta": 1,
+      "explicacion": "El plan debe revisarse anualmente como mínimo, y obligatoriamente ante eventos vitales: cambios en ingresos, estado civil, familia, salud, herencias, o cambios significativos de mercado.",
+      "id": 16
+    },
+    {
+      "pregunta": "El contraseguro de primas en un seguro de supervivencia significa:",
+      "opciones": [
+        "Que no hay cobertura de fallecimiento",
+        "Que si el asegurado fallece antes del vencimiento, se devuelven las primas pagadas",
+        "Doble cobertura",
+        "Seguro de la aseguradora"
+      ],
+      "correcta": 1,
+      "explicacion": "El contraseguro de primas añade al seguro de supervivencia una devolución de primas si el asegurado fallece antes del vencimiento, evitando la pérdida total de lo aportado.",
+      "id": 17
+    },
+    {
+      "pregunta": "El órgano de control interno en materia de prevención de blanqueo es:",
+      "opciones": [
+        "El director comercial",
+        "El Representante ante el SEPBLAC y el Comité de Prevención",
+        "El auditor externo",
+        "El Banco de España"
+      ],
+      "correcta": 1,
+      "explicacion": "Los sujetos obligados deben designar un Representante ante el SEPBLAC y crear un Órgano de Control Interno (OCI) o Comité de Prevención que supervise las políticas y procedimientos.",
+      "id": 18
+    },
+    {
+      "pregunta": "Para comparar dos fondos de la misma categoría, el ratio más apropiado es:",
+      "opciones": [
+        "Solo la rentabilidad absoluta",
+        "El ratio de información respecto al benchmark común",
+        "El tamaño del fondo",
+        "La antigüedad del gestor"
+      ],
+      "correcta": 1,
+      "explicacion": "El Information Ratio permite comparar gestores con el mismo benchmark, midiendo cuánto alfa generan por unidad de riesgo activo (tracking error) asumido.",
+      "id": 19
+    },
+    {
+      "pregunta": "Los productos financieros complejos según MiFID II incluyen:",
+      "opciones": [
+        "Acciones cotizadas",
+        "Derivados, productos estructurados, subordinados, convertibles contingentes",
+        "Letras del Tesoro",
+        "Depósitos bancarios"
+      ],
+      "correcta": 1,
+      "explicacion": "Son complejos: derivados, estructurados, bonos subordinados, CoCos, participaciones preferentes, fondos alternativos, warrants. Las acciones cotizadas, bonos simples, fondos UCITS son no complejos.",
+      "id": 20
+    },
+    {
+      "pregunta": "Un cliente recibe un bonus importante y pregunta qué hacer:",
+      "opciones": [
+        "Gastarlo todo",
+        "Evaluar si conviene amortizar hipoteca, aportar a planes de pensiones (reducción fiscal), invertir, o una combinación",
+        "Solo un producto",
+        "Ignorar el bonus"
+      ],
+      "correcta": 1,
+      "explicacion": "Debe evaluarse: si tiene deudas caras (amortizar), su marginal fiscal (si alto, plan de pensiones tiene ventaja), su cartera actual (si faltan aportaciones), y sus objetivos a medio plazo.",
+      "id": 21
+    },
+    {
+      "pregunta": "Un fondo de gestión growth invierte principalmente en:",
+      "opciones": [
+        "Empresas maduras con altos dividendos",
+        "Empresas con alto potencial de crecimiento de beneficios",
+        "Bonos del Estado",
+        "Materias primas"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos growth buscan empresas con alto crecimiento esperado de beneficios, aunque coticen a múltiplos elevados. Priorizan la apreciación del capital sobre los dividendos.",
+      "id": 22
+    },
+    {
+      "pregunta": "El análisis de sensibilidad en inversión inmobiliaria evalúa:",
+      "opciones": [
+        "Solo el mejor escenario",
+        "Cómo varían los resultados ante cambios en variables clave (alquiler, vacío, tipos, etc.)",
+        "La sensibilidad del propietario",
+        "El color del edificio"
+      ],
+      "correcta": 1,
+      "explicacion": "El análisis de sensibilidad muestra cómo cambia la rentabilidad o valor del inmueble si varían: niveles de alquiler, tasa de vacío, tipos de interés, cap rates de salida, etc.",
+      "id": 23
+    },
+    {
+      "pregunta": "Para un jubilado, ¿qué forma de rescate del plan de pensiones suele ser más eficiente fiscalmente?",
+      "opciones": [
+        "Capital único",
+        "Renta periódica distribuida en varios años",
+        "Es indiferente",
+        "Mixta siempre"
+      ],
+      "correcta": 1,
+      "explicacion": "Al ser rendimientos del trabajo con escala progresiva, distribuir el rescate en rentas a lo largo de varios años evita acumular toda la base en un ejercicio y reduce el tipo marginal efectivo.",
+      "id": 24
+    },
+    {
+      "pregunta": "El límite de reducción por aportaciones a planes de pensiones individuales es:",
+      "opciones": [
+        "8.000€",
+        "1.500€ (ampliable con aportaciones a planes de empleo)",
+        "Sin límite",
+        "10.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "El límite para planes individuales es 1.500€ anuales. Se puede ampliar hasta 8.500€ adicionales con aportaciones empresariales a planes de empleo, con límite conjunto de 10.000€.",
+      "id": 25
+    },
+    {
+      "pregunta": "Un país presenta los siguientes datos: crecimiento del PIB del -0,3% en T1 y -0,5% en T2. Técnicamente esto se denomina:",
+      "opciones": [
+        "Depresión",
+        "Recesión técnica",
+        "Estanflación",
+        "Desaceleración"
+      ],
+      "correcta": 1,
+      "explicacion": "Una recesión técnica se define como dos trimestres consecutivos de crecimiento negativo del PIB. En este caso, T1 (-0,3%) y T2 (-0,5%) cumplen esta definición.",
+      "id": 26
+    },
+    {
+      "pregunta": "Se depositan 200€ al final de cada mes durante 10 años en una cuenta al 3% nominal anual. ¿Cuál será aproximadamente el capital acumulado?",
+      "opciones": [
+        "24.000€",
+        "27.950€",
+        "28.000€",
+        "32.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "* i_mensual = 0,03/12 = 0,0025 n = 10 × 12 = 120 meses VF = C × [((1+i)^n - 1)/i] VF = 200 × [(1,0025^120 - 1)/0,0025] VF = 200 × [(1,3494 - 1)/0,0025] VF = 200 × 139,74 = 27.948€ ≈ 27.950€",
+      "id": 27
+    },
+    {
+      "pregunta": "¿Cuál es el objetivo de inflación del BCE?",
+      "opciones": [
+        "0%",
+        "Inferior al 2%",
+        "2% a medio plazo",
+        "Entre 2% y 3%"
+      ],
+      "correcta": 2,
+      "explicacion": "Desde julio de 2021, el BCE adoptó un objetivo de inflación simétrico del 2% a medio plazo. Esto significa que desviaciones por encima o por debajo son igualmente indeseables.",
+      "id": 28
+    },
+    {
+      "pregunta": "El rendimiento neto del alquiler de vivienda habitual del inquilino puede reducirse en:",
+      "opciones": [
+        "0%",
+        "50% (con reducciones mayores según Ley de Vivienda 2023 en ciertos casos)",
+        "100%",
+        "No hay reducción"
+      ],
+      "correcta": 1,
+      "explicacion": "La reducción general es del 50% (antes 60%). La Ley de Vivienda permite reducciones de 60%, 70% o 90% para alquileres en zonas tensionadas, inquilinos jóvenes, o alquiler asequible.",
+      "id": 29
+    },
+    {
+      "pregunta": "Un fondo perfilado o de perfil:",
+      "opciones": [
+        "Invierte según el perfil de riesgo del inversor",
+        "Solo acepta inversores profesionales",
+        "Invierte exclusivamente en acciones tecnológicas",
+        "Tiene perfil fiscal especial"
+      ],
+      "correcta": 0,
+      "explicacion": "Los fondos perfilados se diseñan para diferentes perfiles de riesgo (conservador, moderado, agresivo) con una asignación de activos predefinida adecuada a cada perfil.",
+      "id": 30
+    },
+    {
+      "pregunta": "El efecto \"flight to quality\" en crisis de mercado implica:",
+      "opciones": [
+        "Aumento de correlaciones entre todos los activos",
+        "Los inversores buscan activos refugio (bonos gobierno, oro)",
+        "Mayor diversificación efectiva",
+        "Subida de todos los activos"
+      ],
+      "correcta": 1,
+      "explicacion": "En crisis, los inversores huyen hacia activos considerados seguros (bonos soberanos de países sólidos, oro, dólar), reduciendo su precio y subiendo los de activos de riesgo.",
+      "id": 31
+    },
+    {
+      "pregunta": "Un fondo por compartimentos:",
+      "opciones": [
+        "Tiene múltiples gestoras",
+        "Agrupa varios subfondos con diferentes políticas bajo un mismo paraguas",
+        "Divide a los partícipes en clases sociales",
+        "Solo invierte en inmuebles divididos"
+      ],
+      "correcta": 1,
+      "explicacion": "Un fondo por compartimentos (umbrella fund) agrupa varios subfondos independientes bajo una misma estructura legal. Cada compartimento tiene su política de inversión y valor liquidativo propio.",
+      "id": 32
+    },
+    {
+      "pregunta": "El DTI (Debt to Income) en hipotecas mide:",
+      "opciones": [
+        "La relación entre deuda y valor del inmueble",
+        "La proporción de ingresos destinada al pago de deudas",
+        "El tipo de interés",
+        "El plazo del préstamo"
+      ],
+      "correcta": 1,
+      "explicacion": "DTI = Cuotas de deudas / Ingresos netos. Los bancos suelen exigir que las cuotas no superen el 30-35% de los ingresos para conceder una hipoteca.",
+      "id": 33
+    },
+    {
+      "pregunta": "El indicador sintético de riesgo (SRI) en el KID va de:",
+      "opciones": [
+        "1 a 5",
+        "1 a 7",
+        "A a E",
+        "0 a 100"
+      ],
+      "correcta": 1,
+      "explicacion": "El SRI combina riesgo de mercado y riesgo de crédito en una escala de 1 (menor riesgo) a 7 (mayor riesgo). Está estandarizado para facilitar la comparación entre productos.",
+      "id": 34
+    },
+    {
+      "pregunta": "Las operaciones sospechosas deben comunicarse:",
+      "opciones": [
+        "A la policía local",
+        "Al SEPBLAC (Servicio Ejecutivo de Prevención del Blanqueo de Capitales)",
+        "Al cliente",
+        "A nadie"
+      ],
+      "correcta": 1,
+      "explicacion": "Las operaciones sospechosas deben comunicarse al SEPBLAC mediante SAR (Suspicious Activity Report). Está prohibido informar al cliente de que se ha realizado la comunicación (tipping-off).",
+      "id": 35
+    },
+    {
+      "pregunta": "Un seguro de accidentes personales cubre:",
+      "opciones": [
+        "Enfermedades crónicas",
+        "Lesiones corporales derivadas de causa violenta, súbita y externa",
+        "Daños a terceros",
+        "Pérdidas económicas"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de accidentes cubre las consecuencias de accidentes: muerte accidental, invalidez, gastos médicos derivados de lesiones por causa violenta, súbita, externa y ajena a la voluntad.",
+      "id": 36
+    },
+    {
+      "pregunta": "Un depósito ofrece un 4% nominal anual con capitalización trimestral. ¿Cuál es la TAE?",
+      "opciones": [
+        "4,00%",
+        "4,04%",
+        "4,06%",
+        "4,12%"
+      ],
+      "correcta": 2,
+      "explicacion": "* TAE = (1 + i/m)^m - 1 TAE = (1 + 0,04/4)^4 - 1 TAE = (1,01)^4 - 1 = 1,0406 - 1 = 4,06%",
+      "id": 37
+    },
+    {
+      "pregunta": "La diferencia principal entre un préstamo y un crédito es:",
+      "opciones": [
+        "No hay diferencia",
+        "En el préstamo se entrega todo el capital de inicio; en el crédito hay un límite disponible a usar según necesidad",
+        "El préstamo no tiene intereses",
+        "El crédito siempre es a largo plazo"
+      ],
+      "correcta": 1,
+      "explicacion": "En el préstamo se entrega la totalidad del capital al inicio y se pagan intereses sobre todo. En el crédito (cuenta de crédito), se dispone de un límite y solo se pagan intereses sobre lo utilizado.",
+      "id": 38
+    },
+    {
+      "pregunta": "El credit scoring considera habitualmente:",
+      "opciones": [
+        "Solo el sexo del solicitante",
+        "Historial crediticio, ingresos, situación laboral, edad, patrimonio, entre otros",
+        "Solo la nacionalidad",
+        "El nombre del solicitante"
+      ],
+      "correcta": 1,
+      "explicacion": "Variables típicas del scoring: historial de pagos, nivel de ingresos, antigüedad laboral, tipo de contrato, edad, situación familiar, patrimonio, nivel de endeudamiento actual. Variables discriminatorias (sexo, raza) están prohibidas.",
+      "id": 39
+    },
+    {
+      "pregunta": "Las SICAV tributan en el IS al tipo de:",
+      "opciones": [
+        "25%",
+        "1%",
+        "0%",
+        "15%"
+      ],
+      "correcta": 1,
+      "explicacion": "Las SICAV tributan al 1% en el IS si cumplen requisitos (mínimo 100 accionistas, etc.). El impuesto efectivo se traslada al socio cuando percibe dividendos o vende acciones.",
+      "id": 40
+    },
+    {
+      "pregunta": "El asesoramiento independiente bajo MiFID II:",
+      "opciones": [
+        "Puede recibir retrocesiones",
+        "No puede recibir incentivos de terceros y debe evaluar una gama amplia de productos del mercado",
+        "Es igual al no independiente",
+        "Solo existe para grandes patrimonios"
+      ],
+      "correcta": 1,
+      "explicacion": "El asesoramiento independiente prohíbe incentivos monetarios de terceros (retrocesiones) y exige evaluar una gama suficientemente diversificada de instrumentos disponibles en el mercado, no solo propios.",
+      "id": 41
+    },
+    {
+      "pregunta": "Los rendimientos irregulares del trabajo (generados en más de 2 años) se reducen en:",
+      "opciones": [
+        "0%",
+        "30% (con límite de 300.000€ de base)",
+        "50%",
+        "100%"
+      ],
+      "correcta": 1,
+      "explicacion": "Los rendimientos del trabajo con periodo de generación >2 años o calificados reglamentariamente como irregulares se reducen un 30% (límite: cuantía del rendimiento que no supere 300.000€).",
+      "id": 42
+    },
+    {
+      "pregunta": "El proceso de asesoramiento financiero comienza con:",
+      "opciones": [
+        "La recomendación de productos",
+        "La identificación y comprensión de las necesidades y objetivos del cliente",
+        "La venta de fondos de inversión",
+        "El cálculo de comisiones"
+      ],
+      "correcta": 1,
+      "explicacion": "El primer paso es conocer al cliente: sus objetivos financieros, horizonte temporal, situación patrimonial, tolerancia al riesgo, y circunstancias personales. Sin esto, no se puede asesorar adecuadamente.",
+      "id": 43
+    },
+    {
+      "pregunta": "Un bono tiene un cupón del 4% anual y cotiza al 95% de su nominal. Su rentabilidad corriente (current yield) es:",
+      "opciones": [
+        "4,00%",
+        "4,21%",
+        "5,26%",
+        "3,80%"
+      ],
+      "correcta": 1,
+      "explicacion": "* Rentabilidad corriente = Cupón anual / Precio de mercado Rentabilidad corriente = 4/95 = 4,21%",
+      "id": 44
+    },
+    {
+      "pregunta": "Un bono de titulización hipotecaria (MBS) tiene riesgo de amortización anticipada porque:",
+      "opciones": [
+        "El emisor puede amortizar anticipadamente",
+        "Los hipotecados pueden amortizar anticipadamente sus préstamos",
+        "Los tipos de interés pueden subir",
+        "El rating puede bajar"
+      ],
+      "correcta": 1,
+      "explicacion": "En los MBS, los flujos dependen de los pagos de los préstamos hipotecarios subyacentes. Si bajan los tipos, muchos hipotecados refinanciarán o amortizarán anticipadamente, devolviendo el principal antes de lo esperado.",
+      "id": 45
+    },
+    {
+      "pregunta": "Los tipos spot a 1 y 2 años son 3% y 4% respectivamente. ¿Cuál es el tipo forward implícito del año 1 al año 2?",
+      "opciones": [
+        "3,50%",
+        "4,00%",
+        "5,01%",
+        "7,00%"
+      ],
+      "correcta": 2,
+      "explicacion": "* (1 + r2)^2 = (1 + r1) × (1 + f1,2) (1,04)^2 = (1,03) × (1 + f1,2) 1,0816 = 1,03 × (1 + f1,2) 1 + f1,2 = 1,0816/1,03 = 1,0501 f1,2 = 5,01%",
+      "id": 46
+    },
+    {
+      "pregunta": "La asignación estratégica de activos (SAA) se basa en:",
+      "opciones": [
+        "Expectativas a corto plazo",
+        "Objetivos a largo plazo y perfil de riesgo del inversor",
+        "Predicciones diarias del mercado",
+        "Solo el tipo de interés actual"
+      ],
+      "correcta": 1,
+      "explicacion": "La SAA establece la distribución objetivo entre clases de activos basándose en el horizonte temporal, objetivos financieros y tolerancia al riesgo del inversor. Es una visión de largo plazo.",
+      "id": 47
+    },
+    {
+      "pregunta": "Si el tipo de interés efectivo anual es del 12%, ¿cuál es el tipo nominal anual con capitalización mensual?",
+      "opciones": [
+        "12,00%",
+        "11,39%",
+        "11,68%",
+        "12,68%"
+      ],
+      "correcta": 1,
+      "explicacion": "* i_efectivo = (1 + i_nominal/12)^12 - 1 0,12 = (1 + i/12)^12 - 1 1,12 = (1 + i/12)^12 (1,12)^(1/12) = 1 + i/12 1,009489 = 1 + i/12 i/12 = 0,009489 i = 0,1139 = 11,39%",
+      "id": 48
+    },
+    {
+      "pregunta": "La jubilación activa permite:",
+      "opciones": [
+        "Cobrar el 100% de la pensión y trabajar",
+        "Compatibilizar pensión reducida con trabajo por cuenta propia o ajena",
+        "No trabajar nunca más",
+        "Solo trabajar en el extranjero"
+      ],
+      "correcta": 1,
+      "explicacion": "La jubilación activa permite compatibilizar el 50% de la pensión (100% si se es autónomo con empleados) con un trabajo. El jubilado sigue cotizando con una \"cotización de solidaridad\".",
+      "id": 49
+    },
+    {
+      "pregunta": "Una renta prepagable tiene, respecto a una postpagable con los mismos parámetros:",
+      "opciones": [
+        "El mismo valor actual",
+        "Un valor actual menor",
+        "Un valor actual mayor",
+        "Depende del tipo de interés"
+      ],
+      "correcta": 2,
+      "explicacion": "La renta prepagable tiene un valor actual mayor porque los cobros se producen al principio de cada periodo, es decir, antes. VA_prepagable = VA_postpagable × (1+i).",
+      "id": 50
+    }
+  ]
+}

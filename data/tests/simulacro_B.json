@@ -1,0 +1,608 @@
+{
+  "titulo": "Simulacro EFA - Simulacro B (Jesús Pérez)",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "¿En qué operación 4x1, se reduce nominal y hay más número de acciones en circulación?",
+      "opciones": [
+        "Strip",
+        "OPV",
+        "OPS",
+        "Split"
+      ],
+      "correcta": 3,
+      "explicacion": "SPLIT.",
+      "id": 1
+    },
+    {
+      "pregunta": "Un cliente quiere comprar acciones de una empresa a 182$, si la empresa cotiza en mercado a 190$ que orden tiene que dar, sino quiere pagar más de ese precio",
+      "opciones": [
+        "Orden de mercado 182$",
+        "Orden con Stop a 182$",
+        "Orden limitada 182$",
+        "Orden abierta a 182$"
+      ],
+      "correcta": 2,
+      "explicacion": "Orden limitada 182$",
+      "id": 2
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes entidades NO es supervisada por la CNMV?",
+      "opciones": [
+        "Agencias de Valores",
+        "Sociedad de Valores",
+        "EAFI",
+        "Planes de pensiones"
+      ],
+      "correcta": 3,
+      "explicacion": "Planes de Pensiones lo supervisa la DGSFP",
+      "id": 3
+    },
+    {
+      "pregunta": "Si  el PER de la empresa  es de 20 y la rentabilidad libre de riesgo de 5%, el earning yield gap es:",
+      "opciones": [
+        "15%",
+        "0%",
+        "-5%",
+        "10%"
+      ],
+      "correcta": 1,
+      "explicacion": "EARNING  YIELD  GAP, = (1/PER – Rent libre riesgo)= 1/20 – 0,05 = 0%",
+      "id": 4
+    },
+    {
+      "pregunta": "Si  el futuro del Ibex 35 está en 8.350 puntos, y el contado en 8.300, sabiendo que las garantías que aportamos son de 9.000 euros por contrato, ¿cuál es el apalancamiento  si se compran 9 futuros suponiendo que se lleva a vencimiento el contrato?",
+      "opciones": [
+        "9,27",
+        "10,27",
+        "9,22",
+        "0,922"
+      ],
+      "correcta": 2,
+      "explicacion": "Apalancamiento de Futuro Ibex 35: (contado x 10)*nº contratos / Garantías = 8300*10*9 / 9000*9= 9,22 veces",
+      "id": 5
+    },
+    {
+      "pregunta": "Tenemos una opción Put comprada ATM por la que hemos pagado 1,5 de prima. Precio de Ejercicio 15. El subyacente ha caído un 10%. ¿Cuál ha sido la rentabilidad de la operación?",
+      "opciones": [
+        "-100%",
+        "100%",
+        "15%",
+        "0%"
+      ],
+      "correcta": 3,
+      "explicacion": "0%: (15 - 15*(1-0,1)) -1,5=0 VI put = 15 -13,5 = 1,5; Prima = VI + VT",
+      "id": 6
+    },
+    {
+      "pregunta": "El valor intrínseco a vencimiento de una call/ put es:",
+      "opciones": [
+        "Nulo",
+        "la prima",
+        "Igual al valor temporal",
+        "Diferencia entre el Subyacente y el Strike"
+      ],
+      "correcta": 3,
+      "explicacion": "valor intrínseco de una opción comprada en cada instante es la Diferencia entre el Subyacente y el Strike. PRIMA de la opción = VI + VT VI call = (Subyacente – Strike) > 0 VI put = (Strike – Subyacente) >0",
+      "id": 7
+    },
+    {
+      "pregunta": "¿Cuál será el valor temporal de una opción call comprada, si la prima es 3€, el strike es 10 y el subyacente cotiza a 12€?",
+      "opciones": [
+        "2",
+        "3",
+        "5",
+        "1"
+      ],
+      "correcta": 3,
+      "explicacion": "Prima=Valor intrínseco + Valor temporal, luego VT=3-(12-10)=1",
+      "id": 8
+    },
+    {
+      "pregunta": "¿Cuáles se consideran datos subjetivos de un cliente?",
+      "opciones": [
+        "Horizonte temporal de la inversión",
+        "Objetivo de la inversión",
+        "Cultura financiera",
+        "Todas los anteriores"
+      ],
+      "correcta": 3,
+      "explicacion": "Todas las anteriores",
+      "id": 9
+    },
+    {
+      "pregunta": "¿Cuáles de las siguientes partidas NO corresponde a la Planificación de la Jubilación?",
+      "opciones": [
+        "Compra de un coche",
+        "Financiación de un master",
+        "IRPF del siguiente año",
+        "Todas son correctas"
+      ],
+      "correcta": 3,
+      "explicacion": "ninguna se corresponde con la planificación de la jubilación",
+      "id": 10
+    },
+    {
+      "pregunta": "Las características de un activo financiero son:",
+      "opciones": [
+        "Rentabilidad  Seguridad -Liquidez",
+        "Liquidez- Rentabilidad",
+        "Rentabilidad  Riesgo  Volatilidad",
+        "Rentabilidad  Dividendo - Fiscalidad"
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta Seguridad – Liquidez- Rentabilidad",
+      "id": 11
+    },
+    {
+      "pregunta": "Calcular la desviación típica anual de un fondo de inversión que ha tenido los siguientes retornos mensuales: -3%, 2% y 0%",
+      "opciones": [
+        "0%",
+        "-1%",
+        "7%",
+        "2,05%"
+      ],
+      "correcta": 2,
+      "explicacion": "con la calculadora financiera calculamos la desviación típica mensual y el resultado se multiplica por raíz (12). La volatilidad anual es: 2,0458%*raíz(12) = 7%",
+      "id": 12
+    },
+    {
+      "pregunta": "El Ibex 35 ante un pago de dividendos, ¿cómo se situaría?",
+      "opciones": [
+        "Alfa nulo y Beta negativa",
+        "Alfa y Beta negativa",
+        "Alfa nulo y Beta próximo a 1",
+        "Todas son correctas"
+      ],
+      "correcta": 2,
+      "explicacion": "Alfa nulo y Beta próximo a 1. El alfa no varía porque es el índice contra si mismo, y la beta sería ligeramente por debajo de 1 al comparar el índice una vez que ha pagado dividendo (con retorno menor) con el histórico.",
+      "id": 13
+    },
+    {
+      "pregunta": "Si la rentabilidad del activo con riesgo  es 18% con una volatilidad del 16%, no quiero asumir una volatilidad mayor  del 9%. La rentabilidad del activo libre de riesgo es 3,5%. ¿Cuál será el peso del activo con riesgo?",
+      "opciones": [
+        "33,54%",
+        "100%",
+        "42,75%",
+        "56,25%"
+      ],
+      "correcta": 3,
+      "explicacion": "0,09^2 = peso activo con riesgo^2 * 0,16^2 + (1-peso activo con riesgo)^2*0^2 + 0. Despejando: peso activo con riesgo = 56,25% y peso del activo sin riesgo = 42,75%",
+      "id": 14
+    },
+    {
+      "pregunta": "Un empresario prevé formalizar un préstamo de 90 días dentro de 90 días. Acude a su oficina bancaria y se lo comenta a su asesor. ¿Qué opción mejor cabe tomar hoy ante una expectativa de subida de tipos?",
+      "opciones": [
+        "Venta Futuro Euribor a 90 días",
+        "Comprar Call sobre Futuro de Euribor a 90 días",
+        "Comprar futuro de Euribor a 90 días",
+        "No hacer nada"
+      ],
+      "correcta": 0,
+      "explicacion": "al tener expectativas de tipos se puede cubrir o comprando FRA 90/180, o bien vendiendo futuro sobre Euribor a 90 días. P=100- Euribor a 90 días; si espero que E90 días suba, 100-algo que sube va a ser menor que 100, por eso he de apostar a la baja, vendiendo fut E90.",
+      "id": 15
+    },
+    {
+      "pregunta": "Un cliente con unos rendimientos netos de trabajo de 60.000€, unas plusvalías en un fondo de inversión de 4.500€ de más de 1 año y unas pérdidas de 3.000€ en un Unit Linked. ¿Cuál es la base del ahorro?",
+      "opciones": [
+        "1500",
+        "7500",
+        "4500",
+        "ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "explicacion": "se compensan rendimientos con ganancias y pérdidas en 25% del saldo positivo: 25%*4.500 = 1.125 euros a compensar pérdidas, por lo que la base neta del ahorro sería: 3.375 (=4.500-1.125) euros de plusvalías en el fondo de inversión y quedarían 1.875 (3.000 – 1.125 = 1.875)euros de pérdidas a compensar con plusvalías en los siguientes 4 años.",
+      "id": 16
+    },
+    {
+      "pregunta": "Una Letra del Tesoro de un No residente que ha invertido 9.000€, ¿qué retención se le practica a los intereses?",
+      "opciones": [
+        "19%",
+        "24%",
+        "21%",
+        "Las letras del tesoro no llevan retención"
+      ],
+      "correcta": 3,
+      "explicacion": "Está exento",
+      "id": 17
+    },
+    {
+      "pregunta": "Una sociedad cotizada reparte 16.000€ de dividendos brutos , ¿qué carga fiscal le corresponde al accionista que lo recibe?",
+      "opciones": [
+        "3360 retiene la sociedad, 1500 exentos por IRPF y 3385 tributa por IRPF y la cuota diferencial de 200 euros",
+        "3040 retiene la sociedad, 1500 exentos por IRPF y 3.240 tributa por IRPF",
+        "3040 retiene la sociedad, 0 exentos por IRPF y 2.406,6 tributa por IRPF",
+        "3040 retiene la sociedad, 0 exentos por IRPF y 3.240 tributa por IRPF"
+      ],
+      "correcta": 3,
+      "explicacion": "cada respuesta llevaba tres partes la que corresponde a la retención del 19% sobre 16.000 euros (=3.040 euros)que se le práctica por defecto (en la sociedad), por otro lado de lo restante, por IRPF: al 19% los primeros 6.000 euros, 21% los siguientes 44.000 euros y 23% los siguientes 150.000 euros, 27% de 200.000 a 300.000 euros, y 28% el resto, ENTONCES TENEMOS QUE: 16.000, LOS PRIMEROS 6.000 EUROS VAN AL 19% = 1.140 EUROS, Y EL RESTO 10.000 EUROS VAN AL 21%=2.100 EUROS, ES DECIR, QUE EN TOTAL TRIBUTA 3.240 y la cuota diferencial de 200 (3.240-3.040).",
+      "id": 18
+    },
+    {
+      "pregunta": "Sobre un seguro de vida tipo UNIT LINKED, ¿cuál de las repuestas NO es característica en cuanto a coberturas asociadas?",
+      "opciones": [
+        "Son seguros de vida no garantizados",
+        "Son seguros de fallecimiento",
+        "Son seguros de protección de préstamos",
+        "Son seguros de vida ahorro"
+      ],
+      "correcta": 2,
+      "explicacion": "No aparece respuesta directa en soluciones",
+      "id": 19
+    },
+    {
+      "pregunta": "Un ETF como tributa, ¿como un fondo o como una acción?",
+      "opciones": [
+        "Como un Fondo",
+        "Como una Acción",
+        "Como un Bono",
+        "Como un seguro"
+      ],
+      "correcta": 1,
+      "explicacion": "Como una acción, no se le práctica retención.",
+      "id": 20
+    },
+    {
+      "pregunta": "Que es un Seguro de Lucro Cesante.",
+      "opciones": [
+        "Son seguros personales",
+        "Son seguros patrimoniales",
+        "Son seguros materiales",
+        "Todas son correctas"
+      ],
+      "correcta": 1,
+      "explicacion": "son seguros patrimoniales, ya que cubren una potencial pérdida de ingresos.",
+      "id": 21
+    },
+    {
+      "pregunta": "Es una característica de los ETF frente a los Fondos de inversión:",
+      "opciones": [
+        "No necesitan depositario",
+        "Coeficiente de liquidez tiene que ser un 3%",
+        "Necesitan gestora",
+        "Tienen mayor liquidez"
+      ],
+      "correcta": 3,
+      "explicacion": "Tienen mayor liquidez.",
+      "id": 22
+    },
+    {
+      "pregunta": "Calcular la rentabilidad efectiva y acumulada de una inversión que compras por 100 y vendes por 300 después de 3 años:",
+      "opciones": [
+        "44,22% y 200%",
+        "50% y 200%",
+        "50% y 300%",
+        "Todas son incorrectas"
+      ],
+      "correcta": 0,
+      "explicacion": "TAE: 300=100*(1+i)3, despejando i=(300/100)^1/3 -1 = 44,22% al año y (Cheq (1+0,442)^3 -1 =200%). Acumulada: 300=100*(1+I), despejando I acumulada =200%",
+      "id": 23
+    },
+    {
+      "pregunta": "La Duración Modificada, ante una variación absoluta en los tipos de interés indica:",
+      "opciones": [
+        "La variación absoluta del precio del bono",
+        "La variación porcentual del precio del bono",
+        "La convexidad del bono",
+        "Todas son incorrectas"
+      ],
+      "correcta": 1,
+      "explicacion": "Variación del precio del bono = (P1 – P0)/P0 = -Dm * (TIR1 – TIR0). Ej. Si la Dm = 8; si la TIR sube un 1%; el precio del bono varía = -8*(+1%)= -8%",
+      "id": 24
+    },
+    {
+      "pregunta": "Calcular el valor de una Letra del Tesoro hoy 12 de marzo de 2018 sabiendo que se emitió el 13 de marzo de 2017 y otorga una rentabilidad del 3% anual:",
+      "opciones": [
+        "99,99%",
+        "97,055%",
+        "98%",
+        "100%"
+      ],
+      "correcta": 0,
+      "explicacion": "100=Precio*(1+0,03*1/360), luego despejando Precio=99,99167%",
+      "id": 25
+    },
+    {
+      "pregunta": "Calcular el valor de emisión de una Letra del Tesoro hoy 12 de marzo de 2017 y que otorga una rentabilidad del 3% anual y que se emitió el 13 de marzo de 2016:",
+      "opciones": [
+        "99,99%",
+        "97,04%",
+        "98%",
+        "100%"
+      ],
+      "correcta": 1,
+      "explicacion": "100=Precio*(1+0,03*364/360), precio 97,04%",
+      "id": 26
+    },
+    {
+      "pregunta": "¿Cómo se valora un inmueble en el Impuesto de Sucesiones y Donaciones?. Por el mayor valor de:",
+      "opciones": [
+        "Valor catastral",
+        "Valor comprobado por la Administración a efectos de otros tributos",
+        "Precio o valor de la adquisición",
+        "Todas son correctas"
+      ],
+      "correcta": 3,
+      "explicacion": "Se computarán, tanto si son rústicos como si son urbanos, de acuerdo a las siguientes reglas: Por el valor mayor de los tres siguientes: Valor catastral, Valor comprobado por la Administración a efectos de otros tributos, Precio o valor de la adquisición",
+      "id": 27
+    },
+    {
+      "pregunta": "Un tipo de interés para operaciones al contado a tres años es del 6% y a dos años del 5%. En el mismo momento, el tipo de interés implícito (forward) para una operación a un año a realizar dentro de tres, se sitúa en el 4%. ¿Cuál es el tipo de interés al contado para una operación a cuatro años?",
+      "opciones": [
+        "5,67%",
+        "5,73%",
+        "5,49%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 2,
+      "explicacion": "(1+i)4 = (1+0,06)3 * (1+0,04) 1; luego despejando se tiene que i=5,49%",
+      "id": 28
+    },
+    {
+      "pregunta": "El precio de mercado de una acción es de 6 euros y el dividendo que acaba de pagar ha sido de 1 euro. Suponiendo que la tasa de rentabilidad exigida por el inversor es del 15% y que la tasa de crecimiento del dividendo es del 2% al año, ¿cómo se encuentra valorada la acción?",
+      "opciones": [
+        "Infravalorada",
+        "Sobrevalorada",
+        "Bien valorada",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "por Gordon Shapiro tenemos que, Po=Div1 / (ke-g) = 1*(1+0,02) / (0,15-0,02) =7,84 euros > 6 euros, lo cual supone que la acción está infravalorada por el mercado.",
+      "id": 29
+    },
+    {
+      "pregunta": "¿De qué está compuesto un estructurado 100% garantizado y que te ofrece una revalorización siempre y cuando el oro quede por debajo de 200?",
+      "opciones": [
+        "Bono + Put vendida sobre el precio del oro",
+        "Depósito + Call comprada sobre el precio del oro",
+        "Depósito + Call vendida sobre el precio del oro",
+        "Bono + Put comprada sobre el precio del oro"
+      ],
+      "correcta": 3,
+      "explicacion": "sólo con compra de put se puede conseguir lo indicado en el enunciado.",
+      "id": 30
+    },
+    {
+      "pregunta": "Una de las tareas principales del BCE es:",
+      "opciones": [
+        "Estabilización de los precios",
+        "Mantener la divisa estable",
+        "Mantener estables los mercados bursátiles",
+        "Todas las anteriores"
+      ],
+      "correcta": 0,
+      "explicacion": "la principal es mantener la estabilidad de los precios y en segundo lugar el crecimiento en la zona Euro.",
+      "id": 31
+    },
+    {
+      "pregunta": "Descuento de un pagare emitido a 18 meses por un nominal de 50.000 € y que han pasado 6 meses y cotiza a 45.000 €, ¿Cómo es su rentabilidad anualizada?",
+      "opciones": [
+        "Mayor que 9%",
+        "Igual que 9%",
+        "Por debajo de 9%",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "explicacion": "45.000=50.000*(1-d)12/12, despejando d=10%",
+      "id": 32
+    },
+    {
+      "pregunta": "Si  las tasas de interés interbancario a 3 meses del euro y del dólar son 2,10% y 4,25% respectivamente y el tipo de cambio spot €/$ es de 1,20 dólares por euro, el tipo de cambio a plazo  a tres meses será:",
+      "opciones": [
+        "1,2253",
+        "1,2064",
+        "1,1936",
+        "Ninguna es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "FWD=1,2 *(1+0,0425*3/12) / (1+0,021*3/12)= 1,2064 dólares por euro",
+      "id": 33
+    },
+    {
+      "pregunta": "¿Cómo tiene que ser un Indice de Referencia?",
+      "opciones": [
+        "Replicable",
+        "Consistente",
+        "Transparente",
+        "Todas son correctas"
+      ],
+      "correcta": 3,
+      "explicacion": "Todas son correctas",
+      "id": 34
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes NO es una diferencia de un Fondo de Inversión frente a un Hedge Fund?:",
+      "opciones": [
+        "Los periodos de Reembolso",
+        "Los coeficientes de liquidez",
+        "La comisión de Éxito",
+        "El importe mínimo a invertir"
+      ],
+      "correcta": 2,
+      "explicacion": "la comisión de éxito aparece en los fondos convencionales también. Los hedge funds en España, tendrán una aportación mínima de los participes de 100.000 euros.",
+      "id": 35
+    },
+    {
+      "pregunta": "El principio de Confidencialidad se puede romper:",
+      "opciones": [
+        "Sólo cuando la ley lo requiera",
+        "No se puede romper bajo ningún concepto",
+        "Se archiva toda la información  para que todo el mundo de la oficina lo vea",
+        "Se guarda los datos del cliente en su carpeta"
+      ],
+      "correcta": 0,
+      "explicacion": "Sólo cuando la ley lo requiera",
+      "id": 36
+    },
+    {
+      "pregunta": "La regulación MIFID para que sirve:",
+      "opciones": [
+        "Identificar al cliente",
+        "Segmentar al cliente",
+        "Determinar el perfil del cliente",
+        "Son correctas b y c"
+      ],
+      "correcta": 3,
+      "explicacion": "Son correctas b y c",
+      "id": 37
+    },
+    {
+      "pregunta": "De las siguientes opciones de cartera con datos de rentabilidad y correlación, respectivamente. Según en mercado en equilibrio había que elegir una.",
+      "opciones": [
+        "10% y 0,8",
+        "8% y 0,9",
+        "7% y 1",
+        "10% y 1,2"
+      ],
+      "correcta": 2,
+      "explicacion": "elegir la que se acercase más a 1, que se supone es el mercado en equilibrio",
+      "id": 38
+    },
+    {
+      "pregunta": "Si la rentabilidad nominal de un bono es del 8% y la inflación es del 2%, ¿Cuál es la rentabilidad real?",
+      "opciones": [
+        "6,23%",
+        "4,23%",
+        "5,88%",
+        "6%"
+      ],
+      "correcta": 2,
+      "explicacion": "(1+ Tasa Nominal)= (1+ Tasa Real)* (1+ Inflación) (Fórmula de Fisher). Tasa real= (1,08 / 1,02)– 1=5,88%",
+      "id": 39
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes elementos no se considera fundamental al determinar el perfil del inversor?",
+      "opciones": [
+        "Tipo marginal en renta y patrimonio",
+        "Plazo de la inversión",
+        "Coyuntura de los tipos de interés",
+        "Conocimientos financieros"
+      ],
+      "correcta": 2,
+      "explicacion": "la situación de los tipos no debe ser un factor determinante o condicionante del perfil del inversor la situación puntual de los tipos, puesto que el perfil del inversor es un carácter que varía poco en el tiempo, mientras que los mercados son cambiantes, aunque si es cierto que pueden psicológicamente tener impacto en el momento del análisis: euforia o negativismo.",
+      "id": 40
+    },
+    {
+      "pregunta": "Las fases características del ciclo de vida de un inversor son:",
+      "opciones": [
+        "Acumulación, consolidación y prestación",
+        "Acumulación, consolidación y protección",
+        "Acumulación y prestación",
+        "Acumulación y protección"
+      ],
+      "correcta": 0,
+      "explicacion": "Acumulación, consolidación, prestación (o también llamada gasto)",
+      "id": 41
+    },
+    {
+      "pregunta": "¿Qué ventajas tiene  reajustar una cartera?",
+      "opciones": [
+        "Ganar más siempre",
+        "Proteger la cartera y consolidar resultados",
+        "Aumentar el perfil de riesgo de la cartera en el tiempo",
+        "No aporta valor realizar este tipo de ajuste"
+      ],
+      "correcta": 1,
+      "explicacion": "Con el reajuste no se pretende ganar más, aunque a veces se consiga, sino proteger la cartera ajustándola al perfil de riesgo del inversor en el tiempo.",
+      "id": 42
+    },
+    {
+      "pregunta": "No es una característica de la fase de recesión:",
+      "opciones": [
+        "Disminución del consumo y la inversión privadas",
+        "Disminución de la demanda interna",
+        "Disminución de la producción y de la renta, con tasas de crecimiento negativas",
+        "Disminución de la tasa de paro"
+      ],
+      "correcta": 3,
+      "explicacion": "en la fase de recesión aumenta la tasa de paro.",
+      "id": 43
+    },
+    {
+      "pregunta": "¿Qué cuota mensual tiene un préstamo de 200.000 euros a 30 años con amortización mensual y tipo nominal anual del 4%?",
+      "opciones": [
+        "456,54",
+        "545,67",
+        "954,83",
+        "Ninguna es correcta"
+      ],
+      "correcta": 2,
+      "explicacion": "200.000=cuota*(1-(1+0,04/12)-360/(0,04/12); despejando cuota = 954,83 euros al mes",
+      "id": 44
+    },
+    {
+      "pregunta": "Qué variación porcentual estima que tendrá el precio de un bono si la TIR va a subir de inmediato 100 puntos básicos y sus características son: Precio entero: 104'00%, Duración: 12'3, TIR actual: 5'25%",
+      "opciones": [
+        "-12'30%",
+        "14'59%",
+        "-11'68%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 2,
+      "explicacion": "Variación de precio = -12,3/(1+0,0525) * (6,25%-5,25%)=-11,68%",
+      "id": 45
+    },
+    {
+      "pregunta": "Si un inversor tiene un horizonte temporal para una inversión de 10 años e invierte en una cartera que tiene una duración financiera de 12 años. ¿Qué riesgo tiene?",
+      "opciones": [
+        "De precio",
+        "De tipos",
+        "Ninguno",
+        "La cartera está inmunizada"
+      ],
+      "correcta": 0,
+      "explicacion": "riesgo de que en el año 12 que precisa de su dinero, y los bonos no han vencido aún, por lo que al tener que vender la cartera el precio de los mismos podría ser inferior a 100%",
+      "id": 46
+    },
+    {
+      "pregunta": "Dos bonos de garantía simple en la prelación de cobro, idénticos en todas sus características que figuran en el folleto de emisión, vencimiento, importe de cupón y valor nominal, así como fechas de pago de cupón y amortización, son emitidos por dos sociedades distintas, que a su vez tienen diferente rating. ¿Cuál valdrá más?",
+      "opciones": [
+        "Valdrá más el que tenga más riesgo de impago",
+        "Valdrán igual, puesto que tienen la misma duración",
+        "Valdrán lo mismo siempre que los tipos suban",
+        "Valdrá más el que tenga menor probabilidad de impago"
+      ],
+      "correcta": 3,
+      "explicacion": "a menor riesgo de impago, quiere decir mayor solvencia, luego eso se paga más: mayor será el precio.",
+      "id": 47
+    },
+    {
+      "pregunta": "Si el beneficio neto de una empresa ha sido de 100 millones y los fondos propios son de 1000 millones, sabiendo que reparte un dividendo del 30% del beneficio, ¿cuál es el crecimiento tendencial estimado de la misma?",
+      "opciones": [
+        "4%",
+        "5%",
+        "7%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 2,
+      "explicacion": "g=ROE*(1-payout)=100/1000*(1-0,3)=7%",
+      "id": 48
+    },
+    {
+      "pregunta": "¿Qué indica un valor de 20 en el indicador RSI?",
+      "opciones": [
+        "Que el título está barato",
+        "Que el título está caro",
+        "Que el título está bien valorado",
+        "Señal de venta"
+      ],
+      "correcta": 0,
+      "explicacion": "Posee un elevado poder predictivo y su cálculo necesita datos de aproximadamente 10 a 15 sesiones. Los valores del índice de fuerza relativa van entre 0 y 100. Las señales de compra son anunciadas cuando el índice está ubicado entre 0 y 30, en tanto las señales de venta van entre 70 y 100.",
+      "id": 49
+    },
+    {
+      "pregunta": "¿Cómo es el beneficio y la pérdida máximos, respectivamente, obtenido cuando vendemos una opción put?",
+      "opciones": [
+        "Ilimitado y total",
+        "Limitado y total",
+        "Ilimitado y menor de la prima recibida",
+        "Siempre igual al strike"
+      ],
+      "correcta": 1,
+      "explicacion": "limitado a la prima que recibe al principio de la operación y la pérdida puede ser total si el subyacente llega a valer cero.",
+      "id": 50
+    }
+  ]
+}

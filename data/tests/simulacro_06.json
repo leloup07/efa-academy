@@ -1,0 +1,608 @@
+{
+  "titulo": "Simulacro EFA #6 - 50 Preguntas",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "Un gestor con alfa negativo y tracking error alto tiene:",
+      "opciones": [
+        "Buena gestión activa",
+        "Mala gestión activa (asume riesgo activo pero destruye valor)",
+        "Gestión pasiva eficiente",
+        "Ratio de información alto"
+      ],
+      "correcta": 1,
+      "explicacion": "Alfa negativo indica que no bate al benchmark ajustado por riesgo. Alto tracking error indica mucha desviación del índice. Combinar ambos es lo peor: tomar riesgo activo sin recompensa.",
+      "id": 1
+    },
+    {
+      "pregunta": "El rating Morningstar de estrellas (1-5) evalúa principalmente:",
+      "opciones": [
+        "La rentabilidad absoluta del fondo",
+        "La rentabilidad ajustada por riesgo respecto a fondos de la misma categoría",
+        "Solo los costes del fondo",
+        "La calidad del equipo gestor"
+      ],
+      "correcta": 1,
+      "explicacion": "El rating cuantitativo de Morningstar (estrellas) evalúa la rentabilidad ajustada por riesgo del fondo comparada con otros fondos de la misma categoría, basándose en datos históricos.",
+      "id": 2
+    },
+    {
+      "pregunta": "Las obligaciones de un emisor respecto a información privilegiada incluyen:",
+      "opciones": [
+        "Ocultarla siempre",
+        "Comunicarla al mercado lo antes posible, salvo retraso justificado",
+        "Solo informar a accionistas mayoritarios",
+        "No hay obligaciones"
+      ],
+      "correcta": 1,
+      "explicacion": "El emisor debe difundir inmediatamente la información privilegiada al mercado (hecho relevante). Puede retrasar si hay interés legítimo, se garantiza confidencialidad, y no induce a error.",
+      "id": 3
+    },
+    {
+      "pregunta": "El régimen sancionador de MiFID II permite imponer:",
+      "opciones": [
+        "Solo advertencias",
+        "Multas muy elevadas, suspensión de actividades, inhabilitaciones",
+        "Ninguna sanción",
+        "Solo sanciones penales"
+      ],
+      "correcta": 1,
+      "explicacion": "Las sanciones pueden incluir: multas de hasta 5 millones € a personas físicas o % de facturación a entidades, suspensión de autorización, prohibición temporal de ejercicio, y amonestaciones públicas.",
+      "id": 4
+    },
+    {
+      "pregunta": "El indicador sintético de riesgo (SRI) en el DFI va de:",
+      "opciones": [
+        "1 a 5",
+        "1 a 7",
+        "A a E",
+        "0 a 100"
+      ],
+      "correcta": 1,
+      "explicacion": "El SRI (Synthetic Risk Indicator) en el KID va de 1 (menor riesgo) a 7 (mayor riesgo). Se basa en la volatilidad histórica y otros factores de riesgo del producto.",
+      "id": 5
+    },
+    {
+      "pregunta": "MiFID II (Markets in Financial Instruments Directive) tiene como objetivos principales:",
+      "opciones": [
+        "Aumentar la carga fiscal",
+        "Proteger al inversor, aumentar la transparencia y fortalecer la integridad del mercado",
+        "Eliminar la regulación financiera",
+        "Solo regular los bancos centrales"
+      ],
+      "correcta": 1,
+      "explicacion": "MiFID II busca: mayor protección del inversor (idoneidad, conveniencia), transparencia (costes, conflictos de interés), integridad de mercados (mejor ejecución, registro de operaciones).",
+      "id": 6
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes bonos tiene MAYOR riesgo de tipo de interés?",
+      "opciones": [
+        "Bono 3 años, cupón 5%",
+        "Bono 10 años, cupón 5%",
+        "Bono 10 años, cupón 8%",
+        "Bono 5 años, cupón cero"
+      ],
+      "correcta": 1,
+      "explicacion": "El riesgo de tipo de interés (medido por la duración) aumenta con el plazo y disminuye con el cupón. El bono de 10 años con cupón 5% tiene mayor duración que los de menor plazo y que el de 10 años con cupón 8%.",
+      "id": 7
+    },
+    {
+      "pregunta": "Entre dos bonos con el mismo vencimiento, ¿cuál tiene mayor duración?",
+      "opciones": [
+        "El de mayor cupón",
+        "El de menor cupón",
+        "El de mayor TIR",
+        "El de menor precio"
+      ],
+      "correcta": 1,
+      "explicacion": "La duración es menor cuanto mayor es el cupón, porque los flujos intermedios (cupones) tienen más peso y se reciben antes. Un bono cupón cero tiene la máxima duración (igual a su vencimiento).",
+      "id": 8
+    },
+    {
+      "pregunta": "El efecto asignación en la atribución de rendimiento mide:",
+      "opciones": [
+        "La selección de valores individuales",
+        "El impacto de sobre/infraponderar clases de activos respecto al benchmark",
+        "Los costes de transacción",
+        "El riesgo de divisa"
+      ],
+      "correcta": 1,
+      "explicacion": "El efecto asignación (allocation effect) captura el valor añadido/destruido por las decisiones de peso entre sectores o clases de activos diferentes al benchmark.",
+      "id": 9
+    },
+    {
+      "pregunta": "El leasing es un contrato de:",
+      "opciones": [
+        "Compraventa directa",
+        "Arrendamiento financiero con opción de compra al final",
+        "Alquiler sin opción de compra",
+        "Seguro"
+      ],
+      "correcta": 1,
+      "explicacion": "El leasing es un arrendamiento donde el arrendatario paga cuotas y al final puede ejercer la opción de compra (normalmente por un valor residual bajo). El bien es propiedad del arrendador hasta entonces.",
+      "id": 10
+    },
+    {
+      "pregunta": "Un fondo monetario invierte principalmente en:",
+      "opciones": [
+        "Acciones de gran capitalización",
+        "Activos de renta fija a muy corto plazo y alta calidad crediticia",
+        "Inmuebles",
+        "Derivados especulativos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos monetarios invierten en activos de renta fija a corto plazo (repos, letras, pagarés, depósitos) con alta calidad crediticia. Buscan preservar capital con mínima volatilidad.",
+      "id": 11
+    },
+    {
+      "pregunta": "Un seguro de impago de alquiler cubre al:",
+      "opciones": [
+        "Inquilino",
+        "Propietario frente al impago de rentas por el inquilino",
+        "A ambos por igual",
+        "A la inmobiliaria"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de impago protege al arrendador: si el inquilino deja de pagar, la aseguradora abona las rentas impagadas y puede cubrir gastos de defensa jurídica y desperfectos.",
+      "id": 12
+    },
+    {
+      "pregunta": "Un seguro de supervivencia paga:",
+      "opciones": [
+        "Si el asegurado fallece",
+        "Si el asegurado está vivo en una fecha determinada",
+        "En caso de invalidez",
+        "Solo a los herederos"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguro de supervivencia (capital diferido) paga el capital si el asegurado sobrevive hasta una fecha pactada. Si fallece antes, típicamente no hay prestación (o solo devolución de primas).",
+      "id": 13
+    },
+    {
+      "pregunta": "Un fondo cotizado (ETF) de réplica física:",
+      "opciones": [
+        "Usa derivados para replicar el índice",
+        "Compra directamente los valores del índice",
+        "Es siempre más barato que la réplica sintética",
+        "No tiene tracking error"
+      ],
+      "correcta": 1,
+      "explicacion": "Un ETF de réplica física compra directamente los activos del índice (completa o muestreo). La réplica sintética usa derivados (swaps) para obtener la rentabilidad del índice.",
+      "id": 14
+    },
+    {
+      "pregunta": "El alquiler de vivienda habitual:",
+      "opciones": [
+        "Lleva IVA del 21%",
+        "Está exento de IVA",
+        "Lleva IVA del 10%",
+        "Lleva IVA del 4%"
+      ],
+      "correcta": 1,
+      "explicacion": "El arrendamiento de viviendas para uso de vivienda permanente está exento de IVA. El alquiler de locales comerciales sí lleva IVA (21%).",
+      "id": 15
+    },
+    {
+      "pregunta": "El valor de rescate de un seguro de vida es normalmente:",
+      "opciones": [
+        "Igual a las primas pagadas",
+        "La provisión matemática menos penalizaciones y gastos",
+        "Mayor que las primas pagadas siempre",
+        "Cero en todos los casos"
+      ],
+      "correcta": 1,
+      "explicacion": "El valor de rescate es lo que el tomador puede recuperar si cancela anticipadamente. Es la provisión matemática menos los costes no amortizados y posibles penalizaciones por rescate anticipado.",
+      "id": 16
+    },
+    {
+      "pregunta": "La diversificación en la cartera de un cliente:",
+      "opciones": [
+        "Es innecesaria",
+        "Reduce el riesgo específico combinando activos con correlaciones no perfectas",
+        "Aumenta siempre la rentabilidad",
+        "Elimina todo el riesgo"
+      ],
+      "correcta": 1,
+      "explicacion": "La diversificación reduce el riesgo específico (diversificable) sin sacrificar rentabilidad esperada. No elimina el riesgo sistemático (de mercado) ni garantiza rentabilidad.",
+      "id": 17
+    },
+    {
+      "pregunta": "El renting difiere del leasing principalmente en que:",
+      "opciones": [
+        "Son exactamente iguales",
+        "El renting es alquiler operativo sin opción de compra y suele incluir servicios (mantenimiento, seguro)",
+        "El renting siempre tiene opción de compra",
+        "El renting es solo para inmuebles"
+      ],
+      "correcta": 1,
+      "explicacion": "El renting es alquiler operativo: cuotas fijas que incluyen uso del bien y servicios (mantenimiento, seguros, reparaciones). Normalmente sin opción de compra; ideal para vehículos de empresa.",
+      "id": 18
+    },
+    {
+      "pregunta": "Una Letra del Tesoro a 12 meses tiene un precio de 97,50% del nominal. ¿Cuál es su rentabilidad simple?",
+      "opciones": [
+        "2,50%",
+        "2,56%",
+        "2,53%",
+        "2,47%"
+      ],
+      "correcta": 1,
+      "explicacion": "* Rentabilidad = (100 - 97,50)/97,50 = 2,50/97,50 = 2,564% ≈ 2,56%",
+      "id": 19
+    },
+    {
+      "pregunta": "La cartera de mínima varianza global:",
+      "opciones": [
+        "Tiene rentabilidad esperada cero",
+        "Es la cartera de menor riesgo posible combinando los activos disponibles",
+        "Tiene todos los activos en igual proporción",
+        "Siempre está formada solo por renta fija"
+      ],
+      "correcta": 1,
+      "explicacion": "La cartera de mínima varianza global (GMV) es el punto más a la izquierda de la frontera eficiente: la combinación de activos que minimiza el riesgo total, independientemente de la rentabilidad.",
+      "id": 20
+    },
+    {
+      "pregunta": "El análisis de sensibilidad de una cartera evalúa:",
+      "opciones": [
+        "Solo el riesgo de crédito",
+        "Cómo cambia el valor ante variaciones en factores de riesgo",
+        "La rentabilidad histórica",
+        "Los costes de transacción"
+      ],
+      "correcta": 1,
+      "explicacion": "El análisis de sensibilidad mide cómo varía el valor de la cartera ante cambios en factores de riesgo: tipos de interés, tipos de cambio, spreads de crédito, volatilidad, etc.",
+      "id": 21
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes indicadores es considerado un indicador adelantado del ciclo económico?",
+      "opciones": [
+        "Tasa de desempleo",
+        "PIB trimestral",
+        "Índice de confianza del consumidor",
+        "Inflación interanual"
+      ],
+      "correcta": 2,
+      "explicacion": "El índice de confianza del consumidor es un indicador adelantado porque anticipa cambios en el comportamiento económico. La tasa de desempleo y el PIB son indicadores retardados o coincidentes, ya que reflejan lo que ya ha ocurrido.",
+      "id": 22
+    },
+    {
+      "pregunta": "El precio de un futuro sobre un índice con dividendos viene dado por:",
+      "opciones": [
+        "F = S × (1 + r × t)",
+        "F = S × (1 + r - d) × t",
+        "F = S × e^((r-d)×t) (aproximadamente S × (1 + (r-d) × t))",
+        "F = S / (1 + r × t)"
+      ],
+      "correcta": 2,
+      "explicacion": "El precio del futuro es el spot capitalizado al tipo sin riesgo menos los dividendos esperados: F = S × e^((r-d)×t). Los dividendos reducen el precio del futuro porque el comprador del futuro no los recibe.",
+      "id": 23
+    },
+    {
+      "pregunta": "La ganancia por venta de un bono antes del vencimiento:",
+      "opciones": [
+        "Es RCM",
+        "Es ganancia patrimonial",
+        "No tributa",
+        "Es rendimiento del trabajo"
+      ],
+      "correcta": 1,
+      "explicacion": "La diferencia entre el precio de venta y el de compra de un bono (plusvalía por transmisión) es ganancia patrimonial. Si se mantiene a vencimiento, la diferencia es RCM (rendimiento implícito).",
+      "id": 24
+    },
+    {
+      "pregunta": "El documento KID (Key Information Document) de PRIIPs:",
+      "opciones": [
+        "Solo es para fondos de inversión",
+        "Es obligatorio para productos de inversión minorista empaquetados (fondos, seguros de inversión, estructurados)",
+        "Tiene 50 páginas",
+        "Solo se entrega a profesionales"
+      ],
+      "correcta": 1,
+      "explicacion": "El KID es un documento de 3 páginas máximo obligatorio para PRIIPs (Packaged Retail Investment and Insurance Products). Incluye descripción, riesgos (SRI 1-7), escenarios de rentabilidad y costes.",
+      "id": 25
+    },
+    {
+      "pregunta": "Los rendimientos del capital mobiliario incluyen:",
+      "opciones": [
+        "Solo los dividendos",
+        "Dividendos, intereses, rendimientos de seguros, rentas de capital",
+        "Los salarios",
+        "Las pensiones"
+      ],
+      "correcta": 1,
+      "explicacion": "RCM incluye: intereses de cuentas y depósitos, dividendos, rendimientos de seguros de vida-ahorro, rendimientos de letras y bonos, etc. Van a la base del ahorro (salvo excepciones).",
+      "id": 26
+    },
+    {
+      "pregunta": "El IBEX 35 es un índice:",
+      "opciones": [
+        "Ponderado por precio",
+        "Ponderado por capitalización con ajuste por free float",
+        "Equiponderado",
+        "De rentabilidad total"
+      ],
+      "correcta": 1,
+      "explicacion": "El IBEX 35 es un índice ponderado por capitalización bursátil ajustada por free float (capital flotante). Esto significa que las empresas pesan según su capitalización disponible para negociación.",
+      "id": 27
+    },
+    {
+      "pregunta": "El riesgo específico de la inversión inmobiliaria directa incluye:",
+      "opciones": [
+        "Solo el riesgo de mercado",
+        "Riesgo de vacío, impago de inquilinos, obsolescencia, regulación local",
+        "Riesgo de tipo de cambio",
+        "Riesgo de contraparte en derivados"
+      ],
+      "correcta": 1,
+      "explicacion": "Riesgos específicos inmobiliarios: vacío (periodos sin alquilar), morosidad del inquilino, deterioro/obsolescencia, cambios regulatorios (alquileres, urbanismo), concentración en un activo.",
+      "id": 28
+    },
+    {
+      "pregunta": "La \"regla de los dos meses\" en la norma anti-aplicación afecta a:",
+      "opciones": [
+        "Todos los contribuyentes igual",
+        "La posibilidad de compensar pérdidas si se recompran valores homogéneos en ±2 meses",
+        "La declaración de la renta",
+        "Los plazos de pago"
+      ],
+      "correcta": 1,
+      "explicacion": "Si se venden valores con pérdida y se recompran iguales o similares en los 2 meses anteriores o posteriores, la pérdida no se puede computar hasta que se vendan los nuevos valores.",
+      "id": 29
+    },
+    {
+      "pregunta": "La subrogación de acreedor en hipotecas permite:",
+      "opciones": [
+        "Cambiar el inmueble hipotecado",
+        "Trasladar la hipoteca a otra entidad financiera",
+        "Añadir un titular",
+        "Cancelar el préstamo anticipadamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La subrogación de acreedor es cambiar de banco la hipoteca, normalmente para conseguir mejores condiciones. La LCCI ha reducido las comisiones máximas por subrogación.",
+      "id": 30
+    },
+    {
+      "pregunta": "El valor contable por acción (book value) representa:",
+      "opciones": [
+        "El precio de mercado de la acción",
+        "El patrimonio neto dividido entre el número de acciones",
+        "El beneficio acumulado por acción",
+        "El precio de emisión original"
+      ],
+      "correcta": 1,
+      "explicacion": "* Valor contable por acción = Patrimonio neto / Número de acciones Representa el valor teórico de liquidación de cada acción según los libros contables.",
+      "id": 31
+    },
+    {
+      "pregunta": "La principal diferencia entre un futuro y un forward es:",
+      "opciones": [
+        "El activo subyacente",
+        "El futuro está estandarizado y cotiza en mercado organizado",
+        "El forward tiene mayor liquidez",
+        "No hay diferencia significativa"
+      ],
+      "correcta": 1,
+      "explicacion": "Los futuros son contratos estandarizados que cotizan en mercados organizados con cámara de compensación. Los forwards son contratos OTC (over-the-counter), a medida entre las partes, sin mercado secundario organizado.",
+      "id": 32
+    },
+    {
+      "pregunta": "Una cartera \"all-weather\" o \"todo clima\" busca:",
+      "opciones": [
+        "Maximizar rentabilidad en mercados alcistas",
+        "Comportarse razonablemente bien en diferentes entornos económicos",
+        "Solo invertir en un tipo de activo",
+        "Eliminar todo el riesgo"
+      ],
+      "correcta": 1,
+      "explicacion": "Las carteras all-weather combinan activos que funcionan bien en diferentes escenarios (crecimiento, recesión, inflación, deflación) buscando estabilidad en cualquier entorno.",
+      "id": 33
+    },
+    {
+      "pregunta": "Un joven de 25 años con primer empleo, sin ahorros, pregunta cómo empezar:",
+      "opciones": [
+        "Invertir todo en bolsa inmediatamente",
+        "Crear fondo de emergencia primero, luego empezar a invertir regularmente",
+        "Esperar a tener 50.000€",
+        "No hacer nada hasta los 40"
+      ],
+      "correcta": 1,
+      "explicacion": "El primer paso es el fondo de emergencia (3-6 meses de gastos). Una vez cubierto, empezar a invertir regularmente (aportaciones periódicas) para aprovechar el largo horizonte temporal.",
+      "id": 34
+    },
+    {
+      "pregunta": "Una cartera con duración efectiva de 6 años perderá aproximadamente ante una subida de tipos de 50pb:",
+      "opciones": [
+        "3%",
+        "6%",
+        "0,5%",
+        "12%"
+      ],
+      "correcta": 0,
+      "explicacion": "* Cambio % precio ≈ -Duración × Cambio tipos = -6 × 0,50% = -3%",
+      "id": 35
+    },
+    {
+      "pregunta": "La prima comercial incluye:",
+      "opciones": [
+        "Solo la prima pura",
+        "Prima pura + gastos de gestión + margen de seguridad + beneficio",
+        "Solo impuestos",
+        "Solo comisiones"
+      ],
+      "correcta": 1,
+      "explicacion": "Prima comercial = Prima pura + Gastos de administración + Gastos de adquisición (comisiones) + Recargo de seguridad + Beneficio industrial. Es lo que paga el tomador.",
+      "id": 36
+    },
+    {
+      "pregunta": "Un PPA (Plan de Previsión Asegurado) se diferencia de un plan de pensiones en que:",
+      "opciones": [
+        "No tiene ventajas fiscales",
+        "Garantiza un tipo de interés y es un contrato de seguro",
+        "Tiene más liquidez",
+        "No cubre la jubilación"
+      ],
+      "correcta": 1,
+      "explicacion": "El PPA es un seguro que ofrece las mismas ventajas fiscales que los planes de pensiones pero garantiza un tipo de interés técnico. Es más conservador y está cubierto por el Consorcio.",
+      "id": 37
+    },
+    {
+      "pregunta": "Un fondo market neutral tiene una beta objetivo de:",
+      "opciones": [
+        "1",
+        "0 (aproximadamente)",
+        "-1",
+        "2"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos market neutral buscan beta cercana a cero, equilibrando posiciones largas y cortas para eliminar el riesgo de mercado y obtener rentabilidad solo de la selección de valores (alfa).",
+      "id": 38
+    },
+    {
+      "pregunta": "La rentabilidad \"prime\" en inmobiliario comercial se refiere a:",
+      "opciones": [
+        "La rentabilidad de inmuebles de baja calidad",
+        "La rentabilidad de los mejores activos en las mejores ubicaciones",
+        "El tipo de interés preferencial",
+        "La rentabilidad media del mercado"
+      ],
+      "correcta": 1,
+      "explicacion": "\"Prime\" designa los activos de máxima calidad en ubicaciones premium. Las rentabilidades prime son las más bajas (menor yield = mayor precio relativo) porque tienen menor riesgo.",
+      "id": 39
+    },
+    {
+      "pregunta": "El rendimiento neto del alquiler de vivienda habitual del inquilino puede reducirse en:",
+      "opciones": [
+        "0%",
+        "50% (con reducciones mayores según Ley de Vivienda 2023 en ciertos casos)",
+        "100%",
+        "No hay reducción"
+      ],
+      "correcta": 1,
+      "explicacion": "La reducción general es del 50% (antes 60%). La Ley de Vivienda permite reducciones de 60%, 70% o 90% para alquileres en zonas tensionadas, inquilinos jóvenes, o alquiler asequible.",
+      "id": 40
+    },
+    {
+      "pregunta": "Un gestor con \"skin in the game\" significa:",
+      "opciones": [
+        "Tiene experiencia en el sector",
+        "Tiene su propio dinero invertido en la misma estrategia que gestiona",
+        "Trabaja muchas horas",
+        "Tiene un equipo grande"
+      ],
+      "correcta": 1,
+      "explicacion": "\"Skin in the game\" significa que el gestor tiene su propio patrimonio invertido junto a los clientes. Esto alinea intereses: el gestor soporta las mismas ganancias y pérdidas que los inversores.",
+      "id": 41
+    },
+    {
+      "pregunta": "El indicador PMI (Purchasing Managers Index) por encima de 50 indica:",
+      "opciones": [
+        "Contracción económica",
+        "Expansión económica",
+        "Estabilidad económica",
+        "Recesión inminente"
+      ],
+      "correcta": 1,
+      "explicacion": "El PMI es un indicador de difusión donde valores por encima de 50 indican expansión del sector manufacturero o servicios, y valores por debajo de 50 indican contracción. 50 es el punto neutral.",
+      "id": 42
+    },
+    {
+      "pregunta": "El core-satellite es una estrategia que combina:",
+      "opciones": [
+        "Solo gestión pasiva",
+        "Un núcleo (core) indexado con posiciones satélite de gestión activa",
+        "Solo gestión activa",
+        "Inversión en satélites de comunicación"
+      ],
+      "correcta": 1,
+      "explicacion": "Core-satellite combina un núcleo de cartera gestionado pasivamente (bajo coste, exposición al mercado) con posiciones satélite de gestión activa o alternativa para buscar alfa.",
+      "id": 43
+    },
+    {
+      "pregunta": "El IRPF es un impuesto:",
+      "opciones": [
+        "Indirecto y proporcional",
+        "Directo, personal, progresivo y parcialmente cedido a las CCAA",
+        "Solo estatal",
+        "Voluntario"
+      ],
+      "correcta": 1,
+      "explicacion": "El IRPF es directo (grava la renta), personal (considera circunstancias del contribuyente), progresivo (tipos crecientes según renta), y está parcialmente cedido a las CCAA (tramo autonómico).",
+      "id": 44
+    },
+    {
+      "pregunta": "La atribución de rendimiento descompone la rentabilidad en:",
+      "opciones": [
+        "Solo suerte y habilidad",
+        "Efecto asignación, efecto selección y efecto interacción",
+        "Rentabilidad y riesgo",
+        "Alfa y beta únicamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La atribución clásica (Brinson) descompone el exceso de rentabilidad en: efecto asignación (sobre/infraponderar sectores), efecto selección (elegir mejores valores dentro del sector) y efecto interacción.",
+      "id": 45
+    },
+    {
+      "pregunta": "Las cédulas hipotecarias se caracterizan por:",
+      "opciones": [
+        "Estar garantizadas por una cartera específica de hipotecas",
+        "Estar garantizadas por todo el balance del emisor",
+        "No tener garantía alguna",
+        "Ser emitidas solo por el Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "Las cédulas hipotecarias están garantizadas por la totalidad de la cartera hipotecaria del emisor (garantía global), no por préstamos específicos. Esto las diferencia de los bonos hipotecarios, que sí tienen garantía específica.",
+      "id": 46
+    },
+    {
+      "pregunta": "El asesor debe actuar siempre:",
+      "opciones": [
+        "En interés de la entidad",
+        "En el mejor interés del cliente",
+        "Para maximizar sus comisiones",
+        "Según su preferencia personal"
+      ],
+      "correcta": 1,
+      "explicacion": "El principio fundamental es actuar en el mejor interés del cliente. Los conflictos de interés deben gestionarse o revelarse. Las recomendaciones deben basarse en el beneficio del cliente, no del asesor.",
+      "id": 47
+    },
+    {
+      "pregunta": "Con 15 años cotizados, el porcentaje de la base reguladora que se percibe es:",
+      "opciones": [
+        "100%",
+        "50%",
+        "75%",
+        "15%"
+      ],
+      "correcta": 1,
+      "explicacion": "Con el periodo mínimo de 15 años se percibe el 50% de la base reguladora. A partir de ahí, aumenta progresivamente hasta el 100% con 36,5 años (o 37 según el año).",
+      "id": 48
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes NO es un objetivo del Eurosistema?",
+      "opciones": [
+        "Mantener la estabilidad de precios",
+        "Maximizar el empleo",
+        "Apoyar las políticas económicas generales de la UE",
+        "Contribuir a la estabilidad del sistema financiero"
+      ],
+      "correcta": 1,
+      "explicacion": "A diferencia de la Reserva Federal (que tiene mandato dual: precios y empleo), el Eurosistema tiene como objetivo principal la estabilidad de precios. Maximizar el empleo no es un objetivo explícito del BCE, aunque sí apoya las políticas económicas generales.",
+      "id": 49
+    },
+    {
+      "pregunta": "Una pareja quiere comprar vivienda (300.000€) y tiene 60.000€ ahorrados:",
+      "opciones": [
+        "Pueden comprar sin problemas",
+        "Necesitan ahorrar más para la entrada y gastos (mínimo 80.000-100.000€ aproximadamente)",
+        "No deberían comprar nunca",
+        "Es igual el ahorro que tengan"
+      ],
+      "correcta": 1,
+      "explicacion": "Para comprar 300.000€ necesitan: ~60.000€ entrada (20%) + ~30.000€ gastos (10%) = ~90.000€ mínimo. Con 60.000€ les falta. Además deben considerar el fondo de emergencia post-compra.",
+      "id": 50
+    }
+  ]
+}

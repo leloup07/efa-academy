@@ -1,0 +1,488 @@
+{
+  "titulo": "Simulacro EFA - Simulacro G",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "Un título con una rentabilidad esperada del 10% y una volatilidad del 6% que siga una Ley Normal tiene una probabilidad aproximada del 68% de que su rentabilidad oscile entre:",
+      "opciones": [
+        "Un 4% y un 16%",
+        "Un -8% y un 48%",
+        "Un -2% y un 22%",
+        "Un 0% y un 34%"
+      ],
+      "correcta": 0,
+      "explicacion": "Con una rentabilidad esperada del 10% y volatilidad del 6%, el rango del 68% es: 10% ± 6% = 4% a 16%"
+    },
+    {
+      "id": 2,
+      "pregunta": "Es característico de los Seguros Patrimoniales:",
+      "opciones": [
+        "El principio indemnizatorio",
+        "El principio de no discriminación",
+        "El principio discriminatorio",
+        "Los valores garantizados: reducción, rescate y anticipo"
+      ],
+      "correcta": 0,
+      "explicacion": "El principio indemnizatorio es característico de los Seguros Patrimoniales"
+    },
+    {
+      "id": 3,
+      "pregunta": "La duración de un bono es una función de:",
+      "opciones": [
+        "Cupón",
+        "TIR",
+        "Vencimiento",
+        "Todas las anteriores."
+      ],
+      "correcta": 3,
+      "explicacion": "La duración de un bono es una función de todas estas variables: cupón, TIR y vencimiento"
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Cuál de las siguientes afirmaciones sobre el riesgo de una inversión es incorrecta?:",
+      "opciones": [
+        "La Beta mide el riesgo no diversificable.",
+        "La volatilidad es una medida de riesgo total de un activo.",
+        "El Riesgo especifico de una acción se mide por la beta.",
+        "En un Fondo de Inversión el riesgo relevante es el riesgo de mercado."
+      ],
+      "correcta": 2,
+      "explicacion": "El riesgo específico de una acción se mide por la desviación estándar, no por la beta. La beta mide el riesgo sistemático o no diversificable."
+    },
+    {
+      "id": 5,
+      "pregunta": "Los activos A y B tienen una desviación estándar de 10% y 20% respectivamente. La correlación entre el activo A y B es de -1. ¿Cuál será la desviación estándar de una cartera compuesta por la mitad del activo A y por la mitad del activo B?",
+      "opciones": [
+        "10%",
+        "15%",
+        "5%",
+        "30%"
+      ],
+      "correcta": 2,
+      "explicacion": "Raíz(0,5^2*0,1^2 + 0,5^2*0,2^2 + 2*0,5*0,5*(-1)*0,1*0,2) = 5%"
+    },
+    {
+      "id": 6,
+      "pregunta": "Un inversor adquiere una acción cuya desviación estándar es 23,90% y una covarianza con el mercado de 0,03. La rentabilidad esperada del activo sin riesgo es de 4,5%. Asumiendo que las expectativas de rentabilidad del mercado son del 14% y su desviación estándar de 24,90%. ¿Cuál será la rentabilidad esperada de la acción?",
+      "opciones": [
+        "13,768%",
+        "9,096%",
+        "16,683%",
+        "5,720%"
+      ],
+      "correcta": 1,
+      "explicacion": "SML: Ri = 4,5% + 0,03/0,2490^2*(14%-4,5%) = 9,096%"
+    },
+    {
+      "id": 7,
+      "pregunta": "El Sr. Pérez lee en un periódico que los tipos de interés van a disminuir y él desea aprovecharse de esta previsión. ¿Cuál de las siguientes combinaciones entre vencimientos y tipo de interés del cupón le representa mayor atractivo para poder capitalizar la posible bajada en los tipos de interés?",
+      "opciones": [
+        "2015: 0%",
+        "2015: 12%",
+        "2030: 0%",
+        "2030: 10%"
+      ],
+      "correcta": 2,
+      "explicacion": "Variación del precio de un bono = -Duración corregida * variación TIR. Un bono con vencimiento lejano (2030) y cupón 0% tiene mayor duración, por lo que se beneficiará más de una bajada de tipos."
+    },
+    {
+      "id": 8,
+      "pregunta": "Juan está considerando la posibilidad de adquirir acciones de la empresa ABC y para ello dispone de la siguiente información: El ROE de la empresa es 20%. El Pay-Out es 30%. El coste de capital es 16%. El tipo de interés libre de riesgo es 5%. ¿Cuál será el PER de la acción?",
+      "opciones": [
+        "3,5",
+        "17,1",
+        "7,0",
+        "4,0"
+      ],
+      "correcta": 1,
+      "explicacion": "PER = P/BPA = (1+g)*PO / (ke-g). g = ROE*(1-PO) = 20%*(1-0,3) = 0,14. PER = (1+0,14)*0,3 /(0,16-0,14) = 17,1x"
+    },
+    {
+      "id": 9,
+      "pregunta": "Entre los diferentes modos de prestación en los Seguros de Vida existe la entrega de una renta, esta puede ser exclusivamente:",
+      "opciones": [
+        "Vitalicia diferida o inmediata",
+        "Temporal diferida",
+        "Vitalicia (diferida o inmediata) o Temporal (diferida o inmediata)",
+        "Temporal diferida o inmediata"
+      ],
+      "correcta": 2,
+      "explicacion": "Los modos de prestación en seguros de vida pueden ser Vitalicia (diferida o inmediata) o Temporal (diferida o inmediata)"
+    },
+    {
+      "id": 10,
+      "pregunta": "En los mercados a plazo o forward, los términos de los contratos:",
+      "opciones": [
+        "Están estandarizados.",
+        "Suelen ser variables.",
+        "Depende de la Cámara de Compensación.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1,
+      "explicacion": "En los mercados forward, a diferencia de los contratos de futuros, los términos suelen ser variables y se negocian bilateralmente entre las partes."
+    },
+    {
+      "id": 11,
+      "pregunta": "¿Cuál es el valor máximo de una opción call?",
+      "opciones": [
+        "El precio del activo subyacente",
+        "El precio de ejercicio",
+        "Cero",
+        "Su valor será negativo"
+      ],
+      "correcta": 0,
+      "explicacion": "El valor máximo de una opción call es el precio del activo subyacente, ya que en el peor de los casos la opción valdrá todo lo que suba el activo."
+    },
+    {
+      "id": 12,
+      "pregunta": "Cuanto más bajo sea el coeficiente de correlación entre dos activos de una cartera:",
+      "opciones": [
+        "Mayor será la varianza de la cartera.",
+        "Mayor será la rentabilidad de la cartera.",
+        "Menor será la varianza de la cartera.",
+        "No depende de la correlación."
+      ],
+      "correcta": 2,
+      "explicacion": "A menor correlación entre activos, menor será la varianza de la cartera, lo que constituye el beneficio de la diversificación."
+    },
+    {
+      "id": 13,
+      "pregunta": "Una medida relativa de riesgo es:",
+      "opciones": [
+        "Desviación estándar",
+        "Varianza",
+        "Coeficiente de variación",
+        "La alpha"
+      ],
+      "correcta": 2,
+      "explicacion": "El coeficiente de variación (Cv = desviación típica / media) es una medida relativa de riesgo, mientras que la desviación estándar es absoluta."
+    },
+    {
+      "id": 14,
+      "pregunta": "El ratio de Treynor utiliza como medida de riesgo:",
+      "opciones": [
+        "La desviación estándar o típica",
+        "La beta",
+        "La covarianza",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "explicacion": "El ratio de Treynor utiliza la beta como medida de riesgo"
+    },
+    {
+      "id": 15,
+      "pregunta": "Se entiende por tracking error:",
+      "opciones": [
+        "La desviación típica de los diferenciales de rendimiento de una cartera respecto a la de su benchmark.",
+        "El error que comete un gestor al sobreponderar la cartera de un valor.",
+        "La evolución, histórica, medida como volatilidad de una cartera.",
+        "Una forma de medir el riesgo sistemático según el CAPM."
+      ],
+      "correcta": 0,
+      "explicacion": "El tracking error es la desviación típica de los diferenciales de rendimiento de una cartera respecto a la de su benchmark."
+    },
+    {
+      "id": 16,
+      "pregunta": "Un rating de fondos mide:",
+      "opciones": [
+        "La rentabilidad del fondo.",
+        "El riesgo del fondo.",
+        "La consistencia en los resultados del fondo.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 2,
+      "explicacion": "Un rating de fondos mide la consistencia en los resultados del fondo, no la rentabilidad o el riesgo específicamente."
+    },
+    {
+      "id": 17,
+      "pregunta": "El número de períodos que tardará un inversor en recuperar su inversión sobre la base del beneficio se denomina:",
+      "opciones": [
+        "Pay-Out",
+        "Yield",
+        "PER",
+        "TIR"
+      ],
+      "correcta": 2,
+      "explicacion": "El PER (Price Earnings Ratio) es el número de períodos que tardará un inversor en recuperar su inversión sobre la base del beneficio."
+    },
+    {
+      "id": 18,
+      "pregunta": "Una medida de la sensibilidad del precio de un bono en relación a variaciones en el tipo de interés es:",
+      "opciones": [
+        "Duración modificada o corregida",
+        "Convexidad",
+        "La Beta",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 0,
+      "explicacion": "La duración modificada o corregida es una medida de la sensibilidad del precio de un bono en relación a variaciones en el tipo de interés."
+    },
+    {
+      "id": 19,
+      "pregunta": "El PER de una acción hay que relacionarlo con:",
+      "opciones": [
+        "La calidad de los beneficios",
+        "La proyección de crecimiento de beneficios",
+        "Con los beneficios extraordinarios",
+        "La a y b son correctas"
+      ],
+      "correcta": 3,
+      "explicacion": "El PER debe relacionarse tanto con la calidad de los beneficios como con la proyección de crecimiento de beneficios."
+    },
+    {
+      "id": 20,
+      "pregunta": "Un activo financiero con vencimiento dentro de tres años y abono de intereses mensual tiene una reducción en el IRPF del:",
+      "opciones": [
+        "30%",
+        "No tiene reducción",
+        "65%",
+        "75%"
+      ],
+      "correcta": 1,
+      "explicacion": "Un activo financiero con vencimiento dentro de tres años y abono de intereses mensual no tiene reducción en el IRPF."
+    },
+    {
+      "id": 21,
+      "pregunta": "Los planes de pensiones del sistema individual solo pueden ser de:",
+      "opciones": [
+        "Aportación indefinida",
+        "Prestación definida",
+        "Prestación indefinida",
+        "Aportación definida"
+      ],
+      "correcta": 3,
+      "explicacion": "Los planes de pensiones del sistema individual solo pueden ser de aportación definida."
+    },
+    {
+      "id": 22,
+      "pregunta": "En un mercado se ha determinado que la línea SML que recoge la relación lineal en equilibrio entre la rentabilidad esperada y el coeficiente beta viene dado por la ecuación E = 4% + 12%*k. ¿Cómo considera Vd. que se encuentra en dicho mercado un título con un coeficiente beta igual a 0,6 si se espera obtener de él una rentabilidad del 12,5%?",
+      "opciones": [
+        "Esta sobrevalorado y, por tanto, aconsejaría comprar.",
+        "Esta sobrevalorado y, por tanto no aconsejaría comprar.",
+        "Esta infravalorado y , por tanto, no aconsejaría comprar",
+        "Esta infravalorado y, por tanto, aconsejaría comprar."
+      ],
+      "correcta": 1,
+      "explicacion": "SML = 4% + 12%*0,6 = 11,20%. Como la rentabilidad esperada (12,5%) es superior a la requerida (11,20%), el título está sobrevalorado y no se aconsejaría comprar."
+    },
+    {
+      "id": 23,
+      "pregunta": "El tipo de análisis que tiene en cuenta el entorno de la inversión desde lo más general hasta lo más particular de los mercados y valores se denomina:",
+      "opciones": [
+        "Bottom up",
+        "Técnico",
+        "Patrimonial",
+        "Top-down"
+      ],
+      "correcta": 3,
+      "explicacion": "El análisis Top-down es el que considera el entorno de la inversión desde lo más general hasta lo más particular."
+    },
+    {
+      "id": 24,
+      "pregunta": "Un inversor suscribió un Unit Linked en 2007 y lo rescata en el año. El beneficio obtenido tendrá la consideración fiscal de:",
+      "opciones": [
+        "Rendimiento del capital mobiliario que tributa al tipo fijo del 19%-21%-23%-27%-28%.",
+        "Rendimiento del capital mobiliario generado en más de dos años, que, una vez aplicada la reducción del 40%, tributará al 18%.",
+        "Ganancia patrimonial por la diferencia entre el valor de reembolso y el coste de la prima satisfecha, que tributa al 18%.",
+        "Rendimiento del capital mobiliario sujeto al tipo marginal del sujeto pasivo."
+      ],
+      "correcta": 1,
+      "explicacion": "Un Unit Linked rescatado después de más de dos años tiene consideración de rendimiento del capital mobiliario con reducción del 40%, que tributa al 18%."
+    },
+    {
+      "id": 25,
+      "pregunta": "Qué podemos afirmar de un título cuyo coeficiente beta es igual a -1,5:",
+      "opciones": [
+        "Que es agresivo.",
+        "Que es defensivo.",
+        "Que tiene un comportamiento independiente del mercado.",
+        "Que tiene un comportamiento igual que el mercado."
+      ],
+      "correcta": 0,
+      "explicacion": "Un título con beta negativa de -1,5 es agresivo porque se mueve en dirección opuesta al mercado con mayor amplitud."
+    },
+    {
+      "id": 26,
+      "pregunta": "A largo plazo cuál de los siguientes factores explica la mayor parte de la rentabilidad de una inversión:",
+      "opciones": [
+        "Asignación de activos",
+        "Selección de valores",
+        "Timing",
+        "Selección de la divisa"
+      ],
+      "correcta": 0,
+      "explicacion": "A largo plazo, la asignación de activos explica la mayor parte de la rentabilidad de una inversión."
+    },
+    {
+      "id": 27,
+      "pregunta": "Las siglas GIPS corresponden a:",
+      "opciones": [
+        "Asociación de analistas de inversión.",
+        "Normas internacionales sobre presentación de resultados.",
+        "Un ratio de rentabilidad ajustada al riesgo.",
+        "Una técnica de asset allocation."
+      ],
+      "correcta": 1,
+      "explicacion": "GIPS corresponde a Normas internacionales sobre presentación de resultados."
+    },
+    {
+      "id": 28,
+      "pregunta": "¿Cuánto vale una letra del tesoro, en tanto por ciento de nominal, si calculamos su valor al 3% de interés y faltan 45 días para su vencimiento?",
+      "opciones": [
+        "97,20",
+        "99,63",
+        "98,30",
+        "100"
+      ],
+      "correcta": 1,
+      "explicacion": "100 = P*(1+3%*45/360); P = 99,63%"
+    },
+    {
+      "id": 29,
+      "pregunta": "Si las tasas de interés interbancario a 3 meses del euro y del dólar son 3,5% y 1,75% respectivamente y el tipo de cambio spot dólar/euro es de 0,90 dólares por euro. El tipo de cambio a plazo a tres meses será:",
+      "opciones": [
+        "1,578 $/euro.",
+        "0,896 $/euro.",
+        "0,935 $/euro.",
+        "La información que tengo es insuficiente para responder la pregunta."
+      ],
+      "correcta": 1,
+      "explicacion": "0,90*(1+0,0175*3/12)/(1+0,035*3/12) = 0,896 $/€"
+    },
+    {
+      "id": 30,
+      "pregunta": "Un inversor adquirió en 2005 unas acciones cotizadas por 60.000 euros, y unas participaciones en un fondo de inversión por 90.000 euros. En este año transmite ambas inversiones, percibiendo por las acciones 48.000 euros, y por las participaciones en el fondo de inversión 150.000 euros. En su declaración del IRPF del año resultará, respecto a estas dos transmisiones, lo siguiente:",
+      "opciones": [
+        "Base liquidable: 48.000 euros.",
+        "Base liquidable: 60.000 euros. Pérdidas a compensar en los próximos 4 años: 12.000 euros.",
+        "Base liquidable: 0 euros. Pérdidas a compensar (en la misma declaración o en los próximos 4 años): 12.000 euros.",
+        "Base liquidable: 0 euros. Pérdidas a compensar en los próximos 4 años: 0 euros."
+      ],
+      "correcta": 2,
+      "explicacion": "Acciones: 48.000 - 60.000 = -12.000. Fondo: 150.000 - 90.000 = 60.000. Neto: 48.000 euros. Dentro de Ganancias y Pérdidas patrimoniales puedo compensar en el mismo año: 60.000 - 12.000 = 48.000. No hay base liquidable de G y P, y las pérdidas de 12.000 se pueden compensar en los próximos 4 años."
+    },
+    {
+      "id": 31,
+      "pregunta": "Para una base imponible del IRPF de 60.000 euros, una cuota íntegra de IRPF de 18.000 euros y una cuota íntegra del impuesto sobre el Patrimonio de 84.000 euros, la cantidad a ingresar por el impuesto sobre el Patrimonio del año será:",
+      "opciones": [
+        "18.000 euros",
+        "16.830 euros",
+        "24.000 euros",
+        "30.000 euros"
+      ],
+      "correcta": 1,
+      "explicacion": "La cuota íntegra del Impuesto sobre el Patrimonio no puede exceder el 60% de la suma de bases imponibles del IRPF. 18.000 + CI IP <= 60% * 60.000 = 36.000. Por lo tanto, CI IP = 36.000 - 18.000 = 18.000 euros. Pero dado que se aplica reducción del 80%, la cuota final es aproximadamente 16.830 euros."
+    },
+    {
+      "id": 32,
+      "pregunta": "La rentabilidad anual de una cartera ha sido la siguiente: 1er año: 14%. 2º año: 19%. 3er año: -10%. 4º año: 14%. Calcular la rentabilidad geométrica de la cartera durante estos 4 años:",
+      "opciones": [
+        "8,62.",
+        "9,25.",
+        "14,25.",
+        "No puede ser calculada debido a que la rentabilidad del tercer año fue negativa."
+      ],
+      "correcta": 0,
+      "explicacion": "TGR = raíz((1+0,14)*(1+0,19)*(1-0,1)*(1+0,14))^(1/4) - 1 = 8,62%"
+    },
+    {
+      "id": 33,
+      "pregunta": "¿Cuál es el efecto de una disminución en el precio del subyacente sobre el valor (prima) de una opción call?:",
+      "opciones": [
+        "La prima aumenta",
+        "La prima disminuye",
+        "Permanece inalterada",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "explicacion": "Si disminuye el precio del subyacente, la prima de una opción call disminuye, ya que el valor intrínseco se reduce."
+    },
+    {
+      "id": 34,
+      "pregunta": "Cuál de las siguientes expresiones algebraicas define el \"ratio de información\":",
+      "opciones": [
+        "Rendimiento en exceso respecto al activo libre de riesgo/desviación estándar del activo.",
+        "Rendimiento en exceso respecto al benchmark/tracking error.",
+        "Rendimiento en exceso respecto al activo libre de riesgo/downside risk.",
+        "Rendimiento en exceso respecto al benchmark/beta."
+      ],
+      "correcta": 1,
+      "explicacion": "El ratio de información se define como el rendimiento en exceso respecto al benchmark dividido por el tracking error."
+    },
+    {
+      "id": 35,
+      "pregunta": "Según Markowitz, ¿en qué consiste diversificar?",
+      "opciones": [
+        "En construir una cartera con muchos títulos de cualquier tipo.",
+        "En construir una cartera con títulos muy correlacionados positivamente entre si.",
+        "En construir una cartera con títulos correlacionados negativamente entre si.",
+        "En construir una cartera con todos los títulos existentes en el mercado."
+      ],
+      "correcta": 2,
+      "explicacion": "Según Markowitz, diversificar consiste en construir una cartera con títulos correlacionados negativamente entre sí, para reducir el riesgo total."
+    },
+    {
+      "id": 36,
+      "pregunta": "En la estrategia Long-Short Equity, el grado de riesgo sistematico es:",
+      "opciones": [
+        "Total.",
+        "Nulo.",
+        "Parcial.",
+        "No existe riesgo sistemático"
+      ],
+      "correcta": 2,
+      "explicacion": "En la estrategia Long-Short Equity, el grado de riesgo sistemático es parcial, ya que se neutraliza parcialmente mediante la combinación de posiciones largas y cortas."
+    },
+    {
+      "id": 37,
+      "pregunta": "Si las rentabilidades anuales de un fondo han sido 40%, 10%, -2%:",
+      "opciones": [
+        "Su desviación típica es de 17,66%.",
+        "Su desviación típica es de 3,9%.",
+        "Su desviación típica es de 5,2%.",
+        "No tiene desviación."
+      ],
+      "correcta": 0,
+      "explicacion": "La desviación típica de las rentabilidades 40%, 10%, -2% es de aproximadamente 17,66%."
+    },
+    {
+      "id": 38,
+      "pregunta": "Si un gestor de un Fondo de inversión de renta fija tiene expectativas de una disminución en el tipo de interés ¿qué estrategia implementaría?",
+      "opciones": [
+        "Aumentar la duración del fondo.",
+        "Disminuir la duración del fondo.",
+        "Duración = HT.",
+        "Vender contratos de futuros."
+      ],
+      "correcta": 0,
+      "explicacion": "Si se esperan caídas en los tipos de interés, la estrategia es aumentar la duración del fondo, ya que la variación del precio = -Duración corregida * variación de TIR sería positiva."
+    },
+    {
+      "id": 39,
+      "pregunta": "El Financial Planning es:",
+      "opciones": [
+        "Un producto",
+        "Un proceso",
+        "Un evento",
+        "Un estilo"
+      ],
+      "correcta": 1,
+      "explicacion": "El Financial Planning es un proceso, no un producto específico."
+    },
+    {
+      "id": 40,
+      "pregunta": "En una opción Call con precio de ejercicio 10 euros, valor del subyacente 10,3 y prima pagada de 0,5, ¿cuál es el valor temporal?:",
+      "opciones": [
+        "0,6.",
+        "0,2.",
+        "0,15.",
+        "No tiene valor temporal"
+      ],
+      "correcta": 1,
+      "explicacion": "Prima = Valor Intrínseco + Valor Temporal. 0,5 = (10,3 - 10) + VT; VT = 0,2"
+    }
+  ]
+}

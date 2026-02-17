@@ -1,0 +1,608 @@
+{
+  "titulo": "Simulacro EFA #2 - 50 Preguntas",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "El seguro de protección de pagos cubre:",
+      "opciones": [
+        "La totalidad de cualquier deuda",
+        "Las cuotas de préstamos en caso de desempleo, incapacidad temporal u otras contingencias",
+        "Solo hipotecas",
+        "Inversiones fallidas"
+      ],
+      "correcta": 1,
+      "explicacion": "Este seguro paga las cuotas del préstamo durante un periodo si el asegurado sufre desempleo involuntario, incapacidad temporal por enfermedad o accidente, u otras situaciones cubiertas.",
+      "id": 1
+    },
+    {
+      "pregunta": "El ratio de endeudamiento mide:",
+      "opciones": [
+        "Solo las deudas hipotecarias",
+        "La relación entre deudas totales y patrimonio o ingresos del solicitante",
+        "El valor del inmueble",
+        "La antigüedad del cliente"
+      ],
+      "correcta": 1,
+      "explicacion": "Ratio endeudamiento = Deuda total / Patrimonio (o Ingresos). Las entidades evalúan que el nivel de deuda sea sostenible respecto a la capacidad económica del cliente.",
+      "id": 2
+    },
+    {
+      "pregunta": "El \"slippage\" en ejecución de órdenes se refiere a:",
+      "opciones": [
+        "La comisión del broker",
+        "La diferencia entre el precio esperado y el precio real de ejecución",
+        "El tracking error",
+        "La volatilidad del activo"
+      ],
+      "correcta": 1,
+      "explicacion": "Slippage es la diferencia entre el precio al que esperábamos operar (cuando decidimos) y el precio real de ejecución. Puede ocurrir por movimientos de mercado, impacto o mala ejecución.",
+      "id": 3
+    },
+    {
+      "pregunta": "El \"factor investing\" se basa en:",
+      "opciones": [
+        "Invertir solo en un sector",
+        "Construir carteras con exposición a factores de riesgo específicos (value, momentum, size, etc.)",
+        "Ignorar cualquier análisis",
+        "Solo gestión pasiva tradicional"
+      ],
+      "correcta": 1,
+      "explicacion": "Factor investing busca exposición sistemática a factores que históricamente han generado primas de rentabilidad: value, momentum, quality, size, low volatility, etc.",
+      "id": 4
+    },
+    {
+      "pregunta": "La compensación de pérdidas patrimoniales con ganancias permite:",
+      "opciones": [
+        "Aumentar la base imponible",
+        "Reducir la tributación utilizando pérdidas de años anteriores o del mismo ejercicio",
+        "No tiene efecto fiscal",
+        "Solo en ganancias del trabajo"
+      ],
+      "correcta": 1,
+      "explicacion": "Las pérdidas patrimoniales compensan ganancias, reduciendo la base del ahorro. El saldo negativo puede compensar hasta 25% de RCM positivo. Las pérdidas se arrastran 4 años.",
+      "id": 5
+    },
+    {
+      "pregunta": "La revisión periódica de la cartera del cliente:",
+      "opciones": [
+        "No es necesaria",
+        "Es importante para ajustar a cambios en circunstancias, mercados y objetivos",
+        "Solo si hay pérdidas",
+        "Solo cada 10 años"
+      ],
+      "correcta": 1,
+      "explicacion": "Las circunstancias del cliente cambian (trabajo, familia, objetivos) y los mercados evolucionan. La revisión periódica permite rebalancear, actualizar el perfil, y mantener la cartera alineada con los objetivos.",
+      "id": 6
+    },
+    {
+      "pregunta": "Los rendimientos irregulares del trabajo (generados en más de 2 años) se reducen en:",
+      "opciones": [
+        "0%",
+        "30% (con límite de 300.000€ de base)",
+        "50%",
+        "100%"
+      ],
+      "correcta": 1,
+      "explicacion": "Los rendimientos del trabajo con periodo de generación >2 años o calificados reglamentariamente como irregulares se reducen un 30% (límite: cuantía del rendimiento que no supere 300.000€).",
+      "id": 7
+    },
+    {
+      "pregunta": "Si la covarianza entre dos activos es 0,0024 y sus desviaciones típicas son 8% y 12%, ¿cuál es el coeficiente de correlación?",
+      "opciones": [
+        "0,15",
+        "0,25",
+        "0,50",
+        "0,75"
+      ],
+      "correcta": 1,
+      "explicacion": "* ρ = Cov(A,B) / (σA × σB) ρ = 0,0024 / (0,08 × 0,12) ρ = 0,0024 / 0,0096 = 0,25",
+      "id": 8
+    },
+    {
+      "pregunta": "La rotación de cartera (turnover) de un fondo indica:",
+      "opciones": [
+        "La rentabilidad del fondo",
+        "El porcentaje de la cartera que se renueva en un año",
+        "El número de partícipes que salen",
+        "Los cambios en el equipo gestor"
+      ],
+      "correcta": 1,
+      "explicacion": "El turnover mide qué proporción de la cartera se compra/vende en un año. Alto turnover implica más costes de transacción y posible orientación a corto plazo.",
+      "id": 9
+    },
+    {
+      "pregunta": "La recertificación de la certificación EFA requiere:",
+      "opciones": [
+        "Nada, es vitalicia",
+        "Formación continua de al menos 30 horas en periodos de 2 años",
+        "Repetir el examen cada año",
+        "Solo pagar una cuota"
+      ],
+      "correcta": 1,
+      "explicacion": "La certificación EFA requiere recertificación periódica mediante formación continua (mínimo 30 horas en 2 años) para mantener actualizados los conocimientos y competencias.",
+      "id": 10
+    },
+    {
+      "pregunta": "Un depósito ofrece un 4% nominal anual con capitalización trimestral. ¿Cuál es la TAE?",
+      "opciones": [
+        "4,00%",
+        "4,04%",
+        "4,06%",
+        "4,12%"
+      ],
+      "correcta": 2,
+      "explicacion": "* TAE = (1 + i/m)^m - 1 TAE = (1 + 0,04/4)^4 - 1 TAE = (1,01)^4 - 1 = 1,0406 - 1 = 4,06%",
+      "id": 11
+    },
+    {
+      "pregunta": "MiFID II (Markets in Financial Instruments Directive) tiene como objetivos principales:",
+      "opciones": [
+        "Aumentar la carga fiscal",
+        "Proteger al inversor, aumentar la transparencia y fortalecer la integridad del mercado",
+        "Eliminar la regulación financiera",
+        "Solo regular los bancos centrales"
+      ],
+      "correcta": 1,
+      "explicacion": "MiFID II busca: mayor protección del inversor (idoneidad, conveniencia), transparencia (costes, conflictos de interés), integridad de mercados (mejor ejecución, registro de operaciones).",
+      "id": 12
+    },
+    {
+      "pregunta": "Una PEP (Persona Políticamente Expuesta) es:",
+      "opciones": [
+        "Cualquier político",
+        "Persona que desempeña o ha desempeñado funciones públicas importantes (jefe de estado, ministro, parlamentario, magistrado, embajador, alto cargo)",
+        "Solo presidentes de gobierno",
+        "Funcionarios de bajo nivel"
+      ],
+      "correcta": 1,
+      "explicacion": "PEPs incluyen: jefes de estado/gobierno, ministros, parlamentarios, magistrados de altos tribunales, embajadores, altos cargos militares, directivos de empresas públicas, directivos de partidos políticos.",
+      "id": 13
+    },
+    {
+      "pregunta": "La diversificación del capital humano y financiero sugiere que:",
+      "opciones": [
+        "No hay relación entre ambos",
+        "Un empleado de banca debería tener menos acciones bancarias en su cartera",
+        "Todos deben invertir en su empresa",
+        "El capital humano no importa"
+      ],
+      "correcta": 1,
+      "explicacion": "Si los ingresos laborales dependen de un sector (ej: banca), conviene no concentrar las inversiones en ese mismo sector. Una crisis sectorial afectaría tanto al empleo como a las inversiones.",
+      "id": 14
+    },
+    {
+      "pregunta": "En un patrimonio con inmuebles que generan rentas, la tributación puede optimizarse:",
+      "opciones": [
+        "No declarando los alquileres",
+        "Deduciendo todos los gastos permitidos, amortización, y aprovechando las reducciones por alquiler de vivienda",
+        "Solo subiendo los alquileres",
+        "No se puede optimizar"
+      ],
+      "correcta": 1,
+      "explicacion": "La optimización incluye: deducir gastos reales (IBI, comunidad, seguros, reparaciones, intereses), aplicar amortización (3% sobre construcción), y aprovechar las reducciones del 50-90% por alquiler de vivienda.",
+      "id": 15
+    },
+    {
+      "pregunta": "El sujeto pasivo de la plusvalía municipal en una venta es:",
+      "opciones": [
+        "El comprador",
+        "El vendedor",
+        "El notario",
+        "El Ayuntamiento"
+      ],
+      "correcta": 1,
+      "explicacion": "En ventas, el transmitente (vendedor) es el sujeto pasivo. En herencias o donaciones, lo es el adquirente (heredero o donatario). El plazo para presentar y pagar es 30 días (transmisiones inter vivos) o 6 meses (mortis causa).",
+      "id": 16
+    },
+    {
+      "pregunta": "En un seguro de vida, la provisión matemática representa:",
+      "opciones": [
+        "La prima pagada",
+        "El valor actuarial de las obligaciones de la aseguradora menos las del tomador",
+        "El beneficio de la aseguradora",
+        "Los gastos de gestión"
+      ],
+      "correcta": 1,
+      "explicacion": "La provisión matemática es la diferencia entre el valor actual actuarial de las obligaciones futuras de la aseguradora y las primas futuras que pagará el tomador. Es el \"ahorro acumulado\" en el seguro.",
+      "id": 17
+    },
+    {
+      "pregunta": "Un ratio de Sharpe de 1,0 se considera generalmente:",
+      "opciones": [
+        "Muy malo",
+        "Bueno",
+        "Imposible",
+        "Solo para bonos"
+      ],
+      "correcta": 1,
+      "explicacion": "Un Sharpe de 1,0 indica que por cada unidad de riesgo se obtiene una unidad de exceso de rentabilidad. Sharpe > 1 es muy bueno; > 0,5 es aceptable; < 0 indica rendimiento inferior al libre de riesgo.",
+      "id": 18
+    },
+    {
+      "pregunta": "El documento DFI (Datos Fundamentales para el Inversor) o KID debe entregarse:",
+      "opciones": [
+        "Solo si el inversor lo solicita",
+        "Antes de la suscripción del fondo",
+        "Una vez al año",
+        "Al reembolsar"
+      ],
+      "correcta": 1,
+      "explicacion": "El DFI/KID (Key Information Document) debe entregarse obligatoriamente al inversor antes de la suscripción, de forma gratuita. Contiene información esencial: objetivos, riesgos, costes y rentabilidades pasadas.",
+      "id": 19
+    },
+    {
+      "pregunta": "El riesgo de liquidez en una cartera se refiere a:",
+      "opciones": [
+        "No poder vender activos rápidamente a precio justo",
+        "Tener demasiado efectivo",
+        "El riesgo de tipo de interés",
+        "La volatilidad del mercado"
+      ],
+      "correcta": 0,
+      "explicacion": "El riesgo de liquidez es la posibilidad de no poder vender activos rápidamente sin aceptar un descuento significativo sobre el valor justo. Afecta especialmente a activos ilíquidos o en momentos de crisis.",
+      "id": 20
+    },
+    {
+      "pregunta": "Un stress test de cartera:",
+      "opciones": [
+        "Mide la volatilidad normal",
+        "Evalúa el comportamiento de la cartera ante escenarios extremos",
+        "Solo analiza rentabilidades positivas",
+        "Calcula el Sharpe"
+      ],
+      "correcta": 1,
+      "explicacion": "Los stress tests simulan escenarios adversos (crisis 2008, subida de tipos de 200pb, caída del mercado del 40%) para evaluar cómo se comportaría la cartera en situaciones extremas.",
+      "id": 21
+    },
+    {
+      "pregunta": "La subrogación de acreedor en hipotecas permite:",
+      "opciones": [
+        "Cambiar el inmueble hipotecado",
+        "Trasladar la hipoteca a otra entidad financiera",
+        "Añadir un titular",
+        "Cancelar el préstamo anticipadamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La subrogación de acreedor es cambiar de banco la hipoteca, normalmente para conseguir mejores condiciones. La LCCI ha reducido las comisiones máximas por subrogación.",
+      "id": 22
+    },
+    {
+      "pregunta": "Un bono convertible otorga al tenedor:",
+      "opciones": [
+        "El derecho a cobrar cupones variables",
+        "El derecho a convertirlo en acciones del emisor",
+        "La obligación de convertirlo al vencimiento",
+        "Protección total contra la inflación"
+      ],
+      "correcta": 1,
+      "explicacion": "El bono convertible da al inversor el derecho (no la obligación) de convertir el bono en acciones del emisor a un precio predeterminado. Es un híbrido entre renta fija y renta variable.",
+      "id": 23
+    },
+    {
+      "pregunta": "La comisión de control de un plan de pensiones de empleo:",
+      "opciones": [
+        "No existe",
+        "Supervisa el funcionamiento del plan y representa a partícipes y beneficiarios",
+        "Gestiona las inversiones",
+        "Solo existe en planes individuales"
+      ],
+      "correcta": 1,
+      "explicacion": "En planes de empleo, la comisión de control (con representantes del promotor y partícipes) supervisa el plan, aprueba la política de inversión y controla a la gestora.",
+      "id": 24
+    },
+    {
+      "pregunta": "El autocontrol (self-assessment) en prevención de blanqueo incluye:",
+      "opciones": [
+        "Nada",
+        "Análisis de riesgos, políticas escritas, procedimientos de diligencia debida, formación y auditoría interna",
+        "Solo nombrar un responsable",
+        "Solo formación"
+      ],
+      "correcta": 1,
+      "explicacion": "El sistema de prevención debe incluir: análisis de riesgos documentado, políticas y procedimientos escritos, medidas de diligencia debida, formación, órgano de control interno, y revisión por experto externo.",
+      "id": 25
+    },
+    {
+      "pregunta": "El IPC subyacente excluye:",
+      "opciones": [
+        "Solo los alimentos",
+        "Solo la energía",
+        "Alimentos no elaborados y energía",
+        "Bienes importados"
+      ],
+      "correcta": 2,
+      "explicacion": "El IPC subyacente (o inflación subyacente) excluye los componentes más volátiles: alimentos no elaborados y productos energéticos. Esto permite observar la tendencia de fondo de la inflación sin las distorsiones de estos elementos.",
+      "id": 26
+    },
+    {
+      "pregunta": "El vendedor de una opción put tiene:",
+      "opciones": [
+        "Riesgo ilimitado",
+        "Riesgo limitado al strike menos la prima",
+        "Beneficio ilimitado",
+        "Ningún riesgo"
+      ],
+      "correcta": 1,
+      "explicacion": "El vendedor de una put tiene la obligación de comprar al strike si le ejercen. Su pérdida máxima es Strike - Prima (si el subyacente llega a cero). El beneficio máximo es la prima cobrada.",
+      "id": 27
+    },
+    {
+      "pregunta": "La regla \"100 menos la edad\" sugiere:",
+      "opciones": [
+        "Invertir tu edad en renta variable",
+        "El porcentaje de renta variable debería ser aproximadamente 100 menos tu edad",
+        "No invertir hasta los 100 años",
+        "Rebalancear cada 100 días"
+      ],
+      "correcta": 1,
+      "explicacion": "Es una regla heurística simple: si tienes 30 años, aproximadamente 70% en renta variable y 30% en renta fija. A los 60, sería 40%/60%. Es orientativa, no prescriptiva.",
+      "id": 28
+    },
+    {
+      "pregunta": "Los rendimientos del alquiler de inmuebles en el IRPF se califican como:",
+      "opciones": [
+        "Ganancias patrimoniales",
+        "Rendimientos del capital inmobiliario",
+        "Rendimientos del trabajo",
+        "Rentas exentas"
+      ],
+      "correcta": 1,
+      "explicacion": "Los ingresos por alquiler de inmuebles (excepto si es actividad económica) son rendimientos del capital inmobiliario, integrándose en la base general del IRPF.",
+      "id": 29
+    },
+    {
+      "pregunta": "Desde 2025, las aportaciones con más de 10 años de antigüedad:",
+      "opciones": [
+        "No se pueden rescatar",
+        "Se pueden rescatar libremente sin justificar contingencia",
+        "Tributan al 0%",
+        "Deben traspasarse obligatoriamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La reforma permite rescatar aportaciones con antigüedad superior a 10 años sin necesidad de que ocurra una contingencia, aumentando la liquidez del producto.",
+      "id": 30
+    },
+    {
+      "pregunta": "El indicador sintético de riesgo (SRI) en el DFI va de:",
+      "opciones": [
+        "1 a 5",
+        "1 a 7",
+        "A a E",
+        "0 a 100"
+      ],
+      "correcta": 1,
+      "explicacion": "El SRI (Synthetic Risk Indicator) en el KID va de 1 (menor riesgo) a 7 (mayor riesgo). Se basa en la volatilidad histórica y otros factores de riesgo del producto.",
+      "id": 31
+    },
+    {
+      "pregunta": "La IPA (Invalidez Permanente Absoluta) en un seguro de accidentes:",
+      "opciones": [
+        "Es una invalidez temporal",
+        "Inhabilita para toda profesión u oficio",
+        "Solo afecta a la profesión habitual",
+        "Es recuperable"
+      ],
+      "correcta": 1,
+      "explicacion": "La IPA supone la incapacidad total y permanente para cualquier trabajo. Es el grado más grave antes del fallecimiento. La IPT (Total) inhabilita solo para la profesión habitual.",
+      "id": 32
+    },
+    {
+      "pregunta": "Los fondos cotizados (ETFs):",
+      "opciones": [
+        "Tributan igual que los fondos tradicionales con diferimiento en traspasos",
+        "No gozan del diferimiento por traspaso (tributan como acciones)",
+        "Están exentos",
+        "Solo tributan los extranjeros"
+      ],
+      "correcta": 1,
+      "explicacion": "Los ETFs no tienen el régimen de diferimiento fiscal de los fondos tradicionales. Su venta genera ganancia/pérdida patrimonial que tributa en el ejercicio, como las acciones.",
+      "id": 33
+    },
+    {
+      "pregunta": "Los costes de transacción en una cartera incluyen:",
+      "opciones": [
+        "Solo las comisiones del broker",
+        "Comisiones, spread bid-ask, impacto de mercado, costes de oportunidad",
+        "Solo impuestos",
+        "Solo el TER del fondo"
+      ],
+      "correcta": 1,
+      "explicacion": "Los costes de transacción totales incluyen: comisiones explícitas, spread bid-ask, impacto de mercado (mover el precio con órdenes grandes), y costes de oportunidad por ejecución no inmediata.",
+      "id": 34
+    },
+    {
+      "pregunta": "Un inversor con función de utilidad U = E(R) - 0,5Aσ², donde A=4. Si E(R)=10% y σ=15%:",
+      "opciones": [
+        "U = 5,5%",
+        "U = 5,0%",
+        "U = 10%",
+        "U = -35%"
+      ],
+      "correcta": 0,
+      "explicacion": "* U = E(R) - 0,5 × A × σ² U = 0,10 - 0,5 × 4 × (0,15)² U = 0,10 - 2 × 0,0225 = 0,10 - 0,045 = 0,055 = 5,5%",
+      "id": 35
+    },
+    {
+      "pregunta": "Para optimizar fiscalmente una cartera de un cliente español:",
+      "opciones": [
+        "No hay nada que hacer",
+        "Considerar diferimiento (fondos vs ETFs), compensación de pérdidas, aportaciones a planes de pensiones, y timing de reembolsos",
+        "Evadir impuestos",
+        "Ignorar la fiscalidad"
+      ],
+      "correcta": 1,
+      "explicacion": "La optimización fiscal incluye: usar fondos con diferimiento, realizar tax-loss harvesting, aprovechar aportaciones a planes de pensiones según marginal, y planificar realizaciones de ganancias.",
+      "id": 36
+    },
+    {
+      "pregunta": "La ejecución hipotecaria procede cuando:",
+      "opciones": [
+        "El cliente paga puntualmente",
+        "Hay impago significativo y el banco inicia procedimiento judicial para subastar el inmueble",
+        "El cliente quiere vender",
+        "Bajan los tipos de interés"
+      ],
+      "correcta": 1,
+      "explicacion": "Ante impagos sostenidos (la LCCI exige al menos 12 cuotas o 3% del capital impagado en primera mitad del préstamo), el banco puede iniciar ejecución hipotecaria y subastar el inmueble.",
+      "id": 37
+    },
+    {
+      "pregunta": "La información de costes ex-post:",
+      "opciones": [
+        "No es obligatoria",
+        "Debe enviarse anualmente detallando los costes reales soportados durante el año",
+        "Solo para clientes profesionales",
+        "Solo si hay pérdidas"
+      ],
+      "correcta": 1,
+      "explicacion": "Anualmente debe enviarse información de costes ex-post: lo realmente pagado en el año en costes de servicio y de producto, con su impacto en la rentabilidad obtenida.",
+      "id": 38
+    },
+    {
+      "pregunta": "Según el modelo de Gordon-Shapiro, el precio teórico de una acción es:",
+      "opciones": [
+        "P = D / (k - g)",
+        "P = D × (k - g)",
+        "P = D / (k + g)",
+        "P = BPA / k"
+      ],
+      "correcta": 0,
+      "explicacion": "* El modelo de Gordon: P = D₁ / (k - g) Donde D₁ es el dividendo esperado del próximo año, k es la rentabilidad exigida y g es la tasa de crecimiento sostenible del dividendo (g < k).",
+      "id": 39
+    },
+    {
+      "pregunta": "Un split 3x1 de una acción de 60€ resulta en:",
+      "opciones": [
+        "3 acciones de 20€ cada una",
+        "1 acción de 180€",
+        "3 acciones de 60€ cada una",
+        "1 acción de 20€"
+      ],
+      "correcta": 0,
+      "explicacion": "En un split 3x1, cada acción antigua se divide en 3 nuevas. El precio se ajusta proporcionalmente: 60€ / 3 = 20€. El valor total de la posición no cambia.",
+      "id": 40
+    },
+    {
+      "pregunta": "Si los tipos de interés de mercado suben, ¿qué ocurre con el precio de un bono de cupón fijo?",
+      "opciones": [
+        "Sube",
+        "Baja",
+        "No cambia",
+        "Depende del plazo"
+      ],
+      "correcta": 1,
+      "explicacion": "Existe una relación inversa entre tipos de interés y precios de bonos. Si los tipos suben, los flujos futuros del bono se descuentan a una tasa mayor, reduciendo su valor presente (precio).",
+      "id": 41
+    },
+    {
+      "pregunta": "El múltiplo sobre capital invertido (equity multiple) de 2x significa:",
+      "opciones": [
+        "La inversión se ha perdido",
+        "El inversor ha obtenido 2 veces su capital inicial (1x retorno + 1x principal)",
+        "El inmueble vale el doble del catastral",
+        "El alquiler se ha doblado"
+      ],
+      "correcta": 1,
+      "explicacion": "Equity multiple = Total retornos / Capital invertido. Un múltiplo de 2x significa que se recupera el capital inicial más un beneficio igual al 100% de la inversión.",
+      "id": 42
+    },
+    {
+      "pregunta": "La paridad de tipos de interés cubierta establece que:",
+      "opciones": [
+        "Los tipos de interés son iguales en todos los países",
+        "El tipo forward se ajusta por el diferencial de tipos de interés",
+        "El tipo spot siempre sube",
+        "No existe oportunidad de arbitraje en el mercado de futuros de divisas"
+      ],
+      "correcta": 1,
+      "explicacion": "La paridad cubierta: F/S = (1 + r_doméstico) / (1 + r_extranjero). El tipo forward refleja el diferencial de tipos entre las dos divisas, eliminando oportunidades de arbitraje.",
+      "id": 43
+    },
+    {
+      "pregunta": "Un fondo por compartimentos:",
+      "opciones": [
+        "Tiene múltiples gestoras",
+        "Agrupa varios subfondos con diferentes políticas bajo un mismo paraguas",
+        "Divide a los partícipes en clases sociales",
+        "Solo invierte en inmuebles divididos"
+      ],
+      "correcta": 1,
+      "explicacion": "Un fondo por compartimentos (umbrella fund) agrupa varios subfondos independientes bajo una misma estructura legal. Cada compartimento tiene su política de inversión y valor liquidativo propio.",
+      "id": 44
+    },
+    {
+      "pregunta": "Entre dos bonos con el mismo vencimiento, ¿cuál tiene mayor duración?",
+      "opciones": [
+        "El de mayor cupón",
+        "El de menor cupón",
+        "El de mayor TIR",
+        "El de menor precio"
+      ],
+      "correcta": 1,
+      "explicacion": "La duración es menor cuanto mayor es el cupón, porque los flujos intermedios (cupones) tienen más peso y se reciben antes. Un bono cupón cero tiene la máxima duración (igual a su vencimiento).",
+      "id": 45
+    },
+    {
+      "pregunta": "Una cartera 60% acciones (β=1,2) y 40% bonos (β=0,2). ¿Cuál es la beta de la cartera?",
+      "opciones": [
+        "0,80",
+        "0,72",
+        "1,00",
+        "0,70"
+      ],
+      "correcta": 0,
+      "explicacion": "* βp = 0,60 × 1,2 + 0,40 × 0,2 = 0,72 + 0,08 = 0,80",
+      "id": 46
+    },
+    {
+      "pregunta": "La convexidad de un bono:",
+      "opciones": [
+        "Siempre perjudica al inversor",
+        "Siempre beneficia al inversor",
+        "Es irrelevante para la gestión de carteras",
+        "Solo es relevante para bonos a corto plazo"
+      ],
+      "correcta": 1,
+      "explicacion": "La convexidad beneficia al inversor porque la relación precio-TIR no es lineal sino convexa. Esto significa que ante subidas de tipos el precio cae menos de lo que sube ante bajadas equivalentes.",
+      "id": 47
+    },
+    {
+      "pregunta": "Los inmuebles como activo alternativo en carteras institucionales representan típicamente:",
+      "opciones": [
+        "0%",
+        "5-15% de la cartera",
+        "50% de la cartera",
+        "100%"
+      ],
+      "correcta": 1,
+      "explicacion": "Los inversores institucionales (fondos de pensiones, aseguradoras) suelen asignar entre el 5% y 15% de sus carteras a inmobiliario, buscando diversificación y rentas estables.",
+      "id": 48
+    },
+    {
+      "pregunta": "Si EUR/USD pasa de 1,10 a 1,15, el euro se ha:",
+      "opciones": [
+        "Depreciado un 4,55%",
+        "Apreciado un 4,55%",
+        "Depreciado un 5%",
+        "Apreciado un 5%"
+      ],
+      "correcta": 1,
+      "explicacion": "* Variación = (1,15 - 1,10) / 1,10 = 0,0455 = 4,55% El euro se ha apreciado (ahora compra más dólares).",
+      "id": 49
+    },
+    {
+      "pregunta": "Un \"bucket strategy\" en jubilación consiste en:",
+      "opciones": [
+        "Invertir todo en renta variable",
+        "Dividir el patrimonio en \"cubos\" según el horizonte temporal de uso",
+        "No invertir nada",
+        "Solo usar planes de pensiones"
+      ],
+      "correcta": 1,
+      "explicacion": "La estrategia de cubos divide el patrimonio: un cubo de liquidez (gastos 1-2 años), otro en renta fija (3-7 años), y otro en renta variable (largo plazo). Reduce el riesgo de secuencia.",
+      "id": 50
+    }
+  ]
+}

@@ -1,0 +1,1208 @@
+{
+  "nivel": "EIP",
+  "modulo": 8,
+  "titulo": "Fiscalidad de las Inversiones",
+  "peso_examen": 10,
+  "preguntas": [
+    {
+      "pregunta": "El IRPF es un impuesto:",
+      "opciones": [
+        "Indirecto y proporcional",
+        "Directo, personal, progresivo y parcialmente cedido a las CCAA",
+        "Solo estatal",
+        "Voluntario"
+      ],
+      "correcta": 1,
+      "explicacion": "El IRPF es directo (grava la renta), personal (considera circunstancias del contribuyente), progresivo (tipos crecientes según renta), y está parcialmente cedido a las CCAA (tramo autonómico).",
+      "id": 1
+    },
+    {
+      "pregunta": "La base imponible del IRPF se divide en:",
+      "opciones": [
+        "Una sola base",
+        "Base imponible general y base imponible del ahorro",
+        "Tres bases diferentes",
+        "Base urbana y base rústica"
+      ],
+      "correcta": 1,
+      "explicacion": "El IRPF tiene dos bases: la base general (rendimientos del trabajo, actividades económicas, imputaciones de renta, algunas ganancias) y la base del ahorro (rendimientos del capital mobiliario y ganancias patrimoniales por transmisión).",
+      "id": 2
+    },
+    {
+      "pregunta": "Los rendimientos del trabajo incluyen:",
+      "opciones": [
+        "Solo el salario",
+        "Salarios, pensiones, prestaciones de desempleo y rendimientos asimilados",
+        "Solo las pensiones",
+        "Los alquileres"
+      ],
+      "correcta": 1,
+      "explicacion": "Son rendimientos del trabajo: sueldos, pensiones públicas y privadas, prestaciones por desempleo, y asimilados (administradores, colaboraciones, cursos). Se integran en la base general.",
+      "id": 3
+    },
+    {
+      "pregunta": "La reducción por rendimientos del trabajo de hasta 7.302€ aplica cuando:",
+      "opciones": [
+        "Todos los contribuyentes",
+        "Rendimientos netos del trabajo inferiores a 14.852€ (con límites)",
+        "Solo pensionistas",
+        "Rendimientos superiores a 100.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "Existe una reducción para rentas del trabajo bajas: máximo 7.302€ si el rendimiento neto es ≤14.047,50€, decrece progresivamente hasta 0€ cuando supera 16.825€.",
+      "id": 4
+    },
+    {
+      "pregunta": "Los rendimientos del capital inmobiliario son:",
+      "opciones": [
+        "Rendimientos del trabajo",
+        "Ingresos por arrendamiento de inmuebles no afectos a actividad económica",
+        "Ganancias de capital",
+        "Rendimientos de fondos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los rendimientos de capital inmobiliario son los procedentes del arrendamiento (alquiler) de inmuebles que no están afectos a una actividad económica. Van a la base general.",
+      "id": 5
+    },
+    {
+      "pregunta": "El rendimiento neto del alquiler de vivienda habitual del inquilino puede reducirse en:",
+      "opciones": [
+        "0%",
+        "50% (con reducciones mayores según Ley de Vivienda 2023 en ciertos casos)",
+        "100%",
+        "No hay reducción"
+      ],
+      "correcta": 1,
+      "explicacion": "La reducción general es del 50% (antes 60%). La Ley de Vivienda permite reducciones de 60%, 70% o 90% para alquileres en zonas tensionadas, inquilinos jóvenes, o alquiler asequible.",
+      "id": 6
+    },
+    {
+      "pregunta": "Las ganancias y pérdidas patrimoniales por transmisión de elementos patrimoniales:",
+      "opciones": [
+        "Van a la base general",
+        "Se integran en la base del ahorro",
+        "Están siempre exentas",
+        "Tributan al tipo fijo del 25%"
+      ],
+      "correcta": 1,
+      "explicacion": "Las ganancias y pérdidas derivadas de transmisiones (venta de acciones, fondos, inmuebles) se integran en la base del ahorro, con tipos del 19% al 28%.",
+      "id": 7
+    },
+    {
+      "pregunta": "Los tipos de la base del ahorro en 2025 son:",
+      "opciones": [
+        "Un tipo único del 19%",
+        "Progresivos: 19% (hasta 6.000€), 21% (hasta 50.000€), 23% (hasta 200.000€), 27% (hasta 300.000€), 28% (resto)",
+        "El mismo que la base general",
+        "15% fijo"
+      ],
+      "correcta": 1,
+      "explicacion": "La base del ahorro tiene escala propia y progresiva: 19%, 21%, 23%, 27% y 28% según tramos, más favorable que la base general que puede llegar al 47% o más.",
+      "id": 8
+    },
+    {
+      "pregunta": "Las pérdidas patrimoniales por transmisión se compensan:",
+      "opciones": [
+        "Solo con ganancias del mismo año",
+        "Primero con ganancias del mismo tipo, y el exceso (hasta 25%) con rendimientos del capital mobiliario positivos, con arrastre de 4 años",
+        "No se pueden compensar",
+        "Con rendimientos del trabajo"
+      ],
+      "correcta": 1,
+      "explicacion": "Las pérdidas por transmisión se compensan con ganancias. El saldo negativo puede compensar hasta el 25% de los rendimientos del capital mobiliario positivos. Las pérdidas no compensadas se arrastran 4 años.",
+      "id": 9
+    },
+    {
+      "pregunta": "Los rendimientos del capital mobiliario incluyen:",
+      "opciones": [
+        "Solo los dividendos",
+        "Dividendos, intereses, rendimientos de seguros, rentas de capital",
+        "Los salarios",
+        "Las pensiones"
+      ],
+      "correcta": 1,
+      "explicacion": "RCM incluye: intereses de cuentas y depósitos, dividendos, rendimientos de seguros de vida-ahorro, rendimientos de letras y bonos, etc. Van a la base del ahorro (salvo excepciones).",
+      "id": 10
+    },
+    {
+      "pregunta": "La imputación de rentas inmobiliarias se aplica a:",
+      "opciones": [
+        "Todos los inmuebles",
+        "Inmuebles urbanos no arrendados ni afectos a actividad (excluida vivienda habitual)",
+        "Solo locales comerciales",
+        "Inmuebles en el extranjero únicamente"
+      ],
+      "correcta": 1,
+      "explicacion": "Los inmuebles urbanos vacíos o a disposición del titular (excepto vivienda habitual) generan una renta imputada del 2% del valor catastral (1,1% si revisado en los últimos 10 años).",
+      "id": 11
+    },
+    {
+      "pregunta": "Las reducciones de la base imponible general incluyen:",
+      "opciones": [
+        "Solo por aportaciones a planes de pensiones",
+        "Aportaciones a planes de pensiones, pensiones compensatorias, anualidades por alimentos",
+        "Las deducciones por vivienda",
+        "Los gastos de los hijos"
+      ],
+      "correcta": 1,
+      "explicacion": "Las reducciones de la base general incluyen: aportaciones a sistemas de previsión social (planes de pensiones), pensiones compensatorias al cónyuge y anualidades por alimentos.",
+      "id": 12
+    },
+    {
+      "pregunta": "El límite de reducción por aportaciones a planes de pensiones individuales es:",
+      "opciones": [
+        "8.000€",
+        "1.500€ (ampliable con aportaciones a planes de empleo)",
+        "Sin límite",
+        "10.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "El límite para planes individuales es 1.500€ anuales. Se puede ampliar hasta 8.500€ adicionales con aportaciones empresariales a planes de empleo, con límite conjunto de 10.000€.",
+      "id": 13
+    },
+    {
+      "pregunta": "El mínimo personal y familiar:",
+      "opciones": [
+        "Aumenta la base imponible",
+        "Reduce la cuota del impuesto (se calcula el impuesto sobre el mínimo y se resta)",
+        "Es una deducción en cuota",
+        "No existe"
+      ],
+      "correcta": 1,
+      "explicacion": "El mínimo personal (5.550€) y familiar (por descendientes, ascendientes, discapacidad) no reduce la base, sino que se calcula el impuesto sobre esa cuantía y se resta de la cuota, garantizando un mínimo vital exento.",
+      "id": 14
+    },
+    {
+      "pregunta": "Una persona con base liquidable general de 40.000€ y base del ahorro de 10.000€:",
+      "opciones": [
+        "Tributa todo a los tipos del ahorro",
+        "La base general tributa a escala progresiva (hasta 47%), la del ahorro a su escala propia (19-28%)",
+        "Tributa todo a un tipo único",
+        "No tributa"
+      ],
+      "correcta": 1,
+      "explicacion": "Cada base tiene su propia escala. La base general aplica tipos progresivos estatales + autonómicos (pueden superar 47%). La base del ahorro aplica sus tipos específicos más bajos.",
+      "id": 15
+    },
+    {
+      "pregunta": "Las retenciones a cuenta son:",
+      "opciones": [
+        "Un impuesto adicional",
+        "Pagos anticipados del IRPF que se deducen de la cuota final",
+        "Solo para empresas",
+        "Voluntarias"
+      ],
+      "correcta": 1,
+      "explicacion": "Las retenciones (sobre nóminas, dividendos, intereses) son anticipos del impuesto que el pagador ingresa en Hacienda. En la declaración anual se deducen de la cuota, pudiendo resultar a devolver.",
+      "id": 16
+    },
+    {
+      "pregunta": "La retención general sobre rendimientos del capital mobiliario es:",
+      "opciones": [
+        "15%",
+        "19%",
+        "21%",
+        "25%"
+      ],
+      "correcta": 1,
+      "explicacion": "La retención general sobre intereses, dividendos y otros RCM es del 19%. Coincide con el primer tramo de la escala del ahorro.",
+      "id": 17
+    },
+    {
+      "pregunta": "La obligación de declarar IRPF existe cuando:",
+      "opciones": [
+        "Siempre",
+        "Se superan ciertos límites de ingresos según tipo de renta (ej: 22.000€ de un pagador)",
+        "Solo para autónomos",
+        "Nunca es obligatorio"
+      ],
+      "correcta": 1,
+      "explicacion": "Existen límites: 22.000€ de rendimientos del trabajo (un pagador), 15.000€ (varios pagadores si el segundo supera 1.500€), 1.600€ de RCM con retención, etc. Por debajo no hay obligación pero puede interesar declarar.",
+      "id": 18
+    },
+    {
+      "pregunta": "Un residente fiscal en España tributa por:",
+      "opciones": [
+        "Solo rentas obtenidas en España",
+        "Su renta mundial (obligación personal)",
+        "Solo rentas del extranjero",
+        "No tributa en España"
+      ],
+      "correcta": 1,
+      "explicacion": "Los residentes fiscales en España tributan por su renta mundial (obtenida en España y en cualquier otro país). Los no residentes solo tributan por rentas obtenidas en España (obligación real).",
+      "id": 19
+    },
+    {
+      "pregunta": "Se considera residente fiscal en España quien:",
+      "opciones": [
+        "Solo por tener nacionalidad española",
+        "Permanezca más de 183 días, tenga centro de intereses económicos, o familia (cónyuge/hijos) residente",
+        "Solo por nacer en España",
+        "Tenga una cuenta bancaria española"
+      ],
+      "correcta": 1,
+      "explicacion": "Criterios de residencia fiscal: permanencia >183 días, centro principal de actividades o intereses económicos en España, o residencia del cónyuge no separado e hijos menores en España.",
+      "id": 20
+    },
+    {
+      "pregunta": "La tributación conjunta en IRPF:",
+      "opciones": [
+        "Es obligatoria",
+        "Es opcional para unidades familiares, con reducción de 3.400€ (biparental) o 2.150€ (monoparental)",
+        "Solo para solteros",
+        "No existe"
+      ],
+      "correcta": 1,
+      "explicacion": "Las unidades familiares pueden optar por tributación conjunta (rentas se acumulan, un solo mínimo personal pero reducciones adicionales) o individual. Suele convenir si un cónyuge tiene rentas bajas.",
+      "id": 21
+    },
+    {
+      "pregunta": "El régimen de estimación directa simplificada para autónomos:",
+      "opciones": [
+        "Aplica a todos los autónomos",
+        "Aplica a actividades empresariales con cifra de negocios <600.000€, con gastos de difícil justificación del 5%",
+        "Es para grandes empresas",
+        "No permite deducciones"
+      ],
+      "correcta": 1,
+      "explicacion": "La estimación directa simplificada permite a autónomos con ingresos <600.000€ una deducción del 5% del rendimiento neto previo como gastos de difícil justificación, con límite de 2.000€.",
+      "id": 22
+    },
+    {
+      "pregunta": "El régimen de estimación objetiva (módulos):",
+      "opciones": [
+        "Aplica a todas las actividades",
+        "Calcula el rendimiento según parámetros objetivos (trabajadores, potencia, superficie), para ciertas actividades y límites",
+        "Es más complejo que la estimación directa",
+        "No tiene límites de facturación"
+      ],
+      "correcta": 1,
+      "explicacion": "Los módulos determinan el rendimiento según signos externos (empleados, m², kW) sin contabilidad detallada. Solo para actividades listadas y con límites de ingresos (250.000€ general, 125.000€ en servicios a particulares).",
+      "id": 23
+    },
+    {
+      "pregunta": "Los rendimientos irregulares del trabajo (generados en más de 2 años) se reducen en:",
+      "opciones": [
+        "0%",
+        "30% (con límite de 300.000€ de base)",
+        "50%",
+        "100%"
+      ],
+      "correcta": 1,
+      "explicacion": "Los rendimientos del trabajo con periodo de generación >2 años o calificados reglamentariamente como irregulares se reducen un 30% (límite: cuantía del rendimiento que no supere 300.000€).",
+      "id": 24
+    },
+    {
+      "pregunta": "La exención de las indemnizaciones por despido improcedente:",
+      "opciones": [
+        "Es total sin límite",
+        "Está limitada a 180.000€ (la parte obligatoria por ley)",
+        "No existe exención",
+        "Es de 500.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "La indemnización obligatoria por despido improcedente está exenta con límite de 180.000€. El exceso, y la parte que supere la indemnización legal, tributan como rendimientos del trabajo.",
+      "id": 25
+    },
+    {
+      "pregunta": "Los intereses de cuentas y depósitos tributan como:",
+      "opciones": [
+        "Rendimientos del trabajo",
+        "Rendimientos del capital mobiliario en la base del ahorro",
+        "Ganancias patrimoniales",
+        "Están exentos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los intereses de cuentas corrientes, depósitos a plazo y similares son rendimientos del capital mobiliario que se integran en la base del ahorro, tributando al 19-28%.",
+      "id": 26
+    },
+    {
+      "pregunta": "Los dividendos de acciones tributan:",
+      "opciones": [
+        "Exentos hasta 1.500€",
+        "Íntegramente como RCM en la base del ahorro (se eliminó la exención de 1.500€ en 2015)",
+        "Como rendimientos del trabajo",
+        "Al 0%"
+      ],
+      "correcta": 1,
+      "explicacion": "Desde 2015 no existe exención para dividendos. Tributan íntegramente en la base del ahorro (19-28%). Se les practica retención del 19%.",
+      "id": 27
+    },
+    {
+      "pregunta": "La ganancia por venta de acciones cotizadas se calcula como:",
+      "opciones": [
+        "Precio de venta únicamente",
+        "Valor de transmisión - Valor de adquisición (aplicando FIFO si hay varias compras)",
+        "El valor nominal de las acciones",
+        "El dividendo cobrado"
+      ],
+      "correcta": 1,
+      "explicacion": "Ganancia = (Precio venta - gastos venta) - (Precio compra + gastos compra). Si hay acciones del mismo valor compradas en distintos momentos, se aplica FIFO (primeras en entrar, primeras en salir).",
+      "id": 28
+    },
+    {
+      "pregunta": "La venta de derechos de suscripción preferente de acciones cotizadas:",
+      "opciones": [
+        "Está exenta",
+        "Tributa como ganancia patrimonial en la base del ahorro",
+        "Reduce el coste de adquisición de las acciones",
+        "No tiene tratamiento fiscal"
+      ],
+      "correcta": 1,
+      "explicacion": "Desde 2017, la venta de derechos de suscripción de acciones cotizadas tributa como ganancia patrimonial en el ejercicio de la venta (antes reducía el coste de adquisición de las acciones).",
+      "id": 29
+    },
+    {
+      "pregunta": "Los cupones de bonos y obligaciones tributan como:",
+      "opciones": [
+        "Ganancias patrimoniales",
+        "Rendimientos del capital mobiliario",
+        "Rendimientos del trabajo",
+        "Rentas exentas"
+      ],
+      "correcta": 1,
+      "explicacion": "Los intereses (cupones) de bonos, obligaciones y otros títulos de renta fija son RCM incluidos en la base del ahorro. Están sujetos a retención del 19%.",
+      "id": 30
+    },
+    {
+      "pregunta": "La ganancia por venta de un bono antes del vencimiento:",
+      "opciones": [
+        "Es RCM",
+        "Es ganancia patrimonial",
+        "No tributa",
+        "Es rendimiento del trabajo"
+      ],
+      "correcta": 1,
+      "explicacion": "La diferencia entre el precio de venta y el de compra de un bono (plusvalía por transmisión) es ganancia patrimonial. Si se mantiene a vencimiento, la diferencia es RCM (rendimiento implícito).",
+      "id": 31
+    },
+    {
+      "pregunta": "Las Letras del Tesoro generan:",
+      "opciones": [
+        "Rendimientos del trabajo",
+        "RCM (rendimiento implícito: diferencia entre nominal y precio de compra)",
+        "Dividendos",
+        "Rentas exentas"
+      ],
+      "correcta": 1,
+      "explicacion": "Las Letras del Tesoro son activos a descuento (se compran por debajo del nominal). La diferencia entre nominal cobrado y precio pagado es RCM (rendimiento implícito), sin retención.",
+      "id": 32
+    },
+    {
+      "pregunta": "El traspaso entre fondos de inversión:",
+      "opciones": [
+        "Tributa siempre",
+        "No tributa; se difiere la ganancia hasta el reembolso final",
+        "Tiene un coste fiscal del 5%",
+        "Solo está permitido una vez al año"
+      ],
+      "correcta": 1,
+      "explicacion": "Los traspasos entre fondos de inversión españoles (y UCITS comercializados en España) gozan de diferimiento fiscal. No se tributa hasta el reembolso definitivo, manteniendo fecha y valor de adquisición originales.",
+      "id": 33
+    },
+    {
+      "pregunta": "El reembolso de un fondo de inversión genera:",
+      "opciones": [
+        "Rendimiento del capital mobiliario",
+        "Ganancia o pérdida patrimonial en la base del ahorro",
+        "Rendimiento del trabajo",
+        "Siempre pérdida"
+      ],
+      "correcta": 1,
+      "explicacion": "El reembolso de participaciones de fondos genera ganancia o pérdida patrimonial (diferencia entre valor de reembolso y valor de adquisición), integrándose en la base del ahorro.",
+      "id": 34
+    },
+    {
+      "pregunta": "La norma anti-aplicación en fondos de inversión impide compensar pérdidas si:",
+      "opciones": [
+        "Siempre",
+        "Se recompran participaciones del mismo fondo (u homogéneo) en los 2 meses anteriores o posteriores",
+        "Solo si la pérdida es pequeña",
+        "No existe esta norma"
+      ],
+      "correcta": 1,
+      "explicacion": "Si se vende un fondo con pérdida y se recompra el mismo (o similar) en ±2 meses, la pérdida no se puede computar hasta que se vendan las nuevas participaciones (evita \"lavado de pérdidas\").",
+      "id": 35
+    },
+    {
+      "pregunta": "Los fondos cotizados (ETFs):",
+      "opciones": [
+        "Tributan igual que los fondos tradicionales con diferimiento en traspasos",
+        "No gozan del diferimiento por traspaso (tributan como acciones)",
+        "Están exentos",
+        "Solo tributan los extranjeros"
+      ],
+      "correcta": 1,
+      "explicacion": "Los ETFs no tienen el régimen de diferimiento fiscal de los fondos tradicionales. Su venta genera ganancia/pérdida patrimonial que tributa en el ejercicio, como las acciones.",
+      "id": 36
+    },
+    {
+      "pregunta": "Las prestaciones de planes de pensiones tributan como:",
+      "opciones": [
+        "Rendimiento del capital mobiliario",
+        "Rendimiento del trabajo",
+        "Ganancia patrimonial",
+        "Renta exenta"
+      ],
+      "correcta": 1,
+      "explicacion": "Las prestaciones de planes de pensiones (jubilación, invalidez, fallecimiento) tributan íntegramente como rendimientos del trabajo en la base general, aplicando la escala progresiva.",
+      "id": 37
+    },
+    {
+      "pregunta": "La reducción del 40% para aportaciones a planes de pensiones anteriores a 2007:",
+      "opciones": [
+        "Aplica siempre",
+        "Aplica al rescate en forma de capital en el año de la contingencia o los 2 siguientes",
+        "Ya no existe",
+        "Es del 100%"
+      ],
+      "correcta": 1,
+      "explicacion": "Las aportaciones anteriores al 01/01/2007 pueden reducirse un 40% si se rescatan en forma de capital dentro del ejercicio del hecho causante (jubilación) o los 2 ejercicios siguientes.",
+      "id": 38
+    },
+    {
+      "pregunta": "Un seguro de vida-ahorro (capital diferido) tributa:",
+      "opciones": [
+        "Siempre como rendimiento del trabajo",
+        "La plusvalía (capital cobrado - primas pagadas) como RCM en la base del ahorro",
+        "Como ganancia patrimonial",
+        "Está exento"
+      ],
+      "correcta": 1,
+      "explicacion": "En seguros de vida donde el tomador es beneficiario, el rendimiento (capital percibido menos primas satisfechas) es RCM que tributa en la base del ahorro.",
+      "id": 39
+    },
+    {
+      "pregunta": "Si el beneficiario de un seguro de vida es persona distinta del tomador:",
+      "opciones": [
+        "Tributa en IRPF",
+        "Tributa en el Impuesto sobre Sucesiones y Donaciones",
+        "No tributa",
+        "Tributa en Sociedades"
+      ],
+      "correcta": 1,
+      "explicacion": "Si tomador ≠ beneficiario, el capital recibido tributa por ISD: como sucesión si es por fallecimiento (con reducciones), como donación si es en vida.",
+      "id": 40
+    },
+    {
+      "pregunta": "Los PIAS (Planes Individuales de Ahorro Sistemático) tienen exención de la plusvalía si:",
+      "opciones": [
+        "Se mantienen 10 años",
+        "Se percibe como renta vitalicia tras mantener 5 años desde la primera prima",
+        "Se rescata en forma de capital",
+        "Nunca hay exención"
+      ],
+      "correcta": 1,
+      "explicacion": "Los PIAS exentan la rentabilidad acumulada si se perciben como renta vitalicia transcurridos al menos 5 años desde la primera prima. Límite: 8.000€/año de aportación, 240.000€ total.",
+      "id": 41
+    },
+    {
+      "pregunta": "Los SIALP (Seguros Individuales de Ahorro a Largo Plazo):",
+      "opciones": [
+        "No tienen ventaja fiscal",
+        "Los rendimientos están exentos si se mantiene al menos 5 años (aportación máx. 5.000€/año)",
+        "Tributan como planes de pensiones",
+        "Son solo para empresas"
+      ],
+      "correcta": 1,
+      "explicacion": "Los SIALP exentan la rentabilidad si se mantiene la inversión 5 años. Aportación máxima 5.000€/año. Retiro parcial antes de 5 años hace perder la exención de todo el producto.",
+      "id": 42
+    },
+    {
+      "pregunta": "Una renta vitalicia percibida de un seguro tributa:",
+      "opciones": [
+        "Al 100%",
+        "Un porcentaje de la anualidad según edad del rentista, como RCM",
+        "Como ganancia patrimonial",
+        "Está exenta"
+      ],
+      "correcta": 1,
+      "explicacion": "En rentas vitalicias de seguros, solo tributa un porcentaje de cada anualidad según la edad al constituirse: 40% (<40 años), 35% (40-49), 28% (50-59), 24% (60-65), 20% (66-69), 8% (>70).",
+      "id": 43
+    },
+    {
+      "pregunta": "La ganancia por venta de vivienda habitual por mayores de 65 años:",
+      "opciones": [
+        "Tributa normalmente",
+        "Está exenta sin necesidad de reinversión",
+        "Tributa al 50%",
+        "Requiere reinversión obligatoria"
+      ],
+      "correcta": 1,
+      "explicacion": "Los mayores de 65 años que venden su vivienda habitual tienen la ganancia exenta, sin necesidad de reinvertir. Es una exención total y automática para este colectivo.",
+      "id": 44
+    },
+    {
+      "pregunta": "La exención por reinversión en vivienda habitual requiere:",
+      "opciones": [
+        "Reinvertir todo el precio de venta",
+        "Reinvertir el importe obtenido (total de la venta o al menos la plusvalía) en otra vivienda habitual en ±2 años",
+        "Comprar cualquier inmueble",
+        "No hay plazo límite"
+      ],
+      "correcta": 1,
+      "explicacion": "Para exención total hay que reinvertir todo el importe obtenido en la venta. Si se reinvierte parcialmente, la exención es proporcional. Plazo: 2 años antes o después de la venta.",
+      "id": 45
+    },
+    {
+      "pregunta": "Los coeficientes de abatimiento para inmuebles adquiridos antes del 31/12/1994:",
+      "opciones": [
+        "Se aplican a toda la ganancia",
+        "Reducen la ganancia generada hasta 20/01/2006, con límite de 400.000€ de valor de transmisión acumulado",
+        "Ya no existen",
+        "Son del 100%"
+      ],
+      "correcta": 1,
+      "explicacion": "Los coeficientes reducen la parte de ganancia \"antigua\" (hasta 20/01/2006). Hay un límite de 400.000€ de valor de transmisión acumulado desde 2015 para usar este beneficio.",
+      "id": 46
+    },
+    {
+      "pregunta": "Los rendimientos de criptoactivos tributan:",
+      "opciones": [
+        "No tributan",
+        "Las ganancias/pérdidas por transmisión como ganancia patrimonial en base del ahorro",
+        "Como rendimiento del trabajo",
+        "Solo si se convierten a euros"
+      ],
+      "correcta": 1,
+      "explicacion": "Las ganancias por venta/permuta de criptoactivos son ganancias patrimoniales (base del ahorro). También deben declararse en el Impuesto sobre el Patrimonio y modelo 721 si están en el extranjero.",
+      "id": 47
+    },
+    {
+      "pregunta": "El modelo 720 de declaración informativa de bienes en el extranjero:",
+      "opciones": [
+        "Ya no existe",
+        "Obliga a informar sobre cuentas, valores e inmuebles en el extranjero superiores a 50.000€",
+        "Solo para no residentes",
+        "Es voluntario"
+      ],
+      "correcta": 1,
+      "explicacion": "El modelo 720 obliga a declarar (no tributar, es informativo) bienes en el extranjero >50.000€ por categoría (cuentas, valores, inmuebles). El régimen sancionador ha sido suavizado tras sentencia del TJUE.",
+      "id": 48
+    },
+    {
+      "pregunta": "Las operaciones con derivados (futuros, opciones) generan:",
+      "opciones": [
+        "Rendimientos del trabajo",
+        "Ganancias o pérdidas patrimoniales (base del ahorro) o RCM según el caso",
+        "Solo pérdidas",
+        "Rentas exentas"
+      ],
+      "correcta": 1,
+      "explicacion": "Los resultados de derivados suelen ser ganancias/pérdidas patrimoniales (base del ahorro). Ciertos instrumentos derivados pueden generar RCM. Depende de la estructura y liquidación del producto.",
+      "id": 49
+    },
+    {
+      "pregunta": "Los Unit Linked tributan:",
+      "opciones": [
+        "Como planes de pensiones",
+        "Como seguros de vida-ahorro (RCM la plusvalía al rescate o vencimiento)",
+        "Están exentos",
+        "Como ganancias patrimoniales siempre"
+      ],
+      "correcta": 1,
+      "explicacion": "Los Unit Linked son seguros de vida donde el valor depende de fondos de inversión. El rescate genera RCM (capital percibido - primas). No tienen el diferimiento fiscal de los fondos tradicionales.",
+      "id": 50
+    },
+    {
+      "pregunta": "El Impuesto sobre Sucesiones y Donaciones es:",
+      "opciones": [
+        "Un impuesto estatal uniforme",
+        "Un impuesto cedido a las CCAA, con normativa muy diferente según territorio",
+        "Solo para herencias internacionales",
+        "Ha sido suprimido"
+      ],
+      "correcta": 1,
+      "explicacion": "El ISD está cedido a las CCAA, que tienen competencia normativa sobre reducciones, tarifa, bonificaciones. Esto genera grandes diferencias según dónde tribute la operación.",
+      "id": 51
+    },
+    {
+      "pregunta": "La base imponible del ISD en sucesiones es:",
+      "opciones": [
+        "Solo los inmuebles heredados",
+        "El valor real de los bienes y derechos del causante menos cargas deducibles",
+        "El valor catastral",
+        "El salario del heredero"
+      ],
+      "correcta": 1,
+      "explicacion": "La base imponible es el valor real de los bienes heredados, menos cargas, deudas y gastos deducibles (entierro, última enfermedad). Se añade el ajuar doméstico (3% del caudal).",
+      "id": 52
+    },
+    {
+      "pregunta": "Las adquisiciones mortis causa (herencias) tributan en la CA de:",
+      "opciones": [
+        "Residencia del heredero",
+        "Residencia habitual del fallecido (causante)",
+        "Ubicación de los bienes",
+        "Elección del heredero"
+      ],
+      "correcta": 1,
+      "explicacion": "En herencias, la CA competente es donde el causante tenía su residencia habitual (mayor permanencia en los últimos 5 años). Esto determina la normativa aplicable y las bonificaciones.",
+      "id": 53
+    },
+    {
+      "pregunta": "Las donaciones de bienes inmuebles tributan en la CA de:",
+      "opciones": [
+        "Residencia del donante",
+        "Ubicación del inmueble",
+        "Residencia del donatario",
+        "A elección"
+      ],
+      "correcta": 1,
+      "explicacion": "En donaciones de inmuebles, la normativa aplicable es la de la CA donde radique el inmueble, no la del donante ni donatario.",
+      "id": 54
+    },
+    {
+      "pregunta": "Las reducciones por parentesco en ISD favorecen a:",
+      "opciones": [
+        "Todos por igual",
+        "Los parientes más cercanos (Grupo I y II: descendientes, ascendientes, cónyuge)",
+        "Solo a hermanos",
+        "Los extraños"
+      ],
+      "correcta": 1,
+      "explicacion": "Las reducciones por parentesco son mayores para los grupos I (descendientes <21 años) y II (descendientes ≥21, cónyuge, ascendientes). Los grupos III (hermanos, sobrinos) y IV (extraños) tienen menos beneficios.",
+      "id": 55
+    },
+    {
+      "pregunta": "Muchas CCAA han bonificado el ISD para familiares directos en:",
+      "opciones": [
+        "0%",
+        "Hasta el 99% en algunos casos, reduciendo significativamente la cuota",
+        "Solo para inmuebles",
+        "Solo para empresas"
+      ],
+      "correcta": 1,
+      "explicacion": "Varias CCAA (Madrid, Andalucía, etc.) bonifican hasta el 99% la cuota para herencias y donaciones entre padres e hijos o cónyuges, minimizando el impuesto efectivo.",
+      "id": 56
+    },
+    {
+      "pregunta": "El Impuesto sobre el Patrimonio grava:",
+      "opciones": [
+        "La renta anual",
+        "El patrimonio neto del contribuyente a 31 de diciembre",
+        "Las herencias",
+        "Solo los inmuebles"
+      ],
+      "correcta": 1,
+      "explicacion": "El IP grava el patrimonio neto (bienes y derechos - deudas) del contribuyente a fecha 31 de diciembre. Es un impuesto anual sobre la riqueza.",
+      "id": 57
+    },
+    {
+      "pregunta": "El mínimo exento general en el IP es:",
+      "opciones": [
+        "300.000€",
+        "700.000€",
+        "1.000.000€",
+        "No hay mínimo"
+      ],
+      "correcta": 1,
+      "explicacion": "El mínimo exento estatal es 700.000€ de patrimonio neto. Las CCAA pueden modificarlo. Además, la vivienda habitual tiene exención adicional de hasta 300.000€.",
+      "id": 58
+    },
+    {
+      "pregunta": "El Impuesto Temporal de Solidaridad de las Grandes Fortunas (ITSGF):",
+      "opciones": [
+        "Sustituyó al IP",
+        "Es complementario al IP, para patrimonios superiores a 3 millones de euros",
+        "Solo existe en Cataluña",
+        "Grava las donaciones"
+      ],
+      "correcta": 1,
+      "explicacion": "El ITSGF (desde 2023) es un impuesto estatal que grava el patrimonio neto >3 millones €, complementario al IP. Deduce lo pagado por IP, afectando principalmente a CCAA que habían bonificado el IP.",
+      "id": 59
+    },
+    {
+      "pregunta": "La exención de la empresa familiar en IP requiere:",
+      "opciones": [
+        "Ningún requisito",
+        "Participación mínima, ejercicio de funciones directivas y remuneración >50% de rendimientos del trabajo",
+        "Solo ser accionista mayoritario",
+        "Cotizar en bolsa"
+      ],
+      "correcta": 1,
+      "explicacion": "Para la exención de la empresa familiar en IP se requiere: participación ≥5% individual o 20% con familia, ejercer funciones de dirección, y que la remuneración represente >50% de los rendimientos del trabajo/actividades.",
+      "id": 60
+    },
+    {
+      "pregunta": "El Impuesto sobre Sociedades tiene un tipo general de:",
+      "opciones": [
+        "30%",
+        "25%",
+        "15%",
+        "35%"
+      ],
+      "correcta": 1,
+      "explicacion": "El tipo general del IS es 25%. Hay tipos reducidos: 15% para emprendedores (primeros 2 años con base positiva), 23% para pymes con cifra <1M€, etc.",
+      "id": 61
+    },
+    {
+      "pregunta": "Las SICAV tributan en el IS al tipo de:",
+      "opciones": [
+        "25%",
+        "1%",
+        "0%",
+        "15%"
+      ],
+      "correcta": 1,
+      "explicacion": "Las SICAV tributan al 1% en el IS si cumplen requisitos (mínimo 100 accionistas, etc.). El impuesto efectivo se traslada al socio cuando percibe dividendos o vende acciones.",
+      "id": 62
+    },
+    {
+      "pregunta": "Las SOCIMI tributan en el IS al tipo de:",
+      "opciones": [
+        "25%",
+        "0% (si cumplen requisitos de distribución de dividendos)",
+        "1%",
+        "15%"
+      ],
+      "correcta": 1,
+      "explicacion": "Las SOCIMI tributan al 0% si distribuyen dividendos obligatorios. El impuesto recae en los accionistas al percibir dividendos. Hay gravamen especial del 19% sobre dividendos no distribuidos a socios exentos.",
+      "id": 63
+    },
+    {
+      "pregunta": "El IRNR (Impuesto sobre la Renta de No Residentes) grava:",
+      "opciones": [
+        "A los residentes fiscales",
+        "Las rentas obtenidas en España por personas no residentes",
+        "Solo inmuebles",
+        "Las exportaciones"
+      ],
+      "correcta": 1,
+      "explicacion": "El IRNR grava las rentas de fuente española obtenidas por personas físicas o jurídicas no residentes en España (obligación real de contribuir).",
+      "id": 64
+    },
+    {
+      "pregunta": "Un no residente que obtiene dividendos de una empresa española tributa en España:",
+      "opciones": [
+        "Al 0%",
+        "Al tipo del IRNR (generalmente 19%, puede variar por convenio)",
+        "Como residente",
+        "No tributa nunca"
+      ],
+      "correcta": 1,
+      "explicacion": "Los dividendos de fuente española a no residentes tributan en el IRNR (19% general UE/EEE, 24% otros). Los convenios de doble imposición pueden reducir esta retención.",
+      "id": 65
+    },
+    {
+      "pregunta": "Los convenios de doble imposición (CDI) sirven para:",
+      "opciones": [
+        "Pagar impuestos dos veces",
+        "Evitar que una misma renta tribute en dos países y establecer reglas de reparto",
+        "Eliminar todos los impuestos",
+        "Solo para empresas multinacionales"
+      ],
+      "correcta": 1,
+      "explicacion": "Los CDI distribuyen la potestad tributaria entre países para evitar doble imposición, establecen tipos máximos de retención en origen, y prevén mecanismos de eliminación de doble imposición.",
+      "id": 66
+    },
+    {
+      "pregunta": "La deducción por doble imposición internacional en IRPF permite:",
+      "opciones": [
+        "No declarar rentas extranjeras",
+        "Deducir de la cuota el impuesto pagado en el extranjero (con límites)",
+        "Aumentar la base imponible",
+        "Eximir todas las rentas extranjeras"
+      ],
+      "correcta": 1,
+      "explicacion": "Los residentes que tributan por rentas mundiales pueden deducir el impuesto pagado en el extranjero para evitar doble tributación. El límite es el impuesto español que correspondería a esa renta.",
+      "id": 67
+    },
+    {
+      "pregunta": "El IVA de la compra de vivienda nueva es:",
+      "opciones": [
+        "21%",
+        "10%",
+        "4%",
+        "0%"
+      ],
+      "correcta": 1,
+      "explicacion": "La vivienda nueva tributa al 10% de IVA (tipo reducido). La VPO tributa al 4% (superreducido). La vivienda de segunda mano tributa por ITP (6-10% según CCAA).",
+      "id": 68
+    },
+    {
+      "pregunta": "El ITP (Impuesto de Transmisiones Patrimoniales) grava:",
+      "opciones": [
+        "Operaciones empresariales",
+        "Transmisiones onerosas inter vivos de bienes y derechos (no sujetas a IVA)",
+        "Las herencias",
+        "Los dividendos"
+      ],
+      "correcta": 1,
+      "explicacion": "El ITP grava transmisiones patrimoniales onerosas entre particulares (vivienda usada, vehículos de segunda mano, etc.), operaciones societarias y AJD.",
+      "id": 69
+    },
+    {
+      "pregunta": "El AJD (Actos Jurídicos Documentados) en escrituras de hipoteca:",
+      "opciones": [
+        "Lo paga el cliente",
+        "Lo paga el banco desde la LCCI 2019",
+        "No existe",
+        "Se reparte al 50%"
+      ],
+      "correcta": 1,
+      "explicacion": "Desde la LCCI 2019, el AJD de las escrituras de préstamo hipotecario lo paga la entidad prestamista, no el cliente. Es un cambio significativo respecto a la situación anterior.",
+      "id": 70
+    },
+    {
+      "pregunta": "El Impuesto sobre Actos Jurídicos Documentados grava:",
+      "opciones": [
+        "Los salarios",
+        "Documentos notariales, mercantiles y administrativos",
+        "Las exportaciones",
+        "Los dividendos"
+      ],
+      "correcta": 1,
+      "explicacion": "El AJD grava la formalización de documentos: escrituras notariales (préstamos, compraventas, obras nuevas), letras de cambio y pagarés, y ciertos documentos administrativos.",
+      "id": 71
+    },
+    {
+      "pregunta": "La plusvalía municipal (IIVTNU) se paga cuando:",
+      "opciones": [
+        "Se compra un inmueble",
+        "Se transmite un terreno urbano (venta, herencia, donación)",
+        "Se alquila un inmueble",
+        "Se reforma la vivienda"
+      ],
+      "correcta": 1,
+      "explicacion": "El IIVTNU grava el incremento de valor de los terrenos urbanos puesto de manifiesto en la transmisión (venta, donación, herencia). Se calcula sobre el valor catastral del suelo.",
+      "id": 72
+    },
+    {
+      "pregunta": "Tras la sentencia del TC, la plusvalía municipal:",
+      "opciones": [
+        "Ha sido suprimida",
+        "Se puede calcular por el método objetivo o por el incremento real, no pudiendo gravar si no hay ganancia real",
+        "Se paga siempre igual",
+        "Solo aplica a empresas"
+      ],
+      "correcta": 1,
+      "explicacion": "El TC declaró inconstitucional gravar plusvalías ficticias. La nueva normativa permite calcular por fórmula objetiva o plusvalía real, no pudiendo tributar si no hay ganancia efectiva.",
+      "id": 73
+    },
+    {
+      "pregunta": "El sujeto pasivo de la plusvalía municipal en una venta es:",
+      "opciones": [
+        "El comprador",
+        "El vendedor",
+        "El notario",
+        "El Ayuntamiento"
+      ],
+      "correcta": 1,
+      "explicacion": "En ventas, el transmitente (vendedor) es el sujeto pasivo. En herencias o donaciones, lo es el adquirente (heredero o donatario). El plazo para presentar y pagar es 30 días (transmisiones inter vivos) o 6 meses (mortis causa).",
+      "id": 74
+    },
+    {
+      "pregunta": "Los impuestos especiales gravan:",
+      "opciones": [
+        "Los salarios",
+        "Consumos específicos: alcohol, tabaco, hidrocarburos, electricidad",
+        "Las herencias",
+        "Los dividendos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los Impuestos Especiales gravan el consumo de determinados bienes: hidrocarburos, alcohol, tabaco, electricidad, matriculación de vehículos. Se incluyen en el precio al consumidor.",
+      "id": 75
+    },
+    {
+      "pregunta": "La planificación fiscal consiste en:",
+      "opciones": [
+        "Evadir impuestos",
+        "Optimizar legalmente la carga tributaria aprovechando incentivos y opciones legales",
+        "No pagar nada",
+        "Cometer fraude"
+      ],
+      "correcta": 1,
+      "explicacion": "La planificación fiscal es el uso legítimo de las opciones, deducciones, reducciones y beneficios fiscales para minimizar la tributación dentro de la legalidad. Diferente del fraude o evasión.",
+      "id": 76
+    },
+    {
+      "pregunta": "Diferir la tributación significa:",
+      "opciones": [
+        "No pagar nunca",
+        "Retrasar el pago de impuestos a ejercicios futuros legalmente",
+        "Pagar más impuestos",
+        "Evadir impuestos"
+      ],
+      "correcta": 1,
+      "explicacion": "Diferir es postergar legalmente la tributación (ej: traspasos de fondos, reinversión en vivienda). El impuesto se paga en el futuro, permitiendo disponer del dinero mientras tanto.",
+      "id": 77
+    },
+    {
+      "pregunta": "Para un contribuyente en el tramo marginal del 45%, las aportaciones a planes de pensiones generan un ahorro fiscal de:",
+      "opciones": [
+        "19%",
+        "45% de la aportación (hasta el límite)",
+        "0%",
+        "100%"
+      ],
+      "correcta": 1,
+      "explicacion": "Las aportaciones a planes reducen la base imponible general. Si el marginal es 45%, cada euro aportado ahorra 45 céntimos de impuestos. El ahorro depende del tipo marginal del contribuyente.",
+      "id": 78
+    },
+    {
+      "pregunta": "Para minimizar el impacto fiscal del rescate de un plan de pensiones conviene:",
+      "opciones": [
+        "Rescatar todo de golpe",
+        "Rescatar en forma de renta a lo largo de varios años para evitar subir de tramo",
+        "No rescatarlo nunca",
+        "Rescatar en año bisiesto"
+      ],
+      "correcta": 1,
+      "explicacion": "Al tributar como rendimiento del trabajo a escala progresiva, rescatar todo de una vez eleva el marginal. Distribuir en rentas a lo largo de años permite mantenerse en tramos más bajos.",
+      "id": 79
+    },
+    {
+      "pregunta": "La compensación de pérdidas patrimoniales con ganancias permite:",
+      "opciones": [
+        "Aumentar la base imponible",
+        "Reducir la tributación utilizando pérdidas de años anteriores o del mismo ejercicio",
+        "No tiene efecto fiscal",
+        "Solo en ganancias del trabajo"
+      ],
+      "correcta": 1,
+      "explicacion": "Las pérdidas patrimoniales compensan ganancias, reduciendo la base del ahorro. El saldo negativo puede compensar hasta 25% de RCM positivo. Las pérdidas se arrastran 4 años.",
+      "id": 80
+    },
+    {
+      "pregunta": "El \"tax loss harvesting\" es una estrategia que consiste en:",
+      "opciones": [
+        "Generar ganancias",
+        "Materializar pérdidas latentes para compensar ganancias y reducir impuestos",
+        "No vender nunca",
+        "Comprar acciones en pérdidas de otros"
+      ],
+      "correcta": 1,
+      "explicacion": "Tax loss harvesting implica vender activos con pérdidas latentes para realizar la pérdida fiscal y compensar ganancias. Se puede recomprar activos similares respetando la norma anti-aplicación.",
+      "id": 81
+    },
+    {
+      "pregunta": "Para minimizar la tributación de dividendos, una opción es:",
+      "opciones": [
+        "Cobrar más dividendos",
+        "Invertir a través de fondos de acumulación que no distribuyen (se difiere tributación)",
+        "Declarar los dividendos como salario",
+        "No declararlos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos de acumulación reinvierten dividendos internamente sin tributación. El inversor solo tributa al reembolsar. Además, puede traspasar sin tributar, difiriendo indefinidamente.",
+      "id": 82
+    },
+    {
+      "pregunta": "En la elección entre fondo de inversión y ETF, fiscalmente:",
+      "opciones": [
+        "Son exactamente iguales",
+        "El fondo tradicional permite traspasos sin tributar; el ETF no",
+        "El ETF siempre es mejor",
+        "El fondo tributa más"
+      ],
+      "correcta": 1,
+      "explicacion": "La principal diferencia fiscal es el diferimiento: los fondos tradicionales permiten traspasos sin tributar. Los ETFs tributan en cada venta como las acciones, sin diferimiento.",
+      "id": 83
+    },
+    {
+      "pregunta": "La tributación conjunta en IRPF puede interesar cuando:",
+      "opciones": [
+        "Ambos cónyuges tienen rentas altas",
+        "Un cónyuge tiene rentas bajas o nulas",
+        "Siempre es mejor",
+        "Nunca interesa"
+      ],
+      "correcta": 1,
+      "explicacion": "La conjunta acumula rentas y aplica un solo mínimo personal (con reducción adicional). Interesa si un cónyuge tiene rentas bajas, aprovechando que el otro \"rellena\" sus tramos bajos. Si ambos tienen rentas altas, la individual suele ser mejor.",
+      "id": 84
+    },
+    {
+      "pregunta": "Para planificar el ISD en herencias, se puede:",
+      "opciones": [
+        "No hacer nada",
+        "Usar seguros de vida, donaciones en vida, pactos sucesorios, aprovechar reducciones y bonificaciones autonómicas",
+        "Evadir el impuesto",
+        "No dejar herencia"
+      ],
+      "correcta": 1,
+      "explicacion": "Estrategias lícitas incluyen: designar beneficiarios en seguros (tributan al margen del caudal), donaciones aprovechando bonificaciones, pactos sucesorios, y planificar según normativa de la CA más favorable.",
+      "id": 85
+    },
+    {
+      "pregunta": "Los seguros de vida con beneficiario designado:",
+      "opciones": [
+        "Se incluyen siempre en la herencia a repartir",
+        "Se perciben directamente por el beneficiario, fuera del caudal hereditario",
+        "No tienen ninguna ventaja",
+        "Los cobra el Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "Los seguros de vida van directamente al beneficiario designado, fuera del caudal hereditario. No los reparte el testamento ni se incluyen en la masa hereditaria a dividir entre herederos.",
+      "id": 86
+    },
+    {
+      "pregunta": "La empresa familiar en el ISD tiene:",
+      "opciones": [
+        "Más impuestos",
+        "Reducción del 95% (o superior según CCAA) en la base imponible si se cumplen requisitos",
+        "Exención total automática",
+        "Ningún beneficio"
+      ],
+      "correcta": 1,
+      "explicacion": "La adquisición mortis causa de empresa familiar o participaciones en entidades familiares tiene reducción del 95% en la base (o más según CCAA), si se cumplen requisitos de mantenimiento (10 años).",
+      "id": 87
+    },
+    {
+      "pregunta": "La aportación de inmuebles a una sociedad:",
+      "opciones": [
+        "No tiene efectos fiscales",
+        "Puede generar ganancia patrimonial en el aportante (diferencia entre valor de aportación y coste de adquisición)",
+        "Está prohibida",
+        "Siempre está exenta"
+      ],
+      "correcta": 1,
+      "explicacion": "Aportar un inmueble a una sociedad genera ganancia patrimonial si el valor de aportación supera el de adquisición. Hay regímenes de diferimiento (canje de valores, aportaciones no dinerarias) si se cumplen requisitos.",
+      "id": 88
+    },
+    {
+      "pregunta": "El régimen de diferimiento en aportaciones no dinerarias especiales (LIS art. 87):",
+      "opciones": [
+        "Obliga a tributar inmediatamente",
+        "Permite diferir la ganancia patrimonial en el aportante hasta que transmita las acciones recibidas",
+        "Solo aplica a dinero",
+        "Ha sido suprimido"
+      ],
+      "correcta": 1,
+      "explicacion": "El régimen especial permite diferir la tributación de la ganancia en aportaciones no dinerarias de ramas de actividad o participaciones mayoritarias a sociedades, si se cumplen requisitos.",
+      "id": 89
+    },
+    {
+      "pregunta": "La holding familiar puede ser útil para:",
+      "opciones": [
+        "Pagar más impuestos",
+        "Centralizar la gestión patrimonial, diferir tributación de dividendos y plusvalías entre sociedades, y planificar sucesiones",
+        "Complicar la gestión",
+        "No tiene ninguna utilidad"
+      ],
+      "correcta": 1,
+      "explicacion": "La holding permite: exención del 95% de dividendos entre sociedades, reinvertir sin tributar, consolidar participaciones para la exención en IP/ISD, y facilitar la sucesión empresarial.",
+      "id": 90
+    },
+    {
+      "pregunta": "La exención de dividendos entre sociedades (participation exemption) en el IS es:",
+      "opciones": [
+        "Del 50%",
+        "Del 95% si la participación es ≥5% o >20M€ mantenida 1 año",
+        "Del 100%",
+        "No existe"
+      ],
+      "correcta": 1,
+      "explicacion": "Los dividendos y plusvalías entre sociedades están exentos al 95% si se posee ≥5% de participación (o valor >20M€) durante al menos 1 año. Antes era 100%, ahora un 5% tributa.",
+      "id": 91
+    },
+    {
+      "pregunta": "En un patrimonio con inmuebles que generan rentas, la tributación puede optimizarse:",
+      "opciones": [
+        "No declarando los alquileres",
+        "Deduciendo todos los gastos permitidos, amortización, y aprovechando las reducciones por alquiler de vivienda",
+        "Solo subiendo los alquileres",
+        "No se puede optimizar"
+      ],
+      "correcta": 1,
+      "explicacion": "La optimización incluye: deducir gastos reales (IBI, comunidad, seguros, reparaciones, intereses), aplicar amortización (3% sobre construcción), y aprovechar las reducciones del 50-90% por alquiler de vivienda.",
+      "id": 92
+    },
+    {
+      "pregunta": "Para la venta de un inmueble con alta plusvalía, conviene evaluar:",
+      "opciones": [
+        "Venderlo siempre al precio más alto posible sin más",
+        "La exención por reinversión o por mayores de 65, los coeficientes de abatimiento, y la posible donación previa en CCAA con ISD bonificado",
+        "No venderlo nunca",
+        "Regalarlo sin más"
+      ],
+      "correcta": 1,
+      "explicacion": "Estrategias incluyen: reinvertir en vivienda habitual (exención), vender siendo >65 años (exención vivienda habitual), usar coeficientes de abatimiento (si aplican), o en casos extremos, donación previa si el ISD está muy bonificado.",
+      "id": 93
+    },
+    {
+      "pregunta": "El ahorro a través de seguros puede ser más eficiente fiscalmente porque:",
+      "opciones": [
+        "No tienen ninguna ventaja",
+        "PIAS y SIALP pueden exentar rendimientos bajo ciertas condiciones; las rentas vitalicias tributan parcialmente",
+        "Tributan más que los fondos",
+        "No existen productos de ahorro asegurador"
+      ],
+      "correcta": 1,
+      "explicacion": "Los seguros ofrecen ventajas: PIAS (exención si renta vitalicia tras 5 años), SIALP (exención tras 5 años), rentas vitalicias (tributan porcentaje reducido según edad).",
+      "id": 94
+    },
+    {
+      "pregunta": "Para un autónomo, el traspaso de su negocio puede beneficiarse de:",
+      "opciones": [
+        "Ningún beneficio fiscal",
+        "Exención por reinversión si reinvierte en otra actividad económica (bajo ciertas condiciones)",
+        "Doble tributación obligatoria",
+        "Prohibición de venta"
+      ],
+      "correcta": 1,
+      "explicacion": "Existe exención para la plusvalía por transmisión de elementos afectos a actividad económica si se reinvierte en otros elementos afectos. Hay también beneficios en ISD para transmisiones de empresa familiar.",
+      "id": 95
+    },
+    {
+      "pregunta": "La \"regla de los dos meses\" en la norma anti-aplicación afecta a:",
+      "opciones": [
+        "Todos los contribuyentes igual",
+        "La posibilidad de compensar pérdidas si se recompran valores homogéneos en ±2 meses",
+        "La declaración de la renta",
+        "Los plazos de pago"
+      ],
+      "correcta": 1,
+      "explicacion": "Si se venden valores con pérdida y se recompran iguales o similares en los 2 meses anteriores o posteriores, la pérdida no se puede computar hasta que se vendan los nuevos valores.",
+      "id": 96
+    },
+    {
+      "pregunta": "La declaración complementaria permite:",
+      "opciones": [
+        "Pagar menos impuestos",
+        "Regularizar voluntariamente errores u omisiones de declaraciones anteriores",
+        "Anular declaraciones",
+        "Solicitar devoluciones"
+      ],
+      "correcta": 1,
+      "explicacion": "La complementaria permite corregir declaraciones anteriores si resulta mayor importe a ingresar o menor a devolver. Se puede presentar voluntariamente con recargos reducidos antes de que Hacienda actúe.",
+      "id": 97
+    },
+    {
+      "pregunta": "La prescripción de deudas tributarias en España es generalmente de:",
+      "opciones": [
+        "2 años",
+        "4 años",
+        "10 años",
+        "No prescriben"
+      ],
+      "correcta": 1,
+      "explicacion": "El plazo de prescripción es 4 años desde el fin del plazo de declaración. Transcurrido este tiempo sin actuación, prescribe el derecho de la Administración a liquidar y a exigir el pago.",
+      "id": 98
+    },
+    {
+      "pregunta": "El régimen de impatriados (Ley Beckham) permite a trabajadores desplazados:",
+      "opciones": [
+        "No pagar impuestos",
+        "Tributar por IRNR (tipo fijo ~24% hasta cierto límite) en lugar de IRPF durante 6 años",
+        "Doble tributación",
+        "Ha sido suprimido"
+      ],
+      "correcta": 1,
+      "explicacion": "El régimen especial para trabajadores desplazados permite tributar como no residente (tipo fijo ~24% en rentas del trabajo hasta 600.000€) durante el año de llegada y los 5 siguientes, si se cumplen requisitos.",
+      "id": 99
+    },
+    {
+      "pregunta": "La rentabilidad financiero-fiscal de una inversión considera:",
+      "opciones": [
+        "Solo la rentabilidad bruta",
+        "La rentabilidad neta después de impuestos",
+        "Solo la inflación",
+        "Solo las comisiones"
+      ],
+      "correcta": 1,
+      "explicacion": "La rentabilidad financiero-fiscal considera el efecto de los impuestos sobre la rentabilidad bruta. Es la rentabilidad real que obtiene el inversor después de tributar, y puede variar según el tipo marginal y el vehículo de inversión.",
+      "id": 100
+    }
+  ]
+}

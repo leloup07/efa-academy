@@ -1,0 +1,608 @@
+{
+  "titulo": "Simulacro EFA #1 - 50 Preguntas",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "El alfa de Jensen positivo indica que:",
+      "opciones": [
+        "El gestor ha destruido valor",
+        "El gestor ha añadido valor ajustado por riesgo",
+        "La cartera tiene beta negativa",
+        "El mercado ha subido"
+      ],
+      "correcta": 1,
+      "explicacion": "Alfa positivo significa que la rentabilidad real supera la esperada según CAPM para esa beta. El gestor ha generado rentabilidad extra (valor añadido) ajustada por el riesgo asumido.",
+      "id": 1
+    },
+    {
+      "pregunta": "La novación de un préstamo hipotecario consiste en:",
+      "opciones": [
+        "Cancelar la hipoteca",
+        "Modificar condiciones del préstamo existente (tipo, plazo, etc.) con el mismo acreedor",
+        "Cambiar de banco",
+        "Ampliar el inmueble"
+      ],
+      "correcta": 1,
+      "explicacion": "La novación modifica términos del préstamo (tipo de interés, plazo, carencias) manteniendo el mismo prestamista. Tiene costes reducidos respecto a la subrogación o nueva hipoteca.",
+      "id": 2
+    },
+    {
+      "pregunta": "Un cliente pregunta si debe invertir una suma importante de golpe o gradualmente:",
+      "opciones": [
+        "Siempre de golpe",
+        "Depende: lump-sum históricamente mejor, pero DCA (aportaciones periódicas) reduce riesgo de timing y es más cómodo psicológicamente",
+        "Nunca invertir",
+        "Solo en enero"
+      ],
+      "correcta": 1,
+      "explicacion": "Estadísticamente, invertir de golpe (lump-sum) suele dar mejores resultados (el mercado sube más de lo que baja). Pero el DCA reduce el riesgo de entrar en un pico y es psicológicamente más llevadero.",
+      "id": 3
+    },
+    {
+      "pregunta": "La consistencia de rentabilidades de un fondo se puede evaluar mediante:",
+      "opciones": [
+        "Solo el rendimiento del último año",
+        "El análisis de rentabilidades en diferentes periodos y condiciones de mercado",
+        "El tamaño del fondo",
+        "La nacionalidad del gestor"
+      ],
+      "correcta": 1,
+      "explicacion": "La consistencia se evalúa analizando rentabilidades en múltiples periodos (1, 3, 5, 10 años), en diferentes condiciones de mercado (alcista, bajista) y comparando con el benchmark y competidores.",
+      "id": 4
+    },
+    {
+      "pregunta": "La cuota de solidaridad afecta a:",
+      "opciones": [
+        "Todos los trabajadores",
+        "Los salarios que superan la base máxima de cotización",
+        "Solo los pensionistas",
+        "Solo los autónomos"
+      ],
+      "correcta": 1,
+      "explicacion": "La cuota de solidaridad grava la parte del salario que excede la base máxima de cotización, que antes no cotizaba. Se implementa gradualmente desde 2025.",
+      "id": 5
+    },
+    {
+      "pregunta": "Una cartera con volatilidad anual del 20% y valor de 1 millón €. El VaR diario al 95% (aproximadamente 1,65σ) es:",
+      "opciones": [
+        "Aprox. 20.000€",
+        "Aprox. 330.000€",
+        "Aprox. 2.000€",
+        "Aprox. 165.000€"
+      ],
+      "correcta": 0,
+      "explicacion": "* σ diaria ≈ σ anual / √252 = 20% / 15,87 ≈ 1,26% VaR diario 95% = 1,65 × 1,26% × 1.000.000€ ≈ 1,65 × 12.600€ ≈ 20.790€ ≈ 20.000€",
+      "id": 6
+    },
+    {
+      "pregunta": "El \"Best Execution\" obliga a los intermediarios a:",
+      "opciones": [
+        "Garantizar beneficios al cliente",
+        "Obtener el mejor resultado posible para el cliente considerando precio, costes, velocidad",
+        "Operar solo en una bolsa",
+        "Ignorar las instrucciones del cliente"
+      ],
+      "correcta": 1,
+      "explicacion": "Best Execution (MiFID II) requiere que los intermediarios tomen medidas razonables para obtener el mejor resultado posible: precio, costes, velocidad, probabilidad de ejecución y liquidación.",
+      "id": 7
+    },
+    {
+      "pregunta": "Los objetivos financieros deben ser:",
+      "opciones": [
+        "Vagos y generales",
+        "Específicos, medibles, alcanzables, relevantes y con plazo (SMART)",
+        "Solo a largo plazo",
+        "Secretos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los objetivos SMART (Specific, Measurable, Achievable, Relevant, Time-bound) son más efectivos: \"ahorrar 50.000€ para la entrada de un piso en 5 años\" vs \"ahorrar para una casa algún día\".",
+      "id": 8
+    },
+    {
+      "pregunta": "Para minimizar la tributación de dividendos, una opción es:",
+      "opciones": [
+        "Cobrar más dividendos",
+        "Invertir a través de fondos de acumulación que no distribuyen (se difiere tributación)",
+        "Declarar los dividendos como salario",
+        "No declararlos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos de acumulación reinvierten dividendos internamente sin tributación. El inversor solo tributa al reembolsar. Además, puede traspasar sin tributar, difiriendo indefinidamente.",
+      "id": 9
+    },
+    {
+      "pregunta": "Un swap de tipos de interés (IRS) estándar implica:",
+      "opciones": [
+        "Intercambiar principales en diferentes divisas",
+        "Intercambiar un tipo fijo por uno variable sobre el mismo nocional",
+        "Comprar y vender simultáneamente futuros",
+        "Una opción sobre tipos de interés"
+      ],
+      "correcta": 1,
+      "explicacion": "En un IRS plain vanilla, una parte paga tipo fijo y recibe variable (normalmente Euribor), y la otra al revés. No hay intercambio de principal, solo de flujos de intereses sobre un nocional.",
+      "id": 10
+    },
+    {
+      "pregunta": "Un ETF (Exchange Traded Fund) es:",
+      "opciones": [
+        "Un fondo de inversión que cotiza en bolsa",
+        "Un derivado sobre índices",
+        "Una acción preferente",
+        "Un bono cotizado"
+      ],
+      "correcta": 0,
+      "explicacion": "Los ETFs son fondos de inversión cuyas participaciones cotizan en bolsa como si fueran acciones. Combinan la diversificación de un fondo con la liquidez y negociación continua de las acciones.",
+      "id": 11
+    },
+    {
+      "pregunta": "Si el PER de una empresa es 15 y el del sector es 20, podemos decir que:",
+      "opciones": [
+        "La empresa está sobrevalorada respecto al sector",
+        "La empresa está infravalorada respecto al sector",
+        "La empresa tiene más riesgo que el sector",
+        "No se puede comparar solo con el PER"
+      ],
+      "correcta": 1,
+      "explicacion": "Un PER inferior al del sector sugiere que la acción está relativamente barata (infravalorada), aunque hay que analizar si hay razones fundamentales para esa diferencia (menor crecimiento esperado, mayor riesgo, etc.).",
+      "id": 12
+    },
+    {
+      "pregunta": "El ratio Sortino utiliza como medida de riesgo:",
+      "opciones": [
+        "La volatilidad total",
+        "Solo la volatilidad de las rentabilidades negativas (downside deviation)",
+        "La beta",
+        "El tracking error"
+      ],
+      "correcta": 1,
+      "explicacion": "Sortino = (R - Rf) / Downside deviation. Solo penaliza las desviaciones negativas, no la volatilidad al alza. Es más relevante para inversores preocupados solo por pérdidas.",
+      "id": 13
+    },
+    {
+      "pregunta": "El límite de reducción por aportaciones a planes de pensiones individuales es:",
+      "opciones": [
+        "8.000€",
+        "1.500€ (ampliable con aportaciones a planes de empleo)",
+        "Sin límite",
+        "10.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "El límite para planes individuales es 1.500€ anuales. Se puede ampliar hasta 8.500€ adicionales con aportaciones empresariales a planes de empleo, con límite conjunto de 10.000€.",
+      "id": 14
+    },
+    {
+      "pregunta": "La confidencialidad de la información del cliente:",
+      "opciones": [
+        "No es importante",
+        "Es obligatoria y fundamental para la relación de confianza",
+        "Solo para clientes VIP",
+        "Puede compartirse con cualquiera"
+      ],
+      "correcta": 1,
+      "explicacion": "La información del cliente es confidencial por ley (RGPD, secreto bancario) y por ética profesional. Solo puede usarse para los fines autorizados y no compartirse sin consentimiento (salvo obligación legal).",
+      "id": 15
+    },
+    {
+      "pregunta": "El Impuesto sobre Sociedades tiene un tipo general de:",
+      "opciones": [
+        "30%",
+        "25%",
+        "15%",
+        "35%"
+      ],
+      "correcta": 1,
+      "explicacion": "El tipo general del IS es 25%. Hay tipos reducidos: 15% para emprendedores (primeros 2 años con base positiva), 23% para pymes con cifra <1M€, etc.",
+      "id": 16
+    },
+    {
+      "pregunta": "La due diligence en adquisición inmobiliaria incluye:",
+      "opciones": [
+        "Solo mirar el inmueble por fuera",
+        "Análisis técnico, legal, urbanístico, fiscal, financiero y comercial del activo",
+        "Solo negociar el precio",
+        "Firma del contrato"
+      ],
+      "correcta": 1,
+      "explicacion": "Due diligence comprende: revisión legal (cargas, titularidad), técnica (estado constructivo), urbanística (licencias), fiscal, comercial (contratos de alquiler), y financiera del activo.",
+      "id": 17
+    },
+    {
+      "pregunta": "El derecho de suscripción preferente sirve para:",
+      "opciones": [
+        "Obtener dividendos extra",
+        "Proteger al accionista de la dilución en ampliaciones",
+        "Votar en la junta de accionistas",
+        "Vender las acciones a mejor precio"
+      ],
+      "correcta": 1,
+      "explicacion": "El derecho de suscripción preferente permite a los accionistas existentes suscribir acciones nuevas en proporción a su participación, evitando la dilución de su porcentaje de propiedad.",
+      "id": 18
+    },
+    {
+      "pregunta": "La ETTI (Estructura Temporal de Tipos de Interés) con pendiente positiva indica que:",
+      "opciones": [
+        "Los inversores esperan subidas de tipos",
+        "Los tipos a largo plazo son mayores que los de corto plazo",
+        "Hay mayor prima de liquidez en plazos largos",
+        "Todas las anteriores son posibles explicaciones"
+      ],
+      "correcta": 3,
+      "explicacion": "Una ETTI con pendiente positiva puede explicarse por: expectativas de subidas de tipos (teoría de expectativas), prima de liquidez por mayor riesgo en plazos largos, o preferencia de los inversores por plazos cortos (segmentación).",
+      "id": 19
+    },
+    {
+      "pregunta": "La tributación conjunta en IRPF puede interesar cuando:",
+      "opciones": [
+        "Ambos cónyuges tienen rentas altas",
+        "Un cónyuge tiene rentas bajas o nulas",
+        "Siempre es mejor",
+        "Nunca interesa"
+      ],
+      "correcta": 1,
+      "explicacion": "La conjunta acumula rentas y aplica un solo mínimo personal (con reducción adicional). Interesa si un cónyuge tiene rentas bajas, aprovechando que el otro \"rellena\" sus tramos bajos. Si ambos tienen rentas altas, la individual suele ser mejor.",
+      "id": 20
+    },
+    {
+      "pregunta": "MEFF es:",
+      "opciones": [
+        "El mercado de opciones y futuros financieros en España",
+        "El mercado alternativo bursátil",
+        "El mercado de renta fija privada",
+        "El sistema de pagos europeo"
+      ],
+      "correcta": 0,
+      "explicacion": "MEFF (Mercado Español de Futuros Financieros) es el mercado oficial de derivados en España, donde se negocian futuros y opciones sobre el IBEX 35, acciones individuales y otros subyacentes.",
+      "id": 21
+    },
+    {
+      "pregunta": "El nivel EFP (European Financial Planner) se diferencia del EFA en:",
+      "opciones": [
+        "Son iguales",
+        "EFP incluye competencias avanzadas en planificación financiera personal y patrimonial",
+        "EFP es más básico",
+        "EFP solo es para fiscalistas"
+      ],
+      "correcta": 1,
+      "explicacion": "EFP es el nivel superior que añade al EFA competencias en planificación financiera integral: planificación de la jubilación, sucesoria, fiscal avanzada, y elaboración de planes financieros completos.",
+      "id": 22
+    },
+    {
+      "pregunta": "El ROE (Return on Equity) mide:",
+      "opciones": [
+        "La rentabilidad sobre el activo total",
+        "La rentabilidad sobre los fondos propios",
+        "La rentabilidad del dividendo",
+        "La rentabilidad de la acción en bolsa"
+      ],
+      "correcta": 1,
+      "explicacion": "* ROE = Beneficio neto / Fondos propios Mide la rentabilidad que obtiene la empresa sobre el capital aportado por los accionistas.",
+      "id": 23
+    },
+    {
+      "pregunta": "La prestación de un seguro de vida por fallecimiento tributa en:",
+      "opciones": [
+        "IRPF",
+        "Impuesto sobre Sucesiones y Donaciones",
+        "Impuesto de Sociedades",
+        "IVA"
+      ],
+      "correcta": 1,
+      "explicacion": "Si el beneficiario es distinto del tomador, la prestación por fallecimiento tributa en el ISD como adquisición mortis causa. Si coinciden tomador, asegurado y beneficiario, tributaría en IRPF.",
+      "id": 24
+    },
+    {
+      "pregunta": "El ratio de endeudamiento mide:",
+      "opciones": [
+        "Solo las deudas hipotecarias",
+        "La relación entre deudas totales y patrimonio o ingresos del solicitante",
+        "El valor del inmueble",
+        "La antigüedad del cliente"
+      ],
+      "correcta": 1,
+      "explicacion": "Ratio endeudamiento = Deuda total / Patrimonio (o Ingresos). Las entidades evalúan que el nivel de deuda sea sostenible respecto a la capacidad económica del cliente.",
+      "id": 25
+    },
+    {
+      "pregunta": "Un bono con cupón del 3% anual, vencimiento 5 años y TIR del 4%. ¿Cotiza sobre la par, a la par o bajo la par?",
+      "opciones": [
+        "Sobre la par",
+        "A la par",
+        "Bajo la par",
+        "No se puede determinar"
+      ],
+      "correcta": 2,
+      "explicacion": "Cuando la TIR > cupón, el bono cotiza bajo la par (precio < 100). Los inversores exigen una rentabilidad mayor que el cupón, por lo que el precio debe ser inferior al nominal para compensar.",
+      "id": 26
+    },
+    {
+      "pregunta": "El Free Cash Flow to Equity (FCFE) representa:",
+      "opciones": [
+        "El beneficio neto de la empresa",
+        "El flujo de caja disponible para los accionistas después de inversiones y deuda",
+        "Los dividendos pagados",
+        "El cash flow operativo"
+      ],
+      "correcta": 1,
+      "explicacion": "* FCFE = Cash flow operativo - CAPEX - Variación capital circulante + Nuevas emisiones de deuda - Amortización de deuda Es el flujo disponible para retribuir a los accionistas (dividendos o recompras).",
+      "id": 27
+    },
+    {
+      "pregunta": "Una ampliación de capital 1x4 significa:",
+      "opciones": [
+        "Se emite 1 acción nueva por cada 4 existentes",
+        "Se emiten 4 acciones nuevas por cada 1 existente",
+        "El precio se divide por 4",
+        "El precio se multiplica por 4"
+      ],
+      "correcta": 0,
+      "explicacion": "En una ampliación 1x4, por cada 4 acciones antiguas que se posean, se tiene derecho a suscribir 1 acción nueva. Se emite 1 acción por cada 4 existentes.",
+      "id": 28
+    },
+    {
+      "pregunta": "La provisión técnica de una aseguradora sirve para:",
+      "opciones": [
+        "Pagar dividendos",
+        "Garantizar el cumplimiento de obligaciones futuras con asegurados",
+        "Invertir en bolsa",
+        "Pagar impuestos"
+      ],
+      "correcta": 1,
+      "explicacion": "Las provisiones técnicas son reservas que las aseguradoras deben constituir para hacer frente a las obligaciones derivadas de los contratos de seguro (siniestros pendientes, primas no consumidas, etc.).",
+      "id": 29
+    },
+    {
+      "pregunta": "Las clases de participaciones de un fondo pueden diferir en:",
+      "opciones": [
+        "La política de inversión",
+        "Comisiones, divisa de denominación, política de distribución",
+        "El gestor asignado",
+        "El depositario"
+      ],
+      "correcta": 1,
+      "explicacion": "Diferentes clases del mismo fondo comparten cartera pero pueden tener: diferentes comisiones, divisas (EUR, USD), política de distribución (acumulación vs distribución), o inversión mínima.",
+      "id": 30
+    },
+    {
+      "pregunta": "Para comparar dos fondos de la misma categoría, el ratio más apropiado es:",
+      "opciones": [
+        "Solo la rentabilidad absoluta",
+        "El ratio de información respecto al benchmark común",
+        "El tamaño del fondo",
+        "La antigüedad del gestor"
+      ],
+      "correcta": 1,
+      "explicacion": "El Information Ratio permite comparar gestores con el mismo benchmark, midiendo cuánto alfa generan por unidad de riesgo activo (tracking error) asumido.",
+      "id": 31
+    },
+    {
+      "pregunta": "Un fondo de inversión inmobiliaria cotizado (ETF de REITs) permite:",
+      "opciones": [
+        "Solo invertir en un inmueble",
+        "Exposición diversificada al sector inmobiliario global con liquidez diaria",
+        "Evitar toda tributación",
+        "Comprar inmuebles físicos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los ETFs de REITs ofrecen exposición diversificada a múltiples SOCIMIs/REITs de diferentes países y sectores (oficinas, retail, logística, residencial) con la liquidez de un ETF.",
+      "id": 32
+    },
+    {
+      "pregunta": "La principal ventaja fiscal de las aportaciones a planes de pensiones es:",
+      "opciones": [
+        "Exención total de impuestos",
+        "Reducción de la base imponible del IRPF",
+        "Deducción en cuota",
+        "No hay ventaja fiscal"
+      ],
+      "correcta": 1,
+      "explicacion": "Las aportaciones reducen la base imponible general del IRPF, generando un ahorro fiscal según el tipo marginal del contribuyente. La tributación se difiere al momento del rescate.",
+      "id": 33
+    },
+    {
+      "pregunta": "Si añadimos activos con correlación perfecta (+1) a una cartera:",
+      "opciones": [
+        "Reducimos el riesgo significativamente",
+        "No hay beneficio de diversificación",
+        "Eliminamos el riesgo sistemático",
+        "Siempre mejoramos la rentabilidad"
+      ],
+      "correcta": 1,
+      "explicacion": "Con correlación perfecta (+1), los activos se mueven exactamente igual. No hay beneficio de diversificación; el riesgo de la cartera es la media ponderada de los riesgos individuales.",
+      "id": 34
+    },
+    {
+      "pregunta": "Las recomendaciones de inversión deben:",
+      "opciones": [
+        "Ser sesgadas",
+        "Elaborarse con objetividad, indicando conflictos de interés y bases del análisis",
+        "No revelar el autor",
+        "Garantizar rentabilidades"
+      ],
+      "correcta": 1,
+      "explicacion": "Las recomendaciones deben: identificar al analista, indicar cualquier relación o conflicto de interés, basarse en metodología rigurosa, y distinguir hechos de opiniones/estimaciones.",
+      "id": 35
+    },
+    {
+      "pregunta": "El riesgo de secuencia de retornos es especialmente relevante en:",
+      "opciones": [
+        "Fase de acumulación",
+        "Fase de desacumulación/jubilación (primeros años retirando)",
+        "Carteras muy diversificadas",
+        "Inversores jóvenes"
+      ],
+      "correcta": 1,
+      "explicacion": "El riesgo de secuencia afecta especialmente a jubilados: si los primeros años de retiro coinciden con un mercado bajista, las retiradas sobre una cartera depreciada pueden agotar los fondos prematuramente.",
+      "id": 36
+    },
+    {
+      "pregunta": "La notificación de brechas de seguridad a la AEPD debe realizarse:",
+      "opciones": [
+        "Cuando convenga",
+        "Sin dilación indebida, en 72 horas si es posible, cuando haya riesgo para derechos y libertades",
+        "Nunca",
+        "En 1 año"
+      ],
+      "correcta": 1,
+      "explicacion": "Las brechas que supongan riesgo deben notificarse a la autoridad de control (AEPD en España) en 72 horas. Si hay alto riesgo, también debe comunicarse a los afectados.",
+      "id": 37
+    },
+    {
+      "pregunta": "Una cartera 60% acciones (β=1,2) y 40% bonos (β=0,2). ¿Cuál es la beta de la cartera?",
+      "opciones": [
+        "0,80",
+        "0,72",
+        "1,00",
+        "0,70"
+      ],
+      "correcta": 0,
+      "explicacion": "* βp = 0,60 × 1,2 + 0,40 × 0,2 = 0,72 + 0,08 = 0,80",
+      "id": 38
+    },
+    {
+      "pregunta": "Una empresa tiene un ROE del 15% y reparte el 40% del beneficio como dividendo. Según el modelo de crecimiento sostenible, ¿a qué tasa puede crecer?",
+      "opciones": [
+        "6%",
+        "9%",
+        "15%",
+        "40%"
+      ],
+      "correcta": 1,
+      "explicacion": "* g = ROE × (1 - payout) = ROE × tasa de retención g = 15% × (1 - 0,40) = 15% × 0,60 = 9%",
+      "id": 39
+    },
+    {
+      "pregunta": "Dos activos A y B tienen una covarianza de -0,002. Esto indica que:",
+      "opciones": [
+        "Los activos se mueven en la misma dirección",
+        "Los activos se mueven en direcciones opuestas",
+        "No hay relación entre los activos",
+        "La correlación es exactamente -1"
+      ],
+      "correcta": 1,
+      "explicacion": "Una covarianza negativa indica que cuando un activo sube, el otro tiende a bajar, es decir, se mueven en direcciones opuestas. Esto es útil para la diversificación de carteras.",
+      "id": 40
+    },
+    {
+      "pregunta": "Una estrategia de cobertura con futuros es \"perfecta\" cuando:",
+      "opciones": [
+        "Genera beneficios siempre",
+        "La correlación entre el activo a cubrir y el futuro es 1",
+        "No tiene costes",
+        "El futuro es muy volátil"
+      ],
+      "correcta": 1,
+      "explicacion": "Una cobertura perfecta requiere correlación 1 entre el activo y el instrumento de cobertura. En la práctica siempre hay \"basis risk\" porque la correlación es imperfecta.",
+      "id": 41
+    },
+    {
+      "pregunta": "El sesgo de anclaje en asesoramiento:",
+      "opciones": [
+        "No existe",
+        "Hace que el cliente (o asesor) se fije excesivamente en un valor de referencia inicial",
+        "Siempre es útil",
+        "Mejora la toma de decisiones"
+      ],
+      "correcta": 1,
+      "explicacion": "El anclaje hace que nos fijemos en el primer dato (precio de compra, valoración inicial) y juzguemos todo respecto a él, aunque ya no sea relevante. Puede impedir vender activos aunque deban venderse.",
+      "id": 42
+    },
+    {
+      "pregunta": "El valor liquidativo de un fondo de inversión se calcula:",
+      "opciones": [
+        "Una vez al mes",
+        "Diariamente, dividiendo el patrimonio entre el número de participaciones",
+        "Al vencimiento del fondo",
+        "Cuando lo solicita el partícipe"
+      ],
+      "correcta": 1,
+      "explicacion": "El valor liquidativo (VL) se calcula diariamente: VL = Patrimonio neto del fondo / Número de participaciones en circulación. Es el precio de suscripción y reembolso.",
+      "id": 43
+    },
+    {
+      "pregunta": "El seguro de vida vinculado a hipoteca busca:",
+      "opciones": [
+        "Aumentar el valor de la vivienda",
+        "Cancelar o reducir la deuda hipotecaria si el asegurado fallece o queda inválido",
+        "Obtener mejores condiciones del préstamo",
+        "Cubrir impagos voluntarios"
+      ],
+      "correcta": 1,
+      "explicacion": "Este seguro de vida (generalmente decreciente) garantiza que si el titular fallece, el capital pendiente de hipoteca (o una parte) se cancele, protegiendo a la familia de la deuda.",
+      "id": 44
+    },
+    {
+      "pregunta": "El crédito revolving se caracteriza por:",
+      "opciones": [
+        "Tener tipo de interés muy bajo",
+        "Permitir disponer repetidamente del crédito conforme se amortiza, con cuotas que incluyen poco capital",
+        "Ser solo para vivienda",
+        "No tener intereses"
+      ],
+      "correcta": 1,
+      "explicacion": "El crédito revolving es renovable: la cuota mínima suele ser pequeña (mayoritariamente intereses), regenerando el disponible muy lentamente. Tiene tipos muy altos (15-25% TAE), siendo polémico.",
+      "id": 45
+    },
+    {
+      "pregunta": "El límite de aportación anual a un SIALP es:",
+      "opciones": [
+        "1.500€",
+        "5.000€",
+        "8.000€",
+        "12.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "Los SIALP tienen un límite de aportación de 5.000€ anuales. Solo se puede tener un SIALP (o un CIALP) a la vez.",
+      "id": 46
+    },
+    {
+      "pregunta": "La inversión en residencias de estudiantes o de mayores se considera:",
+      "opciones": [
+        "Inmobiliario tradicional",
+        "Inmobiliario operacional (requiere gestión del servicio además del inmueble)",
+        "No es inversión inmobiliaria",
+        "Solo apta para el sector público"
+      ],
+      "correcta": 1,
+      "explicacion": "Residencias de estudiantes, mayores, hoteles o centros de salud son \"inmobiliario operacional\": el valor depende tanto del inmueble como de la operación/servicio que se presta.",
+      "id": 47
+    },
+    {
+      "pregunta": "Los tipos spot a 1 y 2 años son 3% y 4% respectivamente. ¿Cuál es el tipo forward implícito del año 1 al año 2?",
+      "opciones": [
+        "3,50%",
+        "4,00%",
+        "5,01%",
+        "7,00%"
+      ],
+      "correcta": 2,
+      "explicacion": "* (1 + r2)^2 = (1 + r1) × (1 + f1,2) (1,04)^2 = (1,03) × (1 + f1,2) 1,0816 = 1,03 × (1 + f1,2) 1 + f1,2 = 1,0816/1,03 = 1,0501 f1,2 = 5,01%",
+      "id": 48
+    },
+    {
+      "pregunta": "El Fondo de Garantía de Depósitos (FGD) cubre a los fondos de inversión:",
+      "opciones": [
+        "Sí, hasta 100.000€",
+        "No, los fondos de inversión no están cubiertos por el FGD",
+        "Solo si son fondos garantizados",
+        "Solo los monetarios"
+      ],
+      "correcta": 1,
+      "explicacion": "El FGD no cubre fondos de inversión. Estos tienen protección separada: separación patrimonio fondo/gestora, figura del depositario, y supervisión de la CNMV.",
+      "id": 49
+    },
+    {
+      "pregunta": "El test de conveniencia evalúa:",
+      "opciones": [
+        "Todos los aspectos del cliente",
+        "Solo conocimientos y experiencia del cliente sobre el producto",
+        "La situación fiscal",
+        "Los objetivos de inversión"
+      ],
+      "correcta": 1,
+      "explicacion": "El test de conveniencia (para servicios de solo ejecución de productos complejos) evalúa solo conocimientos y experiencia, para verificar si el cliente comprende los riesgos del producto.",
+      "id": 50
+    }
+  ]
+}

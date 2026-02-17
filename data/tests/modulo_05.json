@@ -1,0 +1,728 @@
+{
+  "nivel": "EIP",
+  "modulo": 5,
+  "titulo": "Pensiones y Planificación de Jubilación",
+  "peso_examen": 5,
+  "preguntas": [
+    {
+      "pregunta": "El sistema público de pensiones en España se basa en:",
+      "opciones": [
+        "Capitalización individual",
+        "Reparto (las cotizaciones actuales financian las pensiones actuales)",
+        "Cuentas nocionales",
+        "Inversión en bolsa"
+      ],
+      "correcta": 1,
+      "explicacion": "El sistema español es de reparto: los trabajadores activos financian con sus cotizaciones las pensiones de los jubilados actuales. No hay acumulación individual de fondos.",
+      "id": 1
+    },
+    {
+      "pregunta": "La edad ordinaria de jubilación en España (2025) para acceder al 100% de la pensión es:",
+      "opciones": [
+        "65 años siempre",
+        "65 años con 38,5 años cotizados o 67 años en caso contrario",
+        "70 años",
+        "60 años"
+      ],
+      "correcta": 1,
+      "explicacion": "La edad ordinaria es 67 años, pero se puede jubilar a los 65 con el 100% si se acreditan al menos 38 años y 6 meses de cotización.",
+      "id": 2
+    },
+    {
+      "pregunta": "La base reguladora de la pensión de jubilación se calcula con:",
+      "opciones": [
+        "El último salario",
+        "Las bases de cotización de los últimos 25 años (300 meses)",
+        "La media de toda la vida laboral",
+        "El salario más alto de la carrera"
+      ],
+      "correcta": 1,
+      "explicacion": "La base reguladora se calcula dividiendo las bases de cotización de los últimos 300 meses (25 años) entre 350. Las bases más antiguas se actualizan con el IPC.",
+      "id": 3
+    },
+    {
+      "pregunta": "Para acceder a la pensión contributiva de jubilación se requiere un periodo mínimo de cotización de:",
+      "opciones": [
+        "10 años",
+        "15 años (con al menos 2 en los últimos 15)",
+        "20 años",
+        "No hay mínimo"
+      ],
+      "correcta": 1,
+      "explicacion": "Se exigen 15 años de cotización, de los cuales al menos 2 deben estar comprendidos dentro de los 15 años inmediatamente anteriores a la jubilación.",
+      "id": 4
+    },
+    {
+      "pregunta": "Con 15 años cotizados, el porcentaje de la base reguladora que se percibe es:",
+      "opciones": [
+        "100%",
+        "50%",
+        "75%",
+        "15%"
+      ],
+      "correcta": 1,
+      "explicacion": "Con el periodo mínimo de 15 años se percibe el 50% de la base reguladora. A partir de ahí, aumenta progresivamente hasta el 100% con 36,5 años (o 37 según el año).",
+      "id": 5
+    },
+    {
+      "pregunta": "La jubilación anticipada voluntaria permite jubilarse como máximo:",
+      "opciones": [
+        "5 años antes de la edad ordinaria",
+        "2 años antes de la edad ordinaria",
+        "10 años antes",
+        "No existe jubilación anticipada"
+      ],
+      "correcta": 1,
+      "explicacion": "La jubilación anticipada voluntaria permite adelantar hasta 2 años respecto a la edad ordinaria, con coeficientes reductores por cada trimestre de adelanto.",
+      "id": 6
+    },
+    {
+      "pregunta": "Los coeficientes reductores en jubilación anticipada voluntaria son:",
+      "opciones": [
+        "Iguales para todos los casos",
+        "Mayores cuantos menos años se hayan cotizado",
+        "Inexistentes",
+        "Solo aplican a autónomos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los coeficientes reductores varían según los años cotizados: son menores (menos penalización) cuantos más años se hayan cotizado. Van desde el 3,26% al 21% por año anticipado.",
+      "id": 7
+    },
+    {
+      "pregunta": "La jubilación activa permite:",
+      "opciones": [
+        "Cobrar el 100% de la pensión y trabajar",
+        "Compatibilizar pensión reducida con trabajo por cuenta propia o ajena",
+        "No trabajar nunca más",
+        "Solo trabajar en el extranjero"
+      ],
+      "correcta": 1,
+      "explicacion": "La jubilación activa permite compatibilizar el 50% de la pensión (100% si se es autónomo con empleados) con un trabajo. El jubilado sigue cotizando con una \"cotización de solidaridad\".",
+      "id": 8
+    },
+    {
+      "pregunta": "La pensión máxima de la Seguridad Social en 2025 es aproximadamente:",
+      "opciones": [
+        "2.000€/mes",
+        "3.200€/mes (aprox. 44.000€/año)",
+        "5.000€/mes",
+        "No hay límite"
+      ],
+      "correcta": 1,
+      "explicacion": "Existe un tope máximo de pensión pública que se actualiza anualmente. En 2025 está en torno a 3.200€ mensuales (14 pagas), aproximadamente 44.000-45.000€ anuales.",
+      "id": 9
+    },
+    {
+      "pregunta": "La pensión de viudedad es un porcentaje de la base reguladora del fallecido de:",
+      "opciones": [
+        "100%",
+        "52% (o 60% con cargas familiares y rentas bajas, 70% en ciertos casos)",
+        "25%",
+        "75%"
+      ],
+      "correcta": 1,
+      "explicacion": "La pensión de viudedad general es del 52% de la base reguladora. Puede ser del 60% o 70% si hay cargas familiares, rentas bajas o dependencia de la pensión.",
+      "id": 10
+    },
+    {
+      "pregunta": "La pensión de orfandad se percibe hasta:",
+      "opciones": [
+        "Los 18 años siempre",
+        "Los 25 años si no se trabaja o se tienen ingresos limitados",
+        "Los 30 años",
+        "De por vida"
+      ],
+      "correcta": 1,
+      "explicacion": "La pensión de orfandad se extiende hasta los 25 años si el huérfano no trabaja o tiene ingresos inferiores al SMI. Es vitalicia en caso de incapacidad.",
+      "id": 11
+    },
+    {
+      "pregunta": "El complemento a mínimos de las pensiones:",
+      "opciones": [
+        "Lo reciben todos los pensionistas",
+        "Se aplica cuando la pensión no alcanza el mínimo legal y el beneficiario cumple requisitos de rentas",
+        "Es una cantidad fija para todos",
+        "Solo existe para autónomos"
+      ],
+      "correcta": 1,
+      "explicacion": "El complemento a mínimos eleva la pensión hasta el mínimo legal cuando el pensionista tiene rentas por debajo de ciertos límites. Es una ayuda asistencial sujeta a requisitos.",
+      "id": 12
+    },
+    {
+      "pregunta": "El Mecanismo de Equidad Intergeneracional (MEI) consiste en:",
+      "opciones": [
+        "Una reducción de pensiones",
+        "Una cotización adicional para reforzar el Fondo de Reserva",
+        "Un aumento de la edad de jubilación",
+        "La eliminación de la jubilación anticipada"
+      ],
+      "correcta": 1,
+      "explicacion": "El MEI es una cotización adicional (0,7% en 2025, creciente hasta 1,2% en 2029) repartida entre empresa y trabajador, destinada a reforzar la hucha de las pensiones.",
+      "id": 13
+    },
+    {
+      "pregunta": "La cuota de solidaridad afecta a:",
+      "opciones": [
+        "Todos los trabajadores",
+        "Los salarios que superan la base máxima de cotización",
+        "Solo los pensionistas",
+        "Solo los autónomos"
+      ],
+      "correcta": 1,
+      "explicacion": "La cuota de solidaridad grava la parte del salario que excede la base máxima de cotización, que antes no cotizaba. Se implementa gradualmente desde 2025.",
+      "id": 14
+    },
+    {
+      "pregunta": "La pensión no contributiva de jubilación requiere:",
+      "opciones": [
+        "Haber cotizado al menos 15 años",
+        "Carecer de recursos suficientes y tener 65 años, sin exigir cotización",
+        "Haber trabajado toda la vida",
+        "Ser menor de 60 años"
+      ],
+      "correcta": 1,
+      "explicacion": "Las pensiones no contributivas son prestaciones asistenciales para mayores de 65 años (jubilación) o con discapacidad, que carecen de recursos y no tienen derecho a pensión contributiva.",
+      "id": 15
+    },
+    {
+      "pregunta": "El factor de sostenibilidad vinculaba las pensiones a:",
+      "opciones": [
+        "La inflación",
+        "La esperanza de vida (actualmente suspendido)",
+        "El PIB",
+        "El desempleo"
+      ],
+      "correcta": 1,
+      "explicacion": "El factor de sostenibilidad (Ley 2013) vinculaba las nuevas pensiones a la esperanza de vida a los 67 años. Fue derogado en 2021 y sustituido por el MEI.",
+      "id": 16
+    },
+    {
+      "pregunta": "La revalorización de las pensiones actualmente se vincula a:",
+      "opciones": [
+        "Un porcentaje fijo del 0,25%",
+        "El IPC del año anterior",
+        "La evolución del PIB",
+        "La decisión discrecional del gobierno"
+      ],
+      "correcta": 1,
+      "explicacion": "Desde la reforma de 2021, las pensiones se revalorizan según el IPC medio del año anterior, garantizando el mantenimiento del poder adquisitivo.",
+      "id": 17
+    },
+    {
+      "pregunta": "La laguna de cotización se produce cuando:",
+      "opciones": [
+        "Se cotiza en exceso",
+        "Hay periodos sin cotización que reducen la base reguladora",
+        "Se cobra pensión antes de tiempo",
+        "Se trabaja en el extranjero"
+      ],
+      "correcta": 1,
+      "explicacion": "Las lagunas son periodos dentro de los 25 años de cálculo sin cotización. Se integran con bases mínimas (las primeras 48) o con el 50% de la base mínima (el resto).",
+      "id": 18
+    },
+    {
+      "pregunta": "Un trabajador con contrato a tiempo parcial:",
+      "opciones": [
+        "No genera derechos de pensión",
+        "Cotiza proporcionalmente y tiene reglas específicas para el cómputo de periodos",
+        "Cotiza igual que a tiempo completo",
+        "Solo puede jubilarse anticipadamente"
+      ],
+      "correcta": 1,
+      "explicacion": "Los trabajadores a tiempo parcial cotizan en proporción a su jornada. Existe un coeficiente de parcialidad y reglas para el cómputo de días cotizados que han ido mejorando.",
+      "id": 19
+    },
+    {
+      "pregunta": "El convenio especial con la Seguridad Social permite:",
+      "opciones": [
+        "Jubilarse antes",
+        "Mantener o mejorar la base de cotización durante periodos sin trabajo",
+        "No pagar cotizaciones",
+        "Cobrar desempleo indefinido"
+      ],
+      "correcta": 1,
+      "explicacion": "El convenio especial permite cotizar voluntariamente durante periodos sin obligación de cotizar (desempleo sin prestación, excedencias), manteniendo derechos para la jubilación.",
+      "id": 20
+    },
+    {
+      "pregunta": "Un plan de pensiones es un instrumento de:",
+      "opciones": [
+        "Ahorro a corto plazo",
+        "Previsión social complementaria a largo plazo",
+        "Inversión especulativa",
+        "Crédito al consumo"
+      ],
+      "correcta": 1,
+      "explicacion": "Los planes de pensiones son instrumentos de ahorro-previsión a largo plazo destinados a complementar la pensión pública de jubilación.",
+      "id": 21
+    },
+    {
+      "pregunta": "La principal ventaja fiscal de las aportaciones a planes de pensiones es:",
+      "opciones": [
+        "Exención total de impuestos",
+        "Reducción de la base imponible del IRPF",
+        "Deducción en cuota",
+        "No hay ventaja fiscal"
+      ],
+      "correcta": 1,
+      "explicacion": "Las aportaciones reducen la base imponible general del IRPF, generando un ahorro fiscal según el tipo marginal del contribuyente. La tributación se difiere al momento del rescate.",
+      "id": 22
+    },
+    {
+      "pregunta": "El límite máximo de aportación anual a planes de pensiones individuales (2025) es:",
+      "opciones": [
+        "8.000€",
+        "1.500€",
+        "10.000€",
+        "Sin límite"
+      ],
+      "correcta": 1,
+      "explicacion": "El límite general de aportación a planes individuales es de 1.500€ anuales. Se puede ampliar a 8.500€ con aportaciones a planes de empleo.",
+      "id": 23
+    },
+    {
+      "pregunta": "Las aportaciones a planes de pensiones de empleo tienen un límite adicional de:",
+      "opciones": [
+        "No hay límite adicional",
+        "Hasta 8.500€ adicionales (total 10.000€ incluyendo individual)",
+        "1.500€",
+        "50.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "Las aportaciones empresariales y del trabajador a planes de empleo pueden alcanzar 8.500€ adicionales, con un límite conjunto de 10.000€ sumando individual y empleo.",
+      "id": 24
+    },
+    {
+      "pregunta": "Los derechos consolidados de un plan de pensiones se pueden rescatar:",
+      "opciones": [
+        "En cualquier momento sin restricciones",
+        "Solo en contingencias (jubilación, incapacidad, fallecimiento, dependencia) o supuestos excepcionales",
+        "Nunca",
+        "Solo al cumplir 60 años"
+      ],
+      "correcta": 1,
+      "explicacion": "El rescate está limitado a contingencias cubiertas (jubilación, incapacidad permanente, fallecimiento, dependencia severa) o supuestos excepcionales (desempleo de larga duración, enfermedad grave, antigüedad >10 años).",
+      "id": 25
+    },
+    {
+      "pregunta": "Desde 2025, las aportaciones con más de 10 años de antigüedad:",
+      "opciones": [
+        "No se pueden rescatar",
+        "Se pueden rescatar libremente sin justificar contingencia",
+        "Tributan al 0%",
+        "Deben traspasarse obligatoriamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La reforma permite rescatar aportaciones con antigüedad superior a 10 años sin necesidad de que ocurra una contingencia, aumentando la liquidez del producto.",
+      "id": 26
+    },
+    {
+      "pregunta": "El rescate de un plan de pensiones tributa en el IRPF como:",
+      "opciones": [
+        "Ganancia patrimonial",
+        "Rendimiento del trabajo",
+        "Rendimiento del capital mobiliario",
+        "Renta exenta"
+      ],
+      "correcta": 1,
+      "explicacion": "Las prestaciones de planes de pensiones tributan íntegramente como rendimientos del trabajo, sumándose a la base general del IRPF y aplicando la escala progresiva.",
+      "id": 27
+    },
+    {
+      "pregunta": "El rescate en forma de capital de un plan de pensiones:",
+      "opciones": [
+        "Siempre es más ventajoso fiscalmente",
+        "Puede generar un tipo marginal muy alto al acumularse en un solo ejercicio",
+        "Tributa al tipo fijo del 19%",
+        "Está exento hasta 50.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "Rescatar todo en un año eleva significativamente la base imponible, pudiendo llevar a tipos marginales del 45-47%. Por eso suele ser más eficiente el rescate en forma de renta.",
+      "id": 28
+    },
+    {
+      "pregunta": "La reducción del 40% para aportaciones anteriores a 2007 aplica cuando:",
+      "opciones": [
+        "Se rescata en forma de renta",
+        "Se rescata en forma de capital dentro de los 2 años siguientes a la jubilación",
+        "Siempre",
+        "Solo para autónomos"
+      ],
+      "correcta": 1,
+      "explicacion": "Las aportaciones anteriores a 01/01/2007 gozan de una reducción del 40% si se rescatan en forma de capital en el ejercicio de la contingencia o los dos siguientes.",
+      "id": 29
+    },
+    {
+      "pregunta": "Un PPA (Plan de Previsión Asegurado) se diferencia de un plan de pensiones en que:",
+      "opciones": [
+        "No tiene ventajas fiscales",
+        "Garantiza un tipo de interés y es un contrato de seguro",
+        "Tiene más liquidez",
+        "No cubre la jubilación"
+      ],
+      "correcta": 1,
+      "explicacion": "El PPA es un seguro que ofrece las mismas ventajas fiscales que los planes de pensiones pero garantiza un tipo de interés técnico. Es más conservador y está cubierto por el Consorcio.",
+      "id": 30
+    },
+    {
+      "pregunta": "Los planes de pensiones de empleo son promovidos por:",
+      "opciones": [
+        "Los trabajadores individualmente",
+        "Empresas, asociaciones o la administración pública para sus empleados",
+        "Los bancos para el público general",
+        "Solo autónomos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los planes de empleo son promovidos por empresas, administraciones públicas u otras entidades para sus empleados. Las aportaciones pueden ser del promotor, del partícipe o ambos.",
+      "id": 31
+    },
+    {
+      "pregunta": "La comisión máxima de gestión de un plan de pensiones individual es:",
+      "opciones": [
+        "0,5%",
+        "0,85% (para renta fija mixta) a 1,25% (para renta variable)",
+        "2%",
+        "Sin límite"
+      ],
+      "correcta": 1,
+      "explicacion": "Las comisiones máximas varían según categoría: 0,85% para renta fija y renta fija mixta; 1,25% para el resto. La comisión de depósito máxima es 0,20%.",
+      "id": 32
+    },
+    {
+      "pregunta": "El traspaso entre planes de pensiones:",
+      "opciones": [
+        "Tributa como rescate",
+        "Es libre y sin tributación",
+        "Tiene un coste del 5%",
+        "Solo se permite una vez al año"
+      ],
+      "correcta": 1,
+      "explicacion": "Se pueden traspasar los derechos consolidados entre planes de pensiones sin tributar ni pagar comisiones de traspaso. Permite cambiar de plan según conveniencia.",
+      "id": 33
+    },
+    {
+      "pregunta": "La comisión de control de un plan de pensiones de empleo:",
+      "opciones": [
+        "No existe",
+        "Supervisa el funcionamiento del plan y representa a partícipes y beneficiarios",
+        "Gestiona las inversiones",
+        "Solo existe en planes individuales"
+      ],
+      "correcta": 1,
+      "explicacion": "En planes de empleo, la comisión de control (con representantes del promotor y partícipes) supervisa el plan, aprueba la política de inversión y controla a la gestora.",
+      "id": 34
+    },
+    {
+      "pregunta": "Los planes de pensiones de empleo simplificados (PPES):",
+      "opciones": [
+        "Son iguales a los individuales",
+        "Son planes de empleo con trámites simplificados para pymes y autónomos",
+        "No tienen ventajas fiscales",
+        "Solo invierten en renta fija"
+      ],
+      "correcta": 1,
+      "explicacion": "Los PPES facilitan que pymes y autónomos ofrezcan planes de empleo a sus trabajadores, con menores requisitos administrativos y costes reducidos.",
+      "id": 35
+    },
+    {
+      "pregunta": "Un EPSV (Entidad de Previsión Social Voluntaria) es:",
+      "opciones": [
+        "Un plan de pensiones estatal",
+        "Un instrumento de previsión específico del País Vasco y Navarra",
+        "Un fondo de inversión",
+        "Un seguro de vida"
+      ],
+      "correcta": 1,
+      "explicacion": "Las EPSV son entidades de previsión propias de País Vasco y Navarra con fiscalidad específica. Funcionan de forma similar a los planes de pensiones pero con normativa foral.",
+      "id": 36
+    },
+    {
+      "pregunta": "La rentabilidad de un plan de pensiones:",
+      "opciones": [
+        "Está garantizada",
+        "Depende de la evolución de los activos en que invierte",
+        "Es siempre positiva",
+        "La fija el Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "Los planes de pensiones no garantizan rentabilidad (salvo los PPA). El valor de los derechos fluctúa según la evolución de los mercados y la política de inversión del plan.",
+      "id": 37
+    },
+    {
+      "pregunta": "El especificaciones de un plan de pensiones es:",
+      "opciones": [
+        "El contrato de trabajo",
+        "El documento que regula el funcionamiento del plan (aportaciones, prestaciones, etc.)",
+        "El informe anual",
+        "La declaración de la renta"
+      ],
+      "correcta": 1,
+      "explicacion": "Las especificaciones son el documento normativo del plan que establece: modalidad, régimen de aportaciones y prestaciones, derechos y obligaciones, normas de funcionamiento.",
+      "id": 38
+    },
+    {
+      "pregunta": "La jubilación anticipada como contingencia en planes de pensiones requiere:",
+      "opciones": [
+        "Tener 50 años",
+        "Haber cesado la actividad laboral y tener la condición de jubilado en el régimen correspondiente",
+        "Solo solicitarlo",
+        "No existe jubilación anticipada en planes"
+      ],
+      "correcta": 1,
+      "explicacion": "Para acceder a la prestación de jubilación anticipada del plan, el partícipe debe haber accedido efectivamente a la jubilación en su régimen de Seguridad Social.",
+      "id": 39
+    },
+    {
+      "pregunta": "Un beneficiario de un plan de pensiones es:",
+      "opciones": [
+        "Siempre el partícipe",
+        "La persona con derecho a prestación, que puede ser el partícipe o sus designados (fallecimiento)",
+        "Solo el cónyuge",
+        "La gestora del plan"
+      ],
+      "correcta": 1,
+      "explicacion": "El beneficiario es quien tiene derecho a recibir las prestaciones: el propio partícipe (jubilación, incapacidad) o las personas designadas (en caso de fallecimiento del partícipe).",
+      "id": 40
+    },
+    {
+      "pregunta": "La tasa de sustitución mide:",
+      "opciones": [
+        "El porcentaje de inflación",
+        "La relación entre la primera pensión y el último salario",
+        "El rendimiento del plan de pensiones",
+        "La cotización sobre el salario"
+      ],
+      "correcta": 1,
+      "explicacion": "La tasa de sustitución (o tasa de reemplazo) indica qué porcentaje del último salario representa la pensión pública inicial. En España está en torno al 70-80% para salarios medios.",
+      "id": 41
+    },
+    {
+      "pregunta": "El déficit o gap de pensiones es:",
+      "opciones": [
+        "El exceso de ahorro para la jubilación",
+        "La diferencia entre los ingresos necesarios en jubilación y la pensión pública esperada",
+        "La deuda del sistema público",
+        "El error en el cálculo de la pensión"
+      ],
+      "correcta": 1,
+      "explicacion": "El gap de pensiones es la diferencia entre el nivel de ingresos deseado en la jubilación y lo que se espera recibir de la pensión pública. Este déficit debe cubrirse con ahorro privado.",
+      "id": 42
+    },
+    {
+      "pregunta": "Para calcular el capital necesario para la jubilación se debe considerar:",
+      "opciones": [
+        "Solo la esperanza de vida",
+        "Ingresos necesarios, pensión pública esperada, horizonte temporal, inflación y rentabilidad",
+        "Solo el salario actual",
+        "Solo la edad de jubilación"
+      ],
+      "correcta": 1,
+      "explicacion": "Una planificación adecuada considera: gastos estimados en jubilación, pensión pública esperada, años de jubilación (esperanza de vida), inflación, rentabilidad esperada de las inversiones.",
+      "id": 43
+    },
+    {
+      "pregunta": "El principio del \"ahorro temprano\" en jubilación se basa en:",
+      "opciones": [
+        "Que los jóvenes ganan más",
+        "El efecto del interés compuesto a largo plazo",
+        "Que las aportaciones jóvenes tienen más ventaja fiscal",
+        "La obligación legal de ahorrar"
+      ],
+      "correcta": 1,
+      "explicacion": "Comenzar a ahorrar pronto permite que el interés compuesto trabaje durante más años, multiplicando significativamente el capital final con el mismo esfuerzo de ahorro.",
+      "id": 44
+    },
+    {
+      "pregunta": "Ahorrar 200€/mes durante 30 años al 5% anual acumula aproximadamente:",
+      "opciones": [
+        "72.000€",
+        "166.000€",
+        "100.000€",
+        "250.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "VF = 200 × [((1+0,05/12)^360 - 1)/(0,05/12)] ≈ 166.000€. El total aportado son 72.000€; el resto (94.000€) son intereses compuestos.",
+      "id": 45
+    },
+    {
+      "pregunta": "La regla del 4% para la jubilación sugiere:",
+      "opciones": [
+        "Ahorrar el 4% del salario",
+        "Se puede retirar aproximadamente el 4% anual del capital sin agotarlo en 30 años",
+        "Invertir el 4% en bolsa",
+        "Que la pensión sea el 4% del salario"
+      ],
+      "correcta": 1,
+      "explicacion": "La \"4% rule\" indica que retirando el 4% del capital inicial (ajustado por inflación cada año), el patrimonio debería durar unos 30 años con alta probabilidad.",
+      "id": 46
+    },
+    {
+      "pregunta": "Un \"bucket strategy\" en jubilación consiste en:",
+      "opciones": [
+        "Invertir todo en renta variable",
+        "Dividir el patrimonio en \"cubos\" según el horizonte temporal de uso",
+        "No invertir nada",
+        "Solo usar planes de pensiones"
+      ],
+      "correcta": 1,
+      "explicacion": "La estrategia de cubos divide el patrimonio: un cubo de liquidez (gastos 1-2 años), otro en renta fija (3-7 años), y otro en renta variable (largo plazo). Reduce el riesgo de secuencia.",
+      "id": 47
+    },
+    {
+      "pregunta": "El riesgo de secuencia de rentabilidades es especialmente peligroso:",
+      "opciones": [
+        "En la fase de acumulación",
+        "En los primeros años de jubilación retirando fondos",
+        "Cuando se ahorra mucho",
+        "Para inversores jóvenes"
+      ],
+      "correcta": 1,
+      "explicacion": "Si los primeros años de retiro coinciden con un mercado bajista, las retiradas sobre un capital menguado pueden agotar los recursos prematuramente, aunque luego el mercado se recupere.",
+      "id": 48
+    },
+    {
+      "pregunta": "Para cubrir el gap de pensiones se puede utilizar:",
+      "opciones": [
+        "Solo planes de pensiones",
+        "Planes de pensiones, seguros de ahorro, fondos de inversión, inmuebles, etc.",
+        "Solo inversión en bolsa",
+        "Solo cuentas corrientes"
+      ],
+      "correcta": 1,
+      "explicacion": "Existen múltiples vehículos para acumular capital para la jubilación: planes de pensiones, PIAS, SIALP, unit linked, fondos de inversión, inmuebles en alquiler, etc. La combinación depende de cada caso.",
+      "id": 49
+    },
+    {
+      "pregunta": "Un PIAS (Plan Individual de Ahorro Sistemático) tiene la ventaja de:",
+      "opciones": [
+        "Reducir la base imponible como un plan de pensiones",
+        "Las ganancias están exentas si se perciben como renta vitalicia tras 5 años",
+        "No tributar nunca",
+        "Garantizar rentabilidad"
+      ],
+      "correcta": 1,
+      "explicacion": "El PIAS es un seguro de vida donde las ganancias acumuladas quedan exentas si, transcurridos 5 años desde la primera prima, el capital se percibe como renta vitalicia.",
+      "id": 50
+    },
+    {
+      "pregunta": "Un SIALP (Seguro Individual de Ahorro a Largo Plazo) ofrece:",
+      "opciones": [
+        "Reducción en base imponible",
+        "Exención de las ganancias si se mantiene 5 años y no se superan 5.000€/año de aportación",
+        "Rentabilidad garantizada del 10%",
+        "Liquidez diaria sin penalización"
+      ],
+      "correcta": 1,
+      "explicacion": "El SIALP es un seguro donde las ganancias están exentas si se mantiene al menos 5 años. Límite de aportación: 5.000€/año. Retiros parciales antes de 5 años penalizan fiscalmente.",
+      "id": 51
+    },
+    {
+      "pregunta": "La hipoteca inversa permite:",
+      "opciones": [
+        "Comprar una casa sin pagar",
+        "A mayores de 65 años obtener ingresos con garantía de su vivienda sin perder la propiedad en vida",
+        "Solo a menores de 50 años",
+        "Vender la vivienda obligatoriamente"
+      ],
+      "correcta": 1,
+      "explicacion": "La hipoteca inversa proporciona ingresos (renta o capital) a mayores de 65 años usando su vivienda como garantía. Mantienen la propiedad y uso; la deuda se liquida al fallecimiento.",
+      "id": 52
+    },
+    {
+      "pregunta": "La nuda propiedad de un inmueble implica:",
+      "opciones": [
+        "Tener el uso total del inmueble",
+        "Ser propietario sin derecho de uso (el usufructuario lo conserva)",
+        "Alquilar el inmueble",
+        "Vender el inmueble completo"
+      ],
+      "correcta": 1,
+      "explicacion": "El nudo propietario tiene la propiedad pero no el uso ni disfrute (usufructo). Al extinguirse el usufructo (normalmente por fallecimiento), consolida la plena propiedad.",
+      "id": 53
+    },
+    {
+      "pregunta": "Para un jubilado, ¿qué forma de rescate del plan de pensiones suele ser más eficiente fiscalmente?",
+      "opciones": [
+        "Capital único",
+        "Renta periódica distribuida en varios años",
+        "Es indiferente",
+        "Mixta siempre"
+      ],
+      "correcta": 1,
+      "explicacion": "Al ser rendimientos del trabajo con escala progresiva, distribuir el rescate en rentas a lo largo de varios años evita acumular toda la base en un ejercicio y reduce el tipo marginal efectivo.",
+      "id": 54
+    },
+    {
+      "pregunta": "El coste de vida en jubilación respecto a la vida activa suele:",
+      "opciones": [
+        "Aumentar significativamente",
+        "Disminuir (se estima un 70-80% de los gastos previos)",
+        "Mantenerse exactamente igual",
+        "Duplicarse"
+      ],
+      "correcta": 1,
+      "explicacion": "En jubilación suelen reducirse gastos (transporte, ropa trabajo, cotizaciones, hipoteca pagada), aunque aumentan otros (salud, ocio). Se estima necesitar un 70-80% del último salario.",
+      "id": 55
+    },
+    {
+      "pregunta": "La esperanza de vida a los 65 años en España es aproximadamente:",
+      "opciones": [
+        "10 años",
+        "20-22 años",
+        "30 años",
+        "5 años"
+      ],
+      "correcta": 1,
+      "explicacion": "La esperanza de vida a los 65 años en España es de unos 19-20 años para hombres y 23-24 para mujeres, lo que implica planificar para un periodo de jubilación de 20+ años.",
+      "id": 56
+    },
+    {
+      "pregunta": "Un jubilado con patrimonio de 500.000€ y gasto anual de 30.000€ tiene:",
+      "opciones": [
+        "Patrimonio insuficiente",
+        "Aproximadamente 16-17 años de autonomía sin rentabilidad",
+        "Patrimonio para 50 años",
+        "Exceso de patrimonio"
+      ],
+      "correcta": 1,
+      "explicacion": "500.000 / 30.000 = 16,7 años sin considerar rentabilidad ni inflación. Con rentabilidad real positiva duraría más; con inflación alta y sin rentabilidad, menos.",
+      "id": 57
+    },
+    {
+      "pregunta": "La inflación durante la jubilación:",
+      "opciones": [
+        "No afecta a los jubilados",
+        "Erosiona el poder adquisitivo de los ahorros y rentas fijas",
+        "Beneficia siempre a los jubilados",
+        "Es irrelevante para la planificación"
+      ],
+      "correcta": 1,
+      "explicacion": "La inflación reduce el poder de compra. Un jubilado con renta fija de 2.000€ verá su capacidad adquisitiva disminuir año tras año si la inflación supera la revalorización.",
+      "id": 58
+    },
+    {
+      "pregunta": "Un plan de jubilación debe revisarse:",
+      "opciones": [
+        "Nunca, es para toda la vida",
+        "Periódicamente y ante cambios significativos en circunstancias personales o mercados",
+        "Solo al jubilarse",
+        "Solo si hay pérdidas"
+      ],
+      "correcta": 1,
+      "explicacion": "La planificación debe revisarse regularmente (anualmente) y ante cambios: matrimonio, hijos, cambio de trabajo, herencia, variaciones de mercado, cambios legislativos, etc.",
+      "id": 59
+    },
+    {
+      "pregunta": "La diversificación del ahorro para jubilación entre diferentes instrumentos permite:",
+      "opciones": [
+        "Complicar la gestión innecesariamente",
+        "Optimizar fiscalidad, liquidez y rentabilidad/riesgo según necesidades",
+        "Pagar más comisiones",
+        "Reducir la rentabilidad total"
+      ],
+      "correcta": 1,
+      "explicacion": "Combinar instrumentos (planes de pensiones, fondos, seguros, inmuebles) permite optimizar: diferentes tramos de liquidez, tratamientos fiscales, perfiles de riesgo y acceso al capital según necesidades.",
+      "id": 60
+    }
+  ]
+}

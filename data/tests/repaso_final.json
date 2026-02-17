@@ -1,0 +1,1052 @@
+{
+  "titulo": "Repaso Final EFA",
+  "tiempo": 120,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "¿Qué diferencia básica puede existir entre los servicios de un family office puro (grupo de profesionales independientes contratado y pagado por una persona rica) y los ofrecidos desde un family office de una entidad financiera?",
+      "opciones": [
+        "Ninguna diferencia",
+        "Los servicios son más numerosos en el family office puro",
+        "A priori, mayor independencia y autonomía en los servicios del family office puro",
+        "Mejores profesionales se pueden encontrar en el family office puro"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 1
+    },
+    {
+      "pregunta": "En la instrumentación de la política monetaria del BCE las facilidades permanentes de depósito:",
+      "opciones": [
+        "Suponen operaciones de repo de deuda pública",
+        "Constituyen el tipo mínimo de los tipos de interés del eurosistema",
+        "Permiten no superar un tope máximo de los tipos de interés del eurosistema",
+        "Sustituyen al coeficiente de caja en casos de excesos de liquidez"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 2
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes factores afectan al valor liquidativo de un fondo de inversión?",
+      "opciones": [
+        "Las aportaciones",
+        "Los reembolsos",
+        "El valor de compra de los activos",
+        "Los gastos del fondo"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 3
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes no es un principio rector de los planes de pensiones?",
+      "opciones": [
+        "Capitalización",
+        "Discriminación",
+        "Irrevocabilidad de las aportaciones",
+        "Atribución de derechos"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 4
+    },
+    {
+      "pregunta": "Antonio López adquirió diez bonos cupón cero a 3 años con los siguientes datos: - - Si lo vendiera por el valor nominal, calcular la tributación si el tipo marginal del Sr. López es del 37%.",
+      "opciones": [
+        "50",
+        "60",
+        "57",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 5
+    },
+    {
+      "pregunta": "Un título con una rentabilidad esperada del 10% y una volatilidad del 20%, que siga una ley normal, tiene una probabilidad del 2,5% de que su rentabilidad sea mayor que:",
+      "opciones": [
+        "30%",
+        "50%",
+        "-30%",
+        "Ninguna es correcta Repaso Final Programa Asesoramiento Financiero Avanzado -2-"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 6
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes no es una característica del seguro?",
+      "opciones": [
+        "Posible: viable.",
+        "Incierto: no puede haber certeza en su acaecimiento.",
+        "Lucrativo: se puede ganar dinero con él.",
+        "Independiente de la voluntad humana: no puede haber dolo"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 7
+    },
+    {
+      "pregunta": "Dentro de los elementos del seguro encontramos:",
+      "opciones": [
+        "Formales, materiales y reales",
+        "Formales y reales",
+        "Formales, materiales, reales y patrimoniales",
+        "Formales, materiales, reales, patrimoniales y personales."
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 8
+    },
+    {
+      "pregunta": "Un seguro PIAS se caracteriza porque:",
+      "opciones": [
+        "Las aportaciones son deducibles en IRPF",
+        "Se pueden contratar uno por persona",
+        "El límite de aportación anual es de 8.000 euros",
+        "La prestación, si se cobra en forma de capital, tiene una reducción del 40%."
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 9
+    },
+    {
+      "pregunta": "Supongamos que en un seguro de daños la suma asegurada es de 100, el valor asegurable de 200 y el siniestro cuesta repararlo 50. ¿A cuánto asciende la indemnización?",
+      "opciones": [
+        "50",
+        "25",
+        "100",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "al existir infraseguro se aplica la regla proporcional: Indem.=(100/200)*50=25",
+      "id": 10
+    },
+    {
+      "pregunta": "Dentro del análisis de las actitudes y expectativas del cliente. ¿Cuál de las siguientes tareas se debe realizar?:",
+      "opciones": [
+        "Conocer los bienes y deudas que tiene el cliente.",
+        "Conocer las inversiones financieras próximas del cliente.",
+        "Determinar el perfil de riesgo del cliente.",
+        "Análisis de la fiscalidad del cliente."
+      ],
+      "correcta": 2,
+      "explicacion": "dentro del análisis de las actitudes y expectativas del inversor se encuentra la realización del test de riesgo, para determinar su perfil de riesgo a la hora de determinar su cartera.",
+      "id": 11
+    },
+    {
+      "pregunta": "El reequilibrio de una cartera mixta permite:",
+      "opciones": [
+        "Llevar la cartera a su posición neutral en cuanto al porcentaje de cada tipo de activo que la compone.",
+        "Modificar diariamente y en tiempo real la composición de la cartera.",
+        "Consolidar la rentabilidad.",
+        "Todas son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Se hace periódicamente para no perder el perfil de rentabilidad riesgo de la cartera, pero en general, no es necesario realizarlo diariamente.",
+      "id": 12
+    },
+    {
+      "pregunta": "El reajuste de una cartera consiste en:",
+      "opciones": [
+        "Rebajar la volatilidad de la inversión cuanto más cerca esta del final de su horizonte temporal.",
+        "Llevar la cartera a su posición neutral en cuanto al porcentaje de cada tipo de activo que la compone.",
+        "Aumentar la volatilidad de la cartera.",
+        "Reducir el peso de la renta fija europea en la cartera. Repaso Final Programa Asesoramiento Financiero Avanzado -3-"
+      ],
+      "correcta": 0,
+      "explicacion": "El reajuste permite consolidar la rentabilidad objetivo rebajando la volatilidad de las carteras a lo largo del tiempo.",
+      "id": 13
+    },
+    {
+      "pregunta": "Supongamos que Miguel solicita un préstamo por 30 años y 300.000 euros. Sabiendo que el tipo de interés que le aplica la entidad financiera es del 4% nominal anual. Calcular la cuota mensual del préstamo.",
+      "opciones": [
+        "1.400,34",
+        "1.432,24",
+        "1.500",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "se trata de calcular la cuota mensual de un préstamo francés: 300.000 = cuota mensual * (1-(1+0,04/12)(-360)) / 0,04/12, despejando la cuota mensual sale 1432,24 euros CMPD Set=end N=30*12=360 I=4 PV=300.000 PMT= solve FV= 0 P/Y=12 C/Y=12",
+      "id": 14
+    },
+    {
+      "pregunta": "Considerando que el PER de un mercado bursátil es de 20 y que la TIR del bono a 10 años es del 4%. ¿Cómo se encuentra dicho mercado bursátil de acuerdo con el indicador Earning Yield Gap?",
+      "opciones": [
+        "Sobrevalorado",
+        "Infravalorado",
+        "Bien valorado",
+        "Cotiza con prima"
+      ],
+      "correcta": 0,
+      "explicacion": "a partir del Earning Yield Gap podemos saber como se encuentra el mercado bursátil: EYG = (1/PER) – TIRbono a 10 años = (1/20) – 0,04 = 0,01 es decir 1%, luego como es positivo indica que se encuentra infravalorado.",
+      "id": 15
+    },
+    {
+      "pregunta": "Si un cliente tiene un horizonte temporal de 5 años e invierte en una cartera de renta fija con 6 años de duración, ¿qué riesgo asume, considerando la relación entre tipos de interés, precio, duración y horizonte temporal, suponiendo el resto de factores que afectan a la cartera de renta fija constantes?",
+      "opciones": [
+        "De reinversión",
+        "De precio",
+        "Ninguno, porque su cartera está inmunizada",
+        "De reinversión y de precio, a partes iguales"
+      ],
+      "correcta": 0,
+      "explicacion": "como va a necesitar liquidar la cartera el 5º año y ésta vence de media el 6º, se expone a que los tipos hayan subido y el valor de la cartera (precio) haya bajado, luego en este caso domina el riesgo de precio.",
+      "id": 16
+    },
+    {
+      "pregunta": "Si la tasa de interés interbancario a 6 meses del euro y de la libra son 3% y 1,5% respectivamente y el tipo de cambio spot es de 0,97 libras por cada euro, el tipo de cambio a plazo a seis meses será:",
+      "opciones": [
+        "1,631 libra/euro",
+        "0,57216 euro/libra",
+        "0,9628 libra/euro",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 17
+    },
+    {
+      "pregunta": "Un gestor de carteras que administra un fondo de inversión de renta variable altamente diversificado, cuyo patrimonio está situado hoy en 20 millones de Euros, decide cubrirlo con futuros sobre el IBEX-35. Determinar el número de contratos según los datos siguientes si decide llevar la cobertura hasta el vencimiento de los contratos: Valor nominal de la cartera de renta variable 16.500.000 euros Valor efectivo de la cartera de renta variable 16.000.000 euros IBEX-35 contado 9.500 Futuro IBEX-35 vto. próximo 9.600 Beta global de la cartera 2",
+      "opciones": [
+        "407",
+        "695",
+        "506",
+        "Ninguna es correcta Repaso Final Programa Asesoramiento Financiero Avanzado -4-"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 18
+    },
+    {
+      "pregunta": "Un importador prevé endeudarse dentro de 90 días durante 90 días y tiene expectativas alcistas de los tipos de interés. Acude a su oficina bancaria y se lo comenta a su asesor. ¿Qué posibilidades tiene el cliente para cubrirse?",
+      "opciones": [
+        "Comprar Futuro Euribor a 90 días",
+        "-",
+        "Vender FRA 90/180",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "al tener expectativas alcistas, el riesgo del cliente es que se le encarezca la financiación a plazo, luego puede comprar FRA (cotizan en tipos) o bien vender Futuro €uribor-90 del vencimiento dentro de 180 días para que le cubra los 90 días (cotiza en precio: suben tipos y bajan precios) ANTE EL RIESGO DE SUBIDA DE TIPOS:Ñ. EL FUTURO DEL EURIBOR 90D COTIZA EN PRECIO= 100 - EURIBOR 90. LUEGO SI MI RIESGO ES DE SUBIDA DE TIPOS EL PRECIO DEL FUT E90 CAE, LUEGO E DE VENDER FUTURO E90Ò. LO MISMO SE PUEDE HACER CON FRAS PERO COMPRANDO FRA (YA QUE QUE COTIZA SOBRE EL EURIBOR DIRECTAMENTE):",
+      "id": 19
+    },
+    {
+      "pregunta": "Un inversor alemán invierte en un fondo de inversión denominado en dólares. Dicho fondo obtiene un rendimiento el primer año del -40%. Durante el mismo año el dólar se aprecia con respecto al euro en un 20%. La rentabilidad en euros de su inversión para este período ha sido del:",
+      "opciones": [
+        "-28,00%",
+        "-20,00%",
+        "+38,00%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "(1-0,4)*(1+0,2)-1=-28%",
+      "id": 21
+    },
+    {
+      "pregunta": "Dos acciones A y B presentan una desviación típica anual con respecto a su rentabilidad igual, respectivamente, al 8% y al 12%, así como un coeficiente de correlación entre rentabilidades igual a 0,5. ¿Cuál será la desviación típica de una cartera compuesta por un 40% del título A y un 60% del título B?",
+      "opciones": [
+        "8,46%",
+        "3,40%",
+        "9,22%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "(0,42*0,082+0,62*0,122+2*0,4*0,6*0,5*0,08*0,12)1/2=0,0922, 9,22%",
+      "id": 22
+    },
+    {
+      "pregunta": "Cuando una acción toca su techo, de acuerdo con el análisis técnico, ¿qué se espera que ocurra?:",
+      "opciones": [
+        "Que la oferta supere a la demanda",
+        "Que la demanda supere a la oferta",
+        "Que la demanda se iguale a la oferta",
+        "Que el volumen de negociación se mantenga constante"
+      ],
+      "correcta": 0,
+      "explicacion": "para bajar el precio aumenta la oferta Solución Repaso Final Programa Asesoramiento Financiero Avanzado - IEB Jesús Pérez -7-",
+      "id": 23
+    },
+    {
+      "pregunta": "¿Qué porcentaje de participación sobre la revalorización total de la referencia elegida podría ofrecer este fondo garantizado?. Patrimonio inicial del fondo: 200 millones de euros. Importe destinado a la compra de bonos cupón cero y liquidez: 185 millones. Importe destinado a retribuir a la gestora, al depositario, a la auditoria y otros costes e impuestos: 6 millones de euros. Las opciones que se compran valen 10 euros de prima por un nominal de 80 euros. Repaso Final Programa Asesoramiento Financiero Avanzado -5-",
+      "opciones": [
+        "34%",
+        "86%",
+        "20%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "Quedan libres para invertir en opciones 9 millones, luego sin con 10 tenemos derecho a 80, con 9 millones a X, luego X=72.000.000, que sobre 200 millones supone 36% de acceso a la revalorización del índice de referencia",
+      "id": 24
+    },
+    {
+      "pregunta": "Si el indicador técnico RSI para una acción toma valor de 90, ¿qué significa?:",
+      "opciones": [
+        "Que la acción está sobrecomprada",
+        "Que la acción está sobrevendida",
+        "Que la acción está bien valorada",
+        "Que la acción está en su valor mínimo"
+      ],
+      "correcta": 0,
+      "explicacion": "el RSI toma valores entre 0 y 100; cuando está entre 30 y 70 se dice que la acción está fluctuando dentro de la normalidad, cuando está por encima de 70 que está sobrecomprada y por debajo de 30 sobrevendida.",
+      "id": 25
+    },
+    {
+      "pregunta": "Una due dilligence es el análisis que se realiza a la hora de seleccionar los fondos que compondrán el fondo de fondos hedge. Esta consta de varios pasos: I. La estrategia del fondo II. La contabilidad y fiscalidad del fondo III. Análisis del equipo gestor IV. Las infraestructuras de la entidad gestora V. Proceso de selección de activos por parte de la gestora VI. Filtrado del universo de fondos Indicar la respuesta correcta:",
+      "opciones": [
+        "I, II, III, IV, V",
+        "I, II, III, IV, V, VI",
+        "VI",
+        "V"
+      ],
+      "correcta": 0,
+      "explicacion": "Una due dilligence consta de cinco pasos:",
+      "id": 26
+    },
+    {
+      "pregunta": "En función  de su riesgo, las diferentes estrategias de inversión alternativa las podemos dividir",
+      "opciones": [
+        "Alto Riesgo: estrategias de Valor Relativo.",
+        "Riesgo Medio: estrategias de Event Driven.",
+        "Bajo Riesgo: estrategias Globales, Emergentes, Ventas al descubierto, Managed Futures.",
+        "Riesgo medio: estrategias de Valor Relativo"
+      ],
+      "correcta": 0,
+      "explicacion": "Por definición:",
+      "id": 27
+    },
+    {
+      "pregunta": "Considerando la relación en la etapa de recesión entre el estilo de gestión y la fase del ciclo económico, ¿qué tipo de activos utilizaría para maximizar el retorno y qué estilo de gestión?",
+      "opciones": [
+        "Acciones no ligadas al ciclo y estilo de gestión de tipo valor",
+        "Acciones ligadas al ciclo y estilo de gestión de tipo crecimiento",
+        "Acciones ligadas al ciclo y estilo de gestión de tipo valor",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "se trata de estar lo más descorrelacionado con el momento financiero y en títulos defensivos (valor). Solución Repaso Final Programa Asesoramiento Financiero Avanzado - IEB Jesús Pérez -9-",
+      "id": 28
+    },
+    {
+      "pregunta": "La gestión de tipo crecimiento. Indicar la respuesta correcta:",
+      "opciones": [
+        "No le preocupa el precio de la acción",
+        "Busca compañías con PER bajo",
+        "Busca empresas con precio muy bajo",
+        "Busca compañías con bajas perspectivas de crecimiento Repaso Final Programa Asesoramiento Financiero Avanzado -6-"
+      ],
+      "correcta": 2,
+      "explicacion": "Busca empresas con independencia del precio, con PER alto y empresas con buena proyección de los beneficios futuros, sin importar los beneficios actuales.",
+      "id": 29
+    },
+    {
+      "pregunta": "Utilizan los instrumentos derivados para realizar apuestas direccionales, y los podemos dividir en sistemáticos y discrecionales, ¿de qué estrategia utilizada por los fondos de inversión libre (hedge funds) se trata?",
+      "opciones": [
+        "Long/short equity.",
+        "Managed futures.",
+        "Arbitraje de renta fija.",
+        "Arbitraje de fusiones."
+      ],
+      "correcta": 0,
+      "explicacion": "Usan los derivados para gestionar la estrategia de inversión.",
+      "id": 30
+    },
+    {
+      "pregunta": "La primera fase de la planificación de la jubilación del inversor, esta referida a la recogida de información",
+      "opciones": [
+        "La edad actual",
+        "El porcentaje de ingresos que se desea percibir después de la jubilación",
+        "El nivel de ingresos",
+        "El ahorro inicial que se pretende destinar a la jubilación"
+      ],
+      "correcta": 1,
+      "explicacion": "El porcentaje de ingresos que se desea percibir después de la jubilación es un objetivo, que pertenece a la segunda fase, es decir que no es recogida de información.",
+      "id": 31
+    },
+    {
+      "pregunta": "Generalmente, serán movilizables o liquidables los derechos consolidados de un partícipe de un plan de pensiones en las siguientes circunstancias. Indicar la respuesta incorrecta:",
+      "opciones": [
+        "Por cesación de la relación laboral con el promotor de un plan del sistema de empleo",
+        "Por la pérdida de la condición de asociado al colectivo promotor de un plan del sistema asociado",
+        "Por decisión unilateral del partícipe, comunicada al correspondiente Plan de Pensiones del sistema asociado o de empleo",
+        "Por terminación del Plan"
+      ],
+      "correcta": 2,
+      "explicacion": "La respuesta c) bien formulada sería así: Por decisión unilateral del partícipe, comunicada al correspondiente Plan de Pensiones del sist. asociado o individual. En un plan de empleo, se podrá movilizar o liquidar anticipadamente el plan, siempre que el reglamento del mismo lo permita, en caso de cambio de trabajo o por los motivos de paro de larga duración o enfermedad grave.",
+      "id": 32
+    },
+    {
+      "pregunta": "No es un principio básico para la planificación de la jubilación:",
+      "opciones": [
+        "Definir las necesidades en el momento de la jubilación.",
+        "Establecer los beneficios de las pensiones públicas.",
+        "Establecer prioridades financieras a corto, medio y largo plazo.",
+        "Realizar aportaciones buscando sólo el beneficio fiscal."
+      ],
+      "correcta": 0,
+      "explicacion": "La fiscalidad per se no es un principio de planificación de la jubilación.",
+      "id": 33
+    },
+    {
+      "pregunta": "Luisa tiene 35 años y desea jubilarse a los 65. Tiene un salario de 55.000 euros anuales y si se jubilase hoy le correspondería una pensión de la Seguridad Social de 33.000 euros. Si el salario y la pensión se estiman crezcan a un 3% anual. ¿Cuál es el ratio de cobertura estimado de la Seguridad Social en el momento de la jubilación?",
+      "opciones": [
+        "80%",
+        "32,3%",
+        "60,0%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "Ratio de cobertura a los 65 años = 33.000 * (1,03)30 / 55.000 * (1,03) 30 = 60,00%",
+      "id": 34
+    },
+    {
+      "pregunta": "El ciclo inmobiliario actúa con retraso respecto al ciclo económico y:",
+      "opciones": [
+        "Es mas brusco en la caída",
+        "Es más rápido en la recuperación.",
+        "Presenta alta correlación respecto de activos financieros tradicionales.",
+        "Es más lento en la caída"
+      ],
+      "correcta": 0,
+      "explicacion": "el ciclo inmobiliario es rápido en la caída, en comparación con la estabilidad de la subida.",
+      "id": 36
+    },
+    {
+      "pregunta": "En relación con las reducciones en el Impuesto de Sucesiones y Donaciones en la normativa estatal: en la adquisición  de activos por parte de los hijos por muerte del padre, dueño de la empresa familiar, se aplica una reducción del 95% en la parte de la base imponible correspondiente al valor de dichas",
+      "opciones": [
+        "El adquirente debe mantener los bienes y su valor durante los 15 años siguientes al fallecimiento, salvo que el adquirente fallezca en ese plazo.",
+        "El adquirente debe mantener los bienes y su valor durante los 12 años siguientes al fallecimiento, salvo que el adquirente fallezca en ese plazo.",
+        "El adquirente debe mantener los bienes y su valor durante los 10 años siguientes al fallecimiento, salvo que el adquirente fallezca en ese plazo.",
+        "Todas son correctas"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la ley Solución Repaso Final Programa Asesoramiento Financiero Avanzado - IEB Jesús Pérez -11-",
+      "id": 38
+    },
+    {
+      "pregunta": "Una cartera con un coeficiente beta de 2 ha obtenido una rentabilidad del 20% con una volatilidad del 28%. En el mismo periodo el índice de referencia ha obtenido una rentabilidad del 15% con una volatilidad del 10%. Calcular el tracking-error de dicha cartera.",
+      "opciones": [
+        "14,20%",
+        "14,40%",
+        "19,59%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "TE=(0,282-22*0,102)1/2=19,59% Se trata de aplicar la fórmula de cálculo del tracking error: T.E.=raiz(volatilidad de la cartera2 – beta2*volatilidad del mercado2) Ratio de información = Alfa / TE = (20%-2*15%) / 19,59% = -0,51",
+      "id": 41
+    },
+    {
+      "pregunta": "Suponiendo que estamos en un mercado en equilibrio, calcular la rentabilidad de una cartera sabiendo que el activo libre de riesgo tiene una rentabilidad del 3%, que la beta es de 1,5, que la volatilidad de la cartera es del 15%, que la rentabilidad del mercado es del 15% y que la volatilidad del mercado es del 14%.",
+      "opciones": [
+        "3",
+        "15,85%",
+        "16,5%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "al estar en condiciones de equilibrio y referido a carteras, aplicamos CML: Solución Repaso Final Programa Asesoramiento Financiero Avanzado - IEB Jesús Pérez -12-",
+      "id": 42
+    },
+    {
+      "pregunta": "El activo libre de riesgo tiene una rentabilidad del 2%. El mercado tiene una rentabilidad del 10%. La beta del fondo es de 2. Si la rentabilidad de un título es del 12%, determinar cómo está el título.",
+      "opciones": [
+        "Sobrevalorado",
+        "Infravalorado",
+        "Bien valorado",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "como se trata de un título (no cartera) y el mercado no se dice que esté en equilibrio, aplicamos SML: la rentabilidad teórica sería de Ri=2%+2*(10%-2%)=18%>12% que es la real, luego el activo está sobrevalorado Alfa de Jensen = 12% -18% = -6%",
+      "id": 43
+    },
+    {
+      "pregunta": "Si una cartera tiene una rentabilidad del 5% con una volatilidad del 7%, el mercado tiene una rentabilidad del 7% con una volatilidad del 10% y el activo libre de riesgo tiene una rentabilidad del 3%, determinar mediante el ratio de Sharpe la eficiencia de la cartera y del mercado:",
+      "opciones": [
+        "0,3 y 0,5 respectivamente",
+        "0,28 y 0,4 respectivamente",
+        "2 y 4 respectivamente",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "Ratio de Sharpe de la cartera = (5% - 3%) / 7% = 0,28 Ratio de Sharpe de la cartera de mercado = (7% - 3%) / 10% = 0,4",
+      "id": 44
+    },
+    {
+      "pregunta": "Dado un fondo que tiene un ratio de Sharpe de 0,93 con una volatilidad del 26,2%, si su beta es 1,06, su ratio de Treynor será:",
+      "opciones": [
+        "1,334",
+        "3,554",
+        "0,243",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "R. Sharpe = (Rc – Rf)/c 0,93 = (Rc – Rf)/0,262 (Rc – Rf) = 0,93 x 0,262 =0,2437 Ratio de Treynor = (Rc – Rf)/Beta = 0,2437 / 1,06 = 0,2298",
+      "id": 45
+    },
+    {
+      "pregunta": "Según la teoría de carteras de Markowitz:",
+      "opciones": [
+        "Es posible encontrar títulos  por encima de la frontera eficiente",
+        "Las carteras que se encuentran en la frontera eficiente son las óptimas",
+        "Es posible encontrar carteras por encima de la frontera eficiente",
+        "Las carteras que se encuentran en la frontera eficiente son subóptimas Repaso Final Programa Asesoramiento Financiero Avanzado -9-"
+      ],
+      "correcta": 1,
+      "explicacion": "por definición de frontera eficiente",
+      "id": 46
+    },
+    {
+      "pregunta": "Si tuviera que comparar el valor añadido por la gestión activa realizada en los últimos tres años por dos gestores y posteriormente seleccionar uno de ellos, escogería el que hubiera:",
+      "opciones": [
+        "Obtenido mayor rentabilidad.",
+        "Incurrido en el menor riesgo.",
+        "Acertado con el momento de hacer las compras.",
+        "Alcanzado mayor ratio de información."
+      ],
+      "correcta": 0,
+      "explicacion": "Por definición, ratio de información nos indica la extrarentabilidad del gestor en la gestión de carteras en relación al extrariesgo asumido para conseguirla sobre el benchmark RI = alfa/TE= (Rc – beta * RM ) / raíz(Varianza de la cartera – beta^2*varianza mercado) Alfa de Jensen = Rc – Rc(SML) = Rc – (Rf + beta*(Rm-RF)) Linea Característica Título: Ri = alfa + beta*Rm; alfa= Rc – beta * RM",
+      "id": 47
+    },
+    {
+      "pregunta": "En el proceso de inversión, ¿qué factor es más importante en el resultado final obtenido por la cartera?",
+      "opciones": [
+        "La distribución de activos",
+        "La selección de activos",
+        "La selección de sectores",
+        "La medición de resultados"
+      ],
+      "correcta": 0,
+      "explicacion": "la distribución de activos, o asset allocation viene a explicar el 95 por ciento del resultado final. La medición del resultado sirve sólo para control.",
+      "id": 48
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes preceptos es un principio fundamental del código ético de EFPA?",
+      "opciones": [
+        "La obligación de actuar responsablemente a fin de rendir un servicio a los intereses del público.",
+        "La obligación de divulgar noticias confidenciales, de acuerdo con el principio de la no reserva.",
+        "La obligación de no revelar conflictos de interés correctamente al relacionarse con toda persona con la cual haya contacto profesional.",
+        "La obligación de buscar la mayor rentabilidad de las inversiones propuestas al cliente."
+      ],
+      "correcta": 0,
+      "explicacion": "por definición",
+      "id": 49
+    },
+    {
+      "pregunta": "Las normas de conducta de la normativa MiFID establecen una serie de deberes, entre otros, el deber",
+      "opciones": [
+        "Clasificación de los clientes, excepto a los minoristas",
+        "Ofrecer una información clara, imparcial y no engañosa.",
+        "Realizar evaluaciones o pruebas de la idoneidad o la conveniencia (según los casos) de los productos, en atención a la información disponible sobre los clientes.",
+        "Ejecutar las órdenes en aquellos mercados, y con aquellas condiciones, que resulten más adecuados para los intereses de los clientes."
+      ],
+      "correcta": 0,
+      "explicacion": "Clasificación de los minoristas, en primer lugar.",
+      "id": 50
+    },
+    {
+      "pregunta": "Si la rentabilidad spot de un activo con vencimiento 6 meses está en el 6% y el tipo forward o implícito para una inversión para 3 meses dentro de 6 meses es del 9%, ¿cuál es el tipo de interés spot para una inversión a 9 meses?",
+      "opciones": [
+        "18,00%",
+        "8,10%",
+        "7,09%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 2,
+      "explicacion": "(1+i0,9*9/12)=(1+0,06*6/12)*(1+0,09*3/12) i0,9*9/12=1,0532 -1 i0,9 = 0,0532*12/9 =0,0709 i0,9=7,09%",
+      "id": 51
+    },
+    {
+      "pregunta": "Dentro de los servicios de asesoramiento y planificación financiera de las entidades financieras se español?",
+      "opciones": [
+        "Banca por internet",
+        "Gestión de carteras por mandato",
+        "Asesoramiento financiero personal",
+        "Family office Repaso Final Programa Asesoramiento Financiero Avanzado -10-"
+      ],
+      "correcta": 0,
+      "explicacion": "el servicio de correduría pretende, a través de un buen sistema informático vía web, que sea el propio cliente quien se sirva de los servicios financieros que ponen las entidades a su disposición, de forma que no existe un asesoramiento personal directo y la ganancia de la entidad procede de las comisiones por intermediación y mantenimiento en su caso. El servicio de “correduría” de asesoramiento financiero traído al mercado español sería la llamada banca por internet, donde no existe un asesoramiento personalizado, y si aplicaciones informáticas que permiten seleccionar productos de acuerdo a lo que cada usuario tenga por oportuno seleccionar y operar en los mercados financieros. Solución Repaso Final Programa Asesoramiento Financiero Avanzado - IEB Jesús Pérez -15-",
+      "id": 52
+    },
+    {
+      "pregunta": "Por su condición de accionista de una empresa que cotiza en bolsa, de la que posee 10.000 acciones adquiridas el 4 de enero y 1.000 el 8 de marzo del mismo año, un contribuyente percibe los siguientes rendimientos: Calcular el rendimiento  del capital mobiliario que será objeto de tributación considerando la exención por dividendos y la norma antiaplicación.",
+      "opciones": [
+        "2500",
+        "1500",
+        "1000",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "▪ Dividendos = 0,2 x 10.000 acciones = 2.000 €. ▪ Prima de asistencia = 0,05 € x 10.000 = 500 €. Luego: RCM =2.500 €, que van a la base de ahorro",
+      "id": 55
+    },
+    {
+      "pregunta": "En las pólizas de seguros de daños a los bienes es frecuente utilizar la franquicia absoluta. Ésta es una forma de:",
+      "opciones": [
+        "Infraseguro",
+        "Seguro a valor pleno",
+        "Sobreseguro",
+        "Seguro a valor de nuevo"
+      ],
+      "correcta": 0,
+      "explicacion": "es una forma de infraseguro, al comprometerse el tomador o asegurado a pagar siempre un porcentaje del siniestro. En la franquicia absoluta el tomador o asegurado se compromete a pagar siempre hasta una cantidad prefijada en póliza o un porcentaje del siniestro también fijado en póliza; luego se trata de una cobertura parcial del daño sufrido, y a esto se llama infraseguro. Ej. si la franquicia absoluta del seguro del coche es de 300 euros, para cualquier siniestro que se produzca los primeros 300 euros los para el tomador o asegurado y el resto lo paga la aseguradora. Como el tomador-asegurado asumen en pagar siempre una parte del siniestro, se trata de un infraseguro, puesto que no se asegura al 100% el bien.",
+      "id": 56
+    },
+    {
+      "pregunta": "¿Cuáles son los elementos personales de un contrato de seguros?",
+      "opciones": [
+        "Tomador, asegurado, beneficiario y promotor",
+        "Tomador, asegurado, beneficiario y asegurador",
+        "Tomador, partícipe, beneficiario y promotor",
+        "Asegurado, beneficiario y promotor"
+      ],
+      "correcta": 0,
+      "explicacion": "Tomador, asegurado, beneficiario y asegurador. En el caso del plan de pensiones, son: promotor, partícipe y beneficiario Solución Repaso Final Programa Asesoramiento Financiero Avanzado - IEB Jesús Pérez -16-",
+      "id": 57
+    },
+    {
+      "pregunta": "En relación con los planes de previsión asegurados (PPAs). Indicar la respuesta incorrecta:",
+      "opciones": [
+        "La aportación máxima es de 1.500 euros.",
+        "La aportación se puede reducir de la base imponible del IRPF respetando los límites establecidos en el impuesto.",
+        "La aportación al PPA es independiente de la aportación al plan de pensiones.",
+        "El cobro tributa como rendimientos del trabajo en la base general de IRPF"
+      ],
+      "correcta": 0,
+      "explicacion": "La aportación al PPA NO es independiente de la aportación al plan de pensiones, se puede aportar 1.500 euros al PPA y al plan de pensiones en conjunto. Si es seguro fuera PIAS en lugar de PPA, la aportación máxima sería de 8.000 €, y ésta es complementaria al plan de pensiones o al PPA, aunque no reduce la base imponible general.",
+      "id": 58
+    },
+    {
+      "pregunta": "De los siguientes productos financieros, ¿cuál aconsejaría a un cliente  de 64 años de edad que dice tener 12.000 euros ahorrados y que ha cotizado por mínimos a la Seguridad Social?",
+      "opciones": [
+        "Un bono del Estado cupón cero a 15 años",
+        "Un fondo de inversión libre",
+        "Acciones europeas",
+        "Un seguro de rentas vitalicias inmediatas"
+      ],
+      "correcta": 0,
+      "explicacion": "Considerando que está a punto de jubilarse, no le conviene correr el riesgo que tienen cualquiera de los tres primeros productos. El que elimina el riesgo de mercado y vela por su tranquilidad sería el seguro de rentas vitalicias, tanto por la seguridad como por la fiscalidad atractiva.",
+      "id": 59
+    },
+    {
+      "pregunta": "A la hora de gestionar una cartera de activos financieros nos encontramos con la fluctuación diaria del valor (precio) en los mercados de capitales. El gestor de carteras debe conocer la diferencia entre reequilibrar y reajustar una cartera. Indicar cuál de las siguientes afirmaciones es correcta:",
+      "opciones": [
+        "El reequilibrio supone aumentar el riesgo de la cartera a medida que nos acercamos al final del horizonte temporal del inversor para una inversión dada. Repaso Final Programa Asesoramiento Financiero Avanzado -11-",
+        "El reajuste supone aumentar el riesgo de la cartera a medida que nos acercamos al final del horizonte temporal del inversor para una inversión dada.",
+        "Reajuste supone la adaptación del riesgo de la cartera a medida que se reduce el horizonte temporal de la inversión.",
+        "Ambas técnicas permiten anticiparse a los movimientos de los mercados para beneficio del cliente."
+      ],
+      "correcta": 1,
+      "explicacion": "el reequilibrio en carteras mixtas, trata de llevar periódicamente la distribución de pesos de la cartera a sus porcentajes medios, y el reajuste permite reducir progresivamente el riesgo de la cartera a medida que transcurre el horizonte temporal del inversor para finalmente llegar a la cartera objetivo del mismo. Ambas técnicas son complementarias en la gestión de carteras.",
+      "id": 60
+    },
+    {
+      "pregunta": "Una empresa de crédito rápido ofrece préstamos por importe de 3.000 euros, a devolver en cuotas trimestrales de 200 euros, a un plazo de 5 años. ¿Cuál es la TAE del préstamo? (suponed que no hay gastos y redondear a dos decimales)",
+      "opciones": [
+        "12,56%",
+        "12,16%",
+        "5%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "se trata de despejar el interés de la ecuación de préstamo francés: Se puede hacer de varias formas: a continuación se exponen dos: A) despejando el tipo efectivo trimestral y de ahí se calcula el tipo efectivo anual: Solución Repaso Final Programa Asesoramiento Financiero Avanzado - IEB Jesús Pérez -17-",
+      "id": 61
+    },
+    {
+      "pregunta": "El tipo de interés del franco suizo a 6 meses es del 1%, el tipo de cambio al contado es de 1.50 francos suizos por cada euro y el tipo de cambio a 6 meses de 1.48 francos suizos por cada euro, ¿cuál es el tipo de interés del euro a 6 meses? (redondear cálculos a 2 decimales)",
+      "opciones": [
+        "2.40%",
+        "3.72%",
+        "5.35%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "1.50 CHF*(1+0.01*6/12) / 1 EUR*(1+iEUR*6/12) = 1.48 CHF/EUR, despejando iEUR=3.72% 1.50 *(1+0.01*6/12) /1,48 = 1+iEUR*6/12 1.50 *(1+0.01*6/12) /1,48 -1 = i eur * 0,5 (1.50 *(1+0.01*6/12) /1,48 -1 ) / 0,5 = i eur",
+      "id": 62
+    },
+    {
+      "pregunta": "Si un bono tiene una duración de 5 años, su TIR de compra es del 4% y los tipos de interés suben un 1%, ¿cuál será la duración corregida del bono? (redondear a dos decimales)",
+      "opciones": [
+        "5,00",
+        "5,81",
+        "4,81",
+        "Ninguna es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "Calculamos la duración corregida sobre la TIR inicial Dcorregida=5/(1+0,04)=4,81",
+      "id": 63
+    },
+    {
+      "pregunta": "Supongamos una cartera mixta que tiene un patrimonio de 25 millones de euros. El gestor desea realizar una cobertura de la parte de renta variable, por lo que debe calcular cuantos contratos debe negociar. Para ello se dispone de la siguiente información: Valor efectivo de la cartera de renta variable 17 millones de euros Valor nominal de la cartera de renta variable 20 millones de euros Ibex contado  8.400 puntos Ibex futuro    10.000 puntos Beta de la renta variable 1,5 ¿Cuántos contratos debe ejecutar?",
+      "opciones": [
+        "304",
+        "357",
+        "446",
+        "255"
+      ],
+      "correcta": 0,
+      "explicacion": "Ratio de cobertura= 17.000.000*1,5 / 10.000*10 * (-1) = -255 contratos debe vender. Como no dice que la cobertura la lleva a vencimiento, se divide por el precio a futuro del índice.",
+      "id": 64
+    },
+    {
+      "pregunta": "La empresa XYZ cotiza en el mercado bursátil. Tiene un pay-out de 30% del beneficio neto. Si la tasa anual de crecimiento del dividendo es del 5% y la tasa anual de rentabilidad exigida por el accionista es del 10%, ¿cómo cotiza la acción en relación con el sector al que pertenece si el PER de éste es de 12 x? Repaso Final Programa Asesoramiento Financiero Avanzado -12-",
+      "opciones": [
+        "Con prima",
+        "Con descuento",
+        "Igual que el sector",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "PER=P/BPA=Div1/(ke-g)/BPA=BPA1*(1-tasa de retención)/(ke-g) / BPA= BPA*(1+g)*(1-tasa de retención)/(ke-g) / BPA =(1+g)*(1-tasa de retención)/(ke-g) = (1+0,05)*0,3/(0.1-0.05) = 6,3 x Como es menor que el PER del sector, la acción cotiza con descuento PER = P/BPA= (1+g)*payout /(Ke-g)",
+      "id": 65
+    },
+    {
+      "pregunta": "Si las cotizaciones de los bonos cupón cero a 5, 20 y 30 años son 78,35%, 45,23% y 25,45% y amortizan al 100%, 120% y 110% respectivamente, ¿cuál es la forma de la curva cupón cero que establece estos tres bonos?",
+      "opciones": [
+        "Creciente",
+        "Decreciente",
+        "Plana",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "se trata de calcular la TIR de cada bono: Solución Repaso Final Programa Asesoramiento Financiero Avanzado - IEB Jesús Pérez -19-",
+      "id": 66
+    },
+    {
+      "pregunta": "¿Cuál es el porcentaje de la revalorización del índice de referencia ABC al que se puede acceder con un fondo de inversión que tiene un capital inicial de 130 millones de euros y que dentro de 3 años garantiza el 100% del mismo?. Datos: El capital invertido en bonos cupón cero y liquidez para garantizar el capital es de 110 millones. Comisiones y gastos ascienden a 3 millones. Las opciones sobre el índice de referencia cotizan con una prima de 10 euros y un precio de ejercicio de 30 euros (Redondear resultado a dos decimales)",
+      "opciones": [
+        "39,23%",
+        "20,23%",
+        "50,23%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "la liquidez para invertir en opciones es 130-110-3=17 millones; a continuación despejamos por regla de tres: si 10 euros dan derecho a 30; 17 millones a X, luego X=51 millones, que sobre el capital inicial de 130 millones supone una cobertura del 39,23%.",
+      "id": 67
+    },
+    {
+      "pregunta": "Si el indicador técnico RSI para una acción toma valor 10, ¿qué significa?:",
+      "opciones": [
+        "Que la acción está sobrecomprada",
+        "Que la acción está sobrevendida",
+        "Que la acción está bien valorada",
+        "Que la acción está en su valor mínimo"
+      ],
+      "correcta": 0,
+      "explicacion": "el RSI toma valores entre 0 y 100; cuando está entre 30 y 70 se dice que la acción está fluctuando dentro de la normalidad, cuando está por encima de 70 que está sobrecomprada y por debajo de 30 sobrevendida. Luego en este caso como toma valor 10, la acción está sobrevendida y está barata (sería momento de comprar de acuerdo con este indicador técnico)",
+      "id": 68
+    },
+    {
+      "pregunta": "¿Cuál es la TAE de un préstamo de 30.000 euros a devolver en un año y que tiene un tipo de interés nominal anual del 8% y una comisión de apertura del 1%?",
+      "opciones": [
+        "9,00%",
+        "8,23%",
+        "9,09%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "lo que se recibe = lo que se tiene que devolver 30.000*(1-0.01)*(1+TAE) = 30.000*(1+0.08); luego TAE=9.09% Hay que tener en cuenta que la comisión de apertura se cobra en origen, y por ello el coste real será superior a 8%+1%. Hay que capitalizar 1 año la comisión de apertura (por el coste de oportunidad que sufre el cliente, ya que no recibe 30.000 euros, sino 30.000 menos la comisión de apertura: 30.000*(1-0.01)=29.700 euros. Y al plantear la equivalencia financiera: 30.000*(1-0.01)*(1+TAE) = 30.000*(1+0.08); luego TAE=9.09%",
+      "id": 69
+    },
+    {
+      "pregunta": "Dentro de las diferentes estrategias de los hedge funds, la estrategia event driven es considerada de riesgo:",
+      "opciones": [
+        "Alto",
+        "Medio Repaso Final Programa Asesoramiento Financiero Avanzado -13-",
+        "Bajo",
+        "Nulo"
+      ],
+      "correcta": 0,
+      "explicacion": "Tipología de estrategias en función del riesgo: ➢ Bajo Riesgo: Las estrategias de Valor Relativo. ➢ Riesgo Medio: Estrategias de Event Driven. ➢ Alto Riesgo: Globales, Emergentes,Ventas al Descubierto, Managed Futures La estrategia event driven o de eventos societarios, pretende aprovechar situaciones anormales en la situación de las empresas, por ejemplo anuncios de fusiones y de adquisiciones, dificultades temporales de liquidez, etc. en definitiva, situaciones por las que el valor de la acción oscila –a la baja o al alza- de forma anómala y que inversores lo aprovechan en beneficio propio operando con la acción. Dentro de las estrategias de los hedge funds, ésta se sitúa como de riesgo medio.",
+      "id": 70
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes no es una característica de la gestión activa del tipo VaR?:",
+      "opciones": [
+        "Permite ajustar la gestión al perfil de riesgo del inversor protegiendo su capital frente a descensos en los mercados financieros",
+        "Es una forma de gestión activa no vinculada a un benchmark",
+        "No define un horizonte temporal para la preservación del capital.",
+        "Delimita las pérdidas máximas en el mandato de gestión (riesgo = pérdida potencial)"
+      ],
+      "correcta": 2,
+      "explicacion": "Define un horizonte temporal para la preservación del capital.",
+      "id": 73
+    },
+    {
+      "pregunta": "Los fondos hedge funds tienen una serie de ratios específicos que no se suelen calcular para el resto de fondos normales. Indicar, de los siguientes, a cuál nos referimos:",
+      "opciones": [
+        "Ratio de Sharpe",
+        "Ratio de Treynor",
+        "Ratio de Sortino",
+        "Alfa de Jensen"
+      ],
+      "correcta": 2,
+      "explicacion": "Sortino Ratio: (Rentabilidad Anualizada del fondo - Rentabilidad Mínima Aceptable) / Downside Deviation",
+      "id": 74
+    },
+    {
+      "pregunta": "Indicar cuál de las siguientes no es una característica de los fondos de inversión libre en España:",
+      "opciones": [
+        "Las acciones y participaciones de estas IICs se podrán adquirir desde 100.000 euros.",
+        "El valor liquidativo se calculará al menos trimestralmente, o en casos concretos semestralmente.",
+        "Sólo se pueden dirigir a inversores cualificados.",
+        "Tendrán un mínimo de 100 partícipes o accionistas."
+      ],
+      "correcta": 0,
+      "explicacion": "Tendrán un mínimo de 25 partícipes o accionistas (no 100). Características de los fondos de inversión libre: Fondos de inversión libres, que vienen a ser los “Hedge Funds” españoles. Fondos cuyas participaciones cotizan en Bolsa de Valores. Características: ▪ Las acciones y participaciones de estas IICs se podrán adquirir desde 100.000 euros. ▪ Sólo se pueden dirigir a inversores cualificados ▪ Tendrán un mínimo de 25 partícipes o accionistas ▪ El valor liquidativo se calculará al menos trimestralmente, o en casos concretos semestralmente. ▪ No le resultarán de aplicación los límites máximos de las comisiones de gestión, depósito, suscripción y reemobolso de las IICs normales. ▪ El nivel de endeudamiento no podrá superar 5 veces el patrimonio de la IIC Solución Repaso Final Programa Asesoramiento Financiero Avanzado - IEB Jesús Pérez -22-",
+      "id": 75
+    },
+    {
+      "pregunta": "Dentro de las fases de la planificación de la jubilación de un inversor genérico de 40 años de edad, la",
+      "opciones": [
+        "La edad actual del inversor",
+        "El porcentaje del patrimonio que desea repartir entre los herederos",
+        "El nivel de ingresos actual y crecimiento estimado futuro de los mismos",
+        "El ahorro inicial que se pretende destinar a la jubilación Repaso Final Programa Asesoramiento Financiero Avanzado -14-"
+      ],
+      "correcta": 2,
+      "explicacion": "El porcentaje de patrimonio a repartir entre los herederos, pertenece a la planificación de la herencia, no a la planificación de la jubilación La primera fase de la planificación de la jubilación, se realiza para este cliente a los 40 años, y se trata de tomar datos como su edad, nivel de ingresos actual y crecimiento estimado futuro de los mismos y el ahorro inicial que se pretende destinar a la jubilación. El porcentaje del patrimonio que desea repartir entre los herederos se planteará cuando en la última fase de la jubilación al acercarse ésta, luego B es la incorrecta.",
+      "id": 76
+    },
+    {
+      "pregunta": "Generalmente, serán movilizables los derechos consolidados de un partícipe de un plan de pensiones, en las siguientes circunstancias. Indicar la respuesta incorrecta:",
+      "opciones": [
+        "Por cesación de la relación laboral con el promotor de un plan del sistema de empleo cuando así lo establezcan las especificaciones del plan de empleo",
+        "Por la pérdida de la condición de asociado al colectivo promotor de un plan del sistema asociado",
+        "En cualquier momento, cuando el partícipe de un plan de empleo adquiere la condición de beneficiario del mismo y cobra en renta financiera",
+        "Por terminación del Plan"
+      ],
+      "correcta": 0,
+      "explicacion": "En un plan de empleo, el partícipe (trabajador activo) podrá movilizar o liquidar anticipadamente el plan, siempre que el reglamento del mismo lo permita, también en los casos de cambio de trabajo o por los motivos de paro de larga duración o enfermedad grave. Ahora bien, cuando ya se es beneficiario (pasivo), en los planes de empleo, por ley, no se puede movilizar los derechos económicos a otro plan.",
+      "id": 77
+    },
+    {
+      "pregunta": "¿Para qué tipo de personas, en general, adquiere un papel más importante la planificación ordenada de la jubilación?",
+      "opciones": [
+        "Para personas con alto nivel de rentas del trabajo y sin patrimonio adicional",
+        "Para personas con salarios similares a la pensión máxima de la Seguridad Social",
+        "Para personas que, una vez se jubilen, tengan rentas distintas de la pensión pública, procedentes del patrimonio personal",
+        "Para personas que, una vez se jubilen, se conformen con el poder de compra que le dará la pensión pública"
+      ],
+      "correcta": 0,
+      "explicacion": "las personas que en la época de activos tienen unas rentas del trabajo altas, debido a que la pensión pública está topada, si no han planificado con tiempo y adecuadamente su jubilación, verán considerablemente mermado su nivel de vida una vez que se jubilen. El resto de perfiles indicados se sentirán confortables con la pensión pública. Solución Repaso Final Programa Asesoramiento Financiero Avanzado - IEB Jesús Pérez -23-",
+      "id": 78
+    },
+    {
+      "pregunta": "Supongamos que la rentabilidad TAE de los últimos 10 años de un fondo de pensiones fue del 8% y presentó una desviación estándar anual del 15%.  Por ello a partir de estos datos, y suponiendo cierta hipótesis de normalidad, el asesor calcula el siguiente comportamiento estimado para el próximo año: I. Existe un 50% de probabilidad de que la rentabilidad sea igual o inferior al 8% II. Existe un 84% de probabilidad de que la rentabilidad se ubique entre el -7% y el 23% III. Existe un 16% de probabilidad de que la rentabilidad sea Inferior el -7% IV. Existe un 97,5% de probabilidad que la rentabilidad sea superior 1% Teniendo en cuenta la anterior información, ¿cuál de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        "Sólo II",
+        "Sólo I y III",
+        "Sólo II y IV",
+        "Sólo IV"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 79
+    },
+    {
+      "pregunta": "¿Cuáles, de las siguientes, son contingencias comunes para cobrar un plan de pensiones?",
+      "opciones": [
+        "Paro de larga duración y enfermedad grave",
+        "Jubilación, fallecimiento, invalidez y gran dependencia",
+        "Jubilación, fallecimiento, invalidez y enfermedad grave",
+        "Paro de larga duración, jubilación, fallecimiento, invalidez y gran dependencia"
+      ],
+      "correcta": 3,
+      "explicacion": "son causas normales de cobro de pensión del plan de pensiones: Jubilación, fallecimiento, invalidez y gran dependencia, y de cobro anticipado: Paro de larga duración y enfermedad grave",
+      "id": 80
+    },
+    {
+      "pregunta": "Indicar la respuesta errónea en relación con la siguiente afirmación: la actividad inmobiliaria es sensible a la situación económica general y se mueve estimulada por ella",
+      "opciones": [
+        "pero a diferencia del ciclo bursátil que adelanta el ciclo económico, el ciclo inmobiliario actúa con retraso respecto al ciclo económico.",
+        "siendo más brusco en la caída",
+        "pero es más lenta en la recuperación.",
+        "y tiene alta correlación respecto de activos financieros tradicionales. Repaso Final Programa Asesoramiento Financiero Avanzado -15-"
+      ],
+      "correcta": 3,
+      "explicacion": "Baja correlación histórica respecto de activos financieros tradicionales.",
+      "id": 81
+    },
+    {
+      "pregunta": "En la liquidación del impuesto sobre sucesiones  para el cálculo de la cuota íntegra a la base liquidable hay que aplicar:",
+      "opciones": [
+        "El coeficiente multiplicador",
+        "El tipo de gravamen",
+        "Reducciones",
+        "Deducciones y bonificaciones"
+      ],
+      "correcta": 0,
+      "explicacion": "liquidación de una herencia por el Impuesto de Sucesiones: Valor de los Bienes y Derechos + Ajuar Doméstico +Adición de Bienes Masa Hereditaria Bruta - Cargas, Deudas y Gastos Masa Hereditaria Neta + Seguros de Vida Base Imponible - Reducciones Base Liquidable X Tipo de Gravamen Cuota Integra X Coeficiente Multiplicador Cuota Tributaria - Deducciones y Bonificaciones Total a Ingresar Por definición de la estructura del impuesto de sucesiones: para calcular la cuota íntegra hay que aplicar a la base liquidable el tipo de gravamen de la escala del impuesto.",
+      "id": 82
+    },
+    {
+      "pregunta": "Determinar  la rentabilidad esperada de una cartera suponiendo que el mercado se encuentra en equilibrio y sabiendo que la tasa libre de riesgo es del 2,5%, la rentabilidad esperada del mercado del 10%, la volatilidad esperada de la cartera del 20% y la volatilidad del mercado del 19%. (Ajustar los cálculos a dos decimales)",
+      "opciones": [
+        "14,56%",
+        "15,34%",
+        "10,39%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "al tratarse de una cartera y el mercado encontrarse en condiciones de equilibrio, aplicamos la ecuación de la recta CML: Rcartera=2,5%+((10%-2,5%)/19%)*20% =10,39%",
+      "id": 84
+    },
+    {
+      "pregunta": "Si una acción cotiza con una rentabilidad del 12% en el año, el activo libre de riesgo renta el 2,5%, la beta del título es de 2 y la rentabilidad del mercado donde cotiza es del 10%, ¿cómo se encuentra dicha acción?",
+      "opciones": [
+        "Sobrevalorada",
+        "Infravalorada",
+        "Valorada como indica su valor teórico",
+        "En su valor mínimo"
+      ],
+      "correcta": 0,
+      "explicacion": "al tratarse de un título y no indicar que el mercado se encuentra en condiciones de equilibrio, aplicamos la ecuación de la SML para ver como se encuentra el título: Racción=2,5%+2*(10%-2,5%)=17,5% es la rentabilidad teórica, luego como la real (12%) se encuentra por debajo, podemos decir que la acción se encuentra sobrevalorada. Alfa de Jensen = 12% - 17,5% = -5,5% como es negativo la acción está cara o sobrevalorada. CAPM (William Sharpe): CML Rc= Rf + ((Rm-Rf)/vol. Mercado ) * vol. Cartera; para carteras y mercado en equilibrio SML Rc=Rf + beta*(Rm-Rf) ; para el resto de situaciones.",
+      "id": 85
+    },
+    {
+      "pregunta": "Calcular el tracking error de un fondo en un año que tuvo una rentabilidad de -10%, sabiendo que la beta con su benchmark fue de 0,7, que su volatilidad fue del 20% y que la volatilidad del benchmark fue de 25%.",
+      "opciones": [
+        "20,50%",
+        "9,68%",
+        "-3,35%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "T.E.=Raíz(0,22-0,72*0,252)=9,68%",
+      "id": 86
+    },
+    {
+      "pregunta": "Calcular la volatilidad de una cartera formada por dos activos equiponderados, sabiendo que la volatilidad del primero es del 10%, del segundo del 5% y que tienen una correlación de 0,2. (Redondear resultado a dos decimales)",
+      "opciones": [
+        "4,95%",
+        "-4,95%",
+        "6,02%",
+        "Ninguna es correcta Repaso Final Programa Asesoramiento Financiero Avanzado -16-"
+      ],
+      "correcta": 0,
+      "explicacion": "Volatilidad de la cartera = Raíz(0,52*0,12+0,52*0,052+2*0,5*0,5*(0,0010))=6,02% correl. = cov/(s1*s2); cov. = correl. * s1*s2=0,2*0,1*0,05 =0,0010",
+      "id": 87
+    },
+    {
+      "pregunta": "Si la volatilidad de un fondo es del 10%, su beta del 0,5 y su ratio de Treynor de 1,2, ¿cuál de las siguientes respuestas es correcta?:",
+      "opciones": [
+        "Su ratio de información es de 0,5",
+        "Su ratio de Sharpe es de 6",
+        "Su tracking error es de 3%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "de Treynor despejamos el numerador: 1,2=(Rfondo-Rlibre de riesgo) / 0,5; luego despejando =(Rfondo-Rlibre de riesgo) = 0.6 Y sustituyendo en Ratio de Sharpe = 0,6 / 0,1 = 6",
+      "id": 88
+    },
+    {
+      "pregunta": "Calcular el alfa de Jensen de un fondo que cotiza con una rentabilidad de 12% sabiendo que el activo libre de riesgo renta el 2,5%, la beta del fondo es de 2 y la rentabilidad del mercado donde cotiza es del 10%.",
+      "opciones": [
+        "5,5%",
+        "12%",
+        "-5,5%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "aplicamos la ecuación de la SML para calcular la rentabilidad teórica del fondo: Rfondo=2,5%+2*(10%-2,5%) = 17,5%. Y a continuación, alfa de Jensen = Rreal fondo – Rteórica (SML) = 12% - 17,5% = -5,5%",
+      "id": 89
+    },
+    {
+      "pregunta": "Dentro de la asignación de activos, referido a la aportación al resultado final de una cartera, ¿qué factor explica en mayor porcentaje este resultado?",
+      "opciones": [
+        "La asignación táctica de activos",
+        "La asignación estratégica",
+        "La operativa de trading diaria",
+        "Ninguna es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "la asignación estratégica explica hasta el 95% del retorno final de una cartera.",
+      "id": 90
+    },
+    {
+      "pregunta": "De las conclusiones de la hipótesis fuerte de mercados eficientes se deduce que:",
+      "opciones": [
+        "El análisis fundamental aporta valor a la gestión",
+        "El análisis técnico aporta valor a la gestión",
+        "La mejor estrategia de inversión sería llevar a cabo una gestión pasiva (random walk)",
+        "Sólo se podría aportar valor mediante el uso de información privilegiada  (insider trading)"
+      ],
+      "correcta": 0,
+      "explicacion": "las consecuencias de la hipótesis fuerte son: • Los inversores obtendrán un rendimiento sobre su inversión que será el apropiado para el nivel de riesgo asumido, sin importar cuáles sean los títulos adquiridos. • No existirán títulos sobre o infravalorados, con lo que el valor actual neto de la inversión será nulo. • El tiempo, el dinero y el esfuerzo gastados en el análisis del valor intrínseco de los títulos serán inútiles. • Nadie en el mercado puede obtener beneficios extraordinarios, ya que incluso la información privilegiada estaría recogida en los precios. • La mejor estrategia de inversión sería llevar a cabo una gestión pasiva (random walk), es decir, construir una cartera que replicara simplemente el índice, ya que en éste confluiría toda la información relevante existente en el mercado. La conclusión de la hipótesis fuerte de los mercados, tenemos que la mejor estrategia sería la pasiva: replicar a un índice, puesto que la gestión activa no aportaría valor ya que el mercado sigue una senda aleatoria y nadie puede atisbar su dirección de forma consistente en el tiempo.",
+      "id": 91
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes indicadores sirve para valorar la rentabilidad ajustada por el riesgo de un fondo?",
+      "opciones": [
+        "El tracking error",
+        "El ratio de información",
+        "La volatilidad del benchmark",
+        "La volatilidad del fondo"
+      ],
+      "correcta": 0,
+      "explicacion": "el único que valora la rentabilidad sobre el riesgo asumido es el ratio de información; los restantes parámetros son medidas del riesgo. El ratio de información = alfa / tracking error, es decir, extrarentabilidad obtenida sobre el benchmark / extrarriesgo asumido sobre el benchmark.",
+      "id": 92
+    },
+    {
+      "pregunta": "De acuerdo con la Directiva de Mercados e Instrumentos Financieros (MIFID):",
+      "opciones": [
+        "El test de idoneidad es un cuestionario que determina las características y el perfil inversor del cliente.",
+        "El test de conveniencia es un cuestionario que determina las características y el perfil inversor del cliente.",
+        "El test de idoneidad es un cuestionario reducido que la entidad debe realizar a un cliente minorista para analizar la conveniencia o no de los productos categorizados como \"complejos\".",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "Test de conveniencia: trata de valorar los conocimientos y experiencia del cliente. Para ello se formularán preguntas sobre: • Los tipos de productos y servicios con los que está familiarizado • La naturaleza, frecuencia y periodo en que ha operado previamente • Su nivel de estudios y profesión actual o anterior Si ya fuera cliente, puede ocurrir que la entidad ya disponga de esa información y no precise pedírsela de nuevo. La entidad debe informar al cliente del resultado del test de conveniencia. Si el cliente no proporciona la información necesaria, el asesor le debe advertir que no ha podido cumplir con su obligación, aunque podrá ejecutar su orden. Test de idoneidad: pretende asegurar que las recomendaciones personalizadas (=gestión discrecional de carteras) que haga la entidad al cliente sean las más adecuadas para él, teniendo en cuenta su situación particular. Le formularán preguntas al cliente sobre: • Sus conocimientos y experiencia (test de conveniencia) • Situación financiera, que podrá ser analizada con información sobre: ▪ La fuente y nivel de sus ingresos regulares ▪ Su patrimonio, incluyendo activos y pasivos financieros, inversiones, inmuebles, liquidez… ▪ Sus gast...",
+      "id": 93
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes no es un principio del código ético de EFPA?",
+      "opciones": [
+        "Integridad",
+        "Transparencia Repaso Final Programa Asesoramiento Financiero Avanzado -17-",
+        "Formación continua",
+        "Primacía del interés del asesor"
+      ],
+      "correcta": 0,
+      "explicacion": "los principios del código de EFPA son: Nuestros Principios: 1. Competencia y excelencia profesional",
+      "id": 94
+    },
+    {
+      "pregunta": "La figura que a continuación se muestra se denomina: Repaso Final Programa Asesoramiento Financiero Avanzado -18-",
+      "opciones": [
+        "Bandera",
+        "Gallardete o pennant",
+        "Hombro-cabeza-hombro",
+        "Hombro-codo-cadera"
+      ],
+      "correcta": 1,
+      "explicacion": "Por definición. Al gallardete también se le conoce como pennant:",
+      "id": 100
+    },
+    {
+      "pregunta": "¿Qué tipo de figura representa un hombro-cabeza-hombro?",
+      "opciones": [
+        "Figura de continuación",
+        "Figura de vuelta",
+        "Es un oscilador",
+        "Es un indicador"
+      ],
+      "correcta": 1,
+      "explicacion": "El hombro-cabeza-hombro es una figura de cambio de tendencia o de vuelta, Es una formación que predice un cambio de tendencia o de vuelta: de alcista a bajista o si es invertido de bajista a alcista.",
+      "id": 101
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes factores no está correlacionado positivamente con el precio de una opción call?",
+      "opciones": [
+        "El precio de la acción",
+        "El valor del strike",
+        "La volatilidad de la acción",
+        "El vencimiento Repaso Final Programa Asesoramiento Financiero Avanzado -19- Repaso Final Programa Asesoramiento Financiero Avanzado -20- CASO PRÁCTICO 1 Las líneas características de tres activos A, B y C, que cotizan en el mercado español, respecto al índice IBEX 35, son: Ra = 2,5% + 0,4 · RINDICE + Ua Rb = -2% + 1,1 · RINDICE + Ub Rc = 5% + 0,6 · RINDICE + Uc Se pide: a. Obtener la línea característica de una cartera compuesta por un 50% de A, un 25% de B y un 25% de C b. ¿Recomendaría esta cartera a un inversor con un perfil alto de tolerancia al riesgo? Razone su respuesta en función del coeficiente Beta de la cartera CASO PRÁCTICO 2 El Sr. Vaquerizo tiene una cartera compuesta por 4 bonos valorada en 1 millón de euros. Analizados individualmente, el Bono A tiene una duración de 3,5; el Bono B tiene una duración de 8; el Bono C de 4,7 y el Bono D tiene una duración de 9,8 años. Si sabemos que el peso de los Bonos A, B y C de la cartera tienen una ponderación del 30% cada uno en la cartera. a. ¿Cuál es la Duración de la Cartera? b. Si la TIR de compra de la cartera es del 5% y suponemos que la TIR sube el 1% en el mercado. ¿Qué impacto se estima tendrá en el valor de su cartera? c. Si el horizonte temporal de la inversión del Sr. Vaquerizo es de 3 años. ¿tiene inmunizada su cartera?, en caso contrario,  ¿qué riesgo tiene el inversor? d. Considerando el resultado obtenido en la pregunta anterior, ¿qué recomendación daría al cliente? CASO PRÁCTICO 3 El señor Huertas está considerando realizar una inversión en fondos de inversión de renta variable americana. Acude a su asesor a que le indique de entre dos fondos cual debe elegir. La información que proporciona al asesor es la siguiente: RENTABILIDAD VOLATILIDAD BETA FONDO A 7% 15% 0,9 FONDO B 9% 20% 1,2 BENCHMARK 8% 16% 1 ACTIVO LIBRE DE RIESGO 4% 0% 0 Argumentar cuál de los dos fondos debe seleccionar, atendiendo a criterios de Ratio de Sharpe, Treynor, Jensen y Ratio de información. Repaso Final Programa Asesoramiento Financiero Avanzado -21- CASO PRÁCTICO 4 En un mercado cotizan 3 títulos (T1, T2, T3). Disponemos de los valores de los siguientes conceptos: Rentabilidades esperadas de los tres títulos: Matriz de varianzas y covarianzas de los tres títulos: Composición de la cartera de mercado: Composición de una cartera particular (P): Rentabilidad de los títulos sin riesgo: Valores: Rentabilidades esperadas de los tres títulos: Matriz de varianzas y covarianzas de los tres títulos: Composición de la cartera de mercado: X1M X2M X3M Composición de una cartera particular (P): X1P X2P X3P Rentabilidad de los títulos sin riesgo: Rf = 2% La rentabilidad esperada de la cartera de mercado es =2,86% La varianza de la cartera de mercado es =1,16% Las Betas de los tres Títulos son: Beta1 = 0,026; Beta 2 = 1,22 y Beta3 = 1,84 Con estos datos se pide calcular los siguientes apartados: 1.- La rentabilidad esperada de la cartera particular (P) 2.- El riesgo de la cartera particular (P) 3.- Comprobar GRÁFICAMENTE la posición relativa de la cartera (p) respecto de la función de eficiencia (CML) 4.- Comprobar GRAFICAMENTE la posición relativa de los tres títulos respecto de la función de equilibrio (SML) y explique sus recomendaciones Repaso Final Programa Asesoramiento Financiero Avanzado -22- CASO 5 La entidad gestora de una entidad bancaria ha facilitado a las personas a cargo de asesorar a clientes importantes la siguiente información: Rentabilidad del activo libre de riesgo: 2,5% (Equiparable a un FI monetario) Rentabilidad anual esperada del mercado de Renta Variable es de un 7,5%. La cartera modelo de la Entidad Gestora tiene una Beta de 0,9 y una volatilidad estimada de un 18%. La TIR de la cartera de renta fija es de un 4%, el cupón medio ponderado es de un 5% y la cartera tiene una volatilidad estimada del 3,5%. Además nos informan que la correlación entre las dos carteras se estima en un 0.3. Preguntas: 1) Estimar la rentabilidad anual esperada de la cartera modelo de Renta Variable. 2) ¿Cuál es la prima de riesgo de la Renta Variable? Explicar que está retribuyendo. 3) ¿Según la información facilitada cuál es la rentabilidad esperada de la Renta Fija? 4) Estimar la rentabilidad de las siguiente combinación: a) 80% Renta Fija y 20% Renta Variable b) 50% Renta Fija y 50% Renta Variable c) 20% Renta Fija y 80% Renta Variable 5) Cálculo de la volatilidad estimada para las anteriores combinaciones CASO 6 Se dispone de la siguiente información relativa a dos acciones, A y B Si del presupuesto destinado a la inversión bursátil se invierte el 70% en el título A y el resto en el B, auxiliándose con los resultados aportados por Markowitz, se pide: a) Rentabilidad media que se espera obtener con la cartera así construida. b) Volatilidad de la cartera. Repaso Final Programa Asesoramiento Financiero Avanzado -23- c) En caso de que el presupuesto a invertir se destinará en un 80% al título A y el 20% en un activo libre de riesgo que ofreciera una rentabilidad del 3%, ¿cuál sería entonces la rentabilidad y la volatilidad de la cartera? d) ¿Cuál de las dos carteras alternativas resulta preferible? CASO 7 Un inversor decide proteger su cartera comprada de renta variable indexada al IBEX-"
+      ],
+      "correcta": 0,
+      "explicacion": "A mayor precio de la acción, menor valor de la opción y a la inversa A continuación se muestra cuadro con la variación del precio de la opción ante aumento de los factores que impactan en el precio: Subyacente (o precio de la acción), K (precio de ejercicio), t (tiempo), sigma (volatilidad), i (interés), q (dividendo): c p C P Variable S K t  i q + + – + + + + + + + + + + – + – – – – + – + – + Variación de la prima de una call y una put (europea(c y p) y americana (C y P)), ante un aumento de valor en cada una de las variables manteniendo el resto constante.",
+      "id": 103
+    }
+  ]
+}

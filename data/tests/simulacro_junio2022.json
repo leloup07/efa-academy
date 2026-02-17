@@ -1,0 +1,358 @@
+{
+  "titulo": "Simulacro EFA - 9 de Junio 2022",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "Si la volatilidad mensual de una acción ha sido del 3%, ¿cuál es la volatilidad estimada anual?",
+      "opciones": ["3%", "30%", "36%", "Ninguna es correcta"],
+      "correcta": 2,
+      "explicacion": "la volatilidad anual=volatilidad mensual*raíz(12 meses que tiene el año)= 3%*raíz(12)=10,39%",
+      "id": 1
+    },
+    {
+      "pregunta": "Si el tipo de interés spot a 2 años está en el 5% y a un año en el 6%, ¿Cuál es el tipo de interés estimado hoy para una operación a un año que arranca dentro de un año?",
+      "opciones": ["11%", "6%", "4%", "Ninguna es correcta"],
+      "correcta": 2,
+      "explicacion": "(1+0,05)2=(1+0,06)*(1+FRA1,2); luego FRA1,2=4%",
+      "id": 2
+    },
+    {
+      "pregunta": "La relación Precio- TIR de un bono se conoce mediante los principios de Malkiel. Indique la respuesta incorrecta:",
+      "opciones": ["El valor de un activo de Renta Fija varía en sentido inverso a su rendimiento.", "Si dos activos difieren sólo en el cupón, ante variaciones del rendimiento, el activo de menor cupón tendrá un mayor cambio de valor.", "Dado un activo, un  TIR supone  Precio <  Precio si  TIR en el mismo porcentaje.", "El valor de un activo de Renta Fija varía en el mismo sentido a su rendimiento."],
+      "correcta": 3,
+      "explicacion": "El valor de un activo de Renta Fija varía en sentido inverso a su rendimiento.",
+      "id": 3
+    },
+    {
+      "pregunta": "La TAE de un préstamo de 15.000 euros que hay que devolver al año de su concesión mediante un solo pago, pactado a un tanto nominal del 8% con capitalización anual y una comisión de apertura del 1% y otra cancelación del 1%, es:",
+      "opciones": ["9,00", "10,00", "9,09%", "10,09%"],
+      "correcta": 3,
+      "explicacion": "Lo que recibe: 15.000*(1-0,01)=14.850; Lo que tiene que pagar: 15.000*(1+0,08)=16.200; Luego igualando: 14.850*(1+TAE)= 16.200, despejando: TAE=9,09%, a lo que habría que sumar la potencial comisión de cancelación, en caso de que cancele, de forma que TAE final=10,09%",
+      "id": 4
+    },
+    {
+      "pregunta": "Un seguro PIAS se caracteriza porque:",
+      "opciones": ["Las aportaciones son deducibles en IRPF", "Se pueden contratar más de uno por persona", "El límite de aportación anual es de 8.000 euros", "La prestación, si se cobra en forma de capital, tiene una reducción del 40%."],
+      "correcta": 3,
+      "explicacion": "por definición del PIAS",
+      "id": 5
+    },
+    {
+      "pregunta": "Supongamos que en un seguro de daños la suma asegurada es de 100, el valor asegurable de 200 y el siniestro cuesta repararlo 50. ¿A cuánto asciende la indemnización?",
+      "opciones": ["50", "25", "100", "200"],
+      "correcta": 1,
+      "explicacion": "al existir infraseguro se aplica la regla proporcional: Indemnización.=(100/200)*50=25",
+      "id": 6
+    },
+    {
+      "pregunta": "Si las rentabilidades anuales de una acción han sido: 5%, -2,0%, 5,9% y 6,7% respectivamente. Calcular la volatilidad anual de la acción",
+      "opciones": ["6,63%", "5,80%", "3,46%", "2,34%"],
+      "correcta": 2,
+      "explicacion": "la desviación estándar o típica es el sumatorio de las diferencias al cuadrado de los valores de la variable menos su media dividido por el número de datos, es decir DT= raíz ((0,05 – 0,039)2 + (-0,02 – 0,039)2  + (0,059 – 0,039)2 + (0,067 – 0,039)2 ) / 4 = 3,46%",
+      "id": 7
+    },
+    {
+      "pregunta": "La figura que a continuación se muestra se denomina:",
+      "opciones": ["Bandera", "Pennant", "Hombro-cabeza-hombro", "Cuña"],
+      "correcta": 1,
+      "explicacion": "Al gallardete también se le conoce como pennant",
+      "id": 8
+    },
+    {
+      "pregunta": "Calcula la rentabilidad acumulada de un fondo de pensiones que ha obtenido en dos años un  -5% y un 31% de rentabilidad anual respectivamente",
+      "opciones": ["11,55%", "24,45%", "13,00%", "12,50%"],
+      "correcta": 1,
+      "explicacion": "R=((1-0,05)*(1+0,31)) -1 = 24,45%",
+      "id": 9
+    },
+    {
+      "pregunta": "¿Cuál es el coeficiente de liquidez de un fondo de pensiones?",
+      "opciones": ["1%", "3%", "10%", "No tiene un coeficiente concreto"],
+      "correcta": 3,
+      "explicacion": "El coeficiente mínimo de liquidez dependerá de las necesidades del fondo para atender a los pagos en cada momento.",
+      "id": 10
+    },
+    {
+      "pregunta": "Rosa ha comprado hoy 09.07.08, fecha valor 11.07.08, un bono del Estado vencimiento 25.10.10; el bono devenga un cupón anual del 5% y la TIR de compra ha sido del 4%. Calcular el precio de compra entero (desembolsado) y excupón (corrido):",
+      "opciones": ["100,57% y 4,35%", "105,674% y 3,56%", "102,114% y 4,56%", "102.114% y 3,56%"],
+      "correcta": 3,
+      "explicacion": "El precio entero o desembolsado es el valor actual de los flujos de caja descontados a la fecha valor 11.07.08 a la TIR de compra: P= 5/1,04106/365  + 5/1,04 (106/365)+1  + 105/1,04 (106/365)+2  =  4,943 + 4,753 + 95,978 =105,674%, y el precio ex cupón (corrido) = precio desembolsado – cupón corrido = 105,674% - 3,56% = 102,114%",
+      "id": 11
+    },
+    {
+      "pregunta": "Dentro de los elementos del seguro encontramos:",
+      "opciones": ["Formales, materiales y reales", "Formales y reales", "Formales, materiales, reales y patrimoniales", "Formales, materiales, reales, patrimoniales y personales."],
+      "correcta": 3,
+      "explicacion": "por definición",
+      "id": 12
+    },
+    {
+      "pregunta": "Un inversor realiza las siguientes operaciones en un fondo de inversión: Año 0: aporta 1 millón de euros. Año 1: reembolsa 250.000 euros. A su vez el mercado donde invierte el fondo, del año 0 a 1 se desplomó un 50% y de 1 a 2 dobló. ¿Ha acertado el inversor con sus movimientos en el periodo de 0 a 2 años?",
+      "opciones": ["Si.", "No.", "Sólo en el momento del reembolso.", "El inversor siempre acierta."],
+      "correcta": 1,
+      "explicacion": "La rentabilidad del inversor se mide con la TIR: 0 = -1.000.000+250.000/(1+TIR) + 500.000/(1+TIR)2, luego con la calculadora TIR=-15,69%/año. La rentabilidad del fondo se mide con la TAE o tasa geométrica de rent.: ((1-0,5)*(1+1))(1/2)-1=0%/año. Luego el inversor no ha acertado con sus movimientos.",
+      "id": 13
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes factores afectan al valor liquidativo de un fondo de inversión?",
+      "opciones": ["Las aportaciones", "Los reembolsos", "El valor de compra de los activos", "Los gastos del fondo de inversión"],
+      "correcta": 3,
+      "explicacion": "los dos factores que afectan al valor liquidativo de un fondo son los gastos y las plusvalías (o minusvalías) diarias. El resto de factores se compensan mediante la variación del número de participaciones del fondo: cuando entra dinero se crean nuevas participaciones y cuando sale se destruyen.",
+      "id": 14
+    },
+    {
+      "pregunta": "Dentro de las fases de Planificación de la jubilación a continuación se citarán algunas de las fases necesarias para llevar a cabo un Plan de Jubilación ¿cuál de lo siguientes sería el orden correcto para definir eficientemente un Plan de Jubilación?",
+      "opciones": ["Obtención de la información relevante / Identificación de los objetivos financieros / Revisión periódica y adaptación al Plan", "Identificación de los objetivos financieros / Revisión periódica y adaptación al Plan / Obtención de la información relevante", "Obtención de la información relevante / Revisión periódica y adaptación al Plan / Identificación de los objetivos financieros", "Identificación de los objetivos financieros / Obtención de la información relevante / Revisión periódica y adaptación al Plan"],
+      "correcta": 0,
+      "explicacion": "Ver solución del simulacro",
+      "id": 15
+    },
+    {
+      "pregunta": "Un activo financiero obtuvo una rentabilidad efectiva anual del 15,3% el 2005, del 4,8% en 2006 y del 7,5% en 2007. ¿Cuál de las siguientes afirmaciones es correcta?",
+      "opciones": ["La rentabilidad media aritmética será 9,11% y  la rentabilidad media geométrica de 9,2%", "La rentabilidad media geométrica será 9,11%  y la volatilidad de 4,45%", "La rentabilidad media geométrica será igual a la rentabilidad media aritmética de 9,11%", "La rentabilidad media geométrica será igual a la volatilidad, de 9,2%"],
+      "correcta": 1,
+      "explicacion": "la media aritmética es la suma / 3 = 9,2%, y la geométrica es la raíz cúbica del producto de (1+Ii) -1=9,11%, y la volatilidad es la desviación típica=4,45%",
+      "id": 16
+    },
+    {
+      "pregunta": "¿Qué información mínima se debe entregar a los partícipes de un fondo cuando lo contratan?",
+      "opciones": ["Memoria anual", "Informe anual", "Informes Trimestrales", "Folleto simplificado + Informe Semestral"],
+      "correcta": 3,
+      "explicacion": "En la Suscripción: entrega obligatoria de Folleto simplificado + Informe Semestral, y, previa solicitud del cliente, entrega de Folleto completo + Informes anual y último trimestral publicados.",
+      "id": 17
+    },
+    {
+      "pregunta": "¿Qué diferencia existe entre un fondo ETF y un fondo indexado?",
+      "opciones": ["Que el fondo indexado cotiza en bolsa", "Que el fondo ETF es un fondo indexado que cotiza en bolsa", "Que el fondo ETF no cotiza en bolsa", "Que el fondo ETF nunca puede ser indexado"],
+      "correcta": 1,
+      "explicacion": "el fondo ETF es un fondo que replica a un índice bursátil y por tanto tiene precio intradia y está indexado.",
+      "id": 18
+    },
+    {
+      "pregunta": "Cómo se contruye un long straddle",
+      "opciones": ["Compra de call y venta de call con mismo strike", "Compra de call y compra de put con mismo strike", "Venta de call y venta de put con mismo strike", "Compra de call y compra de put con diferente strike"],
+      "correcta": 1,
+      "explicacion": "un cono comprado o long straddle se contruye comprando call y put con mismo strike",
+      "id": 19
+    },
+    {
+      "pregunta": "¿Cuál es el porcentaje mínimo de inversión en renta variable para que un fondo de inversión se considere categorizado como renta variable?",
+      "opciones": ["Entre el 30 y el 75%", "Más del 75%", "Entre el 30% y el 70%", "Todas las anteriores."],
+      "correcta": 1,
+      "explicacion": "según CNMV",
+      "id": 20
+    },
+    {
+      "pregunta": "Un Fondo de inversión español que invierte en dólares obtiene un rendimiento el primer año del 4%.Durante el mismo año el dólar se devalúa con respecto al euro en un 4%. El segundo año el fondo tiene una rentabilidad del -4% y el dólar se aprecia con respecto del euro un 4%. La rentabilidad acumulada de este fondo en euros en estos dos años ha sido del:",
+      "opciones": ["9,16 %", "0,00%", "-1,96 %", "0,32 %"],
+      "correcta": 3,
+      "explicacion": "R 1er año =(1+0,04)*(1-0,04)-1=-0,16%. R 2º año= (1-0,04)*(1+0,04)-1=-0,16%. Rentabilidad Acumulada de los dos años= (1-0,0016)*(1-0,0016)-1=-0,32",
+      "id": 21
+    },
+    {
+      "pregunta": "Cuando una acción toca su nivel de soporte y no lo rompe, de acuerdo con el análisis técnico, ¿qué se espera que ocurra?",
+      "opciones": ["La cantidad de personas que quieren vender la acción se incrementará bastante", "La cantidad de personas que quieren comprar la acción se reducirá bastante", "La cantidad de personas que quieren comprar la acción se incrementa bastante", "El volumen de negociación se mantendrá constante"],
+      "correcta": 2,
+      "explicacion": "el soporte es el suelo, luego para mantenerlo la demanda supera a la oferta.",
+      "id": 22
+    },
+    {
+      "pregunta": "¿Qué es índice ISM?",
+      "opciones": ["Indicador adelantado de la oferta americana", "Indicador adelantado de la demanda americana", "Indicador retrasado de la oferta americana", "Indicador retrasado e la demanda americana"],
+      "correcta": 1,
+      "explicacion": "El índice de manufactura ISM o el índice de gerentes de compras se considera un indicador clave del estado de la economía de EE. UU. Indica el nivel adelantado de demanda de productos midiendo la cantidad de actividad de pedidos en las fábricas del país.",
+      "id": 23
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre la proposición y la solicitud de seguro?",
+      "opciones": ["La proposición cubre, en caso de siniestro,  durante los primeros 15 días", "La solicitud vincula a la compañía de seguros 15 días desde que se solicita", "La proposición vincula a la compañía de seguros 15 días desde que se obtiene", "Son correctas B y C"],
+      "correcta": 3,
+      "explicacion": "la proposición vincula a la entidad de seguros durante 15 días a mantener las condiciones ofertadas por la misma.",
+      "id": 24
+    },
+    {
+      "pregunta": "¿En cuáles de los siguientes seguros de vida no existen los valores garantizados?",
+      "opciones": ["En los seguros de amortización de préstamos", "En los seguros temporales", "En los seguros vida entera", "Son correctas A. y B."],
+      "correcta": 3,
+      "explicacion": "Por definición",
+      "id": 25
+    },
+    {
+      "pregunta": "La entidad financiera sometida a MiFID, está exenta de realizar el test de idoneidad sobre el inversor en el caso de:",
+      "opciones": ["Cliente minorista residente", "Cliente minorista no residente", "Cliente profesional", "Es obligatorio para todos los inversiones"],
+      "correcta": 2,
+      "explicacion": "Artículo 213 TRLMV: en negrita está lo de que no es necesario recabara información sobre conocimientos y experiencia pero si sobre las demás cuestiones (situación financiera y objetivos de inversión).",
+      "id": 26
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes son motivos de disposición anticipada de un plan de pensiones?:",
+      "opciones": ["Paro de larga duración", "Invalidez absoluta y permanente", "Fallecimiento", "Jubilación"],
+      "correcta": 3,
+      "explicacion": "por definición",
+      "id": 27
+    },
+    {
+      "pregunta": "Para el cálculo de la Cuota Tributaria del Impuesto sobre Sucesiones y Donaciones, hay que aplicar a la Cuota Íntegra:",
+      "opciones": ["El Tipo Medio de Gravamen.", "El Tipo Marginal.", "La Escala de Gravamen.", "Un Coeficiente Corrector."],
+      "correcta": 3,
+      "explicacion": "Para el cálculo de la cuota tributaria del ISD, hay que atender al vínculo que liga a quien transmite sin contraprestación y a quien recibe, además, del patrimonio preexistente. Esto se traduce en un Coeficiente Corrector que penaliza al sujeto pasivo.",
+      "id": 28
+    },
+    {
+      "pregunta": "Los planes de pensiones en función de las obligaciones estipuladas pueden ser:",
+      "opciones": ["Individuales y Asociados.", "Aportación definida, prestación definida y mixto.", "Empleo, Asociados e Individuales.", "Empleo, Aportación definida, prestación definida y mixto."],
+      "correcta": 1,
+      "explicacion": "por definición",
+      "id": 29
+    },
+    {
+      "pregunta": "¿Qué reducción se aplica a la prestación en forma de capital de un plan de pensiones cuya primera aportación se realizó el 20 de febrero de 2007?",
+      "opciones": ["0%", "18%", "40%", "75%"],
+      "correcta": 0,
+      "explicacion": "La Ley 35/2006 del IRPF ya no permite reducciones en la prestación en forma de capital procedentes planes de pensiones contratados después del 31.12.06",
+      "id": 30
+    },
+    {
+      "pregunta": "Un título con una rentabilidad esperada del 10% y una volatilidad del 20%, que siga una ley normal, tiene una probabilidad del 2,5% de que su rentabilidad sea mayor que:",
+      "opciones": ["30%", "50%", "-30%", "Ninguna es correcta"],
+      "correcta": 1,
+      "explicacion": "al seguir una ley normal, nos fijamos en la rentabilidad que deja a su izquierda un 97,5% de probabilidad: 10% + 2*20%=50%",
+      "id": 31
+    },
+    {
+      "pregunta": "Si suponemos que la rentabilidad de una cartera se comporta según una distribución normal de media 5% y volatilidad 3%, ¿cuál de las siguientes respuestas es correcta?",
+      "opciones": ["Existe una probabilidad del 16% de que la rentabilidad sea mayor del 5%", "Existe una probabilidad del 16% de que la rentabilidad sea menor del 2%", "Existe una probabilidad del 2,5% de que la rentabilidad sea mayor del 5", "Ninguna es correcta"],
+      "correcta": 1,
+      "explicacion": "Ver solución del simulacro",
+      "id": 32
+    },
+    {
+      "pregunta": "Para el próximo trimestre un asesor de inversiones estima en cada uno de los posibles escenarios de rentabilidad de un activo las siguientes probabilidades: Rentabilidad Probabilidad Positivo 10% 25% Neutro 0% 50% Negativo -5% 25% Calcular la rentabilidad y la volatilidad estimada del activo.",
+      "opciones": ["5,44% y 1,25% respectivamente", "1,25% y 5,44% respectivamente", "5% y 1% respectivamente", "Ninguna es correcta"],
+      "correcta": 1,
+      "explicacion": "la rentabilidad esperada es la media ponderada: 10%*25%+0%*50%+(-5%)*25%=1,25%. Y la volatilidad: raíz cuadrada de ((10%-1,25%)2*25%+(0%-1,25%)2*50%+(-5%-1,25%)2*25%)=5,44%",
+      "id": 33
+    },
+    {
+      "pregunta": "Calcular la rentabilidad esperada de un Fondo con un patrimonio de 20.000 € que está compuesto por 10.000 € en acciones, 5.000 € en bonos y 5.000 € en letras, suponiendo que los rendimientos esperados para cada tipo de activo son del 20%, 8% y 3%, respectivamente.",
+      "opciones": ["20%", "14,75%", "12,75%", "Ninguna es correcta"],
+      "correcta": 2,
+      "explicacion": "suma ponderada de peso por rentabilidad esperada: 50%*20%+25%*8%+25%*3%=12,75%",
+      "id": 34
+    },
+    {
+      "pregunta": "Un título con una rentabilidad esperada del 5% y una volatilidad del 10% que siga una Ley Normal tiene una probabilidad aproximada del 99% de que su rentabilidad oscile entre:",
+      "opciones": ["14% y 20%", "-25% y 35%", "-9% y 50%", "-10% y 30%"],
+      "correcta": 2,
+      "explicacion": "99% de confianza implica 3 desviaciones típicas, luego, 5%+/- 3*10%",
+      "id": 35
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones sobre la desviación estándar anual es cierta?",
+      "opciones": ["Es la raíz cuadrada de la varianza típica", "Puede ser negativa", "Es la desviación de una semana por raíz de 52 semanas", "a) y c)"],
+      "correcta": 3,
+      "explicacion": "por definición",
+      "id": 36
+    },
+    {
+      "pregunta": "Un activo de renta fija ha generado en los últimos 7 años los siguientes retornos (%): 5,2; -2,12; 3,22; 2,58; 4,75; 5,03; 0%. Calcular la rentabilidad anualizada.",
+      "opciones": ["3,118%", "3,108%", "3,078%", "2,632%"],
+      "correcta": 3,
+      "explicacion": "TAE=raíz séptima((1+5,2)*(1-2,12)*(1+3,22)*(1+2,58)*(1+4,75)*(1+5,03) *(1+0)) – 1=2,632%",
+      "id": 37
+    },
+    {
+      "pregunta": "Un gestor de carteras administra un fondo de pensiones (28 millones de euros en patrimonio) de renta variable altamente diversificado y decide cubrirlo con opciones del IBEX 35. Determinar el número de contratos que debe realizar suponiendo que el gestor mantiene su posición hasta el vencimiento. Valor nominal de la cartera de renta variable. Valor efectivo de la cartera de renta variable. IBEX 35 contado. IBEX 35 futuro. Beta de la cartera. Delta opciones put.",
+      "opciones": ["434", "384", "696", "Ninguna es correcta"],
+      "correcta": 2,
+      "explicacion": "El ratio de cobertura=25.000.000*1,6 / 11.500*10 *(-0,5)= 347,82 , es decir 695,65 contratos, se redondea al más cercano entero.",
+      "id": 38
+    },
+    {
+      "pregunta": "Las subastas de títulos de renta fija donde se indica cantidad y precio se llaman subastas…:",
+      "opciones": ["No competitivas", "Competitivas", "Al descuento", "A la par"],
+      "correcta": 1,
+      "explicacion": "Ofertas competitivas. Se indica la cantidad y el precio deseados expresados en tanto por ciento sobre el nominal",
+      "id": 39
+    },
+    {
+      "pregunta": "¿Qué tipo de figura representa un hombro-cabeza-hombro?",
+      "opciones": ["Figura de continuación", "Figura de vuelta", "Es un oscilador", "Es un indicador"],
+      "correcta": 1,
+      "explicacion": "El hombro-cabeza-hombro es una figura de cambio de tendencia o de vuelta, Es una formación que predice un cambio de tendencia o de vuelta: de alcista a bajista o si es invertido de bajista a alcista.",
+      "id": 40
+    },
+    {
+      "pregunta": "Hoy, febrero de 2006, después de un importante incremento en las cotizaciones de los activos de renta variable y antes de una previsible corrección de precios, un cliente desea comprar 60.000 euros en un bono de deuda pública española. Como asesor, usted cree que el mercado prevé una subida en los tipos de interés en todos los tramos de la curva y le advierte que es muy posible que el precio del bono disminuya en los próximos meses, pero su cliente insiste en la compra. Ante esta situación, ¿cuál cree que es el mejor bono (entre los siguientes) que puede recomendarle a su cliente?",
+      "opciones": ["Fecha de emisión: 25-08-2000 Fecha de vencimiento: 25-08-2015 Cupón anual: 7,50%", "Fecha de emisión: 20-01-2000 Fecha de vencimiento: 20-01-2009 Cupón anual: 6,50%", "Fecha de emisión: 20-01-2004 Fecha de vencimiento: 20-01-2009 Cupón anual: 3,50%", "Fecha de emisión: 20-01-2004 Fecha de vencimiento: 20-01-2014 Cupón anual: 6,50%"],
+      "correcta": 2,
+      "explicacion": "Ver solución del simulacro",
+      "id": 41
+    },
+    {
+      "pregunta": "El precio de una opción call tiene una prima de 0,20 euros, faltan tres semanas para su vencimiento, tiene un precio de ejercicio 18 euros y el subyacente cotiza a 17,90 euros. Se puede afirmar que:",
+      "opciones": ["Tiene un valor temporal de 0,20 euros.", "Tiene un valor intrínseco de 0,10 euros.", "Tiene un valor temporal de 0,10 euros.", "No tiene sentido económico pagar 0,20 euros por tener el derecho a comprar a 18 euros si el activo subyacente cotiza a 17,90 euros."],
+      "correcta": 0,
+      "explicacion": "Prima = Valor intrínseco + valor temporal. Como el valor intrínseco = 17,90 – 18 = -0,1, como no puede ser negativo, sería 0. Luego toda la prima es valor temporal",
+      "id": 42
+    },
+    {
+      "pregunta": "Durante las fases de economía en recesión, los tipos de interés tienden generalmente a:",
+      "opciones": ["Aumentar, porque la producción se contrae.", "Permanece inalterados, porque los tipos de interés se hallan influidos por el mercado financiero, pero no por las condiciones de la economía real.", "Aumentan, porque el Banco central eleva los tipos en su tentativa de relanzar la economía.", "Reducirse, porque la demanda de crédito tiende a reducirse."],
+      "correcta": 3,
+      "explicacion": "Ver solución del simulacro",
+      "id": 43
+    },
+    {
+      "pregunta": "La política de inversión de un fondo se caracteriza por:",
+      "opciones": ["Ser variable. En función de la evolución de los distintos mercados se determina la clasificación del fondo.", "Indicar la tipología de activos en que está invertido el fondo y, por lo tanto, determinar a qué categoría pertenece el fondo.", "La determinan los partícipes en función de sus expectativas.", "La determina el gestor de acuerdo a su criterio, siempre procurando el mayor beneficio de los partícipes."],
+      "correcta": 1,
+      "explicacion": "Ver solución del simulacro",
+      "id": 44
+    },
+    {
+      "pregunta": "¿A qué perfil de inversor le recomendaría un fondo garantizado de renta fija?",
+      "opciones": ["A un cliente conservador, interesado principalmente en garantizarse la inversión realizada más una revalorización mínima en un plazo determinado.", "A un cliente que prioriza disponer de la máxima liquidez.", "A un cliente cuya prioridad es conseguir la máxima rentabilidad posible, pero exigiendo garantías.", "Ninguna de las anteriores."],
+      "correcta": 0,
+      "explicacion": "Ver solución del simulacro",
+      "id": 45
+    },
+    {
+      "pregunta": "¿Qué porcentaje (aproximado) de participación sobre la revalorización media podría ofrecer el siguiente depósito garantizado? Patrimonio inicial del depósito: 75.000.000 euros. Importe destinado a la compra de bonos cupón cero y liquidez para garantizar el 100% del patrimonio inicial: 55.000.000 euros. Importe destinado a las comisiones: 2.000.000 euros. La prima de las opciones estándar vale 25,5 euros para cubrir un nominal de 55 euros, y la prima de las opciones asiáticas vale 15,5 euros también para cubrir un nominal de 55 euros.",
+      "opciones": ["50,15%", "45,34%", "85,16%", "Ninguna es correcta"],
+      "correcta": 2,
+      "explicacion": "Nos quedan libre para invertir en opciones asiáticas (es el tipo de opción elegida pues el depósito va referenciado a la rentabilidad media) =75.000.000 – 55.000.000 – 2.000.000 = 18.000.000. Y mediante una regla de tres: si con 15,5 cubrimos 55, con 18.000.000 cubrimos X; despejando X=63.870.967 euros, es decir, que sobre el patrimonio inicial de 75.000.000 cubre el 85,16%",
+      "id": 46
+    },
+    {
+      "pregunta": "Los dividendos procedentes de sociedades residentes en España y que tributan en el Impuesto sobre Sociedades al 25%, se integran en el IRPF del socio-persona física:",
+      "opciones": ["Al 140% y con derecho a deducción por la doble imposición por dividendos del 40%.", "Al 125% y con derecho a deducción por doble imposición por dividendos al 25%.", "Al 100% y sin derecho a deducción por doble imposición por dividendos.", "No se integran en el IRPF."],
+      "correcta": 3,
+      "explicacion": "Ver solución del simulacro",
+      "id": 47
+    },
+    {
+      "pregunta": "En el mes de noviembre del 2021, el Sr Lopez se plantea reembolsar 100 participaciones de un Fondo de Inversiones cuyo valor liquidativo es de 108,18 euros. A dicha fecha, el Sr Lopez tenia una cartera con 500 participaciones de dicho fondo, 100 fueron adquiridas en octubre de 1995 a un precio unitario de 60,10 euros y 400 fueron adquiridas en enero de 2005 a un precio unitario de 90,15 euros, más una comisión de suscripción de 180,3 euros. ¿Qué impacto fiscal tendrá el Sr Lopez en su declaración del IRPF del año 2021 si procediera a reembolsar las participaciones de su fondo de inversión, si su tipo marginal es del 43% obviando el efecto de la retención?",
+      "opciones": ["685,23 euros.", "906,66 euros.", "2.067,44 euros.", "1.877,44 euros."],
+      "correcta": 1,
+      "explicacion": "100*108,18 – (100*60,10+180,3*100/500)= 4.771,94 euros de ganancia, que al 19% de IRPF = 906,66",
+      "id": 48
+    },
+    {
+      "pregunta": "Un inversor adquirió en 1998 unas acciones cotizadas por 60.000 euros, y unas participaciones en un fondo de inversión por 90.000 euros. En el año 2021 transmite ambas inversiones, percibiendo por las acciones 48.000 euros y por las participaciones en el fondo de inversión 150.000 euros. En su declaración del IRPF resultará, respecto a estas dos transmisiones, lo siguiente:",
+      "opciones": ["Base liquidable del ahorro: 48.000euros.", "Base liquidable del ahorro: 60.00 euros. Pérdida a compensar en los próximos 4 años: 12.000 euros.", "Base liquidable del ahorro:0 euros. Pérdidas a compensar: 12.000 euros.", "Base liquidable del ahorro: 0 euros. Pérdidas generadas en más de un año a compensar en los próximos 4 años: o euros"],
+      "correcta": 2,
+      "explicacion": "48.000+150.000 –(60.000 + 90.000) = 48.000 euros",
+      "id": 49
+    },
+    {
+      "pregunta": "La filial extranjera de una sociedad española obtiene unos resultados de 6.000 €, los cuales son sometidos a una tributación efectiva del 30% por 100 (1.500 €). Posteriormente, la filial reparte a su matriz los beneficios obtenidos después de impuestos y que ascienden a 4.500 €. De acuerdo con la legislación interna del país de residencia de la filial, los dividendos repartidos son sometidos a un impuesto adicional del 10 por 100 (450 €). De acuerdo con todo lo anterior y asumiendo el cumplimiento de todos los requisitos exigidos, la tributación por el IS en España de los dividendos obtenidos por la matriz, en aplicación de lo dispuesto en el artículo 21 de la Ley del Impuesto sobre Sociedades, sería la siguiente:",
+      "opciones": ["6.000 €", "50,625 €", "1.500 €", "1.950 €"],
+      "correcta": 1,
+      "explicacion": "Resultado bruto de la filial 6.000. Tributación de la filial. Retención en el extranjero (withholding tax) 1.500. Exención 95% (sobre 4.050) 450. 3.847,5. Base imponible (4050 – 3847,5) 202,5. Cuota íntegra – 25% 50,625. A ingresar 50,625.",
+      "id": 50
+    }
+  ]
+}

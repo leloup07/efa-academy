@@ -1,0 +1,152 @@
+{
+  "titulo": "Repaso Intermedio EFA",
+  "tiempo": 120,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "El análisis de medias móviles permite:",
+      "opciones": [
+        "Anticiparse a los movimientos de continuación o cambio de tendencia",
+        "Determinar la tendencia de la dirección de los precios",
+        "Predecir volatilidad del nivel de precios",
+        "Determinar la fortaleza de una tendencia -19-"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 77
+    },
+    {
+      "pregunta": "Cuando existe una divergencia entre el RSI y la tendencia de los precios, la regla general dice:",
+      "opciones": [
+        "Los precios tienen razón",
+        "La tendencia pierde fuerza",
+        "Salirse de mercado dada la incertidumbre",
+        "El indicador tiene razón"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 78
+    },
+    {
+      "pregunta": "¿Cuál de estas afirmaciones consideras que define al Análisis Técnico?.",
+      "opciones": [
+        "La explicación de los movimientos futuros a largo plazo de los activos.",
+        "La búsqueda de explicaciones contrarias a las de los analistas fundamentales.",
+        "La identificación de una tendencia de las cotizaciones",
+        "Teorías que representan mediante gráficos las cotizaciones de los activos"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 80
+    },
+    {
+      "pregunta": "¿Cuándo utilizamos en Análisis Técnico el término sobrecompra a qué nos estamos refiriendo?.",
+      "opciones": [
+        "A una situación del precio de un activo que determinamos mediante un indicador técnico denominado oscilador",
+        "A una situación del precio de un activo que nos advierte del agotamiento en la caída de sus cotizaciones",
+        "A una situación del precio de un activo que nos genera una señal de venta",
+        "A una situación del precio de un activo que nos genera una señal de compra"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 81
+    },
+    {
+      "pregunta": "¿Cuál de estas afirmaciones consideras que define el término de Análisis Técnico divergencia bajista?.",
+      "opciones": [
+        "Cuando la curva del indicador es bajista y la curva de las cotizaciones bajista.",
+        "Cuando la curva del indicador es alcista y la curva de las cotizaciones bajista",
+        "Cuando la curva del indicador es bajista y la curva de las cotizaciones alcista",
+        "Cuando la curva del indicador es alcista y la curva de las cotizaciones alcista"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 82
+    },
+    {
+      "pregunta": "En lo referente a soportes y resistencias",
+      "opciones": [
+        "Cuanto menor sea el volumen negociado, más fuertes serán los niveles de soporte y resistencia",
+        "Cuanto mayor sea el tiempo en que un nivel ha actuado como soporte o resistencia, más segura será la reacción del activo cuando rompa esos niveles",
+        "Cuanto menor sea la distancia que separa al recorrido del activo al nivel de soporte o resistencia, más tardará el activo en romper este nivel",
+        "Las opciones a) y b) son correctas -20-"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 83
+    },
+    {
+      "pregunta": "La siguiente figura, puede indentificarse como una figura",
+      "opciones": [
+        "Hombro  Cabeza  hombro",
+        "Triángulo",
+        "Gallardete",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 84
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones es incorrecta?",
+      "opciones": [
+        "En la media móvil corta se realizan más operaciones que en las medias móviles largas",
+        "La media móvil larga suaviza la curva de precios",
+        "La media larga permite extraer tendencias secundarias del mercado",
+        "En fases de tendencia poco definida, no son recomendables las medias móviles cortas"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 85
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones no es correcta?",
+      "opciones": [
+        "Un soporte roto se convierte en resistencia y a la inversa",
+        "Los dos factores a considerar a la hora de evaluar soportes y resistencias son El volumen de contratación y los cierres de posición",
+        "Una resistencia se da cuando la presión de la oferta es superior a la presión de demanda",
+        "La fortaleza de una línea de tendencia reside en sus puntos de apoyo, cuantos más sean estos, más fuerte será esta línea"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 86
+    },
+    {
+      "pregunta": "De las siguientes figuras, una no es de vuelta. ¿Sabría indicar cuál de ellas es?",
+      "opciones": [
+        "Cabeza-Hombros",
+        "Techos y Suelos dobles",
+        "Gallardetes",
+        "Techos y Suelos redondeados -21-"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 87
+    },
+    {
+      "pregunta": "Un indicador técnico de Seguimiento de Tendencia es",
+      "opciones": [
+        "Bandas de Bollinger",
+        "Media Movil",
+        "Ratio Spread",
+        "Las opciones b) y c) son correctas"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 88
+    },
+    {
+      "pregunta": "Una empresa que cobrará 800.000 euros dentro de 2 meses tiene previsto colocarlos en una inversión vinculada al mercado interbancario durante 4 meses y desea cubrir un movimiento desfavorable de los tipos de interés mediante la contratación de una FRA. Si la cotización del FRA2/6 es 2,15% - 2,20% ¿Qué operación realizará?",
+      "opciones": [
+        "Comprar FRA2/6 a 2,15%",
+        "Vender FRA2/6 a 2,15%",
+        "Comprar FRA2/6 a 2,20%",
+        "Vender FRA2/6 a 2,20%. -24-"
+      ],
+      "correcta": 0,
+      "explicacion": "Ver solución del repaso",
+      "id": 101
+    }
+  ]
+}

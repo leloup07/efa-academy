@@ -1,0 +1,1208 @@
+{
+  "titulo": "Simulacro EFA - Simulacro E",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "Un inversor español residente que obtiene 10.000€ de intereses de un depósito bancario, ¿qué tributación tiene en el IRPF?",
+      "opciones": [
+        "Gravado como rendimientos del capital mobiliario al tipo marginal del contribuyente",
+        "Exento de tributación si el depósito está en un banco español",
+        "Gravado al 19% de forma independiente",
+        "Gravado al 21% de forma independiente"
+      ],
+      "correcta": 0,
+      "explicacion": "Los intereses de depósitos bancarios constituyen rendimientos del capital mobiliario que se gravan en la base del ahorro del IRPF al tipo impositivo correspondiente según la escala establecida.",
+      "id": 1
+    },
+    {
+      "pregunta": "¿Cuál es el tratamiento fiscal en España de las ganancias patrimoniales derivadas de la venta de acciones de una empresa en la que no tiene participación significativa?",
+      "opciones": [
+        "Se integran en la base del ahorro del IRPF",
+        "Se gravan al 21% de forma independiente",
+        "Son completamente exentas",
+        "Se integran en la base general del IRPF"
+      ],
+      "correcta": 0,
+      "explicacion": "Las ganancias patrimoniales por transmisión de valores mobiliarios se incluyen en la base del ahorro del IRPF con los tramos progresivos establecidos.",
+      "id": 2
+    },
+    {
+      "pregunta": "Un contribuyente español dispone de dos inmuebles: uno destinado a vivienda habitual y otro como inversión. ¿Cómo se gravan las rentas del inmueble de inversión?",
+      "opciones": [
+        "Como rendimientos del capital inmobiliario en la base general del IRPF",
+        "Como rendimientos del capital mobiliario",
+        "Completamente exentas",
+        "Al 21% de forma independiente"
+      ],
+      "correcta": 0,
+      "explicacion": "Las rentas procedentes de inmuebles destinados a inversión (alquiler) se consideran rendimientos del capital inmobiliario y se integran en la base general del IRPF.",
+      "id": 3
+    },
+    {
+      "pregunta": "¿Cuál es el impuesto sobre la herencia y donaciones en la comunidad autónoma de Madrid para herederos colaterales?",
+      "opciones": [
+        "Tipo progresivo que oscila entre el 7,65% y el 34%",
+        "Tipo fijo del 20%",
+        "Completamente exento",
+        "Tipo del 25% independientemente del grado"
+      ],
+      "correcta": 0,
+      "explicacion": "En Madrid, el Impuesto sobre Sucesiones y Donaciones aplica escalas progresivas diferentes según el grado de parentesco, siendo las más altas para colaterales.",
+      "id": 4
+    },
+    {
+      "pregunta": "Un fondo de inversión español distribuye dividendos a sus partícipes. ¿Cuál es el tratamiento fiscal?",
+      "opciones": [
+        "Se gravan como rendimientos del capital mobiliario en la base del ahorro",
+        "Completamente exentos",
+        "Se gravan como ganancias patrimoniales",
+        "Se gravan al 21% de forma independiente"
+      ],
+      "correcta": 0,
+      "explicacion": "Los dividendos distribuidos por fondos de inversión constituyen rendimientos del capital mobiliario sujetos a tributación en la base del ahorro del IRPF.",
+      "id": 5
+    },
+    {
+      "pregunta": "¿Qué requisitos debe cumplir un plan de pensiones para que las aportaciones sean deducibles en el IRPF?",
+      "opciones": [
+        "Estar depositado en una entidad financiera, tener la prestación garantizada y cumplir los límites de aportación anual",
+        "Solo estar depositado en una entidad autorizada",
+        "Ser obligatoriamente de la seguridad social",
+        "No tener ningún requisito especial"
+      ],
+      "correcta": 0,
+      "explicacion": "Para la deducción de aportaciones a planes de pensiones se requiere que esté autorizado, tenga características reglamentarias y respete los límites anuales de aportación.",
+      "id": 6
+    },
+    {
+      "pregunta": "Un contribuyente realiza una donación a una ONG en 2024. ¿Cuál es el tratamiento fiscal?",
+      "opciones": [
+        "Deducción en la cuota íntegra estatal del 45% de la cantidad donada, con límite del 10% de la base liquidable",
+        "Deducción del 100% sin límite",
+        "Sin derecho a deducción",
+        "Deducción solo si la ONG es internacional"
+      ],
+      "correcta": 0,
+      "explicacion": "Las donaciones a entidades sin ánimo de lucro tienen una deducción del 45% en cuota (25% para entidades públicas) con límites porcentuales sobre la base liquidable.",
+      "id": 7
+    },
+    {
+      "pregunta": "¿Cuál es el límite de retención de IRPF en rendimientos del trabajo en 2024?",
+      "opciones": [
+        "El que resulte de aplicar la fórmula legal establecida según ingresos y circunstancias personales",
+        "El 15% de forma fija",
+        "El 25% de forma fija",
+        "No existe límite"
+      ],
+      "correcta": 0,
+      "explicacion": "La retención de IRPF se calcula aplicando la fórmula legal que depende de los ingresos estimados y las circunstancias personales del contribuyente.",
+      "id": 8
+    },
+    {
+      "pregunta": "Un asesor de inversiones aconseja sobre un fondo de inversión que distribuye el 3% anual. ¿Cuál es el riesgo específico de estos fondos?",
+      "opciones": [
+        "Riesgo de mercado, liquidez y crédito de los activos subyacentes",
+        "No hay riesgo porque hay distribución de dividendos",
+        "Solo riesgo de cambio de divisa",
+        "Riesgo limitado al 3% anual"
+      ],
+      "correcta": 0,
+      "explicacion": "Los fondos de inversión están expuestos a riesgos de mercado (fluctuaciones de precios), liquidez (dificultad para vender) y crédito (insolvencia de emisores).",
+      "id": 9
+    },
+    {
+      "pregunta": "¿Cuál es el Valor Liquidativo (VL) de un fondo de inversión?",
+      "opciones": [
+        "El valor del patrimonio del fondo dividido entre el número de participaciones en circulación",
+        "El precio fijo establecido por la entidad gestora",
+        "La suma de todos los dividendos acumulados",
+        "El rendimiento esperado anual"
+      ],
+      "correcta": 0,
+      "explicacion": "El Valor Liquidativo es el precio de cada participación, calculado como el patrimonio neto del fondo dividido entre las participaciones existentes.",
+      "id": 10
+    },
+    {
+      "pregunta": "Un inversor desea invertir en una acción con alta volatilidad. ¿Qué perfil de riesgo es más apropiado?",
+      "opciones": [
+        "Perfil agresivo o dinámico con horizonte temporal largo",
+        "Perfil conservador",
+        "No es recomendable invertir en acciones",
+        "Solo para fondos de pensiones"
+      ],
+      "correcta": 0,
+      "explicacion": "Las inversiones en valores con alta volatilidad requieren un perfil de riesgo agresivo y un horizonte temporal suficiente para recuperarse de caídas coyunturales.",
+      "id": 11
+    },
+    {
+      "pregunta": "¿Qué es la duración en un bono?",
+      "opciones": [
+        "El tiempo ponderado hasta la devolución del capital, sensibilidad a cambios en tipos de interés",
+        "El tiempo exacto hasta el vencimiento",
+        "El cupón que paga el bono",
+        "La volatilidad del bono"
+      ],
+      "correcta": 0,
+      "explicacion": "La duración mide la sensibilidad del precio del bono a cambios en los tipos de interés, expresada como el tiempo ponderado de recuperación de la inversión.",
+      "id": 12
+    },
+    {
+      "pregunta": "Un asesor financiero recomienda a un cliente de 65 años una cartera con el 80% en acciones. ¿Es apropiada esta recomendación?",
+      "opciones": [
+        "No, es excesivamente agresiva para esta edad, debería ser más conservadora",
+        "Sí, es la recomendación estándar",
+        "Sí, porque no hay edad límite para riesgo",
+        "Solo si el cliente es muy rico"
+      ],
+      "correcta": 0,
+      "explicacion": "La edad es un factor crucial en la adecuación de inversiones. A los 65 años, el horizonte temporal es corto, por lo que se requiere mayor conservadurismo.",
+      "id": 13
+    },
+    {
+      "pregunta": "¿Cuál es el propósito principal de la diversificación en una cartera?",
+      "opciones": [
+        "Reducir el riesgo no sistemático sin disminuir necesariamente la rentabilidad esperada",
+        "Aumentar siempre la rentabilidad",
+        "Eliminar completamente el riesgo",
+        "Invertir en el mayor número posible de valores"
+      ],
+      "correcta": 0,
+      "explicacion": "La diversificación reduce el riesgo específico o no sistemático de la cartera, aunque no elimina el riesgo sistemático de mercado.",
+      "id": 14
+    },
+    {
+      "pregunta": "Un cliente con 10.000€ ahorrados desea invertir. ¿Cuál es el primer paso del asesor financiero?",
+      "opciones": [
+        "Realizar un análisis exhaustivo del perfil de riesgo, objetivos y situación financiera del cliente",
+        "Invertir inmediatamente en la acción más rentable",
+        "Recomendarle el fondo que más ha rentabilizado",
+        "Abrir varias cuentas de inversión"
+      ],
+      "correcta": 0,
+      "explicacion": "El asesor debe conocer la situación completa del cliente antes de hacer cualquier recomendación, cumpliendo con los requisitos de adecuación.",
+      "id": 15
+    },
+    {
+      "pregunta": "¿Qué es el EURIBOR a 12 meses?",
+      "opciones": [
+        "La tasa de interés de referencia a la que se prestan entre sí los bancos europeos a plazo de un año",
+        "El tipo de interés del Banco Central Europeo",
+        "La inflación en euros",
+        "El rendimiento de la Deuda Pública española"
+      ],
+      "correcta": 0,
+      "explicacion": "El EURIBOR es el Índice Europeo de Referencia Bancaria, que refleja el coste del dinero en el mercado interbancario a distintos plazos.",
+      "id": 16
+    },
+    {
+      "pregunta": "Un préstamo hipotecario está referenciado al EURIBOR + 0,5%. Si el EURIBOR es 3,5%, ¿cuál es el tipo de interés?",
+      "opciones": [
+        "4,0%",
+        "3,5%",
+        "0,5%",
+        "3,75%"
+      ],
+      "correcta": 0,
+      "explicacion": "El tipo de interés final es la suma del índice de referencia (EURIBOR 3,5%) más el diferencial (0,5%), resultando 4,0%.",
+      "id": 17
+    },
+    {
+      "pregunta": "¿Cuál es la diferencia entre un fondo de inversión y una sociedad de inversión mobiliaria (SIM)?",
+      "opciones": [
+        "El fondo es una masa patrimonial sin personalidad jurídica, la SIM es una sociedad anónima con personalidad jurídica propia",
+        "No hay diferencia, son lo mismo",
+        "El fondo tiene mayor rentabilidad",
+        "La SIM es siempre más cara"
+      ],
+      "correcta": 0,
+      "explicacion": "La principal diferencia es la estructura legal: los fondos son patrimonios segregados sin personalidad jurídica, mientras que las SIM son sociedades mercantiles.",
+      "id": 18
+    },
+    {
+      "pregunta": "¿Qué es el ratio de Sharpe?",
+      "opciones": [
+        "La rentabilidad obtenida por cada unidad de riesgo asumido",
+        "El riesgo total de una cartera",
+        "La rentabilidad promedio anual",
+        "El beneficio máximo esperado"
+      ],
+      "correcta": 0,
+      "explicacion": "El ratio de Sharpe mide el retorno excesivo obtenido por unidad de volatilidad o desviación estándar, indicando eficiencia de la inversión.",
+      "id": 19
+    },
+    {
+      "pregunta": "Un inversor tiene una cartera con beta de 1,5. ¿Qué significa esto?",
+      "opciones": [
+        "La cartera es 50% más volátil que el mercado en general",
+        "Rentará siempre el 150%",
+        "El riesgo está completamente eliminado",
+        "No tiene significado financiero"
+      ],
+      "correcta": 0,
+      "explicacion": "Un beta de 1,5 indica que la cartera se mueve 1,5 veces más que el mercado, es decir, es más volátil y riesgosa.",
+      "id": 20
+    },
+    {
+      "pregunta": "¿Cuál es el tratamiento fiscal en España de los intereses de cuentas de ahorro al 0%?",
+      "opciones": [
+        "Gravados como rendimientos del capital mobiliario si superan 300€ anuales",
+        "Completamente exentos",
+        "Gravados al 21%",
+        "Gravados solo si el cliente es mayor de edad"
+      ],
+      "correcta": 0,
+      "explicacion": "Aunque el rendimiento sea del 0%, si hay intereses que superen el límite de exclusión establecido, deben declararse como rendimientos mobiliarios.",
+      "id": 21
+    },
+    {
+      "pregunta": "Un cliente invierte 5.000€ en una acción a 50€ y la vende a 60€. ¿Cuál es la ganancia bruta?",
+      "opciones": [
+        "1.000€",
+        "500€",
+        "100€",
+        "5.000€"
+      ],
+      "correcta": 0,
+      "explicacion": "Compra: 5.000€ / 50€ = 100 acciones. Venta: 100 × 60€ = 6.000€. Ganancia: 6.000€ - 5.000€ = 1.000€.",
+      "id": 22
+    },
+    {
+      "pregunta": "¿Qué es el PER (Price Earnings Ratio)?",
+      "opciones": [
+        "La relación entre el precio de la acción y el beneficio neto por acción",
+        "El precio total de la empresa",
+        "El beneficio anual de la empresa",
+        "El dividendo por acción"
+      ],
+      "correcta": 0,
+      "explicacion": "El PER indica cuántas veces el precio de la acción representa el beneficio anual por acción, midiendo valoración relativa.",
+      "id": 23
+    },
+    {
+      "pregunta": "Un fondo de inversión tiene un PER de 25 y el mercado de 15. ¿Qué implica?",
+      "opciones": [
+        "El fondo está sobrevalorado relativamente al mercado",
+        "El fondo es más seguro que el mercado",
+        "El fondo garantiza mayor rentabilidad",
+        "Es la situación ideal para invertir"
+      ],
+      "correcta": 0,
+      "explicacion": "Un PER más alto indica que se paga más por cada euro de beneficio, sugiriendo que el fondo está más caro que el mercado promedio.",
+      "id": 24
+    },
+    {
+      "pregunta": "¿Cuál es el límite de aportación anual a un plan de pensiones en 2024?",
+      "opciones": [
+        "8.000€ por persona y año",
+        "10.000€ por persona y año",
+        "5.000€ por persona y año",
+        "Sin límite"
+      ],
+      "correcta": 0,
+      "explicacion": "El límite de aportación a planes de pensiones en 2024 es de 8.000€ anuales por persona, con límites superiores en casos especiales.",
+      "id": 25
+    },
+    {
+      "pregunta": "Un seguro de vida con coberturas de muerte y invalidez se clasifica como:",
+      "opciones": [
+        "Seguro de vida temporal",
+        "Seguro de capitalización",
+        "Seguro de accidentes",
+        "Seguro de enfermedad"
+      ],
+      "correcta": 0,
+      "explicacion": "Los seguros de vida con cobertura de muerte e invalidez son seguros de riesgo que protegen ante contingencias futuras.",
+      "id": 26
+    },
+    {
+      "pregunta": "¿Cuál es la prima de un seguro de vida?",
+      "opciones": [
+        "La cantidad periódica que paga el asegurado a cambio de la cobertura",
+        "La cantidad que recibe el beneficiario",
+        "El coste administrativo del seguro",
+        "El interés del fondo de inversión asociado"
+      ],
+      "correcta": 0,
+      "explicacion": "La prima es la contraprestación económica que el tomador del seguro paga al asegurador de forma periódica.",
+      "id": 27
+    },
+    {
+      "pregunta": "Un cliente con hipoteca variable desea protegerse del aumento de tipos de interés. ¿Qué producto podría utilizar?",
+      "opciones": [
+        "Un seguro de protección de pagos o un cap de tipos de interés",
+        "Un fondo de inversión",
+        "Una acción",
+        "Un bono de empresa"
+      ],
+      "correcta": 0,
+      "explicacion": "Los productos de cobertura de tipos incluyen seguros de protección de hipoteca y caps que limitan el tipo máximo a pagar.",
+      "id": 28
+    },
+    {
+      "pregunta": "¿Qué es el Fondo de Garantía de Depósitos (FGD)?",
+      "opciones": [
+        "Sistema que garantiza depósitos hasta 100.000€ por depositante y banco en caso de insolvencia",
+        "Un impuesto sobre los depósitos",
+        "Un fondo de inversión garantizado",
+        "Una agencia de calificación crediticia"
+      ],
+      "correcta": 0,
+      "explicacion": "El FGD es un mecanismo de protección del depositante que garantiza reembolso de depósitos hasta el límite establecido.",
+      "id": 29
+    },
+    {
+      "pregunta": "Un inversor español recibe dividendos de una empresa alemana. ¿Hay doble tributación?",
+      "opciones": [
+        "Potencialmente sí, pero se evita mediante convenio para evitar la doble imposición",
+        "No, nunca hay doble tributación",
+        "Siempre se paga doble impuesto",
+        "Solo en época de crisis"
+      ],
+      "correcta": 0,
+      "explicacion": "Los convenios de doble imposición entre países permiten evitar que una misma renta se tribute en dos jurisdicciones.",
+      "id": 30
+    },
+    {
+      "pregunta": "¿Cuál es el tipo de cambio a plazo?",
+      "opciones": [
+        "El precio acordado hoy para intercambiar divisas en una fecha futura especificada",
+        "El tipo de cambio del día",
+        "La inflación esperada",
+        "La volatilidad de la divisa"
+      ],
+      "correcta": 0,
+      "explicacion": "El tipo de cambio a plazo es un acuerdo para intercambiar divisas en el futuro a un precio fijado hoy, protegiéndose del riesgo de cambio.",
+      "id": 31
+    },
+    {
+      "pregunta": "Un cliente quiere comprar vivienda. ¿Qué gastos asociados debe considerar además del precio?",
+      "opciones": [
+        "Impuesto de Transmisiones Patrimoniales, gastos de notaría, registro, tasación e intermediarios",
+        "Solo el precio de la vivienda",
+        "Solo gastos de notaría",
+        "Solo el IRPF"
+      ],
+      "correcta": 0,
+      "explicacion": "La compra de vivienda lleva asociados múltiples costes: impuestos, honorarios profesionales, registros y seguros.",
+      "id": 32
+    },
+    {
+      "pregunta": "¿Cuál es la desgravación fiscal por inversión en vivienda habitual en 2024?",
+      "opciones": [
+        "No existe desgravación por inversión en vivienda principal desde 2013",
+        "Desgravación del 20% de la inversión",
+        "Desgravación del 50% sin límite",
+        "Desgravación del 100%"
+      ],
+      "correcta": 0,
+      "explicacion": "Desde 2013, se eliminó la desgravación por inversión en vivienda habitual en el IRPF a nivel estatal.",
+      "id": 33
+    },
+    {
+      "pregunta": "Un cliente es usuario de cuenta corriente. ¿Qué servicio NO está incluido típicamente?",
+      "opciones": [
+        "Intermediación bursátil especializada",
+        "Transferencias",
+        "Consulta de saldo",
+        "Pago de recibos"
+      ],
+      "correcta": 0,
+      "explicacion": "Una cuenta corriente es un depósito a la vista para operaciones habituales, no incluye servicios de inversión especializados.",
+      "id": 34
+    },
+    {
+      "pregunta": "¿Qué es un Bono del Estado?",
+      "opciones": [
+        "Título de deuda emitido por el Gobierno con vencimiento típico entre 3 y 5 años",
+        "Un depósito sin riesgo",
+        "Un fondo de inversión",
+        "Una acción del sector público"
+      ],
+      "correcta": 0,
+      "explicacion": "Los Bonos del Estado son valores de renta fija emitidos por el Tesoro español con plazos intermedios.",
+      "id": 35
+    },
+    {
+      "pregunta": "Un cliente invierte en un bono a 10 años. Durante este período, los tipos de interés suben. ¿Qué ocurre?",
+      "opciones": [
+        "El valor de mercado del bono cae",
+        "El valor de mercado del bono sube",
+        "No hay variación",
+        "Sube solo si el bono es de empresa"
+      ],
+      "correcta": 0,
+      "explicacion": "Existe relación inversa entre tipos de interés y precio de bonos: si suben los tipos, bajan los precios (para mantener rentabilidad equivalente).",
+      "id": 36
+    },
+    {
+      "pregunta": "¿Qué es el cupón de un bono?",
+      "opciones": [
+        "La renta fija periódica que paga el emisor del bono",
+        "El descuento aplicado al precio",
+        "El vencimiento del bono",
+        "La garantía del bono"
+      ],
+      "correcta": 0,
+      "explicacion": "El cupón es el flujo de renta fija que recibe periódicamente el tenedor del bono como retorno de su inversión.",
+      "id": 37
+    },
+    {
+      "pregunta": "Un inversor compra un bono a 95€ (par 100€) con cupón del 3%. ¿Cuál es la rentabilidad a vencimiento (TIR)?",
+      "opciones": [
+        "Mayor al 3% porque compró con descuento",
+        "Exactamente el 3%",
+        "Menor al 3%",
+        "Depende del tipo de cambio"
+      ],
+      "correcta": 0,
+      "explicacion": "Comprar con descuento (por debajo del par) aumenta la rentabilidad final, incluyendo la ganancia por reembolso a par.",
+      "id": 38
+    },
+    {
+      "pregunta": "¿Cuál es el riesgo de crédito en un bono corporativo?",
+      "opciones": [
+        "El riesgo de que el emisor no pueda pagar los cupones o el principal",
+        "La fluctuación del tipo de interés",
+        "El riesgo de inflación",
+        "El riesgo de cambio de divisa"
+      ],
+      "correcta": 0,
+      "explicacion": "El riesgo de crédito o de insolvencia es el riesgo fundamental de los bonos corporativos.",
+      "id": 39
+    },
+    {
+      "pregunta": "¿Qué mide el rating o calificación de un bono?",
+      "opciones": [
+        "La capacidad y voluntad del emisor de cumplir sus obligaciones de pago",
+        "La rentabilidad esperada",
+        "El plazo del vencimiento",
+        "El volumen de emisión"
+      ],
+      "correcta": 0,
+      "explicacion": "Los ratings de agencias como S&P, Moody's o Fitch evalúan la solvencia del emisor y la probabilidad de cumplimiento.",
+      "id": 40
+    },
+    {
+      "pregunta": "Un cliente invierte en acciones de una empresa en crecimiento. ¿Cuál es el riesgo principal?",
+      "opciones": [
+        "Riesgo de mercado por volatilidad del precio de las acciones",
+        "No hay riesgo porque es crecimiento",
+        "Riesgo solo de empresa de tamaño grande",
+        "Riesgo limitado al 10% anual"
+      ],
+      "correcta": 0,
+      "explicacion": "Las acciones de empresas en crecimiento pueden ser volátiles debido a cambios en expectativas del mercado.",
+      "id": 41
+    },
+    {
+      "pregunta": "¿Qué es la capitalización bursátil de una empresa?",
+      "opciones": [
+        "El valor total del patrimonio de la empresa medido por precio de acción × número de acciones",
+        "El beneficio neto anual",
+        "El capital social registrado",
+        "La deuda total de la empresa"
+      ],
+      "correcta": 0,
+      "explicacion": "La capitalización es el valor de mercado total de la empresa, reflejando lo que el mercado cree que vale.",
+      "id": 42
+    },
+    {
+      "pregunta": "Un cliente recibe 100 acciones como regalo de su madre. ¿Qué tributación tiene?",
+      "opciones": [
+        "El Impuesto sobre Sucesiones y Donaciones por transmisión por donación",
+        "Sin tributación porque es un regalo familiar",
+        "IRPF sobre el valor de las acciones",
+        "Impuesto sobre Transmisiones Patrimoniales"
+      ],
+      "correcta": 0,
+      "explicacion": "Las donaciones están sujetas al Impuesto sobre Sucesiones y Donaciones, con tratamientos favorables según comunidad autónoma y grado de parentesco.",
+      "id": 43
+    },
+    {
+      "pregunta": "¿Cuál es el tratamiento de las pérdidas de capital en el IRPF?",
+      "opciones": [
+        "Se computan con ganancias de capital de la misma naturaleza, permitiendo compensación",
+        "No se pueden computar",
+        "Se deducen del salario",
+        "Se pierden definitivamente"
+      ],
+      "correcta": 0,
+      "explicacion": "Las pérdidas patrimoniales se pueden compensar con ganancias del mismo tipo, dentro de períodos limitados.",
+      "id": 44
+    },
+    {
+      "pregunta": "Un inversor español tiene acciones en una empresa estadounidense que paga dividendos en dólares. ¿Cuál es el tratamiento fiscal?",
+      "opciones": [
+        "Rendimientos del capital mobiliario convertidos al euro al cambio del día del pago",
+        "Sin tributación si la empresa es extranjera",
+        "IRPF solo si convierte los dólares",
+        "Gravado al 21% de forma independiente"
+      ],
+      "correcta": 0,
+      "explicacion": "Los dividendos en divisa extranjera se convierten al euro según el cambio de la fecha de percepción y se tributan como rendimientos mobiliarios.",
+      "id": 45
+    },
+    {
+      "pregunta": "¿Qué es la curva de rendimientos o curva de tipos de interés?",
+      "opciones": [
+        "La representación gráfica que muestra la relación entre plazo de vencimiento y rendimiento de los bonos",
+        "El rendimiento máximo de una inversión",
+        "La inflación esperada",
+        "El tipo de interés del banco central"
+      ],
+      "correcta": 0,
+      "explicacion": "La curva de rendimientos es fundamental para analizar expectativas de mercado sobre tipos futuros e inflación.",
+      "id": 46
+    },
+    {
+      "pregunta": "¿Cuál es la diferencia entre interés simple e interés compuesto?",
+      "opciones": [
+        "El compuesto genera intereses sobre intereses acumulados, el simple solo sobre el capital inicial",
+        "Son lo mismo",
+        "El simple es siempre más rentable",
+        "No hay diferencia matemática"
+      ],
+      "correcta": 0,
+      "explicacion": "El interés compuesto reinvierte periódicamente los intereses generados, acelerando el crecimiento exponencial.",
+      "id": 47
+    },
+    {
+      "pregunta": "Un cliente invierte 10.000€ al 4% anual con capitalización anual durante 3 años. ¿Cuál es el capital final?",
+      "opciones": [
+        "11.248,64€",
+        "11.200€",
+        "10.400€",
+        "12.000€"
+      ],
+      "correcta": 0,
+      "explicacion": "Cálculo: 10.000 × (1,04)³ = 10.000 × 1,124864 = 11.248,64€",
+      "id": 48
+    },
+    {
+      "pregunta": "¿Qué es el Valor Actual Neto (VAN)?",
+      "opciones": [
+        "La suma de flujos futuros descontados a valor presente usando una tasa de descuento",
+        "El valor de mercado actual",
+        "La ganancia total sin descuento",
+        "El tipo de interés del mercado"
+      ],
+      "correcta": 0,
+      "explicacion": "El VAN es una técnica de evaluación de inversiones que valora flujos futuros traídos al presente.",
+      "id": 49
+    },
+    {
+      "pregunta": "Un proyecto tiene VAN positivo. ¿Qué significa?",
+      "opciones": [
+        "La inversión generará valor por encima del coste del capital utilizado",
+        "El proyecto pierde dinero",
+        "El proyecto es arriesgado",
+        "No tiene ningún significado especial"
+      ],
+      "correcta": 0,
+      "explicacion": "VAN positivo indica que el proyecto rentabiliza más que la tasa de descuento aplicada.",
+      "id": 50
+    },
+    {
+      "pregunta": "¿Cuál es la Tasa Interna de Retorno (TIR)?",
+      "opciones": [
+        "La tasa de descuento que hace el VAN igual a cero",
+        "La tasa de inflación",
+        "El rendimiento máximo posible",
+        "La tasa del banco central"
+      ],
+      "correcta": 0,
+      "explicacion": "La TIR es la rentabilidad intrínseca de una inversión que equilibra los flujos.",
+      "id": 51
+    },
+    {
+      "pregunta": "Un asesor recomienda a un cliente más conservador invertir en acciones. ¿Cuál sería el argumento correcto?",
+      "opciones": [
+        "Las acciones ofrecen mayor rentabilidad a largo plazo, pero requieren tolerancia a volatilidad",
+        "Las acciones no tienen riesgo",
+        "Es recomendación estándar para todos",
+        "Las acciones siempre suben"
+      ],
+      "correcta": 0,
+      "explicacion": "La adecuación requiere explicar riesgos y beneficios potenciales, permitiendo al cliente tomar decisión informada.",
+      "id": 52
+    },
+    {
+      "pregunta": "¿Qué es el perfil de riesgo de un cliente?",
+      "opciones": [
+        "La evaluación de su capacidad y disposición a asumir riesgo en inversiones",
+        "Su edad",
+        "Su salario",
+        "Su patrimonio neto"
+      ],
+      "correcta": 0,
+      "explicacion": "El perfil de riesgo integra capacidad financiera, horizonte temporal, experiencia e histórico de inversiones.",
+      "id": 53
+    },
+    {
+      "pregunta": "Un cliente hereda 50.000€. ¿Cuál es la recomendación inicial del asesor?",
+      "opciones": [
+        "No invertir inmediatamente; hacer análisis financiero completo antes de decisión",
+        "Invertir todo en la acción que más ha subido",
+        "Abrir múltiples cuentas sin plan definido",
+        "Invertir en cash al 0%"
+      ],
+      "correcta": 0,
+      "explicacion": "Herencias importantes requieren reflexión para evitar decisiones apresuradas basadas en emociones.",
+      "id": 54
+    },
+    {
+      "pregunta": "¿Cuál es el principio de la conducta de mejor interés del cliente en asesoramiento financiero?",
+      "opciones": [
+        "El asesor debe actuar en interés del cliente, no del intermediario ni propio",
+        "El asesor debe maximizar su comisión",
+        "El cliente siempre tiene razón",
+        "No existe tal principio"
+      ],
+      "correcta": 0,
+      "explicacion": "La normativa MiFID II establece que los asesores deben actuar en el mejor interés del cliente.",
+      "id": 55
+    },
+    {
+      "pregunta": "¿Qué información debe proporcionarse al cliente según MiFID II?",
+      "opciones": [
+        "Sobre intermediario, naturaleza de la relación, costes y características del servicio",
+        "Solo el precio final",
+        "Solo la rentabilidad esperada",
+        "No se requiere información especial"
+      ],
+      "correcta": 0,
+      "explicacion": "MiFID II requiere transparencia completa sobre servicios, costes, riesgos e intermediarios.",
+      "id": 56
+    },
+    {
+      "pregunta": "Un cliente quiere invertir en opciones financieras. ¿Qué debe evaluar el asesor?",
+      "opciones": [
+        "Experiencia previa, comprensión de riesgos, capacidad de pérdida total y alineación con objetivos",
+        "Solo el precio de las opciones",
+        "No es necesaria evaluación especial",
+        "Solo si el cliente es rico"
+      ],
+      "correcta": 0,
+      "explicacion": "Las opciones son instrumentos complejos que requieren análisis exhaustivo de adecuación.",
+      "id": 57
+    },
+    {
+      "pregunta": "¿Qué es una operación de repo?",
+      "opciones": [
+        "Venta de valores con acuerdo simultáneo de recompra a plazo y precio determinado",
+        "Una compra simple de valores",
+        "Un préstamo sin garantía",
+        "Un contrato de futuros"
+      ],
+      "correcta": 0,
+      "explicacion": "Las repos son operaciones de financiación común en mercados de renta fija.",
+      "id": 58
+    },
+    {
+      "pregunta": "¿Cuál es el spread en operaciones de inversión?",
+      "opciones": [
+        "La diferencia entre precio de compra y venta de un valor",
+        "La ganancia máxima esperada",
+        "El riesgo de mercado",
+        "El plazo de la inversión"
+      ],
+      "correcta": 0,
+      "explicacion": "El spread es el diferencial entre bid (compra) y ask (venta), representando coste de transacción.",
+      "id": 59
+    },
+    {
+      "pregunta": "Un cliente obtiene 500€ en ganancias de capital en base de ahorro del IRPF. ¿Cuál es el tratamiento?",
+      "opciones": [
+        "Se grava al tipo progresivo de la base de ahorro (19%, 21% o 23%)",
+        "Se grava al 20%",
+        "Completamente exento",
+        "Se grava solo si supera 1.000€"
+      ],
+      "correcta": 0,
+      "explicacion": "Las ganancias patrimoniales en base de ahorro se gravan con los tramos progresivos establecidos en 2024.",
+      "id": 60
+    },
+    {
+      "pregunta": "¿Qué es la deuda pública española?",
+      "opciones": [
+        "Conjunto de obligaciones financieras del Estado frente a terceros",
+        "Los impuestos que paga el Estado",
+        "El presupuesto anual",
+        "Las inversiones del Gobierno"
+      ],
+      "correcta": 0,
+      "explicacion": "La deuda pública es el stock de préstamos que ha contraído el Estado para financiar déficits presupuestarios.",
+      "id": 61
+    },
+    {
+      "pregunta": "¿Cuál es el efecto de un aumento del tipo de interés del BCE sobre las inversiones?",
+      "opciones": [
+        "Genera presión alcista en tipos de renta fija, presión bajista en renta variable y apreciación del euro",
+        "Solo beneficia a depositantes",
+        "No tiene efecto",
+        "Beneficia automáticamente a todas las inversiones"
+      ],
+      "correcta": 0,
+      "explicacion": "Subidas de tipos tienen impactos diferenciados según clase de activo y divisas.",
+      "id": 62
+    },
+    {
+      "pregunta": "Un fondo de inversión con patrimonio de 100 millones€ y 10 millones de participaciones. ¿Cuál es el VL?",
+      "opciones": [
+        "10€ por participación",
+        "1€ por participación",
+        "100€ por participación",
+        "No se puede calcular"
+      ],
+      "correcta": 0,
+      "explicacion": "VL = 100.000.000€ / 10.000.000 participaciones = 10€ por participación",
+      "id": 63
+    },
+    {
+      "pregunta": "¿Qué es el riesgo de tipo de interés?",
+      "opciones": [
+        "El riesgo de pérdida de valor por cambios en los tipos de interés del mercado",
+        "El riesgo de no recibir intereses",
+        "La tasa de inflación",
+        "La volatilidad diaria"
+      ],
+      "correcta": 0,
+      "explicacion": "Es riesgo fundamental de inversiones de renta fija, inversamente relacionado con duración.",
+      "id": 64
+    },
+    {
+      "pregunta": "Un cliente invierte 6.000€ en un fondo que cae el 20%. ¿Cuál es el valor resultante?",
+      "opciones": [
+        "4.800€",
+        "5.000€",
+        "6.000€",
+        "7.200€"
+      ],
+      "correcta": 0,
+      "explicacion": "Valor = 6.000€ × (1 - 0,20) = 6.000€ × 0,80 = 4.800€",
+      "id": 65
+    },
+    {
+      "pregunta": "¿Qué es el spread crediticio?",
+      "opciones": [
+        "La diferencia de rentabilidad entre un bono corporativo y uno del Estado de similar plazo",
+        "El margen del banco",
+        "La inflación esperada",
+        "El tipo de cambio"
+      ],
+      "correcta": 0,
+      "explicacion": "Refleja la prima de riesgo que los inversores requieren por asumir riesgo de crédito.",
+      "id": 66
+    },
+    {
+      "pregunta": "Un cliente compra 50 participaciones de un fondo a 8€. ¿Cuál es su inversión?",
+      "opciones": [
+        "400€",
+        "8€",
+        "50€",
+        "100€"
+      ],
+      "correcta": 0,
+      "explicacion": "Inversión = 50 participaciones × 8€ por participación = 400€",
+      "id": 67
+    },
+    {
+      "pregunta": "¿Cuál es la ventaja fiscal de los planes de pensiones frente a depósitos?",
+      "opciones": [
+        "Desgravación en la aportación y diferimiento de tributación de rendimientos hasta el rescate",
+        "No hay ventaja",
+        "Solo tributación diferida sin desgravación",
+        "Exención total de impuestos"
+      ],
+      "correcta": 0,
+      "explicacion": "Los planes de pensiones ofrecen desgravación inmediata y beneficio fiscal por reinversión de rendimientos.",
+      "id": 68
+    },
+    {
+      "pregunta": "¿Qué es el IRPF?",
+      "opciones": [
+        "Impuesto sobre la renta de personas físicas que grava ingresos de residentes españoles",
+        "Impuesto sobre el patrimonio",
+        "Impuesto sobre transmisiones",
+        "Tasa de cambio del euro"
+      ],
+      "correcta": 0,
+      "explicacion": "Principal impuesto directo español sobre rentas individuales.",
+      "id": 69
+    },
+    {
+      "pregunta": "Un inversor español compra 1.000€ de bonos alemanes. ¿Dónde debe fiscalizarse la renta?",
+      "opciones": [
+        "En España, como residente español, mediante convenio de doble imposición",
+        "En Alemania",
+        "En ambos países sin límite",
+        "En el país donde se compre el bono"
+      ],
+      "correcta": 0,
+      "explicacion": "Los residentes españoles tributan en España sobre rentas mundiales, mitigado por convenios internacionales.",
+      "id": 70
+    },
+    {
+      "pregunta": "¿Qué es un ETF (Exchange Traded Fund)?",
+      "opciones": [
+        "Fondo cotizado que replica índices y se negocia en bolsa como una acción",
+        "Un bono corporativo",
+        "Un depósito bancario",
+        "Un seguro de vida"
+      ],
+      "correcta": 0,
+      "explicacion": "Los ETFs combinan características de fondos (diversificación) y acciones (cotización y liquidez).",
+      "id": 71
+    },
+    {
+      "pregunta": "¿Cuál es la ventaja principal de un ETF sobre un fondo de inversión?",
+      "opciones": [
+        "Mayor liquidez y comisiones típicamente más bajas",
+        "Mayor rentabilidad garantizada",
+        "Sin riesgo de mercado",
+        "No requiere intermediario"
+      ],
+      "correcta": 0,
+      "explicacion": "Los ETFs ofrecen transacción inmediata en bolsa y costes estructurales inferiores.",
+      "id": 72
+    },
+    {
+      "pregunta": "Un cliente invierte en un fondo que replica el IBEX 35. ¿Qué riesgo específico asume?",
+      "opciones": [
+        "Riesgo de mercado del índice IBEX 35",
+        "Riesgo solo de España",
+        "Sin riesgo",
+        "Riesgo de divisa"
+      ],
+      "correcta": 0,
+      "explicacion": "Replica índice, por lo que asume su riesgo sistemático de mercado.",
+      "id": 73
+    },
+    {
+      "pregunta": "¿Qué es el IBEX 35?",
+      "opciones": [
+        "Índice de las 35 mayores empresas cotizadas en Bolsa de Madrid",
+        "Índice de deuda pública",
+        "Índice de tipos de interés",
+        "Índice de inflación"
+      ],
+      "correcta": 0,
+      "explicacion": "Principal índice bursátil español, representa el 80% de capitalización del mercado.",
+      "id": 74
+    },
+    {
+      "pregunta": "Un inversor compra acciones antes de la distribución de dividendos. ¿Cuándo cobra?",
+      "opciones": [
+        "En la fecha de pago establecida por la junta general",
+        "Inmediatamente",
+        "Un año después",
+        "Nunca"
+      ],
+      "correcta": 0,
+      "explicacion": "El calendario de dividendos es establecido por la empresa y comunicado previamente.",
+      "id": 75
+    },
+    {
+      "pregunta": "¿Qué es el dividend yield?",
+      "opciones": [
+        "La rentabilidad que obtiene un accionista por dividendos recibidos respecto al precio pagado",
+        "El precio de la acción",
+        "El número de acciones",
+        "El volumen de negociación"
+      ],
+      "correcta": 0,
+      "explicacion": "Métrica de rentabilidad por dividendos = Dividendo anual / Precio de la acción × 100%",
+      "id": 76
+    },
+    {
+      "pregunta": "Un cliente compra acciones a 50€ que pagan 2€ de dividendo anual. ¿Cuál es el dividend yield?",
+      "opciones": [
+        "4%",
+        "2%",
+        "50%",
+        "25%"
+      ],
+      "correcta": 0,
+      "explicacion": "Dividend Yield = 2€ / 50€ × 100% = 4%",
+      "id": 77
+    },
+    {
+      "pregunta": "¿Cuál es la diferencia entre acción ordinaria y preferente?",
+      "opciones": [
+        "Preferente tiene derechos económicos prioritarios pero sin voto, ordinaria tiene voto",
+        "No hay diferencia",
+        "Preferente es más segura",
+        "Ordinaria vale más"
+      ],
+      "correcta": 0,
+      "explicacion": "Las preferentes sacrifican derechos políticos por ventajas económicas, las ordinarias tienen ambos.",
+      "id": 78
+    },
+    {
+      "pregunta": "Un cliente quiere comprar una participación en una empresa no cotizada. ¿Cuál es el riesgo principal?",
+      "opciones": [
+        "Iliquidez y dificultad para vender, además de información limitada",
+        "Riesgo equivalente a acciones cotizadas",
+        "Sin riesgo especial",
+        "Solo riesgo de empresa grande"
+      ],
+      "correcta": 0,
+      "explicacion": "Las participaciones en privadas son inversiones de riesgo alto y larga duración.",
+      "id": 79
+    },
+    {
+      "pregunta": "¿Qué es la OPA (Oferta Pública de Adquisición)?",
+      "opciones": [
+        "Oferta formulada públicamente para adquirir un porcentaje de una empresa cotizada",
+        "Un crédito bancario",
+        "Un contrato de seguros",
+        "Un depósito garantizado"
+      ],
+      "correcta": 0,
+      "explicacion": "Mecanismo de control corporativo en mercados de valores.",
+      "id": 80
+    },
+    {
+      "pregunta": "Un cliente hereda una cartera de valores. ¿Cuál es la base de cálculo de ganancias patrimoniales?",
+      "opciones": [
+        "El valor de mercado en la fecha de fallecimiento del causante",
+        "El valor original de compra",
+        "El valor actual",
+        "No se calculan ganancias"
+      ],
+      "correcta": 0,
+      "explicacion": "Para herencias, el valor de adquisición se actualiza al valor de mercado en fecha de muerte (sin tributación en ese momento).",
+      "id": 81
+    },
+    {
+      "pregunta": "¿Qué es el mercado primario de valores?",
+      "opciones": [
+        "Donde se emiten y venden valores por primera vez al público",
+        "Donde se negocian valores después de la emisión",
+        "Donde solo bancos pueden invertir",
+        "Donde se liquidan transacciones"
+      ],
+      "correcta": 0,
+      "explicacion": "Mercado primario es donde emisores obtienen financiación directa de inversores.",
+      "id": 82
+    },
+    {
+      "pregunta": "¿Cuál es el mercado secundario?",
+      "opciones": [
+        "Donde se negocian valores ya emitidos entre inversores, bolsas de valores",
+        "Donde solo se venden nuevas emisiones",
+        "Donde se prestan valores",
+        "Donde se cotizan bonos del Tesoro"
+      ],
+      "correcta": 0,
+      "explicacion": "Proporciona liquidez a inversores que desean vender sus valores.",
+      "id": 83
+    },
+    {
+      "pregunta": "¿Qué es una ampliación de capital?",
+      "opciones": [
+        "Emisión de nuevas acciones que aumentan el capital de la empresa",
+        "Reducción de acciones",
+        "Compra de acciones por la empresa",
+        "Distribución de dividendos"
+      ],
+      "correcta": 0,
+      "explicacion": "Aumenta número de acciones y, potencialmente, el capital accionarial.",
+      "id": 84
+    },
+    {
+      "pregunta": "¿Cuál es el derecho de preferencia en una ampliación de capital?",
+      "opciones": [
+        "Derecho de accionista existente a suscribir nuevas acciones proporcionalmente",
+        "Derecho a reembolso",
+        "Derecho a voto",
+        "No existe tal derecho"
+      ],
+      "correcta": 0,
+      "explicacion": "Protege a accionistas de dilución no deseada de su participación.",
+      "id": 85
+    },
+    {
+      "pregunta": "Un cliente recibe una compensación de 50.000€ por despido. ¿Qué tributación tiene?",
+      "opciones": [
+        "Exención parcial o total según límites legales, rendimiento del trabajo en IRPF",
+        "IRPF al tipo marginal completo",
+        "Sin tributación",
+        "Impuesto de Transmisiones"
+      ],
+      "correcta": 0,
+      "explicacion": "Las indemnizaciones por despido tienen tratamiento especial con exención dentro de límites.",
+      "id": 86
+    },
+    {
+      "pregunta": "¿Qué es una reducción de capital?",
+      "opciones": [
+        "Disminución del capital social mediante reembolso a accionistas o cancelación de acciones",
+        "Aumento de deuda",
+        "Aumento de dividendos",
+        "Cambio de domicilio"
+      ],
+      "correcta": 0,
+      "explicacion": "Mecanismo para devolver capital a accionistas o reestructurar la empresa.",
+      "id": 87
+    },
+    {
+      "pregunta": "Un inversor compra un bono que cotizan en Bolsa. ¿En qué mercado se ejecuta la compra?",
+      "opciones": [
+        "Mercado secundario",
+        "Mercado primario",
+        "Directamente con el emisor",
+        "En transacciones privadas"
+      ],
+      "correcta": 0,
+      "explicacion": "Los bonos ya emitidos se negocian en mercado secundario (mercados de deuda).",
+      "id": 88
+    },
+    {
+      "pregunta": "¿Qué es un fondo monetario?",
+      "opciones": [
+        "Fondo de inversión que invierte en valores de mercado monetario y muy corto plazo",
+        "Fondo de acciones",
+        "Fondo garantizado",
+        "Deposito bancario"
+      ],
+      "correcta": 0,
+      "explicacion": "Proporciona seguridad y liquidez, con rentabilidad cercana a tipos de mercado.",
+      "id": 89
+    },
+    {
+      "pregunta": "Un cliente invierte en un fondo de renta fija. ¿Cuál es el riesgo principal?",
+      "opciones": [
+        "Riesgo de tipo de interés y riesgo de crédito de los emisores",
+        "No hay riesgo",
+        "Riesgo igual a acciones",
+        "Solo riesgo de liquidez"
+      ],
+      "correcta": 0,
+      "explicacion": "Fondos de renta fija están expuestos principalmente a riesgos de tipos y solvencia.",
+      "id": 90
+    },
+    {
+      "pregunta": "¿Qué es el EBITDA de una empresa?",
+      "opciones": [
+        "Beneficio antes de intereses, impuestos, depreciación y amortización",
+        "Beneficio neto",
+        "Ingresos totales",
+        "Flujo de caja"
+      ],
+      "correcta": 0,
+      "explicacion": "Métrica operativa que permite comparar rentabilidad sin efectos financieros o fiscales.",
+      "id": 91
+    },
+    {
+      "pregunta": "Un cliente invierte en una startup mediante crowdfunding. ¿Cuál es el riesgo?",
+      "opciones": [
+        "Muy alto, incluyendo pérdida total de inversión y falta de liquidez",
+        "Bajo porque es moderno",
+        "Igual a fondos tradicionales",
+        "Garantizado por plataforma"
+      ],
+      "correcta": 0,
+      "explicacion": "Las startups son inversiones de riesgo muy alto no apta para la mayoría de inversores.",
+      "id": 92
+    },
+    {
+      "pregunta": "¿Qué es el VIX (Índice de Volatilidad Implícita)?",
+      "opciones": [
+        "Índice que mide la volatilidad esperada del mercado según opciones sobre el S&P 500",
+        "Un índice de acciones",
+        "Una medida de inflación",
+        "Un tipo de interés"
+      ],
+      "correcta": 0,
+      "explicacion": "Indicador del \"miedo\" del mercado, aumenta con incertidumbre.",
+      "id": 93
+    },
+    {
+      "pregunta": "Un cliente tiene cartera con acciones de 5 empresas distintas. ¿Qué tipo de riesgo reduce?",
+      "opciones": [
+        "Riesgo no sistemático o específico de empresa",
+        "Riesgo de mercado",
+        "Riesgo sistemático",
+        "Riesgo de tipo de interés"
+      ],
+      "correcta": 0,
+      "explicacion": "La diversificación a nivel de empresa específica reduce el riesgo idiosincrásico.",
+      "id": 94
+    },
+    {
+      "pregunta": "¿Qué es la rentabilidad ajustada al riesgo?",
+      "opciones": [
+        "La rentabilidad que considera el nivel de riesgo asumido para lograrla",
+        "La rentabilidad máxima",
+        "La rentabilidad sin riesgo",
+        "La media de todas las inversiones"
+      ],
+      "correcta": 0,
+      "explicacion": "Concepto fundamental para evaluar inversiones de forma comparable.",
+      "id": 95
+    },
+    {
+      "pregunta": "Un asesor recomienda rebalanceo de cartera. ¿Cuál es el propósito?",
+      "opciones": [
+        "Mantener la asignación de activos según perfil de riesgo original",
+        "Cambiar constantemente",
+        "Vender todo",
+        "Invertir en lo más rentable"
+      ],
+      "correcta": 0,
+      "explicacion": "El rebalanceo es una disciplina que evita desviaciones del plan de inversión establecido.",
+      "id": 96
+    },
+    {
+      "pregunta": "¿Qué es el análisis fundamental de una acción?",
+      "opciones": [
+        "Evaluación de situación financiera, perspectivas de negocio y valoración de la empresa",
+        "Estudio de gráficos de precios",
+        "Predicción de próximos dividendos",
+        "Análisis de volatilidad"
+      ],
+      "correcta": 0,
+      "explicacion": "Investiga variables económicas reales para determinar valor justo.",
+      "id": 97
+    },
+    {
+      "pregunta": "¿Qué es el análisis técnico?",
+      "opciones": [
+        "Estudio de patrones históricos de precios y volumen para predecir movimientos futuros",
+        "Análisis de balance financiero",
+        "Evaluación de directivos",
+        "Análisis de divisas"
+      ],
+      "correcta": 0,
+      "explicacion": "Utiliza herramientas gráficas y estadísticas para identificar tendencias.",
+      "id": 98
+    },
+    {
+      "pregunta": "Un cliente pregunta sobre rentabilidad pasada de un fondo. ¿Cuál es la advertencia correcta?",
+      "opciones": [
+        "La rentabilidad pasada no garantiza resultados futuros",
+        "Garantiza resultados similares en el futuro",
+        "No es relevante",
+        "Es el factor más importante"
+      ],
+      "correcta": 0,
+      "explicacion": "Advertencia obligatoria en documentación de fondos según regulación MiFID II.",
+      "id": 99
+    },
+    {
+      "pregunta": "¿Cuál es el ciclo de vida típico de un fondo de inversión?",
+      "opciones": [
+        "Creación, crecimiento, madurez, posible cierre o fusión",
+        "Solo creación y cierre",
+        "Crecimiento constante infinito",
+        "No hay ciclo definido"
+      ],
+      "correcta": 0,
+      "explicacion": "Los fondos, como negocios, pasan por etapas distintas.",
+      "id": 100
+    }
+  ]
+}

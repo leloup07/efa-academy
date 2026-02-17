@@ -1,0 +1,908 @@
+{
+  "nivel": "EIP",
+  "modulo": 9,
+  "titulo": "Cumplimiento Normativo y Regulación",
+  "peso_examen": 7.5,
+  "preguntas": [
+    {
+      "pregunta": "MiFID II (Markets in Financial Instruments Directive) tiene como objetivos principales:",
+      "opciones": [
+        "Aumentar la carga fiscal",
+        "Proteger al inversor, aumentar la transparencia y fortalecer la integridad del mercado",
+        "Eliminar la regulación financiera",
+        "Solo regular los bancos centrales"
+      ],
+      "correcta": 1,
+      "explicacion": "MiFID II busca: mayor protección del inversor (idoneidad, conveniencia), transparencia (costes, conflictos de interés), integridad de mercados (mejor ejecución, registro de operaciones).",
+      "id": 1
+    },
+    {
+      "pregunta": "MiFID II clasifica a los clientes en:",
+      "opciones": [
+        "Solo dos categorías",
+        "Tres categorías: minorista, profesional y contraparte elegible",
+        "Cuatro categorías",
+        "No hay clasificación"
+      ],
+      "correcta": 1,
+      "explicacion": "MiFID II establece tres categorías con distinto nivel de protección: minorista (máxima protección), profesional (protección intermedia) y contraparte elegible (mínima protección).",
+      "id": 2
+    },
+    {
+      "pregunta": "Un cliente minorista tiene:",
+      "opciones": [
+        "Menos protección que un profesional",
+        "La máxima protección regulatoria",
+        "Las mismas obligaciones que un profesional",
+        "Prohibido invertir"
+      ],
+      "correcta": 1,
+      "explicacion": "Los clientes minoristas reciben la máxima protección: evaluación de idoneidad/conveniencia obligatoria, información más detallada, advertencias de riesgo, acceso al FOGAIN.",
+      "id": 3
+    },
+    {
+      "pregunta": "Para ser clasificado como cliente profesional por solicitud, se deben cumplir al menos:",
+      "opciones": [
+        "1 de 3 requisitos",
+        "2 de 3 requisitos: operaciones frecuentes, patrimonio >500.000€, experiencia profesional >1 año",
+        "Todos los requisitos",
+        "Ningún requisito"
+      ],
+      "correcta": 1,
+      "explicacion": "Cliente profesional por solicitud requiere 2 de 3: (1) operaciones significativas con frecuencia media de 10/trimestre en el último año, (2) patrimonio >500.000€, (3) experiencia profesional en sector financiero >1 año.",
+      "id": 4
+    },
+    {
+      "pregunta": "El test de idoneidad evalúa:",
+      "opciones": [
+        "Solo los conocimientos del cliente",
+        "Conocimientos, experiencia, situación financiera y objetivos de inversión",
+        "Solo la edad del cliente",
+        "El patrimonio del banco"
+      ],
+      "correcta": 1,
+      "explicacion": "La evaluación de idoneidad analiza: conocimientos y experiencia, situación financiera (ingresos, patrimonio, capacidad de asumir pérdidas), y objetivos de inversión (horizonte, tolerancia al riesgo, finalidad).",
+      "id": 5
+    },
+    {
+      "pregunta": "El test de idoneidad es obligatorio cuando:",
+      "opciones": [
+        "Solo para productos complejos",
+        "Se presta asesoramiento o gestión discrecional de carteras",
+        "Solo para clientes profesionales",
+        "Nunca es obligatorio"
+      ],
+      "correcta": 1,
+      "explicacion": "La evaluación de idoneidad es obligatoria en servicios de asesoramiento y gestión discrecional. Garantiza que las recomendaciones o decisiones sean adecuadas al perfil completo del cliente.",
+      "id": 6
+    },
+    {
+      "pregunta": "El test de conveniencia evalúa:",
+      "opciones": [
+        "Todos los aspectos del cliente",
+        "Solo conocimientos y experiencia del cliente sobre el producto",
+        "La situación fiscal",
+        "Los objetivos de inversión"
+      ],
+      "correcta": 1,
+      "explicacion": "El test de conveniencia (para servicios de solo ejecución de productos complejos) evalúa solo conocimientos y experiencia, para verificar si el cliente comprende los riesgos del producto.",
+      "id": 7
+    },
+    {
+      "pregunta": "Si el cliente no proporciona información para el test de conveniencia:",
+      "opciones": [
+        "No puede operar",
+        "Puede operar pero debe ser advertido de que no puede evaluarse la conveniencia",
+        "Se le clasifica automáticamente como profesional",
+        "No tiene consecuencias"
+      ],
+      "correcta": 1,
+      "explicacion": "Si el cliente no aporta información o el producto no es conveniente, puede operar si lo desea, pero debe recibir una advertencia clara de que no ha sido posible evaluar la conveniencia.",
+      "id": 8
+    },
+    {
+      "pregunta": "Los productos financieros complejos según MiFID II incluyen:",
+      "opciones": [
+        "Acciones cotizadas",
+        "Derivados, productos estructurados, subordinados, convertibles contingentes",
+        "Letras del Tesoro",
+        "Depósitos bancarios"
+      ],
+      "correcta": 1,
+      "explicacion": "Son complejos: derivados, estructurados, bonos subordinados, CoCos, participaciones preferentes, fondos alternativos, warrants. Las acciones cotizadas, bonos simples, fondos UCITS son no complejos.",
+      "id": 9
+    },
+    {
+      "pregunta": "La evaluación de conveniencia NO es necesaria para:",
+      "opciones": [
+        "Productos complejos",
+        "Productos no complejos en servicio de solo ejecución si el cliente lo solicita",
+        "Gestión de carteras",
+        "Asesoramiento"
+      ],
+      "correcta": 1,
+      "explicacion": "En \"execution only\" (solo ejecución a iniciativa del cliente) de productos no complejos, no es obligatorio el test de conveniencia. Para productos complejos, siempre se requiere al menos conveniencia.",
+      "id": 10
+    },
+    {
+      "pregunta": "El principio de \"mejor ejecución\" (best execution) obliga a:",
+      "opciones": [
+        "Ejecutar siempre al precio más bajo",
+        "Tomar medidas razonables para obtener el mejor resultado posible para el cliente",
+        "Solo ejecutar en mercados regulados",
+        "Ignorar los costes"
+      ],
+      "correcta": 1,
+      "explicacion": "Best execution considera múltiples factores: precio, costes, velocidad, probabilidad de ejecución y liquidación. El \"mejor resultado\" pondera todos estos factores según las características del cliente y la orden.",
+      "id": 11
+    },
+    {
+      "pregunta": "Las entidades deben informar a los clientes sobre:",
+      "opciones": [
+        "Solo las rentabilidades esperadas",
+        "Todos los costes y gastos asociados al servicio y al producto",
+        "Solo las comisiones de gestión",
+        "Nada"
+      ],
+      "correcta": 1,
+      "explicacion": "MiFID II exige transparencia total de costes: costes del servicio (gestión, asesoramiento, custodia) y del producto (gastos corrientes, comisiones), expresados en euros y porcentaje, ex-ante y ex-post.",
+      "id": 12
+    },
+    {
+      "pregunta": "Los incentivos (inducements) bajo MiFID II:",
+      "opciones": [
+        "Están totalmente prohibidos",
+        "Están prohibidos en gestión discrecional y asesoramiento independiente; muy restringidos en otros servicios",
+        "Están permitidos sin restricción",
+        "Solo aplican a clientes profesionales"
+      ],
+      "correcta": 1,
+      "explicacion": "En gestión discrecional y asesoramiento independiente, los incentivos de terceros están prohibidos. En otros servicios, solo se permiten si mejoran la calidad del servicio y no afectan a la objetividad.",
+      "id": 13
+    },
+    {
+      "pregunta": "El asesoramiento independiente bajo MiFID II:",
+      "opciones": [
+        "Puede recibir incentivos de terceros",
+        "No puede recibir incentivos de productoras y debe evaluar una gama suficientemente amplia de productos",
+        "Es igual al asesoramiento no independiente",
+        "Solo existe en Reino Unido"
+      ],
+      "correcta": 1,
+      "explicacion": "El asesoramiento independiente prohíbe incentivos de terceros (retrocesiones) y exige evaluar una gama suficientemente diversificada de productos del mercado, no solo los propios.",
+      "id": 14
+    },
+    {
+      "pregunta": "El gobierno de productos (product governance) exige que:",
+      "opciones": [
+        "Solo el cliente elija los productos",
+        "Los productores definan el mercado objetivo y los distribuidores verifiquen que el producto es adecuado para su clientela",
+        "No hay obligaciones para productores",
+        "Solo aplica a fondos de inversión"
+      ],
+      "correcta": 1,
+      "explicacion": "Product governance requiere que fabricantes definan el target market (positivo y negativo) y que distribuidores identifiquen su clientela y verifiquen que los productos son apropiados para ella.",
+      "id": 15
+    },
+    {
+      "pregunta": "El registro de comunicaciones bajo MiFID II obliga a:",
+      "opciones": [
+        "No registrar nada",
+        "Grabar conversaciones telefónicas y conservar comunicaciones electrónicas relacionadas con órdenes",
+        "Solo registrar reclamaciones",
+        "Destruir registros inmediatamente"
+      ],
+      "correcta": 1,
+      "explicacion": "Las entidades deben grabar llamadas y conservar comunicaciones (emails, chats) relacionadas con recepción y transmisión de órdenes. Conservación mínima 5 años (7 si lo requiere el supervisor).",
+      "id": 16
+    },
+    {
+      "pregunta": "El documento KID (Key Information Document) de PRIIPs:",
+      "opciones": [
+        "Solo es para fondos de inversión",
+        "Es obligatorio para productos de inversión minorista empaquetados (fondos, seguros de inversión, estructurados)",
+        "Tiene 50 páginas",
+        "Solo se entrega a profesionales"
+      ],
+      "correcta": 1,
+      "explicacion": "El KID es un documento de 3 páginas máximo obligatorio para PRIIPs (Packaged Retail Investment and Insurance Products). Incluye descripción, riesgos (SRI 1-7), escenarios de rentabilidad y costes.",
+      "id": 17
+    },
+    {
+      "pregunta": "El indicador sintético de riesgo (SRI) en el KID va de:",
+      "opciones": [
+        "1 a 5",
+        "1 a 7",
+        "A a E",
+        "0 a 100"
+      ],
+      "correcta": 1,
+      "explicacion": "El SRI combina riesgo de mercado y riesgo de crédito en una escala de 1 (menor riesgo) a 7 (mayor riesgo). Está estandarizado para facilitar la comparación entre productos.",
+      "id": 18
+    },
+    {
+      "pregunta": "La normativa sobre conflictos de interés exige:",
+      "opciones": [
+        "Ignorar los conflictos",
+        "Identificar, prevenir, gestionar y, si no es posible evitarlos, revelar los conflictos",
+        "Solo revelar los conflictos graves",
+        "No hay obligación"
+      ],
+      "correcta": 1,
+      "explicacion": "Las entidades deben: identificar potenciales conflictos, establecer medidas para prevenirlos/gestionarlos (murallas chinas, segregación), y si no pueden evitarse, revelarlos claramente al cliente.",
+      "id": 19
+    },
+    {
+      "pregunta": "La CNMV es:",
+      "opciones": [
+        "El Banco Central de España",
+        "El supervisor del mercado de valores español",
+        "Una entidad privada",
+        "El regulador fiscal"
+      ],
+      "correcta": 1,
+      "explicacion": "La CNMV (Comisión Nacional del Mercado de Valores) supervisa e inspecciona los mercados de valores españoles, velando por la transparencia, correcta formación de precios y protección del inversor.",
+      "id": 20
+    },
+    {
+      "pregunta": "El FOGAIN (Fondo de Garantía de Inversiones) cubre:",
+      "opciones": [
+        "Las pérdidas por mala gestión",
+        "El efectivo y valores en caso de insolvencia de la entidad, hasta 100.000€",
+        "Todas las inversiones sin límite",
+        "Solo depósitos bancarios"
+      ],
+      "correcta": 1,
+      "explicacion": "El FOGAIN protege a clientes minoristas si la entidad entra en insolvencia, cubriendo hasta 100.000€ por titular del efectivo y valores que no puedan ser restituidos.",
+      "id": 21
+    },
+    {
+      "pregunta": "La circular ESMA sobre idoneidad establece que:",
+      "opciones": [
+        "No hay que documentar nada",
+        "Debe documentarse el proceso de evaluación y la recomendación debe ser adecuada al perfil del cliente",
+        "Solo aplica a grandes inversores",
+        "Es voluntaria"
+      ],
+      "correcta": 1,
+      "explicacion": "ESMA exige documentar todo el proceso: información recogida, perfil asignado, análisis de idoneidad, y que la recomendación sea coherente con el perfil. El cliente debe recibir informe de idoneidad.",
+      "id": 22
+    },
+    {
+      "pregunta": "El informe de idoneidad debe entregarse:",
+      "opciones": [
+        "Una vez al año",
+        "Antes de realizar la operación recomendada, explicando por qué es adecuada",
+        "Solo si el cliente lo pide",
+        "Después de la operación"
+      ],
+      "correcta": 1,
+      "explicacion": "En asesoramiento, debe entregarse al cliente un informe de idoneidad ANTES de la transacción, explicando cómo la recomendación se corresponde con sus preferencias, objetivos y características.",
+      "id": 23
+    },
+    {
+      "pregunta": "Las preferencias de sostenibilidad del cliente:",
+      "opciones": [
+        "No son relevantes",
+        "Deben integrarse en la evaluación de idoneidad desde 2022",
+        "Solo para productos verdes",
+        "Son opcionales para la entidad"
+      ],
+      "correcta": 1,
+      "explicacion": "Desde agosto 2022, MiFID II exige preguntar al cliente sobre sus preferencias ESG (Taxonomía, SFDR, PAIs) e integrarlas en la evaluación de idoneidad, recomendando productos coherentes.",
+      "id": 24
+    },
+    {
+      "pregunta": "El régimen sancionador de MiFID II permite imponer:",
+      "opciones": [
+        "Solo advertencias",
+        "Multas muy elevadas, suspensión de actividades, inhabilitaciones",
+        "Ninguna sanción",
+        "Solo sanciones penales"
+      ],
+      "correcta": 1,
+      "explicacion": "Las sanciones pueden incluir: multas de hasta 5 millones € a personas físicas o % de facturación a entidades, suspensión de autorización, prohibición temporal de ejercicio, y amonestaciones públicas.",
+      "id": 25
+    },
+    {
+      "pregunta": "El blanqueo de capitales consiste en:",
+      "opciones": [
+        "Lavar dinero físicamente",
+        "Dar apariencia de legalidad a fondos procedentes de actividades ilícitas",
+        "Transferir dinero al extranjero",
+        "Invertir en bolsa"
+      ],
+      "correcta": 1,
+      "explicacion": "El blanqueo es el proceso de ocultar el origen ilícito de fondos (narcotráfico, corrupción, fraude) para integrarlos en el sistema financiero legítimo.",
+      "id": 26
+    },
+    {
+      "pregunta": "Las tres fases clásicas del blanqueo de capitales son:",
+      "opciones": [
+        "Compra, venta, beneficio",
+        "Colocación, estratificación (layering), integración",
+        "Ahorro, inversión, consumo",
+        "No hay fases"
+      ],
+      "correcta": 1,
+      "explicacion": "Colocación: introducir el dinero en el sistema financiero. Estratificación: realizar múltiples transacciones para dificultar el rastreo. Integración: el dinero \"limpio\" se usa en actividades legales.",
+      "id": 27
+    },
+    {
+      "pregunta": "Los sujetos obligados en prevención de blanqueo incluyen:",
+      "opciones": [
+        "Solo bancos",
+        "Entidades financieras, asesores fiscales, notarios, inmobiliarias, casinos, entre otros",
+        "Solo la policía",
+        "Ninguna entidad privada"
+      ],
+      "correcta": 1,
+      "explicacion": "Son sujetos obligados: entidades de crédito, ESIs, aseguradoras, gestoras, asesores fiscales, auditores, notarios, registradores, inmobiliarias, joyerías, casinos, abogados en ciertas operaciones.",
+      "id": 28
+    },
+    {
+      "pregunta": "El principio \"Conoce a tu Cliente\" (KYC) implica:",
+      "opciones": [
+        "Conocer solo el nombre",
+        "Identificar al cliente, verificar su identidad, conocer su actividad y el propósito de la relación",
+        "Solo pedir el DNI",
+        "No es necesario en pequeñas operaciones"
+      ],
+      "correcta": 1,
+      "explicacion": "KYC requiere: identificación formal (documento válido), verificación de identidad, conocimiento de la actividad profesional/empresarial, origen de fondos, y propósito de la relación de negocio.",
+      "id": 29
+    },
+    {
+      "pregunta": "La identificación del titular real es obligatoria para:",
+      "opciones": [
+        "Solo personas físicas",
+        "Personas jurídicas y estructuras sin personalidad (trusts, fundaciones)",
+        "Solo grandes empresas",
+        "No es obligatoria"
+      ],
+      "correcta": 1,
+      "explicacion": "Para personas jurídicas debe identificarse al titular real: personas físicas que controlan >25% del capital o derechos de voto, o que ejercen control por otros medios. Si no hay nadie, los administradores.",
+      "id": 30
+    },
+    {
+      "pregunta": "Las medidas de diligencia debida reforzada se aplican a:",
+      "opciones": [
+        "Todos los clientes por igual",
+        "Clientes de alto riesgo: PEPs, países de riesgo, operaciones complejas sin justificación",
+        "Solo clientes nuevos",
+        "Clientes con poco dinero"
+      ],
+      "correcta": 1,
+      "explicacion": "Diligencia reforzada para: personas políticamente expuestas (PEPs), relaciones con países de alto riesgo, banca corresponsal, operaciones inusualmente complejas, clientes no presenciales de riesgo.",
+      "id": 31
+    },
+    {
+      "pregunta": "Una PEP (Persona Políticamente Expuesta) es:",
+      "opciones": [
+        "Cualquier político",
+        "Persona que desempeña o ha desempeñado funciones públicas importantes (jefe de estado, ministro, parlamentario, magistrado, embajador, alto cargo)",
+        "Solo presidentes de gobierno",
+        "Funcionarios de bajo nivel"
+      ],
+      "correcta": 1,
+      "explicacion": "PEPs incluyen: jefes de estado/gobierno, ministros, parlamentarios, magistrados de altos tribunales, embajadores, altos cargos militares, directivos de empresas públicas, directivos de partidos políticos.",
+      "id": 32
+    },
+    {
+      "pregunta": "Las obligaciones con PEPs incluyen:",
+      "opciones": [
+        "Rechazar siempre la relación",
+        "Autorización de alta dirección, origen de fondos, seguimiento reforzado",
+        "No hay obligaciones especiales",
+        "Solo identificación básica"
+      ],
+      "correcta": 1,
+      "explicacion": "Para PEPs: aprobación de la alta dirección para establecer relación, medidas adecuadas para determinar origen de patrimonio y fondos, y seguimiento reforzado de la relación.",
+      "id": 33
+    },
+    {
+      "pregunta": "El seguimiento continuo de la relación de negocio incluye:",
+      "opciones": [
+        "Solo abrir la cuenta",
+        "Actualizar documentación, monitorizar operaciones, detectar cambios en el perfil de riesgo",
+        "No hacer nada después de la apertura",
+        "Solo revisar cada 10 años"
+      ],
+      "correcta": 1,
+      "explicacion": "El seguimiento continuo requiere: actualizar periódicamente la información del cliente, monitorizar operaciones para detectar inusuales, y revisar el perfil de riesgo cuando haya cambios.",
+      "id": 34
+    },
+    {
+      "pregunta": "Las operaciones sospechosas deben comunicarse:",
+      "opciones": [
+        "A la policía local",
+        "Al SEPBLAC (Servicio Ejecutivo de Prevención del Blanqueo de Capitales)",
+        "Al cliente",
+        "A nadie"
+      ],
+      "correcta": 1,
+      "explicacion": "Las operaciones sospechosas deben comunicarse al SEPBLAC mediante SAR (Suspicious Activity Report). Está prohibido informar al cliente de que se ha realizado la comunicación (tipping-off).",
+      "id": 35
+    },
+    {
+      "pregunta": "El \"tipping-off\" (revelación) está:",
+      "opciones": [
+        "Permitido",
+        "Prohibido: no se puede informar al cliente de que se ha comunicado una operación sospechosa",
+        "Recomendado",
+        "Solo prohibido para bancos"
+      ],
+      "correcta": 1,
+      "explicacion": "Revelar al cliente (o a terceros) que se ha realizado o se va a realizar una comunicación al SEPBLAC es un delito. La confidencialidad protege la investigación.",
+      "id": 36
+    },
+    {
+      "pregunta": "La comunicación por indicio (SAR) se realiza cuando:",
+      "opciones": [
+        "Siempre que haya una operación grande",
+        "Existen indicios o certeza de que la operación está relacionada con blanqueo o financiación del terrorismo",
+        "El cliente lo pide",
+        "Una vez al año"
+      ],
+      "correcta": 1,
+      "explicacion": "El SAR se envía cuando hay indicios de blanqueo o financiación del terrorismo, independientemente del importe. La comunicación es obligatoria y urgente.",
+      "id": 37
+    },
+    {
+      "pregunta": "La comunicación sistemática (COD) se realiza para:",
+      "opciones": [
+        "Operaciones sospechosas",
+        "Operaciones que superan 3.000€ (con efectivo, cheques al portador, etc.) sin necesidad de sospecha",
+        "Todas las operaciones",
+        "Solo hipotecas"
+      ],
+      "correcta": 1,
+      "explicacion": "Las operaciones con billetes, cheques al portador, transferencias sin cuenta, etc., superiores a 3.000€ se comunican sistemáticamente al SEPBLAC (COD), sin necesidad de sospecha.",
+      "id": 38
+    },
+    {
+      "pregunta": "Los pagos en efectivo entre profesionales y empresarios están limitados a:",
+      "opciones": [
+        "Sin límite",
+        "1.000€ (si una parte es empresario/profesional)",
+        "10.000€",
+        "100.000€"
+      ],
+      "correcta": 1,
+      "explicacion": "El límite para pagos en efectivo cuando una de las partes actúa como empresario o profesional es de 1.000€. Para particulares entre sí, no hay límite (pero >10.000€ debe declararse en aduanas si se cruzan fronteras).",
+      "id": 39
+    },
+    {
+      "pregunta": "El órgano de control interno en materia de prevención de blanqueo es:",
+      "opciones": [
+        "El director comercial",
+        "El Representante ante el SEPBLAC y el Comité de Prevención",
+        "El auditor externo",
+        "El Banco de España"
+      ],
+      "correcta": 1,
+      "explicacion": "Los sujetos obligados deben designar un Representante ante el SEPBLAC y crear un Órgano de Control Interno (OCI) o Comité de Prevención que supervise las políticas y procedimientos.",
+      "id": 40
+    },
+    {
+      "pregunta": "La formación en prevención de blanqueo para empleados:",
+      "opciones": [
+        "Es voluntaria",
+        "Es obligatoria y debe ser continua y adecuada al puesto",
+        "Solo para directivos",
+        "Solo al entrar en la empresa"
+      ],
+      "correcta": 1,
+      "explicacion": "Los sujetos obligados deben formar a sus empleados en prevención de blanqueo, con programas periódicos y adaptados a las funciones de cada uno. La formación debe documentarse.",
+      "id": 41
+    },
+    {
+      "pregunta": "La conservación de documentos en prevención de blanqueo es de:",
+      "opciones": [
+        "1 año",
+        "10 años desde la terminación de la relación de negocio",
+        "Sin límite",
+        "6 meses"
+      ],
+      "correcta": 1,
+      "explicacion": "Los documentos de identificación, registros de operaciones y análisis deben conservarse 10 años desde la terminación de la relación de negocio o la ejecución de la operación.",
+      "id": 42
+    },
+    {
+      "pregunta": "El autocontrol (self-assessment) en prevención de blanqueo incluye:",
+      "opciones": [
+        "Nada",
+        "Análisis de riesgos, políticas escritas, procedimientos de diligencia debida, formación y auditoría interna",
+        "Solo nombrar un responsable",
+        "Solo formación"
+      ],
+      "correcta": 1,
+      "explicacion": "El sistema de prevención debe incluir: análisis de riesgos documentado, políticas y procedimientos escritos, medidas de diligencia debida, formación, órgano de control interno, y revisión por experto externo.",
+      "id": 43
+    },
+    {
+      "pregunta": "Las sanciones por incumplimiento de la normativa de prevención de blanqueo pueden incluir:",
+      "opciones": [
+        "Solo advertencias",
+        "Multas muy elevadas (hasta 10M€ o % de facturación), suspensión de actividad, revocación de autorización",
+        "Ninguna sanción",
+        "Solo sanciones penales"
+      ],
+      "correcta": 1,
+      "explicacion": "Las infracciones pueden ser leves, graves o muy graves, con sanciones desde amonestaciones hasta multas de millones de euros, suspensión de actividad, o revocación de autorización.",
+      "id": 44
+    },
+    {
+      "pregunta": "La financiación del terrorismo se diferencia del blanqueo en que:",
+      "opciones": [
+        "Son exactamente iguales",
+        "En el terrorismo los fondos pueden tener origen lícito pero destino ilícito",
+        "El blanqueo financia terrorismo",
+        "No hay diferencia legal"
+      ],
+      "correcta": 1,
+      "explicacion": "En blanqueo, el origen es ilícito y se busca dar apariencia legal. En financiación del terrorismo, los fondos pueden ser lícitos (donaciones, negocios) pero se destinan a actividades terroristas.",
+      "id": 45
+    },
+    {
+      "pregunta": "El RGPD (Reglamento General de Protección de Datos) aplica a:",
+      "opciones": [
+        "Solo empresas tecnológicas",
+        "Cualquier tratamiento de datos personales de residentes en la UE",
+        "Solo datos financieros",
+        "Solo sector público"
+      ],
+      "correcta": 1,
+      "explicacion": "El RGPD aplica al tratamiento de datos personales de personas en la UE, realizado por cualquier organización (establecida o no en la UE) que trate dichos datos.",
+      "id": 46
+    },
+    {
+      "pregunta": "Las bases legales para el tratamiento de datos personales incluyen:",
+      "opciones": [
+        "Solo el consentimiento",
+        "Consentimiento, ejecución de contrato, obligación legal, intereses vitales, interés público, interés legítimo",
+        "No se necesita base legal",
+        "Solo la obligación legal"
+      ],
+      "correcta": 1,
+      "explicacion": "El RGPD establece 6 bases legales. En servicios financieros, las más habituales son: ejecución de contrato, cumplimiento de obligación legal (blanqueo, fiscalidad), y consentimiento para marketing.",
+      "id": 47
+    },
+    {
+      "pregunta": "El derecho de acceso permite al titular:",
+      "opciones": [
+        "Nada",
+        "Obtener confirmación de si se tratan sus datos y acceder a ellos con información adicional",
+        "Eliminar los datos de otros",
+        "Acceder a datos de terceros"
+      ],
+      "correcta": 1,
+      "explicacion": "El derecho de acceso permite al interesado saber si se tratan sus datos, qué datos, con qué finalidad, a quién se comunican, plazos de conservación, y obtener copia de los datos.",
+      "id": 48
+    },
+    {
+      "pregunta": "El derecho al olvido (supresión) puede ejercerse cuando:",
+      "opciones": [
+        "Siempre sin condiciones",
+        "Los datos ya no son necesarios, se retira el consentimiento, hay oposición, o tratamiento ilícito",
+        "Nunca",
+        "Solo por menores"
+      ],
+      "correcta": 1,
+      "explicacion": "El derecho de supresión aplica cuando: los datos ya no son necesarios para la finalidad, se retira consentimiento, se ejerce oposición, tratamiento ilícito, o obligación legal de supresión.",
+      "id": 49
+    },
+    {
+      "pregunta": "La notificación de brechas de seguridad a la AEPD debe realizarse:",
+      "opciones": [
+        "Cuando convenga",
+        "Sin dilación indebida, en 72 horas si es posible, cuando haya riesgo para derechos y libertades",
+        "Nunca",
+        "En 1 año"
+      ],
+      "correcta": 1,
+      "explicacion": "Las brechas que supongan riesgo deben notificarse a la autoridad de control (AEPD en España) en 72 horas. Si hay alto riesgo, también debe comunicarse a los afectados.",
+      "id": 50
+    },
+    {
+      "pregunta": "El Delegado de Protección de Datos (DPO) es obligatorio para:",
+      "opciones": [
+        "Nadie",
+        "Autoridades públicas, tratamientos a gran escala de datos sensibles, o monitorización sistemática a gran escala",
+        "Solo bancos centrales",
+        "Todas las empresas"
+      ],
+      "correcta": 1,
+      "explicacion": "El DPO es obligatorio en: organismos públicos, tratamientos que requieran observación sistemática a gran escala, o tratamiento a gran escala de datos especiales (salud, biométricos, etc.).",
+      "id": 51
+    },
+    {
+      "pregunta": "Las sanciones por incumplimiento del RGPD pueden alcanzar:",
+      "opciones": [
+        "1.000€",
+        "Hasta 20 millones de euros o 4% de la facturación global anual",
+        "Solo advertencias",
+        "100.000€ máximo"
+      ],
+      "correcta": 1,
+      "explicacion": "Las infracciones más graves pueden sancionarse con hasta 20M€ o 4% del volumen de negocio total anual mundial (lo que sea mayor). Las menos graves, hasta 10M€ o 2%.",
+      "id": 52
+    },
+    {
+      "pregunta": "El abuso de mercado incluye:",
+      "opciones": [
+        "Solo el uso de información privilegiada",
+        "Uso de información privilegiada, manipulación de mercado, y revelación ilícita de información",
+        "Solo manipulación de precios",
+        "Las ventas en corto"
+      ],
+      "correcta": 1,
+      "explicacion": "El Reglamento de Abuso de Mercado (MAR) prohíbe: operaciones con información privilegiada, revelación ilícita de información privilegiada, y manipulación de mercado (precios o difusión de información falsa).",
+      "id": 53
+    },
+    {
+      "pregunta": "La información privilegiada es:",
+      "opciones": [
+        "Cualquier información financiera",
+        "Información concreta, no pública, que de hacerse pública tendría efecto significativo en el precio",
+        "Los rumores de mercado",
+        "Las recomendaciones de analistas"
+      ],
+      "correcta": 1,
+      "explicacion": "Información privilegiada: concreta, no pública, referida a emisores o instrumentos, y que de hacerse pública influiría de forma sensible en su cotización. Su uso está prohibido.",
+      "id": 54
+    },
+    {
+      "pregunta": "Las obligaciones de un emisor respecto a información privilegiada incluyen:",
+      "opciones": [
+        "Ocultarla siempre",
+        "Comunicarla al mercado lo antes posible, salvo retraso justificado",
+        "Solo informar a accionistas mayoritarios",
+        "No hay obligaciones"
+      ],
+      "correcta": 1,
+      "explicacion": "El emisor debe difundir inmediatamente la información privilegiada al mercado (hecho relevante). Puede retrasar si hay interés legítimo, se garantiza confidencialidad, y no induce a error.",
+      "id": 55
+    },
+    {
+      "pregunta": "Las listas de iniciados deben:",
+      "opciones": [
+        "No existir",
+        "Mantenerse y actualizarse, identificando personas con acceso a información privilegiada",
+        "Publicarse",
+        "Solo incluir directivos"
+      ],
+      "correcta": 1,
+      "explicacion": "Los emisores y quienes actúen por su cuenta deben mantener listas de personas con acceso a información privilegiada, actualizarlas, y conservarlas 5 años. Deben facilitar estas listas al supervisor si lo solicita.",
+      "id": 56
+    },
+    {
+      "pregunta": "Las operaciones de personas con responsabilidades directivas (PDMR) deben:",
+      "opciones": [
+        "Ocultarse",
+        "Notificarse al emisor y al supervisor en 3 días hábiles si superan 5.000€ anuales",
+        "No comunicarse",
+        "Solo si superan 1 millón"
+      ],
+      "correcta": 1,
+      "explicacion": "Los directivos y personas vinculadas deben notificar sus operaciones con acciones del emisor si superan 5.000€ acumulados en el año. Plazo: 3 días hábiles. El emisor lo publica.",
+      "id": 57
+    },
+    {
+      "pregunta": "Las recomendaciones de inversión deben:",
+      "opciones": [
+        "Ser sesgadas",
+        "Elaborarse con objetividad, indicando conflictos de interés y bases del análisis",
+        "No revelar el autor",
+        "Garantizar rentabilidades"
+      ],
+      "correcta": 1,
+      "explicacion": "Las recomendaciones deben: identificar al analista, indicar cualquier relación o conflicto de interés, basarse en metodología rigurosa, y distinguir hechos de opiniones/estimaciones.",
+      "id": 58
+    },
+    {
+      "pregunta": "La segregación de funciones (murallas chinas) en entidades financieras:",
+      "opciones": [
+        "Es opcional",
+        "Es obligatoria para prevenir flujo de información privilegiada entre áreas",
+        "Solo aplica a bancos de inversión",
+        "Está prohibida"
+      ],
+      "correcta": 1,
+      "explicacion": "Las entidades deben establecer barreras de información entre áreas que manejan información privilegiada (banca de inversión, trading propio) y otras (análisis, banca comercial) para evitar conflictos.",
+      "id": 59
+    },
+    {
+      "pregunta": "El código de conducta interno de una entidad financiera debe incluir:",
+      "opciones": [
+        "Solo horarios",
+        "Normas sobre conflictos de interés, operaciones personales, información privilegiada, y conducta profesional",
+        "Nada relevante",
+        "Solo políticas salariales"
+      ],
+      "correcta": 1,
+      "explicacion": "El código de conducta regula: gestión de conflictos de interés, restricciones a operaciones personales de empleados, tratamiento de información confidencial/privilegiada, y normas de comportamiento ético.",
+      "id": 60
+    },
+    {
+      "pregunta": "La certificación EFA (European Financial Advisor) acredita:",
+      "opciones": [
+        "Solo conocimientos teóricos",
+        "Competencia para el asesoramiento financiero y cumplir requisitos MiFID II de cualificación",
+        "Ser gestor de fondos",
+        "Ser agente de seguros"
+      ],
+      "correcta": 1,
+      "explicacion": "La certificación EFA acredita que el profesional tiene los conocimientos y competencias para prestar asesoramiento en materia de inversión, cumpliendo los requisitos de cualificación de MiFID II y la guía técnica de CNMV.",
+      "id": 61
+    },
+    {
+      "pregunta": "Los requisitos de conocimientos y competencias de MiFID II para asesores incluyen:",
+      "opciones": [
+        "Solo experiencia",
+        "Conocimientos de mercados, productos, fiscalidad, y competencias para evaluar idoneidad",
+        "Solo título universitario",
+        "No hay requisitos"
+      ],
+      "correcta": 1,
+      "explicacion": "MiFID II exige que quienes asesoren o informen tengan conocimientos adecuados sobre productos, mercados, fiscalidad, marco normativo, y competencias para evaluar necesidades del cliente y recomendar productos adecuados.",
+      "id": 62
+    },
+    {
+      "pregunta": "La Guía Técnica de la CNMV sobre conocimientos y competencias:",
+      "opciones": [
+        "Es voluntaria",
+        "Establece los requisitos mínimos de cualificación para el personal que informa y asesora",
+        "Solo aplica a bancos",
+        "Ha sido derogada"
+      ],
+      "correcta": 1,
+      "explicacion": "La Guía Técnica 4/2017 de CNMV detalla los requisitos de conocimientos y competencias para personal que informa o asesora sobre productos financieros, y reconoce certificaciones como EFA.",
+      "id": 63
+    },
+    {
+      "pregunta": "La recertificación de la certificación EFA requiere:",
+      "opciones": [
+        "Nada, es vitalicia",
+        "Formación continua de al menos 30 horas en periodos de 2 años",
+        "Repetir el examen cada año",
+        "Solo pagar una cuota"
+      ],
+      "correcta": 1,
+      "explicacion": "La certificación EFA requiere recertificación periódica mediante formación continua (mínimo 30 horas en 2 años) para mantener actualizados los conocimientos y competencias.",
+      "id": 64
+    },
+    {
+      "pregunta": "EFPA (European Financial Planning Association) es:",
+      "opciones": [
+        "Un regulador estatal",
+        "La asociación que otorga las certificaciones EIP, EFA, EFP a nivel europeo",
+        "Un banco",
+        "Una gestora de fondos"
+      ],
+      "correcta": 1,
+      "explicacion": "EFPA España es la asociación que certifica profesionales del asesoramiento financiero mediante las certificaciones EIP (nivel básico), EFA (intermedio) y EFP (nivel superior, planificación financiera).",
+      "id": 65
+    },
+    {
+      "pregunta": "El nivel EFP (European Financial Planner) se diferencia del EFA en:",
+      "opciones": [
+        "Son iguales",
+        "EFP incluye competencias avanzadas en planificación financiera personal y patrimonial",
+        "EFP es más básico",
+        "EFP solo es para fiscalistas"
+      ],
+      "correcta": 1,
+      "explicacion": "EFP es el nivel superior que añade al EFA competencias en planificación financiera integral: planificación de la jubilación, sucesoria, fiscal avanzada, y elaboración de planes financieros completos.",
+      "id": 66
+    },
+    {
+      "pregunta": "La formación continua para asesores financieros bajo MiFID II:",
+      "opciones": [
+        "No es necesaria",
+        "Es obligatoria para mantener y actualizar conocimientos y competencias",
+        "Solo es voluntaria",
+        "Solo cada 10 años"
+      ],
+      "correcta": 1,
+      "explicacion": "MiFID II exige que las entidades garanticen que su personal mantiene y actualiza sus conocimientos y competencias mediante formación continua apropiada.",
+      "id": 67
+    },
+    {
+      "pregunta": "Las competencias que debe demostrar un asesor EFA incluyen:",
+      "opciones": [
+        "Solo ventas",
+        "Identificar necesidades del cliente, evaluar idoneidad, explicar productos, y asesorar adecuadamente",
+        "Solo conocimientos teóricos",
+        "Solo gestión de carteras"
+      ],
+      "correcta": 1,
+      "explicacion": "Las competencias incluyen: identificar necesidades y objetivos del cliente, evaluar conocimientos/experiencia/situación financiera, explicar características y riesgos, y formular recomendaciones idóneas.",
+      "id": 68
+    },
+    {
+      "pregunta": "La responsabilidad del asesor financiero frente al cliente:",
+      "opciones": [
+        "No existe",
+        "Incluye actuar con diligencia, informar correctamente, y responder por daños causados por asesoramiento inadecuado",
+        "Es solo de la entidad",
+        "Solo existe si hay contrato escrito"
+      ],
+      "correcta": 1,
+      "explicacion": "El asesor debe actuar con diligencia profesional y en interés del cliente. Un asesoramiento inadecuado (sin evaluar idoneidad, producto no apropiado) puede generar responsabilidad civil y reclamaciones.",
+      "id": 69
+    },
+    {
+      "pregunta": "Las reclamaciones de clientes deben gestionarse:",
+      "opciones": [
+        "Ignorándolas",
+        "Con procedimiento establecido, plazos de respuesta (2 meses), y posibilidad de acudir al Servicio de Reclamaciones de CNMV",
+        "Solo si el cliente insiste",
+        "Sin plazos"
+      ],
+      "correcta": 1,
+      "explicacion": "Las entidades deben tener un Servicio de Atención al Cliente (y Defensor si procede), resolver reclamaciones en 2 meses máximo. El cliente puede acudir después al Servicio de Reclamaciones de CNMV.",
+      "id": 70
+    },
+    {
+      "pregunta": "El Servicio de Reclamaciones de la CNMV:",
+      "opciones": [
+        "Puede obligar a indemnizar al cliente",
+        "Emite informes no vinculantes pero que pueden ser útiles en procedimientos judiciales",
+        "Solo atiende a profesionales",
+        "No existe"
+      ],
+      "correcta": 1,
+      "explicacion": "El Servicio de Reclamaciones de CNMV analiza si la entidad ha cumplido la normativa y emite un informe. No es vinculante ni puede obligar a indemnizar, pero puede usarse como prueba en juicio.",
+      "id": 71
+    },
+    {
+      "pregunta": "La comercialización de productos complejos requiere:",
+      "opciones": [
+        "Ninguna precaución especial",
+        "Evaluación de conveniencia y/o idoneidad, advertencias de riesgo específicas, y grabación de operaciones",
+        "Solo información oral",
+        "Nada"
+      ],
+      "correcta": 1,
+      "explicacion": "Los productos complejos requieren: test de conveniencia (o idoneidad si hay asesoramiento), advertencias específicas de riesgo por escrito, y cumplir normas de grabación y registro.",
+      "id": 72
+    },
+    {
+      "pregunta": "La \"venta asesorada\" de productos bancarios:",
+      "opciones": [
+        "No tiene regulación",
+        "Debe distinguirse claramente de la información: si hay recomendación personalizada, es asesoramiento con obligaciones adicionales",
+        "Es igual que informar",
+        "Solo aplica a fondos"
+      ],
+      "correcta": 1,
+      "explicacion": "Si se realiza una recomendación personalizada a un cliente sobre un producto concreto, es asesoramiento (no mera información) y requiere evaluación de idoneidad e informe de idoneidad.",
+      "id": 73
+    },
+    {
+      "pregunta": "El asesoramiento robo-advisor (automatizado) debe:",
+      "opciones": [
+        "Ignorar la regulación",
+        "Cumplir los mismos requisitos de idoneidad que el asesoramiento humano",
+        "Solo informar, no asesorar",
+        "Estar prohibido"
+      ],
+      "correcta": 1,
+      "explicacion": "El asesoramiento automatizado (robo-advisors) debe cumplir MiFID II igual que el tradicional: evaluación de idoneidad, información sobre costes, gestión de conflictos. El algoritmo debe ser adecuado y supervisado.",
+      "id": 74
+    },
+    {
+      "pregunta": "La ética profesional en el asesoramiento financiero exige:",
+      "opciones": [
+        "Maximizar comisiones",
+        "Actuar en interés del cliente, con honestidad, transparencia y profesionalidad",
+        "Priorizar los intereses de la entidad",
+        "No hay código ético"
+      ],
+      "correcta": 1,
+      "explicacion": "Los principios éticos incluyen: priorizar el interés del cliente, actuar con integridad y honestidad, mantener la confidencialidad, ser competente y actualizado, y evitar conflictos de interés.",
+      "id": 75
+    }
+  ]
+}

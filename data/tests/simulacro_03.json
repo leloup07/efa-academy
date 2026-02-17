@@ -1,0 +1,608 @@
+{
+  "titulo": "Simulacro EFA #3 - 50 Preguntas",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "El capital humano de una persona representa:",
+      "opciones": [
+        "Su patrimonio financiero",
+        "El valor presente de sus ingresos futuros por trabajo",
+        "Sus inversiones en bolsa",
+        "Su valor catastral"
+      ],
+      "correcta": 1,
+      "explicacion": "El capital humano es el valor actual de los ingresos futuros esperados de una persona por su trabajo. Es mayor para jóvenes (más años de trabajo por delante) y disminuye con la edad.",
+      "id": 1
+    },
+    {
+      "pregunta": "El CVaR (Conditional VaR) o Expected Shortfall mide:",
+      "opciones": [
+        "Lo mismo que el VaR",
+        "La pérdida esperada en el caso de que se supere el VaR",
+        "La ganancia esperada",
+        "La volatilidad condicional"
+      ],
+      "correcta": 1,
+      "explicacion": "El CVaR (o Expected Shortfall) es la pérdida promedio esperada cuando se supera el umbral del VaR. Captura mejor el riesgo de cola que el VaR básico.",
+      "id": 2
+    },
+    {
+      "pregunta": "Una cartera tuvo rentabilidades de +10%, -5%, +15% en tres años consecutivos. ¿Cuál es la TWR anualizada?",
+      "opciones": [
+        "6,67%",
+        "6,37%",
+        "20%",
+        "5,00%"
+      ],
+      "correcta": 1,
+      "explicacion": "* TWR = [(1+0,10) × (1-0,05) × (1+0,15)]^(1/3) - 1 TWR = [1,10 × 0,95 × 1,15]^(1/3) - 1 = [1,2018]^(1/3) - 1 = 1,0633 - 1 = 6,33% ≈ 6,37%",
+      "id": 3
+    },
+    {
+      "pregunta": "El análisis financiero de un cliente debe incluir:",
+      "opciones": [
+        "Solo sus activos",
+        "Balance personal (activos y pasivos), flujo de caja (ingresos y gastos), y proyecciones",
+        "Solo los ingresos",
+        "Solo las deudas"
+      ],
+      "correcta": 1,
+      "explicacion": "Un análisis completo incluye: balance (qué tiene y qué debe), cuenta de resultados (ingresos vs gastos, capacidad de ahorro), y proyecciones de cómo evolucionará según distintos escenarios.",
+      "id": 4
+    },
+    {
+      "pregunta": "Un fondo garantizado parcialmente:",
+      "opciones": [
+        "Garantiza el 100% del capital",
+        "Garantiza un porcentaje del capital inferior al 100%",
+        "No tiene ninguna garantía",
+        "Garantiza solo los intereses"
+      ],
+      "correcta": 1,
+      "explicacion": "Los fondos garantizados parcialmente garantizan un porcentaje del capital inicial (por ejemplo, 90% o 95%), permitiendo mayor exposición a activos de riesgo que los garantizados al 100%.",
+      "id": 5
+    },
+    {
+      "pregunta": "En el mercado de divisas, EUR/USD = 1,10 significa:",
+      "opciones": [
+        "1 dólar vale 1,10 euros",
+        "1 euro vale 1,10 dólares",
+        "El euro se ha depreciado",
+        "El dólar es la divisa base"
+      ],
+      "correcta": 1,
+      "explicacion": "En la cotización EUR/USD, el EUR es la divisa base y el USD es la divisa cotizada. EUR/USD = 1,10 significa que 1 euro vale 1,10 dólares.",
+      "id": 6
+    },
+    {
+      "pregunta": "Los rendimientos del trabajo incluyen:",
+      "opciones": [
+        "Solo el salario",
+        "Salarios, pensiones, prestaciones de desempleo y rendimientos asimilados",
+        "Solo las pensiones",
+        "Los alquileres"
+      ],
+      "correcta": 1,
+      "explicacion": "Son rendimientos del trabajo: sueldos, pensiones públicas y privadas, prestaciones por desempleo, y asimilados (administradores, colaboraciones, cursos). Se integran en la base general.",
+      "id": 7
+    },
+    {
+      "pregunta": "Un \"scrip dividend\" permite al accionista:",
+      "opciones": [
+        "Cobrar solo en efectivo",
+        "Elegir entre cobrar en efectivo o recibir acciones",
+        "Diferir el pago del dividendo",
+        "Reinvertir automáticamente sin opción"
+      ],
+      "correcta": 1,
+      "explicacion": "El scrip dividend es una fórmula que permite al accionista elegir entre recibir el dividendo en efectivo o en forma de nuevas acciones de la compañía. Tiene implicaciones fiscales diferentes según la opción elegida.",
+      "id": 8
+    },
+    {
+      "pregunta": "Las cédulas hipotecarias se caracterizan por:",
+      "opciones": [
+        "Estar garantizadas por una cartera específica de hipotecas",
+        "Estar garantizadas por todo el balance del emisor",
+        "No tener garantía alguna",
+        "Ser emitidas solo por el Estado"
+      ],
+      "correcta": 1,
+      "explicacion": "Las cédulas hipotecarias están garantizadas por la totalidad de la cartera hipotecaria del emisor (garantía global), no por préstamos específicos. Esto las diferencia de los bonos hipotecarios, que sí tienen garantía específica.",
+      "id": 9
+    },
+    {
+      "pregunta": "Una renta vitalicia asegurada paga:",
+      "opciones": [
+        "Solo durante 10 años",
+        "Mientras viva el beneficiario de la renta",
+        "Un capital único",
+        "Solo si hay fallecimiento"
+      ],
+      "correcta": 1,
+      "explicacion": "La renta vitalicia paga una cantidad periódica mientras viva el rentista. El riesgo de longevidad lo asume la aseguradora: si el rentista vive mucho, sigue cobrando.",
+      "id": 10
+    },
+    {
+      "pregunta": "Un pagaré de empresa con valor nominal de 50.000€ se descuenta a 90 días con un tipo de descuento comercial del 5% anual. ¿Cuál es el efectivo recibido?",
+      "opciones": [
+        "49.375€",
+        "49.383€",
+        "49.390€",
+        "49.400€"
+      ],
+      "correcta": 0,
+      "explicacion": "* Descuento comercial: D = N × d × t D = 50.000 × 0,05 × 90/360 = 625€ Efectivo = 50.000 - 625 = 49.375€",
+      "id": 11
+    },
+    {
+      "pregunta": "La consistencia de rentabilidades de un fondo se puede evaluar mediante:",
+      "opciones": [
+        "Solo el rendimiento del último año",
+        "El análisis de rentabilidades en diferentes periodos y condiciones de mercado",
+        "El tamaño del fondo",
+        "La nacionalidad del gestor"
+      ],
+      "correcta": 1,
+      "explicacion": "La consistencia se evalúa analizando rentabilidades en múltiples periodos (1, 3, 5, 10 años), en diferentes condiciones de mercado (alcista, bajista) y comparando con el benchmark y competidores.",
+      "id": 12
+    },
+    {
+      "pregunta": "Un fondo por compartimentos:",
+      "opciones": [
+        "Tiene múltiples gestoras",
+        "Agrupa varios subfondos con diferentes políticas bajo un mismo paraguas",
+        "Divide a los partícipes en clases sociales",
+        "Solo invierte en inmuebles divididos"
+      ],
+      "correcta": 1,
+      "explicacion": "Un fondo por compartimentos (umbrella fund) agrupa varios subfondos independientes bajo una misma estructura legal. Cada compartimento tiene su política de inversión y valor liquidativo propio.",
+      "id": 13
+    },
+    {
+      "pregunta": "Las preferencias ESG del cliente:",
+      "opciones": [
+        "No son relevantes",
+        "Deben preguntarse e integrarse en la evaluación de idoneidad",
+        "Solo para inversores institucionales",
+        "Son obligatorias para todos"
+      ],
+      "correcta": 1,
+      "explicacion": "Desde 2022, MiFID II exige preguntar al cliente sobre sus preferencias de sostenibilidad (ESG) e integrarlas en la evaluación de idoneidad, recomendando productos coherentes con ellas.",
+      "id": 14
+    },
+    {
+      "pregunta": "La notificación de brechas de seguridad a la AEPD debe realizarse:",
+      "opciones": [
+        "Cuando convenga",
+        "Sin dilación indebida, en 72 horas si es posible, cuando haya riesgo para derechos y libertades",
+        "Nunca",
+        "En 1 año"
+      ],
+      "correcta": 1,
+      "explicacion": "Las brechas que supongan riesgo deben notificarse a la autoridad de control (AEPD en España) en 72 horas. Si hay alto riesgo, también debe comunicarse a los afectados.",
+      "id": 15
+    },
+    {
+      "pregunta": "La duración de Macaulay de un bono cupón cero a 7 años es:",
+      "opciones": [
+        "Menor que 7 años",
+        "Exactamente 7 años",
+        "Mayor que 7 años",
+        "Depende del tipo de interés"
+      ],
+      "correcta": 1,
+      "explicacion": "Para un bono cupón cero, la duración de Macaulay es exactamente igual al plazo hasta vencimiento, ya que el único flujo se recibe en la fecha de vencimiento. No hay cupones intermedios que reduzcan la duración.",
+      "id": 16
+    },
+    {
+      "pregunta": "Las retenciones a cuenta son:",
+      "opciones": [
+        "Un impuesto adicional",
+        "Pagos anticipados del IRPF que se deducen de la cuota final",
+        "Solo para empresas",
+        "Voluntarias"
+      ],
+      "correcta": 1,
+      "explicacion": "Las retenciones (sobre nóminas, dividendos, intereses) son anticipos del impuesto que el pagador ingresa en Hacienda. En la declaración anual se deducen de la cuota, pudiendo resultar a devolver.",
+      "id": 17
+    },
+    {
+      "pregunta": "El valor de reposición \"a nuevo\" en un seguro de hogar significa:",
+      "opciones": [
+        "Se paga el valor venal del bien",
+        "Se indemniza el coste de reponer el bien sin deducción por uso o antigüedad",
+        "Se paga siempre menos",
+        "No hay depreciación porque todo es nuevo"
+      ],
+      "correcta": 1,
+      "explicacion": "La cláusula \"a nuevo\" o \"valor de reposición\" indemniza el coste de sustituir el bien siniestrado por otro nuevo equivalente, sin aplicar depreciación por antigüedad o uso.",
+      "id": 18
+    },
+    {
+      "pregunta": "El gobierno de productos (product governance) exige que:",
+      "opciones": [
+        "Solo el cliente elija los productos",
+        "Los productores definan el mercado objetivo y los distribuidores verifiquen que el producto es adecuado para su clientela",
+        "No hay obligaciones para productores",
+        "Solo aplica a fondos de inversión"
+      ],
+      "correcta": 1,
+      "explicacion": "Product governance requiere que fabricantes definan el target market (positivo y negativo) y que distribuidores identifiquen su clientela y verifiquen que los productos son apropiados para ella.",
+      "id": 19
+    },
+    {
+      "pregunta": "La cláusula suelo en hipotecas:",
+      "opciones": [
+        "Es obligatoria",
+        "Establecía un tipo mínimo de interés aunque el Euribor bajase más (declaradas abusivas en muchos casos)",
+        "Beneficiaba al cliente",
+        "Subía el tipo de interés"
+      ],
+      "correcta": 1,
+      "explicacion": "Las cláusulas suelo fijaban un tipo mínimo (ej: 3%) aunque Euribor+diferencial fuese menor. El TJUE las declaró abusivas cuando no fueron transparentes, obligando a devoluciones masivas.",
+      "id": 20
+    },
+    {
+      "pregunta": "El TER (Total Expense Ratio) incluye:",
+      "opciones": [
+        "Solo la comisión de gestión",
+        "Todos los gastos corrientes del fondo (gestión, depositario, auditoría, etc.)",
+        "Los costes de transacción",
+        "Las comisiones de suscripción"
+      ],
+      "correcta": 1,
+      "explicacion": "El TER o gastos corrientes incluye: comisión de gestión, comisión de depositario, gastos de auditoría, y otros gastos operativos. No incluye costes de transacción ni comisiones de suscripción/reembolso.",
+      "id": 21
+    },
+    {
+      "pregunta": "La Guía Técnica de la CNMV sobre conocimientos y competencias:",
+      "opciones": [
+        "Es voluntaria",
+        "Establece los requisitos mínimos de cualificación para el personal que informa y asesora",
+        "Solo aplica a bancos",
+        "Ha sido derogada"
+      ],
+      "correcta": 1,
+      "explicacion": "La Guía Técnica 4/2017 de CNMV detalla los requisitos de conocimientos y competencias para personal que informa o asesora sobre productos financieros, y reconoce certificaciones como EFA.",
+      "id": 22
+    },
+    {
+      "pregunta": "El préstamo personal se diferencia del hipotecario en que:",
+      "opciones": [
+        "No tiene intereses",
+        "No tiene garantía real sobre un inmueble",
+        "Tiene plazo más largo",
+        "Siempre es a tipo fijo"
+      ],
+      "correcta": 1,
+      "explicacion": "El préstamo personal tiene garantía personal (responde el deudor con todo su patrimonio) pero no hay un inmueble específico como garantía. Son de menor importe, plazo más corto y tipo más alto.",
+      "id": 23
+    },
+    {
+      "pregunta": "El \"slippage\" en ejecución de órdenes se refiere a:",
+      "opciones": [
+        "La comisión del broker",
+        "La diferencia entre el precio esperado y el precio real de ejecución",
+        "El tracking error",
+        "La volatilidad del activo"
+      ],
+      "correcta": 1,
+      "explicacion": "Slippage es la diferencia entre el precio al que esperábamos operar (cuando decidimos) y el precio real de ejecución. Puede ocurrir por movimientos de mercado, impacto o mala ejecución.",
+      "id": 24
+    },
+    {
+      "pregunta": "El coste de vida en jubilación respecto a la vida activa suele:",
+      "opciones": [
+        "Aumentar significativamente",
+        "Disminuir (se estima un 70-80% de los gastos previos)",
+        "Mantenerse exactamente igual",
+        "Duplicarse"
+      ],
+      "correcta": 1,
+      "explicacion": "En jubilación suelen reducirse gastos (transporte, ropa trabajo, cotizaciones, hipoteca pagada), aunque aumentan otros (salud, ocio). Se estima necesitar un 70-80% del último salario.",
+      "id": 25
+    },
+    {
+      "pregunta": "El ratio Calmar relaciona:",
+      "opciones": [
+        "Rentabilidad y volatilidad",
+        "Rentabilidad anualizada y drawdown máximo",
+        "Alfa y tracking error",
+        "Beta y Sharpe"
+      ],
+      "correcta": 1,
+      "explicacion": "Calmar = Rentabilidad anualizada / |Drawdown máximo|. Mide la rentabilidad ajustada por la peor experiencia de caída. Útil para evaluar estrategias con posibles caídas severas.",
+      "id": 26
+    },
+    {
+      "pregunta": "La novación de un préstamo hipotecario consiste en:",
+      "opciones": [
+        "Cancelar la hipoteca",
+        "Modificar condiciones del préstamo existente (tipo, plazo, etc.) con el mismo acreedor",
+        "Cambiar de banco",
+        "Ampliar el inmueble"
+      ],
+      "correcta": 1,
+      "explicacion": "La novación modifica términos del préstamo (tipo de interés, plazo, carencias) manteniendo el mismo prestamista. Tiene costes reducidos respecto a la subrogación o nueva hipoteca.",
+      "id": 27
+    },
+    {
+      "pregunta": "La ganancia por venta de vivienda habitual por mayores de 65 años:",
+      "opciones": [
+        "Tributa normalmente",
+        "Está exenta sin necesidad de reinversión",
+        "Tributa al 50%",
+        "Requiere reinversión obligatoria"
+      ],
+      "correcta": 1,
+      "explicacion": "Los mayores de 65 años que venden su vivienda habitual tienen la ganancia exenta, sin necesidad de reinvertir. Es una exención total y automática para este colectivo.",
+      "id": 28
+    },
+    {
+      "pregunta": "El tomador del seguro es:",
+      "opciones": [
+        "Quien recibe la indemnización",
+        "Quien contrata y paga la prima del seguro",
+        "Quien sufre el siniestro",
+        "La compañía aseguradora"
+      ],
+      "correcta": 1,
+      "explicacion": "El tomador es quien suscribe el contrato y se obliga a pagar la prima. Puede coincidir o no con el asegurado (sobre quien recae el riesgo) y el beneficiario (quien cobra).",
+      "id": 29
+    },
+    {
+      "pregunta": "El riesgo de reinversión en renta fija se refiere a:",
+      "opciones": [
+        "El riesgo de que el emisor no pague",
+        "El riesgo de tener que reinvertir cupones a tipos más bajos",
+        "El riesgo de que suban los tipos de interés",
+        "El riesgo de liquidez del mercado"
+      ],
+      "correcta": 1,
+      "explicacion": "El riesgo de reinversión es la posibilidad de que los cupones recibidos tengan que reinvertirse a tipos de interés inferiores a los esperados, reduciendo la rentabilidad total de la inversión.",
+      "id": 30
+    },
+    {
+      "pregunta": "El ratio de Sharpe de un fondo mide:",
+      "opciones": [
+        "El riesgo total del fondo",
+        "La rentabilidad obtenida por unidad de riesgo asumido",
+        "La comisión de gestión",
+        "El tamaño del fondo"
+      ],
+      "correcta": 1,
+      "explicacion": "Sharpe = (Rentabilidad fondo - Rentabilidad libre riesgo) / Volatilidad del fondo. Mide el exceso de rentabilidad por unidad de riesgo total (volatilidad). Mayor es mejor.",
+      "id": 31
+    },
+    {
+      "pregunta": "El \"build to rent\" es un modelo donde:",
+      "opciones": [
+        "Se construye para vender inmediatamente",
+        "Se construye específicamente para destinar a alquiler de larga duración",
+        "Se alquilan terrenos para construir",
+        "Se renuevan edificios antiguos para demoler"
+      ],
+      "correcta": 1,
+      "explicacion": "Build to rent (BTR) es la promoción de viviendas diseñadas desde el inicio para alquiler (no venta), gestionadas profesionalmente, con servicios comunes y contratos estables.",
+      "id": 32
+    },
+    {
+      "pregunta": "La reducción de un seguro de vida ocurre cuando:",
+      "opciones": [
+        "El asegurado adelgaza",
+        "El tomador deja de pagar y el seguro continúa con menor suma asegurada",
+        "Baja el tipo de interés",
+        "Se añaden coberturas"
+      ],
+      "correcta": 1,
+      "explicacion": "Si el tomador deja de pagar primas, puede solicitar la reducción: el seguro continúa en vigor pero con una suma asegurada menor, proporcional a la provisión matemática acumulada.",
+      "id": 33
+    },
+    {
+      "pregunta": "La base reguladora de la pensión de jubilación se calcula con:",
+      "opciones": [
+        "El último salario",
+        "Las bases de cotización de los últimos 25 años (300 meses)",
+        "La media de toda la vida laboral",
+        "El salario más alto de la carrera"
+      ],
+      "correcta": 1,
+      "explicacion": "La base reguladora se calcula dividiendo las bases de cotización de los últimos 300 meses (25 años) entre 350. Las bases más antiguas se actualizan con el IPC.",
+      "id": 34
+    },
+    {
+      "pregunta": "Delta de una opción mide:",
+      "opciones": [
+        "La sensibilidad del precio de la opción a cambios en el subyacente",
+        "La sensibilidad a cambios en la volatilidad",
+        "La sensibilidad al paso del tiempo",
+        "La sensibilidad a los tipos de interés"
+      ],
+      "correcta": 0,
+      "explicacion": "Delta (Δ) mide cuánto cambia el precio de la opción por cada euro de cambio en el precio del subyacente. Una call tiene delta entre 0 y 1; una put entre -1 y 0.",
+      "id": 35
+    },
+    {
+      "pregunta": "Para cubrir el gap de pensiones se puede utilizar:",
+      "opciones": [
+        "Solo planes de pensiones",
+        "Planes de pensiones, seguros de ahorro, fondos de inversión, inmuebles, etc.",
+        "Solo inversión en bolsa",
+        "Solo cuentas corrientes"
+      ],
+      "correcta": 1,
+      "explicacion": "Existen múltiples vehículos para acumular capital para la jubilación: planes de pensiones, PIAS, SIALP, unit linked, fondos de inversión, inmuebles en alquiler, etc. La combinación depende de cada caso.",
+      "id": 36
+    },
+    {
+      "pregunta": "El riesgo de longevidad en planificación de jubilación se refiere a:",
+      "opciones": [
+        "El riesgo de inversión",
+        "El riesgo de vivir más de lo esperado y agotar los ahorros",
+        "El riesgo de inflación",
+        "El riesgo de tipo de cambio"
+      ],
+      "correcta": 1,
+      "explicacion": "El riesgo de longevidad es la posibilidad de que la esperanza de vida supere las previsiones, agotando los recursos financieros previstos para la jubilación.",
+      "id": 37
+    },
+    {
+      "pregunta": "Para reducir el riesgo de tipo de interés de una cartera de bonos se puede:",
+      "opciones": [
+        "Aumentar la duración",
+        "Reducir la duración",
+        "Aumentar el crédito",
+        "Invertir más en renta variable"
+      ],
+      "correcta": 1,
+      "explicacion": "Reducir la duración (comprando bonos de menor plazo o vendiendo los de largo plazo) disminuye la sensibilidad de la cartera a movimientos de tipos de interés.",
+      "id": 38
+    },
+    {
+      "pregunta": "La regla \"100 menos la edad\" sugiere:",
+      "opciones": [
+        "Invertir tu edad en renta variable",
+        "El porcentaje de renta variable debería ser aproximadamente 100 menos tu edad",
+        "No invertir hasta los 100 años",
+        "Rebalancear cada 100 días"
+      ],
+      "correcta": 1,
+      "explicacion": "Es una regla heurística simple: si tienes 30 años, aproximadamente 70% en renta variable y 30% en renta fija. A los 60, sería 40%/60%. Es orientativa, no prescriptiva.",
+      "id": 39
+    },
+    {
+      "pregunta": "El \"factor investing\" se basa en:",
+      "opciones": [
+        "Invertir solo en un sector",
+        "Construir carteras con exposición a factores de riesgo específicos (value, momentum, size, etc.)",
+        "Ignorar cualquier análisis",
+        "Solo gestión pasiva tradicional"
+      ],
+      "correcta": 1,
+      "explicacion": "Factor investing busca exposición sistemática a factores que históricamente han generado primas de rentabilidad: value, momentum, quality, size, low volatility, etc.",
+      "id": 40
+    },
+    {
+      "pregunta": "La TRE (Tasa de Rentabilidad Efectiva) difiere de la TIR cuando:",
+      "opciones": [
+        "La inversión es a corto plazo",
+        "Los flujos intermedios se reinvierten a un tipo diferente a la TIR",
+        "Hay inflación",
+        "El tipo de interés es variable"
+      ],
+      "correcta": 1,
+      "explicacion": "La TRE considera la tasa real a la que se reinvierten los flujos intermedios, mientras que la TIR asume implícitamente que se reinvierten a la propia TIR. Si la tasa de reinversión difiere de la TIR, la TRE será diferente.",
+      "id": 41
+    },
+    {
+      "pregunta": "La planificación fiscal consiste en:",
+      "opciones": [
+        "Evadir impuestos",
+        "Optimizar legalmente la carga tributaria aprovechando incentivos y opciones legales",
+        "No pagar nada",
+        "Cometer fraude"
+      ],
+      "correcta": 1,
+      "explicacion": "La planificación fiscal es el uso legítimo de las opciones, deducciones, reducciones y beneficios fiscales para minimizar la tributación dentro de la legalidad. Diferente del fraude o evasión.",
+      "id": 42
+    },
+    {
+      "pregunta": "El precio de un futuro sobre un índice con dividendos viene dado por:",
+      "opciones": [
+        "F = S × (1 + r × t)",
+        "F = S × (1 + r - d) × t",
+        "F = S × e^((r-d)×t) (aproximadamente S × (1 + (r-d) × t))",
+        "F = S / (1 + r × t)"
+      ],
+      "correcta": 2,
+      "explicacion": "El precio del futuro es el spot capitalizado al tipo sin riesgo menos los dividendos esperados: F = S × e^((r-d)×t). Los dividendos reducen el precio del futuro porque el comprador del futuro no los recibe.",
+      "id": 43
+    },
+    {
+      "pregunta": "El ROE (Return on Equity) mide:",
+      "opciones": [
+        "La rentabilidad sobre el activo total",
+        "La rentabilidad sobre los fondos propios",
+        "La rentabilidad del dividendo",
+        "La rentabilidad de la acción en bolsa"
+      ],
+      "correcta": 1,
+      "explicacion": "* ROE = Beneficio neto / Fondos propios Mide la rentabilidad que obtiene la empresa sobre el capital aportado por los accionistas.",
+      "id": 44
+    },
+    {
+      "pregunta": "Un cliente recibe un bonus importante y pregunta qué hacer:",
+      "opciones": [
+        "Gastarlo todo",
+        "Evaluar si conviene amortizar hipoteca, aportar a planes de pensiones (reducción fiscal), invertir, o una combinación",
+        "Solo un producto",
+        "Ignorar el bonus"
+      ],
+      "correcta": 1,
+      "explicacion": "Debe evaluarse: si tiene deudas caras (amortizar), su marginal fiscal (si alto, plan de pensiones tiene ventaja), su cartera actual (si faltan aportaciones), y sus objetivos a medio plazo.",
+      "id": 45
+    },
+    {
+      "pregunta": "El sujeto pasivo de la plusvalía municipal en una venta es:",
+      "opciones": [
+        "El comprador",
+        "El vendedor",
+        "El notario",
+        "El Ayuntamiento"
+      ],
+      "correcta": 1,
+      "explicacion": "En ventas, el transmitente (vendedor) es el sujeto pasivo. En herencias o donaciones, lo es el adquirente (heredero o donatario). El plazo para presentar y pagar es 30 días (transmisiones inter vivos) o 6 meses (mortis causa).",
+      "id": 46
+    },
+    {
+      "pregunta": "El yield neto difiere del bruto porque:",
+      "opciones": [
+        "Son exactamente iguales",
+        "El neto descuenta gastos (comunidad, IBI, seguros, mantenimiento, vacíos)",
+        "El bruto incluye la hipoteca",
+        "El neto incluye la plusvalía"
+      ],
+      "correcta": 1,
+      "explicacion": "Yield neto = (Alquiler - Gastos) / Valor inmueble. Los gastos incluyen: IBI, comunidad, seguros, reparaciones, gestión, periodos de vacío (sin inquilino).",
+      "id": 47
+    },
+    {
+      "pregunta": "Un bono tiene un precio entero de 102,50 y un cupón corrido de 1,20. ¿Cuál es el precio ex-cupón?",
+      "opciones": [
+        "103,70",
+        "102,50",
+        "101,30",
+        "100,00"
+      ],
+      "correcta": 2,
+      "explicacion": "* Precio entero (dirty price) = Precio ex-cupón (clean price) + Cupón corrido 102,50 = Precio ex-cupón + 1,20 Precio ex-cupón = 102,50 - 1,20 = 101,30",
+      "id": 48
+    },
+    {
+      "pregunta": "El sistema TARGET2 se utiliza para:",
+      "opciones": [
+        "Liquidar operaciones de valores",
+        "Procesar pagos de alto valor en tiempo real entre bancos de la zona euro",
+        "Calcular el Euribor",
+        "Supervisar a las entidades financieras"
+      ],
+      "correcta": 1,
+      "explicacion": "TARGET2 (Trans-European Automated Real-time Gross Settlement Express Transfer) es el sistema de pagos del Eurosistema para liquidar pagos de alto valor en tiempo real en euros entre bancos centrales y comerciales.",
+      "id": 49
+    },
+    {
+      "pregunta": "La rentabilidad ponderada por tiempo (TWR) elimina el efecto de:",
+      "opciones": [
+        "Las comisiones",
+        "Los flujos de entrada y salida de capital",
+        "La inflación",
+        "Los dividendos"
+      ],
+      "correcta": 1,
+      "explicacion": "TWR (Time-Weighted Return) geometriza las rentabilidades de subperiodos entre flujos, eliminando el impacto de las decisiones de timing del inversor. Mide la habilidad del gestor.",
+      "id": 50
+    }
+  ]
+}

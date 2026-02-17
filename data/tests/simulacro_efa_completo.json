@@ -1,0 +1,358 @@
+{
+  "titulo": "Simulacro EFA Completo",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "Cada objetivo financiero requiere una planificación financiera por separado debido a que:",
+      "opciones": ["Cada uno requiere un esfuerzo de ahorro diferente.", "Los horizontes de inversión no suelen coincidir.", "Las necesidades de disposición de la inversión son distintas.", "Todas las afirmaciones anteriores son correctas."],
+      "correcta": 3,
+      "explicacion": "Ver solución del simulacro",
+      "id": 1
+    },
+    {
+      "pregunta": "Calcular la Tasa Anual Equivalente de un depósito que ofrece el 4,75% de interés anual con abono de intereses trimestrales.",
+      "opciones": ["4,84%.", "4,78%.", "4,67%.", "4,92%."],
+      "correcta": 0,
+      "explicacion": "(1+TAE) = (1+0,0475/4)^4;  TAE=4,84%",
+      "id": 2
+    },
+    {
+      "pregunta": "Si las cotizaciones actuales de los bonos cupón cero a 3,5 y 10 años es del 100% y sus valores de reembolso son: 115,76%, 127,63% y 162,89% respectivamente, ¿cuál será el perfil que adopte la ETTI?",
+      "opciones": ["Positiva.", "Negativa.", "Plana.", "Exponencial."],
+      "correcta": 0,
+      "explicacion": "Ver solución del simulacro",
+      "id": 3
+    },
+    {
+      "pregunta": "En la figura Hombro – Cabeza – Hombro, a la línea que une los dos mínimos de la cabeza se llama:",
+      "opciones": ["Línea de apoyo.", "Línea de tendencia.", "Línea de cuello.", "Línea de resistencia."],
+      "correcta": 2,
+      "explicacion": "Ver solución del simulacro",
+      "id": 4
+    },
+    {
+      "pregunta": "¿Qué rentabilidad nominal (beneficio/inversión) se ha alcanzado en la siguiente operación de compra - venta de una opción put llevada hasta la fecha de vencimiento y liquidada por diferencias? Compra de put \"ATM\": Prima 3. Precio de ejercicio: 26. Revalorización del subyacente (entre el momento de la compra y la liquidación final de la opción): 15%",
+      "opciones": ["-130%.", "-100%.", "45%.", "130%."],
+      "correcta": 1,
+      "explicacion": "La idea es que si compro una PUT apuesto a que el subyacente caiga, y como el enunciado dice que el subyancente se revaloriza (=sube) la opción queda OTM, y por tanto se pierde toda la prima",
+      "id": 5
+    },
+    {
+      "pregunta": "Un fondo de retorno absoluto se caracteriza por: I. Puede mantener posiciones largas y cortas, y también posiciones apalancadas. II. Participan de la evolución del mercado con una mayor flexibilidad en su asignación de activos manteniendo posiciones largas. III. Con una mayor flexibilidad en su asignación de activos tratan de reducir cualquier correlación con los mercados. IV. Tiene como objetivo el tipo del mercado monetario +X%.",
+      "opciones": ["La I y III.", "La I y IV.", "La I, II, III y IV.", "La I, III y IV."],
+      "correcta": 3,
+      "explicacion": "Ver solución del simulacro",
+      "id": 6
+    },
+    {
+      "pregunta": "Los Planes de Previsión Asegurados (PPA) son iguales a los Planes de Pensiones Individuales (PPI) excepto en que:",
+      "opciones": ["Las coberturas cubiertas por unos y otros son distintas.", "Los PPA son líquidos en cualquier momento y los PPI no.", "Los PPA tienen un tipo de interés garantizado para toda la vida del contrato (excepto los unit-linked) mientras que los PPI no garantizan ningún tipo de rentabilidad (excepto los garantizados).", "El régimen fiscal es distinto porque los PPA son seguros de vida y éstos tienen una fiscalidad distinta a los planes de pensiones."],
+      "correcta": 2,
+      "explicacion": "Ver solución del simulacro",
+      "id": 7
+    },
+    {
+      "pregunta": "Un cliente compra una vivienda por un valor de 240.000€ dando una entrada de 20.000€. El resto se financia mediante una hipoteca al 5% de interés anual pagadero mensualmente durante 20 años. ¿Cuál será el gasto anual de la hipoteca? (utilice el sistema francés).",
+      "opciones": ["17.422,80€.", "17.653,37€.", "17.897,67€.", "18.029,76€."],
+      "correcta": 0,
+      "explicacion": "CMPD N=240 I 5% PV= 240.000-20.000=220.000 PMT = 1451,9 *12 =17.422,80 FV 0 PY 12 CY 12",
+      "id": 8
+    },
+    {
+      "pregunta": "Una acción con una rentabilidad exigida del 5% y una volatilidad del 30%, tiene una beta con el mercado del 0,80. Si la rentabilidad del activo libre de riesgo es del 3%, ¿cuál será la rentabilidad esperada del mercado?",
+      "opciones": ["6,25%.", "2,50%.", "5,50%.", "6,50%."],
+      "correcta": 2,
+      "explicacion": "SML   5% = 3% + 0,8*(Rm – 3%);   5%-3%=0,8*(Rm – 3%);   2%/0,8 = Rm – 3%;   2,5% +3% = Rm. Rm = 5,50%",
+      "id": 9
+    },
+    {
+      "pregunta": "En el marco de una ampliación de capital, el importe obtenido por los accionistas de la empresa como consecuencia de la transmisión de los derechos de suscripción preferente al mercado tendrá el siguiente régimen fiscal en el IRPF:",
+      "opciones": ["El importe obtenido reducirá el valor de adquisición de las acciones, tributando el exceso, si lo hubiere, como ganancia patrimonial.", "El importe obtenido ha de tributar bajo la calificación fiscal de ganancia de patrimonio en el período impositivo en que se transmitan los derechos. Dicha renta estará sujeta a retención a cuenta.", "El importe obtenido está exento de gravamen en todo caso.", "El importe obtenido ha de tributar bajo la calificación fiscal de rendimiento del capital mobiliario derivado de la participación en fondos propios de entidades, con sujeción a retención a cuenta."],
+      "correcta": 1,
+      "explicacion": "Ver solución del simulacro",
+      "id": 10
+    },
+    {
+      "pregunta": "El asesoramiento a realizar a un cliente de banca privada:",
+      "opciones": ["Fundamentalmente se circunscribe a la selección de los valores a incorporar en la cartera.", "Combina el asesoramiento fiscal y de inversiones.", "Busca fundamentalmente minimizar la volatilidad de la cartera.", "Tiene la ventaja de incorporar activos más sofisticados en la cartera del cliente."],
+      "correcta": 1,
+      "explicacion": "Ver solución del simulacro",
+      "id": 11
+    },
+    {
+      "pregunta": "¿A qué mercado nos estamos refiriendo si decimos que los activos que en el se negocian se caracterizan por su alto grado de liquidez, y su bajo nivel de riesgo?",
+      "opciones": ["Mercado de divisas.", "Mercado de derivados.", "Mercado monetario.", "Mercado de capitales."],
+      "correcta": 2,
+      "explicacion": "Ver solución del simulacro",
+      "id": 12
+    },
+    {
+      "pregunta": "Calcule la rentabilidad de una Letra del Tesoro a la que le faltan 320 días para su vencimiento y su precio actual es de 98,930%:",
+      "opciones": ["1,02%.", "1,17%.", "1,01%.", "1,22%."],
+      "correcta": 3,
+      "explicacion": "100=98,93*(1+i*320/360); i=1,22%",
+      "id": 13
+    },
+    {
+      "pregunta": "Según la teoría de la paridad de los tipos de interés, si el tipo de cambio EUR/CHF es igual a 1,25 francos suizos por cada euro, y los tipos de interés a seis meses del euro y del franco suizo son 3,5% y 2,5%, respectivamente, entonces el tipo de cambio EUR/CHF a plazo de seis meses será:",
+      "opciones": ["Aproximadamente igual a EUR/CHF 1,25", "EUR/CHF 1,24", "EUR/CHF 1,26", "EUR/CHF 0,80"],
+      "correcta": 1,
+      "explicacion": "1,25* (1+0,025*6/12) / (1+0,035*6/12) = 1,24 francos por cada euro",
+      "id": 14
+    },
+    {
+      "pregunta": "En las opciones de tipo asiáticas:",
+      "opciones": ["Su valor es igual a la volatilidad del precio del subyacente.", "Su valor no depende de la evolución de los precios del subyacente.", "Su valor depende de la evolución de los precios del subyacente.", "Su valor depende del precio final del subyacente."],
+      "correcta": 2,
+      "explicacion": "Ver solución del simulacro",
+      "id": 15
+    },
+    {
+      "pregunta": "En al análisis de fondos, al evaluar las ratios de Sharpe, Treynor e información, preferimos aquellos que presenten unos valores:",
+      "opciones": ["Más bajos, pues implica que han asumido un menor riesgo.", "Más altos pues son los que han logrado una mayor rentabilidad ajustada por el riesgo asumido.", "Más altos pues son los que han alcanzado una mayor rentabilidad.", "Más altos porque con seguridad estarán dentro del primer cuartil dentro de su categoría."],
+      "correcta": 1,
+      "explicacion": "Ver solución del simulacro",
+      "id": 16
+    },
+    {
+      "pregunta": "El Órgano Supervisor de los Planes y Fondos de Pensiones es:",
+      "opciones": ["CNMV.", "Banco de España.", "Dirección General de Seguros.", "UNESPA."],
+      "correcta": 2,
+      "explicacion": "Ver solución del simulacro",
+      "id": 17
+    },
+    {
+      "pregunta": "En la planificación para la jubilación, ¿es necesario prever la cuantía teórica de la pensión de la Seguridad Social que se cobrará cuando llegue el momento de la jubilación?",
+      "opciones": ["No es necesario, pues hay mucha incertidumbre sobre su cuantía.", "Si es necesario, pues servirá para saber las necesidades de ahorro.", "Si es necesario, aunque no se puede, pues no se sabe cuánto se va a cotizar hasta el momento de la jubilación.", "No es necesario, pues independientemente de la pensión de la seguridad social, es importante ahorrar para cuando llegue la jubilación."],
+      "correcta": 1,
+      "explicacion": "Ver solución del simulacro",
+      "id": 18
+    },
+    {
+      "pregunta": "¿Cuál es la diferencia principal entre la asignación de activos estratégica y táctica?",
+      "opciones": ["Los instrumentos financieros que se utilizan.", "El perfil de riesgo de la cartera.", "El horizonte temporal de la estrategia.", "Todas las anteriores son correctas."],
+      "correcta": 2,
+      "explicacion": "Ver solución del simulacro",
+      "id": 19
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes actuaciones se enmarca dentro del principio según el cual el asesor financiero debe actuar siempre en el mejor interés del cliente?",
+      "opciones": ["Ofrecerle solamente los productos de campaña que encajen con su perfil de riesgo.", "Devolverle las comisiones cuando lo reclame.", "Ofrecerle el mejor tipo de interés para sus depósitos.", "No ofrecerle productos que no encajen con las necesidades del cliente."],
+      "correcta": 3,
+      "explicacion": "Ver solución del simulacro",
+      "id": 20
+    },
+    {
+      "pregunta": "Una empresa descuenta una factura comercial de nominal 38.000 euros y vencimiento a 72 días aplicando un descuento comercial del 9%. La cuantía efectiva que percibirá la empresa en el momento del descuento será:",
+      "opciones": ["37.316,00 euros.", "37.325,37 euros.", "37.328,09 euros.", "37.315,44 euros."],
+      "correcta": 0,
+      "explicacion": "Co = 38.000*(1-0,09*72/360) = 37.316",
+      "id": 21
+    },
+    {
+      "pregunta": "El tipo de interés de las facilidades permanentes de depósito es:",
+      "opciones": ["Mayor que el de las facilidades permanentes de crédito.", "Menor que el de las operaciones principales de financiación pero mayor que el EONIA.", "Mayor que el EONIA.", "Menor que el de las facilidades permanentes de crédito, el de las operaciones principales de financiación y el del EONIA."],
+      "correcta": 3,
+      "explicacion": "Ver solución del simulacro",
+      "id": 22
+    },
+    {
+      "pregunta": "Determine el beneficio por acción estimado por el mercado bursátil, de una empresa que cotiza a 103,5 euros con un PER de 23:",
+      "opciones": ["0,22.", "3,50.", "4,50.", "Ninguna de las respuestas anteriores."],
+      "correcta": 2,
+      "explicacion": "PER = P/BPA. BPA = P/PER =103,5/23=4,50",
+      "id": 23
+    },
+    {
+      "pregunta": "Los futuros se diferencian de los forwards entre otros aspectos en que:",
+      "opciones": ["Los futuros son un derecho y los forwards una obligación.", "Los futuros son una obligación y los forwards un derecho.", "Los futuros se negocian en mercados organizados y los forwards no.", "Los futuros tienen riesgo de contrapartida y los forwards no."],
+      "correcta": 2,
+      "explicacion": "Ver solución del simulacro",
+      "id": 24
+    },
+    {
+      "pregunta": "En relación con el PIB real:",
+      "opciones": ["Aumenta siempre que aumenten los precios.", "Crece si el crecimiento del PIB nominal es mayor que el crecimiento de los precios.", "Su tasa de crecimiento será siempre inferior a la tasa de crecimiento del deflactor del PIB.", "Disminuye siempre que disminuyen los precios."],
+      "correcta": 1,
+      "explicacion": "La fórmula real es:   (1+PIB nominal) = (1+PIB real)*(1+IPC)",
+      "id": 25
+    },
+    {
+      "pregunta": "Un Fondo de inversión nos proporciona la siguiente información: Rentabilidad del fondo del 15%, volatilidad del 17% y su beta es igual a 1,3. Si la rentabilidad del activo libre de riesgo es del 3,5%; ¿cuál será la ratio de Treynor del fondo?",
+      "opciones": ["0,212.", "0,520.", "0,676.", "0,088."],
+      "correcta": 3,
+      "explicacion": "Treynor = (15% - 3,5%) / 1,3  = 0,088",
+      "id": 26
+    },
+    {
+      "pregunta": "Si para el próximo año, una cartera de renta variable posee una rentabilidad esperada igual al 34% y una volatilidad del 14%, ello significa que, admitiendo un comportamiento normal y con una probabilidad del 95%, la rentabilidad se espera que fluctúe entre:",
+      "opciones": ["0% y 34%.", "20% y 48%.", "14% y 34%.", "6% y 62%."],
+      "correcta": 1,
+      "explicacion": "34% +/- 2*14%",
+      "id": 27
+    },
+    {
+      "pregunta": "La volatilidad de un título es un cuantificador del riesgo que mide:",
+      "opciones": ["La posibilidad de tener rentabilidades negativas.", "La fluctuación de la rentabilidad respecto a su media, con un determinado nivel de confianza.", "La variación que sufre la rentabilidad del título frente a variaciones en la rentabilidad del mercado.", "La posibilidad de obtener rentabilidades por debajo de la renta fija."],
+      "correcta": 1,
+      "explicacion": "Ver solución del simulacro",
+      "id": 28
+    },
+    {
+      "pregunta": "Alberto, contribuyente del IRPF, ha transmitido en el mercado AIAF de renta fija unas obligaciones emitidas por una empresa del sector petrolero que fueron adquiridas hace cinco años. ¿Qué calificación fiscal tiene la renta que obtenga como consecuencia de la citada transmisión a efectos del Impuesto sobre la Renta de las Personas Físicas?",
+      "opciones": ["Rendimiento del capital mobiliario derivado de la participación en fondos propios de entidades.", "Ganancia o pérdida patrimonial derivada de una transmisión patrimonial.", "Rendimiento del capital mobiliario derivado de la cesión a terceros de capitales propios.", "Ganancia o pérdida patrimonial que no deriva de una transmisión patrimonial."],
+      "correcta": 1,
+      "explicacion": "Ver solución del simulacro",
+      "id": 29
+    },
+    {
+      "pregunta": "¿A qué personas deben identificar las entidades a efectos de prevención del blanqueo de capitales y de la financiación del terrorismo?",
+      "opciones": ["A las empresas que pretendan establecer relaciones de negocio o intervenir en cualesquiera operaciones.", "A cuantas personas físicas o jurídicas pretendan establecer relaciones de negocio o intervenir en cualesquiera operaciones.", "A los inversores profesionales.", "A las contrapartes elegibles."],
+      "correcta": 1,
+      "explicacion": "Ver solución del simulacro",
+      "id": 30
+    },
+    {
+      "pregunta": "¿Cuál será el tipo forward para un depósito a 3 meses a contar a partir de aquí a 3 meses, según la información del mercado interbancario que aparece a continuación? Tipo a 1 mes: 3,25%. Tipo a 3 meses: 3,35%. Tipo a 6 meses: 3,40%. Tipo a 9 meses: 3,42%. Tipo a 12 meses: 3,45%.",
+      "opciones": ["3,42%.", "4,42%.", "0,02%.", "3,37%."],
+      "correcta": 3,
+      "explicacion": "(1+3,4%*6/12) = (1+3,35%*3/12)*(1+FRA*3/12)",
+      "id": 31
+    },
+    {
+      "pregunta": "¿Cuál es el precio entero (precio efectivo) de un bono del Estado el día 18/12/2021, sabiendo que su cotización (precio ex cupón) es 101,275%, que paga cupones constantes anuales del 3,20% y que su vencimiento es el 31/1/2025?",
+      "opciones": ["101,661%.", "98,461%.", "101,275%.", "104,089%."],
+      "correcta": 3,
+      "explicacion": "Pentero = 101,275 + 3,2*321/365 = 104,10%",
+      "id": 32
+    },
+    {
+      "pregunta": "Una facultad de la CNMV como regulador del mercado bursátil es:",
+      "opciones": ["Controlar la admisión, supervisión y exclusión de los valores cotizados.", "Llevar el registro contable de los valores representados por anotaciones en cuenta admitidos a cotización.", "La gestión y dirección del SIBE (Sistema de Interconexión Bursátil Español).", "Todas las respuestas anteriores."],
+      "correcta": 0,
+      "explicacion": "Ver solución del simulacro",
+      "id": 33
+    },
+    {
+      "pregunta": "Si un inversionista tiene expectativas alcistas sobre Telefónica, ¿cuáles de las siguientes estrategias utilizaría? I. Venta de futuros. II. Compra de futuros. III. Compra de put. IV. Compra de call. V. Venta de call. VI. Venta de put.",
+      "opciones": ["I, II, y IV.", "II, IV y VI.", "Solamente II y IV.", "Solamente II, III."],
+      "correcta": 1,
+      "explicacion": "Ver solución del simulacro",
+      "id": 34
+    },
+    {
+      "pregunta": "Si queremos hacer una estimación para los próximos años, de la economía norteamericana y así poder realizar una previsión del comportamiento de la bolsa, debemos dar especial importancia a:",
+      "opciones": ["Los tipos actuales de la Reserva Federal.", "El Leading Indicators.", "Los beneficios empresariales del último ejercicio.", "Los datos de inflación y paro registrados el mes pasado."],
+      "correcta": 1,
+      "explicacion": "Ver solución del simulacro",
+      "id": 35
+    },
+    {
+      "pregunta": "¿Qué pasa si durante la vigencia de un contrato de seguro, aumenta el riesgo de que ocurra el siniestro (hecho dañoso) cubierto por dicho contrato?",
+      "opciones": ["Que el Asegurado sale ganando, porque paga lo mismo y, en caso de siniestro, cobrará lo pactado.", "Que la Compañía no pagará en ningún caso.", "Que el Asegurado debe informar a la Compañía para que, en su caso, adecue la prima al riesgo real.", "Se considera que durante la vigencia de un contrato, el riesgo es invariable."],
+      "correcta": 2,
+      "explicacion": "Ver solución del simulacro",
+      "id": 36
+    },
+    {
+      "pregunta": "¿Cuál será la rentabilidad de una cartera con beta 0,7 y un ratio de información de 0,15, si la varianza de la cartera, la rentabilidad del benchmark y su tracking error son 0,0484, 15,0% y 19,33% respectivamente?",
+      "opciones": ["2,90%.", "13,40%.", "20,25%.", "Es necesario conocer la rentabilidad del activo libre de riesgo."],
+      "correcta": 2,
+      "explicacion": "0,15 = (RC – 0,7*15%)/19,33%; 0,15*19,33% + 0,7*15% = RC",
+      "id": 37
+    },
+    {
+      "pregunta": "Dos acciones A y B presentan una desviación típica anual con respecto a su rentabilidad igual, respectivamente, al 10% y al 20%, así como un coeficiente de correlación entre rentabilidades igual a -1. ¿Cuál será la desviación típica de una cartera que contuviera ambos títulos igualmente ponderados?",
+      "opciones": ["0%.", "5%.", "10%.", "15%."],
+      "correcta": 0,
+      "explicacion": "DESVIACIÓN DE UNA CARTERA con correlación -1= VALOR ABSOLUTO(0,5*10% - 0,5*20%) = 0%",
+      "id": 38
+    },
+    {
+      "pregunta": "Fernando, contribuyente del IRPF de 54 años de edad que percibe unos rendimientos del trabajo de 25.000 euros anuales, ha efectuado una aportación de 1.500 euros a un plan de pensiones individual más 8.500 euros que le ha aportado su empresa. ¿Qué importe podrá reducir de la base imponible general del IRPF?",
+      "opciones": ["7.500 euros.", "8.000 euros.", "10.000 euros.", "1.500 euros."],
+      "correcta": 1,
+      "explicacion": "Reducción: el menor de 30% de los rendimientos netos del trabajo (7500). La aportación realizada hasta 10.000 euros (1.500 euros del partícipe y 8500 euros del promotor); le restarían por reducirse 2500 en los próximos 5 años.",
+      "id": 39
+    },
+    {
+      "pregunta": "¿Qué caracteriza el «asesoramiento en materia de inversión»?",
+      "opciones": ["El asesoramiento sólo puede ser prestado por asesores independientes.", "El asesoramiento supone la prestación al cliente de recomendaciones personalizadas con respecto a una o más operaciones relativas a instrumentos financieros.", "La prestación de asesoramiento requiere la firma de un contrato de asesoramiento.", "La prestación de asesoramiento supone recomendaciones de carácter genérico y no personalizadas en el ámbito de la comercialización de valores e instrumentos financieros."],
+      "correcta": 1,
+      "explicacion": "Ver solución del simulacro",
+      "id": 40
+    },
+    {
+      "pregunta": "Su entidad tiene un depósito al 3% TAE por seis meses. ¿Cuál será el capital final de un cliente que bajo su recomendación decide abrir dicho depósito por un importe de 18.000 euros?",
+      "opciones": ["18.270,00 euros.", "18.268,00 euros.", "18.272,03 euros.", "18.265,85 euros."],
+      "correcta": 1,
+      "explicacion": "Cf= 18.000*(1+2,97%*6/12)= 18.268. (1+3%)=(1+TN*6/12);  TN= 2,97%",
+      "id": 41
+    },
+    {
+      "pregunta": "Un bono tiene una duración corregida o modificada igual a 5, un precio de 98,000% y una TIR del 3,80%. ¿Cuál sería aproximadamente el nuevo precio si se verificase una elevación de los tipos de interés de 50 puntos básicos?",
+      "opciones": ["95,550%.", "100,450%.", "95,640%.", "95,500%."],
+      "correcta": 0,
+      "explicacion": "Variación del precio del bono = -dur corregida*var tipos de interés = -5 * (0,5%) = -2,5%. (P1 – 98%) / 98% = -2,5%. P1 = -2,5%*98% + 98% = 95,55%",
+      "id": 42
+    },
+    {
+      "pregunta": "Si el dividendo de la empresa ABC para el próximo año se espera que sea de 5,18 euros por acción, la valoración de la acción ABC es de 61,67 euros y el tipo de interés requerido para la inversión en la empresa ABC es del 14,20%; ¿cuál es la tasa de crecimiento de los dividendos de la empresa ABC?",
+      "opciones": ["9,02%.", "8,40%.", "4,50%.", "5,80%."],
+      "correcta": 3,
+      "explicacion": "Po = Div1 /(ke-g);    g= ke – Div1/Po =  14,20% - 5,18/61,67 = 5,8%",
+      "id": 43
+    },
+    {
+      "pregunta": "En una opción call con precio de ejercicio de 15 euros, cuando el subyacente cotiza a 14,50 euros tiene un precio de 0,30 euros, ¿cuál es el valor temporal de esta opción?",
+      "opciones": ["0,30 euros.", "0,20 euros.", "-0,20 euros.", "0,50 euros."],
+      "correcta": 0,
+      "explicacion": "0,3= (14,50- 15) + VT;   VT=0,3. El valor intrínseco no puede ser negativo en opciones compradas. Cuando el VI es 0 (es decir, la opción está OTM o ATM), toda la prima es valor temporal.",
+      "id": 44
+    },
+    {
+      "pregunta": "La entidad depositaria:",
+      "opciones": ["Bajo ningún concepto puede pertenecer al mismo grupo que la Sociedad Gestora.", "Lleva la contabilidad del Fondo al día, lógicamente diferenciada de la correspondiente a la entidad depositaria.", "Determina el valor de las participaciones directamente.", "Asume frente a los partícipes las labores de vigilancia y supervisión de la gestión realizada por la Sociedad Gestora, estando obligada a comunicar a la CNMV cualquier anomalía que observe."],
+      "correcta": 3,
+      "explicacion": "Ver solución del simulacro",
+      "id": 45
+    },
+    {
+      "pregunta": "Los Unit-Linked son seguros de vida mixtos en los que el riesgo financiero de la inversión:",
+      "opciones": ["Es asumido por la entidad aseguradora.", "Está garantizado por el valor inicial de las participaciones en fondos de inversión.", "En este tipo de seguros no hay riesgo de inversión porque está garantizada por el interés técnico.", "Es asumido por el tomador del seguro."],
+      "correcta": 3,
+      "explicacion": "Ver solución del simulacro",
+      "id": 46
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes factores determinan la concesión de un préstamo hipotecario? I. El tipo de contrato laboral. II. El porcentaje de endeudamiento. III. La aportación inicial. IV. El historial crediticio.",
+      "opciones": ["Solamente II y IV.", "Solamente III y IV.", "Solamente I, III y IV.", "I, II, III y IV."],
+      "correcta": 3,
+      "explicacion": "Ver solución del simulacro",
+      "id": 47
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes hipótesis de trabajo NO pertenece al modelo clásico de Markowitz?",
+      "opciones": ["Todos los títulos han de ser perfectamente divisibles.", "Todos los activos sobre los que se aplica el modelo han de tener volatilidad estrictamente positiva.", "Permite el endeudamiento a una tasa conocida.", "Tiene en cuenta la inflación y los impuestos."],
+      "correcta": 3,
+      "explicacion": "Ver solución del simulacro",
+      "id": 48
+    },
+    {
+      "pregunta": "Como consecuencia del fallecimiento de su tía, a Federico le han adjudicado unas acciones cotizadas en bolsa. ¿Por qué importe deberán ser declaradas estas acciones en la base imponible del Impuesto sobre Sucesiones y Donaciones de Federico?",
+      "opciones": ["Por su valor de cotización a la fecha de fallecimiento.", "Por su valor nominal.", "Por su valor de cotización media del último trimestre.", "Por el valor que dichas acciones tengan a efectos del Impuesto sobre el Patrimonio."],
+      "correcta": 0,
+      "explicacion": "Ver solución del simulacro",
+      "id": 49
+    },
+    {
+      "pregunta": "El fondo de Inversión ABC ha obtenido las siguientes rentabilidades durante los pasados 4 años: Año 1: 30%. Año 2: 3,85%. Año 3: - 20%. Año 4: -7,41%. ¿Cuál ha sido la rentabilidad aritmética y geométrica anualizadas para el periodo de cuatro años?",
+      "opciones": ["1,61% y 0%.", "15,32% y 14,85%.", "15,32% y 0%.", "1,61% y 14,85%."],
+      "correcta": 0,
+      "explicacion": "Rent. Aritmética: (30% + 3,85% -20% -7,41%) /4= 1,61%. Rent. Geométrica: ((1+0,3)*(1+0,0385)*(1-0,2)*(1-0,0741))^1/4 -1 = 0%",
+      "id": 50
+    }
+  ]
+}

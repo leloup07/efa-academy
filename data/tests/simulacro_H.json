@@ -1,0 +1,608 @@
+{
+  "titulo": "Simulacro EFA - Simulacro H (Jesús Pérez)",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "El horizonte temporal de la inversión de un cliente:",
+      "opciones": [
+        "Coincidirá siempre con el vencimiento de los bonos en que invierte",
+        "Depende únicamente de la edad del cliente",
+        "No es un parámetro esencial en la planificación financiera",
+        "Ninguna es correcta"
+      ],
+      "correcta": 3,
+      "explicacion": "El horizonte temporal de la inversión es el tiempo que transcurre desde que se invierte el patrimonio hasta que se necesita, y es esencial a la hora de gestionar. No tiene porqué coincidir con el vencimiento de los bonos en que se invierta, y si se quiere matchear la operación deberá coincidir con la duración de los bonos.",
+      "id": 1
+    },
+    {
+      "pregunta": "Los servicios básicos de un family office son:",
+      "opciones": [
+        "Protección de los activos",
+        "Crecimiento de los activos",
+        "Control de activos",
+        "Todas son correctas"
+      ],
+      "correcta": 3,
+      "explicacion": "Por definición.",
+      "id": 2
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes no es un factor objetivo a la hora de analizar a un inversor?",
+      "opciones": [
+        "Si situación patrimonial",
+        "Su situación fiscal",
+        "El objetivo financiero buscado",
+        "Su profesión"
+      ],
+      "correcta": 2,
+      "explicacion": "El objetivo es un elemento subjetivo que hay que determinar junto con el cliente al iniciar el proceso el proceso de inversión, puesto que aunque depende de sus circunstancias personales, por ej. objetivo a la jubilación: 75% del último salario, 100%, …",
+      "id": 3
+    },
+    {
+      "pregunta": "El rebalanceo y el reequilibrio de las carteras mixtas se realiza para:",
+      "opciones": [
+        "Arriesgarse más y ganar más",
+        "Para arriesgar menos y conseguir el resultado estimado inicialmente",
+        "Para arriesgar menos y ganar menos",
+        "Para ganar menos"
+      ],
+      "correcta": 1,
+      "explicacion": "Con estas técnicas se trata no de ganar más, sino de reducir los riesgos en el tiempo.",
+      "id": 4
+    },
+    {
+      "pregunta": "¿Con cuál de los siguientes factores no está relacionado positivamente el precio de una opción call comprada?",
+      "opciones": [
+        "El precio de la acción",
+        "El tiempo a vencimiento",
+        "La volatilidad de la acción",
+        "El precio de ejercicio"
+      ],
+      "correcta": 3,
+      "explicacion": "A mayor precio de ejercicio menos probabilidad de que la call entre en el dinero.",
+      "id": 5
+    },
+    {
+      "pregunta": "La TAE de un préstamo de 20.000 euros que hay que devolver dentro de un año mediante un solo pago, pactado a un tanto nominal del 8,3% con capitalización anual y una comisión de apertura del 0,50% es:",
+      "opciones": [
+        "8,3%",
+        "8,8%",
+        "8,84%",
+        "8,5%"
+      ],
+      "correcta": 2,
+      "explicacion": "El capital a devolver es: 20.000*(1+8,3%)=21.660; luego si el líquido recibido han sido 20.000*(1-0,50%)=19.900 euros, supone que 21.660=19.900*(1+TAE), luego despejando TAE=8,84%",
+      "id": 6
+    },
+    {
+      "pregunta": "Si los datos de rentabilidad anual de los últimos 3 años de un activo han sido: 3%, -3% y 2%, respectivamente. ¿Cuál ha sido la rentabilidad anualizada del fondo?",
+      "opciones": [
+        "2%",
+        "2,1%",
+        "0,63%",
+        "-0,63%"
+      ],
+      "correcta": 2,
+      "explicacion": "((1+3%)*(1-3%)*(1+2%))^(1/3)-1= 0,63%",
+      "id": 7
+    },
+    {
+      "pregunta": "Si las rentabilidades de un fondo de inversión en los últimos 3 años han sido: 3%, -3% y 2%, respectivamente. ¿Cuál ha sido la volatilidad del fondo?",
+      "opciones": [
+        "2,34%%",
+        "2,62%",
+        "2%",
+        "3,3%"
+      ],
+      "correcta": 1,
+      "explicacion": "Primero se calcula la rentabilidad promedio: suma de rentabs./3=0,66% y a continuación se hace la desviación típica=2,62%",
+      "id": 8
+    },
+    {
+      "pregunta": "Si el contrato de futuros sobre IBEX-35 cotiza a 14.000 puntos, y se exige un depósito en garantía de 12.000 euros; a cuánto asciende el factor de apalancamiento si se decide operar comprando 1 contrato de futuros sobre el IBEX-35?",
+      "opciones": [
+        "3,76 veces",
+        "1,88 veces",
+        "37,6 veces",
+        "11,66 veces"
+      ],
+      "correcta": 3,
+      "explicacion": "14.000*10 (multiplicador IBEX) / 12.000 (garantía) = 11,66 veces",
+      "id": 9
+    },
+    {
+      "pregunta": "Un mercado de acciones presenta una desviación típica mensual con respecto a su rentabilidad igual al 10% ¿Cuál de los valores siguientes aproxima mejor la estimación de la desviación típica anual de dicho mercado?",
+      "opciones": [
+        "34 %",
+        "17 %",
+        "60 %",
+        "25 %"
+      ],
+      "correcta": 0,
+      "explicacion": "10*raíz(12)=34,64%",
+      "id": 10
+    },
+    {
+      "pregunta": "Un bono cupón cero emitido a la par y a 5 años, con amortización al 200%",
+      "opciones": [
+        "La TIR es del 14,86%",
+        "Su duración corregida es de 5.",
+        "Su rentabilidad acumulada a vencimiento será del 100%",
+        "Las respuestas correctas son la a y c."
+      ],
+      "correcta": 3,
+      "explicacion": "200=100*(1+TIR)^5, luego despejando TIR=14,86% y la rentabilidad acumulada es del 100%",
+      "id": 11
+    },
+    {
+      "pregunta": "Si la tasa de interés interbancario a 6 meses del euro y del franco suizo son 4% y 3% respectivamente y el tipo de cambio spot es de 1,62 francos suizos por cada euro. El tipo de cambio a plazo a seis meses será:",
+      "opciones": [
+        "1,631",
+        "1,57216",
+        "1,612",
+        "1,5716"
+      ],
+      "correcta": 2,
+      "explicacion": "FWD=1,62* (1+0,03*6/12) / (1+0,04*6/12) = 1,612 francos suizos por cada euro",
+      "id": 12
+    },
+    {
+      "pregunta": "Un gestor de carteras que administra un fondo de inversión de renta variable altamente diversificado, cuyo patrimonio está situado hoy en 40 millones de Euros, decide cubrirlo con futuros sobre el IBEX-35 llevando la cobertura hasta vencimiento. Determinar el número de contratos según los datos siguientes:  Valor nominal de la cartera de renta variable 16.500.000 euros Valor efectivo de la cartera de renta variable 36.000.000 euros IBEX-35 contado 13.500 Futuro IBEX-35 vto. próximo 14.000,0 Beta global de la cartera 2",
+      "opciones": [
+        "407",
+        "695",
+        "581",
+        "534"
+      ],
+      "correcta": 3,
+      "explicacion": "Número de contratos a vender para cubrir= 36.000.000*2 / 13.500*10*(-1) = -533,33; 534 contratos a vender.",
+      "id": 13
+    },
+    {
+      "pregunta": "Un empresario prevé endeudarse dentro de 90 días para 90 días y tiene expectativas alcistas de los tipos de interés. Acude a nuestra a su oficina bancaria y se lo comenta a su asesor. ¿Qué posibilidades tiene el cliente para cubrirse?",
+      "opciones": [
+        "Comprar FRA 90/180",
+        "Vender Futuro Euribor a 90 días dentro de 90 días",
+        "Vender FRA 90/180",
+        "Son correctas a) y b)"
+      ],
+      "correcta": 3,
+      "explicacion": "Al tener expectativas alcistas, el riesgo del cliente es que se le encarezca la financiación a plazo, luego puede comprar FRA (cotizan en tipos) o bien vender Futuro €uribor-90 del vencimiento dentro de 180 días para que le cubra los 90 días (cotiza en precio: suben tipos y bajan precios)",
+      "id": 14
+    },
+    {
+      "pregunta": "Cuando una acción toca su soporte, de acuerdo con el análisis técnico ¿qué se espera que ocurra?:",
+      "opciones": [
+        "Que la oferta supere a la demanda",
+        "Que la demanda supere a la oferta",
+        "Que la demanda se iguale a la oferta",
+        "Que el volumen de negociación se mantenga constante"
+      ],
+      "correcta": 1,
+      "explicacion": "Para sostener el precio aumenta la demanda",
+      "id": 15
+    },
+    {
+      "pregunta": "Una empresa cotiza a 60 euros y tiene un beneficio por acción de 5 euros. El PER medio del sector es de 10. ¿Qué podemos concluir de estos datos?",
+      "opciones": [
+        "Que cotiza con prima",
+        "Que cotiza con descuento",
+        "Que tardará 6 años en recuperar la inversión",
+        "Que la rentabilidad por dividendo es de 8,33%"
+      ],
+      "correcta": 1,
+      "explicacion": "PER= 60 / 5 = 12",
+      "id": 16
+    },
+    {
+      "pregunta": "Un título que sigue una distribución normal y que tiene una rentabilidad media esperada del 10% con una volatilidad del 20%, con una probabilidad del 68% podemos suponer que:",
+      "opciones": [
+        "La rentabilidad oscile entre 10% y -10%",
+        "La rentabilidad oscile entre -20% y 20%",
+        "La rentabilidad oscile entre -10% y 30%",
+        "La rentabilidad oscile entre 30% y 10%"
+      ],
+      "correcta": 2,
+      "explicacion": "A la media se le suma y se le resta una desviación típica",
+      "id": 17
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes es función de las sociedades de inversión colectiva?",
+      "opciones": [
+        "Llevar la contabilidad del fondo",
+        "Calcular el valor de la participación",
+        "Ordenar la compraventa de valores",
+        "Todas son correctas"
+      ],
+      "correcta": 3,
+      "explicacion": "Por definición",
+      "id": 18
+    },
+    {
+      "pregunta": "Utilizan los instrumentos derivados para realizar apuestas direccionales, y los podemos dividir en sistemáticos y discrecionales. De qué estrategia utilizada por los fondos de inversión libre (hedge funds) se trata?",
+      "opciones": [
+        "Long/short equito",
+        "Managed futures",
+        "Arbitrage de renta fija",
+        "Arbitraje de fusiones"
+      ],
+      "correcta": 1,
+      "explicacion": "Manager futures",
+      "id": 19
+    },
+    {
+      "pregunta": "El concepto que mide el grado de libertad de gestión sobre un fondo de inversión se le conoce con el nombre de:",
+      "opciones": [
+        "Ratio de Sharpe.",
+        "Ratio de Treynor.",
+        "Ratio de información.",
+        "Tracking error."
+      ],
+      "correcta": 3,
+      "explicacion": "Mide la volatilidad de las diferencias entre la rentabilidad del fondo y la de su índice de referencia.",
+      "id": 20
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre un fondo cotizado y un fondo indexado?",
+      "opciones": [
+        "El cotizado se puede negociar intradía",
+        "El indexado se puede negociar al final del día",
+        "El indexado se puede negociar intradía",
+        "Son correctas a) y b)"
+      ],
+      "correcta": 0,
+      "explicacion": "El indexado necesitamos saber su valor liquidativo al final del día, y el cotizado se conoce durante el día.",
+      "id": 21
+    },
+    {
+      "pregunta": "¿Cuál es el coeficiente de liquidez de un fondo de inversión inmobiliaria?",
+      "opciones": [
+        "3%",
+        "10%",
+        "20%",
+        "6%"
+      ],
+      "correcta": 0,
+      "explicacion": "Por definición regulatoria.",
+      "id": 22
+    },
+    {
+      "pregunta": "Un fondo VaR se caracteriza por:",
+      "opciones": [
+        "Limitar las pérdidas",
+        "Limitar los beneficios",
+        "Son más caros",
+        "Se gestionan de forma pasiva"
+      ],
+      "correcta": 0,
+      "explicacion": "Por definición de Value at Risk",
+      "id": 23
+    },
+    {
+      "pregunta": "¿Cuál es la filosofía del seguro?",
+      "opciones": [
+        "Lucrarse por el acontecimiento de un siniestro",
+        "Compensación por un daño sufrido",
+        "Sólo existe posibilidad de lucro en el unit linked",
+        "Sólo existe posibilidad de lucro en el seguro de vida entera"
+      ],
+      "correcta": 1,
+      "explicacion": "Se trata de reparar o compensar un daño, no de lucrarse. El unit linked es un seguro de vida sobre una persona, luego por mucho que obtengamos de él, la vida no está pagada",
+      "id": 24
+    },
+    {
+      "pregunta": "Un plan de jubilación:",
+      "opciones": [
+        "Es rescatable",
+        "Está limitada la aportación",
+        "Las aportaciones son deducibles para el individuo",
+        "Es un plan de pensiones"
+      ],
+      "correcta": 0,
+      "explicacion": "Por definición, el resto de características pertenecen a un plan de pensiones.",
+      "id": 25
+    },
+    {
+      "pregunta": "La diferencia entre la solicitud y la proposición de un seguro es:",
+      "opciones": [
+        "La proposición no vincula al asegurador",
+        "la proposición si vincula al asegurador",
+        "La solicitud vincula al asegurador",
+        "La solicitud y la proposición vinculan al asegurador"
+      ],
+      "correcta": 1,
+      "explicacion": "La proposición vincula al asegurador 15 días a mantener las condiciones ofertadas al tomador",
+      "id": 26
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes no es un valor garantizado de un seguro de vida?",
+      "opciones": [
+        "Doble capital en caso de muerte por accidente",
+        "El rescate",
+        "La reducción",
+        "El anticipo"
+      ],
+      "correcta": 0,
+      "explicacion": "Doble capital en caso de muerte por accidente es una garantía complementaria",
+      "id": 27
+    },
+    {
+      "pregunta": "¿Cuáles son los parámetros básicos a considerar para planificar la jubilación?",
+      "opciones": [
+        "Objetivo de pensión de jubilación",
+        "Tolerancia al riesgo",
+        "Circunstancias particulares (necesidades de liquidez, horizonte temporal, impuestos, regulatorias y preferencias singulares)",
+        "Todas son correctas"
+      ],
+      "correcta": 3,
+      "explicacion": "Por definición",
+      "id": 28
+    },
+    {
+      "pregunta": "Esteban García a 31/12/17 tiene un salario de 50.000 € y unos gastos de 20.000 € , con un crecimiento previsto del mismo del 3% anual. Tiene 45 años, y quiere jubilarse a los 65 años. Tiene un objetivo a la jubilación de conseguir una pensión del 70% del último salario, y una esperanza de vida de 85 años. Si su pensión teórica de la SS. hoy es de 32.300 €, con un crecimiento estimado de la misma del 2% anual, determinar:La cobertura aproximada de la Seguridad Social. a los 65 años en porcentaje:",
+      "opciones": [
+        "75%",
+        "30%",
+        "52%",
+        "100%"
+      ],
+      "correcta": 0,
+      "explicacion": "Salario a los 65 años estimado: 50.000*(1+3%)^20=90.305 euros; Seguridad Social estimada a los 65 años: 32.000*(1+2%)^20=47.550 euros; luego el ratio de cobertura de la SS sobre el último salario es=47.550/90.305*0,7=75%",
+      "id": 29
+    },
+    {
+      "pregunta": "La política de inversión se define para el:",
+      "opciones": [
+        "Plan de pensiones",
+        "Fondo de pensiones",
+        "El partícipe",
+        "Beneficiario"
+      ],
+      "correcta": 1,
+      "explicacion": "La política de inversiones se define para el fondo, que es la inversión del patrimonio.",
+      "id": 30
+    },
+    {
+      "pregunta": "El organismo público de control dependiente del Ministerio de Economía que legisla y sanciona todo lo referente a Planes y Fondos de Pensiones es:",
+      "opciones": [
+        "La Comisión Nacional del Mercado de Valores.",
+        "Agroseguro",
+        "Unespa",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 3,
+      "explicacion": "El organismo público de control dependiente del Ministerio de Economía que legisla y sanciona todo lo referente a Planes y Fondos de Pensiones es la Dirección General de Seguros y Fondos de Pensiones.",
+      "id": 31
+    },
+    {
+      "pregunta": "Los fondos de pensiones para su funcionamiento necesitan de:",
+      "opciones": [
+        "Una entidad promotora para la administración y una depositaria para la custodia.",
+        "Una entidad gestora y una sociedad de valores",
+        "Una entidad gestora y una entidad depositaria.",
+        "Una entidad financiera que ejerza las labores de administración y custodia."
+      ],
+      "correcta": 2,
+      "explicacion": "El fondo de pensiones se define como el patrimonio económico sin personalidad jurídica, supervisado y representado por su Comisión de Control o Defensor si es de empleo o asociativo, o del Partícipe si es individual, cuya administración y gestión corresponde a la Sociedad Gestora, y cuya custodia corresponde a una Entidad Depositaria.",
+      "id": 32
+    },
+    {
+      "pregunta": "Si ordenamos por rentabilidad y riesgo los diversos tipos de inversión inmobiliaria directa tenemos que:",
+      "opciones": [
+        "Los hoteles son más rentables que las oficinas y las viviendas",
+        "Las naves industriales son más rentables que el ocio y turismo y que las oficinas",
+        "Las oficinas son más rentables que el ocio y turismo",
+        "Las naves industriales son más rentables que el ocio y turismo"
+      ],
+      "correcta": 3,
+      "explicacion": "Por definición",
+      "id": 33
+    },
+    {
+      "pregunta": "Los inmuebles en los que invierta un fondo inmobiliario se deberán mantener al menos:",
+      "opciones": [
+        "1 año",
+        "3 años",
+        "5 años",
+        "20 años"
+      ],
+      "correcta": 1,
+      "explicacion": "Por definición",
+      "id": 34
+    },
+    {
+      "pregunta": "¿Qué reducción general tiene el alquiler para el arrendador en el IRPF cuando se alquila a persona física para vivir?",
+      "opciones": [
+        "60%",
+        "25%",
+        "40%",
+        "0%"
+      ],
+      "correcta": 1,
+      "explicacion": "Según IRPF",
+      "id": 35
+    },
+    {
+      "pregunta": "La cuota conjunta entre el IRPF y el Impuesto de Patrimonio es:",
+      "opciones": [
+        "60% de la base imponible del IRPF",
+        "60% de la base imponible de IP",
+        "80% de la base imponible del IRPF",
+        "Todas son correctas"
+      ],
+      "correcta": 0,
+      "explicacion": "Por definición (Cuota de IRPF + cuota de IP) <60% bases imponibles de IRPF",
+      "id": 36
+    },
+    {
+      "pregunta": "La cuota líquida del IRPF es el resultado de minorar la cuota íntegra en las deducciones siguientes:",
+      "opciones": [
+        "Con carácter general 15% de las cantidades satisfechas para la adquisición o rehabilitación de la vivienda, sobre un máximo de 9.040 euros /año para viviendas adquiridas antes de 31-12-2012",
+        "Con carácter general 20% de las cantidades satisfechas para la adquisición o rehabilitación de la vivienda, sobre un máximo de 9.015 euros /año",
+        "Con carácter general 25% de las cantidades satisfechas para la adquisición o rehabilitación de la vivienda, sobre un máximo de 9.015 euros /año",
+        "Todas son correctas"
+      ],
+      "correcta": 3,
+      "explicacion": "Por definición",
+      "id": 37
+    },
+    {
+      "pregunta": "María Burgos, de 49 años y sin hijos, ha satisfecho en 2021 las siguientes cantidades a instrumentos de previsión social: -1.000 euros a un plan de pensiones a favor de su cónyuge que gana 5.000 euros al año -1.400 euros a su plan de pensiones individual ¿Qué cantidad máxima puede reducir de la base imponible del IPRF si tenemos en cuenta que percibe unos rendimientos netos del trabajo de 30.000 euros)",
+      "opciones": [
+        "1.400 euros",
+        "8.000 euros",
+        "2.400 euros",
+        "9.000 euros"
+      ],
+      "correcta": 3,
+      "explicacion": "10.000 euros: 30% de los rendimientos netos del trabajo con un máximo de las aportaciones realizadas dentro de los límites, más los 1000 a favor de cónyuge. Siempre que la base liquidable no haga negativa, de lo contrario la deducción no aprovechada y se pasa a los años siguientes.",
+      "id": 38
+    },
+    {
+      "pregunta": "¿Cómo tributa la prestación de un seguro de vida para el beneficiario, distinto del asegurado, persona física?",
+      "opciones": [
+        "Por impuesto de sucesiones",
+        "Por IPRF",
+        "Como un plan de pensiones",
+        "Por impuesto de sociedades"
+      ],
+      "correcta": 0,
+      "explicacion": "Por definición",
+      "id": 39
+    },
+    {
+      "pregunta": "Una cartera que tiene un coeficiente beta de 0,8 ha obtenido una rentabilidad del 19% con una volatilidad del 23%, mientras que el índice de referencia ha obtenido una rentabilidad del 14%, con una volatilidad del 15%. Calcular el tracking error de la cartera:",
+      "opciones": [
+        "8%",
+        "20%",
+        "19,62%",
+        "24,56%"
+      ],
+      "correcta": 2,
+      "explicacion": "TE=raiz(0,23^2-0,8^2*0,15^2)*100=19,62%",
+      "id": 40
+    },
+    {
+      "pregunta": "A partir de dos títulos con riesgo y utilizando el modelo de Markowitz, ¿es posible formar una cartera con riesgo nulo?",
+      "opciones": [
+        "No, con 2 títulos con riesgo es imposible formar una cartera con riesgo 0.",
+        "Si, siempre que las rentabilidades de los títulos sean independientes",
+        "Si, siempre que las rentabilidades de los títulos estén correlacionadas de forma perfecta negativa",
+        "Si, siempre que las rentabilidades de los títulos estén correlacionadas de forma perfecta positiva."
+      ],
+      "correcta": 2,
+      "explicacion": "Por definición: dos títulos que se mueven en distinto sentido y misma intensidad, componiéndose al 50% dan lugar a riesgo 0.",
+      "id": 41
+    },
+    {
+      "pregunta": "Un fondo que tiene un ratio de Sharpe del 0,93 con una volatilidad del 26,2%. Si la beta es 0,93; su ratio de Treynor sera:",
+      "opciones": [
+        "Imposible calcular con los datos que del enunciado",
+        "3,55",
+        "0,26",
+        "2"
+      ],
+      "correcta": 2,
+      "explicacion": "0,93= (Rfondo-Ractivo sin riesgo)/0,262, luego (Rfondo-Ractivo sin riesgo)=0,2436, y Treynor=0,2436/0,93=0,26",
+      "id": 42
+    },
+    {
+      "pregunta": "La hipótesis de eficiencia débil implicaría:",
+      "opciones": [
+        "Que el análisis técnico no tiene valor",
+        "Que el análisis fundamental no tiene valor",
+        "La única forma de obtener beneficios es con información privilegiada",
+        "Todas son correctas"
+      ],
+      "correcta": 0,
+      "explicacion": "Por definición, puesto que el análisis técnico considera que el pasado se repite y eso la hipótesis débil y el análisis técnico no permite aportar valor batiendo al mercado.",
+      "id": 43
+    },
+    {
+      "pregunta": "Dos acciones A y B presentan una desviación típica anual con respecto a su rentabilidad igual, respectivamente, al 20 % y al 12 %, así como un coeficiente de correlación entre rentabilidades igual a - 1. ¿Cuál será la desviación típica de una cartera que contuviera ambos títulos igualmente ponderados?",
+      "opciones": [
+        "4 %",
+        "0 %",
+        "12 %",
+        "16 %"
+      ],
+      "correcta": 0,
+      "explicacion": "σ = raiz((ω1⋅σ 1)2 + (ω 2 ⋅σ 2)2 + 2ρ ⋅ω1⋅σ 1⋅ω 2 ⋅σ 2). El resultado es 0.04",
+      "id": 44
+    },
+    {
+      "pregunta": "Si la línea de mercado de un título es: Ri= 2%+1,4*(Rmercado – 2%), la rentabilidad del mercado es del 10%, y la del título es del 20%, se puede decir que el título está:",
+      "opciones": [
+        "Sobrevalorado",
+        "Infravalorado",
+        "Bien valorado",
+        "Todas son correctas"
+      ],
+      "correcta": 1,
+      "explicacion": "Aplicando la fórmula de la SML, la rentabilidad teórica del título sería del 13,2%, y como la real es del 20%, el título está barato.",
+      "id": 45
+    },
+    {
+      "pregunta": "Según la teoría de Markowitz:",
+      "opciones": [
+        "Es posible encontrar títulos  por encima de la frontera eficiente",
+        "No es posible encontrar carteras por encima de la frontera eficiente",
+        "Es posible encontrar carteras por encima de la frontera eficiente",
+        "Ninguna es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "Por definición de frontera eficiente",
+      "id": 46
+    },
+    {
+      "pregunta": "Si tuviera que comparar el valor añadido por la gestión activa en los últimos cinco años por dos gestores y seleccionar uno, escogería el que hubiera:",
+      "opciones": [
+        "Obtenido mayor rentabilidad.",
+        "Incurrido en el menor riesgo.",
+        "Acertado con el timing.",
+        "Alcanzado mayor ratio de información."
+      ],
+      "correcta": 3,
+      "explicacion": "Por definición, ratio de información nos indica la extrarentabilidad del gestor en la gestión de carteras en relación al extrariesgo asumido para conseguirla sobre el benchamark",
+      "id": 47
+    },
+    {
+      "pregunta": "La línea del mercado de valores (SML) pone en relación los rendimientos de cada activo con:",
+      "opciones": [
+        "La desviación típica del activo",
+        "La beta del activo",
+        "El riesgo específico del activo",
+        "La duración del activo"
+      ],
+      "correcta": 1,
+      "explicacion": "La beta del activo (riesgo sistemático) Ri=Rf+Beta(Rf-Rm)",
+      "id": 48
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes apartados no pertenecen al código de EFPA?",
+      "opciones": [
+        "Costes y Comisiones",
+        "Integridad",
+        "Explicar el código MiFID a los clientes",
+        "Confidencialidad"
+      ],
+      "correcta": 2,
+      "explicacion": "Explicar el código EFPA a los clientes",
+      "id": 49
+    },
+    {
+      "pregunta": "La Directiva comunitaria que supuso la modificación de la Ley del Mercado de Valores se llama:",
+      "opciones": [
+        "UCIT",
+        "CNMV",
+        "MiFID",
+        "Todas son correctas"
+      ],
+      "correcta": 2,
+      "explicacion": "Por definición",
+      "id": 50
+    }
+  ]
+}

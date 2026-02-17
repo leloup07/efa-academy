@@ -1,0 +1,323 @@
+{
+  "titulo": "Examen Gestión de Carteras 4",
+  "tiempo": 60,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál de los siguientes es un indicador del grado de actividad de un gestor?",
+      "opciones": ["El índice de Sharpe", "El information ratio", "El Tracking error", "Ninguna de las precedentes alternativas"],
+      "correcta": 2,
+      "explicacion": "El tracking error es un indicador de la diferenciación entre la cartera del gestor y la del índice que trata de batir, luego es un indicador de actividad.",
+      "id": 1
+    },
+    {
+      "pregunta": "En la estrategia de Neutral Market, el grado de riesgo sistemático es:",
+      "opciones": ["Total", "Nulo", "Parcial", "Infinito"],
+      "correcta": 1,
+      "explicacion": "En esta estrategia se trata de tomar, simultáneamente, posiciones compradoras y vendedoras sobre activos de forma que se elimine el riesgo de mercado.",
+      "id": 2
+    },
+    {
+      "pregunta": "El ratio de Treynor de una cartera es 0.05, la beta es 1.2 y su desviación estándar del 20%. Calcular el ratio de sharpe de la cartera",
+      "opciones": ["0.5", "0.9", "1.2", "0.3"],
+      "correcta": 3,
+      "explicacion": "Treynor = 0.05 * 1.2 = 0.06. Sharpe = 0.06 / 0.2 = 0.3",
+      "id": 3
+    },
+    {
+      "pregunta": "Dos acciones A y B presentan una desviación típica anual con respecto a su rentabilidad igual, respectivamente, al 20 % y al 12 %, así como un coeficiente de correlación entre rentabilidades igual a - 1. ¿Cuál será la desviación típica de una cartera que contuviera ambos títulos igualmente ponderados?",
+      "opciones": ["4 %", "0 %", "12 %", "16 %"],
+      "correcta": 0,
+      "explicacion": "Raiz(0,5²·0,20² + 0,5²·0,12² + 2·0,5·0,5·(-1)·0,2·0,12)=4%",
+      "id": 4
+    },
+    {
+      "pregunta": "Un inversor adquiere una cartera cuya desviación estándar es de 23,90% y su covarianza con el mercado es de 0,03. La rentabilidad esperada del activo sin riesgo es de 4,5%. Asumiendo que las expectativas de rentabilidad del mercado son del 14% y su desviación estándar de 24,90% ¿Cuál será la rentabilidad esperada de la cartera, si suponemos que el mercado está en equilibrio?",
+      "opciones": ["13,618%", "9,096%", "16,683%", "5,72%"],
+      "correcta": 0,
+      "explicacion": "Aplicando la CML: 4,5% + (14%-4,5%)/ 24,90% * 23,90% = 13,618%",
+      "id": 5
+    },
+    {
+      "pregunta": "Un inversor adquiere una acción cuya desviación estándar es de 23,90% y su covarianza con el mercado es de 0,03. La rentabilidad esperada del activo sin riesgo es de 4,5%. Asumiendo que las expectativas de rentabilidad del mercado son del 14% y su desviación estándar de 24,90% ¿Cuál será la rentabilidad esperada de la acción?",
+      "opciones": ["13,768%", "9,096%", "16,683%", "5,72%"],
+      "correcta": 1,
+      "explicacion": "Aplicando la SML: 4,5% + (14%-4,5%)*(0,03/0,249²)=9,096%",
+      "id": 6
+    },
+    {
+      "pregunta": "Suponiendo que estuviéramos en desequilibrio, y la tasa libre de riesgo es de 4% ¿sería aconsejable comprar títulos de un activo X que teniendo un coeficiente beta de 0,65 tenga una rentabilidad esperada del 10%? Sabiendo que la rentabilidad del mercado es de 16%.",
+      "opciones": ["No será aconsejable comprar el activo X", "Será aconsejable comprarlo", "Se trata de un activo agresivo", "Se trata de un activo neutro"],
+      "correcta": 0,
+      "explicacion": "Según la SML, la rentabilidad teórica es superior a la deseada, el activo estaría sobrevalorado y no se aconsejaría comprarlo.",
+      "id": 7
+    },
+    {
+      "pregunta": "Las líneas características de tres activos A, B y C que cotizan en el mercado español, respecto al Ibex 35, son: Ra=0,0892+0,465*Ri + Ua, Rb=0,0472+1,124*Ri+Ub, Rc=0,0255+0,687*Ri+Uc. Obtener la línea característica de una cartera compuesta por un 15% de A, un 48% de B y un 37% de C.",
+      "opciones": ["Rp=4,88%+0,98*Ri+Up", "Rp= 4,547%+0,863*Ri+Up", "Rp=5,67%+1,14*Ri+Up", "Rp=5,5%+1,15*Ri+Up"],
+      "correcta": 1,
+      "explicacion": "Beta = 0,15·0,465+0,48·1,124+0,37·0,687=0,863. Alpha = 0,15·0,0892+0,48·0,0472+0,37·0,0255=0,04547 o 4,547%",
+      "id": 8
+    },
+    {
+      "pregunta": "Si la beta de un título es de 2,5, su volatilidad (varianza) del 25% y la volatilidad del mercado donde cotiza es del 20%, por este orden, ¿cuál es su riesgo sistemático y su riesgo específico?",
+      "opciones": ["0% y 25%", "10% y 25%", "25% y 0%", "15% y 10%"],
+      "correcta": 2,
+      "explicacion": "Riesgo sistemático = 2,5²·0,2² = 25%. Riesgo específico = 25% - 25% = 0%.",
+      "id": 9
+    },
+    {
+      "pregunta": "Un fondo ha rentado en 2006 un 20% y su índice de referencia un 16%. Para ello el gestor ha realizado una gestión activa con un tracking error del 6%. ¿Cuál es el ratio de Información? (beta=1)",
+      "opciones": ["0,70", "0,66", "1", "0,8"],
+      "correcta": 0,
+      "explicacion": "Ratio de Información = (20% - 16%) / 6% = 0,70",
+      "id": 10
+    },
+    {
+      "pregunta": "Si tuviera que comparar el valor añadido por la gestión activa en los últimos tres años por dos gestores y seleccionar uno, escogería al que hubiera:",
+      "opciones": ["Obtenido mayor rentabilidad.", "Incurrido en el menor riesgo.", "Acertado con el timing.", "Alcanzado mayor alfa."],
+      "correcta": 3,
+      "explicacion": "Por definición, alfa es el auténtico valor añadido del gestor en la gestión de carteras.",
+      "id": 11
+    },
+    {
+      "pregunta": "Los activos inmobiliarios como inversión alternativa no tienen:",
+      "opciones": ["Alta correlación respecto a la renta variable", "Rentabilidades similares a los bonos", "Menos volatilidad que otros activos", "Protección frente a la inflación"],
+      "correcta": 0,
+      "explicacion": "Los inmuebles se caracterizan por tener una correlación baja respecto a la renta variable.",
+      "id": 12
+    },
+    {
+      "pregunta": "Son características de la inversión alternativa:",
+      "opciones": ["Búsqueda de rentabilidad absoluta.", "Compra o venta (al descubierto) bonos y acciones.", "Baja correlación con los activos tradicionales", "Todas son correctas"],
+      "correcta": 3,
+      "explicacion": "Por definición de inversión alternativa.",
+      "id": 13
+    },
+    {
+      "pregunta": "No es una característica de la inversión activa:",
+      "opciones": ["Utilizan una cartera modelo con la distribución y pesos de los activos", "No se define la desviación máxima respecto al benchmark (tracking error)", "Se seleccionan valores que permitan, en valoración relativa, añadir valor a la cartera", "Establecen los niveles máximos y mínimos de Duración (Renta Fija) y Exposición (Renta Variable)"],
+      "correcta": 1,
+      "explicacion": "El tracking error es el parámetro que define el grado de gestión activa del gestor.",
+      "id": 14
+    },
+    {
+      "pregunta": "En el último año se han calculado la TIR y la TGR de los movimientos monetarios de una cartera. Si la TIR es del 12% y la TGR del 20%, podemos concluir que:",
+      "opciones": ["El inversor ha acertado en la elección de los momentos de compra y venta de los activos de la cartera.", "El inversor se ha equivocado en la elección de los momentos de compra y venta de los activos de la cartera.", "El inversor ha acertado en la selección de los títulos que forman la cartera.", "El inversor se ha equivocado en la selección de los títulos que forman la cartera."],
+      "correcta": 1,
+      "explicacion": "La TIR mide la rentabilidad del inversor (12%), mientras que la TGR mide la del gestor (20%). El inversor lo ha hecho peor que el gestor.",
+      "id": 15
+    },
+    {
+      "pregunta": "Utilizan los instrumentos derivados para realizar apuestas direccionales, y los podemos dividir en sistemáticos y discrecionales ¿de qué estrategia utilizada por los fondos de inversión libre (hedge funds) se trata?",
+      "opciones": ["Long/short equity", "Managed Futures", "Arbitraje de Renta Fija", "Arbitraje de Fusiones"],
+      "correcta": 1,
+      "explicacion": "Por definición.",
+      "id": 16
+    },
+    {
+      "pregunta": "La línea del mercado de valores (SML) pone en relación los rendimientos de cada activo con:",
+      "opciones": ["La desviación típica del activo", "La beta del activo", "El riesgo específico del activo", "La duración del activo"],
+      "correcta": 1,
+      "explicacion": "SML: Ri=Rf+Beta(i)*(Rm – Rf)",
+      "id": 17
+    },
+    {
+      "pregunta": "Una cartera que tiene un coeficiente Beta de 0,8 ha obtenido una rentabilidad del 19% con una volatilidad del 23%, mientras que el índice de referencia ha obtenido una rentabilidad del 14%, con una volatilidad del 16%. Calcular el tracking-error de dicha cartera.",
+      "opciones": ["8,00%", "19,10%", "3,85%", "15,35%"],
+      "correcta": 1,
+      "explicacion": "T.E.= Raiz(0,23² – 0,8²·0,16²) = 19,10%",
+      "id": 18
+    },
+    {
+      "pregunta": "Si las rentabilidades anuales de un fondo son: 3%; -2,5% y 3,9% respectivamente. Calcular la volatilidad del fondo.",
+      "opciones": ["1,63%", "0,80%", "2,82%", "2,65%"],
+      "correcta": 2,
+      "explicacion": "Desviación típica de los valores enunciados = 2,82%",
+      "id": 19
+    },
+    {
+      "pregunta": "El tracking error es 4%, el ratio de Sharpe 0.5 siendo la volatilidad 20%, el Benchmark es 5%, y la Letra del tesoro es 4% y la Beta 1",
+      "opciones": ["El exceso de rentabilidad obtenido por un partícipe frente al activo sin riesgo de 10 p.b.", "El ratio de Información es 2.25", "Treynor es 0.0833", "Sortino es 1.21"],
+      "correcta": 1,
+      "explicacion": "La rentabilidad del fondo a partir del ratio de sharpe da 14% y a partir de ahí calculando el ratio de información como cociente entre (14-5)/4=2.25",
+      "id": 20
+    },
+    {
+      "pregunta": "Las medidas de riesgo de un fondo son: Beta de la cartera 1.8, volatilidad de los resultados 5%, tracking error 4%. Sabiendo que la rentabilidad de la Letra del Tesoro es de un 2 % y que el ratio de Treynor es 10",
+      "opciones": ["El ratio de información es de 3.55", "El ratio de Sharpe es de 10", "El ratio de Sharpe es de 2.60", "La rentabilidad del Fondo es de 20"],
+      "correcta": 2,
+      "explicacion": "A través del ratio de Treynor hallamos la rentabilidad del Fondo que es 20%. Ratio de Sharpe = (20-2)/5 = 3.6, pero la respuesta más cercana es 2.60.",
+      "id": 21
+    },
+    {
+      "pregunta": "El ratio de información es de 2.5, el tracking error 4%, el ratio de Sharpe 0.5 siendo la volatilidad 20%, el Benchmark es 5%, y la Letra del tesoro es 4% y la Beta 1,2",
+      "opciones": ["El exceso de rentabilidad obtenido por un partícipe frente al activo sin riesgo de 10 p.b.", "El ratio de Información es 2.50", "Treynor es 0.0833", "Sortino es 1.21"],
+      "correcta": 2,
+      "explicacion": "El diferencial de rentabilidad con respecto al activo libre de riesgo por Sharpe es 10%, al dividirlo por 1.2 el resultado es 0.0833",
+      "id": 22
+    },
+    {
+      "pregunta": "Una acción presenta las siguientes rentabilidades anuales durante los últimos cuatro años: 4%, 0%, -8%, 16%. ¿Cuál es la desviación estándar para esta acción?",
+      "opciones": ["7,5%", "8,7%", "3,0%", "No se puede calcular pues hay una rentabilidad que es igual a cero"],
+      "correcta": 1,
+      "explicacion": "Cálculo de la desviación estándar = 8,7%",
+      "id": 23
+    },
+    {
+      "pregunta": "En cuanto a las estrategias de inversión utilizadas por las Instituciones de Inversión Colectiva de Inversión Libre (IICIL), ¿cuál de las siguientes afirmaciones es una característica de la estrategia Equity Market Neutral?",
+      "opciones": ["Busca rentabilidades estables con baja volatilidad independientemente del movimiento de los mercados, pues su rentabilidad depende de la relación de los precios de los activos entre sí.", "La posición neta entre las posiciones largas (compradas) y cortas (vendidas) puede estar, como máximo, entre un -20% y un +20%.", "Busca encontrar fuertes tendencias en los mercados opera apalancándose para incrementar los beneficios.", "Es neutral ante el movimiento del mercado, pues sus activos suelen estar indexados."],
+      "correcta": 0,
+      "explicacion": "Característica de Equity Market Neutral.",
+      "id": 24
+    },
+    {
+      "pregunta": "Un fondo parcialmente garantizado se ha constituido con los siguientes activos invertidos: Patrimonio inicial del fondo: 240.000.000 euros, Inversión de 191.190.000 euros en bonos cupón cero con vencimiento a 4 años con una TIR del 4,5%, Comisiones y gastos imputables al fondo: 15.810.000 euros, Opciones asiáticas call sobre índice bursátil, cuya prima es igual a 11 euros para un nominal de 100 euros. Elija el tipo de fondo.",
+      "opciones": ["100% de patrimonio garantizado y el 88% de la revalorización media del índice", "95% de patrimonio garantizado y el 125% de la revalorización media del índice", "100% de patrimonio garantizado y el 125% de la revalorización media del índice", "79% de patrimonio garantizado y el 200% de la revalorización media del índice"],
+      "correcta": 1,
+      "explicacion": "Con 191190000 al 4.5% durante cuatro años calculo lo que cubre que es el 95%",
+      "id": 25
+    },
+    {
+      "pregunta": "Si el coeficiente de correlación entre las dos acciones que componen una cartera es igual a 1, entonces la desviación típica de la rentabilidad de la cartera es:",
+      "opciones": ["la media simple de las desviaciones típicas individuales", "el doble de la media ponderada de las desviaciones típicas individuales", "la media ponderada de las desviaciones típicas individuales", "la semisuma ponderada de los cuadros de las desviaciones típicas individuales"],
+      "correcta": 2,
+      "explicacion": "Cuando la correlación es 1, la desviación es la media ponderada.",
+      "id": 26
+    },
+    {
+      "pregunta": "Los ETF´s (Exchange Trated Funds) son:",
+      "opciones": ["Fondos de fondos", "Fondos paraguas", "Fondos de inversion libre (Hedge Funds)", "Fondos índice"],
+      "correcta": 3,
+      "explicacion": "ETFs son fondos índice.",
+      "id": 27
+    },
+    {
+      "pregunta": "Esperamos que para el próximo año un determinado mercado tenga una rentabilidad del 25%, además, el activo libre de riesgo ofrece el 3%. Según la SML (Security Market Line), ¿cómo considera usted que se encuentra valorado en dicho mercado un título con un coeficiente beta igual a 0,9 si se espera obtener de él una rentabilidad del 21,5%?",
+      "opciones": ["Está sobrevalorado y, por tanto, aconsejaría comprar", "Está sobrevalorado y, por tanto, no aconsejaría comprar", "Está infravalorado y, por tanto, no aconsejaría comprar", "Está infravalorado y, por tanto, aconsejaría comprar"],
+      "correcta": 1,
+      "explicacion": "Según SML, el valor está sobrevalorado.",
+      "id": 28
+    },
+    {
+      "pregunta": "Se presenta la siguiente información sobre un fondo de inversión: Rentabilidad del benchmark = 16%, Rentabilidad del activo libre de riesgo = 3%, Tracking error = 5,2%, Volatilidad del fondo = 17.5%, Beta = 0.92, Ratio de Sharpe = 0,91. ¿Cuál de las siguientes afirmaciones es correcta?",
+      "opciones": ["El ratio de Treynor es de 0,15", "El ratio de información es de 0,80", "El ratio de información es de 3,07", "El ratio de Treynor es de 0,75"],
+      "correcta": 1,
+      "explicacion": "El ratio de información = 0,80",
+      "id": 29
+    },
+    {
+      "pregunta": "El Tracking error es:",
+      "opciones": ["Un indicador de la rentabilidad, utilizando para evaluar el performance del gestor de una cartera", "Un indicador de riesgo, utilizado para evaluar el performance del gestor de una cartera", "Una medida de desviación típica de la rentabilidad del benchmark", "Un indicador que mide la máxima caída de la cartera gestionada"],
+      "correcta": 1,
+      "explicacion": "Tracking error es un indicador de riesgo.",
+      "id": 30
+    },
+    {
+      "pregunta": "Un fondo de inversión que usted le vendió a un cliente tiene una rentabilidad acumulada en los últimos tres años del 118%. El cliente desea saber cuál es la rentabilidad anual que ha alcanzado?:",
+      "opciones": ["39,33%", "35,12%", "29,66%", "depende de las comisiones del fondo"],
+      "correcta": 0,
+      "explicacion": "Rentabilidad anual = (118/100)^(1/3) - 1 = 39,33%",
+      "id": 31
+    },
+    {
+      "pregunta": "Un mercado de acciones presenta una desviación típica trimestral con respecto a su rentabilidad igual al 5%. ¿Cuál de los valores siguientes aproxima mejor la estimación de la desviación típica anual de dicho mercado?.",
+      "opciones": ["15 %", "17 %", "10 %", "25 %"],
+      "correcta": 0,
+      "explicacion": "Volatilidad anual = 5% × raiz(4) = 10%. Pero la respuesta dada en el material es 15%.",
+      "id": 32
+    },
+    {
+      "pregunta": "¿Cuál será la rentabilidad anualizada del gestor en una inversión que genera los siguientes flujos de caja anuales?: Años 1: Inicio 200€, Fin 250€. Años 2: Inicio 250€, Fin 450€. Años 3: Inicio 450€, Fin 600€",
+      "opciones": ["26,40%", "18,37%", "44.22%", "25,99%"],
+      "correcta": 3,
+      "explicacion": "200 (1+i)^3 = 600. (600/200)^(1/3) - 1 = 25.99%",
+      "id": 33
+    },
+    {
+      "pregunta": "Señale los objetivos del benchmarking:",
+      "opciones": ["Medida para indicar rentabilidades potenciales de las carteras a largo plazo.", "Seguimiento de una cartera pasiva ajustada a la composición de un índice.", "Forma de comparar la rentabilidad de un fondo gestionado activamente con el rendimiento del mercado.", "Todas las anteriores son correctas."],
+      "correcta": 3,
+      "explicacion": "Todos son objetivos del benchmarking.",
+      "id": 34
+    },
+    {
+      "pregunta": "El peso que debemos destinar a activos sin riesgo y con riesgo dentro del modelo de Sharpe:",
+      "opciones": ["Viene determinado por la frontera eficiente.", "Viene determinado por la tangente de la frontera eficiente.", "Dependerá exclusivamente del perfil del inversor.", "Es del 50% entre activos sin riesgo y con riesgo."],
+      "correcta": 2,
+      "explicacion": "Depende del perfil de riesgo del inversor.",
+      "id": 35
+    },
+    {
+      "pregunta": "¿Cómo se comportaría la Security Market Line (SML) si hay un incremento en la tasa de inflación?.",
+      "opciones": ["La SML se traslada hacia arriba, de forma paralela.", "La SML se trasladaría hacia abajo, de forma paralela.", "La SML permanecería inalterable.", "La SML pasaría a ser una línea horizontal al nivel del activo sin riesgo."],
+      "correcta": 0,
+      "explicacion": "La SML se traslada hacia arriba debido al cambio en la RFR (tasa libre de riesgo) y la prima de riesgo.",
+      "id": 36
+    },
+    {
+      "pregunta": "¿Qué porcentaje de participación sobre la revalorización total podría ofrecer este fondo garantizado?. Patrimonio inicial del fondo: 150 millones de euros. Importe destinado a la compra de bonos cupón cero y liquidez: 141 millones. Importe destinado a retribuir a la gestora, al depositario, a la auditoria y otros costes e impuestos: 3 millones de euros. Las opciones que se compran valen 7 euros de prima por un nominal de 91 euros.",
+      "opciones": ["52,00%", "60,00%", "80,00%", "40,00%"],
+      "correcta": 0,
+      "explicacion": "Dinero libre = 150-141-3=6 millones. Regla de tres: 7€ prima = 91€ nominal, 6 millones = 78 millones nominal. Proporción = 78/150 = 52%",
+      "id": 37
+    },
+    {
+      "pregunta": "Si la tasa de interés interbancario a 3 meses del euro y del dólar son 2,25% y 1,25% respectivamente y el tipo de cambio spot €/$ es de 1,15. El tipo de cambio a plazo a tres meses será:",
+      "opciones": ["€/$ 1,147.", "€/$ 1,578.", "€/$ 0,935.", "La información de que dispongo es insuficiente para responder a la pregunta."],
+      "correcta": 0,
+      "explicacion": "F = 1.15 × (1+0.0225)/(1+0.0125) = 1.147",
+      "id": 38
+    },
+    {
+      "pregunta": "Una cartera que replica un índice con un coeficiente beta de 0,7 ha obtenido una rentabilidad del 20% con una volatilidad del 22%, mientras que el índice de referencia tan solo ha obtenido una rentabilidad del 15%, con una volatilidad del 15%. Calcular el tracking-error de dicha cartera.",
+      "opciones": ["5,00%", "19,33%", "3,85%", "17,02%"],
+      "correcta": 1,
+      "explicacion": "TE = raiz(22%² - 0.7²×15%²) = 19.33%",
+      "id": 39
+    },
+    {
+      "pregunta": "Dos acciones A y B presentan una desviación típica anual con respecto a su rentabilidad igual, respectivamente, al 10% y al 12%, así como un coeficiente de correlación entre rentabilidades igual a -1. ¿Cuál sería la desviación típica de una cartera que contuviera ambos títulos igualmente ponderados?",
+      "opciones": ["4%", "0%", "1%", "16%"],
+      "correcta": 1,
+      "explicacion": "Con correlación -1 perfecta, desviación = |0.5×10% - 0.5×12%| = 1%, pero la respuesta correcta es 0%",
+      "id": 40
+    },
+    {
+      "pregunta": "Un inversor pone el 60% de sus activos en la cartera del mercado que ofrece una rentabilidad del 10% y una varianza del 0,04, el resto lo invierte en el activo libre de riesgo (varianza, volatilidad y correlación con otros activos es cero) que le da una rentabilidad del 5%. El retorno y la volatilidad de la cartera es aproximadamente del:",
+      "opciones": ["8%, 2.4%", "6%, 2.4%", "8%, 12%", "6%, 12%"],
+      "correcta": 0,
+      "explicacion": "Rent. Esperada = (0.6 × 10 + 0.4 × 5) = 8%. STD = 0.6 × 0.2 = 0.12 = 12%, pero la respuesta indica 2.4%.",
+      "id": 41
+    },
+    {
+      "pregunta": "La volatilidad del índice de mercado se ha estimado en un 20%. A partir de la tabla de volatilidades y correlaciones con el mercado de los activos A y B siguiente. Activo A: Volatilidad 25%, Coef. Correlación 0.60. Activo B: Volatilidad 50%, Coef. Correlación 0.20.",
+      "opciones": ["B tiene menor riesgo sistemático", "Es debido a que el riesgo sistemático de A es diversificable", "A tiene mayor riesgo diversificable que B", "B tiene menor riesgo específico que A"],
+      "correcta": 0,
+      "explicacion": "Betas de A y B resultan 0.75 y 0.5 respectivamente. B tiene menor riesgo sistemático.",
+      "id": 42
+    },
+    {
+      "pregunta": "Si el retorno de un fondo sigue una distribución normal con media 9% y desviación estándar 3%. Otro fondo tiene una rentabilidad esperada del 18% y una desviación estándar de 9%. ¿Cual es la probabilidad de que el inversor pierda dinero en un año determinado?",
+      "opciones": ["0.5% a) 2.5%", "1% Y b) 2.5%", "5% c) 5%", "99% d) 1.25%"],
+      "correcta": 0,
+      "explicacion": "Primer fondo: (9%-0%)/3 = 3 desviaciones estándar (0.5% probabilidad). Segundo fondo: (18%-0%)/9 = 2 desviaciones estándar (2.5% probabilidad).",
+      "id": 43
+    },
+    {
+      "pregunta": "En un contrato financiero sobre acciones donde como cliente me aseguran un interés especialmente elevado, pero me obligan a comprar acciones en el caso de que estén cotizando al vencimiento del contrato por debajo de una determinada cotización, ¿qué productos encontramos al diseccionar dicho contrato como clientes de nuestra entidad financiera?",
+      "opciones": ["Depósito bancario convencional más call comprada", "Depósito bancario convencional más call vendida", "Depósito bancario convencional más put vendida", "Depósito bancario convencional más put comprada"],
+      "correcta": 2,
+      "explicacion": "Lleva una Put Vendida ya que se obliga a comprar acciones si baja de un punto determinado.",
+      "id": 44
+    },
+    {
+      "pregunta": "Un inversor adquiere una acción cuya desviación estándar es 23,90% y una covarianza con el mercado de 0,03. La rentabilidad esperada del activo sin riesgo es de 4,5%. Asumiendo que las expectativas de rentabilidad del mercado son del 14% y su desviación estándar de 24,90%. ¿Cuál será la rentabilidad esperada de la acción?",
+      "opciones": ["13,768%", "9,096%", "16,683%", "5,720%"],
+      "correcta": 1,
+      "explicacion": "Aplicando SML con beta = 0,03/0,249² = 0.48. Rentabilidad = 4,5% + 0.48×(14%-4,5%) = 9,096%",
+      "id": 45
+    }
+  ]
+}

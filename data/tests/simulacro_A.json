@@ -1,0 +1,608 @@
+{
+  "titulo": "Simulacro EFA - Simulacro A (Jesús Pérez)",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "A efectos de planificar su jubilación, el Sr. Ruiz está interesado en contratar un Plan de Jubilación. Usted, su asesor financiero, le resume las principales características de este producto de ahorro previsión. Señale la afirmación NO correcta.",
+      "opciones": [
+        "Liquidez inmediata, aunque con posibles penalizaciones.",
+        "La aportación tiene un máximo legal del 30% de la base imponible del IRPF",
+        "Las prestaciones gozan de deducción fiscal, en concreto, del 75% para las realizadas a más de 5 años.",
+        "El asegurado tiene garantizada una rentabilidad mínima durante la vida del producto."
+      ],
+      "correcta": 2,
+      "explicacion": "Las prestaciones gozan de deducción fiscal, en concreto, del 75% para las realizadas a más de 5 años es incorrecta. La aportación general máxima no está limitada. Para las primas de seguros constituidos antes de 20-01-2006, tienen una reducción del 75% si tienen más de 5 años antes de 20-01-2006.",
+      "id": 1
+    },
+    {
+      "pregunta": "En la expresión σ² (Ri) = β²ᵢ σ²ₘ + σ²ᵢ, el término β²ᵢ σ²ₘ se refiere al",
+      "opciones": [
+        "Riesgo total",
+        "Riesgo Sistemático",
+        "Riesgo específico",
+        "Covarianza del título respecto del mercado."
+      ],
+      "correcta": 1,
+      "explicacion": "σ² (Ri) = β²ᵢ σ²ₘ + σ²ᵢ, riesgo total=riesgo sistemático + riesgo específico. El término β²ᵢ σ²ₘ se refiere al Riesgo Sistemático.",
+      "id": 2
+    },
+    {
+      "pregunta": "Nuestro cliente está analizando la posibilidad de invertir en activos inmobiliarios como alternativa a su tradicional inversión financiera. Usted le comenta algunas peculiaridades de este tipo de inversiones. Señale la afirmación NO correcta.",
+      "opciones": [
+        "La actividad inmobiliaria es sensible a la actividad económica y se mueve estimulada por ella.",
+        "El ciclo inmobiliario actúa con adelanto respecto al ciclo económico",
+        "Es más brusco en la caída y mas lento en la recuperación",
+        "Presenta baja correlación con los activos financieros tradicionales"
+      ],
+      "correcta": 1,
+      "explicacion": "El ciclo inmobiliario actúa con retardo respecto el bursátil y el económico, no con adelanto.",
+      "id": 3
+    },
+    {
+      "pregunta": "¿Cómo detectaría fases alcistas o bajistas del ciclo bursátil a partir de medias móviles?",
+      "opciones": [
+        "Mediante el cruce de dos medias móviles exponenciales cortas.",
+        "A través del oscilador denominado MACD.",
+        "Observando tres medias móviles. Por ejemplo, una de 20 días, otra de 70 días y otra de 120 días. El orden entre ellas permite detectar fases alcistas o bajistas.",
+        "No se pueden utilizar las medias móviles para este fin."
+      ],
+      "correcta": 2,
+      "explicacion": "Observando tres medias móviles. Por ejemplo, una de 20 días, otra de 70 días y otra de 120 días. El orden entre ellas permite detectar fases alcistas o bajistas.",
+      "id": 4
+    },
+    {
+      "pregunta": "Si las tasas de interés interbancario a 3 meses del euro y del dólar son 2,25% y 1,25% respectivamente y el tipo de cambio spot EUR/USD es de 1,15. El tipo de cambio forward o a plazo a tres meses será:",
+      "opciones": [
+        "EUR/USD 1,147.",
+        "EUR/USD 1,578.",
+        "EUR/USD 0,935.",
+        "La información de que dispongo es insuficiente para responder a la pregunta."
+      ],
+      "correcta": 0,
+      "explicacion": "Aplicando la siguiente fórmula: F = 1,15 * [( 1 + 1,25% * 90 / 360 ) / ( 1 + 2,25% * 90 / 360 ) = 0,9975 * 1,15 = 1,147 dólares por cada euro.",
+      "id": 5
+    },
+    {
+      "pregunta": "Un warrant sobre acciones de Repsol es:",
+      "opciones": [
+        "Una opción de compra (call).",
+        "Una opción de venta (put).",
+        "Puede ser una opción de compra o de venta.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 3,
+      "explicacion": "Adquisición de warrants sobre acciones pueden compra call y compra put.",
+      "id": 6
+    },
+    {
+      "pregunta": "Luisa Martínez está interesada en algunos aspectos fiscales de los planes de pensiones. ¿Cuál de estas afirmaciones considera usted que NO es correcta?",
+      "opciones": [
+        "Las prestaciones en forma de renta se consideran rendimientos de trabajo con una deducción del 30%.",
+        "Las prestaciones en forma de capital se reducirán en un 40% siempre que hayan pasado más de 2 años desde la primera aportación siempre que se realizada antes de 31-12-2006.",
+        "La deducción anual máxima para ella, de 40 años de edad, es de 1.500 euros.",
+        "Puede ser beneficiario simultáneamente de 2 planes de pensiones individuales."
+      ],
+      "correcta": 3,
+      "explicacion": "Las prestaciones de un plan de pensiones se integran en la base general del IRPF sin reducción alguna.",
+      "id": 7
+    },
+    {
+      "pregunta": "Un cliente nos pregunta que decisión debe tomar sobre un valor que se sitúa por encima de la línea SML.",
+      "opciones": [
+        "Comprar",
+        "Vender",
+        "Nunca puede situarse por encima de la línea SML.",
+        "Ninguna respuesta anterior es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "Si le rentabilidad del valor se sitúa por encima de la rentabilidad de equilibrio de la SML el título estará infravalorado y será oportunidad de compra.",
+      "id": 8
+    },
+    {
+      "pregunta": "A la hora de evaluar a 2 gestores de carteras, el índice que expresa la prima de riesgo asumida por el mercado, en un determinado período:",
+      "opciones": [
+        "Índice de Treynor",
+        "Índice de Sharpe",
+        "Índice de Jensen",
+        "Ninguno de los anteriores."
+      ],
+      "correcta": 0,
+      "explicacion": "A mayor índice de Treynor más eficiente, en términos de rentabilidad-riesgo ha sido la gestión.",
+      "id": 9
+    },
+    {
+      "pregunta": "Los gestores financieros consideran que el problema del mercado inmobiliario es que es un mercado: (señale la respuesta NO correcta)",
+      "opciones": [
+        "De fuerte componente local",
+        "Ineficiente por falta de transparencia",
+        "Donde existen mercados secundarios regulados",
+        "Es un activo poco líquido."
+      ],
+      "correcta": 2,
+      "explicacion": "En el mercado inmobiliario no existen mercados secundarios regulados.",
+      "id": 10
+    },
+    {
+      "pregunta": "Conocidos los siguientes datos: (tabla con rentabilidades, desviaciones y correlaciones) ¿Cuál es la volatilidad de una cartera 50% Renta Variable y 50% Renta Fija?",
+      "opciones": [
+        "σc = 6,07%",
+        "σc = 4,07%",
+        "σc = 8,07%",
+        "σc = 11,07%"
+      ],
+      "correcta": 3,
+      "explicacion": "σc = raiz(0,5^2*0,2^2+0,5^2*0,06^2+2*0,5*0,5*(0,2*0,06*0.225))=11,07%",
+      "id": 11
+    },
+    {
+      "pregunta": "Suponiendo que el tipo de cambio del dólar canadiense contra el dólar americano sea 1,33 y el tipo de la corona sueca contra el dólar americano sea 7,58 ¿Cuál es el tipo de cambio de la Corona sueca frente al dólar canadiense?",
+      "opciones": [
+        "CAD/SEK 0,1754",
+        "CAD/SEK 5,6992",
+        "CAD/SEK 6,2554",
+        "No se puede calcular con los datos facilitados"
+      ],
+      "correcta": 1,
+      "explicacion": "Solución: 1,33 CAD/1USD = 7,58 SEK/1USD. 1 CAD = 7,58/1,33 = 5,6992 SEK",
+      "id": 12
+    },
+    {
+      "pregunta": "La Gestión Pasiva se caracteriza por:",
+      "opciones": [
+        "Se ajustan entradas y salidas en los valores del índice replicando al benchmark definido",
+        "Tracking error = 0",
+        "Diariamente se recompone la cartera en función de las suscripciones o reembolsos que haya en el fondo",
+        "Todas las anteriores son características de este tipo de Gestión"
+      ],
+      "correcta": 3,
+      "explicacion": "La gestión pasiva replica un índice, por lo que lo que indican las respuestas es correcto.",
+      "id": 13
+    },
+    {
+      "pregunta": "El VaR es:",
+      "opciones": [
+        "Value at Risk Es la máxima ganancia que puede darse en condiciones normales de mercado en un período determinado de tiempo",
+        "Value at Risk Es la máxima pérdida que puede darse en condiciones normales de mercado en un período determinado de tiempo con una probabilidad determinada.",
+        "Gestión activa vinculada a un benchmark que limita los activos en los que invertir o que fija sus pesos.",
+        "Delimita las ganancias máximas en el mandato de gestión"
+      ],
+      "correcta": 1,
+      "explicacion": "VaR o valor en riesgo es la máxima pérdida pérdida que puede darse en condiciones normales de mercado en un período determinado de tiempo.",
+      "id": 14
+    },
+    {
+      "pregunta": "El riesgo absoluto de una cartera se mide con:",
+      "opciones": [
+        "La beta",
+        "El tracking error",
+        "La volatilidad",
+        "Todos los anteriores"
+      ],
+      "correcta": 2,
+      "explicacion": "La volatilidad medida a través de la desviación típica, mide el riesgo absoluto o total de una inversión respecto de su comportamiento medio.",
+      "id": 15
+    },
+    {
+      "pregunta": "Un gestor de cartera de fondo de pensiones está planificando la tesorería para pagar prestaciones. El coeficiente mínimo de liquidez de un fondo de pensiones es:",
+      "opciones": [
+        "es del 4 % en la actualidad",
+        "es del 5% en la actualidad",
+        "es del 10% en la actualidad",
+        "Depende de las necesidades de cada fondo."
+      ],
+      "correcta": 3,
+      "explicacion": "Un fondo de pensiones no tiene un coeficiente de liquidez concreto, si no que depende de sus necesidades específicas.",
+      "id": 16
+    },
+    {
+      "pregunta": "En la prensa económica ha sido publicada la siguiente noticia: \"la tasa de actividad del empleo se ha reducido en España en un 2%, por debajo de las estimaciones de los analistas, que confiaban en que aumentaría en un 1%\". ¿a qué hace referencia este indicador?",
+      "opciones": [
+        "Desempleados sobre Población Activa",
+        "Empleados sobre Población Activa",
+        "Población Activa sobre Población en edad de trabajar",
+        "Desempleo cíclico sobre el estacional"
+      ],
+      "correcta": 2,
+      "explicacion": "El indicador de tasa de actividad = Población Activa sobre Población en edad de trabajar",
+      "id": 17
+    },
+    {
+      "pregunta": "Un gestor de carteras que administra un fondo de inversión de renta variable altamente diversificado, cuyo patrimonio está situado hoy en 190 millones de Euros, decide cubrirlo con futuros sobre el Ibex-35. Determinar el número de contratos según los datos siguientes: Valor nominal de la cartera de renta variable 125.000.000 euros, Valor efectivo de la cartera de renta variable 175.500.000 euros, Ibex-35 contado 8.210,5, Futuro Ibex-35 vto. próximo 8.230, Beta global de la cartera (altamente fable) 1.05",
+      "opciones": [
+        "1599",
+        "2239",
+        "1519",
+        "2250"
+      ],
+      "correcta": 1,
+      "explicacion": "Aplicando la fórmula Ratio de Cobertura = Beta * (Valor efectivo de la cartera/(Índice futuro * Multiplicador Delta)). Siendo multiplicador = 10 (característica de los futuros sobre IBEX35). =175.500.000*1,05/8230*10*(-1)=2.239, por tanto 2.239 contratos a vender.",
+      "id": 18
+    },
+    {
+      "pregunta": "Indicar la respuesta correcta en relación con el sistema alemán de amortización de préstamos:",
+      "opciones": [
+        "Cuota decreciente compuesta de intereses + cuota de amortización.",
+        "Interés sobre saldo pendiente (disminuye a lo largo de la vida del préstamo)",
+        "Amortización parcial y constante con cada cuota (préstamo / número de cuotas)",
+        "Todas son correctas"
+      ],
+      "correcta": 3,
+      "explicacion": "Sistema Alemán o de cuota de amortización constante: En este sistema el tipo de préstamo el valor de las cuotas del préstamo son decrecientes, estando compuestas por intereses (que se calculan sobre el saldo de deuda, y por eso decrecen) y la cuota de amortización constante del capital.",
+      "id": 19
+    },
+    {
+      "pregunta": "D. Felipe Hurtado desea saber cuales son las características de un fondo de Renta Variable Mixta, de cara a realizar sus inversiones. Su Agente de Banca Personal le indica que este tipo de fondos se caracteriza por:",
+      "opciones": [
+        "Entre el 30 y el 50% de la cartera debe estar representado en moneda no euro",
+        "Entre el 30 y 75% de la cartera debe estar representado en activos de renta variable",
+        "Al menos el 75% de la cartera debe estar representado en activos de renta variable",
+        "Las opciones a) y c) son correctas"
+      ],
+      "correcta": 1,
+      "explicacion": "Según clasificación regulatoria, entre el 30% y 75% de la cartera debe estar representado en activos de renta variable",
+      "id": 20
+    },
+    {
+      "pregunta": "Indique qué afirmación de las siguientes afirmaciones le parece correcta:",
+      "opciones": [
+        "El precio/ valor contable es un ratio válido para comparar todo tipo de acciones.",
+        "Un earning yield gap negativo significa un mercado de acciones caro o sobrevalorado",
+        "Un PER de 12 en Estados Unidos sería el signo de un mercado caro en término histórico.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1,
+      "explicacion": "Un earning yield gap negativo significa un mercado de acciones caro o sobrevalorado. EYG=rent. Bolsa – rent. bono a 10 años. Si EYG>0, bolsa barata. Si EYG<0, bolsa cara. Si EYG=0, bolsa bien valorada.",
+      "id": 21
+    },
+    {
+      "pregunta": "El coeficiente de correlación de los activos de una cartera es 0, esto indica:",
+      "opciones": [
+        "relación positiva perfecta.",
+        "relación negativa perfecta.",
+        "que no existe relación.",
+        "ninguna es cierta."
+      ],
+      "correcta": 2,
+      "explicacion": "Correlación 0 indica que los activos son independientes, o no correlacionados.",
+      "id": 22
+    },
+    {
+      "pregunta": "Se entiende por tracking error.",
+      "opciones": [
+        "La desviación típica de los diferenciales de rendimiento de una cartera respecto a la de su benchmark.",
+        "El error que comete un gestor al sobreponderar la cartera de un valor.",
+        "La evolución, histórica, medida como volatilidad de una cartera.",
+        "Una forma de medir el riesgo sistemático según el CAPM."
+      ],
+      "correcta": 0,
+      "explicacion": "El tracking error es la desviación típica del alfa de una cartera. Alfa = Rent. Cartera – beta*Rent. Índice. Hasta 2% de TE es gestión pasiva. Más de 5% de TE es gestión descontrolada.",
+      "id": 23
+    },
+    {
+      "pregunta": "El titular de las inversiones en un producto estructurado no garantizado a través de un seguro unit linked es:",
+      "opciones": [
+        "El tomador",
+        "El asegurado",
+        "La aseguradora",
+        "El beneficiario"
+      ],
+      "correcta": 2,
+      "explicacion": "Con el seguro unit linked el tomador invierte en un seguro de vida y designa los activos en los que quiere invertir mientras que la aseguradora sustenta la titularidad de esto activos y los asigna a la póliza.",
+      "id": 24
+    },
+    {
+      "pregunta": "La hipótesis de eficiencia débil implica que:",
+      "opciones": [
+        "El análisis técnico no aporta valor.",
+        "El análisis fundamental no aporta valor.",
+        "El insider trading no generará beneficios.",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0,
+      "explicacion": "El análisis técnico es el estudio de los movimientos del mercado, principalmente mediante el uso de los gráficos de precios con el propósito de pronosticar las tendencias y los próximos movimientos de las cotizaciones.",
+      "id": 25
+    },
+    {
+      "pregunta": "A largo plazo cuál de los siguientes factores explica la mayor parte de la rentabilidad de una inversión.",
+      "opciones": [
+        "Asignación de Activos.",
+        "Selección de valores.",
+        "Timing.",
+        "Selección de la divsa."
+      ],
+      "correcta": 0,
+      "explicacion": "La asignación de activo explica la mayor parte del retorno de las carteras a largo plazo",
+      "id": 26
+    },
+    {
+      "pregunta": "¿Cuál de las respuestas siguientes NO definiría a un Hedge Funds?",
+      "opciones": [
+        "Buscan Rentabilidad absoluta independientemente de la tendencia del mercado",
+        "Utilizan técnicas sofisticadas para medir y controlar los riesgos",
+        "Exigen una alta inversión inicial",
+        "No pueden invertir más del patrimonio del fondo"
+      ],
+      "correcta": 3,
+      "explicacion": "Los hedge funds se pueden apalancar por encima del patrimonio del fondo hasta 5 veces.",
+      "id": 27
+    },
+    {
+      "pregunta": "Los empresarios individuales en su planificación financiera personal:",
+      "opciones": [
+        "Podrán ser promotores de Planes de Pensiones de Empleo pero no podrán hacer aportaciones a su favor a dichos planes.",
+        "No podrán ser promotores de Planes de Pensiones de Empleo.",
+        "No podrán ser promotores de Planes de Pensiones de Empleo pero sí podrán hacer aportaciones a su favor a dichos planes.",
+        "Podrán ser promotores de Planes de Pensiones de Empleo y podrán hacer aportaciones a su favor a dicho plan."
+      ],
+      "correcta": 3,
+      "explicacion": "Un empresario puede promover un plan de empleo y hacerse aportaciones a sí mismo.",
+      "id": 28
+    },
+    {
+      "pregunta": "Señale cual puede ser una diferencia entre préstamo y una póliza de crédito:",
+      "opciones": [
+        "Los préstamos están especialmente recomendados para financiar los desfases de tesorería puntuales que puede tener una empresa y no así las pólizas de crédito.",
+        "En la póliza de crédito se pagan intereses por la cantidad dispuesta y en el préstamo por el importe concedido.",
+        "Las pólizas de crédito suelen tener vencimiento superiores a un año y en cambio hay vencimientos a corto, medio y largo plazo para los préstamos.",
+        "Todas son correctas"
+      ],
+      "correcta": 1,
+      "explicacion": "La respuesta a) es al revés, es decir, las pólizas de crédito están especialmente recomendadas para financiar los desfases de tesorería puntuales que puede tener una empresa. La respuesta c) es incorrecta ya que las pólizas de crédito suelen tener vencimientos a un año, otra cuestión es que se solicite su renovación.",
+      "id": 29
+    },
+    {
+      "pregunta": "En relación al leasing financiero, indique cuál de las siguientes afirmaciones es correcta:",
+      "opciones": [
+        "La propiedad del bien corresponde en todo momento al arrendatario.",
+        "Hasta que se ejecuta la opción de compra, la propiedad del bien corresponde a la entidad arrendadora.",
+        "El mantenimiento del bien corre a cargo de la compañía de leasing.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1,
+      "explicacion": "La sociedad de leasing adquiere un bien a un proveedor con objeto de arrendarlo al cliente con opción de compra. A la finalización del arrendamiento (pago de la última cuota), se procederá: Al levantamiento de la reserva de dominio en el caso de bienes muebles. La firma de la escritura de transmisión de la propiedad a favor del cliente.",
+      "id": 30
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes funciones no sería de una Gestora de fondos hedge?",
+      "opciones": [
+        "Gestionar el patrimonio de las IIC.",
+        "Valorar diariamente las IIC",
+        "Realizar la compra-venta de valores",
+        "Ordenar cobros y pagos al Depositario"
+      ],
+      "correcta": 2,
+      "explicacion": "La compra-venta de valores la ordena la entidad gestora pero lo ejecuta el bróker o sociedad de valores.",
+      "id": 31
+    },
+    {
+      "pregunta": "Para el conocimiento del riesgo de las operaciones de financiación a particulares, los bancos suelen acudir a fuentes de información:",
+      "opciones": [
+        "Registro de la Propiedad",
+        "Sociedades de Tasación",
+        "RAI",
+        "Todas son correctas"
+      ],
+      "correcta": 3,
+      "explicacion": "La evolución de internet nos ha permitido en muchos de los casos que las fuentes nos faciliten información \"on line\". Cuando hablamos de particulares podemos fijarnos en el Registro de la Propiedad, Sociedades de Tasación, RAI, ASNEF, CIRBE.",
+      "id": 32
+    },
+    {
+      "pregunta": "La estrategia de Long/short Equity:",
+      "opciones": [
+        "Tiene como objetivo comprar aquellas acciones infravaloradas y vender al descubierto las que se encuentran sobrevaloradas",
+        "Tiene como objetivo comprar aquellas acciones sobrevaloradas y vender al descubierto las que se encuentran infravaloradas",
+        "Tiene como objetivo comprar acciones de cualquier tipo y vender al descubierto las que se encuentran sobrevaloradas",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "Long short: comprar acciones infravaloradas y vender sobrevaloradas",
+      "id": 33
+    },
+    {
+      "pregunta": "Ana suscribe un seguro de vida que cubre el fallecimiento de su marido Antonio, siendo su beneficiario su hijo Luis. Bajo tal hipótesis, ¿qué impuesto deberá satisfacer el beneficiario de la prestación de fallecimiento? Seleccione la respuesta adecuada",
+      "opciones": [
+        "Impuesto sobre la Renta de las Personas Físicas.",
+        "Impuesto sobre Sucesiones y Donaciones intervivos",
+        "Impuesto sobre Sucesiones y donaciones mortis causa",
+        "Impuesto sobre el Patrimonio"
+      ],
+      "correcta": 1,
+      "explicacion": "Como tomador y beneficiaria están vidas, es una donación.",
+      "id": 34
+    },
+    {
+      "pregunta": "Una cartera & se forma con títulos B y C . El título B tiene una rentabilidad esperada (RE) de 6,43% y una varianza (V) de 1,14 y el título C tiene una (RE) de 7,14% y una (V) de 0,87. La correlación entre los títulos es negativa en un 30%. La estructura de la cartera es 65 % en títulos B y el resto en títulos C. La rentabilidad esperada de la cartera & será:",
+      "opciones": [
+        "8,68%",
+        "2,67%",
+        "6,67%",
+        "4,68%"
+      ],
+      "correcta": 2,
+      "explicacion": "R= 6,43%*65%+7,14%*35%=6,67%",
+      "id": 35
+    },
+    {
+      "pregunta": "El ratio de Treynor:",
+      "opciones": [
+        "Expresa la prima de riesgo obtenida por el mercado, por unidad de beta",
+        "Es una medida de rentabilidad absoluta obtenida en un cierto período de tiempo",
+        "Nos aporta el precio teórico de la acción de la compañía analizada",
+        "Suele denominarse ratio premio/volatilidad"
+      ],
+      "correcta": 0,
+      "explicacion": "T=(Rc-Rf)/beta",
+      "id": 36
+    },
+    {
+      "pregunta": "Según el modelo CAPM:",
+      "opciones": [
+        "El riesgo sistemático se puede eliminar diversificando la cartera",
+        "El riesgo sistemático no se puede eliminar diversificando la cartera",
+        "El riesgo sistemático es el riesgo total de la cartera más el riesgo específico",
+        "Ninguna es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "El riesgo sistemático o de mercado se puede eliminar mediante la diversificación de la cartera.",
+      "id": 37
+    },
+    {
+      "pregunta": "Rentabilidad de la cartera mixta \"p\" con préstamo ó endeudamiento. Se expresa Ex-post : Rp = X1*Rf + X2*Rv. Donde: (Señale la respuesta incorrecta)",
+      "opciones": [
+        "Rp = Rentabilidad de la cartera mixta P con préstamo ó endeudamiento.",
+        "Ry y Rv = La rentabilidad de los títulos sin riesgo y con riesgo, respectivamente.",
+        "X1 = Parte del presupuesto de inversión cedida en forma de préstamo (X1 > 0 ), ó adeudada ( X1 < 0 ) dedicada a activos sin riesgo.",
+        "X2 = Parte del presupuesto de inversión invertida en activos con riesgo (X2 < 1, cuando existe endeudamiento y X2 > 1 cuando se presta)."
+      ],
+      "correcta": 3,
+      "explicacion": "En la cartera con endeudamiento, el peso del activo con riesgo es mayor que uno y el activo sin riesgo es menor que uno.",
+      "id": 38
+    },
+    {
+      "pregunta": "Un partícipe en Fondos de Inversión y en SICAVs, podrá imputar sus pérdidas patrimoniales cuando:",
+      "opciones": [
+        "Dentro de los dos meses posteriores a la transmisión que generó la pérdida, el partícipe adquirió valores homogéneos. La pérdida se irá computando a medida que se vayan transmitiendo los valores que permanezcan en el patrimonio del partícipe",
+        "En el mes anterior o posterior a la transmisión que generó la pérdida, el partícipe adquirió valores homogéneos. La pérdida se irá computando a medida que se vayan transmitiendo los valores que permanezcan en el patrimonio del partícipe",
+        "En los dos meses posteriores a la transmisión que generó la pérdida",
+        "Ninguna es correcta"
+      ],
+      "correcta": 3,
+      "explicacion": "Las pérdidas no se computan cuando, en los dos meses anteriores o posteriores a la transmisión que generó la pérdida, el partícipe adquirió valores homogéneos. La pérdida se irá computando a medida que se vayan transmitiendo los valores.",
+      "id": 39
+    },
+    {
+      "pregunta": "Una persona física residente en España que reciba un dividendo de una entidad no residente en nuestro país",
+      "opciones": [
+        "Debe, a los efectos de integrar la renta en su base imponible del IRPF, en términos generales, multiplicar el dividendo bruto recibido por 1,4 y aplicar, sobre la cuota, una deducción del 40% de dicho dividendo.",
+        "Integrará el dividendo bruto, sin aplicación de coeficiente multiplicador alguno, y sin que resultase de aplicación deducción alguna en cuota distinta de la deducción para evitar la doble imposición internacional, aparte de la deducción de las retenciones que, en España, pudieran haberse practicado sobre dicho dividendo.",
+        "No va a quedar sometida a retención a cuenta del IRPF en ningún caso. Aplicará el tratamiento fiscal previsto en la Ley del IRPF con independencia de lo que se estableciese o no en algún Convenio para evitar la doble imposición que pudiera resultar de aplicación.",
+        "Todas son correctas"
+      ],
+      "correcta": 0,
+      "explicacion": "En este caso el dividendo se integra al 100%, pudiendo deducir en su cuota por doble imposición internacional en función del convenio de doble imposición firmado por España con el país de origen del dividendo.",
+      "id": 40
+    },
+    {
+      "pregunta": "Una familia ha decidido concentrar todas las acciones de las sociedades que forman su grupo empresarial en una sociedad \"holding\". Consecuentemente, el activo de esa sociedad se encuentra compuesto, en su mayoría, por acciones de las sociedades operativas.",
+      "opciones": [
+        "Esa sociedad holding es una sociedad patrimonial, pues más del 50 por 100 de su activo está compuesto por valores y su capital social pertenece a un grupo familiar.",
+        "La sociedad holding es patrimonial, pero podrían evitar esta situación si cotiizase en bolsa.",
+        "Siempre y cuando la sociedad holding dispusiera de medios humanos y materiales para dirigir y gestionar la participación en cada una de las sociedades del grupo y éstas fueran sociedad que tributen en el régimen general del Impuesto sobre Sociedades, la sociedad holding no sería patrimonial.",
+        "Todas son correctas"
+      ],
+      "correcta": 2,
+      "explicacion": "Si todos los socios de la sociedad holding tributan en el Impuesto de Sociedades no tiene la consideración de sociedad patrimonial.",
+      "id": 41
+    },
+    {
+      "pregunta": "La inversión por parte de un residente fiscal en Austria, sin establecimiento permanente en España, en un bono emitido por una empresa privada española cotizado en AIAF (mercado secundario oficial de valores)",
+      "opciones": [
+        "No generaría rentas sometidas a tributación por el Impuesto sobre la Renta de no Residentes español en ningún caso.",
+        "Implicaría que la renta derivada de la transmisión del bono quedaría, en principio, exenta de tributación por el Impuesto sobre la Renta de no Residentes español, salvo que el inversor efectuase la inversión a través de un paraíso fiscal.",
+        "Generaría, como única renta gravable, el cupón.",
+        "Determinaría el efectivo gravamen, en todo caso, por el Impuesto sobre la Renta de no Residentes, de las distintas rentas procedentes de la inversión."
+      ],
+      "correcta": 1,
+      "explicacion": "Al ser un residente procedente de un país de la Unión europea, las rentas que genera el bono están exentas en el IRNR.",
+      "id": 42
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes bienes está exento en Patrimonio?",
+      "opciones": [
+        "Los derechos consolidados de un partícipe en un plan de pensiones.",
+        "Los depósitos a plazo.",
+        "Un seguro de jubilación que no instrumente compromisos por pensiones.",
+        "Objetos de arte siempre que se trate de obras originales. Antigüedades con tiempo superior a 50 años"
+      ],
+      "correcta": 3,
+      "explicacion": "Los planes de pensiones no están afectos al impuesto de patrimonio.",
+      "id": 43
+    },
+    {
+      "pregunta": "De un inmueble conocemos las siguientes valoraciones; ¿cuál es la que prevalece a efectos de impuesto sobre el patrimonio?",
+      "opciones": [
+        "Se adquirió por compraventa por 150.000 €.",
+        "Su valor catastral es de 80.000 €.",
+        "La comunidad autónoma realizó una comprobación de valor a efectos de ITP, valorándolo en 190.000 €",
+        "Su valor de mercado en la actualidad es de 220.000 €"
+      ],
+      "correcta": 2,
+      "explicacion": "Los inmuebles se valoran a efectos del IP por el mayor valor de: valor catastral, valor comprobado por la administración a efectos de otros tributos o valor de adquisición, por eso en este caso la respuesta correcta es la c)",
+      "id": 44
+    },
+    {
+      "pregunta": "La cuota conjunta entre el IRPF y el Impuesto de Patrimonio es:",
+      "opciones": [
+        "60% de la base imponible del IRPF",
+        "60% de la base imponible de IP",
+        "80% de la base imponible del IRPF",
+        "Todas son correctas"
+      ],
+      "correcta": 1,
+      "explicacion": "La cuota integra del Impuesto de patrimonio conjuntamente con las cuotas del Impuesto sobre la Renta de las Personas Físicas, no podrá exceder, para los sujetos pasivos sometidos al impuesto por obligación personal, del 60 por 100 de la suma de las bases imponibles del IRPF. En el supuesto de que la suma de ambas cuotas supere el límite anterior, se reducirá la cuota del Impuesto sobre el Patrimonio hasta alcanzar el límite indicado, sin que la reducción pueda exceder del 80 por 100.",
+      "id": 45
+    },
+    {
+      "pregunta": "Dentro del ciclo de vida de los inversores, aquellos que se encuentran en la fase de aportación se caracterizan por:",
+      "opciones": [
+        "I. Tener un horizonte temporal más corto.",
+        "II. La necesidad de protegerse contra la inflación es más importante que en otras fases.",
+        "III. La optimización fiscal es el aspecto de mayor importancia.",
+        "a) I. b) I y II. c) I, II y III. d) Ninguna es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "En la fase de aportación, el inversor es joven y tiene un horizonte temporal más largo, no es tan importante la protección contra la inflación y ya optimiza su fiscalidad con otro tipo de inversiones.",
+      "id": 46
+    },
+    {
+      "pregunta": "Según la teoría de la inmunización, cuál debe ser la relación entre el horizonte temporal (HT) y la duración (D) de la cartera para que ésta esté totalmente inmunizada:",
+      "opciones": [
+        "D > HT",
+        "D = HT/2",
+        "D < HT",
+        "D = HT"
+      ],
+      "correcta": 3,
+      "explicacion": "Si una cartera está inmunizada, los desplazamientos de la curva de tipos no darán lugar a rendimientos inferiores a los inicialmente citados por el mercado para dicha cartera. En los títulos cupón cero, por definición el horizonte temporal es igual a la duración y, como es sabido, no se encuentran afectados por las reinversiones de tipos.",
+      "id": 47
+    },
+    {
+      "pregunta": "Supóngase que la Reserva Federal Americana decide inesperadamente una disminución en los tipos de interés. ¿Cuál de las siguientes afirmaciones tendrá lugar, con mayor probabilidad, como consecuencia de dicha decisión de Política Monetaria?",
+      "opciones": [
+        "Un aumento en el precio del Bono Alemán.",
+        "Una disminución en el precio de la Letra del Tesoro.",
+        "Una apreciación del dólar estadounidense.",
+        "Una depreciación del dólar estadounidense."
+      ],
+      "correcta": 3,
+      "explicacion": "La depreciación del dólar busca ser más competitivos en el comercio exterior. Al tener el dólar depreciado, a los extranjeros les resulta más barato comprar productos americanos; de ahí la ventaja de este tipo de medidas de política monetaria.",
+      "id": 48
+    },
+    {
+      "pregunta": "Pedro acaba de recibir una empresa familiar como herencia y nos pregunta cómo tiene que tributar:",
+      "opciones": [
+        "Está sujeto al IRPF como renta del ahorro",
+        "Está exenta en ISD al 95% si la mantiene 10 años.",
+        "Tributa al 30% en el IS",
+        "Tributa al 25% en IS"
+      ],
+      "correcta": 1,
+      "explicacion": "Para poder aplicar al 95% de exención del pago de ISD en recepción de empresa familiar se ha de mantener al menos 10 años con actividad.",
+      "id": 49
+    },
+    {
+      "pregunta": "John Rubens es Suizo que obtiene rentas del trabajo por 50.000 en España, pero no reside aquí. ¿Cuánto tiene que tributar en España?",
+      "opciones": [
+        "El tipo progresivo del IRPF: 10.255 euros",
+        "12.000 euros",
+        "9.000 euros",
+        "Ninguna es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "IRNR: al ser no residente de la UE las rentas del trabajo obtenidas por no residentes tributan al 24%, al no indicar que hayan sido obtenidas por establecimiento permanente, luego: 50.000*0,24=12.000 euros",
+      "id": 50
+    }
+  ]
+}

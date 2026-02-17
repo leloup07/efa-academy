@@ -1,0 +1,147 @@
+{
+  "nivel": "EIP",
+  "modulo": 1,
+  "titulo": "Instrumentos y Mercados Financieros",
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "¿Qué describe mejor la diferencia entre mercado primario y secundario?",
+      "opciones": ["En primario se negocian activos ya emitidos y en secundario se emiten nuevos", "En primario se produce la emisión y captación inicial de fondos por el emisor; en secundario los inversores intercambian los activos", "En primario solo operan minoristas y en secundario solo institucionales", "No existe diferencia relevante entre ambos"],
+      "correcta": 1,
+      "explicacion": "El mercado primario es donde el emisor capta fondos mediante la emisión inicial de valores. En el secundario, los inversores compran y venden entre sí valores ya emitidos."
+    },
+    {
+      "id": 2,
+      "pregunta": "Si los tipos de interés de mercado suben del 3% al 4%, el precio de un bono existente con cupón fijo del 3% y duración modificada de 5 años:",
+      "opciones": ["Subirá aproximadamente un 5%", "Bajará aproximadamente un 5%", "Permanecerá invariable", "Subirá exactamente un 1%"],
+      "correcta": 1,
+      "explicacion": "Variación precio ≈ -Duración × Δtipos = -5 × 1% = -5%. Los bonos tienen relación inversa con los tipos."
+    },
+    {
+      "id": 3,
+      "pregunta": "El riesgo específico de una acción se puede reducir principalmente mediante:",
+      "opciones": ["Aumentar el apalancamiento de la inversión", "Diversificación en múltiples activos", "Elegir acciones con alta beta", "Concentrar la inversión en un único sector"],
+      "correcta": 1,
+      "explicacion": "El riesgo específico (idiosincrático) se reduce diversificando. El riesgo sistemático (mercado) no se puede diversificar."
+    },
+    {
+      "id": 4,
+      "pregunta": "Una opción call otorga a su comprador:",
+      "opciones": ["El derecho a vender el activo subyacente al precio de ejercicio", "El derecho a comprar el activo subyacente al precio de ejercicio", "La obligación de comprar el activo subyacente", "La obligación de vender el activo subyacente"],
+      "correcta": 1,
+      "explicacion": "Call = derecho a comprar. Put = derecho a vender. El comprador tiene derechos, el vendedor tiene obligaciones."
+    },
+    {
+      "id": 5,
+      "pregunta": "El spread bid-ask de un activo representa:",
+      "opciones": ["El tipo de interés oficial del banco central", "Un coste implícito de transacción asociado a la liquidez", "El impuesto sobre transacciones financieras", "El dividendo esperado"],
+      "correcta": 1,
+      "explicacion": "El spread es la diferencia entre precio de compra y venta, y representa un coste para el inversor que opera."
+    },
+    {
+      "id": 6,
+      "pregunta": "La TIR (Yield to Maturity) de un bono es:",
+      "opciones": ["El cupón nominal expresado en porcentaje", "La tasa que iguala el precio del bono con el valor actual de todos sus flujos futuros", "La tasa de inflación esperada durante la vida del bono", "La beta del bono respecto al mercado de renta fija"],
+      "correcta": 1,
+      "explicacion": "La TIR es la tasa de descuento que hace que el valor presente de los flujos futuros (cupones + principal) sea igual al precio actual del bono."
+    },
+    {
+      "id": 7,
+      "pregunta": "Un índice ponderado por capitalización significa que:",
+      "opciones": ["Cada componente tiene el mismo peso en el índice", "Los componentes pesan en función de su capitalización bursátil", "Pesan más las empresas con mayor dividendo", "Pesan más las empresas con mayor volatilidad"],
+      "correcta": 1,
+      "explicacion": "En índices por capitalización, el peso de cada valor es proporcional a su capitalización (precio × número de acciones)."
+    },
+    {
+      "id": 8,
+      "pregunta": "El riesgo de reinversión en renta fija se refiere a:",
+      "opciones": ["La variación del precio del bono por cambios en los tipos", "La posibilidad de impago del emisor", "La posibilidad de reinvertir los cupones a tipos inferiores a los esperados", "El riesgo de tipo de cambio"],
+      "correcta": 2,
+      "explicacion": "Cuando los tipos bajan, los cupones recibidos se reinvierten a tipos más bajos de lo previsto, reduciendo la rentabilidad efectiva."
+    },
+    {
+      "id": 9,
+      "pregunta": "Una correlación baja o negativa entre activos en una cartera:",
+      "opciones": ["Aumenta el riesgo total de la cartera", "No afecta al riesgo total", "Facilita la diversificación y reduce el riesgo conjunto", "Elimina completamente la volatilidad"],
+      "correcta": 2,
+      "explicacion": "Activos con correlación baja o negativa se compensan entre sí, reduciendo la volatilidad total de la cartera."
+    },
+    {
+      "id": 10,
+      "pregunta": "Un forward de divisa es típicamente:",
+      "opciones": ["Un contrato estandarizado negociado en mercado organizado", "Un contrato OTC para intercambiar divisas en el futuro a un tipo pactado", "Un ETF de divisa cotizado", "Un depósito bancario a plazo en moneda extranjera"],
+      "correcta": 1,
+      "explicacion": "Los forwards son contratos OTC (bilaterales) a diferencia de los futuros que son estandarizados y cotizan en mercados organizados."
+    },
+    {
+      "id": 11,
+      "pregunta": "Si el BCE sube los tipos de interés, el efecto inmediato más probable sobre el euro es:",
+      "opciones": ["Depreciación frente a otras divisas", "Apreciación frente a otras divisas", "No tiene efecto sobre el tipo de cambio", "El euro desaparece del mercado"],
+      "correcta": 1,
+      "explicacion": "Tipos más altos atraen capitales buscando mayor rentabilidad, aumentando la demanda de euros y apreciando la divisa."
+    },
+    {
+      "id": 12,
+      "pregunta": "La duración modificada de un bono mide:",
+      "opciones": ["El plazo hasta el vencimiento", "La sensibilidad del precio ante cambios en los tipos de interés", "El cupón acumulado", "El rating crediticio"],
+      "correcta": 1,
+      "explicacion": "La duración modificada indica el porcentaje de variación del precio del bono ante una variación del 1% en la TIR."
+    },
+    {
+      "id": 13,
+      "pregunta": "¿Cuál de los siguientes NO es un riesgo típico de la renta fija?",
+      "opciones": ["Riesgo de tipo de interés", "Riesgo de crédito", "Riesgo de dilución", "Riesgo de liquidez"],
+      "correcta": 2,
+      "explicacion": "El riesgo de dilución es propio de la renta variable (ampliaciones de capital). Los bonos no diluyen al tenedor."
+    },
+    {
+      "id": 14,
+      "pregunta": "Un bono 'callable' significa que:",
+      "opciones": ["El tenedor puede exigir el reembolso anticipado", "El emisor puede amortizar anticipadamente el bono", "El cupón es variable", "El bono está indexado a la inflación"],
+      "correcta": 1,
+      "explicacion": "Callable = opción de compra para el emisor. Puttable = opción de venta para el tenedor."
+    },
+    {
+      "id": 15,
+      "pregunta": "El PER de una acción indica:",
+      "opciones": ["El precio dividido entre el beneficio por acción", "El beneficio dividido entre el precio", "El dividendo dividido entre el precio", "El valor contable dividido entre el precio"],
+      "correcta": 0,
+      "explicacion": "PER = Precio / BPA. Indica cuántos euros se pagan por cada euro de beneficio."
+    },
+    {
+      "id": 16,
+      "pregunta": "En el modelo CAPM, la beta de un activo mide:",
+      "opciones": ["Su volatilidad total", "Su sensibilidad respecto al mercado (riesgo sistemático)", "Su rentabilidad por dividendos", "Su riesgo de crédito"],
+      "correcta": 1,
+      "explicacion": "Beta mide cómo se mueve el activo en relación al mercado. Es la medida del riesgo sistemático (no diversificable)."
+    },
+    {
+      "id": 17,
+      "pregunta": "La principal diferencia entre un futuro y una opción es:",
+      "opciones": ["El futuro se negocia en mercado organizado y la opción en OTC", "El comprador de un futuro tiene una obligación, mientras que el comprador de una opción tiene un derecho", "Las opciones son más líquidas que los futuros", "Los futuros no tienen vencimiento"],
+      "correcta": 1,
+      "explicacion": "En futuros ambas partes tienen obligaciones. En opciones, el comprador tiene derecho y el vendedor tiene obligación."
+    },
+    {
+      "id": 18,
+      "pregunta": "¿Qué significa que un swap de tipos de interés tiene un nocional de 10 millones de euros?",
+      "opciones": ["Que se intercambian 10 millones de euros al inicio", "Que es el importe sobre el que se calculan los pagos de intereses", "Que la pérdida máxima es de 10 millones", "Que el coste del swap es de 10 millones"],
+      "correcta": 1,
+      "explicacion": "El nocional es la cantidad de referencia sobre la que se calculan los intereses. No hay intercambio del principal en swaps estándar."
+    },
+    {
+      "id": 19,
+      "pregunta": "El tracking error mide:",
+      "opciones": ["Los errores de ejecución de un broker", "La desviación de la rentabilidad de un fondo respecto a su benchmark", "El error en el cálculo del valor liquidativo", "La diferencia entre precio de compra y venta"],
+      "correcta": 1,
+      "explicacion": "Tracking error es la desviación estándar de la diferencia entre la rentabilidad del fondo y su índice de referencia."
+    },
+    {
+      "id": 20,
+      "pregunta": "Un inversor conservador con horizonte de 2 años debería evitar principalmente:",
+      "opciones": ["Letras del Tesoro", "Depósitos bancarios", "Fondos monetarios", "Acciones de alta volatilidad"],
+      "correcta": 3,
+      "explicacion": "Acciones volátiles son inadecuadas para perfil conservador y horizonte corto por su riesgo de pérdida significativa."
+    }
+  ]
+}

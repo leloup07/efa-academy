@@ -1,0 +1,620 @@
+{
+  "titulo": "Simulacro EFA - Simulacro C",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "La explicación del sistema de remuneración del asesor, ¿a qué fase del proceso de planificación financiera corresponde?",
+      "opciones": [
+        "A la de establecimiento de la relación cliente-asesor",
+        "A la de recopilación de los datos del cliente y determinación de los objetivos y expectativas",
+        "A la de determinación de los estados económicos-financieros del cliente",
+        "A la de control del plan financiero"
+      ],
+      "correcta": 0,
+      "explicacion": "La explicación del sistema de remuneración del asesor corresponde a la fase de establecimiento de la relación cliente-asesor.",
+      "id": 1
+    },
+    {
+      "pregunta": "Incorporar seguros de accidentes dentro del proceso de planificación financiera de un individuo es importante porque:",
+      "opciones": [
+        "Son otra clase de activo y la cartera deber estar diversificada.",
+        "Sirven para cubrir riesgos que pueden afectar a la capacidad de ahorro.",
+        "Las primas son deducibles fiscalmente.",
+        "Si se produce el siniestro, pueden ser una atractiva fuente de rentabilidad"
+      ],
+      "correcta": 1,
+      "explicacion": "La finalidad del seguro es la compensación o reparación del daño, no el lucro. En este caso, la merma de ingresos-ahorro por la existencia de riesgos.",
+      "id": 2
+    },
+    {
+      "pregunta": "No son características de la fase de control financiero, en el asesoramiento:",
+      "opciones": [
+        "Controlar y evaluar la validez de las recomendaciones",
+        "Discutir y evaluar los cambios de las circunstancias particulares del cliente",
+        "Revisar y evaluar las leyes fiscales y las circunstancias del entorno económico",
+        "Definir la distribución de activos"
+      ],
+      "correcta": 3,
+      "explicacion": "La definición de la distribución de la cartera corresponde a la fase 4: Desarrollo y presentación de un plan financiero basado en el ciclo de vida.",
+      "id": 3
+    },
+    {
+      "pregunta": "Los indicadores que tratan de aproximar el ritmo de crecimiento de la producción total de la economía o de un sector productivo en particular, por ejemplo, los datos sobre número de viviendas iniciadas, son indicadores de:",
+      "opciones": [
+        "Producción",
+        "Demanda",
+        "Precios",
+        "Ocupación y paro"
+      ],
+      "correcta": 0,
+      "explicacion": "Son indicadores de producción.",
+      "id": 4
+    },
+    {
+      "pregunta": "Si la tasa de interés interbancario a 6 meses del dólar y la libra esterlina es de 1% y 2% respectivamente, y el tipo de cambio spot GBP/$ 2,0; el tipo de cambio a plazo GBP/$ a 6 meses será:",
+      "opciones": [
+        "GBP/$ 2,0077",
+        "GBP/$ 1,834",
+        "GBP/$ 2,03",
+        "Ninguna es correcta"
+      ],
+      "correcta": 2,
+      "explicacion": "Sustituyendo en la fórmula F=2 * (1+0,01*6/12) / (1+0,02*6/12) = 1,9901 dólares por libra esterlina",
+      "id": 5
+    },
+    {
+      "pregunta": "Un tipo de interés para operaciones al contado a tres años es del 6% y a dos años del 5%. En el mismo momento, el tipo de interés implícito (forward) para una operación a un año a realizar dentro de tres, se sitúa en el 4%. ¿Cuál es el tipo de interés al contado para una operación a cuatro años?",
+      "opciones": [
+        "5,67%",
+        "5,73%",
+        "5,49%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 2,
+      "explicacion": "(1+i)⁴=(1+0,06)³ * (1+0,04)¹; luego despejando se tiene que i=5,49%",
+      "id": 6
+    },
+    {
+      "pregunta": "Un pasivo a inmunizar vence dentro de 3 años. Si la cartera inmunizadora está compuesta por un único bono con cupones anuales del 5%, vencimiento 4 años y duración 3,4 años; ¿cuál de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        "La cartera no inmuniza correctamente y se presenta un mayor riesgo de reinversión",
+        "La cartera inmuniza correctamente por estar compuesta únicamente por un solo bono",
+        "La cartera no inmuniza correctamente y se presenta un mayor riesgo de precio",
+        "La cartera no inmuniza correctamente, que sea mayor el riesgo de reinversión o el riesgo de precio, dependerá del nivel de tipos de interés"
+      ],
+      "correcta": 2,
+      "explicacion": "Como la duración o vencimiento medio de los bonos es mayor que el horizonte temporal del pasivo a inmunizar, se producirá riesgo de precio, puesto que no sabemos a qué precio podremos vender los bonos cuando lo necesitemos.",
+      "id": 7
+    },
+    {
+      "pregunta": "Una cartera de bonos tiene una duración corregida o modificada igual a 5 años. Si los tipos de interés del mercado aumentaran un 0,25%, ¿cuál será la variación experimentada por el valor de mercado de la cartera?",
+      "opciones": [
+        "Un aumento del 1,875%.",
+        "Un aumento del 2,2%.",
+        "Una reducción del 1,25%.",
+        "Una aumento del 2,0%."
+      ],
+      "correcta": 2,
+      "explicacion": "(-5*(+0.25%))=-1,25%",
+      "id": 8
+    },
+    {
+      "pregunta": "¿Qué es el RSI?",
+      "opciones": [
+        "Es un parámetro de análisis fundamental",
+        "Figura de vuelta",
+        "Es un oscilador",
+        "Es una figura de continuación"
+      ],
+      "correcta": 2,
+      "explicacion": "RSI: Relative Strength Indicator (Indicador de Fuerza Relativa); este oscilador es utilizado para detectar cuando un título está sobre o infravalorado y así decidir si comprar o vender. Las señales de compra son anunciadas cuando el índice está ubicado entre 0 y 30, en tanto las señales de venta entre 70 y 100.",
+      "id": 9
+    },
+    {
+      "pregunta": "El precio de mercado de una acción es de 20 euros y el dividendo que acaba de pagar ha sido de 1 euro. Suponiendo que la tasa de rentabilidad exigida por el inversor es del 10% y que la tasa de crecimiento del dividendo es del 1% al año, ¿cómo se encuentra valorada la acción?",
+      "opciones": [
+        "Infravalorada",
+        "Sobrevalorada",
+        "Bien valorada",
+        "Ninguna es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "Por Gordon Shapiro tenemos que, P=Div₁ / (ke-g) = 1*(1+0,01) / (0,1-0,01) =11,22 euros < 20 euros, lo cual supone que la acción está sobrevalorada.",
+      "id": 10
+    },
+    {
+      "pregunta": "Si la bolsa tiene un PER de 14x y la TIR del bono a 10 años está en el 4%, ¿cómo está la bolsa?",
+      "opciones": [
+        "Está infravalorada",
+        "Está bien valorada",
+        "Cotiza con prima",
+        "Sobrevalorada"
+      ],
+      "correcta": 0,
+      "explicacion": "Earnig Yield Gap=1/PER – TIR = 1/14 – 0,04=0,0314>0, lo cual significa que la bolsa está barata o infravalorada, y en tal caso la bolsa cotizaría con descuento.",
+      "id": 11
+    },
+    {
+      "pregunta": "Si los beneficios de la empresa XYZ son de 100 millones de euros, el capital suscrito de 1.000 millones de euros, la tasa de rentabilidad requerida por el accionista es del 10% y reparte el 10% de los beneficios, ¿cuál es el PER aproximado de la empresa?",
+      "opciones": [
+        "5,5",
+        "50,4",
+        "10,9",
+        "Ninguna es correcta"
+      ],
+      "correcta": 2,
+      "explicacion": "PER=P/BPA=div/(ke-g)/BPA= BPA*pay out/(ke-g)/ BPA= PER=(1+g) *pay out/(ke-g)=(1+0,09)*0,1/(0,1-0,09)=10,9",
+      "id": 12
+    },
+    {
+      "pregunta": "Un gestor de carteras que administra un fondo de inversión de renta variable mixta, altamente diversificado, cuyo patrimonio está situado hoy en 60 millones de Euros, decide cubrir la parte de renta variable con futuros sobre el IBEX-35, y decide no llevar la operación hasta vencimiento. Determinar el número de contratos según los datos siguientes:\nValor nominal de la cartera de renta variable 35.500.000 euros\nValor efectivo de la cartera de renta variable 30.000.000 euros\nIBEX-35 contado 12.000\nFuturo IBEX-35 vto. próximo 11.900\nBeta global de la cartera 2",
+      "opciones": [
+        "355",
+        "504",
+        "500",
+        "Ninguna es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "Número de contratos a vender para cubrir= 30.000.000*2 / 11.900*10*(-1) = -504,20",
+      "id": 13
+    },
+    {
+      "pregunta": "El activo libre de riesgo tiene una rentabilidad del 5%, el mercado tiene una rentabilidad del 10%, la beta del título es de 2. Si la rentabilidad esperada de un título es del 10%, determinar, ¿cómo está el título?",
+      "opciones": [
+        "Sobrevalorado",
+        "Infravalorado",
+        "Bien valorado",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "Como se trata de un título (no cartera) y el mercado no se dice que esté en equilibrio, aplicamos SML: la rentabilidad teórica del título sería de Ri = Rf+beta*(Rm-Rf); por lo tanto Ri=5%+2*(10%-5%)=15%, que es mayor que la esperada del 10%, luego el activo está bien sobrevalorado. Alfa de Jensen = Respuesta – Rsml = 10% - 15%= -5%, quiere decir que el precio del título está caro en mercado.",
+      "id": 14
+    },
+    {
+      "pregunta": "Un inversor con expectativas alcistas en el mercado de renta variable español compró el 20 de julio un futuro sobre el Ibex-35, vencimiento julio a 12.000 puntos. Hoy 29 de enero, el precio de mercado de dicho contrato ha subido un 4,00% y decide cerrar su posición. ¿Cuál será el resultado absoluto de la operación y la rentabilidad simple obtenida, si el depósito aportado en garantía fue de 9.000 €?",
+      "opciones": [
+        "B⁹ de 5.930,10 € y rentabilidad de 52,75%",
+        "B⁹ de 4.800 € y rentabilidad de 51,79%",
+        "Pérdida de 5.930,10 € y rentabilidad de -53,33%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 2,
+      "explicacion": "El multiplicador de cada punto de IBEX es 10 euros. beneficio = 12.000 * 0,04 *10 = 4.800 euros que sobre lo aportado= 4.800/9.000 = 53,33%",
+      "id": 15
+    },
+    {
+      "pregunta": "En la gestión indexada:",
+      "opciones": [
+        "Se buscan empresas tipo crecimiento y tipo valor.",
+        "Se buscan compañías con PER bajo",
+        "Se buscan empresas con precio alto",
+        "Se buscan compañías que repliquen al índice"
+      ],
+      "correcta": 3,
+      "explicacion": "En la gestión indexada se buscan compañías que repliquen al índice.",
+      "id": 16
+    },
+    {
+      "pregunta": "Considerando la relación entre el estilo de gestión y la fase del ciclo económico, en la fase de recesión, a priori, ¿qué tipo de activos utilizaría para maximizar el retorno y qué estilo de gestión realizaría?",
+      "opciones": [
+        "Acciones ligadas al ciclo y estilo de gestión de tipo valor",
+        "Acciones no ligadas al ciclo y estilo de gestión de tipo crecimiento",
+        "Acciones ligadas al ciclo y estilo de gestión de tipo crecimiento",
+        "Letras y bonos del Estado"
+      ],
+      "correcta": 3,
+      "explicacion": "En recesión la renta variable se comporta mal, y la deuda pública es la que mejor se comporta.",
+      "id": 17
+    },
+    {
+      "pregunta": "Un ratio habitual en los fondos de inversión libre es:",
+      "opciones": [
+        "Ratio de Treynor",
+        "Ratio de Sharpe",
+        "Ratio de Información",
+        "Ratio de Sortino"
+      ],
+      "correcta": 3,
+      "explicacion": "El ratio de Sortino= (rent fondo – rent mínima aceptable por el inversor) / downside risk –riesgo de pérdida-",
+      "id": 18
+    },
+    {
+      "pregunta": "La estrategia de gestión de hedge funds basada en la compra de empresas en dificultades, es un tipo de estrategia:",
+      "opciones": [
+        "Event driven",
+        "Market neutral",
+        "Managed futures",
+        "Global macro"
+      ],
+      "correcta": 0,
+      "explicacion": "Event driven recoge, entre otras, aquellas estrategias de gestión de fondos hedge orientadas al aprovechamiento empresas en dificultades.",
+      "id": 19
+    },
+    {
+      "pregunta": "En la estrategia long/short equity, utilizada por los fondos de inversión libre (hedge funds) el grado de riesgo sistemático es:",
+      "opciones": [
+        "Nulo",
+        "Infinito",
+        "Parcial",
+        "Total"
+      ],
+      "correcta": 2,
+      "explicacion": "En esta estrategia, se trata de estar comprado de unos títulos y vendido de otros de forma que se cubre en gran medida el riesgo de mercado, pero no totalmente, buscando generar rentabilidad.",
+      "id": 20
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes acciones pertenece a la fase de obtención de información relevante para el plan de jubilación del inversor?",
+      "opciones": [
+        "Calcular el valor del patrimonio en el momento de la jubilación",
+        "Ajustar parámetros del plan financiero",
+        "Seleccionar productos financieros de cada categoría",
+        "Edad actual del inversor"
+      ],
+      "correcta": 3,
+      "explicacion": "El conocimiento de la edad del inversor pertenece a la fase de obtención de información relevante del inversor. Las demás pertenecen a la fase de desarrollo y ejecución del plan financiero del inversor.",
+      "id": 21
+    },
+    {
+      "pregunta": "Ana, que tiene actualmente 51 años, desea jubilarse con un capital acumulado de 100.000 euros. Suponiendo que la rentabilidad nominal anual obtenida cada año sea del 5%, ¿cuál será la aportación mensual a realizar hasta que se jubile a los 65 años? (considerar que le quedan 15 años a su jubilación)",
+      "opciones": [
+        "1.456,4 euros",
+        "374,12 euros",
+        "1.000,34 euros",
+        "Ninguna es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "100.000= aportación mensual*((1+0,05/12)^15*12 – 1) / (0,05/12); despejando aportación mensual = 374,12 euros/mes",
+      "id": 22
+    },
+    {
+      "pregunta": "Los sistemas de pensiones públicos de reparto implican que:",
+      "opciones": [
+        "Las pensiones dependen del superávit o déficit de los Presupuestos Generales del Estado de cada año",
+        "Las contribuciones de cada trabajador, su empleador y el Estado se van invirtiendo a lo largo del tiempo y la pensión dependerá de los rendimientos obtenidos",
+        "Las pensiones son pagadas a cuenta de los impuestos y no existe ninguna relación con las contribuciones a la Seguridad Social, las cuales van dirigidas a pagar otras contingencias",
+        "Las contribuciones de cada trabajador, y su empleador en su caso, van destinadas a pagar a los pasivos actuales."
+      ],
+      "correcta": 3,
+      "explicacion": "Las contribuciones de los activos se dirigen a pagar las prestaciones de los pasivos. Es un sistema piramidal y se financia con las cotizaciones sociales básicamente.",
+      "id": 23
+    },
+    {
+      "pregunta": "Dentro del análisis de los ingresos y gastos en el momento de la jubilación, para un individuo de 45 años habría que determinar el ratio de cobertura de la pensión pública. Si suponemos que hoy gana 30.000 euros y que la pensión de jubilación que le correspondería si hoy se jubilase fuera de 25.000 euros, ¿Cuál será el ratio de cobertura a los 65 años, si el crecimiento salarial estimado es del 2% y de la pensión pública se supone que es del 3% anual?",
+      "opciones": [
+        "60,4%",
+        "45,54%",
+        "101,28%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 2,
+      "explicacion": "Se trata del cociente: 25.000*(1+0,03)²⁰ / 30.000*(1+0,02)²⁰ = 101,28% es lo que se estima que la pensión pública represente sobre su último salario.",
+      "id": 24
+    },
+    {
+      "pregunta": "Hay varias posibilidades para calcular la comisión de gestión de un fondo inmobiliario. Indicar la respuesta correcta.",
+      "opciones": [
+        "Cuando se calcule sobre el valor del patrimonio del fondo, el porcentaje máximo aplicable es del 4% del mismo.",
+        "Si fuera en función de los resultados, la comisión máxima sería del 18% de los mismos.",
+        "Teniendo en cuenta el patrimonio y los resultados, la comisión máxima aplicable sería el 1,5% del patrimonio y el 9% de los resultados.",
+        "Cuando se calcule sobre el valor del patrimonio del fondo, el porcentaje máximo aplicable es del 3% del mismo."
+      ],
+      "correcta": 0,
+      "explicacion": "Según la ley de IIC",
+      "id": 25
+    },
+    {
+      "pregunta": "Dentro del proceso de asignación de activos en una cartera, la inversión inmobiliaria –en general- se considera:",
+      "opciones": [
+        "Núcleo",
+        "Satélite",
+        "Núcleo y satélite",
+        "Arriesgada"
+      ],
+      "correcta": 1,
+      "explicacion": "La inversión inmobiliaria trata de combinarse con la tradicional –acciones y bonos- para mejorar el binomio rentabilidad-riesgo",
+      "id": 26
+    },
+    {
+      "pregunta": "¿Cómo tributa la prestación de un seguro de vida- ahorro para el beneficiario, coincidente con el tomador y asegurado, persona física?",
+      "opciones": [
+        "Por impuesto de sucesiones",
+        "Por IRPF",
+        "Por donaciones",
+        "Por impuesto de sociedades"
+      ],
+      "correcta": 1,
+      "explicacion": "Al ser coincidente el beneficiario y el asegurado tributa como rendimientos del ahorro por IRPF.",
+      "id": 27
+    },
+    {
+      "pregunta": "¿A qué tipo tributan los dividendos percibidos por no residentes en el impuesto de no residentes?",
+      "opciones": [
+        "Al 40%",
+        "Al 19%",
+        "Al marginal",
+        "Al 25%"
+      ],
+      "correcta": 1,
+      "explicacion": "Al 19%",
+      "id": 28
+    },
+    {
+      "pregunta": "La Tributación del socio de la sociedad Holding mobiliaria por las rentas obtenidas por dividendos pagados por una de las filiales de la sociedad holding se integran en la base imponible del ahorro. Indicar la respuesta correcta:",
+      "opciones": [
+        "Tienen una exención de 1.500 € (no aplicable para dividendos repartidos por SICAV)",
+        "Tributan al tipo del 15%",
+        "Están sujetos a retención del 21%",
+        "Tributan tres veces: una vez en la filial, otra en la matriz de la holding y otra por parte del socio en su IRPF"
+      ],
+      "correcta": 3,
+      "explicacion": "Tributan tres veces: una vez al subir el dividendo la filial al holding (5% sobre 25% IS =1,25%), otra la holding (25% IS), y otra vez por parte del socio. La retención de los accionistas en IRPF por los dividendos del holding es del 19%.",
+      "id": 29
+    },
+    {
+      "pregunta": "La reducción en la base liquidable del 95% del valor de la vivienda habitual en el impuesto de sucesiones y donaciones, con el límite de 122.606,47 € por cada sujeto pasivo, se aplicará, siempre que la adquisición se produzca a favor de.... Indicar la respuesta incorrecta:",
+      "opciones": [
+        "Cónyuge",
+        "Descendientes",
+        "Un colateral mayor de 65 años que hubiera convivido con el causante durante dos años antes de su fallecimiento.",
+        "Primos"
+      ],
+      "correcta": 3,
+      "explicacion": "Según impuesto de ISD",
+      "id": 30
+    },
+    {
+      "pregunta": "Dos acciones A y B presentan la misma desviación típica anual con respecto a su rentabilidad del 10%, así como un coeficiente de correlación entre rentabilidades igual a -0,5. ¿Cuál será la desviación típica de una cartera compuesta por un 20% del título A y un 80% del título B?",
+      "opciones": [
+        "6,46%",
+        "7,21%",
+        "4,33%",
+        "Ninguna es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "Raiz cuadrada (0,2²*0,1²+0,8²*0,1²+2*0,2*0,8*0,1*0,1*(-0,5))=7,21%",
+      "id": 31
+    },
+    {
+      "pregunta": "La hipótesis de eficiencia fuerte supone que:",
+      "opciones": [
+        "La información privilegiada aporta valor",
+        "El análisis técnico aporta valor adicional",
+        "El análisis fundamental aporta valor adicional",
+        "La estrategia a seguir es replicar al mercado."
+      ],
+      "correcta": 3,
+      "explicacion": "La consecuencia de la hipótesis fuerte es que toda la información está descotada en los precios y por tanto no se puede batir a ésta, y la estrategia a seguir es la gestión pasiva.",
+      "id": 32
+    },
+    {
+      "pregunta": "Tenemos una opción Call comprada ATM por la que hemos pagado 1,5 de prima. Precio de Ejercicio 15. La depreciación del subyacente es un 10%. ¿Cuál ha sido la rentabilidad de la operación?",
+      "opciones": [
+        "-100%",
+        "100%",
+        "15%",
+        "0%"
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta: al caer el subyacente queda por debajo del dinero, por lo que pierde toda la prima. Si cae el subyacente de 15 a 13,5, la opción call queda OTM, por lo que pierdo toda la prima.",
+      "id": 33
+    },
+    {
+      "pregunta": "¿Cuál es el riesgo al que están sometidas las inversiones del inversor en la fase de prestación o gasto?",
+      "opciones": [
+        "La mortalidad temprana",
+        "La longevidad",
+        "No obtener una rentabilidad elevada",
+        "Estar invertido en activos monetarios que cubran el IPC"
+      ],
+      "correcta": 1,
+      "explicacion": "Una vez que el inversor está jubilado y no depende de los ingresos de su trabajo, se encuentra en la fase de prestación o gasto y, en general, vivirá de las rentas, por lo que se recomienda realizar inversiones poco arriesgadas que cubran el IPC. No se trata d obtener altos retornos, pues eso ya se debió hacer en la fase anterior de consolidación y acumulación. El riesgo que existe en la fase de prestación es que el individuo alargue su esperanza de vida, por lo que se puede ver abocado a haber consumido sus ahorros; a este se le llama riesgo de longevidad.",
+      "id": 34
+    },
+    {
+      "pregunta": "Un fondo de inversión tiene un ratio de Sharpe de 0,87 con una volatilidad del 16,4%. Si la Beta es igual a 3 y su tracking error del 4%; su ratio de Treynor será:",
+      "opciones": [
+        "0,3",
+        "0,0475",
+        "0,43",
+        "No se puede calcular, pues necesitamos conocer la rentabilidad del fondo y del activo libre de riesgo."
+      ],
+      "correcta": 1,
+      "explicacion": "Sharpe=(Rfondo – Ractivo sin riesgo) / volatilidad de fondo,, luego despejando (Rfondo – Ractivo sin riesgo)=0,87*0,164=0,1426; y Treynor=0,1426 / 3 = 0,0475",
+      "id": 35
+    },
+    {
+      "pregunta": "En cuanto al ratio de Sharpe es cierto que:",
+      "opciones": [
+        "Siempre es positivo.",
+        "Puede ser negativo.",
+        "Nos indica la rentabilidad adicional obtenida por el gestor con respecto al mercado.",
+        "Se prefiere un fondo con mayor ratio de Sharpe"
+      ],
+      "correcta": 2,
+      "explicacion": "En el ratio de Sharpe si la rentabilidad del activo sin riesgo es mayor que la rentabilidad de la cartera, saldrá negativo. Por otro lado, se prefieren fondos con mayor ratio de Sharpe, puesto que indica que obtienen mayor rentabilidad por unidad de riesgo. Además, el ratio de Sharpe indica la rentabilidad de la cartera con respecto al activo sin riesgo por unidad de riesgo total, no sólo de mercado.",
+      "id": 36
+    },
+    {
+      "pregunta": "Que un fondo tenga otorgado más o menos tracking error dependerá de:",
+      "opciones": [
+        "Que el fondo sea de renta variable o de renta fija",
+        "Que el fondo sea pasivo",
+        "Que el fondo sea de gestión alternativa",
+        "La calidad de la gestión realizada en el tiempo"
+      ],
+      "correcta": 3,
+      "explicacion": "Depende de lo bueno que sea el gestor: cuanto mejor sea, mayor será el tracking error, porque se supone que obtendrá mayor retorno.",
+      "id": 37
+    },
+    {
+      "pregunta": "La rentabilidad del activo sin riesgo es de 3%, la beta de un fondo es de 1, y la volatilidad del 10%. Por otro lado, la rentabilidad del fondo es de 10% y la del mercado de 5%. ¿Cuál es el ratio de información del fondo sabiendo que el tracking error es del 5%?",
+      "opciones": [
+        "4",
+        "-0,9",
+        "1",
+        "Ninguna es correcta"
+      ],
+      "correcta": 2,
+      "explicacion": "RI=Alfa/Tracking Error = (10%-1*5%) / 5% = 5% / 5% = 1",
+      "id": 38
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre el test de conveniencia y el test de idoneidad?",
+      "opciones": [
+        "El test de conveniencia trata de valorar los conocimientos y experiencia del cliente cuando él demanda un producto o servicio y el de idoneidad trata de asegurar que las recomendaciones personalizadas que le haga la entidad sean lo más adecuadas al cliente teniendo en cuenta su situación particular",
+        "El test de idoneidad trata de valorar los conocimientos y experiencia del cliente y el de conveniencia trata de asegurar que las recomendaciones personalizadas que le haga la entidad sean lo más adecuadas al cliente teniendo en cuenta su situación particular",
+        "Los dos test pretenden lo mismo",
+        "Son dos cuestionarios a realizar de forma opcional por parte del inversor."
+      ],
+      "correcta": 0,
+      "explicacion": "Por definición",
+      "id": 39
+    },
+    {
+      "pregunta": "¿Cuáles de los siguientes no es un principio del código ético de EFPA?",
+      "opciones": [
+        "Profesionalidad",
+        "Transparencia",
+        "Comisiones y Costes",
+        "Primacía del interés de la entidad"
+      ],
+      "correcta": 3,
+      "explicacion": "Los principios del código de EFPA son: Nuestros Principios: 1. Competencia y excelencia profesional 2. Legalidad 3. Veracidad 4. Justicia 5. Prudencia 6. Honestidad 7. Integridad profesional Comportamientos Clave: 1. Necesidades del cliente 2. Altos estándares de comportamiento ético 3. Independencia y objetividad 4. Competencia profesional 5. Conocimientos necesarios sobre el cumplimiento normativo 6. Mejores prácticas 7. Prevención y transparencia de conflictos de intereses 8. Compromiso de no discriminación 9. Utilización adecuada de las designaciones de EFPA",
+      "id": 40
+    },
+    {
+      "pregunta": "Un inversor adquiere una cartera cuya desviación estándar es de 23,90% y su covarianza con el mercado es de 0,03. La rentabilidad esperada del activo sin riesgo es de 5,5%. Asumiendo que las expectativas de rentabilidad del mercado son del 14% y su desviación estándar de 24,90% ¿Cuál será la rentabilidad esperada de la cartera, si suponemos que el mercado está en equilibrio?",
+      "opciones": [
+        "13,65%",
+        "9,096%",
+        "16,683%",
+        "5,72%"
+      ],
+      "correcta": 0,
+      "explicacion": "Aplicando la CML se tiene = 5,5% + ((14%-5,5%)/ 24,90%) * 23,90% = 13,65%",
+      "id": 41
+    },
+    {
+      "pregunta": "Un inversor adquiere una acción cuya desviación estándar es de 23,90% y su covarianza con el mercado es de 0,03. La rentabilidad esperada del activo sin riesgo es de 4,5%. Asumiendo que las expectativas de rentabilidad del mercado son del 14% y su desviación estándar de 24,90% ¿Cuál será la rentabilidad esperada de la acción?",
+      "opciones": [
+        "13,768%",
+        "9,096%",
+        "16,683%",
+        "5,72%"
+      ],
+      "correcta": 1,
+      "explicacion": "Aplicando la SML, tenemos que 4,5% + (14%-4,5%)*(0,03/0,249²)=9,096% Beta= cov / varianza del mercado = correl. * desv. título / desv. Mercado",
+      "id": 42
+    },
+    {
+      "pregunta": "Suponiendo que estuviéramos en desequilibrio, y la tasa libre de riesgo es de 4% ¿sería aconsejable comprar títulos de un activo X que teniendo un coeficiente beta de 0,65 tenga una rentabilidad esperada de b)10%? Sabiendo que la rentabilidad del mercado es de 16%.",
+      "opciones": [
+        "No será aconsejable comprar el activo X",
+        "Será aconsejable comprarlo",
+        "Se trata de un activo agresivo",
+        "Se trata de un activo neutro"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la SML: 4%+(16%-4%)*0,65=11,8% > 10%, luego como la rentabilidad teórica es superior a la deseada, el activo estaría sobrevalorado y no se aconsejaría comprarlo.",
+      "id": 43
+    },
+    {
+      "pregunta": "Si la beta de un título es de 2,5, su volatilidad (varianza) del 25% y la volatilidad del mercado donde cotiza es del 20%, por este orden, ¿cuál es su riesgo sistemático y su riesgo específico?",
+      "opciones": [
+        "0% y 25%",
+        "10% y 25%",
+        "25% y 0%",
+        "d.15% y 10%"
+      ],
+      "correcta": 2,
+      "explicacion": "Luego para este título el riesgo sistemático es=2,5²*0² = 25% y el específico por diferencias con el total es de 0%. RT = RS + RNS; $^2 = B^2*Sm^2 + RNS",
+      "id": 44
+    },
+    {
+      "pregunta": "Un cliente invirtió 30.000 € en un bono cuya TIR desciende del 4,15% al 4%. El precio inicial del bono era 100 y una duración corregida del 5,45. ¿Cuánto ha perdido/ganado el inversor?",
+      "opciones": [
+        "-235,82 €",
+        "+250,67 €",
+        "-250,67 €",
+        "+245,25 €"
+      ],
+      "correcta": 3,
+      "explicacion": "Variación ≈ - DUcorregida * variación de TIR = - 5,45 * (4% - 4,15%)*30.000 = 245,25 €",
+      "id": 45
+    },
+    {
+      "pregunta": "Dados dos bonos cupón cero: uno, a 4 años que cotiza hoy a 97,71% y su valor de reembolso es del 125%, el otro, es un bono cupón cero a 7 años que cotiza hoy a 101,76% y se amortiza al 152%. ¿Cuál será la pendiente de la ETTI?",
+      "opciones": [
+        "Creciente.",
+        "Decreciente.",
+        "Plana.",
+        "Convexa."
+      ],
+      "correcta": 1,
+      "explicacion": "Tipo de interés del bono de 4 años: 125=97,71*(1+i)⁴, luego i=6,35%; y el tipo de interés del bono de 7 años: 152=101,76*(1+i)⁷, luego i=5,90%. Como el tipo del bono más largo es inferior, la curva de tipos es decreciente.",
+      "id": 46
+    },
+    {
+      "pregunta": "El valor actual de una renta anual postpagable con una duración de 7 años es de 25.345 € (tipo de interés 4%). ¿Cuál de las siguientes afirmaciones es verdadera?",
+      "opciones": [
+        "Su valor final es de 34.182,27 €",
+        "Su valor actual si fuese prepagable sería de 25.998,65 €",
+        "Su valor final si fuese prepagable sería de 34.106,28 €",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1,
+      "explicacion": "Valor final de la renta postpagable= 25.345*(1+4%)⁷=33.352, por lo que no es la A. VF (prep)= 26.358 * 1,04⁷= 34.685,32. VF (prep)= 33.352*(1,04) = 34.686. Valor actual de una renta prepagable=valor actual de la postpagable*(1+4%)=26.358,80 €, luego el valor final de la prepagable es 26.358,80*(1+4%)⁷=34.686,38 €",
+      "id": 47
+    },
+    {
+      "pregunta": "Indique entre las siguientes respuestas la que califique correctamente a los indicadores económicos como señales adelantadas (A), coincidentes (C) o retrasados (R) respecto al ciclo económico:",
+      "opciones": [
+        "PIB (A), Beneficios Empresariales (C), Confianza del Consumidor (C), ventas de cemento (R).",
+        "PIB (R), Beneficios Empresariales (A), Confianza del Consumidor (C), ventas de cemento (R).",
+        "PIB (A), Beneficios Empresariales (A), Confianza del Consumidor (C), ventas de cemento (R).",
+        "PIB (C), Beneficios Empresariales (R), Confianza del Consumidor (A), ventas de cemento (A)."
+      ],
+      "correcta": 3,
+      "explicacion": "Por definición",
+      "id": 48
+    },
+    {
+      "pregunta": "Un fondo ha rentado en 2016 un 20% y su índice de referencia un 21%. Para ello el gestor ha realizado una gestión activa con un tracking error del 5%. ¿Cuál es el valor añadido en relación al extrarriesgo asumido? (beta=2)",
+      "opciones": [
+        "0,70",
+        "0,66",
+        "1",
+        "-4,4"
+      ],
+      "correcta": 3,
+      "explicacion": "El valor añadido relativo al índice en relación al extrarriesgo asumido sobre éste se mide con ratio de información= (Rfondo – beta*Rindice) / Tracking error =(20% - 2*21%)/5%= -4,4",
+      "id": 49
+    },
+    {
+      "pregunta": "¿Qué plazo tiene un préstamo de 300.000 euros con amortización mensual, cuota mensual de 1.432,24 euros y tipo nominal anual del 4%?",
+      "opciones": [
+        "300 meses",
+        "360 meses",
+        "954,83 euros",
+        "Ninguna es correcta"
+      ],
+      "correcta": 1,
+      "explicacion": "300.000=1.432,24 *[(1+(1+0,04/12)^(0/0,04/12); despejando cuota –o con la calculadora financiera mejor.- = 360 meses o 30 años",
+      "id": 50
+    },
+    {
+      "pregunta": "Calcular el precio total del siguiente bono:\nFecha valor: 01-01-2006\nFecha vencimiento: 25-03-2026\nCupón: 4%\nTIR: 5%",
+      "opciones": [
+        "87,43%",
+        "90,52%",
+        "96,53%",
+        "92,43%"
+      ],
+      "correcta": 1,
+      "explicacion": "Utilizando calculadora financiera: BOND con D1: 01-01-2006, D1: 25-03-2026, RDV: 100, CPN: 4, PRC: solve (PRC: precio excupón: 87,43%, INT (cupón corrido en compra: 3,09%, CST: precio total o entero= 90,52%)",
+      "id": 51
+    }
+  ]
+}

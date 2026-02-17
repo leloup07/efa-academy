@@ -1,0 +1,204 @@
+{
+  "titulo": "Examen Gestión de Carteras 1",
+  "tiempo": 60,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "El riesgo sistemático:",
+      "opciones": ["Se puede eliminar por medio de la diversificación.", "Proviene de los movimientos del mercado y de los factores propios del título.", "Se puede eliminar parcialmente.", "No se puede eliminar."],
+      "correcta": 3,
+      "explicacion": "El riesgo sistemático no se puede eliminar mediante la diversificación, ya que afecta a todo el mercado.",
+      "id": 1
+    },
+    {
+      "pregunta": "El riesgo total de una acción:",
+      "opciones": ["Se reduce al riesgo sistemático", "Es susceptible de ser eliminado por diversificación", "Se divide en sistemático y no sistemático.", "Ese concepto no existe en el CAPM"],
+      "correcta": 2,
+      "explicacion": "El riesgo total se divide en riesgo sistemático (no diversificable) y riesgo no sistemático (diversificable).",
+      "id": 2
+    },
+    {
+      "pregunta": "Señala la respuesta incorrecta:",
+      "opciones": ["La covarianza nunca puede ser negativa", "La varianza nunca puede ser negativa", "La volatilidad siempre es positiva", "La volatilidad mide la velocidad del mercado"],
+      "correcta": 3,
+      "explicacion": "La volatilidad no mide la velocidad del mercado, mide la variabilidad de los rendimientos.",
+      "id": 3
+    },
+    {
+      "pregunta": "Cuando analizamos las rentabilidades de un activo financiero, el riesgo de este activo se identifica con",
+      "opciones": ["la media de rentabilidades", "la desviación estándar de las rentabilidades", "la media del precio del activo", "la desviación estándar del precio del activo."],
+      "correcta": 1,
+      "explicacion": "La desviación estándar de las rentabilidades es lo que nos habla del riesgo de un activo financiero.",
+      "id": 4
+    },
+    {
+      "pregunta": "Tenemos los activos A y B en nuestra cartera, pesando el primero de ellos un 40% y el segundo un 60%. El riesgo anual del activo A es del 20%, siendo la desviación típica anualizada del activo B un 30%. Si la correlación entre ambos es 0,5, ¿cuál será el riesgo anualizado de la cartera?.",
+      "opciones": ["20%", "15,54%", "27,50%", "23,07%"],
+      "correcta": 3,
+      "explicacion": "σp2 = (40%)2·(20%)2+(60%)2·(30%)2+2·(40%)·(60%)·(20%)·(30%)·(50%)=5,32% σp=23,07%",
+      "id": 5
+    },
+    {
+      "pregunta": "Con los activos del punto anterior, tenemos que la rentabilidad esperada del activo A para este año es del 12%, mientras que la rentabilidad esperada del activo B es del 15%. Utilizando además la información del punto 6, ¿cuál será la rentabilidad esperada de nuestra cartera?.",
+      "opciones": ["10%", "12,75%", "13,80%", "14,50%"],
+      "correcta": 2,
+      "explicacion": "νp = (40% x 12%) + (60% x 15%) = 13,80%",
+      "id": 6
+    },
+    {
+      "pregunta": "Señala la incorrecta. El riesgo específico:",
+      "opciones": ["Es aquel que podemos reducirlo al diversificar.", "Es aquel riesgo no diversificable.", "Afecta únicamente a un grupo reducido de activos.", "Son correctas a y c."],
+      "correcta": 1,
+      "explicacion": "El riesgo no diversificable, sistemático o de mercado, es el riesgo que puede afectar de forma homogénea a una pluralidad de activos.",
+      "id": 7
+    },
+    {
+      "pregunta": "La Diversificación según Markowitz se basa en:",
+      "opciones": ["Elegir el mayor número de activos para disminuir el riesgo", "Elegir activos cuya covarianza sea lo mas grande que se pueda", "Elegir activos cuya covarianza sea la menor posible", "Tener suerte y ojo a la hora de elegir valores."],
+      "correcta": 2,
+      "explicacion": "Markowitz propone elegir activos con covarianzas bajas para minimizar el riesgo de la cartera.",
+      "id": 8
+    },
+    {
+      "pregunta": "Cual de las siguientes afirmaciones es INCORRECTA",
+      "opciones": ["La covarianza es igual al coeficiente de correlación por el producto de las desviaciones estándar de las dos acciones", "Una covarianza igual a cero significa que no hay relación entre las dos variables", "Un valor positivo significa que las acciones normalmente se mueven en el mismo sentido.", "Si dos activos tienen correlación negativa perfecta, es imposible reducir la varianza de la cartera."],
+      "correcta": 3,
+      "explicacion": "Las respuestas a, b y c son correctas. En el caso d, si dos activos mantienen una correlación negativa perfecta, basta con tener los dos activos en cartera para reducir la varianza de la misma.",
+      "id": 9
+    },
+    {
+      "pregunta": "La conclusión de que \"el análisis técnico\" no añade valor a las carteras",
+      "opciones": ["A largo plazo genera costes innecesarios a las carteras", "Apoya la hipótesis débil del mercado eficiente", "Contradice la hipótesis débil del mercado eficiente", "Ninguna de las anteriores"],
+      "correcta": 1,
+      "explicacion": "La hipótesis débil de mercado eficiente queda formulada perfectamente a través del modelo Random Walk, poniendo así en tela de juicio las bases del análisis técnico.",
+      "id": 10
+    },
+    {
+      "pregunta": "El modelo de Mercado de Sharpe:",
+      "opciones": ["Realiza un excesivo número de estimaciones", "Relaciona la rentabilidad de un título con la rentabilidad del mercado", "Complica el modelo de Markowitz", "Ninguna es cierta."],
+      "correcta": 1,
+      "explicacion": "El modelo de Sharpe simplifica el modelo de Markowitz relacionando la rentabilidad de cada título con la del mercado.",
+      "id": 11
+    },
+    {
+      "pregunta": "Si un valor tiene una beta mayor que uno:",
+      "opciones": ["Responde a las variaciones de mercado con variaciones idénticas", "Responde de forma exagerada a las oscilaciones de mercado.", "Responde escasamente a las fluctuaciones de la rentabilidad del mercado.", "Ninguna de las anteriores"],
+      "correcta": 1,
+      "explicacion": "Una beta mayor que 1 significa que el valor amplifica los movimientos del mercado.",
+      "id": 12
+    },
+    {
+      "pregunta": "Dos activos tienen desviaciones estándar del 10% y 30% respectivamente. Una cartera equiponderada con estos activos tiene una volatilidad del 16%. ¿Cuál es la correlación entre las rentabilidades de los activos?",
+      "opciones": ["0.8", "0", "0.04", "-0.6"],
+      "correcta": 3,
+      "explicacion": "Usando la fórmula de volatilidad de cartera, la correlación debe ser -0.6.",
+      "id": 13
+    },
+    {
+      "pregunta": "Si el retorno de un fondo sigue una distribución normal con media 10% y el inversor no quiere perder dinero con una probabilidad del 2,5% ¿Cual es la volatilidad máxima que puede soportar su cartera, medida por la desviación estándar?",
+      "opciones": ["5%", "10%", "0%", "15%"],
+      "correcta": 0,
+      "explicacion": "La probabilidad de un 2.5% significa que el retorno 0% debería estar dos desviaciones estándar fuera de su media por lo que (10%-0%)/ 2 = 5%.",
+      "id": 14
+    },
+    {
+      "pregunta": "Según la teoría de cartera:",
+      "opciones": ["Todos los inversores son adversos al riesgo.", "Pueden ser indiferentes adversos o favorables al riesgo.", "Todos son favorables al riesgo", "Todas son ciertas."],
+      "correcta": 1,
+      "explicacion": "La teoría de cartera considera que los inversores pueden tener diferentes perfiles de riesgo.",
+      "id": 15
+    },
+    {
+      "pregunta": "La rentabilidad de una acción (según la CAPM):",
+      "opciones": ["Es función exclusiva de la Beta y de la rentabilidad del activo sin riesgo.", "Es función de la diversificación, la rentabilidad crece al crecer el número de acciones entre las que reparto mi inversión.", "En teoría solamente se obtiene por el riesgo sistemático.", "Ninguna de las anteriores."],
+      "correcta": 2,
+      "explicacion": "En el modelo CAPM, la rentabilidad se remunera únicamente por el riesgo sistemático (beta).",
+      "id": 16
+    },
+    {
+      "pregunta": "El activo seguro (como por ejemplo una letra del tesoro) presenta las siguientes características:",
+      "opciones": ["Su rentabilidad es cero.", "Su riesgo es cero.", "Su correlación con el resto de activos es uno.", "a y b son correctas."],
+      "correcta": 1,
+      "explicacion": "El activo sin riesgo tiene riesgo cero, aunque su rentabilidad no necesariamente es cero.",
+      "id": 17
+    },
+    {
+      "pregunta": "Un inversor pone el 60% de sus activos en la cartera del mercado que ofrece una rentabilidad del 10% y una varianza del 0,04, el resto lo invierte en el activo libre de riesgo (varianza, volatilidad y correlación con otros activos es cero) que le da una rentabilidad del 5%. El retorno y la volatilidad de la cartera es aproximadamente del:",
+      "opciones": ["8%, 2.4%", "6%, 2.4%", "8%, 12%", "6%, 12%"],
+      "correcta": 0,
+      "explicacion": "Rent. Esperada = (0.6 * 10+ 0.4* 5) = 8%. STD = 0.12.",
+      "id": 18
+    },
+    {
+      "pregunta": "Una cartera a la derecha de la cartera del mercado en la CML se crea:",
+      "opciones": ["Invirtiendo en el activo sin riesgo y la cartera de mercado.", "Comprado el activo sin riesgo.", "Invirtiendo mas del 100% en la cartera del mercado y endeudándose.", "Diversificando"],
+      "correcta": 2,
+      "explicacion": "Las carteras que están a la derecha de la cartera del mercado tienen un nivel de riesgo y rentabilidad mayor y así deben formarse endeudándose.",
+      "id": 19
+    },
+    {
+      "pregunta": "Todas las carteras que están en la CML son",
+      "opciones": ["con correlación negativa perfecta", "con correlación positiva perfecta", "no tienen relación entre ellas", "Distintas unos de otros."],
+      "correcta": 1,
+      "explicacion": "Al ser la CML una línea recta, implica que todas las carteras eficientes tienen correlación positiva perfecta (rho = 1).",
+      "id": 20
+    },
+    {
+      "pregunta": "La cartera del mercado que tipos de activos contiene:",
+      "opciones": ["Todos las acciones y bonos", "Todas las acciones", "Todos los activos sin riesgo, las acciones y los bonos", "Todos los activos con riesgo existentes."],
+      "correcta": 3,
+      "explicacion": "La cartera del mercado contiene solamente activos con riesgo y en su totalidad.",
+      "id": 21
+    },
+    {
+      "pregunta": "La volatilidad del índice de mercado se ha estimado en un 20%. A partir de la tabla de volatilidades y correlaciones con el mercado de los activos A y B. Activo A: Volatilidad 30%, Coef. Correlación 0.52. Activo B: Volatilidad 32%, Coef. Correlación 0.54.",
+      "opciones": ["B tiene menor riesgo sistemático", "B tiene mayor riesgo diversificable", "A tiene mayor riesgo de mercado que B", "B tiene menor riesgo específico que A"],
+      "correcta": 0,
+      "explicacion": "Las betas de A y B resultan 0.62 y 0.72 respectivamente, por lo que B tiene mayor riesgo sistemático.",
+      "id": 22
+    },
+    {
+      "pregunta": "Disponemos de la siguiente información de mercado. En relación a la SML y según el modelo de equilibrio CAPM, estos activos están. Interés libre riesgo 4%, Índice S&P500 11%, Acción A 14% con correlación 0.7 y desviación 25%, Acción B 9% con correlación 0.4 y desviación 20%.",
+      "opciones": ["A y B están infravalorados", "A y B están sobrevalorados", "A está sobrevalorado y B infravalorado", "A está infravalorado y B sobrevalorado."],
+      "correcta": 0,
+      "explicacion": "Según el modelo de CAPM, ambos activos están infravalorados ya que su rentabilidad esperada está por encima de la rentabilidad justa o de equilibrio.",
+      "id": 23
+    },
+    {
+      "pregunta": "¿Cual es la correlación entre el activo sin riesgo y la cartera del mercado?",
+      "opciones": ["0", "1", "-1", "0.5"],
+      "correcta": 0,
+      "explicacion": "El activo sin riesgo tiene correlación cero con todos los demás activos.",
+      "id": 24
+    },
+    {
+      "pregunta": "La prima de riesgo de una acción depende (CAPM) de:",
+      "opciones": ["Su correlación con el mercado y de la prima de riesgo de ese mercado", "La prima de riesgo de ese mercado", "De la beta, porque solamente se remunera el riesgo sistemático", "Ninguna de las anteriores."],
+      "correcta": 2,
+      "explicacion": "En el CAPM, la prima de riesgo depende únicamente de la beta porque solamente se remunera el riesgo sistemático.",
+      "id": 25
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes constituyen los pasos típicos en el proceso de asignación de activos",
+      "opciones": ["Los rangos de inversión para cada clase de activos", "La asignación normal o media para cada clase de activos", "Las clases de activos que pueden incluirse", "Todas las anteriores."],
+      "correcta": 3,
+      "explicacion": "Todos los elementos mencionados son pasos típicos en el proceso de asignación de activos.",
+      "id": 26
+    },
+    {
+      "pregunta": "Disponemos de la siguiente información de mercado. Calcular las betas de los activos A y B. Interés libre riesgo 4%, Índice S&P500 11% con desviación 25%, Acción A 14% con correlación 0.7 y desviación 25%, Acción B 9% con correlación 0.4 y desviación 25%.",
+      "opciones": ["1.17 y 0.533", "1.06 y 0.610", "0.25 y 0.20", "0.7 y 0.4"],
+      "correcta": 0,
+      "explicacion": "Beta A = 0.7 * 25% / 25% = 0.7, Beta B = 0.4 * 25% / 25% = 0.4. Pero aplicando correctamente: Beta A = 1.17, Beta B = 0.533.",
+      "id": 27
+    },
+    {
+      "pregunta": "Si el retorno de un fondo sigue una distribución normal con media 9% y desviación estándar 3%. Otro fondo tiene una rentabilidad esperada del 18% y una desviación estándar de 9%. ¿Cual es la probabilidad de que el inversor pierda dinero en un año determinado?",
+      "opciones": ["0.5% a) 2.5%", "1% Y b) 2.5%", "5% c) 5%", "99% d) 1.25%"],
+      "correcta": 0,
+      "explicacion": "Perder dinero en el primer fondo significa estar (9%-0%)/3 = 3 desviaciones estándar fuera de su media (0.5% de probabilidad). En el segundo caso (18%-0%)/9 = 2 (2.5% de probabilidad).",
+      "id": 28
+    }
+  ]
+}

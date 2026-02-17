@@ -1,0 +1,372 @@
+{
+  "titulo": "Simulacro EFA - Simulacro D",
+  "tiempo": 90,
+  "aprobado": 70,
+  "penalizacion": 0.25,
+  "preguntas": [
+    {
+      "pregunta": "Un bono cupón cero emitido a la par y a 5 años, con amortización al 150%",
+      "opciones": ["La TIR es del 8,45%", "Su duración corregida es de 5.", "Su rentabilidad acumulada a vencimiento será del 50%", "Las respuestas correctas son la a y c."],
+      "correcta": 3,
+      "explicacion": "FB: 150=100*(1+i)^5, despejando i=8,45% y la rentabilidad acumulada es del 50%",
+      "id": 1
+    },
+    {
+      "pregunta": "En febrero de 2006, después de un importante incremento en las cotizaciones de los activos de renta variable y antes de una previsible corrección de precios, un cliente desea comprar 60.000 euros en un bono de deuda pública española. ¿Cuál cree que es el mejor bono?",
+      "opciones": ["Fecha de emisión: 25-08-2000, Fecha de vencimiento: 25-08-2015, Cupón anual: 7,50%", "Fecha de emisión: 20-01-2000, Fecha de vencimiento: 20-01-2009, Cupón anual: 6,50%", "Fecha de emisión: 20-01-2004, Fecha de vencimiento: 20-01-2009, Cupón anual: 3,50%", "Fecha de emisión: 20-01-2004, Fecha de vencimiento: 20-01-2014, Cupón anual: 6,50%"],
+      "correcta": 1,
+      "explicacion": "Ante expectativas de subidas de tipos, el mejor comportamiento lo tienen bonos con vida residual corta, para que la duración sea baja y no penalice la rentabilidad vía precio, y cupones elevados para poder aprovecharse más la subida.",
+      "id": 2
+    },
+    {
+      "pregunta": "Un producto financiero ofrece un 4% anual nominal con pago trimestral y reinversión de intereses. Sabiendo que un inversor coloca un capital inicial de 10.000 euros, a los 18 meses obtendrá un capital final en euros igual a:",
+      "opciones": ["10.615,20 euros.", "10.403 euros.", "10.823 euros.", "7.166 euros."],
+      "correcta": 0,
+      "explicacion": "FB: Valor final=10.000*(1+0,04/4)^1*1,5=10.615,20 euros (18 meses son 1,5 años)",
+      "id": 3
+    },
+    {
+      "pregunta": "Suponiendo cierta la hipótesis de normalidad, la rentabilidad esperada del título T para el próximo año será del 12% y presenta una desviación estándar del 5,5%. Teniendo en cuenta la anterior información, ¿cuál de las siguientes afirmaciones es correcta con respecto a la rentabilidad esperada del título T para el próximo año?",
+      "opciones": ["Solo I es correcta", "Solo I y II son correctas", "Solo I, II y III son correctas", "Solo I y IV son correctas"],
+      "correcta": 2,
+      "explicacion": "FB: con un 68%, la rentabilidad esperada de este título será: 12%+/-5,5%= 17,5% y 6,5%.",
+      "id": 4
+    },
+    {
+      "pregunta": "Ana, que tiene actualmente 51 años, desea jubilarse con un capital acumulado de 100.000 euros. Suponiendo que la rentabilidad nominal anual obtenida cada año sea del 5%, ¿cuál será la aportación mensual a realizar hasta que se jubile a los 65 años?",
+      "opciones": ["1.456,4 euros", "374,12 euros", "1.000,34 euros", "Ninguna es correcta"],
+      "correcta": 1,
+      "explicacion": "SOLUCIÓN: 100.000= aportación mensual*((1+0,05/12)^15*12 - 1) / (0,05/12); despejando aportación mensual = 374,12 euros/mes",
+      "id": 5
+    },
+    {
+      "pregunta": "Dos acciones A y B presentan la misma desviación típica anual con respecto a su rentabilidad del 10%, así como un coeficiente de correlación entre rentabilidades igual a -0,5. ¿Cuál será la desviación típica de una cartera compuesta por un 20% del título A y un 80% del título B?",
+      "opciones": ["6,46%", "7,21%", "4,33%", "Ninguna es correcta"],
+      "correcta": 1,
+      "explicacion": "SOLUCIÓN: Raíz cuadrada (0,2^2*0,1^2+0,8^2*0,1^2+2*0,2*0,8*(0,1*0,1*(-0,5)))=7,21%",
+      "id": 6
+    },
+    {
+      "pregunta": "Dos bonos son iguales en todas sus características, salvo en la liquidez. En una inversión llevada hasta vencimiento, el bono que sea más líquido será:",
+      "opciones": ["Más barato y en consecuencia generará una mayor rentabilidad", "Más caro y en consecuencia generará una mayor rentabilidad", "Más caro y en consecuencia generará una menor rentabilidad", "Más barato y en consecuencia generara una menor rentabilidad"],
+      "correcta": 2,
+      "explicacion": "FB: la liquidez es uno de los factores de riesgo que se incluyen en la prima de riesgo de cualquier activo, por lo tanto a mayor liquidez menor prima de riesgo luego menor rentabilidad y mayor precio, puesto que el precio oscila en sentido contrario a la rentabilidad.",
+      "id": 7
+    },
+    {
+      "pregunta": "¿Cuál es el precio de cotización en AIAF de un bono corporativo que tiene las siguientes características? Fecha valor: 15-03-2006, Fecha de vencimiento: 30-06-2009, Cupón: 3,75%, TIR: 4,18%",
+      "opciones": ["98,118%.", "98,686%.", "101,337%.", "101,104%."],
+      "correcta": 1,
+      "explicacion": "FB: Pcotización=3,75/(1+4,18%)^(107/365)+3,75/(1+4,18%)^(272/365)+3,75/(1+4,18%)^(837/365)+103,75/((1+4,18%)^1,202/365)=101,337% - 2,65% (Cupón corrido: 3,75%*258/365) = 98,686%",
+      "id": 8
+    },
+    {
+      "pregunta": "Una empresa descuenta una letra de cambio de nominal 8.000 euros y vencimiento a 72 días a un 9% de descuento comercial (base 360). La cuantía efectiva que percibirá la empresa en el momento del descuento será:",
+      "opciones": ["7.856 euros.", "7.950,40 euros.", "7.863,30 euros.", "8.144 euros."],
+      "correcta": 0,
+      "explicacion": "FB: PV=8000*(1-0,09*72/360),, P=7.856 euros",
+      "id": 9
+    },
+    {
+      "pregunta": "En el último año se han calculado la TIR y la TGR de los movimientos monetarios de una cartera. Si la TIR es del 12% y la TGR del 20%, podemos concluir que:",
+      "opciones": ["El inversor ha acertado en la elección de los momentos de compra y venta de los activos de la cartera.", "El inversor se ha equivocado en la elección de los momentos de compra y venta de los activos de la cartera.", "El inversor ha acertado en la selección de los títulos que forman la cartera.", "El inversor se ha equivocado en la selección de los títulos que forman la cartera."],
+      "correcta": 1,
+      "explicacion": "FB: la TIR considera el cuándo el cuánto se invierte y se desvinierte, la TGR no (sólo considera la posición final contra la inicial y la anualiza). Luego en este caso, el inversor ha elegido mal los momentos y los movimientos de compra y venta.",
+      "id": 10
+    },
+    {
+      "pregunta": "Adquirimos un bono de valor nominal 1.000 €, precio entero 1.050 € con vencimiento dentro de 3 años y pago de cupones anuales al 5% en fecha 5 de julio. Hoy, 2 de marzo de 2011, calculamos el cupón corrido y el precio ex-cupón obteniendo:",
+      "opciones": ["29,64 € y 1020,36 € respectivamente", "32,80 € y 1017,20 € respectivamente", "26 € y 1024 € respectivamente", "Ninguna es correcta"],
+      "correcta": 1,
+      "explicacion": "SOL.: La diferencia de fechas para el cálculo del cupón corrido son: 2 de marzo de 2011 menos fecha de abono del último cupón; 5 de julio de 2010 = 240 días. El precio ex cupón (corrido) = 1050 - 32,8 = 1017,20 euros",
+      "id": 11
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "opciones": ["Los precios de los bonos son directamente observables en el mercado.", "La Estructura temporal de los tipos de interés recoge las expectativas del mercado", "En un mercado un mismo bono puede tener distintos precios en un mismo instante del tiempo.", "Ninguna de las anteriores"],
+      "correcta": 1,
+      "explicacion": "Sol.: Los precios de los bonos no son directamente observables en el mercado, en tanto en cuanto la estructura temporal de tipos de interés, ETTI, es la verdadera relación, para un determinado nivel de riesgo, entre plazos y rentabilidades. Por otro lado, por la ley de unicidad del precio, en un mercado eficiente, un mismo activo nunca puede tener dos precios distintos.",
+      "id": 12
+    },
+    {
+      "pregunta": "Tenemos un Bono A, a 10 años de vencimiento, con cupones del 4%. Compramos otro Bono B, también a diez años pero con cupón del 3,85%. Los dos bonos son del mismo emisor. Los mercados financieros están en tendencia a la baja de tipos de interés. La expectativa de rentabilidad es:",
+      "opciones": ["Mayor en el Bono A porque su cupón es mayor.", "Menor en el Bono B porque su cupón es menor.", "Mayor en el Bono B porque su cupón es menor.", "No influye el importe del cupón, sólo el vencimiento y el precio de compra."],
+      "correcta": 2,
+      "explicacion": "FB: ante tendencias bajistas de tipos, se verá menos penalizado por la reinversión de los cupones el bono con menor cupón",
+      "id": 13
+    },
+    {
+      "pregunta": "Si el futuro del Ibex 35 está en 8.350 puntos, y el contado en 8.300, sabiendo que las garantías que aportamos son de 10.000 euros por contrato suponiendo que se lleva la operación a vencimiento, ¿cuál es el apalancamiento si se compran 10 futuros?",
+      "opciones": ["9,27", "10,27", "9,22", "Ninguna es correcta"],
+      "correcta": 3,
+      "explicacion": "Apalancamiento de Futuro Ibex 35: (contado x 10)*nº contratos / Garantías = 8300*10*10 / 10.000*10= 8,3 veces",
+      "id": 14
+    },
+    {
+      "pregunta": "Tenemos una opción Put comprada ATM por la que hemos pagado 1,5 de prima. Precio de Ejercicio 15. La revalorización del subyacente es un 10%. ¿Cuál ha sido la rentabilidad de la operación?",
+      "opciones": ["-100%", "100%", "15%", "0%"],
+      "correcta": 0,
+      "explicacion": "Respuesta -100%: 15 - 15*(1+0,1)=-1,5, como el valor intrínseco no puede ser negativo, se pierde toda la prima",
+      "id": 15
+    },
+    {
+      "pregunta": "El valor temporal a vencimiento de una call/ put es:",
+      "opciones": ["Nulo", "la prima", "Igual al valor temporal", "Diferencia entre el Subyacente y el Strike"],
+      "correcta": 0,
+      "explicacion": "Respuesta: a vencimiento el valor temporal de cualquier opción es 0. Prima call = VI + VT = (S-X) + VT. Prima put = VI + VT = (X-S) + VT",
+      "id": 16
+    },
+    {
+      "pregunta": "¿Cuál será el valor temporal de una opción call comprada, si la prima es 3€, el strike es 10 y el subyacente cotiza a 12€?",
+      "opciones": ["2", "3", "5", "1"],
+      "correcta": 3,
+      "explicacion": "Respuesta 1€: Prima=Valor intrínseco + Valor temporal, luego VT=3-(12-10)=1",
+      "id": 17
+    },
+    {
+      "pregunta": "Si la rentabilidad del activo con riesgo es 18% con una volatilidad del 16%, no quiero asumir una volatilidad mayor del 20%. La rentabilidad del activo libre de riesgo es 3,5%. ¿Cuál será el peso del activo sin riesgo?",
+      "opciones": ["33,54%", "75%", "42,75%", "-25%"],
+      "correcta": 3,
+      "explicacion": "Respuesta: 0,2 = peso activo con riesgo * 0,16 + (1-peso activo con riesgo)*0+2*PR*RF*0. Despejando: peso activo con riesgo = 125% y peso del activo sin riesgo = -25%",
+      "id": 18
+    },
+    {
+      "pregunta": "¿Cuál será el tipo forward o implícito a tres meses para una inversión dentro de seis meses según la información del mercado interbancario que aparece a continuación? Tipo a 3 meses 4,75%, Tipo a 6 meses 4,70%, Tipo a 9 meses 4,67%",
+      "opciones": ["4,610%", "4,367%", "4,504%", "4,571%"],
+      "correcta": 2,
+      "explicacion": "Respuesta: se trata de calcular el tipo FRA a 3 meses para dentro de 6 meses: FRA6,9 = (1+0,0467*9/12) = (1+0,0467*6/12)*(1+FRA6,9*3/12); despejando FRA6,9 = 4,504%",
+      "id": 19
+    },
+    {
+      "pregunta": "¿Qué duración de Macaulay tiene el bono cupón cero con 3 años de vencimiento?",
+      "opciones": ["3", "2,33", "2,65", "2,81"],
+      "correcta": 0,
+      "explicacion": "Un bono cupón cero con vencimiento a 3 años tiene una duración de Macaulay de 3 años",
+      "id": 20
+    },
+    {
+      "pregunta": "A partir de las cotizaciones trimestrales de las acciones LRV y EVC: ¿Cuál ha sido la varianza de las rentabilidades de LRV?",
+      "opciones": ["0,022%", "0,088%", "1,479%", "2,958%"],
+      "correcta": 0,
+      "explicacion": "STAT 1 var EXE. Pongo los datos de rentabilidad de LRV. AC Shift STAT 5 3 exe 1,479% desviación típica; la varianza = 0,01479^2 = 0,022%",
+      "id": 21
+    },
+    {
+      "pregunta": "A partir de las cotizaciones trimestrales de las acciones LRV y EVC: ¿Cuál es el coeficiente de correlación lineal de la recta de regresión de LRV sobre EVC?.",
+      "opciones": ["-0,04", "-0,021", "-0,089", "Ninguna de las anteriores"],
+      "correcta": 3,
+      "explicacion": "El Coeficiente de correlación lineal será la interpretación de la covarianza ya calculada (-0,000444): ρxy= -0,000444 / 0,01479-0,033468 = -0.8969, que no aparece en las opciones",
+      "id": 22
+    },
+    {
+      "pregunta": "Un dato del indicador de balanza comercial (reducción del déficit) mayor que el esperado por el mercado tendrá el siguiente efecto en los activos financieros:",
+      "opciones": ["Positivo para la renta variable", "Positivo para la renta fija", "Positivo para la divisa", "Todas las anteriores son correctas"],
+      "correcta": 3,
+      "explicacion": "Un menor déficit comercial será positivo para la renta variable, la renta fija y la divisa.",
+      "id": 23
+    },
+    {
+      "pregunta": "El ratio EV/Ventas:",
+      "opciones": ["Permite la comparación entre compañías que estén en beneficios o pérdidas", "No considera aspectos relevantes del negocio como márgenes, inversiones, etc.", "No existe", "La a) y la b) son correctas"],
+      "correcta": 3,
+      "explicacion": "El ratio EV/Ventas permite la comparación entre compañías que estén en beneficios o pérdidas pero no considera aspectos relevantes del negocio como márgenes, inversiones, etc.",
+      "id": 24
+    },
+    {
+      "pregunta": "Un empresario prevé formalizar un depósito bancario de 90 días dentro de 90 días. Acude a su oficina bancaria y se lo comenta a su asesor. ¿Qué opción mejor cabe tomar hoy ante una expectativa de subida de tipos?",
+      "opciones": ["Venta de Futuro Euribor a 90 días", "Comprar Call sobre Futuro de Euribor a 90 días", "Vender FRA 90/180", "No hacer nada"],
+      "correcta": 3,
+      "explicacion": "Respuesta: al tener expectativas de subidas tipos no ha de hacer nada, ya que se aprovechará de mejores tipos de interés en el formalizar el depósito.",
+      "id": 25
+    },
+    {
+      "pregunta": "Calcular la desviación típica anual de un fondo de inversión que ha tenido los siguientes retornos semanales: -3%, 2% y 0%",
+      "opciones": ["0%", "14,78%", "7%", "2%"],
+      "correcta": 1,
+      "explicacion": "Respuesta: con la calculadora financiera calculamos la desviación típica mensual (STAT 1 VAR pones los datos en la matriz: -3, 2, 0; AC Shift STAT, 5, 3 EXE) y el resultado se multiplica por raíz (52) para anualizarlo.",
+      "id": 26
+    },
+    {
+      "pregunta": "Un inversor tiene un plan de pensiones de empleo y otro individual. Para él mismo, ¿cuánto puede aportar o que le aporte su empresa -en el caso del plan de empleo- en un año a los dos vehículos de ahorro?",
+      "opciones": ["8000 euros", "16000 euros", "24000 euros", "Ninguna es correcta"],
+      "correcta": 3,
+      "explicacion": "Respuesta: Aportación anual máxima a todos los sistemas equivalentes a un plan de pensiones: 1500 euros de aportación individual + 8500 de empresa. Reducción: el importe de 300% de los rendimientos netos del trabajo o 1.500 euros como máximo (más hasta 8.500 euros de la aportación empresarial).",
+      "id": 27
+    },
+    {
+      "pregunta": "El 31 de diciembre de 1996 vendiste uno de tus valores por 5.000 CHF. Compraste este título el 30 de junio de 1995 por 5.300 CHF. Este valor pagó un dividendo de 10 CHF el 31 de julio de 1995 y el 31 de julio de 1996. Los dividendos son reinvertidos a un tipo del 5% efectivo anual. ¿Cuál es la rentabilidad TAE de la inversión?",
+      "opciones": ["-2,83%", "-3,54%", "-5,27%", "Ninguna de las respuestas anteriores es correcta"],
+      "correcta": 1,
+      "explicacion": "TAE = -3,54%",
+      "id": 28
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes cuatro carteras no puede descansar en la frontera eficiente como describió Markovitz?",
+      "opciones": ["Cartera A", "Cartera B", "Cartera C", "Cartera D"],
+      "correcta": 3,
+      "explicacion": "La cartera D tiene una menor rentabilidad que A pero una mayor volatilidad; quiere decir, no puede estar en la frontera eficiente",
+      "id": 29
+    },
+    {
+      "pregunta": "La Duración Modificada, ante una variación en los tipos de interés indica:",
+      "opciones": ["La variación absoluta del precio del bono", "La variación porcentual del precio del bono", "La convexidad del bono", "Todas son incorrectas"],
+      "correcta": 1,
+      "explicacion": "Variación relativa del precio del bono = - duración corregida*variación absoluta de TIR. Ej. Si la Dm= 3 y la tir sube del 3% al 4%, la variación del precio del bono = -3*(1+1%)=-3%",
+      "id": 30
+    },
+    {
+      "pregunta": "Los distintos productos inmobiliarios asocian un riesgo y en consecuencia una rentabilidad esperada: 1. Oficinas, 2. Ocio, 3. Centros Comerciales, 4. Viviendas. Señálese la secuencia correcta de menor a mayor riesgo",
+      "opciones": ["4, 1, 3 y 2", "1, 2, 3 y 4", "4, 2, 3 y 1", "Ninguna es correcta"],
+      "correcta": 0,
+      "explicacion": "La secuencia responde a la menor rentabilidad por alquiler y riesgo asociado en vivienda y oficinas, frente a los otros dos tipos de activos que llevan asociados riesgos de negocios no inmobiliarios.",
+      "id": 31
+    },
+    {
+      "pregunta": "Un Miembro deberá trabajar para obtener, y animar a los demás a que obtengan, las cualificaciones y conocimientos necesarios, debiendo además cumplir los estándares y códigos éticos y profesionales, así como trabajar para mejorar la calidad del servicio y con ello el reconocimiento de su profesión, y desarrollando sus servicios dando lo mejor de sí mismo. ¿Es este uno de los principios fundamentales del Código ético y de conducta de EFPA?",
+      "opciones": ["Si, se corresponde con el principio de atención debida", "Si, se corresponde con el principio de formación continua", "No, es uno de los principios del código ético de la CNMV", "Ninguna es correcta"],
+      "correcta": 0,
+      "explicacion": "Según el código de EFPA",
+      "id": 32
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes afirmaciones sale reflejada en el código ético de EFPA?",
+      "opciones": ["Los Miembros deberán proporcionar una copia de este Código Ético a sus clientes cuando lo soliciten, y explicar aquellos puntos en los que surjan dudas sobre el significado de sus disposiciones.", "Los Miembros sólo deberán asumir tareas para las que cuenten con el necesario conocimiento, experiencia, habilidades y competencia general.", "Los Miembros actuarán de forma profesional y se comportarán honrando y dignificando su profesión.", "Todas figuran en el código ético"],
+      "correcta": 3,
+      "explicacion": "Según el código de EFPA",
+      "id": 33
+    },
+    {
+      "pregunta": "De qué está compuesto un estructurado 100% garantizado y que te ofrece una revalorización siempre y cuando el oro quede por debajo de 200?",
+      "opciones": ["Bono + Put vendida sobre el precio del oro", "Depósito + Call comprada sobre el precio del oro", "Depósito + Call vendida sobre el precio del oro", "Bono + Put comprada sobre el precio del oro"],
+      "correcta": 3,
+      "explicacion": "Respuesta: sólo con compra de put se puede conseguir lo indicado en el enunciado.",
+      "id": 34
+    },
+    {
+      "pregunta": "Descuento de un pagaré emitido a 18 meses por un nominal de 50.000 € y que han pasado 6 meses y cotiza a 45.000 €. ¿Cómo es su rentabilidad annualizada?",
+      "opciones": ["Mayor que 9%,", "Igual que 9%,", "Por debajo de 9%", "Ninguna de las anteriores"],
+      "correcta": 0,
+      "explicacion": "Respuesta: 45.000=50.000*(1-d)^12/12, despejando d=10%",
+      "id": 35
+    },
+    {
+      "pregunta": "Si las tasas de interés interbancario a 3 meses del euro y del dólar son 2,10% y 4,25% respectivamente y el tipo de cambio spot €/$ es de 1,20 dólares por euro, el tipo de cambio a plazo a tres meses será:",
+      "opciones": ["1,2253.", "1,2064", "1,1936.", "Ninguna es correcta"],
+      "correcta": 1,
+      "explicacion": "Respuesta: FWD=1,2 *(1+0,0425*3/12) / (1+0,021*3/12)= 1,2064 dólares por euro",
+      "id": 36
+    },
+    {
+      "pregunta": "Si la rentabilidad nominal de un bono es del 8% y la inflación es del 2%, ¿Cuál es la rentabilidad real?",
+      "opciones": ["6,23%", "4,23%", "5,88%", "6%"],
+      "correcta": 2,
+      "explicacion": "Respuesta: (1+ Tasa Nominal)= (1+ Tasa Real)* (1+ Inflación) / (1+0,08)=(1+tasa real)*(1+0,02) / Tasa real= 1,08 / 1,02 - 1=5,88%",
+      "id": 37
+    },
+    {
+      "pregunta": "No es una característica de la fase de recesión:",
+      "opciones": ["Disminución del consumo y la inversión privadas", "Disminución de la demanda interna.", "Disminución de la producción y de la renta, con tasas de crecimiento negativas.", "Disminución de la tasa de paro."],
+      "correcta": 3,
+      "explicacion": "RESPUESTA: en la fase de recesión aumenta la tasa de paro.",
+      "id": 38
+    },
+    {
+      "pregunta": "¿Qué cuota mensual tiene un préstamo de 200.000 euros a 30 años con amortización mensual y tipo nominal anual del 4%?.",
+      "opciones": ["456,54", "545,67", "954,83", "Ninguna es correcta"],
+      "correcta": 2,
+      "explicacion": "RESPUESTA: 200.000=cuota*(1-(1+0,04/12)^-360)/(0,04/12); despejando cuota =o con la calculadora financiera mejor= 954,83 euros al mes",
+      "id": 39
+    },
+    {
+      "pregunta": "Qué variación porcentual estima que tendrá el precio de un bono si la TIR va a subir de inmediato 100 puntos básicos y sus características son: Precio entero:104'00, Duración: 12'3, TIR actual: 5'25%",
+      "opciones": ["-12'30%.", "14'59%.", "-11'68%.", "Ninguna es correcta"],
+      "correcta": 2,
+      "explicacion": "RESPUESTA: Variación de precio = -12,3/(1+0,0525) * (6,25-5,25)=-11,68%",
+      "id": 40
+    },
+    {
+      "pregunta": "Si un inversor tiene un horizonte temporal para una inversión de 10 años e invierte en una cartera que tiene una duración financiera de 12 años. ¿Qué riesgo tiene?",
+      "opciones": ["De precio", "De tipos", "Ninguno", "La cartera está inmunizada"],
+      "correcta": 0,
+      "explicacion": "RESPUESTA: riesgo de que en el año 12 que precisa de su dinero, y los bonos no han vencido aún, por lo que al tener que vender la cartera el precio de los mismos podría ser inferior a 100%",
+      "id": 41
+    },
+    {
+      "pregunta": "Dos bonos de garantía simple en la prelación de cobro, idénticos en todas sus características que figuran en el folleto de emisión, vencimiento, importe de cupón y valor nominal, así como fechas de pago de cupón y amortización, son emitidos por dos sociedades distintas, que a su vez tienen diferente rating. ¿Cuál valdrá más?",
+      "opciones": ["Valdrá más el que tenga más riesgo de impago.", "Valdrán igual, puesto que tienen la misma duración.", "Valdrán lo mismo siempre que los tipos suban.", "Valdrá más el que tenga menor probabilidad de impago."],
+      "correcta": 3,
+      "explicacion": "RESPUESTA: a menor riesgo de impago, quiere decir mayor solvencia, luego eso se paga más: mayor será el precio.",
+      "id": 42
+    },
+    {
+      "pregunta": "La pérdida de unos 4.700 millones de euros sufrida por Société Générale en 2008, se considera como un claro ejemplo de:",
+      "opciones": ["Riesgo de Liquidez", "Riesgo de Mercado", "Riesgo de Crédito", "Riesgo Operacional"],
+      "correcta": 3,
+      "explicacion": "Es un claro ejemplo de riesgo operacional",
+      "id": 43
+    },
+    {
+      "pregunta": "¿Cuál es la única forma de eliminar la totalidad del riesgo operacional de una entidad de seguros?",
+      "opciones": ["Contratando seguros para todos los riesgos operacionales de la entidad", "Cerrando la entidad", "Teniendo una dotación suficiente de capital por riesgo operacional", "Mitigando de forma activa todas las fuentes de riesgo operacional de la entidad"],
+      "correcta": 1,
+      "explicacion": "La única forma es cerrando la entidad",
+      "id": 44
+    },
+    {
+      "pregunta": "Los ratings o calificaciones crediticias de las agencias externas de calificación son:",
+      "opciones": ["un sistema que cuantifica la pérdida esperada por riesgo de crédito de una entidad.", "un sistema que permite el ordenamiento de entidades por nivel de riesgo crediticio, basada una opinión sobre factores de riesgo relevantes.", "un sistema que permite el ordenamiento de entidades por nivel de riesgo crediticio, a partir de la cuantificación de la pérdida inesperada por dicho riesgo.", "Todas son correctas"],
+      "correcta": 1,
+      "explicacion": "Los sistemas de calificación no cuantifican per se el riesgo de crédito sino que son un sistema de ordenamiento: 'son un sistema de ordenamiento del riesgo crediticio, a partir de una evaluación de la capacidad general de un emisor (deudor) de cumplir con sus obligaciones financieras en tiempo y forma'.",
+      "id": 45
+    },
+    {
+      "pregunta": "Dados los siguientes 30 retornos en porcentaje ordenados de un activo, calcular el VaR (en términos absolutos) por el método histórico al 90% de confianza: -16,-14,-10,-7,-7,-5,-4,-4,-4,-3,-1,-1, 0, 0, 0, 1, 2, 2, 4, 6, 7, 8, 9, 11, 12, 12,14, 18, 21, 23.",
+      "opciones": ["VAR (90%) = 7", "VAR (90%) = 10", "VAR (90%) = 14", "VAR (90%) = 18"],
+      "correcta": 1,
+      "explicacion": "El corte del 10% de las observaciones es la 3ra observación menor, que es VaR=10.",
+      "id": 46
+    },
+    {
+      "pregunta": "¿Cuál ha sido la rentabilidad efectiva de la siguiente operación si suponemos que el inversor reinvierte los cupones anuales, y amortiza el bono a la par a vencimiento?",
+      "opciones": ["6,25%", "6,35%", "5,97%", "6,22%"],
+      "correcta": 3,
+      "explicacion": "SOLUCIÓN: En este caso TIR y TRE no coinciden: La TRE será: (119,6619/93,97)^(1/4) -1 = 6,2287%",
+      "id": 47
+    },
+    {
+      "pregunta": "Suponiendo que queremos estimar al VaR aproximado al 99% de confianza (abscisa 2,33) de una cartera de 2.000.000 euros con un horizonte temporal de 10 días. Y sabemos que la rentabilidad diaria media y la volatilidad diaria asociadas son de 0,08% y de 0,20%, respectivamente:",
+      "opciones": ["20.751,74", "7.720,00", "24.412,78", "40.751,74"],
+      "correcta": 2,
+      "explicacion": "Solución: Al 99% de confianza: VaR1,0,01= 2.000.000*(0,0008-2,33*0,002)=7.720 euros pérdida esperada al 99% de confianza a 1 día vista. Si el horizonte temporal es de 10 días: VaR10,0,01= VaR1,0,01 * raíz(10)=7.720*raíz(10)=24.412,78 euros",
+      "id": 48
+    },
+    {
+      "pregunta": "¿Qué participación aproximada en la revalorización media mensual de la acción ABC puede tener un fondo para el que se captan 100 millones de euros, de los cuales se invierte en bonos cupón cero de 5% de TIR para garantizar al 85% del capital en 3 años?.",
+      "opciones": ["50,22%", "100,17%", "109,53%", "Ninguna es correcta"],
+      "correcta": 3,
+      "explicacion": "SOLUCIÓN: el capital a garantizar a vencimiento se consigue garantizar en el inicio de la operación así: 85.000.000/(1+0,05)^3=73.426.295,88 millones que se invierten en bonos cupón cero de 5% de TIR, luego quedan libres sobre los 100 millones iniciales 26.573.804,12 euros, menos los gastos de gestión quedan disponibles 22.573.804,12 euros para invertir en opciones call asiáticas.",
+      "id": 49
+    },
+    {
+      "pregunta": "¿Cómo es el beneficio y la pérdida máximos, respectivamente, obtenido cuando vendemos una opción put?",
+      "opciones": ["Ilimitado y total", "Limitado y total", "Ilimitado y menor de la prima recibida y", "Siempre igual al strike"],
+      "correcta": 1,
+      "explicacion": "SOLUCIÓN: limitado a la prima que recibe al principio de la operación y la pérdida puede ser total si el subyacente llega a valer cero.",
+      "id": 50
+    },
+    {
+      "pregunta": "Suponemos que la Fed decide parar de emitir bonos a 30 años y sustituirlos por letras y por bonos a más corto plazo. ¿Cuál de las siguientes afirmaciones relacionadas con lo anterior es más acertada?",
+      "opciones": ["Si la teoría de las expectativas sobre los tipos de interés es correcta, esta decisión reducirá el coste de financiación del tesoro americano.", "Si la teoría de la preferencia por la liquidez es correcta, esta decisión reducirá el coste de financiación del tesoro americano.", "Si la teoría de la preferencia por la liquidez es correcta, esta decisión no supondrá cambio alguno sobre el coste de financiación del tesoro americano.", "Si la teoría de las expectativas sobre los tipos de interés es correcta, esta decisión incrementará el coste de financiación del tesoro americano"],
+      "correcta": 1,
+      "explicacion": "Sol. Si la teoría de las expectativas es correcta, alterar el vencimiento de la financiación del tesoro americano no afectará al coste de financiación (por ej. financiarse a 30 años es como lo mismo que financiarse 30 años por un año y otros 10 años a plazo). Si la teoría de la preferencia por la liquidez es correcta, financiarse a más corto plazo se reducirá, al no tener que compensar a los inversores con una prima por la menor liquidez al prestar a más corto plazo.",
+      "id": 51
+    },
+    {
+      "pregunta": "Si el precio de un bono en el momento de la compra es de 93,97%, al final del primer año es de 95%, al final del segundo año de 97%, al final del tercer año de 99%, y al final del cuarto año 100%, ¿Cuál es la TGR?",
+      "opciones": ["3,452%", "1,563%", "3,756%", "3,545%"],
+      "correcta": 1,
+      "explicacion": "Sol. TGR= ((1,096%)*(1,2,10%)*(1+2,06%)*(1+1%))^1/4 -1 = 1,563%",
+      "id": 52
+    }
+  ]
+}
