@@ -88,7 +88,7 @@ La gestión de carteras se basa en un principio fundamental: **el todo puede ser
 La rentabilidad simple mide el cambio porcentual en el valor de una inversión:
 
 **Fórmula:**
-**R = (P₁ - P₀ + D)/(P₀) × 100**
+$$R = \frac{P_1 - P_0 + D}{P_0} \times 100$$
 
 Donde:
 - P₁ = Precio/Valor final
@@ -101,7 +101,7 @@ Donde:
 
 Un inversor compra acciones de Iberdrola a 11,20€ y las vende un año después a 12,50€. Durante el año recibe dividendos de 0,45€ por acción.
 
-**R = (12,50 - 11,20 + 0,45)/(11,20) × 100 = (1,75)/(11,20) × 100 = 15,63\%**
+$$R = \frac{12,50 - 11,20 + 0,45}{11,20} \times 100 = \frac{1,75}{11,20} \times 100 = 15,63\%$$
 
 ---
 
@@ -109,7 +109,7 @@ Un inversor compra acciones de Iberdrola a 11,20€ y las vende un año después
 
 Cuando disponemos de rentabilidades de varios períodos:
 
-**R̄ = (R₁ + R₂ + ... + Rₙ)/(n) = \fracΣᵢ=₁ⁿ Rᵢn**
+$$\bar{R} = \frac{R_1 + R_2 + ... + R_n}{n} = \frac{\sum_{i=1}^{n} R_i}{n}$$
 
 ---
 
@@ -123,13 +123,13 @@ Cuando disponemos de rentabilidades de varios períodos:
 | 4 | +18% |
 | 5 | +4% |
 
-**R̄ = (14 + (-6) + 10 + 18 + 4)/(5) = (40)/(5) = 8\%**
+$$\bar{R} = \frac{14 + (-6) + 10 + 18 + 4}{5} = \frac{40}{5} = 8\%$$
 
 ---
 
 ## 2.3 Rentabilidad Esperada (por Escenarios)
 
-**E(R) = Σᵢ=₁ⁿ pᵢ × Rᵢ**
+$$E(R) = \sum_{i=1}^{n} p_i \times R_i$$
 
 ---
 
@@ -141,13 +141,13 @@ Cuando disponemos de rentabilidades de varios períodos:
 | Normal | 50% | +12% |
 | Desfavorable | 25% | -10% |
 
-**E(R) = 0,25 × 30 + 0,50 × 12 + 0,25 × (-10) = 7,5 + 6 - 2,5 = 11\%**
+$$E(R) = 0,25 \times 30 + 0,50 \times 12 + 0,25 \times (-10) = 7,5 + 6 - 2,5 = 11\%$$
 
 ---
 
 ## 2.4 Rentabilidad Anualizada (CAGR)
 
-**CAGR = ((Valor final)/(Valor inicial))¹/ⁿ - 1**
+$$CAGR = \left(\frac{Valor\ final}{Valor\ inicial}\right)^{1/n} - 1$$
 
 ---
 
@@ -155,7 +155,7 @@ Cuando disponemos de rentabilidades de varios períodos:
 
 Inversión de 10.000€ que crece a 15.000€ en 5 años:
 
-**CAGR = (15.000 / 10.000)¹/⁵ - 1 = 1,5⁰,² - 1 = 8,45\%**
+$$CAGR = (15.000 / 10.000)^{1/5} - 1 = 1,5^{0,2} - 1 = 8,45\%$$
 
 ---
 
@@ -186,7 +186,7 @@ Capital invertido total: 60.000€
 
 Es la **media ponderada** de las rentabilidades individuales:
 
-**Rₚ = Σᵢ=₁ⁿ wᵢ × Rᵢ**
+$$R_p = \sum_{i=1}^{n} w_i \times R_i$$
 
 Restricción: La suma de pesos debe ser 1 (100%).
 
@@ -201,7 +201,7 @@ Restricción: La suma de pesos debe ser 1 (100%).
 | Renta Fija | 20% | +3% |
 | Liquidez | 10% | +1% |
 
-**Rₚ = 0,45 × 12 + 0,25 × 8 + 0,20 × 3 + 0,10 × 1 = 5,4 + 2,0 + 0,6 + 0,1 = 8,1\%**
+$$R_p = 0,45 \times 12 + 0,25 \times 8 + 0,20 \times 3 + 0,10 \times 1 = 5,4 + 2,0 + 0,6 + 0,1 = 8,1\%$$
 
 ---
 
@@ -216,10 +216,10 @@ El riesgo en inversiones se define como la **incertidumbre sobre los resultados 
 ## 3.2 Volatilidad (Desviación Estándar)
 
 **Fórmula de varianza:**
-**σ² = \fracΣᵢ=₁ⁿ(Rᵢ - R̄)²n**
+$$\sigma^2 = \frac{\sum_{i=1}^{n}(R_i - \bar{R})^2}{n}$$
 
 **Volatilidad:**
-**σ = √(σ²)**
+$$\sigma = \sqrt{\sigma^2}$$
 
 **Volatilidades típicas anuales:**
 
@@ -247,14 +247,14 @@ Usando los datos del Ejemplo 2 (R̄ = 8%):
 | 5 | 4% | -4% | 16 |
 | **Suma** | | | **352** |
 
-**σ² = (352)/(5) = 70,4**
-**σ = √(70,4) = 8,39\%**
+$$\sigma^2 = \frac{352}{5} = 70,4$$
+$$\sigma = \sqrt{70,4} = 8,39\%$$
 
 ---
 
 ## 3.3 Volatilidad Anualizada
 
-**σaₙual = σₚerᵢodo × \sqrtnₚerᵢodos/año**
+$$\sigma_{anual} = \sigma_{periodo} \times \sqrt{n_{periodos/año}}$$
 
 | Volatilidad original | Fórmula | Volatilidad anualizada |
 |---------------------|---------|----------------------|
@@ -281,7 +281,7 @@ Usando los datos del Ejemplo 2 (R̄ = 8%):
 
 La **beta (β)** mide la sensibilidad de un activo respecto al mercado:
 
-**βᵢ = (Cov(Rᵢ, Rₘ))/(σₘ²)**
+$$\beta_i = \frac{Cov(R_i, R_m)}{\sigma_m^2}$$
 
 | Beta | Tipo de activo | Comportamiento |
 |------|----------------|----------------|
@@ -302,7 +302,7 @@ Una acción tiene β = 1,3:
 
 ## 3.6 Beta de una Cartera
 
-**βₚ = Σᵢ=₁ⁿ wᵢ × βᵢ**
+$$\beta_p = \sum_{i=1}^{n} w_i \times \beta_i$$
 
 ---
 
@@ -314,7 +314,7 @@ Una acción tiene β = 1,3:
 | Acción B | 35% | 0,9 |
 | Acción C | 25% | 1,6 |
 
-**βₚ = 0,40 × 1,3 + 0,35 × 0,9 + 0,25 × 1,6 = 0,52 + 0,315 + 0,40 = 1,235**
+$$\beta_p = 0,40 \times 1,3 + 0,35 \times 0,9 + 0,25 \times 1,6 = 0,52 + 0,315 + 0,40 = 1,235$$
 
 La cartera es ligeramente agresiva (β > 1).
 
@@ -322,7 +322,7 @@ La cartera es ligeramente agresiva (β > 1).
 
 ## 3.7 Varianza de una Cartera (Dos Activos)
 
-**σₚ² = wₐ² σₐ² + w᷾² σ᷾² + 2 wₐ w᷾ σₐ σ᷾ ρₐ᷾**
+$$\sigma_p^2 = w_A^2 \sigma_A^2 + w_B^2 \sigma_B^2 + 2 w_A w_B \sigma_A \sigma_B \rho_{AB}$$
 
 ---
 
@@ -336,14 +336,14 @@ La cartera es ligeramente agresiva (β > 1).
 Correlación ρ = 0,2
 
 **Paso 1: Rentabilidad esperada**
-**E(Rₚ) = 0,60 × 10\% + 0,40 × 4\% = 7,6\%**
+$$E(R_p) = 0,60 \times 10\% + 0,40 \times 4\% = 7,6\%$$
 
 **Paso 2: Varianza**
-**σₚ² = (0,60)² × (0,20)² + (0,40)² × (0,06)² + 2 × 0,60 × 0,40 × 0,20 × 0,06 × 0,2**
-**σₚ² = 0,0144 + 0,000576 + 0,001152 = 0,016128**
+$$\sigma_p^2 = (0,60)^2 \times (0,20)^2 + (0,40)^2 \times (0,06)^2 + 2 \times 0,60 \times 0,40 \times 0,20 \times 0,06 \times 0,2$$
+$$\sigma_p^2 = 0,0144 + 0,000576 + 0,001152 = 0,016128$$
 
 **Paso 3: Volatilidad**
-**σₚ = √(0,016128) = 12,70\%**
+$$\sigma_p = \sqrt{0,016128} = 12,70\%$$
 
 **Comparación:**
 - Media ponderada simple: 0,60 × 20% + 0,40 × 6% = 14,4%
@@ -421,7 +421,7 @@ Dos activos con volatilidad 20% cada uno, pesos 50%-50%:
 
 Con correlación perfectamente negativa, es posible eliminar todo el riesgo:
 
-**wₐ = (σ᷾)/(σₐ + σ᷾)**
+$$w_A = \frac{\sigma_B}{\sigma_A + \sigma_B}$$
 
 ---
 
@@ -429,11 +429,11 @@ Con correlación perfectamente negativa, es posible eliminar todo el riesgo:
 
 Activo A: σ = 24%, Activo B: σ = 16%, ρ = -1
 
-**wₐ = (16\%)/(24\% + 16\%) = 40\%**
-**w᷾ = 60\%**
+$$w_A = \frac{16\%}{24\% + 16\%} = 40\%$$
+$$w_B = 60\%$$
 
 Verificación:
-**σₚ = |0,40 × 24\% - 0,60 × 16\%| = |9,6\% - 9,6\%| = 0\%**
+$$\sigma_p = |0,40 \times 24\% - 0,60 \times 16\%| = |9,6\% - 9,6\%| = 0\%$$
 
 ---
 
@@ -553,7 +553,7 @@ Los precios reflejan **TODA** la información (incluida la privada).
 
 ### Cartera de Mínima Volatilidad (CMV)
 
-**wₐ = \fracσ᷾² - Covₐ᷾σₐ² + σ᷾² - 2 × Covₐ᷾**
+$$w_A = \frac{\sigma_B^2 - Cov_{AB}}{\sigma_A^2 + \sigma_B^2 - 2 \times Cov_{AB}}$$
 
 ---
 
@@ -564,13 +564,13 @@ Los precios reflejan **TODA** la información (incluida la privada).
 - Correlación: ρ = 0,3
 
 **Paso 1: Covarianza**
-**Cov = 0,22 × 0,10 × 0,3 = 0,0066**
+$$Cov = 0,22 \times 0,10 \times 0,3 = 0,0066$$
 
 **Paso 2: Peso de A**
-**wₐ = ((0,10)² - 0,0066)/((0,22)² + (0,10)² - 2 × 0,0066) = (0,0034)/(0,0452) = 7,52\%**
+$$w_A = \frac{(0,10)^2 - 0,0066}{(0,22)^2 + (0,10)^2 - 2 \times 0,0066} = \frac{0,0034}{0,0452} = 7,52\%$$
 
 **Paso 3: Peso de B**
-**w᷾ = 92,48\%**
+$$w_B = 92,48\%$$
 
 **Rentabilidad CMV:** 0,0752 × 14% + 0,9248 × 7% = 7,53%
 
@@ -588,7 +588,7 @@ Los precios reflejan **TODA** la información (incluida la privada).
 
 La CML es la frontera eficiente cuando existe activo libre de riesgo:
 
-**E(Rₚ) = Rf + (E(Rₘ) - Rf)/(σₘ) × σₚ**
+$$E(R_p) = R_f + \frac{E(R_m) - R_f}{\sigma_m} \times \sigma_p$$
 
 **Aplica solo a carteras eficientes.**
 **Medida de riesgo: Volatilidad (σ)**
@@ -602,7 +602,7 @@ Datos: Rf = 2%, E(Rm) = 9%, σm = 14%
 Pendiente CML: (9% - 2%) / 14% = 0,50
 
 Un inversor desea volatilidad del 10%:
-**E(Rₚ) = 2\% + 0,50 × 10\% = 7\%**
+$$E(R_p) = 2\% + 0,50 \times 10\% = 7\%$$
 
 Composición: σp = wm × σm → 10% = wm × 14% → wm = 71,43%
 
@@ -614,7 +614,7 @@ Composición: σp = wm × σm → 10% = wm × 14% → wm = 71,43%
 
 La SML relaciona rentabilidad esperada con riesgo sistemático (beta):
 
-**E(Rᵢ) = Rf + βᵢ × (E(Rₘ) - Rf)**
+$$E(R_i) = R_f + \beta_i \times (E(R_m) - R_f)$$
 
 **Aplica a TODOS los activos y carteras.**
 **Medida de riesgo: Beta (β)**
@@ -626,7 +626,7 @@ La SML relaciona rentabilidad esperada con riesgo sistemático (beta):
 Rf = 2%, E(Rm) = 10%, Prima de riesgo = 8%
 
 Acción X con β = 1,4:
-**E(R_X) = 2\% + 1,4 × 8\% = 13,2\%**
+$$E(R_X) = 2\% + 1,4 \times 8\% = 13,2\%$$
 
 **Valoración:**
 - Rentabilidad observada = 15% → INFRAVALORADA (comprar)
@@ -757,7 +757,7 @@ Los activos evolucionan a ritmos diferentes. Si la RV sube más que la RF, la ca
 
 Mide el **exceso de rentabilidad por unidad de riesgo total**:
 
-**Sharpe = (Rₚ - Rf)/(σₚ)**
+$$Sharpe = \frac{R_p - R_f}{\sigma_p}$$
 
 | Sharpe | Interpretación |
 |--------|----------------|
@@ -784,7 +784,7 @@ La Cartera B es más eficiente aunque tiene menor rentabilidad absoluta.
 
 Mide el **exceso de rentabilidad por unidad de riesgo sistemático**:
 
-**Treynor = (Rₚ - Rf)/(βₚ)**
+$$Treynor = \frac{R_p - R_f}{\beta_p}$$
 
 > Más apropiado para carteras **bien diversificadas**.
 
@@ -794,7 +794,7 @@ Mide el **exceso de rentabilidad por unidad de riesgo sistemático**:
 
 Mide la **rentabilidad extra respecto al CAPM**:
 
-**α = Rₚ - [Rf + βₚ(Rₘ - Rf)]**
+$$\alpha = R_p - [R_f + \beta_p(R_m - R_f)]$$
 
 | Alfa | Significado |
 |------|-------------|
@@ -811,7 +811,7 @@ Mercado: Rm = 10%, Rf = 2%
 
 Rentabilidad esperada CAPM = 2% + 1,1 × (10% - 2%) = 10,8%
 
-**α = 12\% - 10,8\% = +1,2\%**
+$$\alpha = 12\% - 10,8\% = +1,2\%$$
 
 El gestor añade 1,2% de valor.
 
@@ -821,7 +821,7 @@ El gestor añade 1,2% de valor.
 
 Mide la **máxima caída desde un pico hasta un valle**:
 
-**MDD = (Valle - Pico)/(Pico) × 100**
+$$MDD = \frac{Valle - Pico}{Pico} \times 100$$
 
 ---
 
@@ -829,7 +829,7 @@ Mide la **máxima caída desde un pico hasta un valle**:
 
 Una cartera alcanza máximo de 150.000€ y cae a 120.000€:
 
-**MDD = (120.000 - 150.000)/(150.000) = -20\%**
+$$MDD = \frac{120.000 - 150.000}{150.000} = -20\%$$
 
 ---
 
@@ -837,8 +837,8 @@ Una cartera alcanza máximo de 150.000€ y cae a 120.000€:
 
 El **VaR** indica la pérdida máxima esperada con un nivel de confianza dado:
 
-**VaR₉₅\% = -E(R) + 1,65 × σ**
-**VaR₉₉\% = -E(R) + 2,33 × σ**
+$$VaR_{95\%} = -E(R) + 1,65 \times \sigma$$
+$$VaR_{99\%} = -E(R) + 2,33 \times \sigma$$
 
 ---
 
@@ -846,7 +846,7 @@ El **VaR** indica la pérdida máxima esperada con un nivel de confianza dado:
 
 Cartera de 2.000.000€ con E(R) mensual = 0,6% y σ mensual = 3,5%:
 
-**VaR₉₅\% = -0,6\% + 1,65 × 3,5\% = 5,175\%**
+$$VaR_{95\%} = -0,6\% + 1,65 \times 3,5\% = 5,175\%$$
 
 **En euros:** 2.000.000€ × 5,175% = **103.500€**
 
@@ -894,7 +894,7 @@ Un **benchmark** es un índice de referencia contra el cual se evalúa el rendim
 
 El **Tracking Error (TE)** mide la desviación respecto al benchmark:
 
-**TE = σ(Rₚ - R_b)**
+$$TE = \sigma(R_p - R_b)$$
 
 | Tracking Error | Tipo de gestión |
 |----------------|-----------------|
@@ -905,7 +905,7 @@ El **Tracking Error (TE)** mide la desviación respecto al benchmark:
 
 ## 10.4 Ratio de Información
 
-**IR = (Rₚ - R_b)/(TE)**
+$$IR = \frac{R_p - R_b}{TE}$$
 
 | IR | Interpretación |
 |----|----------------|
@@ -927,13 +927,13 @@ El **Tracking Error (TE)** mide la desviación respecto al benchmark:
 
 ## 10.6 Atribución de Resultados
 
-**Rentabilidad Extra = Efecto Asset Allocation + Efecto Security Selection**
+$$Rentabilidad\ Extra = Efecto\ Asset\ Allocation + Efecto\ Security\ Selection$$
 
 **Efecto Asset Allocation:**
-**AA = Σᵢ (wₚ,ᵢ - wb,ᵢ) × Rb,ᵢ**
+$$AA = \sum_i (w_{p,i} - w_{b,i}) \times R_{b,i}$$
 
 **Efecto Security Selection:**
-**SS = Σᵢ wₚ,ᵢ × (Rₚ,ᵢ - Rb,ᵢ)**
+$$SS = \sum_i w_{p,i} \times (R_{p,i} - R_{b,i})$$
 
 ---
 
@@ -950,10 +950,10 @@ El **Tracking Error (TE)** mide la desviación respecto al benchmark:
 **Rentabilidad extra:** 2,45%
 
 **Efecto AA:**
-**(0,45-0,35) × 10\% + (0,25-0,30) × 6\% + (0,30-0,35) × 3\% = 0,55\%**
+$$(0,45-0,35) \times 10\% + (0,25-0,30) \times 6\% + (0,30-0,35) \times 3\% = 0,55\%$$
 
 **Efecto SS:**
-**0,45 × 3\% + 0,25 × 1\% + 0,30 × 1\% = 1,90\%**
+$$0,45 \times 3\% + 0,25 \times 1\% + 0,30 \times 1\% = 1,90\%$$
 
 **Verificación:** 0,55% + 1,90% = 2,45% ✓
 
@@ -1060,12 +1060,12 @@ Una gestora tiene una cartera de 5.000.000€ con:
 - σ mensual = 4%
 
 **VaR 95% mensual:**
-**VaR = -0,8\% + 1,65 × 4\% = 5,8\%**
+$$VaR = -0,8\% + 1,65 \times 4\% = 5,8\%$$
 
 **En euros:** 5.000.000 × 5,8% = **290.000€**
 
 **VaR 99% mensual:**
-**VaR = -0,8\% + 2,33 × 4\% = 8,52\%**
+$$VaR = -0,8\% + 2,33 \times 4\% = 8,52\%$$
 
 **En euros:** 5.000.000 × 8,52% = **426.000€**
 

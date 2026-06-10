@@ -830,7 +830,7 @@ INCONVENIENTES:
 
 El **Valor Liquidativo (VL)** es el precio de cada participación del fondo.
 
-**\boxedVL = (Patrimonio Neto)/(Número de Participaciones)**
+$$\boxed{VL = \frac{Patrimonio\ Neto}{Número\ de\ Participaciones}}$$
 
 ```
 PATRIMONIO NETO = Valor de mercado de los activos
@@ -933,13 +933,13 @@ En Fondo B:
 
 ### 9.1.1 Rentabilidad Simple
 
-**Rentabilidad Simple = \fracVLfᵢₙal - VLᵢₙᵢcᵢalVLᵢₙᵢcᵢal × 100**
+$$Rentabilidad\ Simple = \frac{VL_{final} - VL_{inicial}}{VL_{inicial}} \times 100$$
 
 ### 9.1.2 Rentabilidad Acumulada
 
 Para varios períodos:
 
-**Rentabilidad Acumulada = [(1+r₁)(1+r₂)...(1+rₙ)] - 1**
+$$Rentabilidad\ Acumulada = [(1+r_1)(1+r_2)...(1+r_n)] - 1$$
 
 **Ejemplo:**
 ```
@@ -951,7 +951,7 @@ R. Acumulada = (1,10)(0,95)(1,15)(1,08) - 1
 
 ### 9.1.3 Rentabilidad Anualizada (TAE)
 
-**Rentabilidad Anualizada = (1 + Racuₘulada)¹/ⁿ - 1**
+$$Rentabilidad\ Anualizada = (1 + R_{acumulada})^{1/n} - 1$$
 
 **Ejemplo:**
 ```
@@ -1007,7 +1007,7 @@ pero el inversor no ganó porque aportó más justo antes de la caída.
 
 Mide el **exceso de rentabilidad** por unidad de **riesgo total** (volatilidad).
 
-**\boxedSharpe = (Rₚ - Rf)/(σₚ)**
+$$\boxed{Sharpe = \frac{R_p - R_f}{\sigma_p}}$$
 
 Donde:
 - R_p = Rentabilidad del fondo
@@ -1041,7 +1041,7 @@ el Fondo A es MEJOR en términos de rentabilidad/riesgo.
 
 Mide el exceso de rentabilidad por unidad de **riesgo sistemático** (beta).
 
-**\boxedTreynor = (Rₚ - Rf)/(βₚ)**
+$$\boxed{Treynor = \frac{R_p - R_f}{\beta_p}}$$
 
 **Diferencia con Sharpe:**
 - Sharpe usa riesgo **total** (σ) → todo el riesgo
@@ -1063,7 +1063,7 @@ el fondo genera un 10% de exceso de rentabilidad.
 
 Mide la **rentabilidad adicional** respecto a la esperada según el modelo CAPM.
 
-**\boxedα = Rₚ - [Rf + βₚ × (Rₘ - Rf)]**
+$$\boxed{\alpha = R_p - [R_f + \beta_p \times (R_m - R_f)]}$$
 
 **Interpretación:**
 - **α > 0:** El gestor añade valor (bate al mercado ajustado por riesgo)
@@ -1094,7 +1094,7 @@ sobre lo que correspondería por el riesgo asumido.
 
 Mide el exceso de rentabilidad sobre el benchmark por unidad de **tracking error**.
 
-**\boxedIR = (Rₚ - R_b)/(TE)**
+$$\boxed{IR = \frac{R_p - R_b}{TE}}$$
 
 Donde:
 - R_b = Rentabilidad del benchmark
