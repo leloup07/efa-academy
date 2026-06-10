@@ -6,10 +6,9 @@ const manualesEIP = [
   { num: 3, nombre: 'Gestión de Carteras', slug: 'EIP_Nivel_I_Modulo_3_Gestion_de_Carteras_AMPLIADO' },
   { num: 4, nombre: 'Seguros', slug: 'EIP_Nivel_I_Modulo_4_Seguros_AMPLIADO' },
   { num: 5, nombre: 'Pensiones', slug: 'EIP_Nivel_I_Modulo_5_Pensiones_AMPLIADO' },
-  { num: 6, nombre: 'Inversión Inmobiliaria', slug: 'EIP_Nivel_I_Modulo_6_Inversion_Inmobiliaria_AMPLIADO' },
-  { num: 7, nombre: 'Crédito y Financiación', slug: 'EIP_Nivel_I_Modulo_7_Credito_Financiacion_AMPLIADO' },
-  { num: 8, nombre: 'Fiscalidad', slug: 'EIP_Nivel_I_Modulo_8_Fiscalidad_AMPLIADO' },
-  { num: 9, nombre: 'Cumplimiento Normativo', slug: 'EIP_Nivel_I_Modulo_9_Cumplimiento_Normativo_AMPLIADO' },
+  { num: 6, nombre: 'Fiscalidad', slug: 'EIP_Nivel_I_Modulo_8_Fiscalidad_AMPLIADO' },
+  { num: 7, nombre: 'Cumplimiento Normativo', slug: 'EIP_Nivel_I_Modulo_9_Cumplimiento_Normativo_AMPLIADO' },
+  { num: 8, nombre: 'Asesoramiento y Planificación', slug: 'EIP_Nivel_I_Modulo_8_Asesoramiento_y_Planificacion_COMPLETO' },
 ]
 
 const manualesEFA = [
@@ -42,7 +41,7 @@ export default function ManualesPage() {
         {/* EIP Nivel I */}
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-blue-400 mb-6 flex items-center gap-2">
-            <span>📗</span> EIP - Nivel I (9 módulos)
+            <span>📗</span> EIP - Nivel I (8 módulos)
           </h2>
           <p className="text-slate-400 mb-6">European Investment Practitioner - Módulos fundamentales</p>
           
